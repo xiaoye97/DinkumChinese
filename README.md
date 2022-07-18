@@ -1,0 +1,2 @@
+# DinkumChinese
+Dinkum汉化
