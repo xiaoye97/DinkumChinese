@@ -6,6 +6,7 @@ using System.Linq;
 using UnityEngine;
 using System.Text.RegularExpressions;
 using System.Text;
+using TMPro;
 
 namespace DinkumChinese
 {
@@ -13,9 +14,13 @@ namespace DinkumChinese
     public class DinkumChinesePlugin : BaseUnityPlugin
     {
         public static DinkumChinesePlugin Inst;
+        public ModLocalization ModLoc;
+
         void Awake()
         {
             Inst = this;
+            ModLoc = new ModLocalization();
+            ModLoc.LoadModLoc();
             Harmony.CreateAndPatchAll(typeof(DinkumChinesePlugin));
         }
 
@@ -32,6 +37,12 @@ namespace DinkumChinese
             Inst.Logger.LogInfo(log);
         }
 
+        [HarmonyPostfix, HarmonyPatch(typeof(OptionsMenu), "Start")]
+        public static void OptionsMenuStartPatch()
+        {
+            LocalizationManager.CurrentLanguage = "Chinese";
+        }
+
         [HarmonyPrefix, HarmonyPatch(typeof(RealWorldTimeLight), "setUpDayAndDate")]
         public static bool RealWorldTimeLight_setUpDayAndDate_Patch(RealWorldTimeLight __instance)
         {
@@ -40,6 +51,12 @@ namespace DinkumChinese
             __instance.DateText.text = (WorldManager.manageWorld.day + (WorldManager.manageWorld.week - 1) * 7).ToString("00");
             __instance.SeasonText.text = __instance.getSeasonName(WorldManager.manageWorld.month - 1);
             return false;
+        }
+
+        [HarmonyPostfix, HarmonyPatch(typeof(TextMeshProUGUI), "OnEnable")]
+        public static void TextMeshProUGUIOnEnablePatch(TextMeshProUGUI __instance)
+        {
+            ModLocalization.Instance.FixTMPText(__instance);
         }
 
         /// <summary>

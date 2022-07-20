@@ -51,6 +51,10 @@
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Dinkum\Dinkum_Data\Managed\Mirror.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Dinkum\Dinkum_Data\Managed\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -102,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DinkumChinese.cs" />
+    <Compile Include="ModLocalization.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
