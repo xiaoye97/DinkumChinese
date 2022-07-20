@@ -4598,7 +4598,7 @@ Time/dayName_4	Thursday	Jeudi	Четверг	周四	木曜日
 Time/dayName_5	Friday	Vendredi	Пятница	星期五	金曜日
 Time/dayName_6	Saturday	Samedi	Суббота	周六	土曜日
 Time/seasonName_0	Summer	Été	Летом	夏天	夏
-Time/seasonName_1	Autum	Autum	Осень	秋天	秋
+Time/seasonName_1	Autumn	Autum	Осень	秋天	秋
 Time/seasonName_2	Winter	Hiver	Зима	冬天	冬
 Time/seasonName_3	Spring	Printemps	Весна	春天	春
 ToolTips/AskForJob_0	Got a job for me?	Vous avez un travail pour moi?	Есть работа для меня?	找到工作了吗？	私のために仕事を得ましたか？
@@ -4704,3 +4704,4 @@ Npc6/Noon_Greeting 0_Response_003_000
 Npc2/MakeTechNoLicence_Intro_000	As you know, <PlayerName>, I love making things. But unfortunately, I will not be able to craft that <itemName> for you.				
 Npc2/MakeTechNoLicence_Intro_001	It would be negligent of me to craft a <itemName> for you because you lack the correct licence to operate it.				
 Npc2/MakeTechNoLicence_Intro_002					
+Player/TeleCallerDoesn'tWork_Intro_000					
