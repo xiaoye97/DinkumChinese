@@ -18,6 +18,7 @@ namespace DinkumChinese
         {
             Inst = this;
             Harmony.CreateAndPatchAll(typeof(DinkumChinesePlugin));
+            Harmony.CreateAndPatchAll(typeof(ILPatch));
         }
 
         void Update()
