@@ -47,6 +47,58 @@ namespace DinkumChinese
                 __instance.getPostPostsById().getBoardRequestItem(postId));
         }
 
+        [HarmonyPostfix, HarmonyPatch(typeof(QuestTracker), "displayMainQuest")]
+        public static void QuestTracker_displayMainQuest_Patch(QuestTracker __instance, int questNo)
+        {
+            string nameOri = QuestManager.manage.allQuests[questNo].QuestName.StrToI2Str();
+            string name = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, nameOri);
+            string descOri = QuestManager.manage.allQuests[questNo].QuestDescription.StrToI2Str();
+            string desc = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, descOri).Replace("<IslandName>", Inventory.inv.islandName);
+            __instance.questTitle.text = name;
+            __instance.questDesc.text = desc;
+        }
+
+        [HarmonyPostfix, HarmonyPatch(typeof(QuestButton), "setUp")]
+        public static void QuestButton_setUp_Patch(QuestButton __instance, int questNo)
+        {
+            if (__instance.isMainQuestButton)
+            {
+                string nameOri = QuestManager.manage.allQuests[questNo].QuestName.StrToI2Str();
+                string name = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, nameOri);
+                __instance.buttonText.text = name;
+            }
+            else if (__instance.isQuestButton)
+            {
+            }
+            else
+            {
+                __instance.buttonText.text = __instance.buttonText.text.Replace("Request for ", "来自") + "的请求";
+            }
+        }
+
+        [HarmonyPostfix, HarmonyPatch(typeof(QuestNotification), "showQuest")]
+        public static void QuestNotification_showQuest_Patch(QuestNotification __instance)
+        {
+            string nameOri = __instance.displayingQuest.QuestName.StrToI2Str();
+            string name = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, nameOri);
+            __instance.QuestText.text = name;
+        }
+
+        [HarmonyPostfix, HarmonyPatch(typeof(QuestTracker), "pinTheTask")]
+        public static void QuestTracker_pinTheTask_Patch(QuestTracker __instance, QuestTracker.typeOfTask type, int id)
+        {
+            if (type == QuestTracker.typeOfTask.Quest)
+            {
+                if (!QuestManager.manage.isQuestCompleted[id])
+                {
+                    string nameOri = QuestManager.manage.allQuests[id].QuestName.StrToI2Str();
+                    string name = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, nameOri);
+                    string pinText = __instance.pinMissionText.text.Replace(QuestManager.manage.allQuests[id].QuestName, name);
+                    __instance.pinMissionText.text = pinText;
+                }
+            }
+        }
+
         [HarmonyPostfix, HarmonyPatch(typeof(PickUpNotification), "fillButtonPrompt")]
         public static void PickUpNotification_fillButtonPrompt_Patch(PickUpNotification __instance, string buttonPromptText)
         {
@@ -60,6 +112,15 @@ namespace DinkumChinese
             __instance.eatenText.text = __instance.eatenText.text.Replace("Eaten", "喂食");
             __instance.shelterText.text = __instance.shelterText.text.Replace("Shelter", "住所");
             __instance.pettedText.text = __instance.pettedText.text.Replace("Petted", "爱抚");
+        }
+
+        [HarmonyPostfix, HarmonyPatch(typeof(CustomNetworkManager), "refreshLobbyTypeButtons")]
+        public static void CustomNetworkManager_refreshLobbyTypeButtons_Patch(CustomNetworkManager __instance)
+        {
+            __instance.friendGameText.text = __instance.friendGameText.text.Replace("Friends Only", "仅好友");
+            __instance.inviteOnlyText.text = __instance.inviteOnlyText.text.Replace("InviteOnly", "仅邀请");
+            __instance.publicGameText.text = __instance.publicGameText.text.Replace("Public", "公开");
+            __instance.lanGameText.text = __instance.lanGameText.text.Replace("LAN", "局域网");
         }
     }
 }

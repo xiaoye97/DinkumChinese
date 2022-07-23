@@ -12,7 +12,7 @@ using BepInEx.Configuration;
 
 namespace DinkumChinese
 {
-    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.0.0")]
+    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.1.0")]
     public class DinkumChinesePlugin : BaseUnityPlugin
     {
         public static DinkumChinesePlugin Inst;
@@ -35,6 +35,7 @@ namespace DinkumChinese
 
         public List<TextLocData> DynamicTextLocList = new List<TextLocData>();
         public List<TextLocData> PostTextLocList = new List<TextLocData>();
+        public List<TextLocData> QuestTextLocList = new List<TextLocData>();
 
         private void Awake()
         {
@@ -45,6 +46,7 @@ namespace DinkumChinese
             Harmony.CreateAndPatchAll(typeof(StringReturnPatch));
             DynamicTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/DynamicTextLoc.txt");
             PostTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/PostTextLoc.json");
+            QuestTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/QuestTextLoc.json");
         }
 
         private void Update()
@@ -83,10 +85,11 @@ namespace DinkumChinese
                 {
                     DumpAllConversation();
                 }
-                // Ctrl + 小键盘3 
+                // Ctrl + 小键盘3
                 if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad3))
                 {
                     DumpAllPost();
+                    DumpAllQuest();
                 }
             }
         }
@@ -112,6 +115,39 @@ namespace DinkumChinese
             return false;
         }
 
+        [HarmonyPrefix, HarmonyPatch(typeof(Conversation), "getIntroName")]
+        public static bool Conversation_getIntroName(Conversation __instance, ref string __result, int i)
+        {
+            string result = $"{__instance.saidBy}/{__instance.gameObject.name}_Intro_{i.ToString("D3")}";
+            if (LocalizationManager.Sources[0].ContainsTerm(result))
+                __result = result;
+            else
+                __result = result + "_" + __instance.GetInstanceID();
+            return false;
+        }
+
+        [HarmonyPrefix, HarmonyPatch(typeof(Conversation), "getOptionName")]
+        public static bool Conversation_getOptionName(Conversation __instance, ref string __result, int i)
+        {
+            string result = $"{__instance.saidBy}/{__instance.gameObject.name}_Option_{i.ToString("D3")}";
+            if (LocalizationManager.Sources[0].ContainsTerm(result))
+                __result = result;
+            else
+                __result = result + "_" + __instance.GetInstanceID();
+            return false;
+        }
+
+        [HarmonyPrefix, HarmonyPatch(typeof(Conversation), "getResponseName")]
+        public static bool Conversation_getResponseName(Conversation __instance, ref string __result, int i, int r)
+        {
+            string result = $"{__instance.saidBy}/{__instance.gameObject.name}_Response_{i.ToString("D3")}_{r.ToString("D3")}";
+            if (LocalizationManager.Sources[0].ContainsTerm(result))
+                __result = result;
+            else
+                __result = result + "_" + __instance.GetInstanceID();
+            return false;
+        }
+
         public void DumpAllConversation()
         {
             StringBuilder sb = new StringBuilder();
@@ -127,8 +163,8 @@ namespace DinkumChinese
                     {
                         if (!string.IsNullOrWhiteSpace(c.startLineAlt.aConverstationSequnce[i]))
                         {
-                            sb.AppendLine($"{key}\t{c.startLineAlt.aConverstationSequnce[i].StrToI2Str()}");
-                            LogInfo($"Intro:{key}:{c.startLineAlt.aConverstationSequnce[i].StrToI2Str()}");
+                            sb.AppendLine($"{key}_{c.GetInstanceID()}\t{c.startLineAlt.aConverstationSequnce[i].StrToI2Str()}");
+                            LogInfo($"Intro:{key}_{c.GetInstanceID()}:{c.startLineAlt.aConverstationSequnce[i].StrToI2Str()}");
                         }
                     }
                 }
@@ -142,8 +178,8 @@ namespace DinkumChinese
                         {
                             if (!string.IsNullOrWhiteSpace(c.optionNames[j]))
                             {
-                                sb.AppendLine($"{key}\t{c.optionNames[j].StrToI2Str()}");
-                                LogInfo($"Option:{key}:{c.optionNames[j].StrToI2Str()}");
+                                sb.AppendLine($"{key}_{c.GetInstanceID()}\t{c.optionNames[j].StrToI2Str()}");
+                                LogInfo($"Option:{key}_{c.GetInstanceID()}:{c.optionNames[j].StrToI2Str()}");
                             }
                         }
                     }
@@ -158,8 +194,8 @@ namespace DinkumChinese
                         {
                             if (!string.IsNullOrWhiteSpace(c.responesAlt[k].aConverstationSequnce[l]))
                             {
-                                sb.AppendLine($"{key}\t{c.responesAlt[k].aConverstationSequnce[l].StrToI2Str()}");
-                                LogInfo($"Respone:{key}:{c.responesAlt[k].aConverstationSequnce[l].StrToI2Str()}");
+                                sb.AppendLine($"{key}_{c.GetInstanceID()}\t{c.responesAlt[k].aConverstationSequnce[l].StrToI2Str()}");
+                                LogInfo($"Respone:{key}_{c.GetInstanceID()}:{c.responesAlt[k].aConverstationSequnce[l].StrToI2Str()}");
                             }
                         }
                     }
@@ -194,6 +230,20 @@ namespace DinkumChinese
                 LogInfo($"Text:{p.contentText.StrToI2Str()}");
             }
             File.WriteAllText($"{Paths.GameRootPath}/I2/Post.csv", sb.ToString());
+        }
+
+        public void DumpAllQuest()
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach (var q in QuestManager.manage.allQuests)
+            {
+                sb.AppendLine(q.QuestName);
+                sb.AppendLine(q.QuestDescription.StrToI2Str());
+                LogInfo($"==========");
+                LogInfo($"Name:{q.QuestName}");
+                LogInfo($"Desc:{q.QuestDescription.StrToI2Str()}");
+            }
+            File.WriteAllText($"{Paths.GameRootPath}/I2/Quest.csv", sb.ToString());
         }
 
         /// <summary>
