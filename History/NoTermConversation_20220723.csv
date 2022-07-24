@@ -1,0 +1,933 @@
+Key	English
+Generic/6 NPC_Fletch_Intro_000_188662	So, <PlayerName> . We made it.
+Generic/6 NPC_Fletch_Intro_001_188662	Let's find a place we can start building!
+Generic/MoveInRequest_Intro_000_189058	Hey, <PlayerName>.
+Generic/MoveInRequest_Intro_001_189058	I've decided I really like it here. 
+Generic/MoveInRequest_Intro_002_189058	So, I spoke to Fletch, and I've applied for a deed so I can set up a permanent store here in town.
+Generic/MoveInRequest_Intro_003_189058	I hope I can move in soon!
+Generic/MuseumMoveInRequest 1_Intro_000_189060	There are so many amazing creatures and plants on this island! <pumped>þ
+Generic/MuseumMoveInRequest 1_Intro_001_189060	I think it might be worth documenting them all, correct? <yes>þ
+Generic/MuseumMoveInRequest 1_Intro_002_189060	What if we built a museum here?þ
+Generic/MuseumMoveInRequest 1_Intro_003_189060	Somewhere where we could gather all of the amazing things here for everyone to see?þ <glee>
+Generic/MuseumMoveInRequest 1_Intro_004_189060	I’ll talk to <NPCName> about applying for a <itemName>.þ
+Generic/MuseumMoveInRequest 1_Intro_005_189060	This is so exicting! <glee>
+Npc3/High_Friendship_Greeting 2_Intro_000_189076	G’day <PlayerName>.
+Npc3/High_Friendship_Greeting 2_Response_003_000_189076	Righto, mate.
+Npc0/Highest_Friendship_Greeting 0_Intro_000_189084	Oh, G’day <PlayerName>!
+Npc0/Highest_Friendship_Greeting 0_Response_003_000_189084	Don’t be a stranger, okay?
+Npc6/RandomConvo_031_Intro_000_189090	<yes>It’s always so nice to see you <PlayerName>.þ
+Npc6/RandomConvo_031_Intro_001_189090	<shy>I’ll tell you what, if I don’t get to talk to you at least once a day, I feel like I’ve missed out!þ
+Npc4/RandomConvo_031_Intro_000_189092	Another great day where I get to talk to <PlayerName>.þ
+Npc4/RandomConvo_031_Intro_001_189092	I always enjoy our chats, <PlayerName>.þ
+Npc4/RandomConvo_031_Intro_002_189092	I enjoy chatting with all my good friends, y’know?þ
+Generic/FirstDayFaintConvo_Intro_000_189124	.........<PlayerName>.........
+Generic/FirstDayFaintConvo_Intro_001_189124	<PlayerName>.........
+Generic/FirstDayFaintConvo_Intro_002_189124	<PlayerName>?
+Generic/FirstDayFaintConvo_Intro_003_189124	<PlayerName>! Can you hear me?
+Generic/FirstDayFaintConvo_Intro_004_189124	<yes>I’m so glad you’re okay!
+Generic/FirstDayFaintConvo_Intro_005_189124	It looks like you fainted out there!þ
+Generic/FirstDayFaintConvo_Intro_006_189124	<yes>Please be careful out there and always keep an eye on your health and energy.
+Generic/FirstDayFaintConvo_Intro_007_189124	<no>If the world starts losing colour you know you’ve worked too hard.
+Generic/FirstDayFaintConvo_Intro_008_189124	<yes>Please make sure you eat something to keep your energy up.
+Generic/FirstDayFaintConvo_Intro_009_189124	<shy>When you didn’t return after a while, I had to call for a search party from <SouthCity> to come and find you.
+Generic/FirstDayFaintConvo_Intro_010_189124	<worried>Those guys delivered you here, but it looks like they went through your pockets and took a fair cut of your <Dinks>.
+Generic/FirstDayFaintConvo_Intro_011_189124	Maybe they thought you wouldn't notice?
+Generic/FirstDayFaintConvo_Intro_012_189124	<thinking>It looks like some of your tools have taken a bit of damage too…
+Generic/FirstDayFaintConvo_Intro_013_189124	Please be careful out there, <PlayerName>.
+Generic/FirstDayFaintConvo_Intro_014_189124	<haha>I’ll tell you what, I’m glad you’re okay, but I don’t really want to have to go through that again!
+Npc1/Storm_Greeting 0_Intro_000_189140	<yes>It’s tough to do inventory with all this stormy racket…
+Npc1/Storm_Greeting 0_Intro_001_189140	What are you up to, <PlayerName>?
+Npc1/Storm_Greeting 0_Response_003_000_189140	Try and stay safe and dry, <PlayerName>!
+Npc1/Hot_Greeting 1_Intro_000_189146	<shy>Phew!þ
+Npc1/Hot_Greeting 1_Intro_001_189146	<haha>It’s nearly as hot as my low, low prices!þ
+Npc1/Hot_Greeting 1_Intro_002_189146	You wanted to chat <PlayerName>?þ
+Npc1/Hot_Greeting 1_Response_003_000_189146	Okay then, see you later, <PlayerName>.
+Generic/TradeCompleteConvo_Intro_000_189156	Oh, you're interested in my <BulletinBoardReward> ?
+Generic/TradeCompleteConvo_Option_000_189156	I want to trade.
+Generic/TradeCompleteConvo_Option_001_189156	No thank you.
+Generic/TradeCompleteConvo_Response_000_000_189156	Alright, let's see what you have!
+Generic/TradeCompleteConvo_Response_001_000_189156	No problems.
+Npc3/Cold_Greeting 0_Intro_000_189160	Bloody freezin’, huh?
+Npc3/Cold_Greeting 0_Intro_001_189160	Need somethin’?
+Npc3/Cold_Greeting 0_Response_003_000_189160	Keep it up, young <PlayerName>.
+Generic/GivenCorrectCraftedItem_Intro_000_189162	<glee>Thanks a lot, <PlayerName>!
+Generic/GivenCorrectCraftedItem_Intro_001_189162	<yes>When I put up that post, I knew you would be the one to pull through for me.
+Generic/GivenCorrectCraftedItem_Intro_002_189162	Here is your <BulletinBoardReward>!
+Npc0/Highest_Friendship_Greeting 2_Intro_000_189166	Looks like my day just got a little better.
+Npc0/Highest_Friendship_Greeting 2_Intro_001_189166	<glee>Nice to see you <PlayerName>!
+Npc0/Highest_Friendship_Greeting 2_Response_003_000_189166	<wave>See you around!
+Npc4/RandomConvo_012_Intro_000_189172	<thinking>I was thinking, what if you could make clothes so light you could float in them?þ
+Npc4/RandomConvo_012_Intro_001_189172	Do you think that’s possible?þ
+Npc4/RandomConvo_012_Intro_002_189172	<glee>Imagine soaring above the clouds so high that everybody got a chance to check out your threads.þ
+Npc7/Gossip_About_NPC_010_Intro_000_189216	I reckon if you dig deep enough, <NPCName>’s got a heart of solid gold.þ
+Npc7/Gossip_About_NPC_010_Intro_001_189216	<haha>Maybe bring two shovels!þ
+Npc7/Gossip_About_NPC_006_Intro_000_189224	<NPCName> has been through so much, and it’s only made her stronger!þþ
+Npc7/Gossip_About_NPC_006_Intro_001_189224	<yes>I think we could learn a lot from her.þ
+Npc4/RandomConvo_030_Intro_000_189256	I’m so glad I’ve met you, <PlayerName>.þ
+Npc4/RandomConvo_030_Intro_001_189256	<shy>I feel like my life has totally turned around since meeting you, y’know?þ
+Npc4/RandomConvo_030_Intro_002_189256	<shy>I hope I’ve made you feel that way too.þ
+Generic/GivenCorrectPhoto_Intro_000_189262	Wow!
+Generic/GivenCorrectPhoto_Intro_001_189262	<yes>This is a great photo, <PlayerName>.
+Generic/GivenCorrectPhoto_Intro_002_189262	<glee>Thank you for taking this for me!
+Generic/GivenCorrectPhoto_Intro_003_189262	Can I keep it? I will pay <BulletinBoardReward>?
+Generic/GivenCorrectPhoto_Option_000_189262	It's all yours!
+Generic/GivenCorrectPhoto_Option_001_189262	Actually I want it...
+Generic/GivenCorrectPhoto_Response_000_000_189262	<glee>Thank you very much <PlayerName>!
+Generic/GivenCorrectPhoto_Response_000_001_189262	Here is <BulletinBoardReward>!
+Generic/GivenCorrectPhoto_Response_001_000_189262	<sigh>Well, thanks for letting me take a look anyway...
+Npc6/RandomConvo_011_Intro_000_189270	I’ll tell you what, I really enjoy chatting to you, <PlayerName>.
+Npc6/RandomConvo_011_Intro_001_189270	It’s probably because you don’t talk as much as I do! You really know how to listen.þ
+Npc6/RandomConvo_011_Option_000_189270	I wanted...
+Npc6/RandomConvo_011_Option_001_189270	Actually...
+Npc6/RandomConvo_011_Response_000_000_189270	I’ll tell you what! You’re a true blue friend, <PlayerName>.
+Npc6/RandomConvo_011_Response_001_000_189270	I’ll tell you what! You’re a true blue friend, <PlayerName>.
+Npc6/Morning_Greeting 0_Intro_000_189304	Morning, <PlayerName>.
+Npc6/Morning_Greeting 0_Response_003_000_189304	Take it easy, okay?
+Npc3/Arvo_Greeting 2_Intro_000_189322	Love a good sunset.
+Npc3/Arvo_Greeting 2_Response_003_000_189322	Sunsets like this remind me of the good ol' times…
+Npc1/Wind_Greeting 0_Intro_000_189332	My dad used to say “Windy weather is the best time to set sale!”þ
+Npc1/Wind_Greeting 0_Intro_001_189332	<no>No idea what he meant.þ
+Npc1/Wind_Greeting 0_Response_003_000_189332	<sigh>Oh, okay then. þ
+Npc1/Wind_Greeting 0_Response_003_001_189332	See you <PlayerName>.þ
+Npc6/NonLocalWantsToMove_Intro_000_189348	<no>I'm sorry, <PlayerName>.
+Npc6/NonLocalWantsToMove_Intro_001_189348	<shy>Only perminant residents can move buildings
+Npc6/RandomConvo_020_Intro_000_189360	Thank you for looking after my Father’s <Journal>.þ
+Npc6/RandomConvo_020_Intro_001_189360	<proud>I’ll tell you what, some of those milestones will be tough to beat!þ
+Npc6/RandomConvo_020_Intro_002_189360	<yes>But take your time, <PlayerName>.þ
+Npc6/RandomConvo_020_Intro_003_189360	<glee>I’m sure you’ll reach them eventually!
+Npc6/Morning_Greeting 2_Intro_000_189368	Good morning, <PlayerName>.
+Npc6/Morning_Greeting 2_Response_003_000_189368	<yes>See you around.
+Npc1/Highest_Friendship_Greeting 2_Intro_000_189392	Oh, it’s <PlayerName>.þþComing to see me?þ
+Npc1/Highest_Friendship_Greeting 2_Intro_001_189392	<haha>But I’m not even open!þ
+Npc1/Highest_Friendship_Greeting 2_Response_003_000_189392	Hope we chat again, okay?
+Npc0/High_Friendship_Greeting 2_Intro_000_189398	It’s <PlayerName>!
+Npc0/High_Friendship_Greeting 2_Intro_001_189398	Right on!
+Npc0/High_Friendship_Greeting 2_Response_003_000_189398	<wave>Later!
+Npc3/High_Friendship_Greeting 0_Intro_000_189400	Hey <PlayerName>.þ
+Npc3/High_Friendship_Greeting 0_Intro_001_189400	How’s it going, mate?þ
+Npc3/High_Friendship_Greeting 0_Response_003_000_189400	Have a good one.
+Npc3/Arvo_Greeting 1_Intro_000_189420	What brings you to me this arvo?
+Npc3/Arvo_Greeting 1_Response_003_000_189420	<np>Not a lot of day left to enjoy. 
+Npc1/Highest_Friendship_Greeting 0_Intro_000_189452	Hey, it’s <PlayerName>, my favourite customer!þ
+Npc1/Highest_Friendship_Greeting 0_Intro_001_189452	What can I get you, mate?þ
+Npc1/Highest_Friendship_Greeting 0_Response_003_000_189452	See you later, <PlayerName>!
+Generic/GivenSmeltingIngredient_Intro_000_189478	Thank you, <PlayerName>.
+Generic/GivenSmeltingIngredient_Intro_001_189478	Take these <BulletinBoardReward>. I just like smelting them and I don't really need them.
+Npc4/RandomConvo_035_Intro_000_189484	Sometimes it feels like we’re being watched, y’know?þ
+Npc4/RandomConvo_035_Intro_001_189484	<thinking>Like there is someone listening to our conversation right now.þ
+Npc4/RandomConvo_035_Intro_002_189484	Do you ever get that feeling?þ
+Generic/ShipmentRequestComplete_Intro_000_189486	Wow! You really got the shipment ready for me?
+Generic/ShipmentRequestComplete_Option_000_189486	Sure did.
+Generic/ShipmentRequestComplete_Option_001_189486	Nah.
+Generic/ShipmentRequestComplete_Response_001_000_189486	Oh, righto, <PlayerName>...
+Generic/SmeltingRequestCompleteConvo_Intro_000_189502	You brought me <requestItem> ?
+Generic/SmeltingRequestCompleteConvo_Option_000_189502	Here you go!
+Generic/SmeltingRequestCompleteConvo_Option_001_189502	Not yet, sorry.
+Generic/SmeltingRequestCompleteConvo_Response_000_000_189502	Looking forward to smelting these puppies down!
+Generic/SmeltingRequestCompleteConvo_Response_001_000_189502	Ah... I see.
+Npc6/RandomConvo_017_Intro_000_189514	<pumped>There’s so much for us still to discover here on <IslandName>!
+Npc6/RandomConvo_017_Intro_001_189514	<glee>I can’t I just can’t wait to hear all about it.
+Npc4/RandomConvo_034_Intro_000_189534	Hey <PlayerName>, thank you for always being there to help me out when I need something done.þ
+Npc4/RandomConvo_034_Intro_001_189534	<shy>I don’t think you know how much you have done for me..þ
+Npc4/RandomConvo_034_Intro_002_189534	<shy>So I just wanted to say thank you, y’know?þ
+Npc4/RandomConvo_021_Intro_000_189544	<shocked>Woah!þ
+Npc4/RandomConvo_021_Intro_001_189544	<worried>Did you just feel that?þþ
+Npc4/RandomConvo_021_Intro_002_189544	<yes>I totally just felt the whole atmosphere around me change, y’know?
+Npc3/Hot_Greeting 2_Intro_000_189546	Great day for a barbie, I reckon.
+Npc3/Hot_Greeting 2_Response_003_000_189546	Slap on a hat, mate.
+Npc4/RandomConvo_039_Intro_000_189560	Need Text Here
+Npc1/Arvo_Greeting 2_Intro_000_189566	Afternoon, <PlayerName>.þ
+Npc1/Arvo_Greeting 2_Intro_001_189566	What do I owe you for the pleasure?þ
+Npc1/Arvo_Greeting 2_Response_003_000_189566	<haha>Well, I ain’t paying you for that short chat!
+Npc6/Medium_Friendship_Greeting 2_Intro_000_189594	<haha>I’ll tell you what, I was just thinking of you, <PlayerName>!
+Npc6/Medium_Friendship_Greeting 2_Intro_001_189594	Can I help you with something?þ
+Npc6/Medium_Friendship_Greeting 2_Response_003_000_189594	Take care.þ
+Generic/StopFollowing 3_Intro_000_189604	Hey <PlayerName>. Why'd we stop here?
+Generic/StopFollowing 3_Option_000_189604	This was fun...
+Generic/StopFollowing 3_Option_001_189604	Let's keep going.
+Generic/StopFollowing 3_Response_000_000_189604	Alright, it was nice hanging with you.
+Generic/StopFollowing 3_Response_000_001_189604	Let's do this again soon, okay?<wave>
+Generic/StopFollowing 3_Response_001_000_189604	Alright, lets do this! <pumped>
+Npc7/Gossip_About_NPC_009_Intro_000_189616	I keep trying to show off my animals to <NPCName>.
+Npc7/Gossip_About_NPC_009_Intro_001_189616	That fella sure loves his critters!þ
+Npc7/Gossip_About_NPC_009_Intro_002_189616	<haha>He doesn’t like ‘em up close though!þ
+Npc6/RandomConvo_032_Intro_000_189626	<sigh>I really wish you could have met my Father, <PlayerName>.þ
+Npc6/RandomConvo_032_Intro_001_189626	<haha>He would give you a run for your money, let me tell you!þ
+Npc6/RandomConvo_032_Intro_002_189626	<glee>It felt like that man could never run out of energy!þ
+Generic/StopFollowing 4_Intro_000_189646	Hey <PlayerName>, what's up?
+Generic/StopFollowing 4_Option_000_189646	This was fun...
+Generic/StopFollowing 4_Option_001_189646	Let's keep going.
+Generic/StopFollowing 4_Response_000_000_189646	Alright, it was nice hanging with you. <wave>
+Generic/StopFollowing 4_Response_001_000_189646	Lead the way!
+Npc1/Wind_Greeting 2_Intro_000_189672	Lovely breeze today!
+Npc1/Wind_Greeting 2_Intro_001_189672	I’m just glad I’m outside for it!þ
+Npc1/Wind_Greeting 2_Response_003_000_189672	Bye bye, <PlayerName>!
+Npc3/Highest_Friendship_Greeting 2_Intro_000_189688	Good to see ya, <PlayerName>.
+Npc3/Highest_Friendship_Greeting 2_Intro_001_189688	How ya doin’?
+Npc3/Highest_Friendship_Greeting 2_Response_003_000_189688	See ya later, alright?
+Npc4/RandomConvo_020_Intro_000_189700	<IslandName> is putting a very powerful feeling into the world today.þ
+Npc4/RandomConvo_020_Intro_001_189700	I can just feel it y’know?þ
+Npc4/RandomConvo_020_Intro_002_189700	<glee>Something good is going to happen for sure.þ
+Generic/CraftedRequestCompleted_Intro_000_189710	Oh bonza! You crafted a <requestItem> for me?
+Generic/CraftedRequestCompleted_Option_000_189710	Here you go.
+Generic/CraftedRequestCompleted_Option_001_189710	Nah.
+Generic/CraftedRequestCompleted_Response_001_000_189710	Oh, righto, <PlayerName>...
+Npc4/RandomConvo_033_Intro_000_189764	Last night I had a weird dream that you were being controlled by someone, <PlayerName>.þ
+Npc4/RandomConvo_033_Intro_001_189764	<no>They had a window where they could look through it and make you move.þ
+Npc4/RandomConvo_033_Intro_002_189764	<worried>It was really creepy, y’know?þ
+Npc6/RandomConvo_010_Intro_000_189772	I’ve been saving all my life. þ
+Npc6/RandomConvo_010_Intro_001_189772	<haha>I’ll tell you what, the only <Licence> I ever needed was the <Licence> to give <Licences>!þ
+Npc1/Highest_Friendship_Greeting 1_Intro_000_189774	Ah, <PlayerName>!
+Npc1/Highest_Friendship_Greeting 1_Intro_001_189774	<yes>Always nice to see a friendly face.þ
+Npc1/Highest_Friendship_Greeting 1_Response_003_000_189774	Hope we can catch up soon, <PlayerName>.
+Generic/GivenCorrectItemForTrade_Intro_000_189794	You've got yourself a deal, <PlayerName>.
+Generic/GivenCorrectItemForTrade_Intro_001_189794	Here's my <BulletinBoardReward>.
+Generic/GivenCorrectItemForTrade_Intro_002_189794	Thanks for trading!
+Npc2/Highest_Friendship_Greeting 1_Intro_000_189810	A cordial greeting to you, <PlayerName>.þ
+Npc2/Highest_Friendship_Greeting 1_Response_003_000_189810	We just shared a great interaction, don’t you think?þ
+Npc6/RandomConvo_018_Intro_000_189846	<no>You really should sleep more often <PlayerName>, it’s no good to run around with low energy!
+Npc6/RandomConvo_018_Intro_001_189846	I'll tell you what, why not take the rest of the day off?
+Npc6/RandomConvo_016_Intro_000_189862	Hey <PlayerName>. You know, <myName> is actually my surname, right?þ
+Npc6/RandomConvo_016_Option_000_189862	What’s your first name?
+Npc6/RandomConvo_016_Option_001_189862	Why does everyone call you that?
+Npc6/RandomConvo_016_Response_000_000_189862	<thinking>Hmmm…
+Npc6/RandomConvo_016_Response_000_001_189862	<haha>I’ll tell you what, I might tell you one day...
+Npc6/RandomConvo_016_Response_001_000_189862	<yes>Everyone called my Father <myName>. It was just easier.
+Npc6/RandomConvo_016_Response_001_001_189862	<haha>I guess the name just stuck on me too!
+Npc4/RandomConvo_016_Intro_000_189876	<thinking>I remember when I made a red T-Shirt and wore it around <SouthCity>.þ
+Npc4/RandomConvo_016_Intro_001_189876	It was just a regular, red T-shirt, y’know?þ
+Npc4/RandomConvo_016_Intro_002_189876	<no>But people wouldn’t stop staring at me.þ
+Npc4/RandomConvo_016_Intro_003_189876	<haha>It was like I had cast a spell on them!
+Npc4/RandomConvo_028_Intro_000_189880	<thinking>Y'know, I never really understood how everything went South.þ
+Npc4/RandomConvo_028_Intro_001_189880	<thinking>Maybe we just needed a reason to start all over again?þ
+Npc3/Highest_Friendship_Greeting 1_Intro_000_189884	Look who it is, eh? Ol’ <PlayerName>.þ
+Npc3/Highest_Friendship_Greeting 1_Intro_001_189884	What’ll it be today?þ
+Npc3/Highest_Friendship_Greeting 1_Response_003_000_189884	<no>Don’t overdo it.
+Npc1/Cold_Greeting 1_Intro_000_189892	Oh, G’day <PlayerName>.
+Npc1/Cold_Greeting 1_Intro_001_189892	It’s a bit nippy out today!
+Npc1/Cold_Greeting 1_Response_003_000_189892	Try and stay warm!þ
+Npc1/Cold_Greeting 1_Response_003_001_189892	<proud>Maybe visit some shops, eh?þ
+Npc6/Highest_Friendship_Greeting 0_Intro_000_189912	I’ll tell you what, it’s bloody lovely to see you, <PlayerName>!þ
+Npc6/Highest_Friendship_Greeting 0_Response_003_000_189912	Hope I see you again today!
+Npc6/High_Friendship_Greeting 2_Intro_000_189934	I’ll tell you what, it’s always nice to bump into you, <PlayerName>.þ
+Npc6/High_Friendship_Greeting 2_Intro_001_189934	Need anything?
+Npc6/High_Friendship_Greeting 2_Response_003_000_189934	<yes>Righto.
+Npc6/RandomConvo_036_Intro_000_189956	Need Text
+Generic/GivenCorrectShippingItem_Intro_000_189964	<glee>Thanks a lot, <PlayerName>!
+Generic/GivenCorrectShippingItem_Intro_001_189964	<yes>You've really saved me, I didn't think I would get that shipment filled.
+Generic/GivenCorrectShippingItem_Intro_002_189964	Here is your <BulletinBoardReward>!
+Npc0/Arvo_Greeting 0_Intro_000_189976	It's like, already the arvo?
+Npc0/Arvo_Greeting 0_Intro_001_189976	<no>Didn't time just fly by today.þ
+Npc0/Arvo_Greeting 0_Response_003_000_189976	Have a good arvo, mate.
+Npc6/RandomConvo_026_Intro_000_189990	I’ll tel you what, you can stand around all day waiting for something to happen…þ
+Npc6/RandomConvo_026_Intro_001_189990	<proud>Or you can get out there and get it done!þ
+Npc6/RandomConvo_026_Intro_002_189990	<yes>I like that about you, <PlayerName>.
+Npc6/RandomConvo_026_Intro_003_189990	<haha>I tell you what, you’ve been getting it done.þ
+Generic/CompleteRequestConvo_Intro_000_189994	Wow. You really found <requestItem>!
+Generic/CompleteRequestConvo_Intro_001_189994	You're the best <PlayerName>!
+Generic/CompleteRequestConvo_Intro_002_189994	I really owe you one. Here, take this.
+Generic/CompleteRequestConvo_Intro_003_189994	Its not much but I hope you like it! Thanks again.
+Generic/NoItemGiven_Intro_000_190034	Oh, you don't have <requestItem> at all.
+Generic/NoItemGiven_Intro_001_190034	Let me know if you find <requestItem>.
+Npc4/RandomConvo_036_Intro_000_190050	<pumped>When you feel that creative spark, you have to grab onto it tightly.þ
+Npc4/RandomConvo_036_Intro_001_190050	<no>Whatever you do... don’t let it escape.þ
+Npc4/RandomConvo_036_Intro_002_190050	<pumped>Hold onto that energy as long as you can and use it for something really special.þ
+Npc4/RandomConvo_036_Intro_003_190050	You never know how long you've got, y'know?þ
+Npc11/TotalEqualsZeroJimmy_Intro_000_190066	Hmmm...
+Npc11/TotalEqualsZeroJimmy_Intro_001_190066	<no>It seems these items aren't worth anything at all...
+Npc11/TotalEqualsZeroJimmy_Intro_002_190066	<shy>Well, if you didn't want them I could probably take them off your hands?
+Npc11/TotalEqualsZeroJimmy_Option_000_190066	Yes, I dont want them.
+Npc11/TotalEqualsZeroJimmy_Option_001_190066	I'll have them back thanks.
+Npc11/TotalEqualsZeroJimmy_Response_000_000_190066	<glee>Excellent.
+Npc11/TotalEqualsZeroJimmy_Response_000_001_190066	<size=11>I can definetly sell these for something...<size>
+Npc11/TotalEqualsZeroJimmy_Response_000_002_190066	Great to see you as always, <PlayerName>.
+Npc11/TotalEqualsZeroJimmy_Response_001_000_190066	<thinking>Hmmmm. Very well.
+Npc11/TotalEqualsZeroJimmy_Response_001_001_190066	<no>Like I said, they aren't worth anything.
+Npc11/TotalEqualsZeroJimmy_Response_001_002_190066	<yes>But you can have them back, I guess.
+Generic/FoundPhoto_Intro_000_190088	You got the photo for me?
+Generic/FoundPhoto_Option_000_190088	Sure did!
+Generic/FoundPhoto_Option_001_190088	Not yet.
+Generic/FoundPhoto_Response_000_000_190088	Great! Can't wait to see it!
+Generic/FoundPhoto_Response_001_000_190088	No problems. I can't wait to see it
+Npc3/High_Friendship_Greeting 1_Intro_000_190102	How’s it goin’, <PlayerName>?
+Npc3/High_Friendship_Greeting 1_Response_003_000_190102	Don't work too hard.
+Npc0/High_Friendship_Greeting 0_Intro_000_190120	It’s like, good to see you, <PlayerName>.
+Npc0/High_Friendship_Greeting 0_Intro_001_190120	What's up?
+Npc0/High_Friendship_Greeting 0_Response_003_000_190120	<wave>Catch ya!
+Npc6/RandomConvo_035_Intro_000_190142	Need Text
+Generic/GivenCompostIngredients_Intro_000_190148	Thanks, <PlayerName>!
+Generic/GivenCompostIngredients_Intro_001_190148	Here is <BulletinBoardReward>.
+Generic/GivenCompostIngredients_Intro_002_190148	I'll get to work making some more!
+Npc1/Arvo_Greeting 0_Intro_000_190166	Arvo already, eh, <PlayerName>?
+Npc1/Arvo_Greeting 0_Response_003_000_190166	<yes>Alright, nice chatting.
+Generic/CookingRequestCompleteConvo_Intro_000_190184	You brought me <requestItem> ?
+Generic/CookingRequestCompleteConvo_Option_000_190184	Here you go!
+Generic/CookingRequestCompleteConvo_Option_001_190184	Not yet, sorry.
+Generic/CookingRequestCompleteConvo_Response_000_000_190184	Thats great. Now I can make <BulletinBoardReward>
+Generic/CookingRequestCompleteConvo_Response_001_000_190184	Aww . . . you got me excited for <BulletinBoardReward> .
+Generic/TradeWrongTypeOfItem_Intro_000_190204	Ah . . . This isn't what I'm after.
+Generic/TradeWrongTypeOfItem_Intro_001_190204	You can have this back.
+Npc4/RandomConvo_026_Intro_000_190214	<yes>I heard about the mines deep underground. þ
+Npc4/RandomConvo_026_Intro_001_190214	<glee>Way down deep, and dark. þ
+Npc4/RandomConvo_026_Intro_002_190214	They still <Shift> so they’re constantly changing.þ
+Npc4/RandomConvo_026_Intro_003_190214	<thinking>It’d be a really great place to hide something, y’know? 
+Npc4/RandomConvo_026_Intro_004_190214	<shy>If you needed one, I mean.
+Npc0/Night_Greeting 2_Intro_000_190216	<no>I, like, don’t reall love the dark.þ
+Npc0/Night_Greeting 2_Intro_001_190216	Anyway, what’s up, <PlayerName>?þ
+Npc0/Night_Greeting 2_Response_003_000_190216	<scared>Leaving already?
+Npc1/Arvo_Greeting 1_Intro_000_190256	<haha>Today went fast!
+Npc1/Arvo_Greeting 1_Intro_001_190256	<no>It’s already the bloody arvo!
+Npc1/Arvo_Greeting 1_Response_003_000_190256	<wave>I’m sure we’ll see each other soon enough.
+Generic/NoPhotoGiven_Intro_000_190266	Oh, you don't have the photo? Thats ok!
+Generic/StopFollowing_Intro_000_190286	What a nice day to hang out with <PlayerName>!
+Generic/StopFollowing_Intro_001_190286	Where are we off to?
+Generic/StopFollowing_Option_000_190286	This was fun...
+Generic/StopFollowing_Option_001_190286	Lets keep going!
+Generic/StopFollowing_Response_000_000_190286	Oh, I should be going anyway.
+Generic/StopFollowing_Response_000_001_190286	Thanks for hanging out with me, <PlayerName>.
+Generic/StopFollowing_Response_001_000_190286	Let's go!
+Generic/TradeSameItem_Intro_000_190300	Wait a second. . . This is a <BulletinBoardReward> . I'm trying to get rid of my <BulletinBoardReward> ! 
+Generic/TradeSameItem_Intro_001_190300	<haha> I guess we're right where we started! Here, you can have this back.
+Npc3/Hot_Greeting 0_Intro_000_190308	Nearly breakin a sweat out here.
+Npc3/Hot_Greeting 0_Response_003_000_190308	Take yer time in this heat, <PlayerName>.
+Npc5/TotalEqualsZeroTrapper_Intro_000_190310	All right... Lets see...
+Npc5/TotalEqualsZeroTrapper_Intro_001_190310	It seems these items aren't worth anything, but I can still take them off your hands if you don't want them?
+Npc5/TotalEqualsZeroTrapper_Option_000_190310	Yes, I dont want them.
+Npc5/TotalEqualsZeroTrapper_Option_001_190310	I'll have them back thanks.
+Npc5/TotalEqualsZeroTrapper_Response_000_000_190310	Righto, mate.
+Npc5/TotalEqualsZeroTrapper_Response_000_001_190310	Cheers.
+Npc5/TotalEqualsZeroTrapper_Response_001_000_190310	That's fine, please return if you wish to sell anything else.
+Npc5/TotalEqualsZeroTrapper_Response_001_001_190310	Thank you for visiting John's Goods!
+Npc4/RandomConvo_032_Intro_000_190330	Do you think that maybe the universe had always intended for us to meet each other, <PlayerName>?þ
+Npc4/RandomConvo_032_Intro_001_190330	<thinking>Like there is some kind of background force pushing us together?þ
+Npc4/RandomConvo_032_Intro_002_190330	I just feel like we’re very good friends, y’know?þ
+Npc4/RandomConvo_032_Intro_003_190330	<haha>It’s kinda scary how good friends we’ve become, right?þ
+Npc2/High_Friendship_Greeting 2_Intro_000_190354	<PlayerName>, what do you require?
+Npc2/High_Friendship_Greeting 2_Response_003_000_190354	Very well.
+Npc6/RandomConvo_038_Intro_000_190400	Need Text
+Npc4/RandomConvo_027_Intro_000_190402	<worried>I had the weirdest feeling yesterday. I’m so glad to see you’re still with us, <PlayerName>.þ
+Npc4/RandomConvo_027_Intro_001_190402	I’m pretty sure you’re going to be fine now, y’know?þ
+Npc3/Highest_Friendship_Greeting 0_Intro_000_190430	Oh, <PlayerName>.
+Npc3/Highest_Friendship_Greeting 0_Intro_001_190430	What brings you to old <myName>?
+Npc3/Highest_Friendship_Greeting 0_Response_003_000_190430	Take yer time today, alright?
+Generic/StopFollowing 1_Intro_000_190434	What do you do for fun around here aanyway, <PlayerName>?
+Generic/StopFollowing 1_Option_000_190434	This was fun...
+Generic/StopFollowing 1_Option_001_190434	Let's keep going.
+Generic/StopFollowing 1_Response_000_000_190434	Alright, it was nice hanging with you.
+Generic/StopFollowing 1_Response_001_000_190434	Lead the way!
+Npc1/Hot_Greeting 2_Intro_000_190458	<haha>Hot days like this make me glad I’m inside most of the time!
+Npc1/Hot_Greeting 2_Intro_001_190458	How are you handling the heat, <PlayerName>?
+Npc1/Hot_Greeting 2_Response_003_000_190458	See you soon!
+Generic/SellItemByWeight_Intro_000_190460	Ah, I see you've got a nice <sellByWeightName> there.
+Generic/SellItemByWeight_Intro_001_190460	Looks like it weighs around <getItemWeight>!
+Generic/SellItemByWeight_Intro_002_190460	How does <getItemByWeightPrice> sound for it?
+Generic/SellItemByWeight_Option_000_190460	Yes
+Generic/SellItemByWeight_Option_001_190460	No
+Generic/SellItemByWeight_Response_000_000_190460	Thank you very much!
+Generic/SellItemByWeight_Response_001_000_190460	No worries, mate.
+Generic/Wrong Photo Convo_Intro_000_190468	I mean, this is a nice photo, but it's not what I was looking for . . .
+Generic/Wrong Photo Convo_Option_000_190468	Let me try again.
+Generic/Wrong Photo Convo_Option_001_190468	Nevermind.
+Generic/Wrong Photo Convo_Response_000_000_190468	Oh, you have another photo?
+Generic/Wrong Photo Convo_Response_001_000_190468	No problems. Thanks for trying!
+Npc3/Night_Greeting 2_Intro_000_190482	<no>I can barely see me nose in this light.þ
+Npc3/Night_Greeting 2_Intro_001_190482	That you, <PlayerName>?þ
+Npc3/Night_Greeting 2_Response_003_000_190482	Hooroo.
+Npc4/RandomConvo_038_Intro_000_190510	Need Text Here
+Npc1/Cold_Greeting 0_Intro_000_190516	<thinking>This cold weather reminds me of back home…
+Npc1/Cold_Greeting 0_Intro_001_190516	Oh, you wanted to chat?
+Npc1/Cold_Greeting 0_Response_003_000_190516	<thinking>I wonder how my brother is going...
+Generic/StopFollowing 2_Intro_000_190520	Hanging out with my mate, <PlayerName>.
+Generic/StopFollowing 2_Intro_001_190520	Need something?
+Generic/StopFollowing 2_Option_000_190520	This was fun...
+Generic/StopFollowing 2_Option_001_190520	Let's keep going.
+Generic/StopFollowing 2_Response_000_000_190520	I guess I should be going too...
+Generic/StopFollowing 2_Response_000_001_190520	See you around, <PlayerName>. <wave>
+Generic/StopFollowing 2_Response_001_000_190520	You lead and I'll follow! <haha>
+Npc6/RandomConvo_012_Intro_000_190540	<thinking>I know we’re a long way from <SouthCity> and I could probably just hand out all your <Licences> to you straight away...
+Npc6/RandomConvo_012_Intro_001_190540	<no>But let me tell you, <PlayerName>, you’re not going very far in life unless you work hard to get what you want!
+Npc0/High_Friendship_Greeting 1_Intro_000_190572	Hi <PlayerName>!þ
+Npc0/High_Friendship_Greeting 1_Intro_001_190572	How goes it?þ
+Npc0/High_Friendship_Greeting 1_Response_003_000_190572	Bye!
+Generic/FlyOverIntroConvo_Intro_000_190574	We are now flying over <IslandName> and we’ll be landing shortly.þ
+Generic/FlyOverIntroConvo_Intro_001_190574	All passengers, please prepare to leave the Airship.
+Npc3/Medium_Friendship_Greeting 2_Intro_000_190576	Hows things then?
+Npc3/Medium_Friendship_Greeting 2_Response_003_000_190576	Hooroo.
+Generic/AgreeToMakeTech_Intro_000_190578	þExcellent.
+Generic/AgreeToMakeTech_Intro_001_190578	<proud>I will begin right away.
+Generic/AgreeToMakeTech_Intro_002_190578	<yes>It will probably take all night, but I assure you, it will be ready by tomorrow.
+Generic/AgreeToMakeTech_Intro_003_190578	Now, if you do not mind, I have work to do.
+Npc6/RandomConvo_014_Intro_000_190582	<yes>Let me tell you, even though I hate doing it, I’m bloody grouse at paperwork.
+Npc6/RandomConvo_014_Intro_001_190582	<shy>It’s just something I picked up quickly in <SouthCity>. þ
+Npc6/RandomConvo_014_Intro_002_190582	<haha>I guess it made me look like I was a local!þ
+Npc6/RandomConvo_014_Intro_003_190582	<yes>I’ll tell you what, if you wanted to do something in <SouthCity>, you needed a form to do it. þ
+Npc3/Raining_Greeting 1_Intro_000_190592	<no>Weather’s not bad if you’re a toad.
+Npc3/Raining_Greeting 1_Response_003_000_190592	<haha>Hop along then!
+Npc6/Morning_Greeting 1_Intro_000_190610	<proud>I’ll tell you what, it’s a lovely morning today.
+Npc6/Morning_Greeting 1_Response_003_000_190610	<wave>Enjoy your morning!
+Npc2/TechCompletedNoSpace_Intro_000_190642	<proud>I have completed the <itemName> you commissioned!
+Npc2/TechCompletedNoSpace_Intro_001_190642	I think you will find it very impressive!
+Npc2/TechCompletedNoSpace_Intro_002_190642	<shocked>Oh!
+Npc2/TechCompletedNoSpace_Intro_003_190642	<no>It looks like you don't have any room to take it!
+Npc2/TechCompletedNoSpace_Intro_004_190642	<yes>I will hold onto it for you until you have enough space to pick it up.
+Generic/RequestItem_Incorrect_1_Intro_000_190696	Oh...
+Generic/RequestItem_Incorrect_1_Intro_001_190696	I actually wanted <requestItem>.
+Generic/RequestItem_Incorrect_1_Intro_002_190696	I'll give this back.
+Generic/AtWorkChat_Intro_000_190710	Oh, what did you want to chat about?
+Generic/AtWorkChat_Response_002_000_190710	Oh, alright then.
+Npc6/RandomConvo_039_Intro_000_190726	Need Text
+Npc6/High_Friendship_Greeting 1_Intro_000_190736	<PlayerName>!
+Npc6/High_Friendship_Greeting 1_Intro_001_190736	What brings you to see old <myName>?
+Npc6/High_Friendship_Greeting 1_Response_003_000_190736	Have a good one!
+Npc7/RandomConvo_032_Intro_001_190782	With all their own wildlife?
+Npc7/RandomConvo_032_Intro_002_190782	<glee>I heard there were HUNDREDS of different types of animals before everything went South..
+Npc7/RandomConvo_032_Intro_003_190782	<thinking>Maybe they survived somewhere?þ
+Npc7/RandomConvo_032_Intro_004_190782	<sigh>I sure hope so...
+Npc1/Storm_Greeting 1_Intro_000_190788	<no>I hate all this thunder and lightning!
+Npc1/Storm_Greeting 1_Intro_001_190788	<yes>But it's always good to see you, <PlayerName>.
+Npc1/Storm_Greeting 1_Response_003_000_190788	Don't catch a cold, <PlayerName>!
+Npc4/RandomConvo_018_Intro_000_190792	I’ve got a contract I need to keep.þ
+Npc4/RandomConvo_018_Intro_001_190792	<haha>Oh, no, it's nothing to do with <Dinks>.þ
+Generic/GivenCookingIngredient_Intro_000_190800	Wow! Thank you. Now I can make some <BulletinBoardReward>
+Generic/GivenCookingIngredient_Intro_001_190800	Please enjoy this <BulletinBoardReward> .
+Generic/GivenCookingIngredient_Intro_002_190800	Thank you so much, <PlayerName> .
+Npc1/Cold_Greeting 2_Intro_000_190804	It’s pretty cold today!
+Npc1/Cold_Greeting 2_Intro_001_190804	What can I do for you, <PlayerName>?
+Npc1/Cold_Greeting 2_Response_003_000_190804	<haha>Alright then, see you!
+Npc4/RandomConvo_013_Intro_000_190806	<thinking>You always take some time in your day to come and talk to me.þ
+Npc4/RandomConvo_013_Intro_001_190806	<yes>I really appreciate that, y’know.þ
+Npc4/RandomConvo_013_Intro_002_190806	<glee>So, thanks!þ
+Npc4/RandomConvo_022_Intro_000_190832	<yes>I’m not a huge fan of fashion, but I am a big fan of making things.þ
+Npc4/RandomConvo_022_Intro_001_190832	I like to think my clothes will live on longer than me, y’know?þ
+Npc4/RandomConvo_022_Intro_002_190832	<yes>Hopefully, they passed down generation to generation.þ
+Npc4/RandomConvo_022_Intro_003_190832	<glee>Imagine the stories they will tell!þ
+Npc7/WantToBuyAnimalNonLocal_Intro_000_190840	Oh! That's a <buyItemName>.
+Npc7/WantToBuyAnimalNonLocal_Intro_001_190840	Shes a cutie, right?
+Npc7/WantToBuyAnimalNonLocal_Intro_002_190840	<no>Unfortunately, I can only sell her to people who live on the island.
+Npc7/WantToBuyAnimalNonLocal_Intro_003_190840	<shy>I hope you understand.
+Generic/CompostRequestCompleteConvo_Intro_000_190846	Oh, you've got <requestItem> ?
+Generic/CompostRequestCompleteConvo_Option_000_190846	Here you go!
+Generic/CompostRequestCompleteConvo_Option_001_190846	Not yet, sorry.
+Generic/CompostRequestCompleteConvo_Response_000_000_190846	Great!
+Generic/CompostRequestCompleteConvo_Response_001_000_190846	Oh, okay then...
+Npc4/RandomConvo_024_Intro_000_190874	I tried to make some clothes out of those <itemName> lying around <IslandName>.þ
+Npc4/RandomConvo_024_Intro_001_190874	<glee>In my head, it sounded awesome. All SPARKLY and SHARP!þ
+Npc4/RandomConvo_024_Intro_002_190874	But I just couldn’t bring myself to finish the outfit, y’know?þ
+Npc4/RandomConvo_024_Intro_003_190874	<thinking>It felt like… all the darkness within them was brighter than the light on the outside?
+Npc4/RandomConvo_019_Intro_000_190882	þI’ve never met anyone who’s like you, <PlayerName>.þþ
+Npc4/RandomConvo_019_Intro_001_190882	Everytime I talk to you, I feel like you’ve just given me a bit of your energy, y’know?þþþ
+Npc4/RandomConvo_019_Intro_002_190882	<thinking>It kinda feels like that if you aren’t around, I don’t know what to do.þ
+Npc4/RandomConvo_019_Intro_003_190882	<shy>Does that make sense?þ
+Npc6/RandomConvo_037_Intro_000_190892	Need Text
+Npc0/Highest_Friendship_Greeting 1_Intro_000_190900	Hey, it’s <PlayerName>!þ
+Npc0/Highest_Friendship_Greeting 1_Intro_001_190900	What’s up?þ
+Npc0/Highest_Friendship_Greeting 1_Response_003_000_190900	Catch you later!
+Npc1/Storm_Greeting 2_Intro_000_190936	It’s raining, it’s storming and who do I see but <PlayerName>!
+Npc1/Storm_Greeting 2_Response_003_000_190936	Stay safe, <PlayerName>!
+Npc4/RandomConvo_025_Intro_000_190938	I love how much you switch it up with your outfits, <PlayerName>.þ
+Npc4/RandomConvo_025_Intro_001_190938	Some people just wear the same thing every day, y’know?þþþ
+Npc4/RandomConvo_025_Intro_002_190938	<haha>Sometimes I stare at them, trying to make them change.þ
+Npc4/RandomConvo_025_Intro_003_190938	<no>I guess some people just aren't programmed that way.þ
+Generic/8 NPC_Sally_Details_Intro_000_192776	Oh. My. Goodness.
+Generic/8 NPC_Sally_Details_Intro_001_192776	The things I could do with that hair? 
+Generic/8 NPC_Sally_Details_Intro_002_192776	Magic. <pumped>
+Generic/8 NPC_Sally_Details_Intro_003_192776	Oh, sorry. I'm <myName>.
+Generic/8 NPC_Sally_Details_Intro_004_192776	If you're getting tired of that hairstyle, or the colour?
+Generic/8 NPC_Sally_Details_Intro_005_192776	I can try my best to change it for you. <shy>
+Generic/12 NPC_Villager2_Intro_000_192778	Ah! Hey there!
+Generic/12 NPC_Villager2_Intro_001_192778	I'm <myName>. I moved into the new house here.
+Generic/12 NPC_Villager2_Intro_002_192778	You're <PlayerName>, right?
+Generic/12 NPC_Villager2_Intro_003_192778	I heard that you're the one thats been working hard to get this town set up?
+Generic/12 NPC_Villager2_Intro_004_192778	Well, thanks for that, <PlayerName>! <glee>
+Generic/14 NPC_Villager4_Intro_000_192780	Ah! Hey there!
+Generic/14 NPC_Villager4_Intro_001_192780	I'm <myName>. I moved into the new house here.
+Generic/14 NPC_Villager4_Intro_002_192780	You're <PlayerName>, right?
+Generic/14 NPC_Villager4_Intro_003_192780	I heard that you're the one thats been working hard to get this town set up?
+Generic/14 NPC_Villager4_Intro_004_192780	Well, thanks for that, <PlayerName>! <glee>
+Generic/14 NPC_Ghost_Intro_000_192782	Ah! Hey there!
+Generic/14 NPC_Ghost_Intro_001_192782	I'm <myName>. I moved into the new house here.
+Generic/14 NPC_Ghost_Intro_002_192782	You're <PlayerName>, right?
+Generic/14 NPC_Ghost_Intro_003_192782	I heard that you're the one thats been working hard to get this town set up?
+Generic/14 NPC_Ghost_Intro_004_192782	Well, thanks for that, <PlayerName>! <glee>
+Generic/13 NPC_Villager3_Intro_000_192784	Ah! Hey there!
+Generic/13 NPC_Villager3_Intro_001_192784	I'm <myName>. I moved into the new house here.
+Generic/13 NPC_Villager3_Intro_002_192784	You're <PlayerName>, right?
+Generic/13 NPC_Villager3_Intro_003_192784	I heard that you're the one thats been working hard to get this town set up?
+Generic/13 NPC_Villager3_Intro_004_192784	Well, thanks for that, <PlayerName>! <glee>
+Generic/SpecialIntro_Intro_000_194292	Looks like we've landed!
+Generic/SpecialIntro_Intro_001_194292	<glee>þI'll tell you what, I’m so glad you’ve decided to accompany me on this adventure, <PlayerName>.
+Generic/SpecialIntro_Intro_002_194292	<worried>þI was starting to think no one in <SouthCity> was brave enough to join me!
+Generic/SpecialIntro_Intro_003_194292	<haha>When you were the first and only person to respond to my ad, I knew you were the right person for the job!
+Generic/SpecialIntro_Intro_004_194292	<no>Oh dear, look at old <myName> waffle on...
+Generic/SpecialIntro_Intro_005_194292	Let's get cracking, <PlayerName>!
+Generic/SpecialIntro_Intro_006_194292	I'll see you outside, okay?
+Generic/Completed_Intro_000_194492	Oh, <PlayerName>!
+Generic/Completed_Intro_001_194492	<IslandName> is growing very nicely.
+Generic/Completed_Intro_002_194492	With our current population, <SouthCity> has offically recognised <IslandName> as a settlement.
+Generic/Completed_Intro_003_194492	That means we can upgrade the base tent into a real Town Hall.
+Generic/Completed_Intro_004_194492	<proud>I'll tell you what, I'll cover the costs myself.
+Generic/Completed_Intro_005_194492	If I could ask you to gather items required for the Town Hall.
+Generic/Completed_Intro_006_194492	<yes>I've put a Deposit Box out the front of the Base Tent.
+Generic/Completed_Intro_007_194492	<shy>I'll tell you what, you've really changed my life for the better, <PlayerName>.
+Generic/Completed_Intro_008_194492	<yes>Infact, everyone here on <IslandName> owes it all to you!
+Generic/Completed_Intro_009_194492	<yes>It's not much, but we wanted to get you a gift.
+Generic/Completed_Intro_010_194492	<yes>Think of it as a symbol of gratitude from everyone here on <IslandName>.
+Npc9/FullPhotoNoPhoto_Intro_000_194686	Oh! What a wonderful photo that is!
+Npc9/FullPhotoNoPhoto_Intro_001_194686	<getPhotoDetails>
+Npc9/FullPhotoNoPhoto_Intro_002_194686	I'm quite fond of it to be honest! <haha>
+Generic/BuilldTownOfficeRequest_Intro_000_194950	Oh, <PlayerName>.
+Generic/BuilldTownOfficeRequest_Intro_001_194950	<glee>I, like, have a gift for you.
+Generic/BuilldTownOfficeRequest_Intro_002_194950	It's my <itemName>.
+Generic/BuilldTownOfficeRequest_Intro_003_194950	<shy>I've been adding information to it, like, my whole life.
+Generic/BuilldTownOfficeRequest_Intro_004_194950	<thinking>You could probably use it to get some infomation on any plants you are growing.
+Generic/BuilldTownOfficeRequest_Intro_005_194950	<yes>Oh, don't worry about me, I think you'll, like, get more use out of it to be honest.
+Generic/BuilldTownOfficeRequest_Intro_006_194950	<haha>Anyway, I've got all the info up here!
+Generic/IntroToQuest_Intro_000_194952	I’m very impressed with the work you’ve done here today, <PlayerName>.
+Generic/IntroToQuest_Intro_001_194952	<proud>I think there is a great future for us all here at <IslandName>.
+Generic/IntroToQuest_Intro_002_194952	<shy>Here is a gift for helping me out so much.
+Generic/IntroToQuest_Intro_003_194952	It's a <itemName>!
+Generic/IntroToQuest_Intro_004_194952	I think you should take the rest of the day off.
+Generic/IntroToQuest_Intro_005_194952	Maybe you could go catch some of the bugs around here?
+Generic/IntroToQuest_Intro_006_194952	Or maybe you could cook some of that fruit you found?
+Generic/IntroToQuest_Option_000_194952	I'll figure out something to do...
+Generic/IntroToQuest_Option_001_194952	I'm ready for bed!
+Generic/IntroToQuest_Response_000_000_194952	<haha>I’m sure you will! 
+Generic/IntroToQuest_Response_000_001_194952	Oh and before I forget, take this <itemName> too.
+Generic/IntroToQuest_Response_000_002_194952	When you get tired, pop that on the ground and have a lay down.
+Generic/IntroToQuest_Response_000_003_194952	<haha>I'll tell you what, a good nights rest will do us both good!
+Generic/IntroToQuest_Response_000_004_194952	Thanks for your help today, <PlayerName>.
+Generic/IntroToQuest_Response_000_005_194952	I can't believe we're on <IslandName>!
+Generic/IntroToQuest_Response_000_006_194952	<glee>I couldn't have done any of this without you!
+Generic/IntroToQuest_Response_001_000_194952	<haha>I'm tired too!
+Generic/IntroToQuest_Response_001_001_194952	Here, take this <itemName>.
+Generic/IntroToQuest_Response_001_002_194952	If you are tired, pop that on the ground and have a lay down.
+Generic/IntroToQuest_Response_001_003_194952	<haha>I'll tell you what, a good nights rest will do us both good!
+Generic/IntroToQuest_Response_001_004_194952	Thanks for your help today, <PlayerName>.
+Generic/IntroToQuest_Response_001_005_194952	I can't believe we're on <IslandName>!
+Generic/IntroToQuest_Response_001_006_194952	<glee>I couldn't have done any of this without you!
+Generic/Intro_Intro_000_194954	<PlayerName>, I've been contacted by some of the people back in <SouthCity>.
+Generic/Intro_Intro_001_194954	<no>I've been notified that we will need 5 permanent residents before <IslandName> is recognised as an official settlement.
+Generic/Intro_Intro_002_194954	Now, there is no hurry, but maybe that should be our next goal?
+Generic/Intro_Intro_003_194954	<haha>I'll tell you what, any visitors that see how nice <IslandName> is will want to stay anyway!
+Generic/Intro_Intro_004_194954	Once <SouthCity> recognises <IslandName> as an official settlement, we can build a Town Hall!
+Generic/Intro_Intro_005_194954	<glee>I'm sure we'll reach our goal soon!
+Generic/IntroToQuest_Intro_000_194956	I’ve got another job for you! You up for it?þ
+Generic/IntroToQuest_Option_000_194956	I'm ready!
+Generic/IntroToQuest_Option_001_194956	Not yet.
+Generic/IntroToQuest_Response_000_000_194956	If we are going to build anything around here we’re going to need materials.þ
+Generic/IntroToQuest_Response_000_001_194956	I reckon we need to wood and Tin. þ
+Generic/IntroToQuest_Response_000_002_194956	Now, wood? That’s easy. You chop down a tree and then you’ve got some wood.þ <yes>
+Generic/IntroToQuest_Response_000_003_194956	But Tin? That’s a bit trickier. I’ve seen it around the island poking out of rocks here and there. It’s a dark ore. You’ll know it if you see it.<yes>
+Generic/IntroToQuest_Response_000_004_194956	Now, we’re going to need to smelt it down into bars before we can use the Tin Ore for building things. <thinking>
+Generic/IntroToQuest_Response_000_005_194956	Go give the island a bit of a looky-loo for <questRequiredItems>.
+Generic/IntroToQuest_Response_000_006_194956	Bring them back here and I'll show you how we can turn Tin Ore into bars. <glee>
+Generic/IntroToQuest_Response_001_000_194956	Righto then.
+Generic/IntroToQuest_Response_001_001_194956	Come see me soon, okay?
+Generic/Intro_Intro_000_194958	Oh <PlayerName>!
+Generic/Intro_Intro_001_194958	Our town is really growing!
+Generic/Intro_Intro_002_194958	Someone has let me know they are interesting in living here.
+Generic/Intro_Intro_003_194958	There is a new deed for a home avaliable. <yes>
+Generic/Intro_Intro_004_194958	Once their home is build I'm sure they will move in! <glee>
+Generic/IntroToQuest_Intro_000_194960	As you know, we’ve been tasked with starting a new settlement on this island.þ
+Generic/IntroToQuest_Intro_001_194960	I know you’ve just arrived but I’m going to need your help right away!þ
+Generic/IntroToQuest_Intro_002_194960	The first thing we need to do is set up a base camp.þ
+Generic/IntroToQuest_Intro_003_194960	Take this <itemName>. This will be our base of operations as it were. We will be building the settlement out from there.
+Generic/IntroToQuest_Intro_004_194960	Please take your time to look around the island before deciding where to start our new settlement.
+Generic/IntroToQuest_Intro_005_194960	Once you have found a suitable place,  you will need to clear out the land to place the <itemName>.
+Generic/IntroToQuest_Intro_006_194960	I’ll give you some tools that I’ve brought with me. These should be enough to clear some space to set up the <itemName>
+Generic/IntroToQuest_Intro_007_194960	I will wait here at the dock, but I will meet you at the <itemName> once you’ve got it set up. If you have any further questions please come and see me.
+Generic/IntroToQuest_Intro_008_194960	I’m so glad you’ve made it here safe and I’m very excited to be working with you!
+Generic/IntroToQuest_Intro_000_194962	Wow!
+Generic/IntroToQuest_Intro_001_194962	<glee>Smell that fresh air!
+Generic/IntroToQuest_Intro_002_194962	I'll tell you what, it feels good to finally be back on <IslandName>.
+Generic/IntroToQuest_Intro_003_194962	Now, <PlayerName>, I’m going to need your help getting settled, okay?þ
+Generic/IntroToQuest_Intro_004_194962	<yes>I’ll give you this <itemName>. Take your time and find a good place for it. It’ll be our like our town hub!
+Generic/IntroToQuest_Intro_005_194962	Take this map as well. If you have any questions, please just ask me.þ
+Generic/IntroToQuest_Intro_006_194962	<shy>I haven’t been back to <IslandName> for a very long time, but I think I can still be helpful.þ
+Generic/IntroToQuest_Intro_007_194962	<yes>I’ll be waiting by this dock until you set up the <itemName>.
+Generic/IntroToQuest_Intro_008_194962	<yes>So if you get lost, just check your map to find the dock again.
+Generic/IntroToQuest_Intro_009_194962	Good luck, <PlayerName>!
+Generic/IntroToQuest_Intro_000_194964	<shy>I’ve got another job for you, <PlayerName>.þ
+Generic/IntroToQuest_Intro_001_194964	 You up for it?
+Generic/IntroToQuest_Option_000_194964	I'm ready!
+Generic/IntroToQuest_Option_001_194964	I want to apply for a licence.
+Generic/IntroToQuest_Option_002_194964	Not yet.
+Generic/IntroToQuest_Response_000_000_194964	I'll tell you what, I think camping is fun!
+Generic/IntroToQuest_Response_000_001_194964	<yes>But if we’re going convince people to stay here on <IslandName> we’ve gotta start building more permanent structures.
+Generic/IntroToQuest_Response_000_002_194964	<thinking>I’ve noticed there is a lot of <itemName> on this island. I’ve seen it popping out of rocks all over the place.
+Generic/IntroToQuest_Response_000_003_194964	<proud>I know a way we can melt down <itemName> into stuff great for building.
+Generic/IntroToQuest_Response_000_004_194964	Now, I'll need you to bring me some items.
+Generic/IntroToQuest_Response_000_005_194964	We'll need <questRequiredItems>.
+Generic/IntroToQuest_Response_000_006_194964	Keep in mind, you will need a <MiningLicence> to buy a pickaxe to collect ore and rocks.
+Generic/IntroToQuest_Response_000_007_194964	<proud>Once you’ve gathered everything we need, come and see me!
+Generic/IntroToQuest_Response_001_000_194964	Let's have a look then.
+Generic/IntroToQuest_Response_002_000_194964	<yes>Righto.
+Generic/IntroToQuest_Response_002_001_194964	You've been helping out a lot, so take your time, <PlayerName>.
+Generic/IntroToQuest_Response_002_002_194964	<glee>Just come back and see me when you're ready.
+Generic/PlaceKennelRequest_Intro_000_194966	Hey <PlayerName>. Want a pet dog?
+Generic/PlaceKennelRequest_Intro_001_194966	<yes>If you do place this <itemName> somewhere and come and speak to me.
+Generic/Intro_Intro_000_194968	Oh <PlayerName>!
+Generic/Intro_Intro_001_194968	Our town is really growing!
+Generic/Intro_Intro_002_194968	Someone has let me know they are interesting in living here.
+Generic/Intro_Intro_003_194968	There is a new deed for a home avaliable. <yes>
+Generic/Intro_Intro_004_194968	Once their home is build I'm sure they will move in! <glee>
+Generic/Intro_Intro_000_194970	Oh, <PlayerName>!
+Generic/Intro_Intro_001_194970	The towns ecconomy is growing very nicely.
+Generic/Intro_Intro_002_194970	I think it might be a good time for us to think about maybe building a bank.
+Generic/Intro_Intro_003_194970	Please speak to me if you are interested in applying for a bank deed! <yes>
+Generic/Intro_Intro_000_194972	Oh <PlayerName>!
+Generic/Intro_Intro_001_194972	Our town is really growing!
+Generic/Intro_Intro_002_194972	Someone has let me know they are interesting in living here.
+Generic/Intro_Intro_003_194972	There is a new deed for a home avaliable. <yes>
+Generic/Intro_Intro_004_194972	Once their home is build I'm sure they will move in! <glee>
+Generic/BuilldTownOfficeRequest_Intro_000_194974	Hey <PlayerName>.
+Generic/BuilldTownOfficeRequest_Intro_001_194974	I've had an idea for something <IslandName> could really use!
+Generic/BuilldTownOfficeRequest_Intro_002_194974	Take this <itemName>.
+Generic/BuilldTownOfficeRequest_Intro_003_194974	<proud>I thought people could maybe put things they don't want in here.
+Generic/BuilldTownOfficeRequest_Intro_004_194974	<yes>I will clear it out on Thursdays.
+Generic/BuilldTownOfficeRequest_Intro_005_194974	<shocked>What am I doing with the stuff?
+Generic/BuilldTownOfficeRequest_Intro_006_194974	<shy>I'm going to recycle it...
+Generic/BuilldTownOfficeRequest_Intro_007_194974	<glee>Anyway, if you could place it down somewhere, that would be great.
+Generic/BuilldTownOfficeRequest_Intro_008_194974	<yes>Be sure to check it every so often.
+Generic/BuilldTownOfficeRequest_Intro_009_194974	<yes>Anything you find in it is up for grabs, so feel free to take it!
+Generic/Intro_Intro_000_194976	Oh <PlayerName>!
+Generic/Intro_Intro_001_194976	Our town is really growing!
+Generic/Intro_Intro_002_194976	Someone has let me know they are interesting in living here.
+Generic/Intro_Intro_003_194976	There is a new deed for a home avaliable. <yes>
+Generic/Intro_Intro_004_194976	Once their home is build I'm sure they will move in! <glee>
+Generic/IntroToQuest_Intro_000_194978	<PlayerName>! I received a letter earlier today from someone named <NPCName>. Unusual name, if you ask me.
+Generic/IntroToQuest_Intro_001_194978	Now I’ve heard of this fella. He’s a travelling trader. More than that, he’s a bloody legend.
+Generic/IntroToQuest_Intro_002_194978	Rumour is that his parents acquired him by trading a set of antique cutlery!
+Generic/IntroToQuest_Intro_003_194978	Trading is in his very blood!
+Generic/IntroToQuest_Intro_004_194978	Well, he’s heard about all the hard work we’re doing putting this town together, and he reckons he wants to bring his little travelling store right here.
+Generic/IntroToQuest_Intro_005_194978	Opportunity is knocking, so let’s answer that door with a smile. Let's clear out some more space somewhere for this <itemName>
+Generic/IntroToQuest_Intro_006_194978	That way, there will be a place for anyone visiting our island to stay.
+Generic/IntroToQuest_Intro_007_194978	<PlayerName>, take this <itemName> and place it somewhere you think would be a good place visitors can stay.þ
+Generic/IntroToQuest_Intro_000_194980	<shy>That journal means a lot to me.
+Generic/IntroToQuest_Intro_001_194980	<shy>But I think my Dad would be glad someone like you is looking after it.
+Generic/IntroToQuest_Intro_002_194980	<pumped>But, I have a challenge for you, <PlayerName>.
+Generic/IntroToQuest_Intro_003_194980	<pumped>I want you to try and beat my Father’s milestones.
+Generic/IntroToQuest_Intro_004_194980	<no>Some of these milestones are going to take a long time to complete, but there is no hurry.
+Generic/IntroToQuest_Intro_005_194980	<thinking>I’m also going to add daily tasks to the journal. These will be smaller milestones that should be easy to complete in just one day.
+Generic/IntroToQuest_Intro_006_194980	<proud>Now for the good part.
+Generic/IntroToQuest_Intro_007_194980	<glee>For every milestone you surpass, you’ll be rewarded with <PermitPoints>.
+Generic/IntroToQuest_Intro_008_194980	<yes>I'll tell you what, you're going to want a lot of <PermitPoints> eventually.
+Generic/IntroToQuest_Intro_009_194980	<no>But we can talk more about that tomorrow.
+Generic/IntroToQuest_Intro_010_194980	<yes>For now, check out the journal.
+Generic/IntroToQuest_Intro_011_194980	<shocked>I think you’ll find that you’ve actually completed some of the milestones inside.
+Generic/IntroToQuest_Intro_012_194980	So be sure to claim them. <glee>
+Generic/IntroToQuest_Intro_013_194980	<yes>Now, are you hungry? I am.
+Generic/IntroToQuest_Intro_014_194980	<haha>I think it's just about lunch time.
+Generic/IntroToQuest_Intro_015_194980	<glee>I’ve seen fruit growing around this island and that sounds tasty!
+Generic/IntroToQuest_Intro_016_194980	<yes>You go and find us some fruit and when you get back I will show you how to craft a <itemName>.
+Generic/IntroToQuest_Intro_000_194982	Oh, <PlayerName>. I almost forgot!
+Generic/IntroToQuest_Intro_001_194982	I noticed <NPCName> is selling a <itemName>.
+Generic/IntroToQuest_Intro_002_194982	That’s a tool I think will be very handy, indeed!
+Generic/IntroToQuest_Intro_003_194982	I think we should try and make enough money to buy a <itemName> from <NPCName>.
+Generic/IntroToQuest_Intro_004_194982	Here is my half of the Dinks. The rest is up to you! 
+Generic/BuildTeleporterRequest_Intro_000_194984	<yes><PlayerName>, I see you have been repairing the Tele-Towers around the island.
+Generic/BuildTeleporterRequest_Intro_001_194984	<thinking>To be honest, I did not think you had the know-how to even understand what they were intended for…
+Generic/BuildTeleporterRequest_Intro_002_194984	<yes>Regardless, I have come up with an idea to build a <itemName> that we could place wherever we want.
+Generic/BuildTeleporterRequest_Intro_003_194984	<thinking>Now adding too many would most likely disrupt the Tele-Network.
+Generic/BuildTeleporterRequest_Intro_004_194984	<yes>So I think we will only be able to build one.
+Generic/BuildTeleporterRequest_Intro_005_194984	I have spoken to <NPCName> and she has agreed to add it to the available deeds.
+Npc6/Already Being Upgraded_Intro_000_195548	Wait! It looks like we're already working on your house!
+Npc6/Already Being Upgraded_Intro_001_195548	Make sure you place all the items needed for costruction into the construction box infront of your house.
+Npc6/Already Being Upgraded_Intro_002_195548	As soon as construction is completed, we'll see what we can do to make your house bigger. <glee>
+Npc6/Upgrade House No Money Tent_Intro_000_196032	Very good!
+Npc6/Upgrade House No Money Tent_Intro_001_196032	...Oh. It seems like you a bit short on cash. <shy>
+Npc6/Upgrade House No Money Tent_Intro_002_196032	Perhaps you can come back when your pockets are a bit heavier?
+Npc9/NonLocalEmpty_Intro_000_196740	Oh, that's an empty frame.
+Npc9/NonLocalEmpty_Intro_001_196740	<glee>We actually encourage locals to donate their own photos to display here!
+Generic/TalkToWhileNotComplete_Intro_000_196980	We've done some good work today, <PlayerName>!
+Generic/TalkToWhileNotComplete_Intro_001_196980	Take the rest of the day off! 
+Generic/TalkToWhileNotComplete_Intro_002_196980	<yes>We've got more work to do tomorrow!
+Generic/TalkToWhileNotComplete_Option_000_196980	Crafting a fire?
+Generic/TalkToWhileNotComplete_Option_001_196980	Cooking at a fire?
+Generic/TalkToWhileNotComplete_Option_002_196980	Bug hunting?
+Generic/TalkToWhileNotComplete_Option_003_196980	Sleeping?
+Generic/TalkToWhileNotComplete_Option_004_196980	I'm on it!
+Generic/TalkToWhileNotComplete_Response_000_000_196980	Feel free to use the <itemName> in the Base Tent whenever you want.
+Generic/TalkToWhileNotComplete_Response_000_001_196980	I'll tell you what, I'm sure you'll learn how to craft lots of useful things here on <IslandName>!
+Generic/TalkToWhileNotComplete_Response_001_000_196980	Once you've got your <itemName> going, just put the item you want to cook into your hands.
+Generic/TalkToWhileNotComplete_Response_001_001_196980	<yes>Then all that's left to do it pop it on and wait!
+Generic/TalkToWhileNotComplete_Response_001_002_196980	<thinking>You'll want to eat a lot of food to keep your energy up!
+Generic/TalkToWhileNotComplete_Response_002_000_196980	There are a lot of bugs found only here on <IslandName>.
+Generic/TalkToWhileNotComplete_Response_002_001_196980	<yes>Everytime you catch a new one it will be added to your Pedia. 
+Generic/TalkToWhileNotComplete_Response_002_002_196980	Maybe you could challenge yourself to find them all?
+Generic/TalkToWhileNotComplete_Response_003_000_196980	<haha>If you're ready for tomorrow, then sleeping will definetly bring tomorrow here faster!
+Generic/TalkToWhileNotComplete_Response_003_001_196980	Just pop your <itemName> down on the floor.
+Generic/TalkToWhileNotComplete_Response_003_002_196980	<yes>Wherever is fine, really.
+Generic/TalkToWhileNotComplete_Response_003_003_196980	<no>If you want to sleep under the stars, I'm not going to stop you.
+Generic/TalkToWhileNotComplete_Response_004_000_196980	Thanks again for your help, <PlayerName>!
+Generic/TalkToWhileNotComplete_Intro_000_196982	Hi there, <PlayerName>
+Generic/TalkToWhileNotComplete_Intro_001_196982	Have you managed to get a <itemName>?
+Generic/TalkToWhileNotComplete_Option_000_196982	I want to apply for a licence.
+Generic/TalkToWhileNotComplete_Option_001_196982	How do I craft a Furnace?
+Generic/TalkToWhileNotComplete_Option_002_196982	How do I make a Tin Bar?
+Generic/TalkToWhileNotComplete_Option_003_196982	I'm on it.
+Generic/TalkToWhileNotComplete_Response_000_000_196982	Alright then...
+Generic/TalkToWhileNotComplete_Response_001_000_196982	You can craft the <itemName> at the Crafting Table in the Base Tent.
+Generic/TalkToWhileNotComplete_Response_001_001_196982	You should have everything you need!
+Generic/TalkToWhileNotComplete_Response_002_000_196982	Once you've got your furnace, place it somewhere outside.
+Generic/TalkToWhileNotComplete_Response_002_001_196982	Then, all you have to do then is hold the <itemName> in your hands and pop it in!
+Generic/TalkToWhileNotComplete_Response_002_002_196982	<haha>Oh, and you'll have to wait a bit!
+Generic/TalkToWhileNotComplete_Response_003_000_196982	No worries, <PlayerName>.
+Generic/TalkToWhileNotComplete_Response_003_001_196982	Just be sure to bring me the <itemName> once you have it!
+Generic/TalkToWhileNotComplete_Intro_000_196984	Ah, <PlayerName> what do you think of the <itemName>?
+Generic/TalkToWhileNotComplete_Intro_001_196984	I got it all set up fairly quickly, right! <haha>
+Generic/TalkToWhileNotComplete_Intro_002_196984	How’d you go setting up yours?
+Generic/TalkToWhileNotComplete_Option_000_196984	How do I place the tent?
+Generic/TalkToWhileNotComplete_Option_001_196984	I haven't set up yet.
+Generic/TalkToWhileNotComplete_Response_000_000_196984	It's actually the same way you set up the Base Tent!
+Generic/TalkToWhileNotComplete_Response_000_001_196984	First select the <itemName> in your toolbelt so it’s in your hand.þ
+Generic/TalkToWhileNotComplete_Response_000_002_196984	Once you use the <itemName> you’re going to have to decide where to place it.<yes>þ
+Generic/TalkToWhileNotComplete_Response_000_003_196984	You’re going to need enough space for the <itemName> to be set up. The only other thing to keep in mind is that the ground needs to be flat and even. <yes>
+Generic/TalkToWhileNotComplete_Response_000_004_196984	Come back and speak to me once you've got your <itemName> all set up.
+Generic/TalkToWhileNotComplete_Response_001_000_196984	Come back and speak to me once you've got your <itemName> all set up.
+Generic/TalkToWhileNotComplete_Intro_000_196986	Ah, <PlayerName>. Hows it going, mate? Do you have any questions?
+Generic/TalkToWhileNotComplete_Option_000_196986	Tell me about the Island.
+Generic/TalkToWhileNotComplete_Option_001_196986	Where do you think we should set up camp?
+Generic/TalkToWhileNotComplete_Option_002_196986	How do I place the tent?
+Generic/TalkToWhileNotComplete_Option_003_196986	See ya!
+Generic/TalkToWhileNotComplete_Response_000_000_196986	<thinking>You see, I was actually born here on <IslandName>.
+Generic/TalkToWhileNotComplete_Response_000_001_196986	<no>Back before we moved to  <SouthCity>...
+Generic/TalkToWhileNotComplete_Response_000_002_196986	<thinking>Hmmm...
+Generic/TalkToWhileNotComplete_Response_000_003_196986	Oh, right. Let me tell you what I remember about <IslandName>...
+Generic/TalkToWhileNotComplete_Response_000_004_196986	If I remember correctly, up north you'll find a tropical climate.
+Generic/TalkToWhileNotComplete_Response_000_005_196986	<thinking>To the south it can get a bit chilly, but I recall my Dad warned me about the wildlife down there…
+Generic/TalkToWhileNotComplete_Response_000_006_196986	To the east and west of the island are flat open plains. The ground is nice and flat, so it would be easy to build there.
+Generic/TalkToWhileNotComplete_Response_000_007_196986	The coasts are a great place for fishing year-round. So if you like throwing a line, it might be worth setting up the <itemName> near the beach.
+Generic/TalkToWhileNotComplete_Response_000_008_196986	<haha>The centre of the island is a desert. It’s hot and dry there, and it’s full of bugs!
+Generic/TalkToWhileNotComplete_Response_000_009_196986	<yes>But no matter where you decide we should build, being close to water is always a good idea. 
+Generic/TalkToWhileNotComplete_Response_000_010_196986	So if you want to set up inland anywhere, try and do it close to a river.
+Generic/TalkToWhileNotComplete_Response_000_011_196986	<haha>I feel like that’s a lot to take in. Sorry about that, <PlayerName>!
+Generic/TalkToWhileNotComplete_Response_001_000_196986	It’s been a long time since I was here last! I was a little girl back then, so I’ll let you figure out how long ago that was! <shy>
+Generic/TalkToWhileNotComplete_Response_001_001_196986	But I do have two places in mind that might be a good place to set up the <itemName>... <thinking>
+Generic/TalkToWhileNotComplete_Response_001_002_196986	The eastern and western coasts both have plainlands that I think would make for an easy building area. <yes>
+Generic/TalkToWhileNotComplete_Response_001_003_196986	The terrain there is flat and won't take too much effort to build on. Plus the climate should be good for farming most of the year. <yes>
+Generic/TalkToWhileNotComplete_Response_001_004_196986	But you don’t have to listen to old <myName>!  You’re the one running around out there!þ
+Generic/TalkToWhileNotComplete_Response_001_005_196986	I’m sure that wherever you decide to place the <itemName>, it will be the right place.<yes>
+Generic/TalkToWhileNotComplete_Response_001_006_196986	Now if you have any other questions, just ask!
+Generic/TalkToWhileNotComplete_Response_002_000_196986	Ah, good question <PlayerName>!
+Generic/TalkToWhileNotComplete_Response_002_001_196986	First select the <itemName> in your toolbelt so it’s in your hand.
+Generic/TalkToWhileNotComplete_Response_002_002_196986	Once you use the <itemName> you’re going to have to decide where to place it.<yes>
+Generic/TalkToWhileNotComplete_Response_002_003_196986	You’re going to need enough space for the <itemName> to be set up. The only other thing to keep in mind is that the ground needs to be flat and even. <yes>
+Generic/TalkToWhileNotComplete_Response_002_004_196986	If you have any other questions, please come and ask me <yes>
+Generic/TalkToWhileNotComplete_Response_003_000_196986	Good luck, <PlayerName>!
+Generic/TalkToWhileNotComplete_Intro_000_196988	<PlayerName>! How is the search going?
+Generic/TalkToWhileNotComplete_Intro_001_196988	Have you found all those items we need?
+Generic/TalkToWhileNotComplete_Option_000_196988	What do I need again?
+Generic/TalkToWhileNotComplete_Option_001_196988	Where can I get a campfire?
+Generic/TalkToWhileNotComplete_Option_002_196988	I want to apply for a licence.
+Generic/TalkToWhileNotComplete_Option_003_196988	I'm still looking.
+Generic/TalkToWhileNotComplete_Response_000_000_196988	We need <questRequiredItems>.
+Generic/TalkToWhileNotComplete_Response_000_001_196988	I’ve seen <itemName> here and there on the island. It's a dark ore poking out of rocks.
+Generic/TalkToWhileNotComplete_Response_000_002_196988	Your going to need a <MiningLicence> to buy a pickaxe to collect ore.
+Generic/TalkToWhileNotComplete_Response_001_000_196988	You're going to need to craft a <itemName> at the crafting table in the Base Tent.
+Generic/TalkToWhileNotComplete_Response_001_001_196988	Oh! And Your going to need a <MiningLicence> to buy a pickaxe to collect the stone to craft the <itemName>.
+Generic/TalkToWhileNotComplete_Response_002_000_196988	Let's have a look...
+Generic/TalkToWhileNotComplete_Response_003_000_196988	All right, mate. Keep your eyes peeled!
+Generic/TalkToWhileNotComplete_Intro_000_196990	<PlayerName>! Have you found a place for the <itemName>?
+Generic/TalkToWhileNotComplete_Option_000_196990	How do I place the deed?
+Generic/TalkToWhileNotComplete_Option_001_196990	I'm still looking.
+Generic/TalkToWhileNotComplete_Response_000_000_196990	Just select the <itemName> from your toolbelt. Just like you did with the tents.
+Generic/TalkToWhileNotComplete_Response_000_001_196990	Oh and make sure that the ground is nice and flat or you won't be able to place it.
+Generic/TalkToWhileNotComplete_Response_001_000_196990	All good, mate. Be sure to come back here once you’ve placed the <itemName>.
+Generic/TalkToWhileNotComplete_Intro_000_196992	<PlayerName>. How goes the tucker hunting?
+Generic/TalkToWhileNotComplete_Option_000_196992	Where can I find fruit?
+Generic/TalkToWhileNotComplete_Option_001_196992	Not yet.
+Generic/TalkToWhileNotComplete_Response_000_000_196992	I did see some fruit trees growing inland a bit on our ride over <IslandName>.
+Generic/TalkToWhileNotComplete_Response_000_001_196992	It usually grows on smaller trees and shrubs.
+Generic/TalkToWhileNotComplete_Response_000_002_196992	Just try shaking any tree you you can!
+Generic/TalkToWhileNotComplete_Response_000_003_196992	If I remember correctly there are different fruits all over the island.
+Generic/TalkToWhileNotComplete_Response_000_004_196992	Good luck mate, looking forward to it! <glee>
+Generic/TalkToWhileNotComplete_Response_001_000_196992	That's okay!
+Generic/TalkToWhileNotComplete_Response_001_001_196992	<haha>Old <myName> will be waiting here for you!
+Generic/TalkToWhileNotComplete_Intro_000_196994	How goes the money making, <PlayerName>.
+Generic/TalkToWhileNotComplete_Intro_001_196994	Have you earned enough to buy that <itemName> we need?
+Generic/TalkToWhileNotComplete_Option_000_196994	I want to apply for a licence.
+Generic/TalkToWhileNotComplete_Option_001_196994	How do I make money?
+Generic/TalkToWhileNotComplete_Option_002_196994	How do I get permit points?
+Generic/TalkToWhileNotComplete_Option_003_196994	Still a bit to go.
+Generic/TalkToWhileNotComplete_Response_000_000_196994	Okay, here you go.
+Generic/TalkToWhileNotComplete_Response_001_000_196994	<NPCName> will buy pretty much anything from you.
+Generic/TalkToWhileNotComplete_Response_001_001_196994	He will most of the things you can find around the island. Fruit, rocks, wood and all sorts of things.
+Generic/TalkToWhileNotComplete_Response_001_002_196994	<no>Now, you don't have to buy the <itemName> right away.
+Generic/TalkToWhileNotComplete_Response_001_003_196994	<haha>Feel free to buy any tools you think might make you money even quicker!
+Generic/TalkToWhileNotComplete_Response_002_000_196994	You can get <PermitPoints> by completing the daily tasks in your journal.
+Generic/TalkToWhileNotComplete_Response_002_001_196994	<yes>You'll also get a big lump of points by beating one of my Dad's milestones.
+Generic/TalkToWhileNotComplete_Response_002_002_196994	<proud>My Dad did a lot of different things, so you'll find there are milestones for everything!
+Generic/TalkToWhileNotComplete_Response_002_003_196994	If you just go about your day doing your activites, I'm sure you'll get rewarded eventually!
+Generic/TalkToWhileNotComplete_Response_003_000_196994	Keep it up, we're well on our way of making <IslandName> even better!
+Npc9/AllItemsAlreadyDonated_Intro_000_197060	Oh my! It seems our museum has a <donationName> on exhibit already!
+Npc9/AllItemsAlreadyDonated_Intro_001_197060	I'll just return this to you.
+Npc9/NonLocalPicture_Intro_000_197144	Oh! What a wonderful photo that is!
+Npc9/NonLocalPicture_Intro_001_197144	<getPhotoDetails>
+Npc9/NonLocalPicture_Intro_002_197144	The photographer is very talented!
+Npc6/Already Being UpgradedTent_Intro_000_200814	Wait! It looks like we're already working on your house!
+Npc6/Already Being UpgradedTent_Intro_001_200814	Make sure you place all the items needed for costruction into the construction box infront of your tent.
+Npc6/Already Being Upgraded_Intro_000_201354	Wait! It looks like we're already working on your house!
+Npc6/Already Being Upgraded_Intro_001_201354	Make sure you place all the items needed for costruction into the construction box infront of your house.
+Npc6/Already Being Upgraded_Intro_002_201354	As soon as construction is completed, we'll see what we can do to make your house bigger. <glee>
+Npc9/ItemNotNeeded_Intro_000_201546	Hmmmm... The museum isn't really looking for this kind of thing.
+Npc9/ItemNotNeeded_Intro_001_201546	Our collection include, fish, bugs and relics. If there are any other items you don't want, maybe consider selling them?
+Npc9/ItemNotNeeded_Intro_002_201546	Thanks!
+Npc6/AskAgainConvo_Intro_000_201658	Is there anything else I can do for you?
+Npc6/AskAgainConvo_Option_000_201658	How's the town?
+Npc6/AskAgainConvo_Option_001_201658	About my House...
+Npc6/AskAgainConvo_Option_002_201658	Let's chat.
+Npc6/AskAgainConvo_Option_003_201658	No thanks.
+Npc6/AskAgainConvo_Response_000_000_201658	Ah! Very good!
+Npc6/AskAgainConvo_Response_001_000_201658	Let's see...
+Npc6/AskAgainConvo_Response_002_000_201658	Let's take a look.
+Npc6/AskAgainConvo_Response_004_000_201658	Have a great day.
+Generic/BuildTownOfficeComplete_Intro_000_201974	<glee>Oh, and thanks for placing the <itemName>.
+Generic/BuildTownOfficeComplete_Intro_001_201974	You're a good friend, <PlayerName>.
+Generic/CompleteQuest_Intro_000_201976	Ah, goodmorning <PlayerName>!
+Generic/CompleteQuest_Intro_001_201976	Did you happen to see that <NPCName> has set up his tent at the Visitor's Site?
+Generic/CompleteQuest_Intro_002_201976	<yes>I told him all about you and how you’ve helped us get started here.
+Generic/CompleteQuest_Intro_003_201976	<haha>He sounded impressed!
+Generic/CompleteQuest_Intro_004_201976	John trades all sorts of things back to <SouthCity>.
+Generic/CompleteQuest_Intro_005_201976	I reckon nearly anything you can find on this island will be valuable to him.
+Generic/CompleteQuest_Intro_006_201976	He’ll buy fruit, fish, bugs and even rocks! <yes>
+Generic/CompleteQuest_Intro_007_201976	<NPCName> also sells a lot of useful tools.
+Generic/CompleteQuest_Intro_008_201976	He’s got mining equipment, logging tools and even some fishing equipment.
+Generic/CompleteQuest_Intro_009_201976	<thinking>Although, probably can't sell you a lot of tools until you have all your <Licences> in order.
+Generic/CompleteQuest_Intro_010_201976	You know about <Licences>, right?
+Generic/CompleteQuest_Option_000_201976	No I don’t.
+Generic/CompleteQuest_Option_001_201976	Yes I do.
+Generic/CompleteQuest_Response_000_000_201976	<Licences> are an old <SouthCity> idea!
+Generic/CompleteQuest_Response_000_001_201976	I’ll tell you what, you didn’t need a <Licence> for anything back when I was growing up!
+Generic/CompleteQuest_Response_000_002_201976	<no>But these days, you need a <Licence> for everything.
+Generic/CompleteQuest_Response_000_003_201976	Luckily I’m actually an accredited <Licence> Giver! <proud>
+Generic/CompleteQuest_Response_000_004_201976	If you want to apply for a <Licence> come and talk to me. <yes>
+Generic/CompleteQuest_Response_000_005_201976	You’ll have to spend some <PermitPoints> to get them, but if you keep doing milestones you’ll make enough in no time.
+Generic/CompleteQuest_Response_000_006_201976	As you get better at doing certain tasks, new <Licence> levels will open up too.
+Generic/CompleteQuest_Response_000_007_201976	Now, let’s see if there is a <Licence> you can apply for right now...
+Generic/CompleteQuest_Response_001_000_201976	That's great!
+Generic/CompleteQuest_Response_001_001_201976	I’ll tell you what, you didn’t need a <Licence> for anything back when I was growing up!
+Generic/CompleteQuest_Response_001_002_201976	<no>But these days, you need a <Licence> for everything.
+Generic/CompleteQuest_Response_001_003_201976	Luckily I’m actually an accredited <Licence> Giver! <proud>
+Generic/CompleteQuest_Response_001_004_201976	If you want to apply for a <Licence> come and talk to me. <yes>
+Generic/CompleteQuest_Response_001_005_201976	You’ll have to spend some <PermitPoints> to get them, but if you keep doing milestones you’ll make enough in no time.
+Generic/CompleteQuest_Response_001_006_201976	As you get better at doing certain tasks, new <Licence> levels will open up too.
+Generic/CompleteQuest_Response_001_007_201976	Now, let’s see if there is a <Licence> you can apply for right now...
+Generic/CompleteQuest_Intro_000_201978	<glee>Well done, <PlayerName>.
+Generic/CompleteQuest_Intro_001_201978	<yes>You have proven yourself invaluable once again!
+Generic/CompleteQuest_Intro_002_201978	<shocked>You're really starting to carry a lot of stuff around!
+Generic/CompleteQuest_Intro_003_201978	<yes>I'll tell you what, I'll teach you how to craft a <itemName>.
+Generic/CompleteQuest_Intro_004_201978	<yes>You're going to need a recipe for Nails too.
+Generic/CompleteQuest_Intro_005_201978	<proud>I'll tell you what, <IslandName> is well on it's way to being a great settlement again!
+Generic/CompleteQuest_Intro_006_201978	<yes>With a furnace and a table saw we can start thinking about building more permanent structures.
+Generic/CompleteQuest_Intro_007_201978	I'll tell you what, we should try and get <NPCName> to set up a real shop here!
+Generic/CompleteQuest_Option_000_201978	Let's do it!
+Generic/CompleteQuest_Option_001_201978	How do we do that?
+Generic/CompleteQuest_Response_000_000_201978	That's the spirit, <PlayerName>!
+Generic/CompleteQuest_Response_000_001_201978	<yes>I reckon if we spend a bit of money at his tent, he'll see it's worth while...
+Generic/CompleteQuest_Response_000_002_201978	<yes>Oh, and we should show him how friendly people are around here!
+Generic/CompleteQuest_Response_000_003_201978	Why don't you ask <NPCName> if he has anything he needs done?
+Generic/CompleteQuest_Response_000_004_201978	<haha>If we can prove to him that <IslandName> is a great place to move, I'm sure he'll ask to live here for good!
+Generic/CompleteQuest_Response_001_000_201978	<thinking>Hmmmm....
+Generic/CompleteQuest_Response_001_001_201978	<yes>I reckon if we spend a bit of money at his shop, he'll see it's worth while...
+Generic/CompleteQuest_Response_001_002_201978	<yes>Oh, and we should show him how friendly people are around here!
+Generic/CompleteQuest_Response_001_003_201978	Why don't you ask <NPCName> if he has anything he needs done?
+Generic/CompleteQuest_Response_001_004_201978	<haha>If we can prove to him that <IslandName> is a great place to move, I'm sure he'll ask to live here for good!
+Generic/CompleteQuest_Intro_000_201980	You found a good place for your tent?
+Generic/CompleteQuest_Intro_001_201980	<shy>I know it's not much, but I hope you like your new home!
+Generic/CompleteQuest_Intro_002_201980	I'll tell you what, you've got the "spark", <PlayerName>.
+Generic/CompleteQuest_Intro_003_201980	<yes>You see, most people back in <SouthCity> are scared of leaving.
+Generic/CompleteQuest_Intro_004_201980	<thinking>There is something about that place that pulls the "spark" out of people...
+Generic/CompleteQuest_Intro_005_201980	<no>But I'll tell you what, we certainly aren't the first to leave!
+Generic/CompleteQuest_Intro_006_201980	Have you ever heard of the traveling trader, <NPCName>?
+Generic/CompleteQuest_Option_000_201980	No I haven't.
+Generic/CompleteQuest_Option_001_201980	Of course I have!
+Generic/CompleteQuest_Response_000_000_201980	<yes>I'll tell you what, he’s a bloody legend!
+Generic/CompleteQuest_Response_000_001_201980	Rumour is that his parents acquired him by trading a set of antique cutlery!
+Generic/CompleteQuest_Response_000_002_201980	<proud>Trading is in his very blood!
+Generic/CompleteQuest_Response_000_003_201980	<NPCName> got in contact with me before we left <SouthCity>.
+Generic/CompleteQuest_Response_000_004_201980	<pumped>He's interested in visiting with his shop here!
+Generic/CompleteQuest_Response_000_005_201980	<no>I'll tell you what, we can't miss an opportunity like this!
+Generic/CompleteQuest_Response_000_006_201980	<yes>I reckon we get this <itemName> ready for him.
+Generic/CompleteQuest_Response_000_007_201980	<yes>That way we'll have a place ready for any visitors who come to <IslandName>.
+Generic/CompleteQuest_Response_000_008_201980	I’ll let you decide where the best place for this <itemName> is.
+Generic/CompleteQuest_Response_000_009_201980	<haha>Just be sure it's closeby!
+Generic/CompleteQuest_Response_000_010_201980	<glee>We want visitors to feel like part of the <IslandName> community while they are here!
+Generic/CompleteQuest_Response_000_011_201980	Who knows, maybe we can convince him to set up a permanent shop here!
+Generic/CompleteQuest_Response_000_012_201980	<yes>Be sure to talk to me once you have placed the <itemName>.
+Generic/CompleteQuest_Response_001_000_201980	<haha>Who hasn't!
+Generic/CompleteQuest_Response_001_001_201980	<pumped>He's a bloody legend!
+Generic/CompleteQuest_Response_001_002_201980	<proud>Trading is in his very blood!
+Generic/CompleteQuest_Response_001_003_201980	<NPCName> got in contact with me before we left <SouthCity>.
+Generic/CompleteQuest_Response_001_004_201980	<pumped>He's interested in visiting with his shop here!
+Generic/CompleteQuest_Response_001_005_201980	<no>I'll tell you what, we can't miss an opportunity like this!
+Generic/CompleteQuest_Response_001_006_201980	<yes>I reckon we get this <itemName> ready for him.
+Generic/CompleteQuest_Response_001_007_201980	<yes>That way we'll have a place ready for any visitors who come to <IslandName>.
+Generic/CompleteQuest_Response_001_008_201980	I’ll let you decide where the best place for this <itemName> is.
+Generic/CompleteQuest_Response_001_009_201980	<haha>Just be sure it's closeby!
+Generic/CompleteQuest_Response_001_010_201980	<glee>We want visitors to feel like part of the <IslandName> community while they are here!
+Generic/CompleteQuest_Response_001_011_201980	Who knows, maybe we can convince him to set up a permanent shop here!
+Generic/CompleteQuest_Response_001_012_201980	<yes>Be sure to talk to me once you have placed the <itemName>.
+Generic/Convo_Complete_Intro_000_201982	<PlayerName>! I just heard the good news!
+Generic/Convo_Complete_Intro_001_201982	<NPCName> wants us to build him a permanent store here.
+Generic/Convo_Complete_Intro_002_201982	Talk to me about the town to apply for deeds!
+Generic/CompleteQuest_Intro_000_201984	So, this is where you decided to build, huh?
+Generic/CompleteQuest_Intro_001_201984	<glee>It’s absolutely perfect! Our new home here on <IslandName>!
+Generic/CompleteQuest_Intro_002_201984	Thank you so much for setting up the Base Tent.<yes>
+Generic/CompleteQuest_Intro_003_201984	Oh, and guess what? I actually have a <itemName> for you too! <haha>
+Generic/CompleteQuest_Intro_004_201984	<shy>I know it's not much but it will be a place you can call home!
+Generic/CompleteQuest_Intro_005_201984	Now, there is plenty of room to spread out here on <IslandName>.
+Generic/CompleteQuest_Intro_006_201984	So please take your time to place your <itemName>.
+Generic/CompleteQuest_Intro_007_201984	<yes>You’ll probably be visiting the Base Tent a fair bit.
+Generic/CompleteQuest_Intro_008_201984	<thinking>So keep that in mind while you are looking for a spot to claim as your own.
+Generic/CompleteQuest_Intro_009_201984	I’ll be inside the Base Tent getting things ready. 
+Generic/CompleteQuest_Intro_010_201984	Come and speak to me once you’ve placed your <itemName>.
+Generic/CompleteQuest_Intro_000_201986	Well done, <PlayerName>!
+Generic/CompleteQuest_Intro_001_201986	<glee>I knew I could count on you to find everything we need!
+Generic/CompleteQuest_Intro_002_201986	Here is a recipe for a <itemName>.
+Generic/CompleteQuest_Intro_003_201986	Now why don't you try crafting the <itemName> at the crafting table in the base tent?þ
+Generic/CompleteQuest_Intro_004_201986	<yes>Once you've crafted the <itemName>, pop it on the ground outside somewhere.
+Generic/CompleteQuest_Intro_005_201986	Then, just place the ore inside of it.
+Generic/CompleteQuest_Intro_006_201986	It will take a little while to do its thing, so feel free to do some other activities while it's melting.
+Generic/CompleteQuest_Intro_007_201986	Bring me the Tin Bar when you're ready, okay?
+Generic/AcceptDog_Intro_000_201988	Oh, so you placed the <itemName>?
+Generic/AcceptDog_Intro_001_201988	What kind of dog would you like?
+Generic/AcceptDog_Option_000_201988	A fancy boy!
+Generic/AcceptDog_Option_001_201988	A good boy!
+Generic/AcceptDog_Option_002_201988	A little boy!
+Generic/AcceptDog_Option_003_201988	A loyal boy!
+Generic/AcceptDog_Response_000_000_201988	Great. Lets give them a name, okay?
+Generic/AcceptDog_Response_001_000_201988	Great. Lets give them a name, okay?
+Generic/AcceptDog_Response_002_000_201988	Great. Lets give them a name, okay?
+Generic/AcceptDog_Response_003_000_201988	Great. Lets give them a name, okay?
+Generic/BuildTownOfficeComplete_Intro_000_201990	Oh, and thanks for placing the <itemName>. You're a good friend, <PlayerName>. <glee>
+Generic/CompleteQuest_Intro_000_201992	So, we're all set for visitors, huh? 
+Generic/CompleteQuest_Intro_001_201992	Well done <PlayerName>! 
+Generic/CompleteQuest_Intro_002_201992	<pumped>We’ve only been here for a little while, but you’ve achieved so much already!
+Generic/CompleteQuest_Intro_003_201992	<yes>You remind me of my father. He was born right here on <IslandName>, you know?
+Generic/CompleteQuest_Intro_004_201992	<proud>He was a true blue Adventurer through and through.
+Generic/CompleteQuest_Intro_005_201992	He loved doing new things and keeping track of all his milestones in his <itemName>.
+Generic/CompleteQuest_Intro_006_201992	<sigh>I wanted to come here and try and meet those milestones myself.
+Generic/CompleteQuest_Intro_007_201992	<no>But I’m getting a bit long in the tooth, <PlayerName>.
+Generic/CompleteQuest_Intro_008_201992	<shy>Please, I want you to take his <itemName>.
+Generic/CompleteQuest_Intro_009_201992	<yes>Please keep good care of it.
+Generic/CompleteQuest_Intro_010_201992	This is your adventure now.
+Generic/CompleteQuest_Intro_000_201994	Oh, you've found something to eat!
+Generic/CompleteQuest_Intro_001_201994	<yes>Eating food will help keep your energy up!
+Generic/CompleteQuest_Intro_002_201994	Here is the recipe for a <itemName>.
+Generic/CompleteQuest_Intro_003_201994	I found these stones earlier so you can use these to craft your <itemName>.
+Generic/CompleteQuest_Intro_004_201994	<shy>You'll have to find some wood yourself though.
+Generic/CompleteQuest_Intro_005_201994	Feel free to use the crafting table in the Base Tent to craft a <itemName>.
+Generic/CompleteQuest_Intro_006_201994	Take your time, <PlayerName>.
+Generic/CompleteQuest_Intro_007_201994	When you are done, come and have a chat with me.
+Generic/CompleteQuest_Intro_008_201994	<glee>I have a gift for you!
+Generic/CompleteQuest_Intro_000_201996	Oh! So you bought the <itemName>! þ
+Generic/CompleteQuest_Intro_001_201996	Well done, <PlayerName>!
+Generic/CompleteQuest_Intro_002_201996	Don't you think having <NPCName> here is great?
+Generic/CompleteQuest_Intro_003_201996	<thinking>If only we could  convince <NPCName> to move here permanently...
+Generic/CompleteQuest_Intro_004_201996	<thinking>Hmmmm...
+Generic/CompleteQuest_Intro_005_201996	<haha>Well, let's worry about getting the materials needed for a permanent building first!
+Generic/CompleteQuest_Intro_006_201996	The <itemName> is a great first step!
+Generic/CompleteQuest_Intro_007_201996	For now, you can have a break.
+Generic/CompleteQuest_Intro_008_201996	<yes>Come back and talk to me when you are ready.
+Npc6/No House_Intro_000_202624	But you don't have a house yet! If you ask my about deeds we might be able to solve that.

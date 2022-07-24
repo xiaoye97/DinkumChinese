@@ -409,6 +409,26 @@ namespace DinkumChinese
             return instructions;
         }
 
+        [HarmonyTranspiler, HarmonyPatch(typeof(InventoryItemDescription), "fillItemDescription")]
+        public static IEnumerable<CodeInstruction> InventoryItemDescription_fillItemDescription_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "All year", "全年");
+            instructions = ReplaceIL(instructions, "Summer", "夏天");
+            instructions = ReplaceIL(instructions, "Autum", "秋天");
+            instructions = ReplaceIL(instructions, "Winter", "冬天");
+            instructions = ReplaceIL(instructions, "Spring", "春天");
+            instructions = ReplaceIL(instructions, "Bury", "掩埋");
+            instructions = ReplaceIL(instructions, "Speeds up certain production devices for up to 12 tiles", "加快某些生产设备的速度，最大范围12格子");
+            instructions = ReplaceIL(instructions, "Reaches ", "达到");
+            instructions = ReplaceIL(instructions, " tiles out.\n<color=red>Requires Water Tank</color>", "格子。\n<color=red>需要水箱</color>");
+            instructions = ReplaceIL(instructions, "Provides water to sprinklers ", "向");
+            instructions = ReplaceIL(instructions, " tiles out.", "格范围内子灌溉。");
+            instructions = ReplaceIL(instructions, "Fills animal feeders ", "填充动物饲料");
+            instructions = ReplaceIL(instructions, " tiles out.\n<color=red>Requires Animal Food</color>", "格。\n<color=red>需要动物饲料</color>");
+
+            return instructions;
+        }
+
         // instructions = ReplaceIL(instructions, "", "");
     }
 }

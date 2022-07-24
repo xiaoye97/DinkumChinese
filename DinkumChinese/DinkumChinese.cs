@@ -12,7 +12,7 @@ using BepInEx.Configuration;
 
 namespace DinkumChinese
 {
-    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.1.0")]
+    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.2.0")]
     public class DinkumChinesePlugin : BaseUnityPlugin
     {
         public static DinkumChinesePlugin Inst;
@@ -90,6 +90,11 @@ namespace DinkumChinese
                 {
                     DumpAllPost();
                     DumpAllQuest();
+                }
+                // Ctrl + 小键盘0 dump没翻译的物品
+                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad0))
+                {
+                    DumpAllUnTermItem();
                 }
             }
         }
@@ -244,6 +249,50 @@ namespace DinkumChinese
                 LogInfo($"Desc:{q.QuestDescription.StrToI2Str()}");
             }
             File.WriteAllText($"{Paths.GameRootPath}/I2/Quest.csv", sb.ToString());
+        }
+
+        public void DumpAllUnTermItem()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"Key\tEnglish");
+            List<string> keys = new List<string>();
+            foreach (var item in Inventory.inv.allItems)
+            {
+                int id = Inventory.inv.getInvItemId(item);
+                string nameKey = "InventoryItemNames/InvItem_" + id.ToString();
+                string descKey = "InventoryItemDescriptions/InvDesc_" + id.ToString();
+                if (!LocalizationManager.Sources[0].ContainsTerm(nameKey))
+                {
+                    string line = nameKey + "\t" + item.itemName;
+                    LogInfo(line);
+                    if (keys.Contains(nameKey))
+                    {
+                        string log = $"出现重复的key {nameKey} 已阻止此项添加";
+                        Logger.LogError(log);
+                    }
+                    else
+                    {
+                        keys.Add(nameKey);
+                        sb.AppendLine(line);
+                    }
+                }
+                if (!LocalizationManager.Sources[0].ContainsTerm(descKey))
+                {
+                    string line = descKey + "\t" + item.itemDescription;
+                    LogInfo(line);
+                    if (keys.Contains(descKey))
+                    {
+                        string log = $"出现重复的key {descKey} 已阻止此项添加";
+                        Logger.LogError(log);
+                    }
+                    else
+                    {
+                        keys.Add(descKey);
+                        sb.AppendLine(line);
+                    }
+                }
+            }
+            File.WriteAllText($"{Paths.GameRootPath}/I2/UnTermItem.csv", sb.ToString());
         }
 
         /// <summary>
