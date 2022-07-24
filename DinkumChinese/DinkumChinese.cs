@@ -134,7 +134,16 @@ namespace DinkumChinese
             if (LocalizationManager.Sources[0].ContainsTerm(result))
                 __result = result;
             else
-                __result = result + "_" + __instance.GetInstanceID();
+            {
+                if (string.IsNullOrWhiteSpace(__instance.startLineAlt.aConverstationSequnce[i]))
+                {
+                    __result = result;
+                }
+                else
+                {
+                    __result = result + "_" + __instance.startLineAlt.aConverstationSequnce[i].GetHashCode();
+                }
+            }
             return false;
         }
 
@@ -146,7 +155,16 @@ namespace DinkumChinese
             if (LocalizationManager.Sources[0].ContainsTerm(result))
                 __result = result;
             else
-                __result = result + "_" + __instance.GetInstanceID();
+            {
+                if (string.IsNullOrWhiteSpace(__instance.optionNames[i]))
+                {
+                    __result = result;
+                }
+                else
+                {
+                    __result = result + "_" + __instance.optionNames[i].GetHashCode();
+                }
+            }
             return false;
         }
 
@@ -158,7 +176,16 @@ namespace DinkumChinese
             if (LocalizationManager.Sources[0].ContainsTerm(result))
                 __result = result;
             else
-                __result = result + "_" + __instance.GetInstanceID();
+            {
+                if (string.IsNullOrWhiteSpace(__instance.responesAlt[i].aConverstationSequnce[r]))
+                {
+                    __result = result;
+                }
+                else
+                {
+                    __result = result + "_" + __instance.responesAlt[i].aConverstationSequnce[r].GetHashCode();
+                }
+            }
             return false;
         }
 
@@ -167,6 +194,7 @@ namespace DinkumChinese
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"Key\tEnglish");
             var cs = Resources.FindObjectsOfTypeAll<Conversation>();
+            List<string> trems = new List<string>();
             foreach (var c in cs)
             {
                 // Intro
@@ -177,8 +205,19 @@ namespace DinkumChinese
                     {
                         if (!string.IsNullOrWhiteSpace(c.startLineAlt.aConverstationSequnce[i]))
                         {
-                            sb.AppendLine($"{key}_{c.GetInstanceID()}\t{c.startLineAlt.aConverstationSequnce[i].StrToI2Str()}");
-                            LogInfo($"Intro:{key}_{c.GetInstanceID()}:{c.startLineAlt.aConverstationSequnce[i].StrToI2Str()}");
+                            string trem = $"{key}_{c.startLineAlt.aConverstationSequnce[i].GetHashCode()}";
+                            string line = $"{trem}\t{c.startLineAlt.aConverstationSequnce[i].StrToI2Str()}";
+                            if (trems.Contains(trem))
+                            {
+                                string log = $"重复的trem，忽略。{line}";
+                                Logger.LogError(log);
+                            }
+                            else
+                            {
+                                trems.Add(trem);
+                                sb.AppendLine(line);
+                                LogInfo(line);
+                            }
                         }
                     }
                 }
@@ -192,8 +231,19 @@ namespace DinkumChinese
                         {
                             if (!string.IsNullOrWhiteSpace(c.optionNames[j]))
                             {
-                                sb.AppendLine($"{key}_{c.GetInstanceID()}\t{c.optionNames[j].StrToI2Str()}");
-                                LogInfo($"Option:{key}_{c.GetInstanceID()}:{c.optionNames[j].StrToI2Str()}");
+                                string trem = $"{key}_{c.optionNames[j].GetHashCode()}";
+                                string line = $"{trem}\t{c.optionNames[j].StrToI2Str()}";
+                                if (trems.Contains(trem))
+                                {
+                                    string log = $"重复的trem，忽略。{line}";
+                                    Logger.LogError(log);
+                                }
+                                else
+                                {
+                                    trems.Add(trem);
+                                    sb.AppendLine(line);
+                                    LogInfo(line);
+                                }
                             }
                         }
                     }
@@ -208,8 +258,19 @@ namespace DinkumChinese
                         {
                             if (!string.IsNullOrWhiteSpace(c.responesAlt[k].aConverstationSequnce[l]))
                             {
-                                sb.AppendLine($"{key}_{c.GetInstanceID()}\t{c.responesAlt[k].aConverstationSequnce[l].StrToI2Str()}");
-                                LogInfo($"Respone:{key}_{c.GetInstanceID()}:{c.responesAlt[k].aConverstationSequnce[l].StrToI2Str()}");
+                                string trem = $"{key}_{c.responesAlt[k].aConverstationSequnce[l].GetHashCode()}";
+                                string line = $"{trem}\t{c.responesAlt[k].aConverstationSequnce[l].StrToI2Str()}";
+                                if (trems.Contains(trem))
+                                {
+                                    string log = $"重复的trem，忽略。{line}";
+                                    Logger.LogError(log);
+                                }
+                                else
+                                {
+                                    trems.Add(trem);
+                                    sb.AppendLine(line);
+                                    LogInfo(line);
+                                }
                             }
                         }
                     }
