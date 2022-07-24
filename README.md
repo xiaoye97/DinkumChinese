@@ -1,6 +1,17 @@
 # DinkumChinese
 Dinkum汉化
 
+## 下载
+
+[点我下载][8]
+
+[视频教程][9]
+
+
+![预览图][10]
+
+![预览图][11]
+
 ## 贡献者
 #### 程序
 - [宵夜97][1]
@@ -23,3 +34,7 @@ Dinkum汉化
 [5]: https://github.com/BepInEx/BepInEx
 [6]: https://github.com/xiaoye97/I2LocPatch
 [7]: https://github.com/xiaoye97/I18NFont4UnityGame
+[8]: https://github.com/xiaoye97/DinkumChinese/releases
+[9]: https://www.bilibili.com/video/BV1TW4y127rq
+[10]: preview1.png
+[11]: preview2.png
