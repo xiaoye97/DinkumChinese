@@ -32,6 +32,7 @@ namespace DinkumChinese
         private static bool pause;
 
         public ConfigEntry<bool> DevMode;
+        public ConfigEntry<bool> DontLoadLocOnDevMode;
 
         public List<TextLocData> DynamicTextLocList = new List<TextLocData>();
         public List<TextLocData> PostTextLocList = new List<TextLocData>();
@@ -41,9 +42,14 @@ namespace DinkumChinese
         {
             Inst = this;
             DevMode = Config.Bind<bool>("Dev", "DevMode", false, "开发模式时，可以按快捷键触发开发功能");
+            DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "开发模式时，不加载DynamicText Post Quest翻译，方便dump");
             Harmony.CreateAndPatchAll(typeof(DinkumChinesePlugin));
             Harmony.CreateAndPatchAll(typeof(ILPatch));
             Harmony.CreateAndPatchAll(typeof(StringReturnPatch));
+            if (DevMode.Value && DontLoadLocOnDevMode.Value)
+            {
+                return;
+            }
             DynamicTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/DynamicTextLoc.txt");
             PostTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/PostTextLoc.json");
             QuestTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/QuestTextLoc.json");
@@ -123,6 +129,7 @@ namespace DinkumChinese
         [HarmonyPrefix, HarmonyPatch(typeof(Conversation), "getIntroName")]
         public static bool Conversation_getIntroName(Conversation __instance, ref string __result, int i)
         {
+            if (Inst.DevMode.Value && Inst.DontLoadLocOnDevMode.Value) return true;
             string result = $"{__instance.saidBy}/{__instance.gameObject.name}_Intro_{i.ToString("D3")}";
             if (LocalizationManager.Sources[0].ContainsTerm(result))
                 __result = result;
@@ -134,6 +141,7 @@ namespace DinkumChinese
         [HarmonyPrefix, HarmonyPatch(typeof(Conversation), "getOptionName")]
         public static bool Conversation_getOptionName(Conversation __instance, ref string __result, int i)
         {
+            if (Inst.DevMode.Value && Inst.DontLoadLocOnDevMode.Value) return true;
             string result = $"{__instance.saidBy}/{__instance.gameObject.name}_Option_{i.ToString("D3")}";
             if (LocalizationManager.Sources[0].ContainsTerm(result))
                 __result = result;
@@ -145,6 +153,7 @@ namespace DinkumChinese
         [HarmonyPrefix, HarmonyPatch(typeof(Conversation), "getResponseName")]
         public static bool Conversation_getResponseName(Conversation __instance, ref string __result, int i, int r)
         {
+            if (Inst.DevMode.Value && Inst.DontLoadLocOnDevMode.Value) return true;
             string result = $"{__instance.saidBy}/{__instance.gameObject.name}_Response_{i.ToString("D3")}_{r.ToString("D3")}";
             if (LocalizationManager.Sources[0].ContainsTerm(result))
                 __result = result;

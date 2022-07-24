@@ -4705,3 +4705,14 @@ Npc2/MakeTechNoLicence_Intro_000	As you know, <PlayerName>, I love making things
 Npc2/MakeTechNoLicence_Intro_001	It would be negligent of me to craft a <itemName> for you because you lack the correct licence to operate it.				
 Npc2/MakeTechNoLicence_Intro_002					
 Player/TeleCallerDoesn'tWork_Intro_000					
+Npc0/High_Friendship_Greeting 2_Intro_000	It’s <PlayerName>!				
+Npc0/High_Friendship_Greeting 2_Intro_001	Right on!				
+Npc0/High_Friendship_Greeting 2_Response_003_000	<wave>Later!				
+Npc0/High_Friendship_Greeting 0_Intro_000	It’s like, good to see you, <PlayerName>.				
+Npc0/High_Friendship_Greeting 0_Intro_001	What's up?				
+Npc0/High_Friendship_Greeting 0_Response_003_000	<wave>Catch ya!				
+Npc1/Highest_Friendship_Greeting 2_Intro_000	Oh, it’s <PlayerName>.þþComing to see me?þ				
+Npc1/Highest_Friendship_Greeting 2_Intro_001	<haha>But I’m not even open!þ				
+Npc1/Highest_Friendship_Greeting 2_Response_003_000	Hope we chat again, okay?				
+Npc3/Raining_Greeting 1_Intro_000	<no>Weather’s not bad if you’re a toad.				
+Npc3/Raining_Greeting 1_Response_003_000	<haha>Hop along then!				
