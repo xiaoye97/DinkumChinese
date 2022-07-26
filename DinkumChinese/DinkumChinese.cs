@@ -103,6 +103,37 @@ namespace DinkumChinese
                     DumpAllUnTermItem();
                 }
             }
+            FixChatFont();
+        }
+
+        private int lastChatCount;
+        private bool isChatHide;
+        private float showChatCD;
+
+        public void FixChatFont()
+        {
+            if (ChatBox.chat != null)
+            {
+                if (isChatHide)
+                {
+                    showChatCD -= Time.deltaTime;
+                    if (showChatCD < 0)
+                    {
+                        isChatHide = false;
+                        foreach (var chat in ChatBox.chat.chatLog)
+                        {
+                            chat.contents.enabled = false;
+                            chat.contents.enabled = true;
+                        }
+                    }
+                }
+                if (ChatBox.chat.chatLog.Count != lastChatCount)
+                {
+                    lastChatCount = ChatBox.chat.chatLog.Count;
+                    isChatHide = true;
+                    showChatCD = 0.5f;
+                }
+            }
         }
 
         public static void LogInfo(string log)
@@ -197,6 +228,8 @@ namespace DinkumChinese
             }
             return false;
         }
+
+        public static Queue<TextMeshProUGUI> waitShowTMPs = new Queue<TextMeshProUGUI>();
 
         public void DumpAllConversation()
         {
