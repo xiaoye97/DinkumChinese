@@ -160,14 +160,14 @@ namespace DinkumChinese
         public static IEnumerable<CodeInstruction> Task_generateTask_Patch(IEnumerable<CodeInstruction> instructions)
         {
             instructions = ReplaceIL(instructions, "Harvest ", "收获");
-            instructions = ReplaceIL(instructions, "Chat with ", "聊天和");
-            instructions = ReplaceIL(instructions, " residents", "居民");
-            instructions = ReplaceIL(instructions, "Bury ", "埋");
+            instructions = ReplaceIL(instructions, "Chat with ", "和");
+            instructions = ReplaceIL(instructions, " residents", "居民聊天");
+            instructions = ReplaceIL(instructions, "Bury ", "掩埋");
             instructions = ReplaceIL(instructions, " Fruit", "水果");
             instructions = ReplaceIL(instructions, "Collect ", "收集");
             instructions = ReplaceIL(instructions, " Shells", " 贝壳");
             instructions = ReplaceIL(instructions, "Sell ", "出售");
-            instructions = ReplaceIL(instructions, "Do a job for someone", "为某人做事");
+            instructions = ReplaceIL(instructions, "Do a job for someone", "完成居民请求");
             instructions = ReplaceIL(instructions, "Plant ", "种植");
             instructions = ReplaceIL(instructions, " Wild Seeds", "野生种子");
             instructions = ReplaceIL(instructions, "Dig up dirt ", "挖出泥土");
@@ -180,8 +180,8 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, "Make ", "获得");
             instructions = ReplaceIL(instructions, "Spend ", "花费");
             instructions = ReplaceIL(instructions, "Travel ", "旅行");
-            instructions = ReplaceIL(instructions, "m on foot.", "米通过徒步");
-            instructions = ReplaceIL(instructions, "m by vehicle", "米通过载具");
+            instructions = ReplaceIL(instructions, "m on foot.", "米（徒步）");
+            instructions = ReplaceIL(instructions, "m by vehicle", "米（载具）");
             instructions = ReplaceIL(instructions, "Cook ", "烹饪");
             instructions = ReplaceIL(instructions, " meat", "肉");
             instructions = ReplaceIL(instructions, " fruit", "水果");
@@ -189,15 +189,15 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, " tree seeds", "树种子");
             instructions = ReplaceIL(instructions, "crop seeds", "作物种子");
             instructions = ReplaceIL(instructions, "Water ", "浇灌");
-            instructions = ReplaceIL(instructions, " crops", "种子");
-            instructions = ReplaceIL(instructions, "Smash ", "打碎");
+            instructions = ReplaceIL(instructions, " crops", "作物");
+            instructions = ReplaceIL(instructions, "Smash ", "挖掘");
             instructions = ReplaceIL(instructions, " rocks", " 岩石");
             instructions = ReplaceIL(instructions, " ore rocks", "矿石");
             instructions = ReplaceIL(instructions, "Smelt some ore into a bar", "熔炉一些矿石成锭");
             instructions = ReplaceIL(instructions, "Grind ", "磨碎");
             instructions = ReplaceIL(instructions, " stones", "石头");
-            instructions = ReplaceIL(instructions, "Cut down ", "修剪");
-            instructions = ReplaceIL(instructions, " trees", "树");
+            instructions = ReplaceIL(instructions, "Cut down ", "砍伐");
+            instructions = ReplaceIL(instructions, " trees", "树木");
             instructions = ReplaceIL(instructions, "Clear ", "清理");
             instructions = ReplaceIL(instructions, " tree stumps", "树桩");
             instructions = ReplaceIL(instructions, "Saw ", "锯");
@@ -326,6 +326,14 @@ namespace DinkumChinese
             return instructions;
         }
 
+        [HarmonyTranspiler, HarmonyPatch(typeof(NetworkMapSharer), "UserCode_RpcPayTownDebt")]
+        public static IEnumerable<CodeInstruction> NetworkMapSharer_UserCode_RpcPayTownDebt_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, " donated <sprite=11>", "捐献了 <sprite=11>");
+            instructions = ReplaceIL(instructions, " towards town debt", " 以还债务");
+            return instructions;
+        }
+
         // todo
         [HarmonyTranspiler, HarmonyPatch(typeof(NetworkNavMesh), "waitForNameToChange", MethodType.Enumerator)]
         public static IEnumerable<CodeInstruction> NetworkNavMesh_waitForNameToChange_Patch(IEnumerable<CodeInstruction> instructions)
@@ -419,13 +427,59 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, "Spring", "春天");
             instructions = ReplaceIL(instructions, "Bury", "掩埋");
             instructions = ReplaceIL(instructions, "Speeds up certain production devices for up to 12 tiles", "加快某些生产设备的速度，最大范围12格子");
-            instructions = ReplaceIL(instructions, "Reaches ", "达到");
-            instructions = ReplaceIL(instructions, " tiles out.\n<color=red>Requires Water Tank</color>", "格子。\n<color=red>需要水箱</color>");
+            instructions = ReplaceIL(instructions, "Reaches ", "灌溉附近");
+            instructions = ReplaceIL(instructions, " tiles out.\n<color=red>Requires Water Tank</color>", "格。\n<color=red>需要水箱</color>");
             instructions = ReplaceIL(instructions, "Provides water to sprinklers ", "向");
-            instructions = ReplaceIL(instructions, " tiles out.", "格范围内子灌溉。");
+            instructions = ReplaceIL(instructions, " tiles out.", "格内的洒水器提供水源。");
             instructions = ReplaceIL(instructions, "Fills animal feeders ", "填充动物饲料");
             instructions = ReplaceIL(instructions, " tiles out.\n<color=red>Requires Animal Food</color>", "格。\n<color=red>需要动物饲料</color>");
 
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(BugAndFishCelebration), "openWindow")]
+        public static IEnumerable<CodeInstruction> BugAndFishCelebration_openWindow_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "I caught a ", "我抓到了");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(TileObjectSettings), "getWhyCantPlaceDeedText")]
+        public static IEnumerable<CodeInstruction> TileObjectSettings_getWhyCantPlaceDeedText_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Can't place here", "不能放置在这里");
+            instructions = ReplaceIL(instructions, "Someone is in the way", "有人挡住了");
+            instructions = ReplaceIL(instructions, "Not on level ground", "不在一个水平面");
+            instructions = ReplaceIL(instructions, "Can't be placed in water", "不能放置在水里");
+            instructions = ReplaceIL(instructions, "Something in the way", "有物体在这里");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(PocketsFullNotification), "showNoLicence")]
+        public static IEnumerable<CodeInstruction> PocketsFullNotification_showNoLicence_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Need Licence", "需要许可证");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(PocketsFullNotification), "showMustBeEmpty")]
+        public static IEnumerable<CodeInstruction> PocketsFullNotification_showMustBeEmpty_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Must be empty", "必须是空的");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(PocketsFullNotification), "showTooFull")]
+        public static IEnumerable<CodeInstruction> PocketsFullNotification_showTooFull_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Too full", "太饱了");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(PocketsFullNotification), "showPocketsFull")]
+        public static IEnumerable<CodeInstruction> PocketsFullNotification_showPocketsFull_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Pockets Full", "背包满了");
             return instructions;
         }
 

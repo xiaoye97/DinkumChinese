@@ -12,7 +12,7 @@ using BepInEx.Configuration;
 
 namespace DinkumChinese
 {
-    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.2.0")]
+    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.3.0")]
     public class DinkumChinesePlugin : BaseUnityPlugin
     {
         public static DinkumChinesePlugin Inst;
@@ -131,17 +131,19 @@ namespace DinkumChinese
         {
             if (Inst.DevMode.Value && Inst.DontLoadLocOnDevMode.Value) return true;
             string result = $"{__instance.saidBy}/{__instance.gameObject.name}_Intro_{i.ToString("D3")}";
-            if (LocalizationManager.Sources[0].ContainsTerm(result))
-                __result = result;
-            else
+            __result = result;
+            if (!LocalizationManager.Sources[0].ContainsTerm(result))
             {
-                if (string.IsNullOrWhiteSpace(__instance.startLineAlt.aConverstationSequnce[i]))
+                if (__instance.startLineAlt.aConverstationSequnce.Length > i)
                 {
-                    __result = result;
-                }
-                else
-                {
-                    __result = result + "_" + __instance.startLineAlt.aConverstationSequnce[i].GetHashCode();
+                    if (string.IsNullOrWhiteSpace(__instance.startLineAlt.aConverstationSequnce[i]))
+                    {
+                        __result = result;
+                    }
+                    else
+                    {
+                        __result = result + "_" + __instance.startLineAlt.aConverstationSequnce[i].GetHashCode();
+                    }
                 }
             }
             return false;
@@ -152,17 +154,19 @@ namespace DinkumChinese
         {
             if (Inst.DevMode.Value && Inst.DontLoadLocOnDevMode.Value) return true;
             string result = $"{__instance.saidBy}/{__instance.gameObject.name}_Option_{i.ToString("D3")}";
-            if (LocalizationManager.Sources[0].ContainsTerm(result))
-                __result = result;
-            else
+            __result = result;
+            if (!LocalizationManager.Sources[0].ContainsTerm(result))
             {
-                if (string.IsNullOrWhiteSpace(__instance.optionNames[i]))
+                if (__instance.optionNames.Length > i)
                 {
-                    __result = result;
-                }
-                else
-                {
-                    __result = result + "_" + __instance.optionNames[i].GetHashCode();
+                    if (string.IsNullOrWhiteSpace(__instance.optionNames[i]))
+                    {
+                        __result = result;
+                    }
+                    else
+                    {
+                        __result = result + "_" + __instance.optionNames[i].GetHashCode();
+                    }
                 }
             }
             return false;
@@ -173,17 +177,22 @@ namespace DinkumChinese
         {
             if (Inst.DevMode.Value && Inst.DontLoadLocOnDevMode.Value) return true;
             string result = $"{__instance.saidBy}/{__instance.gameObject.name}_Response_{i.ToString("D3")}_{r.ToString("D3")}";
-            if (LocalizationManager.Sources[0].ContainsTerm(result))
-                __result = result;
-            else
+            __result = result;
+            if (!LocalizationManager.Sources[0].ContainsTerm(result))
             {
-                if (string.IsNullOrWhiteSpace(__instance.responesAlt[i].aConverstationSequnce[r]))
+                if (__instance.responesAlt.Length > i)
                 {
-                    __result = result;
-                }
-                else
-                {
-                    __result = result + "_" + __instance.responesAlt[i].aConverstationSequnce[r].GetHashCode();
+                    if (__instance.responesAlt[i].aConverstationSequnce.Length > r)
+                    {
+                        if (string.IsNullOrWhiteSpace(__instance.responesAlt[i].aConverstationSequnce[r]))
+                        {
+                            __result = result;
+                        }
+                        else
+                        {
+                            __result = result + "_" + __instance.responesAlt[i].aConverstationSequnce[r].GetHashCode();
+                        }
+                    }
                 }
             }
             return false;
