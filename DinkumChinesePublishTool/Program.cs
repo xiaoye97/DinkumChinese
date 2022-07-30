@@ -49,7 +49,7 @@ namespace DinkumChinesePublishTool
             CopyDirectory("BepInEx/plugins/I18NFont4UnityGame", "DinkumChinesePublish/DinkumChinese/BepInEx/plugins/I18NFont4UnityGame");
             // 文件夹压缩
             Console.WriteLine("开始压缩不带Bep的版本...");
-            ZipFile("DinkumChinesePublish/DinkumChinese", "DinkumChinese.zip");
+            ZipFile("DinkumChinesePublish/DinkumChinese", "DinkumChinese_V1_X_0.zip");
 
             // 带Bep的版本
             Console.WriteLine("开始打包带Bep的版本...");
@@ -69,7 +69,7 @@ namespace DinkumChinesePublishTool
             CopyDirectory("BepInEx/plugins/I18NFont4UnityGame", "DinkumChinesePublish/DinkumChinese_WithBepInEx/BepInEx/plugins/I18NFont4UnityGame");
             // 文件夹压缩
             Console.WriteLine("开始压缩带Bep的版本...");
-            ZipFile("DinkumChinesePublish/DinkumChinese_WithBepInEx", "DinkumChinese_WithBepInEx.zip");
+            ZipFile("DinkumChinesePublish/DinkumChinese_WithBepInEx", "DinkumChinese_V1_X_0_WithBepInEx.zip");
             sw.Stop();
             Console.WriteLine($"执行完毕，共耗时{sw.ElapsedMilliseconds}ms");
             Console.ReadLine();
