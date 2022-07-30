@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinkumChinese", "DinkumChinese\DinkumChinese.csproj", "{38D2D534-00BF-4F3E-AC43-9B79F870F3E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinkumChinesePublishTool", "DinkumChinesePublishTool\DinkumChinesePublishTool.csproj", "{D08084CF-D29B-42B4-9CA2-FA822F139771}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{38D2D534-00BF-4F3E-AC43-9B79F870F3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38D2D534-00BF-4F3E-AC43-9B79F870F3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38D2D534-00BF-4F3E-AC43-9B79F870F3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08084CF-D29B-42B4-9CA2-FA822F139771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08084CF-D29B-42B4-9CA2-FA822F139771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08084CF-D29B-42B4-9CA2-FA822F139771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08084CF-D29B-42B4-9CA2-FA822F139771}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

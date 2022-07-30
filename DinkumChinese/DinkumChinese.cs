@@ -12,7 +12,7 @@ using BepInEx.Configuration;
 
 namespace DinkumChinese
 {
-    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.3.0")]
+    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.5.0")]
     public class DinkumChinesePlugin : BaseUnityPlugin
     {
         public static DinkumChinesePlugin Inst;
@@ -37,6 +37,7 @@ namespace DinkumChinese
         public List<TextLocData> DynamicTextLocList = new List<TextLocData>();
         public List<TextLocData> PostTextLocList = new List<TextLocData>();
         public List<TextLocData> QuestTextLocList = new List<TextLocData>();
+        public List<TextLocData> TipsTextLocList = new List<TextLocData>();
 
         private void Awake()
         {
@@ -53,6 +54,12 @@ namespace DinkumChinese
             DynamicTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/DynamicTextLoc.txt");
             PostTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/PostTextLoc.json");
             QuestTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/QuestTextLoc.json");
+            TipsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TipsTextLoc.json");
+        }
+
+        private void Start()
+        {
+            OnGameStartOnceFix();
         }
 
         private void Update()
@@ -499,6 +506,38 @@ namespace DinkumChinese
                 }
             }
             return sb.ToString();
+        }
+
+        /// <summary>
+        /// 当游戏开始时只需要一次的处理
+        /// </summary>
+        public void OnGameStartOnceFix()
+        {
+            // 动物的生物群系翻译
+            AnimalManager.manage.northernOceanFish.locationName = 
+                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.northernOceanFish.locationName);
+            AnimalManager.manage.southernOceanFish.locationName =
+                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.southernOceanFish.locationName);
+            AnimalManager.manage.riverFish.locationName =
+                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.riverFish.locationName);
+            AnimalManager.manage.mangroveFish.locationName =
+                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.mangroveFish.locationName);
+            AnimalManager.manage.billabongFish.locationName =
+                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.billabongFish.locationName);
+            AnimalManager.manage.topicalBugs.locationName =
+                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.topicalBugs.locationName);
+            AnimalManager.manage.desertBugs.locationName =
+                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.desertBugs.locationName);
+            AnimalManager.manage.bushlandBugs.locationName =
+                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.bushlandBugs.locationName);
+            AnimalManager.manage.pineLandBugs.locationName =
+                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.pineLandBugs.locationName);
+            AnimalManager.manage.plainsBugs.locationName =
+                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.plainsBugs.locationName);
+            AnimalManager.manage.underWaterOceanCreatures.locationName =
+                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.underWaterOceanCreatures.locationName);
+            AnimalManager.manage.underWaterRiverCreatures.locationName =
+                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.underWaterRiverCreatures.locationName);
         }
     }
 

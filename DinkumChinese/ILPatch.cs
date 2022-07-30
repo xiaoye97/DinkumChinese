@@ -170,7 +170,7 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, "Do a job for someone", "完成居民请求");
             instructions = ReplaceIL(instructions, "Plant ", "种植");
             instructions = ReplaceIL(instructions, " Wild Seeds", "野生种子");
-            instructions = ReplaceIL(instructions, "Dig up dirt ", "挖出泥土");
+            instructions = ReplaceIL(instructions, "Dig up dirt ", "铲土");
             instructions = ReplaceIL(instructions, " times", "次");
             instructions = ReplaceIL(instructions, "Catch ", "捕捉");
             instructions = ReplaceIL(instructions, " Bugs", "虫子");
@@ -182,10 +182,10 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, "Travel ", "旅行");
             instructions = ReplaceIL(instructions, "m on foot.", "米（徒步）");
             instructions = ReplaceIL(instructions, "m by vehicle", "米（载具）");
-            instructions = ReplaceIL(instructions, "Cook ", "烹饪");
+            instructions = ReplaceIL(instructions, "Cook ", "烤制");
             instructions = ReplaceIL(instructions, " meat", "肉");
             instructions = ReplaceIL(instructions, " fruit", "水果");
-            instructions = ReplaceIL(instructions, "Cook something at the Cooking table", "在烹饪台上做点东西");
+            instructions = ReplaceIL(instructions, "Cook something at the Cooking table", "烹饪食物");
             instructions = ReplaceIL(instructions, " tree seeds", "树种子");
             instructions = ReplaceIL(instructions, "crop seeds", "作物种子");
             instructions = ReplaceIL(instructions, "Water ", "浇灌");
@@ -193,7 +193,7 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, "Smash ", "挖掘");
             instructions = ReplaceIL(instructions, " rocks", " 岩石");
             instructions = ReplaceIL(instructions, " ore rocks", "矿石");
-            instructions = ReplaceIL(instructions, "Smelt some ore into a bar", "熔炉一些矿石成锭");
+            instructions = ReplaceIL(instructions, "Smelt some ore into a bar", "熔炼矿石");
             instructions = ReplaceIL(instructions, "Grind ", "磨碎");
             instructions = ReplaceIL(instructions, " stones", "石头");
             instructions = ReplaceIL(instructions, "Cut down ", "砍伐");
@@ -345,7 +345,7 @@ namespace DinkumChinese
         [HarmonyTranspiler, HarmonyPatch(typeof(NPCRequest), "acceptRequest")]
         public static IEnumerable<CodeInstruction> NPCRequest_acceptRequest_Patch(IEnumerable<CodeInstruction> instructions)
         {
-            instructions = ReplaceIL(instructions, "Request added to Journal", "请求已添加到日记本");
+            instructions = ReplaceIL(instructions, "Request added to Journal", "请求已添加到日记中");
             instructions = ReplaceIL(instructions, "This request must be completed by the end of the day.", "此请求必须在当天结束前完成。");
             return instructions;
         }
@@ -353,8 +353,8 @@ namespace DinkumChinese
         [HarmonyTranspiler, HarmonyPatch(typeof(PostOnBoard), "acceptTask")]
         public static IEnumerable<CodeInstruction> PostOnBoard_acceptTask_Patch(IEnumerable<CodeInstruction> instructions)
         {
-            instructions = ReplaceIL(instructions, "Request added to Journal by ", "请求已添加到日记账由");
-            instructions = ReplaceIL(instructions, "Request added to Journal", "请求已添加到日记账");
+            instructions = ReplaceIL(instructions, "Request added to Journal by ", "请求已添加到日记中由");
+            instructions = ReplaceIL(instructions, "Request added to Journal", "请求已添加到日记中");
             instructions = ReplaceIL(instructions, "A location was added to your map.", "已将位置添加到地图中。");
             instructions = ReplaceIL(instructions, "This request has a time limit.", "此请求有时间限制。");
             return instructions;
@@ -480,6 +480,205 @@ namespace DinkumChinese
         public static IEnumerable<CodeInstruction> PocketsFullNotification_showPocketsFull_Patch(IEnumerable<CodeInstruction> instructions)
         {
             instructions = ReplaceIL(instructions, "Pockets Full", "背包满了");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(InventoryLootTableTimeWeatherMaster), "getTimeOfDayFound")]
+        public static IEnumerable<CodeInstruction> InventoryLootTableTimeWeatherMaster_getTimeOfDayFound_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "all day", "全天");
+            instructions = ReplaceIL(instructions, "during the day", "白天");
+            instructions = ReplaceIL(instructions, "early mornings", "清晨");
+            instructions = ReplaceIL(instructions, "around noon", "中午");
+            instructions = ReplaceIL(instructions, "after dark", "黑夜");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(SeasonAndTime), "getLocationName")]
+        public static IEnumerable<CodeInstruction> SeasonAndTime_getLocationName_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Everywhere", "任意地点");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(NPCRequest), "getMissionText")]
+        public static IEnumerable<CodeInstruction> NPCRequest_getMissionText_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "<sprite=12> Bring ", "<sprite=12> 带 ");
+            instructions = ReplaceIL(instructions, "<sprite=13> Collect ", "<sprite=13> 收集 ");
+            instructions = ReplaceIL(instructions, "\n<sprite=12> Bring ", "\n<sprite=12> 带 ");
+            instructions = ReplaceIL(instructions, "<sprite=12> Collect ", "<sprite=12> 收集 ");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(NPCRequest), "getDesiredItemName")]
+        public static IEnumerable<CodeInstruction> NPCRequest_getDesiredItemName_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "any bug", "任意昆虫");
+            instructions = ReplaceIL(instructions, "any fish", "任意鱼类");
+            instructions = ReplaceIL(instructions, "something to eat", "一些食物");
+            instructions = ReplaceIL(instructions, "something you've made me at a cooking table", "一些你在烹饪台上做的食物");
+            instructions = ReplaceIL(instructions, "furniture", "家具");
+            instructions = ReplaceIL(instructions, "clothing", "衣服");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(NPCSchedual), "getNextDayOffName")]
+        public static IEnumerable<CodeInstruction> NPCSchedual_getNextDayOffName_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "No Day off", "没有休息日");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(NPCSchedual), "getOpeningHours")]
+        public static IEnumerable<CodeInstruction> NPCSchedual_getOpeningHours_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Open: ", "开门时间: ");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(NPCSchedual), "getDaysClosed")]
+        public static IEnumerable<CodeInstruction> NPCSchedual_getDaysClosed_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Closed: ", "关门时间: ");
+            instructions = ReplaceIL(instructions, " and ", " 和 ");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(ExhibitSign), "Start")]
+        public static IEnumerable<CodeInstruction> ExhibitSign_Start_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "This exhibit is currently empty.", "此展览目前为空。");
+            instructions = ReplaceIL(instructions, "We look forward to future donations!", "我们期待未来的捐赠！");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(ExhibitSign), "updateMySign")]
+        public static IEnumerable<CodeInstruction> ExhibitSign_updateMySign_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "In this exhibit:", "展览的生物有：");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(ConversationManager), "checkLineForReplacement")]
+        public static IEnumerable<CodeInstruction> ConversationManager_checkLineForReplacement_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "South City", "南部城市");
+            instructions = ReplaceIL(instructions, "Journal", "日记");
+            instructions = ReplaceIL(instructions, "Licence", "许可证");
+            instructions = ReplaceIL(instructions, "Licences", "许可证");
+            instructions = ReplaceIL(instructions, "Airship", "飞艇");
+            instructions = ReplaceIL(instructions, "Nomad", "游商");
+            instructions = ReplaceIL(instructions, "Nomads", "游商");
+            instructions = ReplaceIL(instructions, "I just love the colours!", "我只是喜欢这些颜色！");
+            instructions = ReplaceIL(instructions, "I love this one.", "我喜欢这个。");
+            instructions = ReplaceIL(instructions, "The composition is wonderful", "这组合很奇妙");
+            instructions = ReplaceIL(instructions, "It speaks to me, you know?", "它在跟我说话，你知道吗？");
+            instructions = ReplaceIL(instructions, "It makes me feel something...", "它让我有点感觉...");
+            instructions = ReplaceIL(instructions, "Made by hand by yours truly!", "真正由您亲手制作！");
+            instructions = ReplaceIL(instructions, "Finished that one off today!", "今天完成了一个！");
+            instructions = ReplaceIL(instructions, "It feels just right for you, ", "感觉很适合你");
+            instructions = ReplaceIL(instructions, "The colour is very powerful, y'know?", "颜色很强大，你知道吗？");
+            instructions = ReplaceIL(instructions, "It will open your chakras, y'know?", "它会打通你的血脉，你知道吗？");
+            instructions = ReplaceIL(instructions, "Do you feel the engery coming from it?", "你感受到来自它的能量了吗？");
+            instructions = ReplaceIL(instructions, "I feel good things coming to whoever buys it.", "我觉得买它的人都会有好东西。");
+            instructions = ReplaceIL(instructions, "The design just came to me, y'know?", "刚想到的设计，你知道吗？");
+            instructions = ReplaceIL(instructions, "Y'know, that would look great on you, ", "你知道，这对你来说很好看，");
+            instructions = ReplaceIL(instructions, "I put a lot of myself into this one.", "我把很多心血都投入到了这上面。");
+            instructions = ReplaceIL(instructions, "Beginning...", "开始...");
+            instructions = ReplaceIL(instructions, "...Nothing happened...", "...没事发生...");
+            instructions = ReplaceIL(instructions, "Permit Points", "许可点数");
+            instructions = ReplaceIL(instructions, "s", "");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(GiveNPC), "UpdateMenu", MethodType.Enumerator)]
+        public static IEnumerable<CodeInstruction> GiveNPC_UpdateMenu_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Place", "放置");
+            instructions = ReplaceIL(instructions, "Donate", "捐赠");
+            instructions = ReplaceIL(instructions, "Sell", "出售");
+            instructions = ReplaceIL(instructions, "Cancel", "取消");
+            instructions = ReplaceIL(instructions, "Swap", "交换");
+            instructions = ReplaceIL(instructions, "Give", "给予");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(CraftingManager), "populateCraftList")]
+        public static IEnumerable<CodeInstruction> CraftingManager_populateCraftList_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "COOK", "烹饪");
+            instructions = ReplaceIL(instructions, "COOKING", "烹饪中");
+            instructions = ReplaceIL(instructions, "COMMISSION", "委托");
+            instructions = ReplaceIL(instructions, "CRAFTING", "制作中");
+            instructions = ReplaceIL(instructions, "CRAFT", "制作");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(BankMenu), "open")]
+        public static IEnumerable<CodeInstruction> BankMenu_open_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Account Balance", "账户余额");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(BankMenu), "openAsDonations")]
+        public static IEnumerable<CodeInstruction> BankMenu_openAsDonations_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Town Debt", "城镇债务");
+            instructions = ReplaceIL(instructions, "Donate", "捐赠");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(BankMenu), "withdrawButton")]
+        public static IEnumerable<CodeInstruction> BankMenu_withdrawButton_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Withdraw", "取出");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(BankMenu), "depositButton")]
+        public static IEnumerable<CodeInstruction> BankMenu_depositButton_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Deposit", "存入");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(BankMenu), "convertButton")]
+        public static IEnumerable<CodeInstruction> BankMenu_convertButton_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Convert [<sprite=11> 500 for <sprite=15> 1]", "转换 [<sprite=11> 500 到 <sprite=15> 1]");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(LicenceManager), "openConfirmWindow")]
+        public static IEnumerable<CodeInstruction> LicenceManager_openConfirmWindow_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Level ", "等级");
+            instructions = ReplaceIL(instructions, "You hold all ", "你拥有所有");
+            instructions = ReplaceIL(instructions, " levels", "许可等级");
+            instructions = ReplaceIL(instructions, "Level up your ", "提升你的");
+            instructions = ReplaceIL(instructions, " skill to unlock further levels", "技能以解锁更多等级");
+            instructions = ReplaceIL(instructions, "You hold all current ", "你拥有所有目前");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(LicenceButton), "fillButton")]
+        public static IEnumerable<CodeInstruction> LicenceButton_fillButton_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Level ", "等级");
+            instructions = ReplaceIL(instructions, "Level up your ", "提升你的");
+            instructions = ReplaceIL(instructions, " skill to unlock further levels", "技能以解锁更多等级");
+            instructions = ReplaceIL(instructions, "Max Level", "最大等级");
+            instructions = ReplaceIL(instructions, "Not Held", "未拥有");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(LicenceButton), "fillDetailsForJournal")]
+        public static IEnumerable<CodeInstruction> LicenceButton_fillDetailsForJournal_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Level ", "等级");
+            instructions = ReplaceIL(instructions, "Max Level", "最大等级");
             return instructions;
         }
 

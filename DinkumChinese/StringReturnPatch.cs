@@ -122,5 +122,37 @@ namespace DinkumChinese
             __instance.publicGameText.text = __instance.publicGameText.text.Replace("Public", "公开");
             __instance.lanGameText.text = __instance.lanGameText.text.Replace("LAN", "局域网");
         }
+
+        [HarmonyPostfix, HarmonyPatch(typeof(Licence), "getConnectedSkillName")]
+        public static void Licence_getConnectedSkillName_Patch(ref string __result)
+        {
+            __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __result);
+        }
+
+        [HarmonyPostfix, HarmonyPatch(typeof(LoadingScreenImageAndTips), "OnEnable")]
+        public static void LoadingScreenImageAndTips_OnEnable_Patch(LoadingScreenImageAndTips __instance)
+        {
+            for (int i = 0; i < __instance.tips.Length; i++)
+            {
+                string ori = __instance.tips[i];
+                for (int j = 0; j < DinkumChinesePlugin.Inst.TipsTextLocList.Count; j++)
+                {
+                    // 如果已经翻译过，则跳过
+                    if (DinkumChinesePlugin.Inst.TipsTextLocList[j].Loc == ori)
+                    {
+                        return;
+                    }
+                }
+                string t = TextLocData.GetLoc(DinkumChinesePlugin.Inst.TipsTextLocList, ori);
+                if (t == ori)
+                {
+                    Debug.Log($"LoadingScreenImageAndTips 有待翻译的文本:[{t}]，请添加到DynamicTextLoc");
+                }
+                else
+                {
+                    __instance.tips[i] = t;
+                }
+            }
+        }
     }
 }
