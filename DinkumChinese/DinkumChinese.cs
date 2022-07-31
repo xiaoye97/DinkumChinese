@@ -40,6 +40,8 @@ namespace DinkumChinese
         public List<TextLocData> PostTextLocList = new List<TextLocData>();
         public List<TextLocData> QuestTextLocList = new List<TextLocData>();
         public List<TextLocData> TipsTextLocList = new List<TextLocData>();
+        public List<TextLocData> MailTextLocList = new List<TextLocData>();
+        public List<TextLocData> AnimalsTextLocList = new List<TextLocData>();
 
         public UIWindow DebugWindow;
 
@@ -53,6 +55,7 @@ namespace DinkumChinese
             Harmony.CreateAndPatchAll(typeof(DinkumChinesePlugin));
             Harmony.CreateAndPatchAll(typeof(ILPatch));
             Harmony.CreateAndPatchAll(typeof(StringReturnPatch));
+            Harmony.CreateAndPatchAll(typeof(StartTranslatePatch));
             if (DevMode.Value && DontLoadLocOnDevMode.Value)
             {
                 return;
@@ -61,6 +64,8 @@ namespace DinkumChinese
             PostTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/PostTextLoc.json");
             QuestTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/QuestTextLoc.json");
             TipsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TipsTextLoc.json");
+            MailTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/MailTextLoc.json");
+            AnimalsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/AnimalsTextLoc.json");
         }
 
         private void Start()
@@ -109,6 +114,7 @@ namespace DinkumChinese
         }
 
         private Vector2 cv;
+
         public void DebugWindowGUI()
         {
             GUILayout.BeginVertical("功能区", GUI.skin.window);
@@ -147,6 +153,18 @@ namespace DinkumChinese
             if (GUILayout.Button("dump quest(需要未汉化状态)"))
             {
                 DumpAllQuest();
+            }
+            if (GUILayout.Button("dump mail(需要未汉化状态)"))
+            {
+                DumpAllMail();
+            }
+            if (GUILayout.Button("dump tips(需要未汉化状态)"))
+            {
+                DumpAllTips();
+            }
+            if (GUILayout.Button("dump animals(需要未汉化状态)"))
+            {
+                DumpAnimals();
             }
             if (GUILayout.Button("dump没翻译key的物品(需要未汉化状态)"))
             {
@@ -226,7 +244,8 @@ namespace DinkumChinese
                     }
                 }
             }
-            Debug.Log($"Conversation_getIntroName {__result}");
+            if (Inst.DevMode.Value)
+                Debug.Log($"Conversation_getIntroName {__result}");
             return false;
         }
 
@@ -250,7 +269,8 @@ namespace DinkumChinese
                     }
                 }
             }
-            Debug.Log($"Conversation_getOptionName {__result}");
+            if (Inst.DevMode.Value)
+                Debug.Log($"Conversation_getOptionName {__result}");
             return false;
         }
 
@@ -277,11 +297,141 @@ namespace DinkumChinese
                     }
                 }
             }
-            Debug.Log($"Conversation_getResponseName {__result}");
+            if (Inst.DevMode.Value)
+                Debug.Log($"Conversation_getResponseName {__result}");
             return false;
         }
 
         public static Queue<TextMeshProUGUI> waitShowTMPs = new Queue<TextMeshProUGUI>();
+
+        /// <summary>
+        /// 检查翻译中的括号是否匹配
+        /// </summary>
+        public void CheckKuoHao()
+        {
+            System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
+            sw.Start();
+            // 索引和Excel表中的行对应的偏移
+            int hangOffset = 3;
+            int findCount = 0;
+            StringBuilder sb = new StringBuilder();
+            LogInfo($"开始检查翻译中的括号:");
+            Regex reg = new Regex(@"(?is)(?<=\<)[^\>]+(?=\>)");
+            var mResourcesCache = Traverse.Create(ResourceManager.pInstance).Field("mResourcesCache").GetValue<Dictionary<string, UnityEngine.Object>>();
+            LanguageSourceAsset asset = mResourcesCache.Values.First() as LanguageSourceAsset;
+            int len = asset.SourceData.mTerms.Count;
+            for (int i = 0; i < len; i++)
+            {
+                var term = asset.SourceData.mTerms[i];
+                if (string.IsNullOrWhiteSpace(term.Languages[3])) continue;
+                MatchCollection mc1 = reg.Matches(term.Languages[0]);
+                MatchCollection mc2 = reg.Matches(term.Languages[3]);
+                if (mc1.Count != mc2.Count)
+                {
+                    string log = $"行号:{i + hangOffset} Key:{term.Term} 中的括号数量不一致 英文原文有{mc1.Count}对括号 中文中有{mc2.Count}对括号";
+                    LogInfo(log);
+                    sb.AppendLine(log);
+                    findCount++;
+                }
+                else if (mc1.Count > 0)
+                {
+                    for (int j = 0; j < mc1.Count; j++)
+                    {
+                        if (mc1[j].Value != mc2[j].Value)
+                        {
+                            string log = $"行号:{i + hangOffset} Key:{term.Term} 中的第{j}对括号内容不一致 原文中:<{mc1[j].Value}> 翻译中:<{mc2[j].Value}>";
+                            LogInfo(log);
+                            sb.AppendLine(log);
+                            findCount++;
+                        }
+                    }
+                }
+            }
+            sw.Stop();
+            LogInfo($"检查完毕，找到{findCount}个有问题的项，耗时{sw.ElapsedMilliseconds}ms");
+            System.IO.File.WriteAllText($"{Paths.GameRootPath}/CheckKuoHao.txt", sb.ToString());
+        }
+
+        /// <summary>
+        /// 获取路径
+        /// </summary>
+        /// <param name="t"></param>
+        /// <returns></returns>
+        public string GetPath(Transform t)
+        {
+            List<string> paths = new List<string>();
+            StringBuilder sb = new StringBuilder();
+            paths.Add(t.name);
+            Transform p = t.parent;
+            while (p != null)
+            {
+                paths.Add(p.name);
+                p = p.parent;
+            }
+            for (int i = paths.Count - 1; i >= 0; i--)
+            {
+                sb.Append(paths[i]);
+                if (i != 0)
+                {
+                    sb.Append('/');
+                }
+            }
+            return sb.ToString();
+        }
+
+        /// <summary>
+        /// 当游戏开始时只需要一次的处理
+        /// </summary>
+        public void OnGameStartOnceFix()
+        {
+            // 动物的生物群系翻译
+            //AnimalManager.manage.northernOceanFish.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.northernOceanFish.locationName);
+            //AnimalManager.manage.southernOceanFish.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.southernOceanFish.locationName);
+            //AnimalManager.manage.riverFish.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.riverFish.locationName);
+            //AnimalManager.manage.mangroveFish.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.mangroveFish.locationName);
+            //AnimalManager.manage.billabongFish.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.billabongFish.locationName);
+            //AnimalManager.manage.topicalBugs.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.topicalBugs.locationName);
+            //AnimalManager.manage.desertBugs.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.desertBugs.locationName);
+            //AnimalManager.manage.bushlandBugs.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.bushlandBugs.locationName);
+            //AnimalManager.manage.pineLandBugs.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.pineLandBugs.locationName);
+            //AnimalManager.manage.plainsBugs.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.plainsBugs.locationName);
+            //AnimalManager.manage.underWaterOceanCreatures.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.underWaterOceanCreatures.locationName);
+            //AnimalManager.manage.underWaterRiverCreatures.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.underWaterRiverCreatures.locationName);
+        }
+
+        #region Dump
+
+        /// <summary>
+        /// Dump当前的文本
+        /// </summary>
+        /// <param name="includeInactive"></param>
+        public void DumpText(bool includeInactive)
+        {
+            StringBuilder sb = new StringBuilder();
+            var tmps = GameObject.FindObjectsOfType<TextMeshProUGUI>(includeInactive);
+            foreach (var tmp in tmps)
+            {
+                var i2 = tmp.GetComponent<Localize>();
+                if (i2 != null) continue;
+                sb.AppendLine("===========");
+                sb.AppendLine($"path:{GetPath(tmp.transform)}");
+                sb.AppendLine($"text:{tmp.text.StrToI2Str()}");
+            }
+            File.WriteAllText($"{Paths.GameRootPath}/I2/TextDump.txt", sb.ToString());
+            LogInfo($"Dump完毕,{Paths.GameRootPath}/I2/TextDump.txt");
+        }
 
         public void DumpAllConversation()
         {
@@ -375,7 +525,6 @@ namespace DinkumChinese
 
         public void DumpAllPost()
         {
-            StringBuilder sb = new StringBuilder();
             List<BullitenBoardPost> list = new List<BullitenBoardPost>();
             list.Add(BulletinBoard.board.announcementPosts[0]);
             list.Add(BulletinBoard.board.huntingTemplate);
@@ -388,31 +537,69 @@ namespace DinkumChinese
             list.Add(BulletinBoard.board.sateliteTemplate);
             list.Add(BulletinBoard.board.craftingTemplate);
             list.Add(BulletinBoard.board.shippingRequestTemplate);
-            sb.AppendLine($"Key\tEnglish");
-            //var ps = Resources.FindObjectsOfTypeAll<BullitenBoardPost>();
+            List<TextLocData> list2 = new List<TextLocData>();
             foreach (var p in list)
             {
-                sb.AppendLine(p.title);
-                sb.AppendLine(p.contentText.StrToI2Str());
-                LogInfo($"==========");
-                LogInfo($"Title:{p.title}");
-                LogInfo($"Text:{p.contentText.StrToI2Str()}");
+                list2.Add(new TextLocData(p.title, ""));
+                list2.Add(new TextLocData(p.contentText, ""));
             }
-            File.WriteAllText($"{Paths.GameRootPath}/I2/Post.csv", sb.ToString());
+            var json = JsonConvert.SerializeObject(list2, Formatting.Indented);
+            File.WriteAllText($"{Paths.GameRootPath}/I2/PostTextLoc.json", json);
+            Debug.Log(json);
         }
 
         public void DumpAllQuest()
         {
-            StringBuilder sb = new StringBuilder();
-            foreach (var q in QuestManager.manage.allQuests)
+            var mgr = QuestManager.manage;
+            List<TextLocData> list = new List<TextLocData>();
+            foreach (var q in mgr.allQuests)
             {
-                sb.AppendLine(q.QuestName);
-                sb.AppendLine(q.QuestDescription.StrToI2Str());
-                LogInfo($"==========");
-                LogInfo($"Name:{q.QuestName}");
-                LogInfo($"Desc:{q.QuestDescription.StrToI2Str()}");
+                list.Add(new TextLocData(q.QuestName, ""));
+                list.Add(new TextLocData(q.QuestDescription, ""));
             }
-            File.WriteAllText($"{Paths.GameRootPath}/I2/Quest.csv", sb.ToString());
+            var json = JsonConvert.SerializeObject(list, Formatting.Indented);
+            File.WriteAllText($"{Paths.GameRootPath}/I2/QuestTextLoc.json", json);
+            Debug.Log(json);
+        }
+
+        public void DumpAllMail()
+        {
+            var mgr = MailManager.manage;
+            List<TextLocData> list = new List<TextLocData>();
+            list.Add(new TextLocData(mgr.animalResearchLetter.letterText, ""));
+            list.Add(new TextLocData(mgr.returnTrapLetter.letterText, ""));
+            list.Add(new TextLocData(mgr.devLetter.letterText, ""));
+            list.Add(new TextLocData(mgr.catalogueItemLetter.letterText, ""));
+            list.Add(new TextLocData(mgr.craftmanDayOff.letterText, ""));
+            foreach (var m in mgr.randomLetters) list.Add(new TextLocData(m.letterText, ""));
+            foreach (var m in mgr.thankYouLetters) list.Add(new TextLocData(m.letterText, ""));
+            foreach (var m in mgr.didNotFitInInvLetter) list.Add(new TextLocData(m.letterText, ""));
+            foreach (var m in mgr.fishingTips) list.Add(new TextLocData(m.letterText, ""));
+            foreach (var m in mgr.bugTips) list.Add(new TextLocData(m.letterText, ""));
+            foreach (var m in mgr.licenceLevelUp) list.Add(new TextLocData(m.letterText, ""));
+            var json = JsonConvert.SerializeObject(list, Formatting.Indented);
+            File.WriteAllText($"{Paths.GameRootPath}/I2/MailTextLoc.json", json);
+            Debug.Log(json);
+        }
+
+        public void DumpAllTips()
+        {
+            var mgr = GameObject.FindObjectOfType<LoadingScreenImageAndTips>(true);
+            List<TextLocData> list = new List<TextLocData>();
+            foreach (var tip in mgr.tips) list.Add(new TextLocData(tip, ""));
+            var json = JsonConvert.SerializeObject(list, Formatting.Indented);
+            File.WriteAllText($"{Paths.GameRootPath}/I2/TipsTextLoc.json", json);
+            Debug.Log(json);
+        }
+
+        public void DumpAnimals()
+        {
+            var mgr = AnimalManager.manage;
+            List<TextLocData> list = new List<TextLocData>();
+            foreach (var a in mgr.allAnimals) list.Add(new TextLocData(a.animalName, ""));
+            var json = JsonConvert.SerializeObject(list, Formatting.Indented);
+            File.WriteAllText($"{Paths.GameRootPath}/I2/AnimalsTextLoc.json", json);
+            Debug.Log(json);
         }
 
         public void DumpAllUnTermItem()
@@ -459,132 +646,7 @@ namespace DinkumChinese
             File.WriteAllText($"{Paths.GameRootPath}/I2/UnTermItem.csv", sb.ToString());
         }
 
-        /// <summary>
-        /// 检查翻译中的括号是否匹配
-        /// </summary>
-        public void CheckKuoHao()
-        {
-            System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
-            sw.Start();
-            // 索引和Excel表中的行对应的偏移
-            int hangOffset = 3;
-            int findCount = 0;
-            StringBuilder sb = new StringBuilder();
-            LogInfo($"开始检查翻译中的括号:");
-            Regex reg = new Regex(@"(?is)(?<=\<)[^\>]+(?=\>)");
-            var mResourcesCache = Traverse.Create(ResourceManager.pInstance).Field("mResourcesCache").GetValue<Dictionary<string, UnityEngine.Object>>();
-            LanguageSourceAsset asset = mResourcesCache.Values.First() as LanguageSourceAsset;
-            int len = asset.SourceData.mTerms.Count;
-            for (int i = 0; i < len; i++)
-            {
-                var term = asset.SourceData.mTerms[i];
-                if (string.IsNullOrWhiteSpace(term.Languages[3])) continue;
-                MatchCollection mc1 = reg.Matches(term.Languages[0]);
-                MatchCollection mc2 = reg.Matches(term.Languages[3]);
-                if (mc1.Count != mc2.Count)
-                {
-                    string log = $"行号:{i + hangOffset} Key:{term.Term} 中的括号数量不一致 英文原文有{mc1.Count}对括号 中文中有{mc2.Count}对括号";
-                    LogInfo(log);
-                    sb.AppendLine(log);
-                    findCount++;
-                }
-                else if (mc1.Count > 0)
-                {
-                    for (int j = 0; j < mc1.Count; j++)
-                    {
-                        if (mc1[j].Value != mc2[j].Value)
-                        {
-                            string log = $"行号:{i + hangOffset} Key:{term.Term} 中的第{j}对括号内容不一致 原文中:<{mc1[j].Value}> 翻译中:<{mc2[j].Value}>";
-                            LogInfo(log);
-                            sb.AppendLine(log);
-                            findCount++;
-                        }
-                    }
-                }
-            }
-            sw.Stop();
-            LogInfo($"检查完毕，找到{findCount}个有问题的项，耗时{sw.ElapsedMilliseconds}ms");
-            System.IO.File.WriteAllText($"{Paths.GameRootPath}/CheckKuoHao.txt", sb.ToString());
-        }
-
-        /// <summary>
-        /// Dump当前的文本
-        /// </summary>
-        /// <param name="includeInactive"></param>
-        public void DumpText(bool includeInactive)
-        {
-            StringBuilder sb = new StringBuilder();
-            var tmps = GameObject.FindObjectsOfType<TextMeshProUGUI>(includeInactive);
-            foreach (var tmp in tmps)
-            {
-                var i2 = tmp.GetComponent<Localize>();
-                if (i2 != null) continue;
-                sb.AppendLine("===========");
-                sb.AppendLine($"path:{GetPath(tmp.transform)}");
-                sb.AppendLine($"text:{tmp.text.StrToI2Str()}");
-            }
-            File.WriteAllText($"{Paths.GameRootPath}/I2/TextDump.txt", sb.ToString());
-            LogInfo($"Dump完毕,{Paths.GameRootPath}/I2/TextDump.txt");
-        }
-
-        /// <summary>
-        /// 获取路径
-        /// </summary>
-        /// <param name="t"></param>
-        /// <returns></returns>
-        public string GetPath(Transform t)
-        {
-            List<string> paths = new List<string>();
-            StringBuilder sb = new StringBuilder();
-            paths.Add(t.name);
-            Transform p = t.parent;
-            while (p != null)
-            {
-                paths.Add(p.name);
-                p = p.parent;
-            }
-            for (int i = paths.Count - 1; i >= 0; i--)
-            {
-                sb.Append(paths[i]);
-                if (i != 0)
-                {
-                    sb.Append('/');
-                }
-            }
-            return sb.ToString();
-        }
-
-        /// <summary>
-        /// 当游戏开始时只需要一次的处理
-        /// </summary>
-        public void OnGameStartOnceFix()
-        {
-            // 动物的生物群系翻译
-            //AnimalManager.manage.northernOceanFish.locationName = 
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.northernOceanFish.locationName);
-            //AnimalManager.manage.southernOceanFish.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.southernOceanFish.locationName);
-            //AnimalManager.manage.riverFish.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.riverFish.locationName);
-            //AnimalManager.manage.mangroveFish.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.mangroveFish.locationName);
-            //AnimalManager.manage.billabongFish.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.billabongFish.locationName);
-            //AnimalManager.manage.topicalBugs.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.topicalBugs.locationName);
-            //AnimalManager.manage.desertBugs.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.desertBugs.locationName);
-            //AnimalManager.manage.bushlandBugs.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.bushlandBugs.locationName);
-            //AnimalManager.manage.pineLandBugs.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.pineLandBugs.locationName);
-            //AnimalManager.manage.plainsBugs.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.plainsBugs.locationName);
-            //AnimalManager.manage.underWaterOceanCreatures.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.underWaterOceanCreatures.locationName);
-            //AnimalManager.manage.underWaterRiverCreatures.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.underWaterRiverCreatures.locationName);
-        }
+        #endregion Dump
     }
 
     public static class TextEx

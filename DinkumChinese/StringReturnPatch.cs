@@ -25,13 +25,13 @@ namespace DinkumChinese
         }
 
         [HarmonyPostfix, HarmonyPatch(typeof(PostOnBoard), "getTitleText")]
-        public static void PostOnBoard_getTitleText_Patch(PostOnBoard __instance,ref string __result, int postId)
+        public static void PostOnBoard_getTitleText_Patch(PostOnBoard __instance, ref string __result, int postId)
         {
             string titleOri = __instance.getPostPostsById().title.StrToI2Str();
             string title = TextLocData.GetLoc(DinkumChinesePlugin.Inst.PostTextLocList, titleOri);
-            __result = title.Replace("<boardRewardItem>", 
-                __instance.getPostPostsById().getBoardRewardItem(postId)).Replace("<boardHuntRequestAnimal>", 
-                __instance.getPostPostsById().getBoardHuntRequestAnimal(postId)).Replace("<boardRequestItem>", 
+            __result = title.Replace("<boardRewardItem>",
+                __instance.getPostPostsById().getBoardRewardItem(postId)).Replace("<boardHuntRequestAnimal>",
+                __instance.getPostPostsById().getBoardHuntRequestAnimal(postId)).Replace("<boardRequestItem>",
                 __instance.getPostPostsById().getBoardRequestItem(postId));
         }
 
@@ -40,10 +40,10 @@ namespace DinkumChinese
         {
             string textOri = __instance.getPostPostsById().contentText.StrToI2Str();
             string text = TextLocData.GetLoc(DinkumChinesePlugin.Inst.PostTextLocList, textOri);
-            __result = text.Replace("<boardRewardItem>", 
-                __instance.getPostPostsById().getBoardRewardItem(postId)).Replace("<boardHuntRequestAnimal>", 
-                __instance.getPostPostsById().getBoardHuntRequestAnimal(postId)).Replace("<getAnimalsInPhotoList>", 
-                __instance.getPostPostsById().getRequirementsNeededInPhoto(postId)).Replace("<boardRequestItem>", 
+            __result = text.Replace("<boardRewardItem>",
+                __instance.getPostPostsById().getBoardRewardItem(postId)).Replace("<boardHuntRequestAnimal>",
+                __instance.getPostPostsById().getBoardHuntRequestAnimal(postId)).Replace("<getAnimalsInPhotoList>",
+                __instance.getPostPostsById().getRequirementsNeededInPhoto(postId)).Replace("<boardRequestItem>",
                 __instance.getPostPostsById().getBoardRequestItem(postId));
         }
 
@@ -129,36 +129,12 @@ namespace DinkumChinese
             __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __result);
         }
 
-        [HarmonyPostfix, HarmonyPatch(typeof(LoadingScreenImageAndTips), "OnEnable")]
-        public static void LoadingScreenImageAndTips_OnEnable_Patch(LoadingScreenImageAndTips __instance)
-        {
-            for (int i = 0; i < __instance.tips.Length; i++)
-            {
-                string ori = __instance.tips[i];
-                for (int j = 0; j < DinkumChinesePlugin.Inst.TipsTextLocList.Count; j++)
-                {
-                    // 如果已经翻译过，则跳过
-                    if (DinkumChinesePlugin.Inst.TipsTextLocList[j].Loc == ori)
-                    {
-                        return;
-                    }
-                }
-                string t = TextLocData.GetLoc(DinkumChinesePlugin.Inst.TipsTextLocList, ori);
-                if (t == ori)
-                {
-                    Debug.Log($"LoadingScreenImageAndTips 有待翻译的文本:[{t}]，请添加到DynamicTextLoc");
-                }
-                else
-                {
-                    __instance.tips[i] = t;
-                }
-            }
-        }
-
         [HarmonyPrefix, HarmonyPatch(typeof(SeasonAndTime), "capitaliseFirstLetter")]
-        public static bool SeasonAndTime_capitaliseFirstLetter_Patch(ref string __result)
+        public static bool SeasonAndTime_capitaliseFirstLetter_Patch(ref string __result, string toChange)
         {
-            __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __result);
+            Debug.Log($"SeasonAndTime_capitaliseFirstLetter_Patch 1:{toChange}");
+            __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, toChange);
+            Debug.Log($"SeasonAndTime_capitaliseFirstLetter_Patch 2:{__result}");
             return false;
         }
 
@@ -177,13 +153,115 @@ namespace DinkumChinese
         [HarmonyPostfix, HarmonyPatch(typeof(AnimalManager), "fillAnimalLocation")]
         public static void AnimalManager_fillAnimalLocation_Patch(ref string __result)
         {
+            Debug.Log($"AnimalManager_fillAnimalLocation_Patch 1:{__result}");
             __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __result);
+            Debug.Log($"AnimalManager_fillAnimalLocation_Patch 2:{__result}");
         }
 
         [HarmonyPrefix, HarmonyPatch(typeof(AnimalManager), "capitaliseFirstLetter")]
-        public static bool AnimalManager_capitaliseFirstLetter_Patch(ref string __result)
+        public static bool AnimalManager_capitaliseFirstLetter_Patch(ref string __result, string toChange)
         {
-            __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __result);
+            Debug.Log($"AnimalManager_capitaliseFirstLetter_Patch 1:{toChange}");
+            __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, toChange);
+            Debug.Log($"AnimalManager_capitaliseFirstLetter_Patch 2:{__result}");
+            return false;
+        }
+
+        [HarmonyPrefix, HarmonyPatch(typeof(Inventory), "getExtraDetails")]
+        public static bool Inventory_getExtraDetails_Patch(Inventory __instance, int itemId, ref string __result)
+        {
+            var _this = __instance;
+            string text = "";
+            if (_this.allItems[itemId].placeable && _this.allItems[itemId].placeable.tileObjectGrowthStages && !_this.allItems[itemId].consumeable)
+            {
+                string text2 = "";
+                if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSummer && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInWinter && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSpring && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInAutum)
+                {
+                    text2 = "在所有季节";
+                }
+                else
+                {
+                    text2 += "在";
+                    if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSummer)
+                    {
+                        text2 += "夏天";
+                    }
+                    if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInAutum)
+                    {
+                        if (text2 != "在")
+                        {
+                            text2 += "和";
+                        }
+                        text2 += "秋天";
+                    }
+                    if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInWinter)
+                    {
+                        if (text2 != "在")
+                        {
+                            text2 += "和";
+                        }
+                        text2 += "冬天";
+                    }
+                    if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSpring)
+                    {
+                        if (text2 != "在")
+                        {
+                            text2 += "和";
+                        }
+                        text2 += "春天";
+                    }
+                }
+                if (_this.allItems[itemId].placeable.tileObjectGrowthStages.needsTilledSoil)
+                {
+                    text = text + "适合" + text2 + "种植。";
+                }
+                if (_this.allItems[itemId].placeable.tileObjectGrowthStages.objectStages.Length != 0)
+                {
+                    if (_this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto)
+                    {
+                        text = string.Concat(new string[]
+                        {
+                        text,
+                        "周围需要一些空间，因为它们会在旁边的位置结出<b>",
+                        _this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestSpots.Length.ToString(),
+                        "个",
+                        _this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestDrop.getInvItemName(),
+                        "</b>。该植株最多能分出4个分支！"
+                        });
+                    }
+                    else
+                    {
+                        text = string.Concat(new string[]
+                        {
+                        text,
+                        "需要",
+                        _this.allItems[itemId].placeable.tileObjectGrowthStages.objectStages.Length.ToString(),
+                        "天的时间来生长，可收获",
+                        _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length.ToString(),
+                        _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestDrop.getInvItemName(),
+                        "。"
+                        });
+                    }
+                }
+                if (!_this.allItems[itemId].placeable.tileObjectGrowthStages.diesOnHarvest && !_this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto)
+                {
+                    text = string.Concat(new string[]
+                    {
+                    text,
+                    "后续每",
+                    Mathf.Abs(_this.allItems[itemId].placeable.tileObjectGrowthStages.takeOrAddFromStateOnHarvest).ToString(),
+                    "天可收获",
+                    _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length.ToString(),
+                    _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestDrop.getInvItemName(),
+                    "。"
+                    });
+                }
+                if (!WorldManager.manageWorld.allObjectSettings[_this.allItems[itemId].placeable.tileObjectId].walkable)
+                {
+                    text += "噢，这还需要植物支架来附着生长。";
+                }
+            }
+            __result = text;
             return false;
         }
     }

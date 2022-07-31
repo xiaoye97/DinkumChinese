@@ -44,6 +44,7 @@ namespace DinkumChinesePublishTool
             CopyFile("BepInEx/plugins/DinkumChinese.dll", "DinkumChinesePublish/DinkumChinese/BepInEx/plugins/DinkumChinese.dll");
             CopyFile("BepInEx/plugins/I2LocPatch.dll", "DinkumChinesePublish/DinkumChinese/BepInEx/plugins/I2LocPatch.dll");
             CopyFile("BepInEx/plugins/I18NFont4UnityGame.dll", "DinkumChinesePublish/DinkumChinese/BepInEx/plugins/I18NFont4UnityGame.dll");
+            CopyFile("BepInEx/plugins/XYModLib.dll", "DinkumChinesePublish/DinkumChinese/BepInEx/plugins/XYModLib.dll");
             // 复制字体和文本
             CopyDirectory("BepInEx/plugins/I2LocPatch", "DinkumChinesePublish/DinkumChinese/BepInEx/plugins/I2LocPatch");
             CopyDirectory("BepInEx/plugins/I18NFont4UnityGame", "DinkumChinesePublish/DinkumChinese/BepInEx/plugins/I18NFont4UnityGame");
@@ -64,6 +65,7 @@ namespace DinkumChinesePublishTool
             CopyFile("BepInEx/plugins/DinkumChinese.dll", "DinkumChinesePublish/DinkumChinese_WithBepInEx/BepInEx/plugins/DinkumChinese.dll");
             CopyFile("BepInEx/plugins/I2LocPatch.dll", "DinkumChinesePublish/DinkumChinese_WithBepInEx/BepInEx/plugins/I2LocPatch.dll");
             CopyFile("BepInEx/plugins/I18NFont4UnityGame.dll", "DinkumChinesePublish/DinkumChinese_WithBepInEx/BepInEx/plugins/I18NFont4UnityGame.dll");
+            CopyFile("BepInEx/plugins/XYModLib.dll", "DinkumChinesePublish/DinkumChinese_WithBepInEx/BepInEx/plugins/XYModLib.dll");
             // 复制字体和文本
             CopyDirectory("BepInEx/plugins/I2LocPatch", "DinkumChinesePublish/DinkumChinese_WithBepInEx/BepInEx/plugins/I2LocPatch");
             CopyDirectory("BepInEx/plugins/I18NFont4UnityGame", "DinkumChinesePublish/DinkumChinese_WithBepInEx/BepInEx/plugins/I18NFont4UnityGame");

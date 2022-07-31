@@ -213,7 +213,7 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, "Craft a new tool", "制作新工具");
             instructions = ReplaceIL(instructions, "Buy ", "购买");
             instructions = ReplaceIL(instructions, " seeds", "种子");
-            instructions = ReplaceIL(instructions, "Trap an animal and deliver it", "诱捕动物并运送");
+            instructions = ReplaceIL(instructions, "Trap an animal and deliver it", "捕获动物并交付");
             instructions = ReplaceIL(instructions, "Hunt ", "狩猎");
             instructions = ReplaceIL(instructions, " animals", "动物");
             instructions = ReplaceIL(instructions, "Buy a new tool", "购买新工具");
@@ -504,9 +504,9 @@ namespace DinkumChinese
         [HarmonyTranspiler, HarmonyPatch(typeof(NPCRequest), "getMissionText")]
         public static IEnumerable<CodeInstruction> NPCRequest_getMissionText_Patch(IEnumerable<CodeInstruction> instructions)
         {
-            instructions = ReplaceIL(instructions, "<sprite=12> Bring ", "<sprite=12> 带 ");
+            instructions = ReplaceIL(instructions, "<sprite=12> Bring ", "<sprite=12> 带给 ");
             instructions = ReplaceIL(instructions, "<sprite=13> Collect ", "<sprite=13> 收集 ");
-            instructions = ReplaceIL(instructions, "\n<sprite=12> Bring ", "\n<sprite=12> 带 ");
+            instructions = ReplaceIL(instructions, "\n<sprite=12> Bring ", "\n<sprite=12> 带给 ");
             instructions = ReplaceIL(instructions, "<sprite=12> Collect ", "<sprite=12> 收集 ");
             return instructions;
         }
@@ -679,6 +679,26 @@ namespace DinkumChinese
         {
             instructions = ReplaceIL(instructions, "Level ", "等级");
             instructions = ReplaceIL(instructions, "Max Level", "最大等级");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(MailManager), "showLetter")]
+        public static IEnumerable<CodeInstruction> MailManager_showLetter_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "From ", "来自");
+            instructions = ReplaceIL(instructions, "<size=18><b>To ", "<size=18><b>致");
+            instructions = ReplaceIL(instructions, "\n\n<size=18><b>From ", "\n\n<size=18><b>来自");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(MailManager), "getSentByName")]
+        public static IEnumerable<CodeInstruction> MailManager_getSentByName_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Animal Research Centre", "动物研究中心");
+            instructions = ReplaceIL(instructions, "Dinkum Dev", "Dinkum开发者");
+            instructions = ReplaceIL(instructions, "Fishin' Tipster", "钓鱼指引者");
+            instructions = ReplaceIL(instructions, "Bug Tipster", "捕虫指引者");
+            instructions = ReplaceIL(instructions, "Unknown", "未知");
             return instructions;
         }
 
