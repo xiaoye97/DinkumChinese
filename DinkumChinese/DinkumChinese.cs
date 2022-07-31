@@ -9,10 +9,12 @@ using System.Text;
 using TMPro;
 using System.IO;
 using BepInEx.Configuration;
+using XYModLib;
+using Newtonsoft.Json;
 
 namespace DinkumChinese
 {
-    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.5.0")]
+    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.6.0")]
     public class DinkumChinesePlugin : BaseUnityPlugin
     {
         public static DinkumChinesePlugin Inst;
@@ -39,11 +41,15 @@ namespace DinkumChinese
         public List<TextLocData> QuestTextLocList = new List<TextLocData>();
         public List<TextLocData> TipsTextLocList = new List<TextLocData>();
 
+        public UIWindow DebugWindow;
+
         private void Awake()
         {
             Inst = this;
             DevMode = Config.Bind<bool>("Dev", "DevMode", false, "开发模式时，可以按快捷键触发开发功能");
             DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "开发模式时，不加载DynamicText Post Quest翻译，方便dump");
+            DebugWindow = new UIWindow("汉化测试工具[Ctrl+小键盘4]");
+            DebugWindow.OnWinodwGUI = DebugWindowGUI;
             Harmony.CreateAndPatchAll(typeof(DinkumChinesePlugin));
             Harmony.CreateAndPatchAll(typeof(ILPatch));
             Harmony.CreateAndPatchAll(typeof(StringReturnPatch));
@@ -66,10 +72,10 @@ namespace DinkumChinese
         {
             if (DevMode.Value)
             {
-                // Ctrl + 小键盘4 检查括号
+                // Ctrl + 小键盘4 切换GUI
                 if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad4))
                 {
-                    CheckKuoHao();
+                    DebugWindow.Show = !DebugWindow.Show;
                 }
                 // Ctrl + 小键盘5 切换暂停游戏，游戏速度1
                 if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad5))
@@ -93,24 +99,60 @@ namespace DinkumChinese
                 {
                     DumpText(true);
                 }
-                // Ctrl + 小键盘9 dump所有不在多语言表格内的对话
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad9))
-                {
-                    DumpAllConversation();
-                }
-                // Ctrl + 小键盘3
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad3))
-                {
-                    DumpAllPost();
-                    DumpAllQuest();
-                }
-                // Ctrl + 小键盘0 dump没翻译的物品
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad0))
-                {
-                    DumpAllUnTermItem();
-                }
             }
             FixChatFont();
+        }
+
+        private void OnGUI()
+        {
+            DebugWindow.OnGUI();
+        }
+
+        private Vector2 cv;
+        public void DebugWindowGUI()
+        {
+            GUILayout.BeginVertical("功能区", GUI.skin.window);
+            if (GUILayout.Button("[Ctrl+小键盘5] 切换暂停游戏，游戏速度1"))
+            {
+                Pause = !Pause;
+                Time.timeScale = Pause ? 0 : 1;
+            }
+            if (GUILayout.Button("[Ctrl+小键盘6] 切换暂停游戏，游戏速度10"))
+            {
+                Pause = !Pause;
+                Time.timeScale = Pause ? 1 : 10;
+            }
+            if (GUILayout.Button("检查括号"))
+            {
+                CheckKuoHao();
+            }
+            GUILayout.EndVertical();
+            GUILayout.BeginVertical("Dump", GUI.skin.window);
+            if (GUILayout.Button("[Ctrl+小键盘7] dump场景内所有文本，不包括隐藏的文本"))
+            {
+                DumpText(false);
+            }
+            if (GUILayout.Button("[Ctrl+小键盘8] dump场景内所有文本，包括隐藏的文本"))
+            {
+                DumpText(true);
+            }
+            if (GUILayout.Button("dump所有不在多语言表格内的对话(需要未汉化状态)"))
+            {
+                DumpAllConversation();
+            }
+            if (GUILayout.Button("dump post(需要未汉化状态)"))
+            {
+                DumpAllPost();
+            }
+            if (GUILayout.Button("dump quest(需要未汉化状态)"))
+            {
+                DumpAllQuest();
+            }
+            if (GUILayout.Button("dump没翻译key的物品(需要未汉化状态)"))
+            {
+                DumpAllUnTermItem();
+            }
+            GUILayout.EndVertical();
         }
 
         private int lastChatCount;
@@ -184,6 +226,7 @@ namespace DinkumChinese
                     }
                 }
             }
+            Debug.Log($"Conversation_getIntroName {__result}");
             return false;
         }
 
@@ -207,6 +250,7 @@ namespace DinkumChinese
                     }
                 }
             }
+            Debug.Log($"Conversation_getOptionName {__result}");
             return false;
         }
 
@@ -233,6 +277,7 @@ namespace DinkumChinese
                     }
                 }
             }
+            Debug.Log($"Conversation_getResponseName {__result}");
             return false;
         }
 
@@ -479,6 +524,7 @@ namespace DinkumChinese
                 sb.AppendLine($"text:{tmp.text.StrToI2Str()}");
             }
             File.WriteAllText($"{Paths.GameRootPath}/I2/TextDump.txt", sb.ToString());
+            LogInfo($"Dump完毕,{Paths.GameRootPath}/I2/TextDump.txt");
         }
 
         /// <summary>
@@ -514,30 +560,30 @@ namespace DinkumChinese
         public void OnGameStartOnceFix()
         {
             // 动物的生物群系翻译
-            AnimalManager.manage.northernOceanFish.locationName = 
-                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.northernOceanFish.locationName);
-            AnimalManager.manage.southernOceanFish.locationName =
-                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.southernOceanFish.locationName);
-            AnimalManager.manage.riverFish.locationName =
-                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.riverFish.locationName);
-            AnimalManager.manage.mangroveFish.locationName =
-                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.mangroveFish.locationName);
-            AnimalManager.manage.billabongFish.locationName =
-                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.billabongFish.locationName);
-            AnimalManager.manage.topicalBugs.locationName =
-                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.topicalBugs.locationName);
-            AnimalManager.manage.desertBugs.locationName =
-                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.desertBugs.locationName);
-            AnimalManager.manage.bushlandBugs.locationName =
-                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.bushlandBugs.locationName);
-            AnimalManager.manage.pineLandBugs.locationName =
-                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.pineLandBugs.locationName);
-            AnimalManager.manage.plainsBugs.locationName =
-                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.plainsBugs.locationName);
-            AnimalManager.manage.underWaterOceanCreatures.locationName =
-                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.underWaterOceanCreatures.locationName);
-            AnimalManager.manage.underWaterRiverCreatures.locationName =
-                TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.underWaterRiverCreatures.locationName);
+            //AnimalManager.manage.northernOceanFish.locationName = 
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.northernOceanFish.locationName);
+            //AnimalManager.manage.southernOceanFish.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.southernOceanFish.locationName);
+            //AnimalManager.manage.riverFish.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.riverFish.locationName);
+            //AnimalManager.manage.mangroveFish.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.mangroveFish.locationName);
+            //AnimalManager.manage.billabongFish.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.billabongFish.locationName);
+            //AnimalManager.manage.topicalBugs.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.topicalBugs.locationName);
+            //AnimalManager.manage.desertBugs.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.desertBugs.locationName);
+            //AnimalManager.manage.bushlandBugs.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.bushlandBugs.locationName);
+            //AnimalManager.manage.pineLandBugs.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.pineLandBugs.locationName);
+            //AnimalManager.manage.plainsBugs.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.plainsBugs.locationName);
+            //AnimalManager.manage.underWaterOceanCreatures.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.underWaterOceanCreatures.locationName);
+            //AnimalManager.manage.underWaterRiverCreatures.locationName =
+            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.underWaterRiverCreatures.locationName);
         }
     }
 

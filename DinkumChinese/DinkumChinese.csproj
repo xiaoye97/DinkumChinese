@@ -79,6 +79,10 @@
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Dinkum\Dinkum_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Dinkum\Dinkum_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
       <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Dinkum\Dinkum_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
       <Private>False</Private>
@@ -102,6 +106,10 @@
     <Reference Include="UnityEngine.UNETModule">
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Dinkum\Dinkum_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
       <Private>False</Private>
+    </Reference>
+    <Reference Include="XYModLib">
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Dinkum\I2\XYModLib.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>

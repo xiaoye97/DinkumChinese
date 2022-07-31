@@ -154,5 +154,37 @@ namespace DinkumChinese
                 }
             }
         }
+
+        [HarmonyPrefix, HarmonyPatch(typeof(SeasonAndTime), "capitaliseFirstLetter")]
+        public static bool SeasonAndTime_capitaliseFirstLetter_Patch(ref string __result)
+        {
+            __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __result);
+            return false;
+        }
+
+        [HarmonyPostfix, HarmonyPatch(typeof(NPCRequest), "setRandomBugNoAndLocation")]
+        public static void NPCRequest_setRandomBugNoAndLocation_Patch(NPCRequest __instance)
+        {
+            __instance.itemFoundInLocation = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __instance.itemFoundInLocation);
+        }
+
+        [HarmonyPostfix, HarmonyPatch(typeof(NPCRequest), "setRandomFishNoAndLocation")]
+        public static void NPCRequest_setRandomFishNoAndLocation_Patch(NPCRequest __instance)
+        {
+            __instance.itemFoundInLocation = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __instance.itemFoundInLocation);
+        }
+
+        [HarmonyPostfix, HarmonyPatch(typeof(AnimalManager), "fillAnimalLocation")]
+        public static void AnimalManager_fillAnimalLocation_Patch(ref string __result)
+        {
+            __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __result);
+        }
+
+        [HarmonyPrefix, HarmonyPatch(typeof(AnimalManager), "capitaliseFirstLetter")]
+        public static bool AnimalManager_capitaliseFirstLetter_Patch(ref string __result)
+        {
+            __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __result);
+            return false;
+        }
     }
 }
