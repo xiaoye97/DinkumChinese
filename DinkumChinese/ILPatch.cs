@@ -607,11 +607,11 @@ namespace DinkumChinese
         [HarmonyTranspiler, HarmonyPatch(typeof(CraftingManager), "populateCraftList")]
         public static IEnumerable<CodeInstruction> CraftingManager_populateCraftList_Patch(IEnumerable<CodeInstruction> instructions)
         {
-            instructions = ReplaceIL(instructions, "COOK", "烹饪");
+            instructions = ReplaceIL(instructions, "COOK", "<color=#F87474>烹饪</color>");
             instructions = ReplaceIL(instructions, "COOKING", "烹饪中");
-            instructions = ReplaceIL(instructions, "COMMISSION", "委托");
+            instructions = ReplaceIL(instructions, "COMMISSION", "<color=#F87474>委托</color>");
             instructions = ReplaceIL(instructions, "CRAFTING", "制作中");
-            instructions = ReplaceIL(instructions, "CRAFT", "制作");
+            instructions = ReplaceIL(instructions, "CRAFT", "<color=#F87474>制作</color>");
             return instructions;
         }
 
