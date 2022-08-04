@@ -11,10 +11,11 @@ using System.IO;
 using BepInEx.Configuration;
 using XYModLib;
 using Newtonsoft.Json;
+using System;
 
 namespace DinkumChinese
 {
-    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.6.0")]
+    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.7.0")]
     public class DinkumChinesePlugin : BaseUnityPlugin
     {
         public static DinkumChinesePlugin Inst;
@@ -44,6 +45,8 @@ namespace DinkumChinese
         public List<TextLocData> AnimalsTextLocList = new List<TextLocData>();
 
         public UIWindow DebugWindow;
+        public UIWindow ErrorWindow;
+        public string ErrorStr;
 
         private void Awake()
         {
@@ -52,10 +55,23 @@ namespace DinkumChinese
             DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "开发模式时，不加载DynamicText Post Quest翻译，方便dump");
             DebugWindow = new UIWindow("汉化测试工具[Ctrl+小键盘4]");
             DebugWindow.OnWinodwGUI = DebugWindowGUI;
-            Harmony.CreateAndPatchAll(typeof(DinkumChinesePlugin));
-            Harmony.CreateAndPatchAll(typeof(ILPatch));
-            Harmony.CreateAndPatchAll(typeof(StringReturnPatch));
-            Harmony.CreateAndPatchAll(typeof(StartTranslatePatch));
+            ErrorWindow = new UIWindow("汉化出现错误");
+            ErrorWindow.OnWinodwGUI = ErrorWindowFunc;
+            try
+            {
+                Harmony.CreateAndPatchAll(typeof(DinkumChinesePlugin));
+                Harmony.CreateAndPatchAll(typeof(ILPatch));
+                Harmony.CreateAndPatchAll(typeof(StringReturnPatch));
+                Harmony.CreateAndPatchAll(typeof(StartTranslatePatch));
+            }
+            catch (ExecutionEngineException ex)
+            {
+                ErrorStr = $"汉化出现错误。推测是由于用户名或者游戏路径中包含非英文字符导致。\n异常信息:\n{ex}";
+            }
+            catch (Exception ex)
+            {
+                ErrorStr = $"汉化出现错误。\n异常信息:\n{ex}";
+            }
             if (DevMode.Value && DontLoadLocOnDevMode.Value)
             {
                 return;
@@ -66,6 +82,11 @@ namespace DinkumChinese
             TipsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TipsTextLoc.json");
             MailTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/MailTextLoc.json");
             AnimalsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/AnimalsTextLoc.json");
+        }
+
+        public void ErrorWindowFunc()
+        {
+
         }
 
         private void Start()
