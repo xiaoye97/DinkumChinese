@@ -319,6 +319,14 @@ namespace DinkumChinese
             return instructions;
         }
 
+        [HarmonyTranspiler, HarmonyPatch(typeof(LicenceManager), "getLicenceLevelDescription")]
+        public static IEnumerable<CodeInstruction> LicenceManager_getLicenceLevelDescription_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Coming soon. The holder will get instant access to Building Level 3 once it has arrived",
+                "即将推出");
+            return instructions;
+        }
+
         [HarmonyTranspiler, HarmonyPatch(typeof(NetworkMapSharer), "UserCode_RpcAddToMuseum")]
         public static IEnumerable<CodeInstruction> NetworkMapSharer_UserCode_RpcAddToMuseum_Patch(IEnumerable<CodeInstruction> instructions)
         {
@@ -366,6 +374,14 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, "Request Completed by ", "请求完成由");
             instructions = ReplaceIL(instructions, "Investigation Request Complete!", "调查请求完成！");
             instructions = ReplaceIL(instructions, "Request Complete!", "请求完成！");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(PostOnBoard), "getPostedByName")]
+        public static IEnumerable<CodeInstruction> PostOnBoard_getPostedByName_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "Town Announcement", "城镇公告");
+            instructions = ReplaceIL(instructions, "Animal Research Centre", "动物研究中心");
             return instructions;
         }
 

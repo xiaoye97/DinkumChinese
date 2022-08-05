@@ -67,10 +67,12 @@ namespace DinkumChinese
             catch (ExecutionEngineException ex)
             {
                 ErrorStr = $"汉化出现错误。推测是由于用户名或者游戏路径中包含非英文字符导致。\n异常信息:\n{ex}";
+                ErrorWindow.Show = true;
             }
             catch (Exception ex)
             {
                 ErrorStr = $"汉化出现错误。\n异常信息:\n{ex}";
+                ErrorWindow.Show = true;
             }
             if (DevMode.Value && DontLoadLocOnDevMode.Value)
             {
@@ -86,7 +88,7 @@ namespace DinkumChinese
 
         public void ErrorWindowFunc()
         {
-
+            GUILayout.Label(ErrorStr);
         }
 
         private void Start()
@@ -132,6 +134,7 @@ namespace DinkumChinese
         private void OnGUI()
         {
             DebugWindow.OnGUI();
+            ErrorWindow.OnGUI();
         }
 
         private Vector2 cv;
