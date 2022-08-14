@@ -34,6 +34,7 @@ DescriptionDetails/Title_Consumable	Consumable	Consommable	Потребляем�
 DescriptionDetails/Title_Consuming	Consuming	Consommant	Потребляющий	消费	消費する
 DescriptionDetails/Title_ContinuesToProduce	Continues to produce	Continue à produire	Продолжает производить	继续生产	生産し続け
 DescriptionDetails/Title_Damage	Damage	Dommage	Повреждение	损伤	損傷
+DescriptionDetails/Title_days	days	journées	дней	天	日々
 DescriptionDetails/Title_GrowsOver	Grows over	Se développe sur	Растет над	生长了	オーバー育ちます
 DescriptionDetails/Title_Health	health	santé	здоровье	健康	健康
 DescriptionDetails/Title_Plantable	Plantable	Plantable	Plantable	适宜种植	Plantable
@@ -42,7 +43,6 @@ DescriptionDetails/Title_Restores	restores	restaure	восстановления
 DescriptionDetails/Title_Stamina	stamina	endurance	выносливость	耐力	スタミナ
 DescriptionDetails/Title_TilledSoil	Tilled Soil	Sol Labouré	Почва	耕地	耕作土壌
 DescriptionDetails/Title_Weapon	Weapon	Arme	Оружие	武器	武器
-DescriptionDetails/Title_days	days	journées	дней	天	日々
 Generic/CompleteHuntingRequest_Intro_000	Thank you for taking care of the <requestedHuntTarget>.				
 Generic/CompleteHuntingRequest_Intro_001	Those Alpha creatures are really dangerous and can cause a lot of havoc.				
 Generic/CompleteHuntingRequest_Intro_002	Here, take <BulletinBoardReward> as promised.				
@@ -2164,6 +2164,10 @@ Npc1/RandomConvo_013_Intro_001	I would offer you a discount, but my brother is a
 Npc1/RandomConvo_013_Intro_002	<haha>But just remember that I was thinking of it, okay?þ				
 Npc1/RandomConvo_014_Intro_000	<yes>The people in <SouthCity> are happy to eat anything that isn’t <BlobFish>.þ				
 Npc1/RandomConvo_014_Intro_001	<yes>So when they get to buy the exotic fish that can be found here on <IslandName>, they will pay top <Dink> for it!þ				
+Npc1/RandomConvo_015_Intro_000	þThat’s a fancy <Journal> you’ve got there.þ				
+Npc1/RandomConvo_015_Intro_001	<yes><NPCName> actually told me all about it.þ				
+Npc1/RandomConvo_015_Intro_002	<no>I can’t imagine how much it means to her.þ				
+Npc1/RandomConvo_015_Intro_003					
 Npc1/RandomConvo_016_Intro_000	My brother says he’s been spending a lot of time looking for new items to ship over to us here on <IslandName>.þ				
 Npc1/RandomConvo_016_Intro_001	<thinking>He assures me he’s been working a lot.þ				
 Npc1/RandomConvo_016_Intro_002	<yes>I hope he’s okay.þ				
@@ -2478,6 +2482,15 @@ Npc2/Arvo_Greeting 1_Response_003_000	Goodbye.
 Npc2/Arvo_Greeting 2_Intro_000	My goodness!				
 Npc2/Arvo_Greeting 2_Intro_001	It is <getTime> already.þ				
 Npc2/Arvo_Greeting 2_Response_003_000	I will be on my way.				
+Npc2/CanMakeTechForYou_Intro_000	So, you are interested in my <itemName>.				
+Npc2/CanMakeTechForYou_Intro_001	It will be very handy to have I can assure you!				
+Npc2/CanMakeTechForYou_Intro_002	Now to make that item I will require the components and <craftItemPrice>. 				
+Npc2/CanMakeTechForYou_Intro_003	I will also require a day or so to make it.				
+Npc2/CanMakeTechForYou_Intro_004	Do we have an agreement?				
+Npc2/CanMakeTechForYou_Option_000	Let's make it!				
+Npc2/CanMakeTechForYou_Option_001	Not this time.				
+Npc2/CanMakeTechForYou_Response_001_000	Very well.				
+Npc2/CanMakeTechForYou_Response_001_001					
 Npc2/CanMakeTechForYouNotEnoughMoney_Intro_000	So, you are interested in my <itemName>.				
 Npc2/CanMakeTechForYouNotEnoughMoney_Intro_001	It will be very handy to have I can assure you!				
 Npc2/CanMakeTechForYouNotEnoughMoney_Intro_002	Now to make that item I will require the components and <craftItemPrice>. 				
@@ -2491,15 +2504,6 @@ Npc2/CanMakeTechForYouNotEnoughMoney_Response_000_002	Why don't you come back wi
 Npc2/CanMakeTechForYouNotEnoughMoney_Response_000_003	<yes>And I will try to avoid remembering this embarrassing exchange.				
 Npc2/CanMakeTechForYouNotEnoughMoney_Response_001_000	Very well.				
 Npc2/CanMakeTechForYouNotEnoughMoney_Response_001_001					
-Npc2/CanMakeTechForYou_Intro_000	So, you are interested in my <itemName>.				
-Npc2/CanMakeTechForYou_Intro_001	It will be very handy to have I can assure you!				
-Npc2/CanMakeTechForYou_Intro_002	Now to make that item I will require the components and <craftItemPrice>. 				
-Npc2/CanMakeTechForYou_Intro_003	I will also require a day or so to make it.				
-Npc2/CanMakeTechForYou_Intro_004	Do we have an agreement?				
-Npc2/CanMakeTechForYou_Option_000	Let's make it!				
-Npc2/CanMakeTechForYou_Option_001	Not this time.				
-Npc2/CanMakeTechForYou_Response_001_000	Very well.				
-Npc2/CanMakeTechForYou_Response_001_001					
 Npc2/CrafterCurrentlyCrafting_Intro_000	Oh, <PlayerName>. I am actually a quite busy right now.				
 Npc2/CrafterCurrentlyCrafting_Intro_001	I have to get this project done by tomorrow.				
 Npc2/CrafterCurrentlyCrafting_Intro_002	Is there something you need?				
@@ -2653,8 +2657,6 @@ Npc2/Night_Greeting 1_Intro_001	Around <getTime>, if my time keeping unit is cor
 Npc2/Night_Greeting 1_Response_003_000					
 Npc2/Night_Greeting 2_Intro_000	Good evening.þ				
 Npc2/Night_Greeting 2_Response_003_000					
-Npc2/NoTechToDonate_Intro_000	So you do not have any interesting relics for me?	Donc, vous n'avez pas encore des reliques intéressantes pour moi?	Таким образом, у вас нет никаких интересных реликвий для меня?		だから、私のために何か面白い遺物を持っていませんか？
-Npc2/NoTechToDonate_Intro_001	Thank you for wasting my time.	Nous vous remercions de perdre mon temps.	Спасибо за тратить свое время.		私の時間を無駄いただきありがとうございます。
 Npc2/Noon_Greeting 0_Intro_000	The time is roughly <getTime>.þ				
 Npc2/Noon_Greeting 0_Response_003_000	þVery well.þ				
 Npc2/Noon_Greeting 1_Intro_000	Good day.				
@@ -2662,6 +2664,8 @@ Npc2/Noon_Greeting 1_Response_003_000	Goodbye.
 Npc2/Noon_Greeting 2_Intro_000	<yes>The day is passing quickly.þ				
 Npc2/Noon_Greeting 2_Intro_001	<no>Metaphorically, of course.þ				
 Npc2/Noon_Greeting 2_Response_003_000	Carpe diem.				
+Npc2/NoTechToDonate_Intro_000	So you do not have any interesting relics for me?	Donc, vous n'avez pas encore des reliques intéressantes pour moi?	Таким образом, у вас нет никаких интересных реликвий для меня?		だから、私のために何か面白い遺物を持っていませんか？
+Npc2/NoTechToDonate_Intro_001	Thank you for wasting my time.	Nous vous remercions de perdre mon temps.	Спасибо за тратить свое время.		私の時間を無駄いただきありがとうございます。
 Npc2/RandomConvo_000_Intro_000	Oh, yes. Talking. Let us do that.þ				
 Npc2/RandomConvo_000_Option_000	How have you been				
 Npc2/RandomConvo_000_Option_001	What have you been up to?				
@@ -2999,6 +3003,9 @@ Npc4/Gossip_About_NPC_000_Intro_001	She’s all on the surface, y’know?þ
 Npc4/Gossip_About_NPC_001_Intro_000	I love the music in <NPCName> shop.þ				
 Npc4/Gossip_About_NPC_001_Intro_001	You hear it, right?þ				
 Npc4/Gossip_About_NPC_001_Intro_002	<no><NPCName> doesn’t...þ				
+Npc4/Gossip_About_NPC_002_Intro_000	<yes>I really dig <NPCName>'s vibe.þ				
+Npc4/Gossip_About_NPC_002_Intro_001	<no>There's no WAY I could pull off wearing goggles...þ				
+Npc4/Gossip_About_NPC_002_Intro_002	<shy>Believe me, I tried!				
 Npc4/Gossip_About_NPC_003_Intro_000	<NPCName> doesn’t say too much...þ				
 Npc4/Gossip_About_NPC_003_Intro_001	I guess he’s a little bit like you, right <PlayerName>?				
 Npc4/Gossip_About_NPC_006_Intro_000	I can see amazing things for <NPCName>.þ				
@@ -3170,6 +3177,8 @@ Npc5/NothingToGiveTrapper_Intro_000	<sigh>Oh, what? You've got nothing for me?
 Npc5/NothingToGiveTrapper_Intro_001	<no>Righto, mate.				
 Npc5/RandomConvo 0_Intro_000	Stay alert, <PlayerName>.				
 Npc5/RandomConvo 0_Intro_001	<yes>Threats can emerge from anywhere out here.				
+Npc5/RandomConvo 1_Intro_000	<no>There ain't nothing like living off the land.				
+Npc5/RandomConvo 1_Intro_001	It's bloody thrilling!				
 Npc5/RandomConvo 10_Intro_000	Maintaining your equipment is not only Mission-Critical, it’s also the best way to spend a Sundy arvo.				
 Npc5/RandomConvo 10_Intro_001	<yes>Fact. 				
 Npc5/RandomConvo 11_Intro_000	I reckon everyone back in <SouthCity> needs to come here for a night or two.				
@@ -3188,8 +3197,6 @@ Npc5/RandomConvo 17_Intro_000	<proud>I never run away from a challenge.
 Npc5/RandomConvo 17_Intro_001	Unless that challenge has big teeth and it's way to close.				
 Npc5/RandomConvo 18_Intro_000	It's so good to see a youngen like yourself out here exploring.				
 Npc5/RandomConvo 18_Intro_001	We need more people like you, <PlayerName>.				
-Npc5/RandomConvo 1_Intro_000	<no>There ain't nothing like living off the land.				
-Npc5/RandomConvo 1_Intro_001	It's bloody thrilling!				
 Npc5/RandomConvo 2_Intro_000	<no>Weapons aren’t toys you know.				
 Npc5/RandomConvo 2_Intro_001	<yes>They are tools we use to defend ourselves and hunt for food.				
 Npc5/RandomConvo 3_Intro_000	Where am I from?				
@@ -3407,15 +3414,6 @@ Npc6/MoveHouseConvo_Response_000_001	<thinking>You're probably going to want to 
 Npc6/MoveHouseConvo_Response_000_002	<yes>Now these movers are quick, but they can be very rough...				
 Npc6/MoveHouseConvo_Response_000_003	<yes>They'll try their best to put your furniture back where they found it, but sometimes they can get it all jumbled up.				
 Npc6/MoveHouseConvo_Response_001_000					
-Npc6/NPC_006_RandomConvo_000(Clone)_Intro_0	I’ll tell you what, I really enjoy chatting to you, <PlayerName>.	Je vais vous dire ce que j'aime beaucoup bavarder avec vous, <PlayerName>.	Я скажу вам, что я действительно поболтать с вами, <PlayerName>.		私は<プレイヤー名>、私は本当にあなたにおしゃべりを楽しむ何、あなたを教えてあげましょう。
-Npc6/NPC_006_RandomConvo_000(Clone)_Intro_1	It’s probably because you don’t talk as much as I do! You really know how to listen.þ	Il est probablement parce que vous ne parlez pas autant que moi! Vous savez vraiment comment écouter.þ	Это, вероятно, потому, что вы не говорите так много, как я! Вы действительно знаете, как слушать.þ		それはあなたが、私がそうであるように限り話をしないので、おそらくです！あなたは本当に聞きする方法を知っています。þ
-Npc6/NPC_006_RandomConvo_000(Clone)_Option_0	I wanted...	J'ai voulu...	Я хотел...		私は欲しかった...
-Npc6/NPC_006_RandomConvo_000(Clone)_Option_1	Actually...	Réellement...	Фактически...		実は...
-Npc6/NPC_006_RandomConvo_000(Clone)_Response_0_0	I’ll tell you what! You’re a true blue friend, <PlayerName>.	Je vais vous dire ce que! Vous êtes un véritable ami bleu, <PlayerName>.	Я скажу тебе что! Ты настоящий синий друг, <PlayerName>.		私はあなたに何を教えてあげましょう！あなたは<プレイヤー名>、真の青の友人です。
-Npc6/NPC_006_RandomConvo_000(Clone)_Response_1_0	I’ll tell you what! You’re a true blue friend, <PlayerName>.	Je vais vous dire ce que! Vous êtes un véritable ami bleu, <PlayerName>.	Я скажу тебе что! Ты настоящий синий друг, <PlayerName>.		私はあなたに何を教えてあげましょう！あなたは<プレイヤー名>、真の青の友人です。
-Npc6/NPC_006_RandomConvo_001(Clone)_Intro_0	How lucky is it that <favouriteFood> grows natively here on <IslandName>!	Quelle chance est-il que <favouriteFood> grandit nativement ici <IslandName>!	Как повезло, что это <favouriteFood> растет изначально здесь <IslandName>!		それは<favouriteFoodが> <IslandName>上でネイティブにここに成長することをどのようにラッキーです！
-Npc6/NPC_006_RandomConvo_001(Clone)_Intro_1	<glee><favouriteFood> is my favourite food! I bloody love them!þ	<Glee> <favouriteFood> est ma nourriture préférée! Je l'amour sanglant eux!þ	<Ликования> <favouriteFood> моя любимая еда! Я кровавая любовь их!þ		<歓喜> <favouriteFood>私の好きな食べ物です！ I血まみれの愛それら！þ
-Npc6/NPC_006_RandomConvo_001(Clone)_Intro_2	I’m a very lucky lady, I’ll tell you what! þ	Je suis une dame très chanceux, je vais vous dire quoi!þ	Я очень повезло, леди, я вам скажу, что!þ		私は非常に幸運な女性だけど、私はあなたに何を教えてあげましょう！þ
 Npc6/Night_Greeting 0_Intro_000	<no>I can’t see anything in this murk.				
 Npc6/Night_Greeting 0_Intro_001	Is that you, <PlayerName>?				
 Npc6/Night_Greeting 0_Response_003_000	Good night!				
@@ -3431,9 +3429,6 @@ Npc6/No Deeds Avaliable_Intro_002
 Npc6/No Room In Inv Building Move 1_Intro_000	<no>You don't have any room to hold the move deed!				
 Npc6/No Room In Inv Building Move 1_Intro_001	<yes>Please, make some room and come and talk to me.				
 Npc6/No Upgrades Left_Intro_000	It looks like your house is as big as it can be for now! <haha>	Il semble que votre maison est aussi grand que possible pour l'instant! <Haha>	Похоже, что ваш дом является столь же большим, как это может быть сейчас! <Ха>		あなたの家は、それが今のことができるように、大きな通りであるように見えます！ <笑>
-Npc6/NoRoomForDeeds_Intro_000	Hmmm. <thinking>				
-Npc6/NoRoomForDeeds_Intro_001	I don't think you have room to hold any deeds. <no>				
-Npc6/NoRoomForDeeds_Intro_002					
 Npc6/Noon_Greeting 0_Intro_000	<thinking>Just about lunchtime, I think.þ				
 Npc6/Noon_Greeting 0_Response_003_000					
 Npc6/Noon_Greeting 1_Intro_000	G’day <PlayerName>.				
@@ -3442,6 +3437,9 @@ Npc6/Noon_Greeting 1_Response_003_000	<wave>Hooroo.
 Npc6/Noon_Greeting 2_Intro_000	Noon already?				
 Npc6/Noon_Greeting 2_Intro_001	I’ll tell you what, today is going quick!				
 Npc6/Noon_Greeting 2_Response_003_000					
+Npc6/NoRoomForDeeds_Intro_000	Hmmm. <thinking>				
+Npc6/NoRoomForDeeds_Intro_001	I don't think you have room to hold any deeds. <no>				
+Npc6/NoRoomForDeeds_Intro_002					
 Npc6/NotALocalDeed_Intro_000					
 Npc6/NotEnoughMoneyToMoveHouse_Intro_000	Alright, we can move your house for <sprite=11>25,000.				
 Npc6/NotEnoughMoneyToMoveHouse_Intro_001	Does that sound okay?				
@@ -3450,6 +3448,15 @@ Npc6/NotEnoughMoneyToMoveHouse_Option_001	No thanks.
 Npc6/NotEnoughMoneyToMoveHouse_Response_000_000	<shy>Oh, it seems like you can't afford to move it right now...				
 Npc6/NotEnoughMoneyToMoveHouse_Response_000_001	That's alright, just come and ask me again when you can, okay?				
 Npc6/NotEnoughMoneyToMoveHouse_Response_001_000	Maybe some other time, hmm?				
+Npc6/NPC_006_RandomConvo_000(Clone)_Intro_0	I’ll tell you what, I really enjoy chatting to you, <PlayerName>.	Je vais vous dire ce que j'aime beaucoup bavarder avec vous, <PlayerName>.	Я скажу вам, что я действительно поболтать с вами, <PlayerName>.		私は<プレイヤー名>、私は本当にあなたにおしゃべりを楽しむ何、あなたを教えてあげましょう。
+Npc6/NPC_006_RandomConvo_000(Clone)_Intro_1	It’s probably because you don’t talk as much as I do! You really know how to listen.þ	Il est probablement parce que vous ne parlez pas autant que moi! Vous savez vraiment comment écouter.þ	Это, вероятно, потому, что вы не говорите так много, как я! Вы действительно знаете, как слушать.þ		それはあなたが、私がそうであるように限り話をしないので、おそらくです！あなたは本当に聞きする方法を知っています。þ
+Npc6/NPC_006_RandomConvo_000(Clone)_Option_0	I wanted...	J'ai voulu...	Я хотел...		私は欲しかった...
+Npc6/NPC_006_RandomConvo_000(Clone)_Option_1	Actually...	Réellement...	Фактически...		実は...
+Npc6/NPC_006_RandomConvo_000(Clone)_Response_0_0	I’ll tell you what! You’re a true blue friend, <PlayerName>.	Je vais vous dire ce que! Vous êtes un véritable ami bleu, <PlayerName>.	Я скажу тебе что! Ты настоящий синий друг, <PlayerName>.		私はあなたに何を教えてあげましょう！あなたは<プレイヤー名>、真の青の友人です。
+Npc6/NPC_006_RandomConvo_000(Clone)_Response_1_0	I’ll tell you what! You’re a true blue friend, <PlayerName>.	Je vais vous dire ce que! Vous êtes un véritable ami bleu, <PlayerName>.	Я скажу тебе что! Ты настоящий синий друг, <PlayerName>.		私はあなたに何を教えてあげましょう！あなたは<プレイヤー名>、真の青の友人です。
+Npc6/NPC_006_RandomConvo_001(Clone)_Intro_0	How lucky is it that <favouriteFood> grows natively here on <IslandName>!	Quelle chance est-il que <favouriteFood> grandit nativement ici <IslandName>!	Как повезло, что это <favouriteFood> растет изначально здесь <IslandName>!		それは<favouriteFoodが> <IslandName>上でネイティブにここに成長することをどのようにラッキーです！
+Npc6/NPC_006_RandomConvo_001(Clone)_Intro_1	<glee><favouriteFood> is my favourite food! I bloody love them!þ	<Glee> <favouriteFood> est ma nourriture préférée! Je l'amour sanglant eux!þ	<Ликования> <favouriteFood> моя любимая еда! Я кровавая любовь их!þ		<歓喜> <favouriteFood>私の好きな食べ物です！ I血まみれの愛それら！þ
+Npc6/NPC_006_RandomConvo_001(Clone)_Intro_2	I’m a very lucky lady, I’ll tell you what! þ	Je suis une dame très chanceux, je vais vous dire quoi!þ	Я очень повезло, леди, я вам скажу, что!þ		私は非常に幸運な女性だけど、私はあなたに何を教えてあげましょう！þ
 Npc6/OpenDeed Screen_Intro_000	Okay, here are our current deeds.				
 Npc6/Pay off town Debt_Intro_000	Hmmm... <thinking>	Hmmm ... <pensée>	Хммм ... <мышление>		うーん... <思考>
 Npc6/Pay off town Debt_Intro_001	I don't think it would be wise to apply for more deeds with the town in debt. <no>	Je ne pense pas qu'il serait sage de demander plus de titres avec la ville de la dette. <No>	Я не думаю, что было бы целесообразно применять для более дел с городом в долге. <Нет>		私は借金の町でより多くの行為のために適用するのが賢明だろうとは思いません。 <なし>
@@ -3541,14 +3548,6 @@ Npc6/RandomConvo_034_Intro_000	My father always used to say: “You keep your fr
 Npc6/RandomConvo_034_Intro_001	<haha> He wasn’t much of a wordy, but he knew how to get things done, make no mistake.þ				
 Npc6/RandomConvo_034_Intro_002	<yes>Always looking out for his friends, he was.þ				
 Npc6/RandomConvo_034_Intro_003	<yes>Just like you <PlayerName>.þ				
-Npc6/StartingConversationTent_Intro_000	Ah! So, you're interested in applying for a house deed?				
-Npc6/StartingConversationTent_Intro_001	I'll just let you know there is a <getHousePrice> up front fee. <thinking>				
-Npc6/StartingConversationTent_Intro_002	Oh, and once you've applied for the deed, you will have to source the construction materials yourself. <yes>				
-Npc6/StartingConversationTent_Intro_003	So, are you interested in applying for a house of your own?				
-Npc6/StartingConversationTent_Option_000	I want to apply for a house.				
-Npc6/StartingConversationTent_Option_001	Nevermind.				
-Npc6/StartingConversationTent_Response_001_000	Well, I'll let you have a think about it.				
-Npc6/StartingConversationTent_Response_001_001	Let me know if you change your mind.				
 Npc6/StartingConversation_Intro_000	So, you wanted to talk about your home?	, Vous vouliez ainsi parler de votre maison?	Итак, вы хотите поговорить о вашем доме?		だから、あなたはあなたの家の話をしたいですか？
 Npc6/StartingConversation_Option_000	I want to upgrade	Je veux mettre à jour	Я хочу, чтобы обновить		私はアップグレードしたいです
 Npc6/StartingConversation_Option_001	Change the look of my house.	Changer l'apparence de ma maison.	Измените внешний вид своего дома.		私の家の外観を変更します。
@@ -3557,6 +3556,14 @@ Npc6/StartingConversation_Option_003	Nevermind.	Ça ne fait rien.	Неважно
 Npc6/StartingConversation_Response_001_000	Okay, let's see what we can do...	D'accord, nous allons voir ce que nous pouvons faire ...	Хорошо, давайте посмотрим, что мы можем сделать ...		さて、私たちは何ができるか見てみましょう...
 Npc6/StartingConversation_Response_002_000	Hmmm...	Hmmm...	Хм...		うーん...
 Npc6/StartingConversation_Response_003_000	Alright then, <PlayerName>.	Très bien alors, <PlayerName>.	Хорошо то, <PlayerName>.		さてさて、その後、<プレイヤー名>。
+Npc6/StartingConversationTent_Intro_000	Ah! So, you're interested in applying for a house deed?				
+Npc6/StartingConversationTent_Intro_001	I'll just let you know there is a <getHousePrice> up front fee. <thinking>				
+Npc6/StartingConversationTent_Intro_002	Oh, and once you've applied for the deed, you will have to source the construction materials yourself. <yes>				
+Npc6/StartingConversationTent_Intro_003	So, are you interested in applying for a house of your own?				
+Npc6/StartingConversationTent_Option_000	I want to apply for a house.				
+Npc6/StartingConversationTent_Option_001	Nevermind.				
+Npc6/StartingConversationTent_Response_001_000	Well, I'll let you have a think about it.				
+Npc6/StartingConversationTent_Response_001_001	Let me know if you change your mind.				
 Npc6/StartingConvo_Intro_000	What exactly can I help you with?	Qu'est-ce exactement ce que je peux vous aider?	Что именно я могу помочь?		何が丁度私があなたを助けることができますか？
 Npc6/StartingConvo_Option_000	Can I see the deeds?	Puis-je voir les actions?	Могу ли я увидеть дело?		私は行為を見ることができますか？
 Npc6/StartingConvo_Option_001	I want to move a building.	Je veux déplacer un bâtiment.	Я хочу, чтобы переместить здание.		私は建物を移動したいです。
@@ -3583,11 +3590,6 @@ Npc6/Upgrade House No Money_Response_000_000	Very good!
 Npc6/Upgrade House No Money_Response_000_001	...Oh. It seems like you a bit short on cash. <shy>				
 Npc6/Upgrade House No Money_Response_000_002	Perhaps you can come back when your pockets are a bit heavier?				
 Npc6/Upgrade House No Money_Response_001_000	Well, if you change your mind, please come speak to me.				
-Npc6/Upgrade HouseTent_Intro_000	Alright I'll take <getHousePrice> from you.				
-Npc6/Upgrade HouseTent_Intro_001	You'll find the construction material box in front of your house.				
-Npc6/Upgrade HouseTent_Intro_002	As soon as it's full you'll find the construction will be completed over night.				
-Npc6/Upgrade HouseTent_Intro_003	Don't worry. I hire very quiet workers. You won't hear a peep out of them! <haha>				
-Npc6/Upgrade HouseTent_Intro_004	I hope you're looking forward to your new house! <glee>				
 Npc6/Upgrade House_Intro_000	Well, to make your house bigger its going to cost <getHousePrice>. How does that sound?				
 Npc6/Upgrade House_Option_000	Yes!				
 Npc6/Upgrade House_Option_001	Maybe later.				
@@ -3595,6 +3597,11 @@ Npc6/Upgrade House_Response_000_000	Okay. We'll set up a construction box infron
 Npc6/Upgrade House_Response_000_001	We wont be able to start construction until you fill the box with the required construction materials. <yes>				
 Npc6/Upgrade House_Response_000_002	As so you as have all the required materials, construction can begin!				
 Npc6/Upgrade House_Response_001_000					
+Npc6/Upgrade HouseTent_Intro_000	Alright I'll take <getHousePrice> from you.				
+Npc6/Upgrade HouseTent_Intro_001	You'll find the construction material box in front of your house.				
+Npc6/Upgrade HouseTent_Intro_002	As soon as it's full you'll find the construction will be completed over night.				
+Npc6/Upgrade HouseTent_Intro_003	Don't worry. I hire very quiet workers. You won't hear a peep out of them! <haha>				
+Npc6/Upgrade HouseTent_Intro_004	I hope you're looking forward to your new house! <glee>				
 Npc6/WantToMoveBuilding_Intro_000	So we're going to relocate <relocateBuildingName>?	Nous allons donc déménager <relocateBuildingName>?	Итак, мы собираемся переместить <relocateBuildingName>?		私たちは<relocateBuildingName>移転するつもりだそう？
 Npc6/WantToMoveBuilding_Intro_001	Relocating the building will put the town <sprite=11>25,000 in debt.	Déménager le bâtiment mettra la ville <sprite = 11> 25 000 dans la dette.	Переселение здания поставит город <спрайта = 11> 25,000 в долге.		建物の再配置は、債務の<スプライト= 11> 25,000の町を入れます。
 Npc6/WantToMoveBuilding_Intro_002	Is that okay?	Est-ce OK?	Все хорошо?		それは大丈夫ですか？
@@ -3879,6 +3886,15 @@ Npc8/RandomConvo_018_Intro_002	<worried>I really hope one of them doesn’t open
 Npc8/RandomConvo_019_Intro_000	<no>Don’t let anybody ever tell you that you can’t do something.				
 Npc8/RandomConvo_019_Intro_001	<no>Even if you have none of the skills, or are poorly suited, or are physically incapable, it doesn’t matter!				
 Npc8/RandomConvo_019_Intro_002					
+Npc9/allItemsAreNew_Intro_000	<shocked>Oh my! A <donationName>!	Oh mon! A <donationName>! <Choqué>	О мой! А <donationName>! <Шокировал>		私のああ！ A <donationName>！ <ショック>
+Npc9/allItemsAreNew_Intro_001	<shy>Our collection is currently missing a <donationName>.	Notre collection est actuellement un manque <donationName>. <Timide>	Наша коллекция в настоящее время отсутствует <donationName>. <Застенчивый>		私達のコレクションは現在、<donationName>が欠落しています。 <恥ずかしがり屋>
+Npc9/allItemsAreNew_Intro_002	Would you be willing to donate it?	Seriez-vous prêt à faire don?	Готовы ли вы пожертвовать это?		あなたはそれを寄付することをいとわないだろうか？
+Npc9/allItemsAreNew_Option_000	Take it!	Prends-le!	Возьми это!		それを持っていこう！
+Npc9/allItemsAreNew_Option_001	Actually...	Réellement...	Фактически...		実は...
+Npc9/allItemsAreNew_Response_000_000	<glee>Your generosity is outstanding!	Votre générosité est remarquable! <Glee>	Ваше великодушие выдающееся! <Ликования>		あなたの寛大さは抜群です！ <歓喜>
+Npc9/allItemsAreNew_Response_000_001	Please accept <donationReward> as a small token of our gratitude!				
+Npc9/allItemsAreNew_Response_001_000	Oh, I'll give this back then.	Oh, je vais donner cette époque.	О, я дам это тогда.		ああ、私は、この背中を与えるでしょう。
+Npc9/allItemsAreNew_Response_001_001	If you change your mind, don't hesitate to come back.	Si vous changez d'avis, ne pas hésiter à revenir.	Если вы передумаете, не колеблясь, чтобы вернуться.		あなたがあなたの心を変更する場合は、戻ってくることを躊躇しません。
 Npc9/Ask if has Another donation_Intro_000	Is there anything else I can help you with?	Y at-il autre chose que je peux vous aider?	Есть ли что-нибудь еще я могу помочь?		私はあなたを助けることができる何か他のものはありますか？
 Npc9/Ask if has Another donation_Option_000	I have another donation.	J'ai un autre don.	У меня есть еще одно пожертвование.		私は別の寄付を持っています。
 Npc9/Ask if has Another donation_Option_001	Thats all!	C'est tout!	Вот и все!		それで全部です！
@@ -3985,39 +4001,30 @@ Npc9/RandomConvo_019_Intro_003	<yes>So its all worth it!
 Npc9/RandomConvo_020_Intro_000	What’s the point of anything happening if nobody is there to record it?				
 Npc9/RandomConvo_020_Intro_001	<yes>Hey, <PlayerName>, if a tree falls in the woods, please be sure to let me know.				
 Npc9/Thank you_Intro_000	Thank you! It looks great up here doesn't it?	Merci! Il semble très haut ne pas ici?	Спасибо! Он отлично смотрится здесь, не так ли?		ありがとうございました！それはそれはここで素晴らしいアップをしないに見えますか？
-Npc9/allItemsAreNew_Intro_000	<shocked>Oh my! A <donationName>!	Oh mon! A <donationName>! <Choqué>	О мой! А <donationName>! <Шокировал>		私のああ！ A <donationName>！ <ショック>
-Npc9/allItemsAreNew_Intro_001	<shy>Our collection is currently missing a <donationName>.	Notre collection est actuellement un manque <donationName>. <Timide>	Наша коллекция в настоящее время отсутствует <donationName>. <Застенчивый>		私達のコレクションは現在、<donationName>が欠落しています。 <恥ずかしがり屋>
-Npc9/allItemsAreNew_Intro_002	Would you be willing to donate it?	Seriez-vous prêt à faire don?	Готовы ли вы пожертвовать это?		あなたはそれを寄付することをいとわないだろうか？
-Npc9/allItemsAreNew_Option_000	Take it!	Prends-le!	Возьми это!		それを持っていこう！
-Npc9/allItemsAreNew_Option_001	Actually...	Réellement...	Фактически...		実は...
-Npc9/allItemsAreNew_Response_000_000	<glee>Your generosity is outstanding!	Votre générosité est remarquable! <Glee>	Ваше великодушие выдающееся! <Ликования>		あなたの寛大さは抜群です！ <歓喜>
-Npc9/allItemsAreNew_Response_000_001	Please accept <donationReward> as a small token of our gratitude!				
-Npc9/allItemsAreNew_Response_001_000	Oh, I'll give this back then.	Oh, je vais donner cette époque.	О, я дам это тогда.		ああ、私は、この背中を与えるでしょう。
-Npc9/allItemsAreNew_Response_001_001	If you change your mind, don't hesitate to come back.	Si vous changez d'avis, ne pas hésiter à revenir.	Если вы передумаете, не колеблясь, чтобы вернуться.		あなたがあなたの心を変更する場合は、戻ってくることを躊躇しません。
 Player/ConfirmDeedNotServer_Intro_000	This deed is for my island.				
 Player/ConfirmDeedNotServer_Intro_001	I should probably place it there.				
 Player/ConfirmDeedPlacement_Intro_000	Is this a good place for the <currentItemInHand>?				
 Player/ConfirmDeedPlacement_Option_000	Yes				
 Player/ConfirmDeedPlacement_Option_001	No				
-Player/ConstructionBoxFull_Intro_000	All the materials are here. 				
-Player/ConstructionBoxFull_Intro_001	Construction will start tomorrow.				
-Player/ConstructionBoxOnceCompleted_Intro_000	All the required construction materials have been deposited!				
-Player/ConstructionBoxOnceCompleted_Intro_001	Construction can begin tomorrow.				
 Player/ConstructionBox_Needs Items_Intro_000	Building materials are required to begin construction.				
 Player/ConstructionBox_Needs Items_Intro_001	Should I place building materials inside?				
 Player/ConstructionBox_Needs Items_Option_000	Place Items				
 Player/ConstructionBox_Needs Items_Option_001	Nevermind.				
+Player/ConstructionBoxFull_Intro_000	All the materials are here. 				
+Player/ConstructionBoxFull_Intro_001	Construction will start tomorrow.				
+Player/ConstructionBoxOnceCompleted_Intro_000	All the required construction materials have been deposited!				
+Player/ConstructionBoxOnceCompleted_Intro_001	Construction can begin tomorrow.				
 Player/InventoryFullBugOrFish_Intro_000	My pockets are full...				
 Player/InventoryFullBugOrFish_Intro_001	Should I swap something to make room for this <itemName>?				
 Player/InventoryFullBugOrFish_Option_000	Yes.				
 Player/InventoryFullBugOrFish_Option_001	No.				
-Player/TeleCallerDoesn'tWork_Intro_000					
 Player/Telebox Once Completed_Intro_000	That seems to have done it!				
 Player/Telebox Once Completed_Intro_001	What happens next?				
 Player/TeleboxNeedsItems_Intro_000	This thing looks broken. There are parts missing.				
 Player/TeleboxNeedsItems_Intro_001	Should I place something inside?				
 Player/TeleboxNeedsItems_Option_000	Place Items				
 Player/TeleboxNeedsItems_Option_001	Nevermind.				
+Player/TeleCallerDoesn'tWork_Intro_000					
 Randomised/Afternoon_Greeting 0_Intro_000	The suns getting low.	Les soleils devient faible.	Солнца становятся низкими.		太陽が低いを取得します。
 Randomised/Afternoon_Greeting 0_Response_003_000	<thinking>Well, I guess it's been a good day!	<Pensée> Eh bien, je suppose que ça a été une bonne journée!	<Мышление> Ну, я предполагаю, что это был хороший день!		<思考>まあ、私はそれは良い1日だったと思います！
 Randomised/Afternoon_Greeting 1_Intro_000	I love sunsets! That orange glow warms my soul!	J'adore les couchers de soleil! de qu'Orange de mon âme! réchauffe	Я люблю закаты! Что оранжевый свет согревает мою душу!		私は夕日が大好き！そのオレンジグロー温め私の魂！
@@ -4060,6 +4067,9 @@ Randomised/Foggy_Greeting 4_Response_003_000	What your step?<wave>	Qu'est-ce que
 Randomised/Greeting0_Intro_000	Hey <PlayerName>.	Hey <PlayerName>.	Эй <PlayerName>.		<プレイヤー名>ねえ。
 Randomised/Greeting0_Intro_001	What's up?	Quoi de neuf?	Как дела?		調子はどう？
 Randomised/Greeting0_Response_003_000	All good. Catch you later.	Tout bon. Catch plus tard.	Все хорошо. Увидимся.		すべての良いです。あなたを後で捕まえる。
+Randomised/Greeting1_Intro_000	Oh, if it isn't <PlayerName>.	Oh, si ce n'est pas <PlayerName>.	О, если это не <PlayerName>.		ああ、そうでない場合は、<プレイヤー名>。
+Randomised/Greeting1_Intro_001	What can I do for you today?	Que puis-je faire pour vous aujourd'hui?	Что я могу сделать для тебя сегодня?		今日はどうしたのですか？
+Randomised/Greeting1_Response_003_000	All good. Catch you later.	Tout bon. Catch plus tard.	Все хорошо. Увидимся.		すべての良いです。あなたを後で捕まえる。
 Randomised/Greeting10_Intro_000	G'day.	G'day.	G'day.		やあ。
 Randomised/Greeting10_Response_003_000	All good. Catch you later. <wave>	Tout bon. Catch plus tard. <Vague>	Все хорошо. Увидимся. <Волна>		すべての良いです。あなたを後で捕まえる。 <波>
 Randomised/Greeting11_Intro_000	Oh, well if it isn't <PlayerName>.	Oh, eh bien, si ce n'est pas <PlayerName>.	О, хорошо, если это не <PlayerName>.		ああ、よくそれは<プレイヤー名>ではない場合。
@@ -4082,9 +4092,6 @@ Randomised/Greeting17_Intro_001	You scared me, <PlayerName>! <haha>	Tu me fait p
 Randomised/Greeting17_Response_003_000	We'll catch up again soon. <yes>	Nous allons rattraper bientôt. <Oui>	Мы догоним скоро снова. <Да>		我々は再びすぐに追いつくだろう。 <はい>
 Randomised/Greeting18_Intro_000	Huh?	Hein?	Хм?		えっ？
 Randomised/Greeting18_Response_003_000	Huh?	Hein?	Хм?		えっ？
-Randomised/Greeting1_Intro_000	Oh, if it isn't <PlayerName>.	Oh, si ce n'est pas <PlayerName>.	О, если это не <PlayerName>.		ああ、そうでない場合は、<プレイヤー名>。
-Randomised/Greeting1_Intro_001	What can I do for you today?	Que puis-je faire pour vous aujourd'hui?	Что я могу сделать для тебя сегодня?		今日はどうしたのですか？
-Randomised/Greeting1_Response_003_000	All good. Catch you later.	Tout bon. Catch plus tard.	Все хорошо. Увидимся.		すべての良いです。あなたを後で捕まえる。
 Randomised/Greeting2_Intro_000	<PlayerName>! I swear I was just thinking about you. <haha>	<PlayerName>! Je jure que je pensais juste à vous. <Haha>	<PlayerName>! Я клянусь, что я только что думал о тебе. <Ха>		<プレイヤー名>！私はちょうどあなたのことを考えていた誓います。 <笑>
 Randomised/Greeting2_Intro_001	Do you need something?	Avez-vous besoin de quelque chose?	Тебе нужно что-нибудь?		何か要りますか？
 Randomised/Greeting2_Response_003_000	Nice talking to you.	Agréable de vous parler.	Приятно говорить с вами.		お話出来てよかった。
@@ -4107,11 +4114,11 @@ Randomised/Greeting9_Intro_000	Hey, <PlayerName>.	Hey, <PlayerName>.	Эй, <Play
 Randomised/Greeting9_Response_003_000	Alright then!	Très bien alors!	Ладно!		その後、よし！
 Randomised/Hot_Greeting 0_Intro_000	G'day, <PlayerName>. Phewh! It's so hot already!	G'day, <PlayerName>. Phewh! Il est si chaud déjà!	G'day, <PlayerName>. Phewh! Это так жарко уже!		やあ、<プレイヤー名>。 Phewh！これは、すでに暑いです！
 Randomised/Hot_Greeting 0_Response_003_000	See you around! <wave>	À un de ces quatre! <Vague>	Увидимся! <Волна>		またね！ <波>
-Randomised/Hot_Greeting 10_Intro_000	<PlayerName>. How things going? Keeping cool I hope!	<PlayerName>. Comment vont les choses? Garder fraîche je l'espère!	<PlayerName>. Как дела? Держа прохладный я надеюсь!		<プレイヤー名>。どのように物事が行くの？クールな私の希望を維持！
-Randomised/Hot_Greeting 10_Response_003_000	See you later. <wave>	À plus tard. <Vague>	Увидимся. <Волна>		じゃあまたね。 <波>
 Randomised/Hot_Greeting 1_Intro_000	Oh, <PlayerName>. How are you handling this heat?	Oh, <PlayerName>. Comment gérez-vous cette chaleur?	О, <PlayerName>. Как вы обработка этого тепла?		ああ、<プレイヤー名>。どのようにこの熱を処理していますか？
 Randomised/Hot_Greeting 1_Intro_001	I'm so hot it feels like you could fry an egg on my head.	Je suis tellement chaud, il se sent comme vous pourriez faire frire un œuf sur la tête.	Я так жарко, он чувствует, как вы могли бы жарить яйца на голове.		私はあなたが私の頭の上に卵を炒めることができようにそれは感じているので、暑いです。
 Randomised/Hot_Greeting 1_Response_003_000	Stay cool if you can! <wave>	cool séjour si vous le pouvez! <Vague>	Пребывание здорово, если вы можете! <Волна>		ステイクールすることができますならば！ <波>
+Randomised/Hot_Greeting 10_Intro_000	<PlayerName>. How things going? Keeping cool I hope!	<PlayerName>. Comment vont les choses? Garder fraîche je l'espère!	<PlayerName>. Как дела? Держа прохладный я надеюсь!		<プレイヤー名>。どのように物事が行くの？クールな私の希望を維持！
+Randomised/Hot_Greeting 10_Response_003_000	See you later. <wave>	À plus tard. <Vague>	Увидимся. <Волна>		じゃあまたね。 <波>
 Randomised/Hot_Greeting 2_Intro_000	Hey <PlayerName>. Is it just me or is it really hot today?	Hey <PlayerName>. Est-ce juste moi ou est-ce aujourd'hui vraiment chaud?	Эй <PlayerName>. Это только меня или это действительно жарко сегодня?		<プレイヤー名>ねえ。それは私だけですか、それは本当に暑い今日のでしょうか？
 Randomised/Hot_Greeting 2_Response_003_000	I don't think its just me.	Je ne pense pas que ce juste moi.	Я не думаю, что его только меня.		私はそのちょうど私には思いません。
 Randomised/Hot_Greeting 3_Intro_000	It's so hot, <PlayerName>. Like, how does it even get this hot?	Il est si chaud, <PlayerName>. Comme, comment ça même obtenir ce chaud?	Это так жарко, <PlayerName>. Мол, как это даже получить это горячее?		それは<プレイヤー名>、暑いです。同様に、どのようにそれもこれを熱くしますか？
@@ -4518,6 +4525,14 @@ RandomisedRequests/RequestNewClothing_001_Option_000	No problems.
 RandomisedRequests/RequestNewClothing_001_Option_001	I can't sorry.				
 RandomisedRequests/RequestNewClothing_001_Response_000_000	Great! Thanks, <PlayerName>. <glee>				
 RandomisedRequests/RequestNewClothing_001_Response_001_000	Hey thats no problem. Never hurts to ask.				
+RandomisedRequests/RequestSellingItem_001_Intro_000	Ah!				
+RandomisedRequests/RequestSellingItem_001_Intro_001	<thinking>Actually I have a <requestItem> I dont want anymore...				
+RandomisedRequests/RequestSellingItem_001_Intro_002	Do you want to buy it?				
+RandomisedRequests/RequestSellingItem_001_Intro_003	<thinking>I could let it go for <requestSellPrice>?				
+RandomisedRequests/RequestSellingItem_001_Option_000	It's a deal!				
+RandomisedRequests/RequestSellingItem_001_Option_001	No thanks.				
+RandomisedRequests/RequestSellingItem_001_Response_000_000	Pleasure doing business with you, <PlayerName>.				
+RandomisedRequests/RequestSellingItem_001_Response_001_000	<shy>Was the price too high?				
 RandomisedRequests/RequestSellingItemNotEnoughMoney_001_Intro_000	Ah!				
 RandomisedRequests/RequestSellingItemNotEnoughMoney_001_Intro_001	<thinking>Actually I have a <requestItem> I dont want anymore...				
 RandomisedRequests/RequestSellingItemNotEnoughMoney_001_Intro_002	Do you want to buy it?				
@@ -4527,14 +4542,6 @@ RandomisedRequests/RequestSellingItemNotEnoughMoney_001_Option_001	No thanks.
 RandomisedRequests/RequestSellingItemNotEnoughMoney_001_Response_000_000	Oh...				
 RandomisedRequests/RequestSellingItemNotEnoughMoney_001_Response_000_001	Maybe come and talk to me when you have enough money?				
 RandomisedRequests/RequestSellingItemNotEnoughMoney_001_Response_001_000	<shy>Was the price too high?				
-RandomisedRequests/RequestSellingItem_001_Intro_000	Ah!				
-RandomisedRequests/RequestSellingItem_001_Intro_001	<thinking>Actually I have a <requestItem> I dont want anymore...				
-RandomisedRequests/RequestSellingItem_001_Intro_002	Do you want to buy it?				
-RandomisedRequests/RequestSellingItem_001_Intro_003	<thinking>I could let it go for <requestSellPrice>?				
-RandomisedRequests/RequestSellingItem_001_Option_000	It's a deal!				
-RandomisedRequests/RequestSellingItem_001_Option_001	No thanks.				
-RandomisedRequests/RequestSellingItem_001_Response_000_000	Pleasure doing business with you, <PlayerName>.				
-RandomisedRequests/RequestSellingItem_001_Response_001_000	<shy>Was the price too high?				
 Shopping/AlreadyKnowRecipe_Intro_000	Oh, that's a crafting recipe for <buyItemName>.				
 Shopping/AlreadyKnowRecipe_Intro_001	I've already taught you that recipe!				
 Shopping/AskAboutAnimal_Intro_000	Oh! That's a <buyItemName>.	Oh! C'est un <buyItemName>.	Ой! Это <buyItemName>.		ああ！それは、A <buyItemName>です。
@@ -4649,10 +4656,10 @@ Sign/NoFletch_Sleeping Bags_Intro_001	I'm sure she won't mind if I take one...	J
 Sign/NoFletch_Sleeping Bags_Option_000	Take one.	Prends-en un.	Взять одну.	拿一个。	一つを取って。
 Sign/NoFletch_Sleeping Bags_Option_001	Don't take one.	N'en prenez pas.	Не бери.	不要拿一个。	服用しないでください。
 Sign/NoRepairKit_Intro_000	I need a <itemName> to use this.				
-Sign/NoVisitorSign_Intro_000	Visitors Site				
-Sign/NoVisitorSign_Intro_001					
 Sign/NotAcceptingDonations_Intro_000	The town is not currently accepting donations.	La ville n'accepte actuellement les dons.	Город в настоящее время не принимает пожертвования.		町は現在、寄付を受け付けていません。
 Sign/NotAcceptingDonations_Intro_001	Thank you for your support!	Merci pour votre soutien!	Спасибо за поддержку!		ご支援いただきありがとうございます！
+Sign/NoVisitorSign_Intro_000	Visitors Site				
+Sign/NoVisitorSign_Intro_001					
 Sign/SleepHouseMove_Intro_000	This building is going to me moved.				
 Sign/SleepHouseMove_Intro_001	I need to sleep outside so the movers don't wake me up.				
 Sign/SleepUnderground_Intro_000	I don't want to sleep down here.				
@@ -4717,10 +4724,3 @@ ToolTips/Tip_ShopClosed	Shop Closed	Magasin Fermé	Магазин Закрыт	�
 ToolTips/Tip_Sit	Sit	Asseoir	Сидеть	坐	座ります
 ToolTips/Tip_StopDriving	Stop Driving	Arrêter De Conduire	Прекратить Движение	停止开车	駆動を停止
 ToolTips/Tip_TalkTo	Talk to	Parler à	Говорить с	谈谈	に話す
-Npc4/Gossip_About_NPC_002_Intro_000	<yes>I really dig <NPCName>'s vibe.þ				
-Npc4/Gossip_About_NPC_002_Intro_001	<no>There's no WAY I could pull off wearing goggles...þ				
-Npc4/Gossip_About_NPC_002_Intro_002	<shy>Believe me, I tried!				
-Npc1/RandomConvo_015_Intro_000	þThat’s a fancy <Journal> you’ve got there.þ				
-Npc1/RandomConvo_015_Intro_001	<yes><NPCName> actually told me all about it.þ				
-Npc1/RandomConvo_015_Intro_002	<no>I can’t imagine how much it means to her.þ				
-Npc1/RandomConvo_015_Intro_003					
