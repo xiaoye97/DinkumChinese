@@ -1787,6 +1787,12 @@ Npc0/Gossip_About_NPC_009_Intro_001	<no>Can you believe that?þ
 Npc0/Gossip_About_NPC_009_Intro_002	<worried>My poor babies all like, cooped up behind glass? þ				
 Npc0/Gossip_About_NPC_010_Intro_000	<yes>Sometimes I think <NPCName> likes money more than he likes peopleþ.				
 Npc0/Gossip_About_NPC_010_Intro_001	He must be so lonely, don’t you think?þ				
+Npc0/High_Friendship_Greeting 0_Intro_000	It’s like, good to see you, <PlayerName>.				
+Npc0/High_Friendship_Greeting 0_Intro_001	What's up?				
+Npc0/High_Friendship_Greeting 0_Response_003_000	<wave>Catch ya!				
+Npc0/High_Friendship_Greeting 2_Intro_000	It’s <PlayerName>!				
+Npc0/High_Friendship_Greeting 2_Intro_001	Right on!				
+Npc0/High_Friendship_Greeting 2_Response_003_000	<wave>Later!				
 Npc0/Introduction_000_Intro_000	Oh, hi there, I’m <myName>.				
 Npc0/Introduction_000_Intro_001	I’m a <Nomad> that’s, like, looking to sell seeds. I’ve got farming equipment too if you’re interested.þ				
 Npc0/Introduction_000_Intro_002	<thinking>Although I can only sell them to people who have a <FarmingLicence>.				
@@ -2023,6 +2029,9 @@ Npc1/High_Friendship_Greeting 1_Response_003_000	<yes>Righto. Hope I see you lat
 Npc1/High_Friendship_Greeting 2_Intro_000	Well if it isn’t <PlayerName>!þ				
 Npc1/High_Friendship_Greeting 2_Intro_001	I knew I would see you today!þ				
 Npc1/High_Friendship_Greeting 2_Response_003_000	See you around, <PlayerName>.				
+Npc1/Highest_Friendship_Greeting 2_Intro_000	Oh, it’s <PlayerName>.þþComing to see me?þ				
+Npc1/Highest_Friendship_Greeting 2_Intro_001	<haha>But I’m not even open!þ				
+Npc1/Highest_Friendship_Greeting 2_Response_003_000	Hope we chat again, okay?				
 Npc1/Hot_Greeting 0_Intro_000	The heat is charging me up today!þ				
 Npc1/Hot_Greeting 0_Intro_001	<haha>And I love to charge!				
 Npc1/Hot_Greeting 0_Response_003_000					
@@ -2155,10 +2164,6 @@ Npc1/RandomConvo_013_Intro_001	I would offer you a discount, but my brother is a
 Npc1/RandomConvo_013_Intro_002	<haha>But just remember that I was thinking of it, okay?þ				
 Npc1/RandomConvo_014_Intro_000	<yes>The people in <SouthCity> are happy to eat anything that isn’t <BlobFish>.þ				
 Npc1/RandomConvo_014_Intro_001	<yes>So when they get to buy the exotic fish that can be found here on <IslandName>, they will pay top <Dink> for it!þ				
-Npc1/RandomConvo_015_Intro_000	þThat’s a fancy <Journal> you’ve got there.þ				
-Npc1/RandomConvo_015_Intro_001	<yes><npcName> actually told me all about it.þ				
-Npc1/RandomConvo_015_Intro_002	<no>I can’t imagine how much it means to her.þ				
-Npc1/RandomConvo_015_Intro_003	<haha>She must really trust you, <PlayerName>!þ				
 Npc1/RandomConvo_016_Intro_000	My brother says he’s been spending a lot of time looking for new items to ship over to us here on <IslandName>.þ				
 Npc1/RandomConvo_016_Intro_001	<thinking>He assures me he’s been working a lot.þ				
 Npc1/RandomConvo_016_Intro_002	<yes>I hope he’s okay.þ				
@@ -2441,6 +2446,17 @@ Npc11/Introduction_011_Intro_006	What was your name again?
 Npc11/Introduction_011_Intro_007	<PlayerName>, I like you. I like you a lot.				
 Npc11/Introduction_011_Intro_008	<yes>Let's do some deals. Lets trade some wheels.				
 Npc11/Introduction_011_Intro_009					
+Npc11/JimmyWorkConvo_Intro_000	Welcome back, <PlayerName>.				
+Npc11/JimmyWorkConvo_Intro_001	Are you here to talk business?				
+Npc11/JimmyWorkConvo_Option_000	Want to buy anything?				
+Npc11/JimmyWorkConvo_Option_001	Got any deals?				
+Npc11/JimmyWorkConvo_Option_002	Nevermind.				
+Npc11/JimmyWorkConvo_Response_000_000	<yes>Alright then. Just remember I only buy in bulk.				
+Npc11/JimmyWorkConvo_Response_000_001	I won't take anything less than 50 of an item.				
+Npc11/JimmyWorkConvo_Response_000_002	But I will pay double, just for you, <PlayerName>.				
+Npc11/JimmyWorkConvo_Response_001_000	I've always got great deals.				
+Npc11/JimmyWorkConvo_Response_001_001	Take a look around.				
+Npc11/JimmyWorkConvo_Response_002_000	Righto.				
 Npc11/NothingToGiveJimmy_Intro_000	<sigh>Hmmm, you know what they say, <PlayerName>. Time is <Dinks>				
 Npc11/NothingToGiveJimmy_Intro_001	<angry>And you just wasted my time.				
 Npc11/NothingToGiveJimmy_Intro_002	<no>Don't come back unless you really want to do business.				
@@ -2610,6 +2626,9 @@ Npc2/Low_Friendship_Greeting 1_Intro_002	What is it?þ
 Npc2/Low_Friendship_Greeting 1_Response_003_000	Great. Now I have lost my train of thought…				
 Npc2/Low_Friendship_Greeting 2_Intro_000	Yes?				
 Npc2/Low_Friendship_Greeting 2_Response_003_000	<no>Very well then.				
+Npc2/MakeTechNoLicence_Intro_000	As you know, <PlayerName>, I love making things. But unfortunately, I will not be able to craft that <itemName> for you.				
+Npc2/MakeTechNoLicence_Intro_001	It would be negligent of me to craft a <itemName> for you because you lack the correct licence to operate it.				
+Npc2/MakeTechNoLicence_Intro_002					
 Npc2/Medium_Friendship_Greeting 0_Intro_000	Greetings, <PlayerName>.				
 Npc2/Medium_Friendship_Greeting 0_Response_003_000	A very brisk interaction.þ				
 Npc2/Medium_Friendship_Greeting 0_Response_003_001	<yes>My favourite kind.				
@@ -2841,6 +2860,8 @@ Npc3/Noon_Greeting 2_Response_003_000
 Npc3/Raining_Greeting 0_Intro_000	Bit wet, eh?				
 Npc3/Raining_Greeting 0_Intro_001	Can I get ya somethin’?				
 Npc3/Raining_Greeting 0_Response_003_000	Try and keep dry.				
+Npc3/Raining_Greeting 1_Intro_000	<no>Weather’s not bad if you’re a toad.				
+Npc3/Raining_Greeting 1_Response_003_000					
 Npc3/Raining_Greeting 2_Intro_000	If me knees are right, it’s gunna rain all day.				
 Npc3/Raining_Greeting 2_Response_003_000	I hope me knees are wrong.				
 Npc3/RandomConvo_000_Intro_000	How’s that weather, huh?þ				
@@ -2978,9 +2999,6 @@ Npc4/Gossip_About_NPC_000_Intro_001	She’s all on the surface, y’know?þ
 Npc4/Gossip_About_NPC_001_Intro_000	I love the music in <NPCName> shop.þ				
 Npc4/Gossip_About_NPC_001_Intro_001	You hear it, right?þ				
 Npc4/Gossip_About_NPC_001_Intro_002	<no><NPCName> doesn’t...þ				
-Npc4/Gossip_About_NPC_002_Intro_000	Y'know, <NPCName> doesn’t have an aura.þ				
-Npc4/Gossip_About_NPC_002_Intro_001	At all.				
-Npc4/Gossip_About_NPC_002_Intro_002	Weird, huh?				
 Npc4/Gossip_About_NPC_003_Intro_000	<NPCName> doesn’t say too much...þ				
 Npc4/Gossip_About_NPC_003_Intro_001	I guess he’s a little bit like you, right <PlayerName>?				
 Npc4/Gossip_About_NPC_006_Intro_000	I can see amazing things for <NPCName>.þ				
@@ -3150,6 +3168,47 @@ Npc5/Ned_Salesman_Trapper_Response_002_000	<wave>Good hunting, mate.
 Npc5/Ned_Salesman_Trapper_Response_003_000					
 Npc5/NothingToGiveTrapper_Intro_000	<sigh>Oh, what? You've got nothing for me?				
 Npc5/NothingToGiveTrapper_Intro_001	<no>Righto, mate.				
+Npc5/RandomConvo 0_Intro_000	Stay alert, <PlayerName>.				
+Npc5/RandomConvo 0_Intro_001	<yes>Threats can emerge from anywhere out here.				
+Npc5/RandomConvo 10_Intro_000	Maintaining your equipment is not only Mission-Critical, it’s also the best way to spend a Sundy arvo.				
+Npc5/RandomConvo 10_Intro_001	<yes>Fact. 				
+Npc5/RandomConvo 11_Intro_000	I reckon everyone back in <SouthCity> needs to come here for a night or two.				
+Npc5/RandomConvo 11_Intro_001	When you're on <IslandName> you feel alive!				
+Npc5/RandomConvo 12_Intro_000	I've been coming to <IslandName> for years now.				
+Npc5/RandomConvo 12_Intro_001	It's nice to see some friendly faces when I come visit now.				
+Npc5/RandomConvo 13_Intro_000	<no>You should never doubt yourself <PlayerName>.				
+Npc5/RandomConvo 13_Intro_001	<no>You’re just not good enough for that yet.þ				
+Npc5/RandomConvo 14_Intro_000	<proud>The key to victory is always winning your battles!				
+Npc5/RandomConvo 15_Intro_000	The birds around here are hard to sneak up on...				
+Npc5/RandomConvo 15_Intro_001	I wonder if there is a way to attact them into a trap?				
+Npc5/RandomConvo 15_Intro_002	What do birds eat again?				
+Npc5/RandomConvo 16_Intro_000	You ever see something strange out here at night?				
+Npc5/RandomConvo 16_Intro_001	No, I don't mean me.				
+Npc5/RandomConvo 17_Intro_000	<proud>I never run away from a challenge.				
+Npc5/RandomConvo 17_Intro_001	Unless that challenge has big teeth and it's way to close.				
+Npc5/RandomConvo 18_Intro_000	It's so good to see a youngen like yourself out here exploring.				
+Npc5/RandomConvo 18_Intro_001	We need more people like you, <PlayerName>.				
+Npc5/RandomConvo 1_Intro_000	<no>There ain't nothing like living off the land.				
+Npc5/RandomConvo 1_Intro_001	It's bloody thrilling!				
+Npc5/RandomConvo 2_Intro_000	<no>Weapons aren’t toys you know.				
+Npc5/RandomConvo 2_Intro_001	<yes>They are tools we use to defend ourselves and hunt for food.				
+Npc5/RandomConvo 3_Intro_000	Where am I from?				
+Npc5/RandomConvo 3_Intro_001	I'm from the wilds, mate.				
+Npc5/RandomConvo 3_Intro_002	Grew up wild and I'll bloody die wild.				
+Npc5/RandomConvo 4_Intro_000	<PlayerName>, you've got heart,  anybody can see that.				
+Npc5/RandomConvo 4_Intro_001	<yes>Fine quality in a person.				
+Npc5/RandomConvo 5_Intro_000	I’m not the strongest swimmer.				
+Npc5/RandomConvo 5_Intro_001	<worried>I steer clear of <animalName>.				
+Npc5/RandomConvo 5_Intro_002	<proud>They stay in the water and I stay on the land.				
+Npc5/RandomConvo 6_Intro_000	<no>Never smile at a <animalName>.				
+Npc5/RandomConvo 6_Intro_001	<no>And you certainly don't want to see them smile back at you!				
+Npc5/RandomConvo 7_Intro_000	Hunting is a fine sport, <PlayerName>.				
+Npc5/RandomConvo 7_Intro_001	<proud>But there is one thing I can't hunt down...				
+Npc5/RandomConvo 7_Intro_002	<haha>A true blue challenge.				
+Npc5/RandomConvo 8_Intro_000	If I had any advice for a whipper snapper like yourself it'd be this;				
+Npc5/RandomConvo 8_Intro_001	Find a passion,  and hold on to it like it owes you something!				
+Npc5/RandomConvo 8_Intro_002	Go at it tooth and nail! <pumped>				
+Npc5/RandomConvo 9_Intro_000	<proud>Weapons and me go together like spaghetti and blankets.				
 Npc5/SomethingToSellJimmy_Intro_000	<thinking>Oh, yes... all these bulk items...				
 Npc5/SomethingToSellJimmy_Intro_001	Plus my very, very fair bonus...				
 Npc5/SomethingToSellJimmy_Intro_002	I can give you <$>. Take it or leave it.				
@@ -3185,6 +3244,9 @@ Npc5/Weapon_Shop_Response_001_000	As you were.
 Npc6/Already Being Moved 1_Intro_000	<thinking>Hmmm...	<Pensée> Hmmm ...	<Мышление> Хммм ...		<思考>うーん...
 Npc6/Already Being Moved 1_Intro_001	<no>A building is already being relocated. 	<No> Un bâtiment est déjà déplacé.	<Нет> Здание уже переселены.		<なし>建物は、既に再配置されています。
 Npc6/Already Being Moved 1_Intro_002	Let's get that finished and then we can think about moving another one, okay?	Il faut que ça qui a terminé et nous pouvons penser à déplacer un autre, d'accord?	Давайте, что закончена, и тогда мы можем думать о переезде еще один, хорошо?		さて、その完成を取得し、我々は別のものを移動すると考えることができましょうか？
+Npc6/Already Being Upgraded_Intro_000	Wait! It looks like we're already working on your house!				
+Npc6/Already Being Upgraded_Intro_001	Make sure you place all the items needed for costruction into the construction box infront of your house.				
+Npc6/Already Being Upgraded_Intro_002	As soon as construction is completed, we'll see what we can do to make your house bigger. <glee>				
 Npc6/Arvo_Greeting 0_Intro_000	Afternoon, <PlayerName>!				
 Npc6/Arvo_Greeting 0_Response_003_000	Take it easy.				
 Npc6/Arvo_Greeting 1_Intro_000	What a bloody beautiful arvo.				
@@ -3266,6 +3328,11 @@ Npc6/Highest_Friendship_Greeting 1_Response_003_000	Always lovely chatting with 
 Npc6/Highest_Friendship_Greeting 2_Intro_000	Well, would you look at this. It’s only <PlayerName>!þ				
 Npc6/Highest_Friendship_Greeting 2_Intro_001	What can I do for you?þ				
 Npc6/Highest_Friendship_Greeting 2_Response_003_000					
+Npc6/HouseIsBeingMoved_Intro_000	Wait! It looks like we're moving your house.				
+Npc6/HouseIsBeingMoved_Intro_001					
+Npc6/HouseIsBeingUpgraded_Intro_000	<thinking>Hmmm...				
+Npc6/HouseIsBeingUpgraded_Intro_001	<no>Your house is currently in the proccess of upgrading.				
+Npc6/HouseIsBeingUpgraded_Intro_002	Let's get that finished and then we can think about moving it after, okay?				
 Npc6/LongConvo_001_Intro_000	Oh, hey <PlayerName>. Did I ever tell you why we had to leave <IslandName> all those years ago?þ				
 Npc6/LongConvo_001_Intro_001	You see, growing up, I didn’t even know the world had gone south!þ				
 Npc6/LongConvo_001_Intro_002	<yes>Everything had always been okay here on <IslandName>. þ				
@@ -3367,6 +3434,11 @@ Npc6/No Upgrades Left_Intro_000	It looks like your house is as big as it can be 
 Npc6/NoRoomForDeeds_Intro_000	Hmmm. <thinking>				
 Npc6/NoRoomForDeeds_Intro_001	I don't think you have room to hold any deeds. <no>				
 Npc6/NoRoomForDeeds_Intro_002					
+Npc6/Noon_Greeting 0_Intro_000	<thinking>Just about lunchtime, I think.þ				
+Npc6/Noon_Greeting 0_Response_003_000					
+Npc6/Noon_Greeting 1_Intro_000	G’day <PlayerName>.				
+Npc6/Noon_Greeting 1_Intro_001	Enjoying your day?				
+Npc6/Noon_Greeting 1_Response_003_000	<wave>Hooroo.				
 Npc6/Noon_Greeting 2_Intro_000	Noon already?				
 Npc6/Noon_Greeting 2_Intro_001	I’ll tell you what, today is going quick!				
 Npc6/Noon_Greeting 2_Response_003_000					
@@ -3939,6 +4011,7 @@ Player/InventoryFullBugOrFish_Intro_000	My pockets are full...
 Player/InventoryFullBugOrFish_Intro_001	Should I swap something to make room for this <itemName>?				
 Player/InventoryFullBugOrFish_Option_000	Yes.				
 Player/InventoryFullBugOrFish_Option_001	No.				
+Player/TeleCallerDoesn'tWork_Intro_000					
 Player/Telebox Once Completed_Intro_000	That seems to have done it!				
 Player/Telebox Once Completed_Intro_001	What happens next?				
 Player/TeleboxNeedsItems_Intro_000	This thing looks broken. There are parts missing.				
@@ -4580,6 +4653,9 @@ Sign/NoVisitorSign_Intro_000	Visitors Site
 Sign/NoVisitorSign_Intro_001					
 Sign/NotAcceptingDonations_Intro_000	The town is not currently accepting donations.	La ville n'accepte actuellement les dons.	Город в настоящее время не принимает пожертвования.		町は現在、寄付を受け付けていません。
 Sign/NotAcceptingDonations_Intro_001	Thank you for your support!	Merci pour votre soutien!	Спасибо за поддержку!		ご支援いただきありがとうございます！
+Sign/SleepHouseMove_Intro_000	This building is going to me moved.				
+Sign/SleepHouseMove_Intro_001	I need to sleep outside so the movers don't wake me up.				
+Sign/SleepUnderground_Intro_000	I don't want to sleep down here.				
 Sign/Town Debt Complete Convo_Intro_000	The town is now debt free!				
 Sign/Town Debt Complete Convo_Intro_001	Thank you for your contribution!				
 Sign/TownBook_Intro_000	This book tracks the towns awards.				
@@ -4641,78 +4717,10 @@ ToolTips/Tip_ShopClosed	Shop Closed	Magasin Fermé	Магазин Закрыт	�
 ToolTips/Tip_Sit	Sit	Asseoir	Сидеть	坐	座ります
 ToolTips/Tip_StopDriving	Stop Driving	Arrêter De Conduire	Прекратить Движение	停止开车	駆動を停止
 ToolTips/Tip_TalkTo	Talk to	Parler à	Говорить с	谈谈	に話す
-Sign/SleepHouseMove_Intro_000	This building is going to me moved.				
-Sign/SleepHouseMove_Intro_001	I need to sleep outside so the movers don't wake me up.				
-Sign/SleepUnderground_Intro_000	I don't want to sleep down here.				
-Npc5/RandomConvo 0_Intro_000	Stay alert, <PlayerName>.				
-Npc5/RandomConvo 0_Intro_001	<yes>Threats can emerge from anywhere out here.				
-Npc5/RandomConvo 1_Intro_000	<no>There ain't nothing like living off the land.				
-Npc5/RandomConvo 1_Intro_001	It's bloody thrilling!				
-Npc5/RandomConvo 2_Intro_000	<no>Weapons aren’t toys you know.				
-Npc5/RandomConvo 2_Intro_001	<yes>They are tools we use to defend ourselves and hunt for food.				
-Npc5/RandomConvo 3_Intro_000	Where am I from?				
-Npc5/RandomConvo 3_Intro_001	I'm from the wilds, mate.				
-Npc5/RandomConvo 3_Intro_002	Grew up wild and I'll bloody die wild.				
-Npc5/RandomConvo 4_Intro_000	<PlayerName>, you've got heart,  anybody can see that.				
-Npc5/RandomConvo 4_Intro_001	<yes>Fine quality in a person.				
-Npc5/RandomConvo 5_Intro_000	I’m not the strongest swimmer.				
-Npc5/RandomConvo 5_Intro_001	<worried>I steer clear of <animalName>.				
-Npc5/RandomConvo 5_Intro_002	<proud>They stay in the water and I stay on the land.				
-Npc5/RandomConvo 6_Intro_000	<no>Never smile at a <animalName>.				
-Npc5/RandomConvo 6_Intro_001	<no>And you certainly don't want to see them smile back at you!				
-Npc5/RandomConvo 7_Intro_000	Hunting is a fine sport, <PlayerName>.				
-Npc5/RandomConvo 7_Intro_001	<proud>But there is one thing I can't hunt down...				
-Npc5/RandomConvo 7_Intro_002	<haha>A true blue challenge.				
-Npc5/RandomConvo 8_Intro_000	If I had any advice for a whipper snapper like yourself it'd be this;				
-Npc5/RandomConvo 8_Intro_001	Find a passion,  and hold on to it like it owes you something!				
-Npc5/RandomConvo 8_Intro_002	Go at it tooth and nail! <pumped>				
-Npc5/RandomConvo 9_Intro_000	<proud>Weapons and me go together like spaghetti and blankets.				
-Npc5/RandomConvo 10_Intro_000	Maintaining your equipment is not only Mission-Critical, it’s also the best way to spend a Sundy arvo.				
-Npc5/RandomConvo 10_Intro_001	<yes>Fact. 				
-Npc5/RandomConvo 11_Intro_000	I reckon everyone back in <SouthCity> needs to come here for a night or two.				
-Npc5/RandomConvo 11_Intro_001	When you're on <IslandName> you feel alive!				
-Npc5/RandomConvo 12_Intro_000	I've been coming to <IslandName> for years now.				
-Npc5/RandomConvo 12_Intro_001	It's nice to see some friendly faces when I come visit now.				
-Npc5/RandomConvo 13_Intro_000	<no>You should never doubt yourself <PlayerName>.				
-Npc5/RandomConvo 13_Intro_001	<no>You’re just not good enough for that yet.þ				
-Npc5/RandomConvo 14_Intro_000	<proud>The key to victory is always winning your battles!				
-Npc5/RandomConvo 15_Intro_000	The birds around here are hard to sneak up on...				
-Npc5/RandomConvo 15_Intro_001	I wonder if there is a way to attact them into a trap?				
-Npc5/RandomConvo 15_Intro_002	What do birds eat again?				
-Npc5/RandomConvo 16_Intro_000	You ever see something strange out here at night?				
-Npc5/RandomConvo 16_Intro_001	No, I don't mean me.				
-Npc5/RandomConvo 17_Intro_000	<proud>I never run away from a challenge.				
-Npc5/RandomConvo 17_Intro_001	Unless that challenge has big teeth and it's way to close.				
-Npc5/RandomConvo 18_Intro_000	It's so good to see a youngen like yourself out here exploring.				
-Npc5/RandomConvo 18_Intro_001	We need more people like you, <PlayerName>.				
-Npc11/JimmyWorkConvo_Intro_000	Welcome back, <PlayerName>.				
-Npc11/JimmyWorkConvo_Intro_001	Are you here to talk business?				
-Npc11/JimmyWorkConvo_Option_000	Want to buy anything?				
-Npc11/JimmyWorkConvo_Option_001	Got any deals?				
-Npc11/JimmyWorkConvo_Option_002	Nevermind.				
-Npc11/JimmyWorkConvo_Response_000_000	<yes>Alright then. Just remember I only buy in bulk.				
-Npc11/JimmyWorkConvo_Response_000_001	I won't take anything less than 50 of an item.				
-Npc11/JimmyWorkConvo_Response_000_002	But I will pay double, just for you, <PlayerName>.				
-Npc11/JimmyWorkConvo_Response_001_000	I've always got great deals.				
-Npc11/JimmyWorkConvo_Response_001_001	Take a look around.				
-Npc11/JimmyWorkConvo_Response_002_000	Righto.				
-Npc6/Noon_Greeting 1_Intro_000	G’day <PlayerName>.				
-Npc6/Noon_Greeting 1_Intro_001	Enjoying your day?				
-Npc6/Noon_Greeting 1_Response_003_000	<wave>Hooroo.				
-Npc6/Noon_Greeting 0_Intro_000	<thinking>Just about lunchtime, I think.þ				
-Npc6/Noon_Greeting 0_Response_003_000					
-Npc2/MakeTechNoLicence_Intro_000	As you know, <PlayerName>, I love making things. But unfortunately, I will not be able to craft that <itemName> for you.				
-Npc2/MakeTechNoLicence_Intro_001	It would be negligent of me to craft a <itemName> for you because you lack the correct licence to operate it.				
-Npc2/MakeTechNoLicence_Intro_002					
-Player/TeleCallerDoesn'tWork_Intro_000					
-Npc0/High_Friendship_Greeting 2_Intro_000	It’s <PlayerName>!				
-Npc0/High_Friendship_Greeting 2_Intro_001	Right on!				
-Npc0/High_Friendship_Greeting 2_Response_003_000	<wave>Later!				
-Npc0/High_Friendship_Greeting 0_Intro_000	It’s like, good to see you, <PlayerName>.				
-Npc0/High_Friendship_Greeting 0_Intro_001	What's up?				
-Npc0/High_Friendship_Greeting 0_Response_003_000	<wave>Catch ya!				
-Npc1/Highest_Friendship_Greeting 2_Intro_000	Oh, it’s <PlayerName>.þþComing to see me?þ				
-Npc1/Highest_Friendship_Greeting 2_Intro_001	<haha>But I’m not even open!þ				
-Npc1/Highest_Friendship_Greeting 2_Response_003_000	Hope we chat again, okay?				
-Npc3/Raining_Greeting 1_Intro_000	<no>Weather’s not bad if you’re a toad.				
-Npc3/Raining_Greeting 1_Response_003_000					
+Npc4/Gossip_About_NPC_002_Intro_000	<yes>I really dig <NPCName>'s vibe.þ				
+Npc4/Gossip_About_NPC_002_Intro_001	<no>There's no WAY I could pull off wearing goggles...þ				
+Npc4/Gossip_About_NPC_002_Intro_002	<shy>Believe me, I tried!				
+Npc1/RandomConvo_015_Intro_000	þThat’s a fancy <Journal> you’ve got there.þ				
+Npc1/RandomConvo_015_Intro_001	<yes><NPCName> actually told me all about it.þ				
+Npc1/RandomConvo_015_Intro_002	<no>I can’t imagine how much it means to her.þ				
+Npc1/RandomConvo_015_Intro_003					

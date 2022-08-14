@@ -530,7 +530,7 @@ Generic/IntroToQuest_Intro_000_-2000246468	Wow!
 Generic/IntroToQuest_Intro_001_-1311643710	<glee>Smell that fresh air!
 Generic/IntroToQuest_Intro_002_1270644192	I'll tell you what, it feels good to finally be back on <IslandName>.
 Generic/IntroToQuest_Intro_003_-275257405	Now, <PlayerName>, I’m going to need your help getting settled, okay?þ
-Generic/IntroToQuest_Intro_004_-1685605881	<yes>I’ll give you this <itemName>. Take your time and find a good place for it. It’ll be our like our town hub!
+Generic/IntroToQuest_Intro_004_752075203	<yes>I’ll give you this <itemName>. Take your time and find a good place for it. It’ll be like our town hub!
 Generic/IntroToQuest_Intro_005_708294208	Take this map as well. If you have any questions, please just ask me.þ
 Generic/IntroToQuest_Intro_006_-99050250	<shy>I haven’t been back to <IslandName> for a very long time, but I think I can still be helpful.þ
 Generic/IntroToQuest_Intro_007_-2100263442	<yes>I’ll be waiting by this dock until you set up the <itemName>.
@@ -604,9 +604,6 @@ Generic/BuildTeleporterRequest_Intro_002_-34697312	<yes>Regardless, I have come 
 Generic/BuildTeleporterRequest_Intro_003_-491501579	<thinking>Now adding too many would most likely disrupt the Tele-Network.
 Generic/BuildTeleporterRequest_Intro_004_510287240	<yes>So I think we will only be able to build one.
 Generic/BuildTeleporterRequest_Intro_005_-1627549334	I have spoken to <NPCName> and she has agreed to add it to the available deeds.
-Npc6/Already Being Upgraded_Intro_000_1185444848	Wait! It looks like we're already working on your house!
-Npc6/Already Being Upgraded_Intro_001_-796967277	Make sure you place all the items needed for costruction into the construction box infront of your house.
-Npc6/Already Being Upgraded_Intro_002_-543868751	As soon as construction is completed, we'll see what we can do to make your house bigger. <glee>
 Npc6/Upgrade House No Money Tent_Intro_000_2084687642	Very good!
 Npc6/Upgrade House No Money Tent_Intro_001_-1609656107	...Oh. It seems like you a bit short on cash. <shy>
 Npc6/Upgrade House No Money Tent_Intro_002_384481156	Perhaps you can come back when your pockets are a bit heavier?
@@ -899,4 +896,16 @@ Generic/CompleteQuest_Intro_005_-751055028	<haha>Well, let's worry about getting
 Generic/CompleteQuest_Intro_006_567658910	The <itemName> is a great first step!
 Generic/CompleteQuest_Intro_007_17667974	For now, you can have a break.
 Generic/CompleteQuest_Intro_008_1924288172	<yes>Come back and talk to me when you are ready.
+Npc6/TownCleanUp_Intro_000_-1490167972	Hmmm, so you want to get rid of items that might be laying around or stuck somewhere?
+Npc6/TownCleanUp_Intro_001_-1942299683	<thinking>I can get someone to remove them for free, but we won't be able to save any of them.
+Npc6/TownCleanUp_Intro_002_862922103	<yes>It will be all the items you can carry on the island!
+Npc6/TownCleanUp_Intro_003_-1282606150	<yes>So please make sure you don't have any items you want to keep.
+Npc6/TownCleanUp_Intro_004_-142168512	This will include any animals in boxes, beehives and traps you have.
+Npc6/TownCleanUp_Intro_005_1753901693	Are you sure you want me to get rid of all the carryable items on the island?
+Npc6/TownCleanUp_Option_000_1689315355	Yes, I'm sure.
+Npc6/TownCleanUp_Option_001_-589346056	No don't do it!
+Npc6/TownCleanUp_Response_000_000_-159111688	Okay.
+Npc6/TownCleanUp_Response_000_001_1748423148	All the  the carryable items laying around <IslandName> will be removed.
+Npc6/TownCleanUp_Response_001_000_434496966	No worries.
+Npc6/TownCleanUp_Response_001_001_338663611	Come back and speak to me if you want 
 Npc6/No House_Intro_000_-1984666670	But you don't have a house yet! If you ask my about deeds we might be able to solve that.
