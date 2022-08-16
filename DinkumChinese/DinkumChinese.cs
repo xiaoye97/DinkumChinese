@@ -12,10 +12,11 @@ using BepInEx.Configuration;
 using XYModLib;
 using Newtonsoft.Json;
 using System;
+using I2LocPatch;
 
 namespace DinkumChinese
 {
-    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.7.0")]
+    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.9.0")]
     public class DinkumChinesePlugin : BaseUnityPlugin
     {
         public static DinkumChinesePlugin Inst;
@@ -36,6 +37,7 @@ namespace DinkumChinese
 
         public ConfigEntry<bool> DevMode;
         public ConfigEntry<bool> DontLoadLocOnDevMode;
+        public ConfigEntry<bool> LogNoTranslation;
 
         public List<TextLocData> DynamicTextLocList = new List<TextLocData>();
         public List<TextLocData> PostTextLocList = new List<TextLocData>();
@@ -47,12 +49,14 @@ namespace DinkumChinese
         public UIWindow DebugWindow;
         public UIWindow ErrorWindow;
         public string ErrorStr;
+        public bool IsPluginLoaded;
 
         private void Awake()
         {
             Inst = this;
             DevMode = Config.Bind<bool>("Dev", "DevMode", false, "开发模式时，可以按快捷键触发开发功能");
             DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "开发模式时，不加载DynamicText Post Quest翻译，方便dump");
+            LogNoTranslation = Config.Bind<bool>("Tool", "LogNoTranslation", true, "可以输出没翻译的目标");
             DebugWindow = new UIWindow("汉化测试工具[Ctrl+小键盘4]");
             DebugWindow.OnWinodwGUI = DebugWindowGUI;
             ErrorWindow = new UIWindow("汉化出现错误");
@@ -63,6 +67,7 @@ namespace DinkumChinese
                 Harmony.CreateAndPatchAll(typeof(ILPatch));
                 Harmony.CreateAndPatchAll(typeof(StringReturnPatch));
                 Harmony.CreateAndPatchAll(typeof(StartTranslatePatch));
+                Harmony.CreateAndPatchAll(typeof(SpritePatch));
             }
             catch (ExecutionEngineException ex)
             {
@@ -78,12 +83,18 @@ namespace DinkumChinese
             {
                 return;
             }
+            Invoke("LogFlagTrue", 2f);
             DynamicTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/DynamicTextLoc.txt");
             PostTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/PostTextLoc.json");
             QuestTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/QuestTextLoc.json");
             TipsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TipsTextLoc.json");
             MailTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/MailTextLoc.json");
             AnimalsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/AnimalsTextLoc.json");
+        }
+
+        public void LogFlagTrue()
+        {
+            IsPluginLoaded = true;
         }
 
         public void ErrorWindowFunc()
@@ -326,6 +337,18 @@ namespace DinkumChinese
             return false;
         }
 
+        [HarmonyPostfix, HarmonyPatch(typeof(LocalizationManager), "TryGetTranslation")]
+        public static void Localize_OnLocalize(string Term, bool __result)
+        {
+            if (Inst.IsPluginLoaded && Inst.LogNoTranslation.Value)
+            {
+                if (!__result)
+                {
+                    Debug.LogWarning($"LocalizationManager获取翻译失败:Term:{Term}");
+                }
+            }
+        }
+
         public static Queue<TextMeshProUGUI> waitShowTMPs = new Queue<TextMeshProUGUI>();
 
         /// <summary>
@@ -459,11 +482,18 @@ namespace DinkumChinese
 
         public void DumpAllConversation()
         {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"Key\tEnglish");
-            var cs = Resources.FindObjectsOfTypeAll<Conversation>();
-            List<string> trems = new List<string>();
-            foreach (var c in cs)
+            List<Conversation> conversations = new List<Conversation>();
+            // 直接从资源搜索单独的Conversation
+            conversations.AddRange(Resources.FindObjectsOfTypeAll<Conversation>());
+
+            //StringBuilder sb = new StringBuilder();
+            //sb.AppendLine($"Key\tEnglish");
+            List<string> terms = new List<string>();
+            I2File i2File = new I2File();
+            i2File.Name = "NoTermConversation";
+            i2File.Languages = new List<string>() { "English" };
+
+            foreach (var c in conversations)
             {
                 // Intro
                 for (int i = 0; i < c.startLineAlt.aConverstationSequnce.Length; i++)
@@ -473,17 +503,21 @@ namespace DinkumChinese
                     {
                         if (!string.IsNullOrWhiteSpace(c.startLineAlt.aConverstationSequnce[i]))
                         {
-                            string trem = $"{key}_{c.startLineAlt.aConverstationSequnce[i].GetHashCode()}";
-                            string line = $"{trem}\t{c.startLineAlt.aConverstationSequnce[i].StrToI2Str()}";
-                            if (trems.Contains(trem))
+                            string term = $"{key}_{c.startLineAlt.aConverstationSequnce[i].GetHashCode()}";
+                            string line = $"{term}\t{c.startLineAlt.aConverstationSequnce[i].StrToI2Str()}";
+                            if (terms.Contains(term))
                             {
-                                string log = $"重复的trem，忽略。{line}";
+                                string log = $"重复的term，忽略。{line}";
                                 Logger.LogError(log);
                             }
                             else
                             {
-                                trems.Add(trem);
-                                sb.AppendLine(line);
+                                terms.Add(term);
+                                TermLine termLine = new TermLine();
+                                termLine.Name = term;
+                                termLine.Texts = new string[] { c.startLineAlt.aConverstationSequnce[i] };
+                                i2File.Lines.Add(termLine);
+                                //sb.AppendLine(line);
                                 LogInfo(line);
                             }
                         }
@@ -499,17 +533,21 @@ namespace DinkumChinese
                         {
                             if (!string.IsNullOrWhiteSpace(c.optionNames[j]))
                             {
-                                string trem = $"{key}_{c.optionNames[j].GetHashCode()}";
-                                string line = $"{trem}\t{c.optionNames[j].StrToI2Str()}";
-                                if (trems.Contains(trem))
+                                string term = $"{key}_{c.optionNames[j].GetHashCode()}";
+                                string line = $"{term}\t{c.optionNames[j].StrToI2Str()}";
+                                if (terms.Contains(term))
                                 {
-                                    string log = $"重复的trem，忽略。{line}";
+                                    string log = $"重复的term，忽略。{line}";
                                     Logger.LogError(log);
                                 }
                                 else
                                 {
-                                    trems.Add(trem);
-                                    sb.AppendLine(line);
+                                    terms.Add(term);
+                                    //sb.AppendLine(line);
+                                    TermLine termLine = new TermLine();
+                                    termLine.Name = term;
+                                    termLine.Texts = new string[] { c.optionNames[j] };
+                                    i2File.Lines.Add(termLine);
                                     LogInfo(line);
                                 }
                             }
@@ -526,17 +564,21 @@ namespace DinkumChinese
                         {
                             if (!string.IsNullOrWhiteSpace(c.responesAlt[k].aConverstationSequnce[l]))
                             {
-                                string trem = $"{key}_{c.responesAlt[k].aConverstationSequnce[l].GetHashCode()}";
-                                string line = $"{trem}\t{c.responesAlt[k].aConverstationSequnce[l].StrToI2Str()}";
-                                if (trems.Contains(trem))
+                                string term = $"{key}_{c.responesAlt[k].aConverstationSequnce[l].GetHashCode()}";
+                                string line = $"{term}\t{c.responesAlt[k].aConverstationSequnce[l].StrToI2Str()}";
+                                if (terms.Contains(term))
                                 {
-                                    string log = $"重复的trem，忽略。{line}";
+                                    string log = $"重复的term，忽略。{line}";
                                     Logger.LogError(log);
                                 }
                                 else
                                 {
-                                    trems.Add(trem);
-                                    sb.AppendLine(line);
+                                    terms.Add(term);
+                                    //sb.AppendLine(line);
+                                    TermLine termLine = new TermLine();
+                                    termLine.Name = term;
+                                    termLine.Texts = new string[] { c.responesAlt[k].aConverstationSequnce[l] };
+                                    i2File.Lines.Add(termLine);
                                     LogInfo(line);
                                 }
                             }
@@ -544,7 +586,8 @@ namespace DinkumChinese
                     }
                 }
             }
-            File.WriteAllText($"{Paths.GameRootPath}/I2/NoTermConversation.csv", sb.ToString());
+            i2File.WriteCSVTable($"{Paths.GameRootPath}/I2/{i2File.Name}.csv");
+            LogInfo($"Dump {i2File.Name}完毕");
         }
 
         public void DumpAllPost()
@@ -671,22 +714,5 @@ namespace DinkumChinese
         }
 
         #endregion Dump
-    }
-
-    public static class TextEx
-    {
-        public static string newLineChar = "þ";
-
-        public static string StrToI2Str(this string str)
-        {
-            if (string.IsNullOrWhiteSpace(str)) return str;
-            return str.Replace("\n", newLineChar).Replace("\r", newLineChar);
-        }
-
-        public static string I2StrToStr(this string str)
-        {
-            if (string.IsNullOrWhiteSpace(str)) return str;
-            return str.Replace(newLineChar, "\n");
-        }
     }
 }

@@ -233,6 +233,11 @@ Generic/CraftedRequestCompleted_Intro_000_-395882011	Oh bonza! You crafted a <re
 Generic/CraftedRequestCompleted_Option_000_1931388383	Here you go.
 Generic/CraftedRequestCompleted_Option_001_688230645	Nah.
 Generic/CraftedRequestCompleted_Response_001_000_-1994636920	Oh, righto, <PlayerName>...
+Generic/DidNotGiveAnything_Intro_000_371857150	
+Generic/DidNotGiveAnything_Intro_001_371857150	
+Generic/ExhibitSignReadable (1)_Intro_000_371857150	
+Generic/ExhibitSignReadable (2)_Intro_000_371857150	
+Generic/ExhibitSignReadable_Intro_000_371857150	
 Generic/FirstDayFaintConvo_Intro_000_1564288582	.........<PlayerName>.........
 Generic/FirstDayFaintConvo_Intro_001_975180336	<PlayerName>.........
 Generic/FirstDayFaintConvo_Intro_002_969651489	<PlayerName>?
@@ -587,6 +592,8 @@ Generic/TalkToWhileNotComplete_Response_003_001_744449534	Just be sure to bring 
 Generic/TalkToWhileNotComplete_Response_003_002_-45349264	<yes>Wherever is fine, really.
 Generic/TalkToWhileNotComplete_Response_003_003_1494597597	<no>If you want to sleep under the stars, I'm not going to stop you.
 Generic/TalkToWhileNotComplete_Response_004_000_1170000243	Thanks again for your help, <PlayerName>!
+Generic/ThanksGiveItem_Intro_000_371857150	
+Generic/ThanksGiveItem_Intro_001_371857150	
 Generic/TradeCompleteConvo_Intro_000_-1952384963	Oh, you're interested in my <BulletinBoardReward> ?
 Generic/TradeCompleteConvo_Option_000_-1158516458	I want to trade.
 Generic/TradeCompleteConvo_Option_001_-1573334556	No thank you.

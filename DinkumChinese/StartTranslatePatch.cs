@@ -6,11 +6,22 @@ using System.Text;
 using System.Threading.Tasks;
 using HarmonyLib;
 using UnityEngine;
+using I2LocPatch;
 
 namespace DinkumChinese
 {
     public static class StartTranslatePatch
     {
+        [HarmonyPostfix, HarmonyPatch(typeof(AnimalManager), "Start")]
+        public static void AnimalManager_Start_Patch()
+        {
+            var mgr = AnimalManager.manage;
+            foreach (var a in mgr.allAnimals)
+            {
+                a.animalName = TextLocData.GetLoc(DinkumChinesePlugin.Inst.AnimalsTextLocList, a.animalName);
+            }
+        }
+
         [HarmonyPostfix, HarmonyPatch(typeof(LoadingScreenImageAndTips), "OnEnable")]
         public static void LoadingScreenImageAndTips_OnEnable_Patch(LoadingScreenImageAndTips __instance)
         {
@@ -74,16 +85,6 @@ namespace DinkumChinese
             foreach (var m in mgr.licenceLevelUp)
             {
                 m.letterText = TextLocData.GetLoc(DinkumChinesePlugin.Inst.MailTextLocList, m.letterText);
-            }
-        }
-
-        [HarmonyPostfix, HarmonyPatch(typeof(AnimalManager), "Start")]
-        public static void AnimalManager_Start_Patch()
-        {
-            var mgr = AnimalManager.manage;
-            foreach (var a in mgr.allAnimals)
-            {
-                a.animalName = TextLocData.GetLoc(DinkumChinesePlugin.Inst.AnimalsTextLocList, a.animalName);
             }
         }
     }
