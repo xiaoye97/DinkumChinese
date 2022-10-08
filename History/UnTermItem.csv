@@ -214,25 +214,25 @@ InventoryItemDescriptions/InvDesc_800	Float your day away.
 InventoryItemNames/InvItem_801	Tractor
 InventoryItemDescriptions/InvDesc_801	Put Put.
 InventoryItemNames/InvItem_802	Blue Paint
-InventoryItemDescriptions/InvDesc_802	Can paint vehicles.
+InventoryItemDescriptions/InvDesc_802	Can paint vehicles and some containers
 InventoryItemNames/InvItem_803	Paint Remover
 InventoryItemDescriptions/InvDesc_803	Clear off paint.
 InventoryItemNames/InvItem_804	Black Paint
-InventoryItemDescriptions/InvDesc_804	Can paint vehicles.
+InventoryItemDescriptions/InvDesc_804	Can paint vehicles and some containers
 InventoryItemNames/InvItem_805	Green Paint
-InventoryItemDescriptions/InvDesc_805	Can paint vehicles.
+InventoryItemDescriptions/InvDesc_805	Can paint vehicles and some containers
 InventoryItemNames/InvItem_806	Orange Paint
-InventoryItemDescriptions/InvDesc_806	Can paint vehicles.
+InventoryItemDescriptions/InvDesc_806	Can paint vehicles and some containers
 InventoryItemNames/InvItem_807	Pink Paint
-InventoryItemDescriptions/InvDesc_807	Can paint vehicles.
+InventoryItemDescriptions/InvDesc_807	Can paint vehicles and some containers
 InventoryItemNames/InvItem_808	Purple Paint
-InventoryItemDescriptions/InvDesc_808	Can paint vehicles.
+InventoryItemDescriptions/InvDesc_808	Can paint vehicles and some containers
 InventoryItemNames/InvItem_809	Red Paint
-InventoryItemDescriptions/InvDesc_809	Can paint vehicles.
+InventoryItemDescriptions/InvDesc_809	Can paint vehicles and some containers
 InventoryItemNames/InvItem_810	White Paint
-InventoryItemDescriptions/InvDesc_810	Can paint vehicles.
+InventoryItemDescriptions/InvDesc_810	Can paint vehicles and some containers
 InventoryItemNames/InvItem_811	Yellow Paint
-InventoryItemDescriptions/InvDesc_811	Can paint vehicles.
+InventoryItemDescriptions/InvDesc_811	Can paint vehicles and some containers
 InventoryItemNames/InvItem_812	Chrome Paint
 InventoryItemDescriptions/InvDesc_812	Paint your vehicles and show off.
 InventoryItemNames/InvItem_813	Gold Paint
@@ -355,8 +355,8 @@ InventoryItemNames/InvItem_871	Warm Nordic Couch
 InventoryItemDescriptions/InvDesc_871	A Couch. You can sit on it with a friend
 InventoryItemNames/InvItem_872	Warm Nordic Table
 InventoryItemDescriptions/InvDesc_872	A wooden table.
-InventoryItemNames/InvItem_873	Warm Nordic Lamp
-InventoryItemDescriptions/InvDesc_873	Keep books here.
+InventoryItemNames/InvItem_874	Warm Nordic Lamp
+InventoryItemDescriptions/InvDesc_874	Keep books here.
 InventoryItemNames/InvItem_875	Warm Nordic Seat
 InventoryItemDescriptions/InvDesc_875	A single chair for sitting.
 InventoryItemNames/InvItem_876	Red Hang Glider
@@ -417,3 +417,203 @@ InventoryItemNames/InvItem_903	Umbrella
 InventoryItemDescriptions/InvDesc_903	Keep the wet out
 InventoryItemNames/InvItem_904	Bulletin Board
 InventoryItemDescriptions/InvDesc_904	A place for the community to post news and requests.
+InventoryItemNames/InvItem_905	Thunder Sac
+InventoryItemDescriptions/InvDesc_905	This makes sparks?
+InventoryItemNames/InvItem_906	Bat Zapper
+InventoryItemDescriptions/InvDesc_906	A torch that Bats hate.
+InventoryItemNames/InvItem_907	Gum Wood Steps
+InventoryItemDescriptions/InvDesc_907	5, 6, 7, 8
+InventoryItemNames/InvItem_908	Hard Wood Steps
+InventoryItemDescriptions/InvDesc_908	5, 6, 7, 8
+InventoryItemNames/InvItem_909	Gum Wood Lamp Post
+InventoryItemDescriptions/InvDesc_909	Fence post that is also a light
+InventoryItemNames/InvItem_910	Hard Wood Lamp Post
+InventoryItemDescriptions/InvDesc_910	Fence post that is also a light
+InventoryItemNames/InvItem_911	Copper Scythe
+InventoryItemDescriptions/InvDesc_911	It swings faster!
+InventoryItemNames/InvItem_912	Iron Scythe
+InventoryItemDescriptions/InvDesc_912	This thing reaps.
+InventoryItemNames/InvItem_913	Cement Bird Bath
+InventoryItemDescriptions/InvDesc_913	Birds can wash in it.
+InventoryItemNames/InvItem_914	Hardwood Crude Fence
+InventoryItemDescriptions/InvDesc_914	A basic fence. Does the job.
+InventoryItemNames/InvItem_915	Froggy Hood
+InventoryItemDescriptions/InvDesc_915	Fit for a princess
+InventoryItemNames/InvItem_916	Cat Hood
+InventoryItemDescriptions/InvDesc_916	A hood for a cat burglar
+InventoryItemNames/InvItem_917	Yellow Print Dress
+InventoryItemDescriptions/InvDesc_917	Flowery
+InventoryItemNames/InvItem_918	Yellow Print Pants
+InventoryItemDescriptions/InvDesc_918	Easy to wear!
+InventoryItemNames/InvItem_919	Brown Boat Shoes
+InventoryItemDescriptions/InvDesc_919	Ahoy!
+InventoryItemNames/InvItem_920	Floppy Straw Hat
+InventoryItemDescriptions/InvDesc_920	This will keep that sun off ya.
+InventoryItemNames/InvItem_921	Bunting Festoon
+InventoryItemDescriptions/InvDesc_921	Festive.
+InventoryItemNames/InvItem_922	House Customisation Kit
+InventoryItemDescriptions/InvDesc_922	Use it on houses to customise their appearance
+InventoryItemNames/InvItem_923	Gum Wood Flag Post
+InventoryItemDescriptions/InvDesc_923	Fence post that has a lil flag on it
+InventoryItemNames/InvItem_924	Palm Wood Flag Post
+InventoryItemDescriptions/InvDesc_924	Fence post that has a lil flag on it
+InventoryItemNames/InvItem_925	Dirt Printer
+InventoryItemDescriptions/InvDesc_925	Prints dirt
+InventoryItemNames/InvItem_926	Mighty Seeds
+InventoryItemDescriptions/InvDesc_926	Some strange seeds.
+InventoryItemNames/InvItem_927	Mighty Spread
+InventoryItemDescriptions/InvDesc_927	It's kinda salty.
+InventoryItemNames/InvItem_928	Hard Wood Flag Post
+InventoryItemDescriptions/InvDesc_928	Fence post that has a lil flag on it
+InventoryItemNames/InvItem_929	Black Wooden Crate
+InventoryItemDescriptions/InvDesc_929	Store things in here if you like
+InventoryItemNames/InvItem_930	Blue Wooden Crate
+InventoryItemDescriptions/InvDesc_930	Store things in here if you like
+InventoryItemNames/InvItem_931	Chrome Wooden Crate
+InventoryItemDescriptions/InvDesc_931	Store things in here if you like
+InventoryItemNames/InvItem_932	Gold Wooden Crate
+InventoryItemDescriptions/InvDesc_932	Store things in here if you like
+InventoryItemNames/InvItem_933	Green Wooden Crate
+InventoryItemDescriptions/InvDesc_933	Store things in here if you like
+InventoryItemNames/InvItem_934	Orange Wooden Crate
+InventoryItemDescriptions/InvDesc_934	Store things in here if you like
+InventoryItemNames/InvItem_935	Pink Wooden Crate
+InventoryItemDescriptions/InvDesc_935	Store things in here if you like
+InventoryItemNames/InvItem_936	Purple Wooden Crate
+InventoryItemDescriptions/InvDesc_936	Store things in here if you like
+InventoryItemNames/InvItem_937	Red Wooden Crate
+InventoryItemDescriptions/InvDesc_937	Store things in here if you like
+InventoryItemNames/InvItem_938	White Wooden Crate
+InventoryItemDescriptions/InvDesc_938	Store things in here if you like
+InventoryItemNames/InvItem_939	Yellow Wooden Crate
+InventoryItemDescriptions/InvDesc_939	Store things in here if you like
+InventoryItemNames/InvItem_940	Black Wooden Chest
+InventoryItemDescriptions/InvDesc_940	Put stuff in here.
+InventoryItemNames/InvItem_941	Blue Wooden Chest
+InventoryItemDescriptions/InvDesc_941	Put stuff in here.
+InventoryItemNames/InvItem_942	Chrome Wooden Chest
+InventoryItemDescriptions/InvDesc_942	Put stuff in here.
+InventoryItemNames/InvItem_943	Gold Wooden Chest
+InventoryItemDescriptions/InvDesc_943	Put stuff in here.
+InventoryItemNames/InvItem_944	Green Wooden Chest
+InventoryItemDescriptions/InvDesc_944	Put stuff in here.
+InventoryItemNames/InvItem_945	Orange Wooden Chest
+InventoryItemDescriptions/InvDesc_945	Put stuff in here.
+InventoryItemNames/InvItem_946	Pink Wooden Chest
+InventoryItemDescriptions/InvDesc_946	Put stuff in here.
+InventoryItemNames/InvItem_947	Purple Wooden Chest
+InventoryItemDescriptions/InvDesc_947	Put stuff in here.
+InventoryItemNames/InvItem_948	Red Wooden Chest
+InventoryItemDescriptions/InvDesc_948	Put stuff in here.
+InventoryItemNames/InvItem_949	White Wooden Chest
+InventoryItemDescriptions/InvDesc_949	Put stuff in here.
+InventoryItemNames/InvItem_950	Yellow Wooden Chest
+InventoryItemDescriptions/InvDesc_950	Put stuff in here.
+InventoryItemNames/InvItem_951	Salon Deed
+InventoryItemDescriptions/InvDesc_951	Build a place for stylin' hair
+InventoryItemNames/InvItem_952	Butterfly Orchid
+InventoryItemDescriptions/InvDesc_952	A rare tropical flower
+InventoryItemNames/InvItem_953	Glow Bug
+InventoryItemDescriptions/InvDesc_953	It's mesmerizing
+InventoryItemNames/InvItem_954	Deep Fish
+InventoryItemDescriptions/InvDesc_954	A fish from deep down.
+InventoryItemNames/InvItem_955	Bat Glider
+InventoryItemDescriptions/InvDesc_955	Fly around like an annoying bat
+InventoryItemNames/InvItem_956	Alpha Hammer
+InventoryItemDescriptions/InvDesc_956	A hammer with bounce.
+InventoryItemNames/InvItem_957	Alpha Antler
+InventoryItemDescriptions/InvDesc_957	A prize from an Alpha Jackaroo
+InventoryItemNames/InvItem_958	Alpha Scale
+InventoryItemDescriptions/InvDesc_958	A prize from an Alpha Croco
+InventoryItemNames/InvItem_959	Alpha Spear
+InventoryItemDescriptions/InvDesc_959	Quak
+InventoryItemNames/InvItem_960	Alpha Bat
+InventoryItemDescriptions/InvDesc_960	Hows this?
+InventoryItemNames/InvItem_961	Pattern Stone Path
+InventoryItemDescriptions/InvDesc_961	A path in a circular pattern
+InventoryItemNames/InvItem_962	Panda Hood
+InventoryItemDescriptions/InvDesc_962	They like waffles.
+InventoryItemNames/InvItem_963	Alpha Eye
+InventoryItemDescriptions/InvDesc_963	A prize from an Alpha Devil
+InventoryItemNames/InvItem_964	Cobble Stone Path
+InventoryItemDescriptions/InvDesc_964	A bunch of rocks cobbled together
+InventoryItemNames/InvItem_965	Cobblestone Fence
+InventoryItemDescriptions/InvDesc_965	Keep things in or out.
+InventoryItemNames/InvItem_966	Rock Edge Path
+InventoryItemDescriptions/InvDesc_966	A simple dirt path lined with rocks.
+InventoryItemNames/InvItem_967	Cobblestone Road
+InventoryItemDescriptions/InvDesc_967	A bunch of rocks cobbled together
+InventoryItemNames/InvItem_968	Cobblestone Road Lines
+InventoryItemDescriptions/InvDesc_968	A bunch of rocks cobbled together
+InventoryItemNames/InvItem_969	Cooked Freshwater Fish
+InventoryItemDescriptions/InvDesc_969	Something fishy about this.
+InventoryItemNames/InvItem_970	Cooked Saltwater Fish
+InventoryItemDescriptions/InvDesc_970	It's a bit salty.
+InventoryItemNames/InvItem_971	Detective Pants
+InventoryItemDescriptions/InvDesc_971	On the case.
+InventoryItemNames/InvItem_972	Trench Coat
+InventoryItemDescriptions/InvDesc_972	A sneaky coat.
+InventoryItemNames/InvItem_973	Black Boat Shoes
+InventoryItemDescriptions/InvDesc_973	Ahoy!
+InventoryItemNames/InvItem_974	P.I Hat
+InventoryItemDescriptions/InvDesc_974	For investigating.
+InventoryItemNames/InvItem_975	Dark Detective Pants
+InventoryItemDescriptions/InvDesc_975	On the case.
+InventoryItemNames/InvItem_976	Dark Trench Coat
+InventoryItemDescriptions/InvDesc_976	A sneaky coat.
+InventoryItemNames/InvItem_977	P.I Hat
+InventoryItemDescriptions/InvDesc_977	For investigating.
+InventoryItemNames/InvItem_978	Blue Summer Dress
+InventoryItemDescriptions/InvDesc_978	Keeps you cool
+InventoryItemNames/InvItem_979	Green Summer Dress
+InventoryItemDescriptions/InvDesc_979	Keeps you cool
+InventoryItemNames/InvItem_980	Minimalist Bed
+InventoryItemDescriptions/InvDesc_980	Is this furniture?
+InventoryItemNames/InvItem_981	Minimalist Bedside Table
+InventoryItemDescriptions/InvDesc_981	Is this furniture?
+InventoryItemNames/InvItem_982	Minimalist Book Shelf
+InventoryItemDescriptions/InvDesc_982	Is this furniture?
+InventoryItemNames/InvItem_983	Minimalist Chair
+InventoryItemDescriptions/InvDesc_983	Is this furniture?
+InventoryItemNames/InvItem_984	Minimalist Couch
+InventoryItemDescriptions/InvDesc_984	Is this furniture?
+InventoryItemNames/InvItem_985	Minimalist Dresser
+InventoryItemDescriptions/InvDesc_985	Is this furniture?
+InventoryItemNames/InvItem_986	Minimalist Lamp
+InventoryItemDescriptions/InvDesc_986	A standing lamp
+InventoryItemNames/InvItem_987	Minimalist Seat
+InventoryItemDescriptions/InvDesc_987	Is this furniture?
+InventoryItemNames/InvItem_988	White Brick Wallpaper
+InventoryItemDescriptions/InvDesc_988	Better than hay.
+InventoryItemNames/InvItem_989	Red Brick Wallpaper
+InventoryItemDescriptions/InvDesc_989	Better than hay.
+InventoryItemNames/InvItem_990	Green Brick Wallpaper
+InventoryItemDescriptions/InvDesc_990	Better than hay.
+InventoryItemNames/InvItem_991	Dark Tiles
+InventoryItemDescriptions/InvDesc_991	Keeps your house cool
+InventoryItemNames/InvItem_992	Bright Tiles
+InventoryItemDescriptions/InvDesc_992	Keeps your house cool
+InventoryItemNames/InvItem_993	Mascot Head
+InventoryItemDescriptions/InvDesc_993	A bad keeper
+InventoryItemNames/InvItem_994	Mascot Legs
+InventoryItemDescriptions/InvDesc_994	The Clothes of a worker.
+InventoryItemNames/InvItem_995	Mascot Torso
+InventoryItemDescriptions/InvDesc_995	The Clothes of a worker.
+InventoryItemNames/InvItem_996	Bunk Bed
+InventoryItemDescriptions/InvDesc_996	So much room
+InventoryItemNames/InvItem_997	Cooked Blob Fish
+InventoryItemDescriptions/InvDesc_997	It's so bad.
+InventoryItemNames/InvItem_998	Honey Comb Path
+InventoryItemDescriptions/InvDesc_998	It's a bit stick on your feet
+InventoryItemNames/InvItem_999	Warm Nordic Wall
+InventoryItemDescriptions/InvDesc_999	Warm wall
+InventoryItemNames/InvItem_1000	Warm Nordic Floor
+InventoryItemDescriptions/InvDesc_1000	Warm flooring
+InventoryItemNames/InvItem_1001	Bottle Tree Seed
+InventoryItemDescriptions/InvDesc_1001	Plant a Bottle Tree. They grow slow!
+InventoryItemNames/InvItem_1002	Mushroom Path
+InventoryItemDescriptions/InvDesc_1002	It's glows a bit
+InventoryItemNames/InvItem_1003	Pearl Path
+InventoryItemDescriptions/InvDesc_1003	An expensive path for your feet.
+InventoryItemNames/InvItem_1004	Melon Scarecrow
+InventoryItemDescriptions/InvDesc_1004	Stop birds from eating all your crops.
