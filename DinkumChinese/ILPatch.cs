@@ -33,7 +33,7 @@ namespace DinkumChinese
         [HarmonyTranspiler, HarmonyPatch(typeof(BankMenu), "convertButton")]
         public static IEnumerable<CodeInstruction> BankMenu_convertButton_Patch(IEnumerable<CodeInstruction> instructions)
         {
-            instructions = ReplaceIL(instructions, "Convert [<sprite=11> 500 for <sprite=15> 1]", "转换 [<sprite=11> 500 到 <sprite=15> 1]");
+            instructions = ReplaceIL(instructions, "Convert [<sprite=11> 500 for <sprite=15> 1]", "兑换 [<sprite=11> 500 到 <sprite=15> 1]");
             return instructions;
         }
 
