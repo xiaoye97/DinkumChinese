@@ -585,11 +585,11 @@ InventoryItemDescriptions/InvDesc_514	Green and warm	Vert et chaleureux	Зеле
 InventoryItemDescriptions/InvDesc_515	Orange and warm	Orange et chaud	Оранжевый и тепло	Orange和温暖	オレンジと暖かいです
 InventoryItemDescriptions/InvDesc_516	A red flannelette shirt.	Une chemise de flanelle rouge.	Красные байковые рубашки.	红色绒布衬衫。	赤い綿ネルシャツ。
 InventoryItemDescriptions/InvDesc_517	Strum it!	Strum it!	Струм его!	扫弦吧！	それを鳴らします！
-InventoryItemDescriptions/InvDesc_518	Allows someone to move to your town.	Permet à quelqu'un de passer à votre ville.	Позволяет кому-то перейти на ваш город.	允许某人移动到你的城市。	誰かがあなたの町に移動することができます。
-InventoryItemDescriptions/InvDesc_519	Allows someone to move to your town.	Permet à quelqu'un de passer à votre ville.	Позволяет кому-то перейти на ваш город.	允许某人移动到你的城市。	誰かがあなたの町に移動することができます。
+InventoryItemDescriptions/InvDesc_518	An extra house for the town.	Permet à quelqu'un de passer à votre ville.	Позволяет кому-то перейти на ваш город.	允许某人移动到你的城市。	誰かがあなたの町に移動することができます。
+InventoryItemDescriptions/InvDesc_519	An extra house for the town.	Permet à quelqu'un de passer à votre ville.	Позволяет кому-то перейти на ваш город.	允许某人移动到你的城市。	誰かがあなたの町に移動することができます。
 InventoryItemDescriptions/InvDesc_52	Welcome to the river. We've got perch.	Bienvenue sur la rivière. Nous avons la perche.	Добро пожаловать в реку. У нас есть окунь.	欢迎来到河边。我们有鲈鱼。	川へようこそ。私たちは、止まり木を持っています。
-InventoryItemDescriptions/InvDesc_520	Allows someone to move to your town.	Permet à quelqu'un de passer à votre ville.	Позволяет кому-то перейти на ваш город.	允许某人移动到你的城市。	誰かがあなたの町に移動することができます。
-InventoryItemDescriptions/InvDesc_521	Allows someone to move to your town.	Permet à quelqu'un de passer à votre ville.	Позволяет кому-то перейти на ваш город.	允许某人移动到你的城市。	誰かがあなたの町に移動することができます。
+InventoryItemDescriptions/InvDesc_520	An extra house for the town.	Permet à quelqu'un de passer à votre ville.	Позволяет кому-то перейти на ваш город.	允许某人移动到你的城市。	誰かがあなたの町に移動することができます。
+InventoryItemDescriptions/InvDesc_521	An extra house for the town.	Permet à quelqu'un de passer à votre ville.	Позволяет кому-то перейти на ваш город.	允许某人移动到你的城市。	誰かがあなたの町に移動することができます。
 InventoryItemDescriptions/InvDesc_522	Eastern Chair	président de l'Est	Восточный Председатель	东椅	東チェア
 InventoryItemDescriptions/InvDesc_523	A single chair for sitting.	Une seule chaise pour se reposer.	Один стул для сидения.	一个单一的椅子坐着。	座るための単一の椅子。
 InventoryItemDescriptions/InvDesc_524	Sleep here.	Dormir ici.	Спи здесь.	这里睡。	ここに眠ります。
@@ -1765,6 +1765,10 @@ Npc0/Arvo_Greeting 1_Intro_000	Oh, like, good afternoon, <PlayerName>.
 Npc0/Arvo_Greeting 1_Response_003_000					
 Npc0/Arvo_Greeting 2_Intro_000	<yes>It will, like, be dark soon.				
 Npc0/Arvo_Greeting 2_Response_003_000	Use that daylight up, <PlayerName>!				
+Npc0/CompleteRequest_000_Intro_000	<pumped>Bonza!				
+Npc0/CompleteRequest_000_Intro_001	<glee>I, like, knew I could count on you.				
+Npc0/CompleteRequest_000_Intro_002	Now, I have something for, <PlayerName>!				
+Npc0/CompleteRequest_000_Intro_003	<glee>I hope you like it!				
 Npc0/Gossip_About_NPC_001_Intro_000	<no>There’s no WAY I could work the hours <NPCName> works...þ				
 Npc0/Gossip_About_NPC_001_Intro_001	<thinking>He told me he’s doing it for his brother...				
 Npc0/Gossip_About_NPC_001_Intro_002	But wouldn’t his brother want him to be happy?þ				
@@ -1793,6 +1797,9 @@ Npc0/High_Friendship_Greeting 0_Response_003_000	<wave>Catch ya!
 Npc0/High_Friendship_Greeting 2_Intro_000	It’s <PlayerName>!				
 Npc0/High_Friendship_Greeting 2_Intro_001	Right on!				
 Npc0/High_Friendship_Greeting 2_Response_003_000	<wave>Later!				
+Npc0/Highest_Friendship_Greeting 1_Intro_000	Hey, it’s <PlayerName>!þ				
+Npc0/Highest_Friendship_Greeting 1_Intro_001	What’s up?þ				
+Npc0/Highest_Friendship_Greeting 1_Response_003_000					
 Npc0/Introduction_000_Intro_000	Oh, hi there, I’m <myName>.				
 Npc0/Introduction_000_Intro_001	I’m a <Nomad> that’s, like, looking to sell seeds. I’ve got farming equipment too if you’re interested.þ				
 Npc0/Introduction_000_Intro_002	<thinking>Although I can only sell them to people who have a <FarmingLicence>.				
@@ -2504,6 +2511,9 @@ Npc2/CanMakeTechForYouNotEnoughMoney_Response_000_002	Why don't you come back wi
 Npc2/CanMakeTechForYouNotEnoughMoney_Response_000_003	<yes>And I will try to avoid remembering this embarrassing exchange.				
 Npc2/CanMakeTechForYouNotEnoughMoney_Response_001_000	Very well.				
 Npc2/CanMakeTechForYouNotEnoughMoney_Response_001_001					
+Npc2/CompleteRequest_000_Intro_000	<yes>Excellent.				
+Npc2/CompleteRequest_000_Intro_001	You have done a very adequate job.				
+Npc2/CompleteRequest_000_Intro_002					
 Npc2/CrafterCurrentlyCrafting_Intro_000	Oh, <PlayerName>. I am actually a quite busy right now.				
 Npc2/CrafterCurrentlyCrafting_Intro_001	I have to get this project done by tomorrow.				
 Npc2/CrafterCurrentlyCrafting_Intro_002	Is there something you need?				
@@ -2568,6 +2578,8 @@ Npc2/High_Friendship_Greeting 1_Intro_000	Hello, <PlayerName>.
 Npc2/High_Friendship_Greeting 1_Response_003_000	Goodbye.				
 Npc2/Highest_Friendship_Greeting 0_Intro_000	Salutations, <PlayerName>.þ				
 Npc2/Highest_Friendship_Greeting 0_Response_003_000	þLet us part ways then.þ				
+Npc2/Highest_Friendship_Greeting 1_Intro_000	A cordial greeting to you, <PlayerName>.þ				
+Npc2/Highest_Friendship_Greeting 1_Response_003_000					
 Npc2/Highest_Friendship_Greeting 2_Intro_000	Yes, <PlayerName>?þ				
 Npc2/Highest_Friendship_Greeting 2_Response_003_000	<yes>Good day to you.þ				
 Npc2/Introduction_002_Intro_000	Oh. Hello. My name is <myName>.				
@@ -3548,13 +3560,13 @@ Npc6/RandomConvo_034_Intro_000	My father always used to say: “You keep your fr
 Npc6/RandomConvo_034_Intro_001	<haha> He wasn’t much of a wordy, but he knew how to get things done, make no mistake.þ				
 Npc6/RandomConvo_034_Intro_002	<yes>Always looking out for his friends, he was.þ				
 Npc6/RandomConvo_034_Intro_003	<yes>Just like you <PlayerName>.þ				
-Npc6/StartingConversation_Intro_000	So, you wanted to talk about your home?	, Vous vouliez ainsi parler de votre maison?	Итак, вы хотите поговорить о вашем доме?		だから、あなたはあなたの家の話をしたいですか？
-Npc6/StartingConversation_Option_000	I want to upgrade	Je veux mettre à jour	Я хочу, чтобы обновить		私はアップグレードしたいです
-Npc6/StartingConversation_Option_001	Change the look of my house.	Changer l'apparence de ma maison.	Измените внешний вид своего дома.		私の家の外観を変更します。
-Npc6/StartingConversation_Option_002	I want to move my house.	Je veux déplacer ma maison.	Я хочу, чтобы переместить мой дом.		私は自分の家を移動したいです。
+Npc6/StartingConversation_Intro_000	So, you wanted to talk about your home?				
+Npc6/StartingConversation_Option_000	I want to upgrade				
+Npc6/StartingConversation_Option_001	I want to move my house.				
+Npc6/StartingConversation_Option_002	Nevermind				
 Npc6/StartingConversation_Option_003	Nevermind.	Ça ne fait rien.	Неважно.		気にしないで。
-Npc6/StartingConversation_Response_001_000	Okay, let's see what we can do...	D'accord, nous allons voir ce que nous pouvons faire ...	Хорошо, давайте посмотрим, что мы можем сделать ...		さて、私たちは何ができるか見てみましょう...
-Npc6/StartingConversation_Response_002_000	Hmmm...	Hmmm...	Хм...		うーん...
+Npc6/StartingConversation_Response_001_000	Hmmm...				
+Npc6/StartingConversation_Response_002_000					
 Npc6/StartingConversation_Response_003_000	Alright then, <PlayerName>.	Très bien alors, <PlayerName>.	Хорошо то, <PlayerName>.		さてさて、その後、<プレイヤー名>。
 Npc6/StartingConversationTent_Intro_000	Ah! So, you're interested in applying for a house deed?				
 Npc6/StartingConversationTent_Intro_001	I'll just let you know there is a <getHousePrice> up front fee. <thinking>				
@@ -3813,6 +3825,9 @@ Npc7/WantToBuyAnimalNoMoney_Response_000_000	Oh great!<pumped>	Oh génial! <Pomp
 Npc7/WantToBuyAnimalNoMoney_Response_000_001	Wait, you don't have enough money... <shy>	Attendez, vous n'avez pas assez d'argent ... <timide>	Подождите, у вас нет достаточно денег ... <застенчивый>		待って、あなたは十分なお金を持っていない... <恥ずかしがり屋>
 Npc7/WantToBuyAnimalNoMoney_Response_000_002	If you can get it together she will be here waiting for you all day!	Si vous pouvez l'obtenir ensemble, elle sera là pour vous attendre toute la journée!	Если вы можете получить его вместе, она будет здесь ждет вас в течение всего дня!		あなたが一緒にそれを得ることができれば、彼女は一日中あなたを待ってここになります！
 Npc7/WantToBuyAnimalNoMoney_Response_001_000	That's okay! I'm sure she'll find a home soon! <yes>	C'est bon! Je suis sûr qu'elle va trouver une maison bientôt! <Oui>	Это нормально! Я уверен, что она будет найти дом в ближайшее время! <Да>		大丈夫！私は彼女がすぐに家を見つけることができます確信しています！ <はい>
+Npc8/Gossip_About_NPC_000_Intro_000	Just between you and me...þ				
+Npc8/Gossip_About_NPC_000_Intro_001	<yes>I heard <NPCName> grows her hair herself.þ				
+Npc8/Gossip_About_NPC_000_Intro_002					
 Npc8/HairDresserConvo_Intro_000	Welcome!				
 Npc8/HairDresserConvo_Intro_001	Can I interest you in a little trim?				
 Npc8/HairDresserConvo_Option_000	Yes please!				
@@ -4391,9 +4406,9 @@ RandomisedRequests/AcceptHangOut_000_Intro_000	You know what? I'd love to hang o
 RandomisedRequests/AcceptHangOut_000_Intro_001	Let's do this!				
 RandomisedRequests/AcceptHangOut_001_Intro_000	You want to hang out with me?				
 RandomisedRequests/AcceptHangOut_001_Intro_001	Hmmm... <thinking>				
-RandomisedRequests/AcceptHangOut_001_Intro_002	Yeah, I'm up for it! <pumped>				
+RandomisedRequests/AcceptHangOut_001_Intro_002	<pumped>Yeah, I'm up for it!				
 RandomisedRequests/AcceptHangOut_002_Intro_000	Yeah, sure! What's the plan today?				
-RandomisedRequests/AcceptHangOut_002_Intro_001	I'll just follow you! <haha>				
+RandomisedRequests/AcceptHangOut_002_Intro_001	<haha>I'll just follow you!				
 RandomisedRequests/AcceptHangOut_003_Intro_000	I'd love to hang out. <glee>				
 RandomisedRequests/AcceptHangOut_003_Intro_001	Lead the way!				
 RandomisedRequests/AlreadyHangingOutWithSomeone_000_Intro_000	Oh, I'm okay thanks. You and <followedByName> have fun, okay?				
@@ -4442,7 +4457,7 @@ RandomisedRequests/NotGoodEnoughFriendsToHang_003_Intro_000	Ah, <PlayerName> tha
 RandomisedRequests/NotGoodEnoughFriendsToHang_003_Intro_001	<shy>The thing is I don't usually hang out with people I don't know that well.				
 RandomisedRequests/NotGoodEnoughFriendsToHang_003_Intro_002	Sorry about that...				
 RandomisedRequests/NotGoodEnoughFriendsToHang_004_Intro_000	<shy>Thanks for asking, <PlayerName>...				
-RandomisedRequests/NotGoodEnoughFriendsToHang_004_Intro_001	<shy>But ,aybe we should get to know each other a bit better first?				
+RandomisedRequests/NotGoodEnoughFriendsToHang_004_Intro_001	<shy>But maybe we should get to know each other a bit better first?				
 RandomisedRequests/NotGoodEnoughFriendsToHang_005_Intro_000	<shy>Thanks for the offer... but I feel like we don't know each other well enough.				
 RandomisedRequests/NotGoodEnoughFriendsToHang_005_Intro_001	<shy>Maybe some other time?				
 RandomisedRequests/RequestAccepted_001_Intro_000	Oh did you find <requestItem>?				
@@ -4611,6 +4626,15 @@ Shopping/TotalEqualsZero_Response_000_000	Very good! I will take these of your h
 Shopping/TotalEqualsZero_Response_000_001	Thank you for visiting John's Goods! <sellGiveItems>	Nous vous remercions de visiter les marchandises de John! <> sellGiveItems	Благодарим Вас за посещение Товары Джона! <sellGiveItems>		ジョンの製品を訪問していただきありがとうございます！ <sellGiveItems>
 Shopping/TotalEqualsZero_Response_001_000	That's fine, please return if you wish to sell anything else.	Très bien, s'il vous plaît retourner si vous souhaitez quoi que ce soit d'autre vente.	Это хорошо, пожалуйста, вернуться, если вы хотите продать что-нибудь еще.		罰金、あなたが何かを販売したい場合は、ご返送ください。
 Shopping/TotalEqualsZero_Response_001_001	Thank you for visiting John's Goods!	Nous vous remercions de visiter les marchandises de John!	Благодарим Вас за посещение Товары Джона!	感谢您访问John's Goods！	ジョンの製品を訪問していただきありがとうございます！
+Shopping/WantToBuyAnimalNonLocal_Intro_000	Oh! That's a <buyItemName>.				
+Shopping/WantToBuyAnimalNonLocal_Intro_001	Shes a cutie, right?				
+Shopping/WantToBuyAnimalNonLocal_Intro_002	<no>Now, she'll have to live here on <IslandName>. You won't be able to take her home with you.				
+Shopping/WantToBuyAnimalNonLocal_Intro_003	If you're happy for her to live here on <IslandName>, she's all yours for <buyItemPrice>.				
+Shopping/WantToBuyAnimalNonLocal_Option_000	I'll give her a home.				
+Shopping/WantToBuyAnimalNonLocal_Option_001	No thanks.				
+Shopping/WantToBuyAnimalNonLocal_Response_000_000	Oh great!<pumped>				
+Shopping/WantToBuyAnimalNonLocal_Response_000_001	<glee>Now, I think we should give her a name?				
+Shopping/WantToBuyAnimalNonLocal_Response_001_000	That's okay! I'm sure she'll find a home soon! <yes>				
 Sign/AcceptingDonations_Intro_000	The town is currently in <TownDonateText> debt and is looking for donations.	La ville est actuellement endetté <TownDonateText> et cherche des dons.	В городе в настоящее время <TownDonateText> долга и ищет пожертвования.		町は<TownDonateText>借金に現在あるし、寄付を募集しています。
 Sign/AcceptingDonations_Intro_001	Please consider donating to our town.	S'il vous plaît envisager de faire don à notre ville.	Пожалуйста, поддержите в наш город.		私たちの町に寄付をご検討ください。
 Sign/AcceptingDonations_Option_000	Donate	Faire un don	жертвовать		寄付
@@ -4622,6 +4646,9 @@ Sign/AnimalShopSign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		
 Sign/BankSign_Intro_000	The Bank	La Banque	Банк		銀行
 Sign/BankSign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
 Sign/BankSign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		<getClosedDays>
+Sign/BarberShopSign_Intro_000	<NPCName>'s Salon				
+Sign/BarberShopSign_Intro_001	<getOpeningHours>				
+Sign/BarberShopSign_Intro_002	<getClosedDays>				
 Sign/ClosedSign_Intro_000	Closed				
 Sign/ClothShopSign_Intro_000	Threadspace.	ThreadSpace.	ThreadSpace.		Threadspace。
 Sign/ClothShopSign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
@@ -4632,6 +4659,9 @@ Sign/ConfirmSleepSign_Option_001	Just resting my eyes.
 Sign/Crafters_Sign_Intro_000	<NPCName>'s Lab	Jolly wrencher - Artisan et Bricoleur	Jolly Wrencher - Мастер и Tinkerer		ジョリーWrencher  - 職人とTinkerer
 Sign/Crafters_Sign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
 Sign/Crafters_Sign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		<getClosedDays>
+Sign/EditHouseSign_Intro_000	Customise this house?				
+Sign/EditHouseSign_Option_000	Yes				
+Sign/EditHouseSign_Option_001					
 Sign/Fletch_Sleeping Bags_Intro_000	Those are some spare <itemName> I keep around just in case anyone needs one.þ				
 Sign/Fletch_Sleeping Bags_Intro_001	Do you need one, <PlayerName>?				
 Sign/Fletch_Sleeping Bags_Option_000	Yes please!				
@@ -4645,6 +4675,9 @@ Sign/FurnitureShopSign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays
 Sign/GreenHouse_HourSign_Intro_000	<NPCName>'s Greenhouse.	La serre.	Теплица.		温室。
 Sign/GreenHouse_HourSign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
 Sign/GreenHouse_HourSign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		<getClosedDays>
+Sign/HairDresserMirror_Intro_000	Should I use <NPCName>'s Mirror?				
+Sign/HairDresserMirror_Option_000	Yes				
+Sign/HairDresserMirror_Option_001					
 Sign/HasRepairKit_Intro_000	Should I use a <itemName> to repair all the tools in my pockets?				
 Sign/HasRepairKit_Option_000	Yes.				
 Sign/HasRepairKit_Option_001					
