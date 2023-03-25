@@ -165,14 +165,14 @@ namespace DinkumChinese
                 string text2 = "";
                 if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSummer && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInWinter && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSpring && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInAutum)
                 {
-                    text2 = "在所有季节";
+                    text2 = UIAnimationManager.manage.getCharacterNameTag("全年");
                 }
                 else
                 {
                     text2 += "在";
                     if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSummer)
                     {
-                        text2 += "夏天";
+                        text2 += UIAnimationManager.manage.getCharacterNameTag("夏天");
                     }
                     if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInAutum)
                     {
@@ -180,7 +180,7 @@ namespace DinkumChinese
                         {
                             text2 += "和";
                         }
-                        text2 += "秋天";
+                        text2 += UIAnimationManager.manage.getCharacterNameTag("秋天");
                     }
                     if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInWinter)
                     {
@@ -188,7 +188,7 @@ namespace DinkumChinese
                         {
                             text2 += "和";
                         }
-                        text2 += "冬天";
+                        text2 += UIAnimationManager.manage.getCharacterNameTag("冬天");
                     }
                     if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSpring)
                     {
@@ -196,25 +196,57 @@ namespace DinkumChinese
                         {
                             text2 += "和";
                         }
-                        text2 += "春天";
+                        text2 += UIAnimationManager.manage.getCharacterNameTag("春天");
                     }
                 }
                 if (_this.allItems[itemId].placeable.tileObjectGrowthStages.needsTilledSoil)
                 {
                     text = text + "适合" + text2 + "种植。";
                 }
+                string text4;
+                if (_this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length != 0 || (_this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto && _this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestSpots.Length != 0))
+                {
+                    string text3 = "";
+                    bool flag = false;
+                    if (_this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length != 0)
+                    {
+                        if (_this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length > 1)
+                        {
+                            flag = true;
+                        }
+                        text3 = _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestDrop.getInvItemName();
+                    }
+                    else if (_this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto)
+                    {
+                        if (_this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestSpots.Length > 1)
+                        {
+                            flag = true;
+                        }
+                        text3 = _this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestDrop.getInvItemName();
+                    }
+                    text4 = UIAnimationManager.manage.getItemColorTag(text3);
+                }
+                else
+                {
+                    text4 = "???";
+                }
                 if (_this.allItems[itemId].placeable.tileObjectGrowthStages.objectStages.Length != 0)
                 {
+                    if (_this.allItems[itemId].burriedPlaceable)
+                    {
+                        __result = "你得把它埋在地里。" + _this.allItems[itemId].placeable.tileObjectGrowthStages.objectStages.Length.ToString() + "天后它就会长大。";
+                        return false;
+                    }
                     if (_this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto)
                     {
                         text = string.Concat(new string[]
                         {
                         text,
-                        "周围需要一些空间，因为它们会在旁边的位置结出<b>",
+                        "周围需要一些空间，因为它们会在旁边的位置结出",
                         _this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestSpots.Length.ToString(),
-                        "个",
-                        _this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestDrop.getInvItemName(),
-                        "</b>。该植株最多能分出4个分支！"
+                        "",
+                        text4,
+                        "。该植株最多能分出4个分支！"
                         });
                     }
                     else
@@ -226,7 +258,8 @@ namespace DinkumChinese
                         _this.allItems[itemId].placeable.tileObjectGrowthStages.objectStages.Length.ToString(),
                         "天的时间来生长，可收获",
                         _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length.ToString(),
-                        _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestDrop.getInvItemName(),
+                        "",
+                        text4,
                         "。"
                         });
                     }
@@ -240,13 +273,14 @@ namespace DinkumChinese
                     Mathf.Abs(_this.allItems[itemId].placeable.tileObjectGrowthStages.takeOrAddFromStateOnHarvest).ToString(),
                     "天可收获",
                     _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length.ToString(),
-                    _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestDrop.getInvItemName(),
+                    "",
+                    text4,
                     "。"
                     });
                 }
                 if (!WorldManager.manageWorld.allObjectSettings[_this.allItems[itemId].placeable.tileObjectId].walkable)
                 {
-                    text += "噢，这还需要植物支架来附着生长。";
+                    text = text + "噢，这还需要" + UIAnimationManager.manage.getItemColorTag("植物支架") + "来附着生长。";
                 }
             }
             __result = text;
