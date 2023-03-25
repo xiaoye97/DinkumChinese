@@ -1,24 +1,32 @@
 Key	English
-Generic/12 NPC_Villager2_Intro_000_1657316191	Ah! Hey there!
-Generic/12 NPC_Villager2_Intro_001_312701957	I'm <myName>. I moved into the new house here.
-Generic/12 NPC_Villager2_Intro_002_818710158	You're <PlayerName>, right?
-Generic/12 NPC_Villager2_Intro_003_1832297057	I heard that you're the one thats been working hard to get this town set up?
-Generic/12 NPC_Villager2_Intro_004_-1600818971	Well, thanks for that, <PlayerName>! <glee>
-Generic/13 NPC_Villager3_Intro_000_1657316191	Ah! Hey there!
-Generic/13 NPC_Villager3_Intro_001_312701957	I'm <myName>. I moved into the new house here.
-Generic/13 NPC_Villager3_Intro_002_818710158	You're <PlayerName>, right?
-Generic/13 NPC_Villager3_Intro_003_1832297057	I heard that you're the one thats been working hard to get this town set up?
-Generic/13 NPC_Villager3_Intro_004_-1600818971	Well, thanks for that, <PlayerName>! <glee>
+Generic/12 NPC_Sheila_Intro_000_-960425937	G’day there, <petName>.þ
+Generic/12 NPC_Sheila_Intro_001_-304816484	The name is <myName>.þ
+Generic/12 NPC_Sheila_Intro_002_2136504208	<yes><NPCName> got in contact with me and told me to come check out <IslandName>.þ
+Generic/12 NPC_Sheila_Intro_003_1136621488	<thinking>When she told me about all the tucker you can find here, I had to pack my bags and come take a look.þ
+Generic/12 NPC_Sheila_Intro_004_1234442374	<glee>I bloody love cooking and eating great food.þ
+Generic/12 NPC_Sheila_Intro_005_-321775458	<yes>I hope to try all the wonderful food you can cook here on <IslandName>.
+Generic/12 NPC_Sheila_Intro_006_-2082366573	Lovely to meet you, <petName>.þ
+Generic/13 NPC_Julia_Intro_000_-342005762	<wave>Oh, hello.
+Generic/13 NPC_Julia_Intro_001_-373904764	My name is <myName>.
+Generic/13 NPC_Julia_Intro_002_-1180763413	<NPCName> told me about you.
+Generic/13 NPC_Julia_Intro_003_-1987926813	He's my big brother.
+Generic/13 NPC_Julia_Intro_004_1227908502	<NPCName> told me that your name is <PlayerName>.
+Generic/13 NPC_Julia_Intro_005_-172808981	<no>I asked him if you liked bugs and stuff, but he said he didn’t know.þ
+Generic/13 NPC_Julia_Intro_006_-1953011906	So anyway, do you like bugs?
+Generic/13 NPC_Julia_Intro_007_-222941299	<glee>I really, really love bugs.
+Generic/13 NPC_Julia_Intro_008_-1297054754	<NPCName> told me to come visit him here on <IslandName> because there are lots of bugs.
+Generic/13 NPC_Julia_Intro_009_-1552206067	And guess what?
+Generic/13 NPC_Julia_Intro_010_-1451369792	<pumped>He was right!
 Generic/14 NPC_Ghost_Intro_000_1657316191	Ah! Hey there!
 Generic/14 NPC_Ghost_Intro_001_312701957	I'm <myName>. I moved into the new house here.
 Generic/14 NPC_Ghost_Intro_002_818710158	You're <PlayerName>, right?
 Generic/14 NPC_Ghost_Intro_003_1832297057	I heard that you're the one thats been working hard to get this town set up?
 Generic/14 NPC_Ghost_Intro_004_-1600818971	Well, thanks for that, <PlayerName>! <glee>
-Generic/14 NPC_Villager4_Intro_000_1657316191	Ah! Hey there!
-Generic/14 NPC_Villager4_Intro_001_312701957	I'm <myName>. I moved into the new house here.
-Generic/14 NPC_Villager4_Intro_002_818710158	You're <PlayerName>, right?
-Generic/14 NPC_Villager4_Intro_003_1832297057	I heard that you're the one thats been working hard to get this town set up?
-Generic/14 NPC_Villager4_Intro_004_-1600818971	Well, thanks for that, <PlayerName>! <glee>
+Generic/15 NPC_Villager_Intro_000_1657316191	Ah! Hey there!
+Generic/15 NPC_Villager_Intro_001_312701957	I'm <myName>. I moved into the new house here.
+Generic/15 NPC_Villager_Intro_002_818710158	You're <PlayerName>, right?
+Generic/15 NPC_Villager_Intro_003_1832297057	I heard that you're the one thats been working hard to get this town set up?
+Generic/15 NPC_Villager_Intro_004_-1600818971	Well, thanks for that, <PlayerName>! <glee>
 Generic/6 NPC_Fletch_Intro_000_1850724858	So, <PlayerName> . We made it.
 Generic/6 NPC_Fletch_Intro_001_-1908716033	Let's find a place we can start building!
 Generic/8 NPC_Sally_Details_Intro_000_-611028823	Oh. My. Goodness.
@@ -43,6 +51,7 @@ Generic/AgreeToMakeTech_Intro_002_-1049060912	<yes>It will probably take all nig
 Generic/AgreeToMakeTech_Intro_003_2000279374	Now, if you do not mind, I have work to do.
 Generic/AtWorkChat_Intro_000_1540723382	Oh, what did you want to chat about?
 Generic/AtWorkChat_Response_002_000_-242599561	Oh, alright then.
+Generic/Blueprint_Hand_Intro_000_604247592	I can't learn anything new from this...
 Generic/BuildTeleporterRequest_Intro_000_2128753632	<yes><PlayerName>, I see you have been repairing the Tele-Towers around the island.
 Generic/BuildTeleporterRequest_Intro_001_1405810327	<thinking>To be honest, I did not think you had the know-how to even understand what they were intended for…
 Generic/BuildTeleporterRequest_Intro_002_-34697312	<yes>Regardless, I have come up with an idea to build a <itemName> that we could place wherever we want.
@@ -96,17 +105,28 @@ Generic/BuilldTownOfficeRequest_Response_000_004_1815570903	Come back and talk t
 Generic/BuilldTownOfficeRequest_Response_001_000_1483587720	Not a problem! I'll let you have a look around for now.
 Generic/BuilldTownOfficeRequest_Response_001_001_1950401688	Have a look around, and then come back when you're ready.
 Generic/BuilldTownOfficeRequest_Response_001_002_-1936828151	Just be sure it's before night time! We don't want to be setting up in the dark.
+Generic/Completed_Intro_000_1235116400	Well done <PlayerName>.
 Generic/Completed_Intro_000_-1962561300	Oh, <PlayerName>!
 Generic/Completed_Intro_001_-1733357639	<IslandName> is growing very nicely.
+Generic/Completed_Intro_001_233960376	You have acquired 10 <itemName>.
 Generic/Completed_Intro_002_1679263794	With our current population, <SouthCity> has offically recognised <IslandName> as a settlement.
+Generic/Completed_Intro_002_-750710210	<no>I did not think this was possible.
+Generic/Completed_Intro_003_1263283209	<yes>I am impressed.þ
 Generic/Completed_Intro_003_-1273784858	That means we can upgrade the base tent into a real Town Hall.
 Generic/Completed_Intro_004_1158336108	<proud>I'll tell you what, I'll cover the costs myself.
+Generic/Completed_Intro_004_1528062265	Now, if you would allow me to study the 10 <itemName>.þ
 Generic/Completed_Intro_005_-1090788033	If I could ask you to gather items required for the Town Hall.
+Generic/Completed_Intro_005_1204797659	<thinking>….þ
 Generic/Completed_Intro_006_729021287	<yes>I've put a Deposit Box out the front of the Base Tent.
+Generic/Completed_Intro_006_741868321	<thinking>Hmmm…
+Generic/Completed_Intro_007_-1867146238	<shocked>Yes!þ
 Generic/Completed_Intro_007_-690945564	<shy>I'll tell you what, you've really changed my life for the better, <PlayerName>.
+Generic/Completed_Intro_008_1135824253	<glee>I believe there is a way to process this into a usable material.þ
 Generic/Completed_Intro_008_-1240599561	<yes>Infact, everyone here on <IslandName> owes it all to you!
 Generic/Completed_Intro_009_1026636179	<yes>It's not much, but we wanted to get you a gift.
+Generic/Completed_Intro_009_-1119247744	Studying this <itemName> has given me an idea for a new invention.
 Generic/Completed_Intro_010_-117808786	<yes>Think of it as a symbol of gratitude from everyone here on <IslandName>.
+Generic/Completed_Intro_010_-1184179880	Please, <PlayerName>, come talk to me if you want me to craft you something new!
 Generic/CompleteQuest_Intro_000_-1102451121	Ah, goodmorning <PlayerName>!
 Generic/CompleteQuest_Intro_000_-1131307374	Oh, you've found something to eat!
 Generic/CompleteQuest_Intro_000_-1832589873	So, this is where you decided to build, huh?
@@ -311,18 +331,32 @@ Generic/GivenSmeltingIngredient_Intro_001_1996132898	Take these <BulletinBoardRe
 Generic/Intro_Intro_000_-1263346078	Oh <PlayerName>!
 Generic/Intro_Intro_000_-1962561300	Oh, <PlayerName>!
 Generic/Intro_Intro_000_-214889772	<PlayerName>, I've been contacted by some of the people back in <SouthCity>.
+Generic/Intro_Intro_000_620639688	<yes><IslandName> is really starting to grow…
+Generic/Intro_Intro_000_-876243354	Ah, <PlayerName>.þ
+Generic/Intro_Intro_001_1607847307	<thinking>I’ll tell you what, it might be a good idea to build a Band Stand.
 Generic/Intro_Intro_001_2017910248	The towns ecconomy is growing very nicely.
 Generic/Intro_Intro_001_-426756509	Our town is really growing!
 Generic/Intro_Intro_001_-541339194	<no>I've been notified that we will need 5 permanent residents before <IslandName> is recognised as an official settlement.
+Generic/Intro_Intro_001_-903664867	Am I correct in assuming that you have discovered the incredibly rare <itemName>.
 Generic/Intro_Intro_002_-161680636	Now, there is no hurry, but maybe that should be our next goal?
 Generic/Intro_Intro_002_1664411005	I think it might be a good time for us to think about maybe building a bank.
+Generic/Intro_Intro_002_-1923800023	<thinking>I have seen this ore referenced often in the data I have been extracting from the shiny discs.
 Generic/Intro_Intro_002_-83166712	Someone has let me know they are interesting in living here.
+Generic/Intro_Intro_002_-995918088	<haha>No, we’re not having any musical guests any time soon.
 Generic/Intro_Intro_003_-1168595770	<haha>I'll tell you what, any visitors that see how nice <IslandName> is will want to stay anyway!
 Generic/Intro_Intro_003_1802048118	There is a new deed for a home avaliable. <yes>
 Generic/Intro_Intro_003_1918653559	Please speak to me if you are interested in applying for a bank deed! <yes>
+Generic/Intro_Intro_003_-2045966317	<PlayerName>, if <IslandName> had a Band Stand, we could use it as a place to host events.
+Generic/Intro_Intro_003_-446388637	<thinking>However, I must admit, I had assumed that it was a myth...
 Generic/Intro_Intro_004_-1349217981	Once <SouthCity> recognises <IslandName> as an official settlement, we can build a Town Hall!
 Generic/Intro_Intro_004_1757828244	Once their home is build I'm sure they will move in! <glee>
+Generic/Intro_Intro_004_1930163978	We could host parties, gatherings, celebrations…
+Generic/Intro_Intro_004_608156424	If you could bring me 10 <itemName>, I believe I may have a way to process it into a very useful material.
 Generic/Intro_Intro_005_1933124304	<glee>I'm sure we'll reach our goal soon!
+Generic/Intro_Intro_005_518937087	Please come back and speak to me once you have collected the <itemName>.
+Generic/Intro_Intro_005_710745444	<glee>It would be a place where everyone on <IslandName> could gather and just hang out.
+Generic/Intro_Intro_006_1422204396	I’ve already applied for the <itemName>.
+Generic/Intro_Intro_007_257424104	<yes>So, come and speak to me if you think we are ready to build it.
 Generic/IntroToQuest_Intro_000_-1569145569	<shy>That journal means a lot to me.
 Generic/IntroToQuest_Intro_000_1629639531	<PlayerName>! I received a letter earlier today from someone named <NPCName>. Unusual name, if you ask me.
 Generic/IntroToQuest_Intro_000_198331473	I’m very impressed with the work you’ve done here today, <PlayerName>.
@@ -623,6 +657,11 @@ Generic/TradeSameItem_Intro_000_1159588561	Wait a second. . . This is a <Bulleti
 Generic/TradeSameItem_Intro_001_1477965521	<haha> I guess we're right where we started! Here, you can have this back.
 Generic/TradeWrongTypeOfItem_Intro_000_876255129	Ah . . . This isn't what I'm after.
 Generic/TradeWrongTypeOfItem_Intro_001_1156428998	You can have this back.
+Generic/TuckshopMoveInRequest_Intro_000_-255927434	You know what <PlayerName>?þ
+Generic/TuckshopMoveInRequest_Intro_001_-1774917276	<shy>You’ve really shown me some of the great cuisine that can be created here on <IslandName>.þ
+Generic/TuckshopMoveInRequest_Intro_002_1897535626	<yes>I reckon it’s finally time to leave <SouthCity> for good.þ
+Generic/TuckshopMoveInRequest_Intro_003_1632007629	<proud>I’ve talked to <NPCName> and I’ve applied for a <itemName>.þ
+Generic/TuckshopMoveInRequest_Intro_004_213432340	<glee>I hope we can get it up and running soon.þ
 Generic/Wrong Photo Convo_Intro_000_-172836943	I mean, this is a nice photo, but it's not what I was looking for . . .
 Generic/Wrong Photo Convo_Option_000_-369957856	Let me try again.
 Generic/Wrong Photo Convo_Option_001_2022090122	Nevermind.
@@ -631,17 +670,11 @@ Generic/Wrong Photo Convo_Response_001_000_-1762707071	No problems. Thanks for t
 Npc0/Arvo_Greeting 0_Intro_000_605185574	It's like, already the arvo?
 Npc0/Arvo_Greeting 0_Intro_001_1173188260	<no>Didn't time just fly by today.þ
 Npc0/Arvo_Greeting 0_Response_003_000_1527507057	Have a good arvo, mate.
-Npc0/High_Friendship_Greeting 1_Intro_000_-229371709	Hi <PlayerName>!þ
-Npc0/High_Friendship_Greeting 1_Intro_001_829572513	How goes it?þ
-Npc0/High_Friendship_Greeting 1_Response_003_000_540678131	Bye!
 Npc0/Highest_Friendship_Greeting 0_Intro_000_1235381198	Oh, G’day <PlayerName>!
 Npc0/Highest_Friendship_Greeting 0_Response_003_000_1391905867	Don’t be a stranger, okay?
 Npc0/Highest_Friendship_Greeting 2_Intro_000_-779851874	Looks like my day just got a little better.
 Npc0/Highest_Friendship_Greeting 2_Intro_001_-441134336	<glee>Nice to see you <PlayerName>!
 Npc0/Highest_Friendship_Greeting 2_Response_003_000_1243137189	<wave>See you around!
-Npc0/Night_Greeting 2_Intro_000_88987245	<no>I, like, don’t reall love the dark.þ
-Npc0/Night_Greeting 2_Intro_001_-963467606	Anyway, what’s up, <PlayerName>?þ
-Npc0/Night_Greeting 2_Response_003_000_-1443813549	<scared>Leaving already?
 Npc1/Arvo_Greeting 0_Intro_000_-334755980	Arvo already, eh, <PlayerName>?
 Npc1/Arvo_Greeting 0_Response_003_000_-1455430203	<yes>Alright, nice chatting.
 Npc1/Arvo_Greeting 1_Intro_000_-684964628	<haha>Today went fast!
@@ -660,19 +693,12 @@ Npc1/Cold_Greeting 1_Response_003_001_-1065633783	<proud>Maybe visit some shops,
 Npc1/Cold_Greeting 2_Intro_000_587215	It’s pretty cold today!
 Npc1/Cold_Greeting 2_Intro_001_2101406293	What can I do for you, <PlayerName>?
 Npc1/Cold_Greeting 2_Response_003_000_2051229317	<haha>Alright then, see you!
-Npc1/CompleteRequest_000_Intro_000_326577925	<glee>You beauty!
-Npc1/CompleteRequest_000_Intro_001_-1511127522	<yes>You always pull through for me, <PlayerName>.
-Npc1/CompleteRequest_000_Intro_002_-1716279410	<shy>Why don't I give you this in exchange for helping me out?
+Npc1/CompleteBirthday_000_Intro_000_617938617	<shy>Oh, <PlayerName>, this is really nice.
+Npc1/CompleteBirthday_000_Intro_001_1815317860	<no>I don’t think I’ve gotten a birthday gift that I didn’t have to trade for.
+Npc1/CompleteBirthday_000_Intro_002_-1390967690	<glee>Thank you very much, you’ve made my day!
 Npc1/Highest_Friendship_Greeting 0_Intro_000_2013972652	Hey, it’s <PlayerName>, my favourite customer!þ
 Npc1/Highest_Friendship_Greeting 0_Intro_001_-779356567	What can I get you, mate?þ
 Npc1/Highest_Friendship_Greeting 0_Response_003_000_100171417	See you later, <PlayerName>!
-Npc1/Highest_Friendship_Greeting 1_Intro_000_-1315730710	Ah, <PlayerName>!
-Npc1/Highest_Friendship_Greeting 1_Intro_001_848580953	<yes>Always nice to see a friendly face.þ
-Npc1/Highest_Friendship_Greeting 1_Response_003_000_-1136401047	Hope we can catch up soon, <PlayerName>.
-Npc1/Hot_Greeting 1_Intro_000_134038113	<shy>Phew!þ
-Npc1/Hot_Greeting 1_Intro_001_-1617683855	<haha>It’s nearly as hot as my low, low prices!þ
-Npc1/Hot_Greeting 1_Intro_002_-635681893	You wanted to chat <PlayerName>?þ
-Npc1/Hot_Greeting 1_Response_003_000_1646326173	Okay then, see you later, <PlayerName>.
 Npc1/Hot_Greeting 2_Intro_000_-1027486773	<haha>Hot days like this make me glad I’m inside most of the time!
 Npc1/Hot_Greeting 2_Intro_001_1078662702	How are you handling the heat, <PlayerName>?
 Npc1/Hot_Greeting 2_Response_003_000_879035304	See you soon!
@@ -691,9 +717,12 @@ Npc1/Wind_Greeting 0_Response_003_001_-2145880795	See you <PlayerName>.þ
 Npc1/Wind_Greeting 2_Intro_000_-2137818340	Lovely breeze today!
 Npc1/Wind_Greeting 2_Intro_001_1792447533	I’m just glad I’m outside for it!þ
 Npc1/Wind_Greeting 2_Response_003_000_1663661343	Bye bye, <PlayerName>!
-Npc10/CompleteRequest_000_Intro_000_2112824333	<proud>Hmph.
-Npc10/CompleteRequest_000_Intro_001_-193857019	Very good.
-Npc10/CompleteRequest_000_Intro_002_-1376900550	I suppose you would like a reward now?
+Npc10/CompleteBirthday_000_Intro_000_2112824333	<proud>Hmph.
+Npc10/CompleteBirthday_000_Intro_001_-1809712662	I usually buy my own <birthday> gifts.
+Npc10/CompleteBirthday_000_Intro_002_1149130067	Thank you, <PlayerName>.
+Npc11/IslandDayGreeting_Morning_011_Intro_000_441165280	Happy <IslandDay>!
+Npc11/IslandDayGreeting_Night_011_Intro_000_441165280	Happy <IslandDay>!
+Npc11/IslandDayGreeting_Noon_011_Intro_000_441165280	Happy <IslandDay>!
 Npc11/TotalEqualsZeroJimmy_Intro_000_-2042192937	Hmmm...
 Npc11/TotalEqualsZeroJimmy_Intro_001_-405267969	<no>It seems these items aren't worth anything at all...
 Npc11/TotalEqualsZeroJimmy_Intro_002_-103136719	<shy>Well, if you didn't want them I could probably take them off your hands?
@@ -705,6 +734,16 @@ Npc11/TotalEqualsZeroJimmy_Response_000_002_399521653	Great to see you as always
 Npc11/TotalEqualsZeroJimmy_Response_001_000_537024464	<thinking>Hmmmm. Very well.
 Npc11/TotalEqualsZeroJimmy_Response_001_001_743081907	<no>Like I said, they aren't worth anything.
 Npc11/TotalEqualsZeroJimmy_Response_001_002_33816444	<yes>But you can have them back, I guess.
+Npc12/TotalEqualsZeroTuckshop_Intro_000_422933842	All right... Lets see...
+Npc12/TotalEqualsZeroTuckshop_Intro_001_499494204	It seems these items aren't worth anything, but I can still take them off your hands if you don't want them?
+Npc12/TotalEqualsZeroTuckshop_Option_000_1087297409	Yes, I dont want them.
+Npc12/TotalEqualsZeroTuckshop_Option_001_-1460722892	I'll have them back thanks.
+Npc12/TotalEqualsZeroTuckshop_Response_000_000_874515818	Righto, mate.
+Npc12/TotalEqualsZeroTuckshop_Response_000_001_-622936346	Cheers.
+Npc12/TotalEqualsZeroTuckshop_Response_001_000_-1709815652	That's fine, please return if you wish to sell anything else.
+Npc12/TotalEqualsZeroTuckshop_Response_001_001_-669008513	Thank you for visiting John's Goods!
+Npc2/CompleteBirthday_000_Intro_000_209705215	Ah, a gift to celebrate my birth.
+Npc2/CompleteBirthday_000_Intro_001_704927242	A very kind gesture, <PlayerName>.
 Npc2/High_Friendship_Greeting 2_Intro_000_-1338810806	<PlayerName>, what do you require?
 Npc2/High_Friendship_Greeting 2_Response_003_000_-2096295516	Very well.
 Npc2/TechCompletedNoSpace_Intro_000_-251129241	<proud>I have completed the <itemName> you commissioned!
@@ -719,38 +758,21 @@ Npc3/Arvo_Greeting 2_Response_003_000_-513257462	Sunsets like this remind me of 
 Npc3/Cold_Greeting 0_Intro_000_-1738440683	Bloody freezin’, huh?
 Npc3/Cold_Greeting 0_Intro_001_-356099693	Need somethin’?
 Npc3/Cold_Greeting 0_Response_003_000_539408385	Keep it up, young <PlayerName>.
-Npc3/CompleteRequest_000_Intro_000_-402979232	<glee>Beauty, mate.
-Npc3/CompleteRequest_000_Intro_001_1469275603	<no>You’re too good.
-Npc3/CompleteRequest_000_Intro_002_-1297264122	Thanks, you should take this.
-Npc3/High_Friendship_Greeting 0_Intro_000_76429780	Hey <PlayerName>.þ
-Npc3/High_Friendship_Greeting 0_Intro_001_206865390	How’s it going, mate?þ
-Npc3/High_Friendship_Greeting 0_Response_003_000_-1712007294	Have a good one.
+Npc3/CompleteBirthday_000_Intro_000_-1516832328	Thanks for the <birthday> gift, <PlayerName>.
+Npc3/CompleteBirthday_000_Intro_001_-1286348107	<yes>Means a lot.
 Npc3/High_Friendship_Greeting 1_Intro_000_-479912406	How’s it goin’, <PlayerName>?
 Npc3/High_Friendship_Greeting 1_Response_003_000_1933787570	Don't work too hard.
 Npc3/High_Friendship_Greeting 2_Intro_000_1244997106	G’day <PlayerName>.
 Npc3/High_Friendship_Greeting 2_Response_003_000_874515818	Righto, mate.
-Npc3/Highest_Friendship_Greeting 0_Intro_000_-1962561301	Oh, <PlayerName>.
-Npc3/Highest_Friendship_Greeting 0_Intro_001_-330681928	What brings you to old <myName>?
-Npc3/Highest_Friendship_Greeting 0_Response_003_000_-1022535299	Take yer time today, alright?
-Npc3/Highest_Friendship_Greeting 1_Intro_000_-1485111919	Look who it is, eh? Ol’ <PlayerName>.þ
-Npc3/Highest_Friendship_Greeting 1_Intro_001_1959478888	What’ll it be today?þ
-Npc3/Highest_Friendship_Greeting 1_Response_003_000_321690333	<no>Don’t overdo it.
-Npc3/Highest_Friendship_Greeting 2_Intro_000_-1629113181	Good to see ya, <PlayerName>.
-Npc3/Highest_Friendship_Greeting 2_Intro_001_-315930856	How ya doin’?
-Npc3/Highest_Friendship_Greeting 2_Response_003_000_-182654273	See ya later, alright?
 Npc3/Hot_Greeting 0_Intro_000_909994616	Nearly breakin a sweat out here.
 Npc3/Hot_Greeting 0_Response_003_000_-1777931443	Take yer time in this heat, <PlayerName>.
 Npc3/Hot_Greeting 2_Intro_000_1848277229	Great day for a barbie, I reckon.
 Npc3/Hot_Greeting 2_Response_003_000_-450713252	Slap on a hat, mate.
-Npc3/Medium_Friendship_Greeting 2_Intro_000_1399750202	Hows things then?
-Npc3/Medium_Friendship_Greeting 2_Response_003_000_1005360598	Hooroo.
-Npc3/Night_Greeting 2_Intro_000_473969159	<no>I can barely see me nose in this light.þ
-Npc3/Night_Greeting 2_Intro_001_-971675224	That you, <PlayerName>?þ
-Npc3/Night_Greeting 2_Response_003_000_1005360598	Hooroo.
-Npc4/CompleteRequest_000_Intro_000_1075312547	Thank you very much, <PlayerName>!
-Npc4/CompleteRequest_000_Intro_001_-781978430	<yes>I’ll put in a good word for your help.
-Npc4/CompleteRequest_000_Intro_002_1051008557	Oh, I found this, y’know.
-Npc4/CompleteRequest_000_Intro_003_554114971	You can take it because you helped me out!
+Npc4/BugComp_Greeting 000_Intro_000_-1967437662	<yes>I know I’m going to win this <bugComp>.
+Npc4/BugComp_Greeting 000_Intro_001_54007060	I had a dream about it.
+Npc4/BugComp_Greeting 000_Response_003_000_-1385925510	<no>I wouldn’t even try to win, <PlayerName>.
+Npc4/CompleteBirthday_000_Intro_000_1943207134	<shy>I had a dream you got me this for my <birthday>!
+Npc4/CompleteBirthday_000_Intro_001_-136909203	<glee>Thank you very much, <PlayerName>.
 Npc4/RandomConvo_012_Intro_000_2039148302	<thinking>I was thinking, what if you could make clothes so light you could float in them?þ
 Npc4/RandomConvo_012_Intro_001_990050832	Do you think that’s possible?þ
 Npc4/RandomConvo_012_Intro_002_-1373296189	<glee>Imagine soaring above the clouds so high that everybody got a chance to check out your threads.þ
@@ -819,9 +841,15 @@ Npc4/RandomConvo_036_Intro_002_-1075211917	<pumped>Hold onto that energy as long
 Npc4/RandomConvo_036_Intro_003_1119767626	You never know how long you've got, y'know?þ
 Npc4/RandomConvo_038_Intro_000_-1227035667	Need Text Here
 Npc4/RandomConvo_039_Intro_000_-1227035667	Need Text Here
+Npc5/CompleteBirthday_000_Intro_000_1989772099	<haha>You sneaky <animalName>.
+Npc5/CompleteBirthday_000_Intro_001_252726270	<shy>You really surprised me with this <birthday> gift, <PlayerName>.
+Npc5/CompleteBirthday_000_Intro_002_376998123	Thanks a bunch, mate.
 Npc5/CompleteRequest_000_Intro_000_862150900	<shocked>Oh wow!
 Npc5/CompleteRequest_000_Intro_001_1857638188	<no>Can’t believe how helpful you are!
 Npc5/CompleteRequest_000_Intro_002_-836795868	<yes>Take this, you’ve earned it!
+Npc5/IslandDayGreeting_Morning_005_Intro_000_441165280	Happy <IslandDay>!
+Npc5/IslandDayGreeting_Night_005_Intro_000_441165280	Happy <IslandDay>!
+Npc5/IslandDayGreeting_Noon_005_Intro_000_441165280	Happy <IslandDay>!
 Npc5/TotalEqualsZeroTrapper_Intro_000_422933842	All right... Lets see...
 Npc5/TotalEqualsZeroTrapper_Intro_001_499494204	It seems these items aren't worth anything, but I can still take them off your hands if you don't want them?
 Npc5/TotalEqualsZeroTrapper_Option_000_1087297409	Yes, I dont want them.
@@ -841,22 +869,9 @@ Npc6/AskAgainConvo_Response_000_000_-1679557694	Ah! Very good!
 Npc6/AskAgainConvo_Response_001_000_-1660480160	Let's see...
 Npc6/AskAgainConvo_Response_002_000_-59252160	Let's take a look.
 Npc6/AskAgainConvo_Response_004_000_-133512482	Have a great day.
-Npc6/CompleteRequest_000_Intro_000_1316572458	<shy>Thank you very much, <PlayerName>.
-Npc6/CompleteRequest_000_Intro_001_-162093764	<haha>I’ll tell you what, you’re always helping me out!
-Npc6/CompleteRequest_000_Intro_002_-1614742990	<glee>Here’s a reward, please take it!
-Npc6/High_Friendship_Greeting 1_Intro_000_969651511	<PlayerName>!
-Npc6/High_Friendship_Greeting 1_Intro_001_-1989786581	What brings you to see old <myName>?
-Npc6/High_Friendship_Greeting 1_Response_003_000_1016876061	Have a good one!
 Npc6/High_Friendship_Greeting 2_Intro_000_594318298	I’ll tell you what, it’s always nice to bump into you, <PlayerName>.þ
 Npc6/High_Friendship_Greeting 2_Intro_001_-1454424621	Need anything?
 Npc6/High_Friendship_Greeting 2_Response_003_000_-154524916	<yes>Righto.
-Npc6/Highest_Friendship_Greeting 0_Intro_000_2105828868	I’ll tell you what, it’s bloody lovely to see you, <PlayerName>!þ
-Npc6/Highest_Friendship_Greeting 0_Response_003_000_-171093955	Hope I see you again today!
-Npc6/Medium_Friendship_Greeting 2_Intro_000_1758662083	<haha>I’ll tell you what, I was just thinking of you, <PlayerName>!
-Npc6/Medium_Friendship_Greeting 2_Intro_001_-1606075517	Can I help you with something?þ
-Npc6/Medium_Friendship_Greeting 2_Response_003_000_-344131415	Take care.þ
-Npc6/Morning_Greeting 0_Intro_000_-1039268656	Morning, <PlayerName>.
-Npc6/Morning_Greeting 0_Response_003_000_1869316943	Take it easy, okay?
 Npc6/Morning_Greeting 1_Intro_000_1925118300	<proud>I’ll tell you what, it’s a lovely morning today.
 Npc6/Morning_Greeting 1_Response_003_000_-1629842820	<wave>Enjoy your morning!
 Npc6/Morning_Greeting 2_Intro_000_-2078313075	Good morning, <PlayerName>.
@@ -878,13 +893,6 @@ Npc6/RandomConvo_014_Intro_000_1813398571	<yes>Let me tell you, even though I ha
 Npc6/RandomConvo_014_Intro_001_-1461214165	<shy>It’s just something I picked up quickly in <SouthCity>. þ
 Npc6/RandomConvo_014_Intro_002_-1543720588	<haha>I guess it made me look like I was a local!þ
 Npc6/RandomConvo_014_Intro_003_-1200273696	<yes>I’ll tell you what, if you wanted to do something in <SouthCity>, you needed a form to do it. þ
-Npc6/RandomConvo_016_Intro_000_-1748680289	Hey <PlayerName>. You know, <myName> is actually my surname, right?þ
-Npc6/RandomConvo_016_Option_000_-1759921693	What’s your first name?
-Npc6/RandomConvo_016_Option_001_-1982901927	Why does everyone call you that?
-Npc6/RandomConvo_016_Response_000_000_741868321	<thinking>Hmmm…
-Npc6/RandomConvo_016_Response_000_001_-1889271356	<haha>I’ll tell you what, I might tell you one day...
-Npc6/RandomConvo_016_Response_001_000_-1498228521	<yes>Everyone called my Father <myName>. It was just easier.
-Npc6/RandomConvo_016_Response_001_001_-968717528	<haha>I guess the name just stuck on me too!
 Npc6/RandomConvo_017_Intro_000_-504816331	<pumped>There’s so much for us still to discover here on <IslandName>!
 Npc6/RandomConvo_017_Intro_001_577616948	<glee>I can’t I just can’t wait to hear all about it.
 Npc6/RandomConvo_018_Intro_000_222501033	<no>You really should sleep more often <PlayerName>, it’s no good to run around with low energy!
@@ -902,10 +910,8 @@ Npc6/RandomConvo_031_Intro_001_-1711331063	<shy>I’ll tell you what, if I don�
 Npc6/RandomConvo_032_Intro_000_1809171761	<sigh>I really wish you could have met my Father, <PlayerName>.þ
 Npc6/RandomConvo_032_Intro_001_505074285	<haha>He would give you a run for your money, let me tell you!þ
 Npc6/RandomConvo_032_Intro_002_-1537594796	<glee>It felt like that man could never run out of energy!þ
-Npc6/RandomConvo_035_Intro_000_-472327321	Need Text
 Npc6/RandomConvo_036_Intro_000_-472327321	Need Text
 Npc6/RandomConvo_037_Intro_000_-472327321	Need Text
-Npc6/RandomConvo_038_Intro_000_-472327321	Need Text
 Npc6/RandomConvo_039_Intro_000_-472327321	Need Text
 Npc6/TownCleanUp_Intro_000_-1490167972	Hmmm, so you want to get rid of items that might be laying around or stuck somewhere?
 Npc6/TownCleanUp_Intro_001_-1942299683	<thinking>I can get someone to remove them for free, but we won't be able to save any of them.
@@ -922,10 +928,9 @@ Npc6/TownCleanUp_Response_001_001_338663611	Come back and speak to me if you wan
 Npc6/Upgrade House No Money Tent_Intro_000_2084687642	Very good!
 Npc6/Upgrade House No Money Tent_Intro_001_-1609656107	...Oh. It seems like you a bit short on cash. <shy>
 Npc6/Upgrade House No Money Tent_Intro_002_384481156	Perhaps you can come back when your pockets are a bit heavier?
-Npc7/CompleteRequest_000_Intro_000_553469891	<glee>Wackadoo!
-Npc7/CompleteRequest_000_Intro_001_-922418969	<thinking><PlayerName> pulls through again.
-Npc7/CompleteRequest_000_Intro_002_-1199496407	<glee>Thanks again, <PlayerName>!
-Npc7/CompleteRequest_000_Intro_003_-1839735116	<yes>I want you to take this as a reward!
+Npc7/CompleteBirthday_000_Intro_000_-20023330	Oh, mate.
+Npc7/CompleteBirthday_000_Intro_001_647684790	<pumped>This is bloody deadly!
+Npc7/CompleteBirthday_000_Intro_002_1529383183	Best <birthday> ever, mate!
 Npc7/Gossip_About_NPC_006_Intro_000_1463999334	<NPCName> has been through so much, and it’s only made her stronger!þþ
 Npc7/Gossip_About_NPC_006_Intro_001_1677205583	<yes>I think we could learn a lot from her.þ
 Npc7/Gossip_About_NPC_009_Intro_000_-1025996338	I keep trying to show off my animals to <NPCName>.
@@ -937,9 +942,9 @@ Npc7/RandomConvo_032_Intro_001_-2065225962	With all their own wildlife?
 Npc7/RandomConvo_032_Intro_002_881494308	<glee>I heard there were HUNDREDS of different types of animals before everything went South..
 Npc7/RandomConvo_032_Intro_003_1942494850	<thinking>Maybe they survived somewhere?þ
 Npc7/RandomConvo_032_Intro_004_-1793904025	<sigh>I sure hope so...
-Npc8/CompleteRequest_000_Intro_000_1354230765	<pumped>You’re a bloody legend, <PlayerName>.
-Npc8/CompleteRequest_000_Intro_001_910423722	<yes>Too bloody good I reckon.
-Npc8/CompleteRequest_000_Intro_002_796630477	Take this for your trouble!
+Npc8/CompleteBirthday_000_Intro_000_-1962561300	Oh, <PlayerName>!
+Npc8/CompleteBirthday_000_Intro_001_-1675210302	<shy>This is a really nice <birthday> gift.
+Npc8/CompleteBirthday_000_Intro_002_5223287	<glee>Thank you very much.
 Npc8/Gossip_About_NPC_001_Intro_000_-1250786140	<pumped><NPCName> won’t let anybody NEAR his hair.þ
 Npc8/Gossip_About_NPC_001_Intro_001_2118359940	<no>I offered to trim his beard, but I ended up walking away with a bunch of tools I don’t need?þ
 Npc8/Gossip_About_NPC_001_Intro_002_384901102	<boohoo>…they were really expensive.þ
@@ -955,18 +960,19 @@ Npc8/Gossip_About_NPC_004_Intro_002_424270026	<scared>That thing gave me the cre
 Npc8/Gossip_About_NPC_006_Intro_000_1147098473	<yes><NPCName> keeps asking if I have a Hair Cutting licence.þ
 Npc8/Gossip_About_NPC_006_Intro_001_1063867178	<pumped>And I keep telling her there is no such thing!þ
 Npc8/Gossip_About_NPC_006_Intro_002_2007303129	<haha>But she seems adamant that there should be!þ
-Npc8/Gossip_About_NPC_007_Intro_000_-48245781	<glee><NPCName>’s hair is sooo soft!þþ
-Npc8/Gossip_About_NPC_007_Intro_001_-464458576	<glee>It’s like <animalName> and clouds and the wind from a butterfly’s wings…þ
 Npc8/Gossip_About_NPC_009_Intro_000_792515882	<thinking><NPCName> always asks to keep his hair clippings after a trim.þ
 Npc8/Gossip_About_NPC_009_Intro_001_-274117747	<yes>He said something about cataloguing every strand?þ
 Npc8/Gossip_About_NPC_010_Intro_000_1429235000	<no><NpcName> never tips me when he comes in for a trim.þ
 Npc8/Gossip_About_NPC_010_Intro_001_-676996072	<no>I mean, I don’t ask for tips, anyway.þ
 Npc8/Gossip_About_NPC_010_Intro_002_82722473	<thinking>But he always makes sure to let me know he won’t be tipping…þ
+Npc8/IslandDayGreeting_Night_008_Intro_000_-1812647457	Wow!þ
+Npc8/IslandDayGreeting_Night_008_Intro_001_-799816745	<glee>I am really digging the sky’s new colours tonight.þ
+Npc8/IslandDayGreeting_Night_008_Intro_002_738350256	<thinking>It's kinda like beautiful hair...
+Npc8/IslandDayGreeting_Night_008_Intro_003_-1122897308	It’s amazing, isn’t it, <PlayerName>?þ
 Npc9/AllItemsAlreadyDonated_Intro_000_1010677331	Oh my! It seems our museum has a <donationName> on exhibit already!
 Npc9/AllItemsAlreadyDonated_Intro_001_1697967214	I'll just return this to you.
-Npc9/CompleteRequest_000_Intro_000_1149130067	Thank you, <PlayerName>.
-Npc9/CompleteRequest_000_Intro_001_-1764758906	<shy>I would shake your hand in thanks, but that might be inappropriate.
-Npc9/CompleteRequest_000_Intro_002_-260675811	Instead, I will give you this.
+Npc9/CompleteBirthday_000_Intro_000_483712208	Many thanks, <PlayerName>.
+Npc9/CompleteBirthday_000_Intro_001_1751301635	<glee>I don’t often receive <birthday> gifts, so this one is very appreciated.
 Npc9/FullPhotoNoPhoto_Intro_000_1888385481	Oh! What a wonderful photo that is!
 Npc9/FullPhotoNoPhoto_Intro_001_-347225222	<getPhotoDetails>
 Npc9/FullPhotoNoPhoto_Intro_002_-1562668056	I'm quite fond of it to be honest! <haha>

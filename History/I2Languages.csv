@@ -43,6 +43,23 @@ DescriptionDetails/Title_Restores	restores	restaure	восстановления
 DescriptionDetails/Title_Stamina	stamina	endurance	выносливость	耐力	スタミナ
 DescriptionDetails/Title_TilledSoil	Tilled Soil	Sol Labouré	Почва	耕地	耕作土壌
 DescriptionDetails/Title_Weapon	Weapon	Arme	Оружие	武器	武器
+Generic/16 NPC_Nick_Intro_000	G’day <PlayerName>.				
+Generic/16 NPC_Nick_Intro_001	Good to see you again!				
+Generic/16 NPC_Nick_Intro_002	<shy>Who am I?				
+Generic/16 NPC_Nick_Intro_003	<proud>Why, I’m <myName>!				
+Generic/16 NPC_Nick_Intro_004	Don’t you remember me?				
+Generic/16 NPC_Nick_Intro_005	I used to come and visit you and your family every year back in <SouthCity>!				
+Generic/16 NPC_Nick_Intro_006	<haha>Ho Ho Ho!				
+Generic/16 NPC_Nick_Intro_007	What am I doing here on <IslandName>?				
+Generic/16 NPC_Nick_Intro_008	<yes>You see, it’s getting to be my busiest time of the year.				
+Generic/16 NPC_Nick_Intro_009	<glee>So I like to come visit <IslandName> to soak up some rays before things get crazy.þ				
+Generic/16 NPC_Nick_Intro_010	<proud>You could say <IslandName> is my secret holiday destination.				
+Generic/16 NPC_Nick_Intro_011	Well, now that you’ve found me I may as well offer some of my services.				
+Generic/16 NPC_Nick_Intro_012	I can craft you some interesting items, but I didn’t bring my ingredients you see?				
+Generic/16 NPC_Nick_Intro_013	So if you track them down for me, I’d be happy to whip some things up for you.				
+Generic/16 NPC_Nick_Intro_014	I’ve been crafting things for years and years, it really makes me happy!				
+Generic/16 NPC_Nick_Intro_015	Come talk to me if any time you see me here on <IslandName> and take a look at what I can craft.				
+Generic/16 NPC_Nick_Intro_016	<haha>Ho! Ho! Ho!				
 Generic/CompleteHuntingRequest_Intro_000	Thank you for taking care of the <requestedHuntTarget>.				
 Generic/CompleteHuntingRequest_Intro_001	Those Alpha creatures are really dangerous and can cause a lot of havoc.				
 Generic/CompleteHuntingRequest_Intro_002	Here, take <BulletinBoardReward> as promised.				
@@ -119,8 +136,18 @@ Generic/RandomConvo_019_Intro_002	<pumped>Sometimes I feel bad writing on it, bu
 Generic/RandomConvo_019_Intro_003	<yes>So its all worth it!				
 Generic/RandomConvo_020_Intro_000	What’s the point of anything happening if nobody is there to record it?				
 Generic/RandomConvo_020_Intro_001	<yes>Hey, <PlayerName>, if a tree falls in the woods, please be sure to let me know.				
+Generic/TuckshopConversation_Intro_000	Welcome to the Tuckerbox.				
+Generic/TuckshopConversation_Intro_001	What can I do for you, <petName>?				
+Generic/TuckshopConversation_Option_000	I want to sell				
+Generic/TuckshopConversation_Option_001	Let's chat				
+Generic/TuckshopConversation_Option_002	Nevermind				
+Generic/TuckshopConversation_Option_003	Nevermind				
+Generic/TuckshopConversation_Response_000_000	<yes>Well, today I'm paying top <Dink> for <itemName>.				
+Generic/TuckshopConversation_Response_001_000	Can do.				
+Generic/TuckshopConversation_Response_002_000	See you around, <PlayerName>.				
+Generic/TuckshopConversation_Response_003_000	See you around, <PlayerName>.				
 InventoryItemDescriptions/InvDesc_0	Chop down trees and plants.	Couper les arbres et les plantes.	Срубите деревьев и растений.	砍倒树木和植物。	木々や植物を切り倒します。
-InventoryItemDescriptions/InvDesc_1	A throwing-stick-stunt.	Un bâton de jet-cascadeurs.	Метание-палка-трюк.	投掷，棒特技。	投げ-スティックスタント。
+InventoryItemDescriptions/InvDesc_1	A voucher worth 10,000 Dinks	Un bâton de jet-cascadeurs.	Метание-палка-трюк.	投掷，棒特技。	投げ-スティックスタント。
 InventoryItemDescriptions/InvDesc_10	Carries water from point A to point B	Transporte de l'eau à partir du point A au point B	Несет воду из точки А в точку Б	携带来自点A的水到B点	点Aから点Bまで水を運びます
 InventoryItemDescriptions/InvDesc_100	A common fly	Une mouche commune	Обычная муха	一个常见的苍蝇	一般的なフライ
 InventoryItemDescriptions/InvDesc_101	Yuck.	Beurk.	Тьфу.	呸。	不潔。
@@ -141,8 +168,8 @@ InventoryItemDescriptions/InvDesc_114	A bar of Copper	Une barre de cuivre	Пли
 InventoryItemDescriptions/InvDesc_115	A faster furnace that can also process Iron Ore	Tourner le minerai en barres.	Включите эту руду в слитки.	打开该矿石进入酒吧。	バーにその鉱石を回します。
 InventoryItemDescriptions/InvDesc_116	What's up, medical person?	Quoi de neuf, personne médicale?	Что это, медицинский работник?	这是怎么回事，医务人员？	医療関係者、アップ何ですか？
 InventoryItemDescriptions/InvDesc_117	Put 'em in the ground!	Mettez-les dans le sol!	Поместил их в землю!	将他们抛弃在了地上！	地面に」日を入れて！
-InventoryItemDescriptions/InvDesc_118	Cool cross.	croix fraîche.	Прохладный крест.	酷十字架。	クールなクロス。
-InventoryItemDescriptions/InvDesc_119	A throwing-stick-stunt.	Un bâton de jet-cascadeurs.	Метание-палка-трюк.	投掷，棒特技。	投げ-スティックスタント。
+InventoryItemDescriptions/InvDesc_118	A voucher worth 10,000 Dinks	croix fraîche.	Прохладный крест.	酷十字架。	クールなクロス。
+InventoryItemDescriptions/InvDesc_119	A voucher worth 10,000 Dinks	Un bâton de jet-cascadeurs.	Метание-палка-трюк.	投掷，棒特技。	投げ-スティックスタント。
 InventoryItemDescriptions/InvDesc_12	Made with stone in a Stone Grinder.	Utilisé pour fabriquer des trucs dur.	Используется для изготовления жесткого материала.	用于手艺硬的东西。	ハードなものを作るために使用されます。
 InventoryItemDescriptions/InvDesc_120	Keep that dome hot	Gardez ce dôme chaud	Держите этот купол горячий	记住，圆顶热	ホットそのドームを保ちます
 InventoryItemDescriptions/InvDesc_121	Keep that dome hot	Gardez ce dôme chaud	Держите этот купол горячий	记住，圆顶热	ホットそのドームを保ちます
@@ -815,7 +842,7 @@ InventoryItemDescriptions/InvDesc_97	Jumpin' for joy.	Jumpin' de joie.	Jumpin' �
 InventoryItemDescriptions/InvDesc_98	A Common Dragonfly	Une libellule commune	Обычный Dragonfly	一个共同的蜻蜓	一般的なトンボ
 InventoryItemDescriptions/InvDesc_99	Maybe you could cross the water on this?	Peut-être que vous pourriez traverser l'eau à ce sujet?	Может быть, вы могли бы пересечь воду на это?	也许你可以穿越水这个？	たぶん、あなたは、この上に水を渡るだろうか？
 InventoryItemNames/InvItem_0	Basic Axe	Basic Ax	Основные Ax	基本斧	基本アックス
-InventoryItemNames/InvItem_1	Boomerang	Boomarang	Boomarang	Boomarang	Boomarang
+InventoryItemNames/InvItem_1	Dink Voucher	Boomarang	Boomarang	Boomarang	Boomarang
 InventoryItemNames/InvItem_10	Watering Can	Arrosoir	Лейка	喷壶	じょうろ
 InventoryItemNames/InvItem_100	Fly	Voler	летать	飞	飛ぶ
 InventoryItemNames/InvItem_101	Cockroach	Cafard	таракан	蟑螂	ゴキブリ
@@ -836,8 +863,8 @@ InventoryItemNames/InvItem_114	Copper Bar	Barre de cuivre	Медный слит�
 InventoryItemNames/InvItem_115	Furnace	fourneau	печь	炉	窯
 InventoryItemNames/InvItem_116	Carrot	Carotte	Морковь	胡萝卜	にんじん
 InventoryItemNames/InvItem_117	Carrot Seeds	Graines de carotte	Морковь Семена	胡萝卜种子	キャロット種子
-InventoryItemNames/InvItem_118	Iron Boomerang	fer Boomarang	Железо Boomarang	铁Boomarang	アイアンBoomarang
-InventoryItemNames/InvItem_119	Copper Boomerang	cuivre Boomarang	Медь Boomarang	铜Boomarang	銅Boomarang
+InventoryItemNames/InvItem_118	Dink Voucher	fer Boomarang	Железо Boomarang	铁Boomarang	アイアンBoomarang
+InventoryItemNames/InvItem_119	Dink Voucher	cuivre Boomarang	Медь Boomarang	铜Boomarang	銅Boomarang
 InventoryItemNames/InvItem_12	Bag of Cement	Sac de ciment	Мешок цемента	水泥包	セメントの袋
 InventoryItemNames/InvItem_120	Green Beanie	Bonnet vert	Зеленый Beanie	绿豆豆	グリーンビーニー
 InventoryItemNames/InvItem_121	Red Beanie	Bonnet rouge	Красная шапочка	红豆豆	レッドビーニー
@@ -969,7 +996,7 @@ InventoryItemNames/InvItem_234	Swallow-tail Butterfly	Swallow queue de papillon	
 InventoryItemNames/InvItem_235	Harlequin Butterfly	Arlequin papillon	Арлекин бабочка	丑角的蝴蝶	ハーレクインバタフライ
 InventoryItemNames/InvItem_236	Slingshot	Lance-pierres	Sling Shot	弹弓	スリングショット
 InventoryItemNames/InvItem_237	Yabbie	Yabbie	Yabbie	Yabbie	Yabbie
-InventoryItemNames/InvItem_238	Pink Shots	Tirs roses	Розовый Shots	粉红射击	ピンクショット
+InventoryItemNames/InvItem_238	Pink Shorts	Tirs roses	Розовый Shots	粉红射击	ピンクショット
 InventoryItemNames/InvItem_239	Pink Sneakers	Chaussures de sport rose	Розовые кроссовки	粉红色运动鞋	ピンクのスニーカー
 InventoryItemNames/InvItem_24	???	???	???	???	???
 InventoryItemNames/InvItem_240	Pink T-Shirt	T-shirt rose	Pink T-Shirt	粉红色的T恤	ピンクのTシャツ
@@ -1449,7 +1476,7 @@ InventoryItemNames/InvItem_667	Bank Wall	mur Banque	Банк Wall	银行长城	�
 InventoryItemNames/InvItem_668	Grass Floor	Herbeux	Трава пол	草楼	草フロア
 InventoryItemNames/InvItem_669	Cooked Cactus Fig	Cactus cuit Fig	Приготовленный кактус рис	熟仙人掌图	調理されたサボテン図
 InventoryItemNames/InvItem_67	Welcome Sign	Bienvenue Connexion	Добро пожаловать Вход	欢迎登录	ようこそログイン
-InventoryItemNames/InvItem_670	Wooden Sign	Panneau en bois	Деревянный знак	木牌	木の看板
+InventoryItemNames/InvItem_670	Item Sign	Panneau en bois	Деревянный знак	木牌	木の看板
 InventoryItemNames/InvItem_671	Cloud Wall	mur nuage	Облако Стена	云墙	クラウド・ウォール
 InventoryItemNames/InvItem_672	Retro Flower Wall	Rétro mur fleur	Ретро цветок стены	复古花卉墙	レトロフラワーウォール
 InventoryItemNames/InvItem_673	Retro Floor	rétro étage	Ретро пол	复古地板	レトロフロア
@@ -1515,9 +1542,13 @@ LicenceDesc/Licence_AgriculturalVehicle_3_Desc	Allows the holder to use the Plan
 LicenceDesc/Licence_AnimalHandling_1_Desc	Allows the holder to buy and raise Chooks.	Permet au titulaire d'acheter et d'élever des chooks.	Позволяет владельцу покупать и поднимать чуки.	允许持有人购买和举起扼流圈。	所有者がチョークを購入して調達できるようにします。
 LicenceDesc/Licence_AnimalHandling_2_Desc	Allows the holder to buy and raise Vombats.	Permet au titulaire d'acheter et d'élever des Vombats.	Позволяет владельцу покупать и поднимать Вомбаты.	允许持有人购买和饲养袋熊。	所有者がVombatを購入して調達できるようにします。
 LicenceDesc/Licence_AnimalHandling_3_Desc	Allows the holder to buy raise Pleep.	Permet au titulaire d'acheter une augmentation de Pleep	Позволяет держателю купить рейз Pleep	允许持有人购买加息	所有者がレイズプリープを購入できるようにします
+LicenceDesc/Licence_AnimalProcessingLicence_1_Desc	Unlocks Cheese Making recipe for processing Milk.				
+LicenceDesc/Licence_AnimalProcessingLicence_2_Desc	Unlocks Spinning Wheel recipe for processing Wool.				
 LicenceDesc/Licence_AnimalTrapping_1_Desc	Allows the holder to craft and use animal traps and animal drop off points. Animals successfully dropped off will give a reward.			ユーザーが動物の罠や動物のドロップオフポイントを作成して使用できるようにします。	
 LicenceDesc/Licence_AnimalTrapping_2_Desc	Allows the holder to craft and use advanced animal traps.				
 LicenceDesc/Licence_AnimalTrapping_Desc	Allows the holder to craft and use animal traps and animal drop off points. Animals successfully dropped off will give a reward.			ユーザーが動物の罠や動物のドロップオフポイントを作成して使用できるようにします。	
+LicenceDesc/Licence_Brewing_1_Desc	Unlocks the Billy Kit recipe used for brewing drinks and jams.				
+LicenceDesc/Licence_Brewing_2_Desc	Unlocks the Keg recipe used for brewing advanced drinks.				
 LicenceDesc/Licence_Building_1_Desc	Allows the holder to craft simple bridges.	Permet au titulaire de créer et de placer le chemin.	Позволяет владельцу создавать и прокладывать пути.	允许持有人制作和放置路径。	ホルダーがパスを作成して配置できるようにします。
 LicenceDesc/Licence_Building_2_Desc	Allows the holder to build Windmills to help speed up production tasks.	Permet au détenteur de construire des moulins à vent pour accélérer les tâches de production.	Позволяет владельцу строить ветряные мельницы для ускорения производственных задач.	允许持有者建造风车以帮助加快生产任务。	所有者が風車を構築して生産タスクをスピードアップできるようにします。
 LicenceDesc/Licence_Cargo_1_Desc	Allows the holder to expand their pockets by 3 slots.	Permet au titulaire d'élargir ses poches.	Позволяет владельцу расширить карманы.	允许持有人扩大其口袋。	ホルダーがポケットを拡張できるようにします。
@@ -1542,17 +1573,20 @@ LicenceDesc/Licence_Landscaping_1_Desc	Allows the holder to craft new pathing op
 LicenceDesc/Licence_Landscaping_2_Desc	Allows the holder to craft new fencing options.	Permet au titulaire de créer de nouvelles options de clôture.	Позволяет владельцу создавать новые варианты ограждений.	允许持有者制作新的围栏选项。	所有者が新しいフェンシングオプションを作成できるようにします。
 LicenceDesc/Licence_Landscaping_3_Desc	Allows the holder to craft flower beds.				
 LicenceDesc/Licence_Logging_1_Desc	Allows the holder to buy axes and chop down trees.	Permet au titulaire d'acheter des haches et d'abattre des arbres	Позволяет владельцу покупать топоры и рубить деревья	允许持有人购买斧头并砍伐树木	持ち主が斧を購入して木を切り倒すことができます
-LicenceDesc/Licence_Logging_2_Desc	Allows the holder to craft a better axe.	Permet au détenteur de collecter les graines des arbres une fois qu'elles sont coupées.	Позволяет владельцу собирать семена с деревьев после их вырубки.	砍伐树木后，允许持有人从树木中收集种子。	伐採後、樹木から種子を集めることができます。
+LicenceDesc/Licence_Logging_2_Desc	Allows the holder to craft a better axe and unlocks Brewing Licence	Permet au détenteur de collecter les graines des arbres une fois qu'elles sont coupées.	Позволяет владельцу собирать семена с деревьев после их вырубки.	砍伐树木后，允许持有人从树木中收集种子。	伐採後、樹木から種子を集めることができます。
 LicenceDesc/Licence_Logging_3_Desc	Allows the holder to craft a better axe.	Permet au titulaire de collecter plus de bois des arbres qui tombent.	Позволяет владельцу собирать больше древесины с падающих деревьев.	允许持有人从倒下的树木中收集更多的木材。	所有者は、落ちている木からより多くの木を集めることができます。
 LicenceDesc/Licence_MetalDetecting_1_Desc	Allows the holder to buy a metal detector and search for treasure around the island.	Permet au détenteur d'acheter un détecteur de métaux et de rechercher un trésor autour de l'île.	Позволяет владельцу купить металлоискатель и искать сокровища вокруг острова.	允许持有人购买金属探测器并在岛上寻找宝藏。	所有者が金属探知機を購入し、島周辺の宝物を検索できるようにします。
 LicenceDesc/Licence_MetalDetecting_2_Desc	Allows the holder to notice some buried items using sight alone.	Permet au détenteur de remarquer certains objets enterrés en utilisant uniquement la vue.	Позволяет владельцу видеть некоторые закопанные предметы, используя только зрение.	允许持有者单独使用视线注意到一些埋藏的物品。	所有者が視覚だけを使用していくつかの埋もれたアイテムに気付くことができます。
 LicenceDesc/Licence_Mining_1_Desc	Allows the holder to buy pickaxes and break rocks and ore deposits.	Permet au détenteur d'acheter des pioches et de casser des roches et des gisements de minerai.	Позволяет владельцу покупать кирки и ломать камни и руды.	允许持有人购买镐并破坏岩石和矿床。	所有者がツルハシを購入し、岩や鉱床を破ることができます。
 LicenceDesc/Licence_Mining_2_Desc	Allows the holder to craft a better pickaxe.	Le minerai de cuivre apparaîtra plus souvent autour de l'île.	Медная руда будет появляться чаще вокруг острова.	铜矿将在岛上更频繁地出现。	銅鉱石は、島の周囲により頻繁に出現します。
 LicenceDesc/Licence_Mining_3_Desc	Allows the holder to craft a better pickaxe.	Le minerai de fer apparaîtra plus souvent autour de l'île.	Железная руда будет появляться вокруг острова чаще.	铁矿石将在岛上更频繁地出现。	鉄鉱石がより頻繁に島の周りに出現します。
+LicenceDesc/Licence_SignWriting_1_Desc	Unlocked the recipe for The Sign Writing Table and simple sign recipes				
+LicenceDesc/Licence_SignWriting_2_Desc	Unlocks the recipes for advanced signs				
 LicenceDesc/Licence_ToolBelt_Desc	Allow the holder to expand their toolbelt slots by 1.	Laissez le support élargir ses fentes de ceinture porte-outils de 1.	Разрешите держателю расширить свои прорези для ремня для инструментов на 1.	允许刀架将其工具带槽扩展1。	ホルダーがツールベルトスロットを1つ拡張できるようにします。
 LicenceDesc/Licence_Vehicle_1_Desc	Allows the holder to purchase and pilot water vehicles.	Permet au titulaire de conduire des bateaux.	Позволяет держателю управлять лодкой.	允许持有人驾驶船。	所有者がボートを運転できるようにします。
 LicenceDesc/Licence_Vehicle_2_Desc	Allows the holder to purchase and drive land vehicles.	Permet au titulaire de conduire des véhicules terrestres.	Позволяет держателю управлять наземными транспортными средствами.	允许持有人驾驶陆地车辆。	所有者が陸上車両を運転できるようにします。
 LicenceDesc/Licence_Vehicle_3_Desc	Allows the holder to purchase and pilot flying vehicles.	Permet au titulaire de conduire tous les véhicules.	Позволяет держателю управлять всеми транспортными средствами.	允许持有人驾驶所有车辆。	所有者がすべての車両を運転できるようにします。
+LicenceDesc/Licence_WaterScaping_1_Desc	Unlocks the recipes for Waterbeds. Used to create waterfalls.				
 LicenceNames/Licence_1	Mining Licence	Exploitation Minière	Добыча Полезных Ископаемых	矿业	鉱業
 LicenceNames/Licence_10	Building Licence	Bâtiment	Здание	建造	建物
 LicenceNames/Licence_11	Farming Licence	Agriculture	Сельское Хозяйство	农业	農業
@@ -1563,7 +1597,11 @@ LicenceNames/Licence_15	Trapping Licence	Permis De Piégeage D'animaux	Лице�
 LicenceNames/Licence_16	Excavation Licence				
 LicenceNames/Licence_17	Irrigation Licence				
 LicenceNames/Licence_18	Agricultural Vehicle Licence				
+LicenceNames/Licence_19	Sign Writing Licence				
 LicenceNames/Licence_2	Logging Licence	Enregistrement	Протоколирование	测井	ロギング
+LicenceNames/Licence_20	Water Scaping Licence				
+LicenceNames/Licence_21	Brewing Licence				
+LicenceNames/Licence_22	Animal Processing Licence				
 LicenceNames/Licence_3	Fishing Licence	Pêche	Рыбная Ловля	钓鱼	釣り
 LicenceNames/Licence_4	Hunting Licence	Chasse	Охота	狩猎	狩猟
 LicenceNames/Licence_5	Landscaping Licence	Plongée	Дайвинг	潜水	ダイビング
@@ -1646,7 +1684,7 @@ MilestoneDesc/MilestoneDesc_68	Milestone for selling Wary Mu eggs.
 MilestoneDesc/MilestoneDesc_69	Beehives. You can smash 'em or sell them. Here is a milestone for selling a beehive.				
 MilestoneDesc/MilestoneDesc_7	Nothing wrong with spending some of that hard-earned dosh. Here is a milestone for spending Dinks.			その苦労して稼いだドッシュのいくつかを使うことに何も問題はありません。これがDinksを使うためのマイルストーンです。	
 MilestoneDesc/MilestoneDesc_70	Keeping your bee's happy and they will give you a little honey. Here is a milestone for collecting honey.				
-MilestoneDesc/MilestoneDesc_71	Painting vehicles let you know which one is yours. Here is a milestone for making it your own with a nice paint job.				
+MilestoneDesc/MilestoneDesc_71	Painting things gives them their own flair. Here is a milestone for making something your own with a nice paint job.				
 MilestoneDesc/MilestoneDesc_72	Going on a fishing trip but you caught a shark. Crikey! Here is a milestone for reeling in a beast.				
 MilestoneDesc/MilestoneDesc_73	Shells are nature's way of littering. Here is a milestone for picking up those bad boys.				
 MilestoneDesc/MilestoneDesc_74	Those flowers might be nice if I put them in a barrel and let they sit. Here is a milestone for brewing in a keg.				
@@ -1665,11 +1703,16 @@ MilestoneDesc/MilestoneDesc_85	Here is a milestone for milking Vombats.
 MilestoneDesc/MilestoneDesc_86	Here is a milestone for shearing Pleep.				
 MilestoneDesc/MilestoneDesc_87	Here is a milestone for selling fruit.				
 MilestoneDesc/MilestoneDesc_88	Here is a milestone for selling amber.				
-MilestoneDesc/MilestoneDesc_89					
+MilestoneDesc/MilestoneDesc_89	Birthdays are special for some reason. Here is a milestone for giving a birthday gift to someone.				
 MilestoneDesc/MilestoneDesc_9	Chuck another steak on the barbie, mate. A milestone for grilling up some meat to eat!			バービーに別のステーキをチャックしてください。肉を焼いて食べるためのマイルストーン！	
-MilestoneDesc/MilestoneDesc_90					
-MilestoneDesc/MilestoneDesc_91					
-MilestoneDesc/MilestoneDesc_92					
+MilestoneDesc/MilestoneDesc_90	Here is a milestone for finding a Ruby and selling it.				
+MilestoneDesc/MilestoneDesc_91	Sometimes the sky gets mad and starting throwing down bolts. Here is a milestone for getting hit by lightning.				
+MilestoneDesc/MilestoneDesc_92	Here is a milestone for finding a Thunder Egg and selling it.				
+MilestoneDesc/MilestoneDesc_93	Alpha animals cause havoc. Here is a milestone for defeating an Alpha animal.				
+MilestoneDesc/MilestoneDesc_94	Why keep your fish in an aquarium when you could keep them in your belly? Here is a milestone for cooking fish.				
+MilestoneDesc/MilestoneDesc_95	It's brave it dive down and grab a random critter with your bare hands. Here is a milestone for catching underwater critters.				
+MilestoneDesc/MilestoneDesc_96	Bug Comps are serious business. No Time for fun. Here is a milestone for placing in the Bug Comp.				
+MilestoneDesc/MilestoneDesc_97	They aren't as pretty as vehicles, but riding an animal is good fun. Here is a milestone for riding an animal for a distance.				
 MilestoneTitles/Milestone_Name_0	None	Aucun	Никто	没有	なし
 MilestoneTitles/Milestone_Name_1	Harvest Master	Maître De Récolte	Мастер Урожая	收获大师	収穫マスター
 MilestoneTitles/Milestone_Name_10	Green Thumb	Pouce Vert	Зеленый Большой Палец	绿拇指	緑の親指
@@ -1758,13 +1801,26 @@ MilestoneTitles/Milestone_Name_85	Dairy Good	Bon Laitier	Молочные Про
 MilestoneTitles/Milestone_Name_86	Hairy Good				
 MilestoneTitles/Milestone_Name_87	Green Grocer				
 MilestoneTitles/Milestone_Name_88	Amber Cash				
-MilestoneTitles/Milestone_Name_89					
+MilestoneTitles/Milestone_Name_89	Gift Giver				
 MilestoneTitles/Milestone_Name_9	Grill Master	Maître Du Grill	Мастер-Гриль	烧烤大师	グリルマスター
-MilestoneTitles/Milestone_Name_90					
+MilestoneTitles/Milestone_Name_90	Ruby Runner				
+MilestoneTitles/Milestone_Name_91	Thunderstruck				
+MilestoneTitles/Milestone_Name_92	Thunder Eggo				
+MilestoneTitles/Milestone_Name_93	Alpha Hunter				
+MilestoneTitles/Milestone_Name_94	Fishy Dish				
+MilestoneTitles/Milestone_Name_95	Critter Catcher				
+MilestoneTitles/Milestone_Name_96	Bug Comp Champ				
+MilestoneTitles/Milestone_Name_97	Giddy-Up				
 Npc0/Arvo_Greeting 1_Intro_000	Oh, like, good afternoon, <PlayerName>.				
 Npc0/Arvo_Greeting 1_Response_003_000					
 Npc0/Arvo_Greeting 2_Intro_000	<yes>It will, like, be dark soon.				
 Npc0/Arvo_Greeting 2_Response_003_000	Use that daylight up, <PlayerName>!				
+Npc0/BugComp_Greeting 000_Intro_000	Hi, <PlayerName>.þ				
+Npc0/BugComp_Greeting 000_Intro_001	I'm kinda, like, busy with the <bugComp> right now...				
+Npc0/BugComp_Greeting 000_Response_003_000	I'm going to flog everyone at this <bugComp>.				
+Npc0/CompleteBirthday_000_Intro_000	Oh, wackadoo!				
+Npc0/CompleteBirthday_000_Intro_001	What a nice <birthday> gift!				
+Npc0/CompleteBirthday_000_Intro_002	Thank you, <PlayerName>.				
 Npc0/CompleteRequest_000_Intro_000	<pumped>Bonza!				
 Npc0/CompleteRequest_000_Intro_001	<glee>I, like, knew I could count on you.				
 Npc0/CompleteRequest_000_Intro_002	Now, I have something for, <PlayerName>!				
@@ -1794,6 +1850,9 @@ Npc0/Gossip_About_NPC_010_Intro_001	He must be so lonely, don’t you think?þ
 Npc0/High_Friendship_Greeting 0_Intro_000	It’s like, good to see you, <PlayerName>.				
 Npc0/High_Friendship_Greeting 0_Intro_001	What's up?				
 Npc0/High_Friendship_Greeting 0_Response_003_000	<wave>Catch ya!				
+Npc0/High_Friendship_Greeting 1_Intro_000	Hi <PlayerName>!þ				
+Npc0/High_Friendship_Greeting 1_Intro_001	How goes it?þ				
+Npc0/High_Friendship_Greeting 1_Response_003_000	Bye!				
 Npc0/High_Friendship_Greeting 2_Intro_000	It’s <PlayerName>!				
 Npc0/High_Friendship_Greeting 2_Intro_001	Right on!				
 Npc0/High_Friendship_Greeting 2_Response_003_000	<wave>Later!				
@@ -1805,6 +1864,20 @@ Npc0/Introduction_000_Intro_001	I’m a <Nomad> that’s, like, looking to sell 
 Npc0/Introduction_000_Intro_002	<thinking>Although I can only sell them to people who have a <FarmingLicence>.				
 Npc0/Introduction_000_Intro_003	<IslandName> is beautiful, don’t you think?				
 Npc0/Introduction_000_Intro_004	<glee>I’ve been to a lot of places in my time and like, it’s really nice here.þ				
+Npc0/IslandDayGreeting_AfterNoon_000_Intro_000	Hey <PlayerName>.þ				
+Npc0/IslandDayGreeting_AfterNoon_000_Intro_001	I hope you didn’t, like, miss out on a <Snag>?þ				
+Npc0/IslandDayGreeting_AfterNoon_000_Intro_002	Mine was absolutely bonza!þ				
+Npc0/IslandDayGreeting_AfterNoon_000_Intro_003	Oh, and apparently <NPCName> has some kind of surprise for us tonight?þ				
+Npc0/IslandDayGreeting_Morning_000_Intro_000	Happy <IslandDay>, <PlayerName>!				
+Npc0/IslandDayGreeting_Morning_000_Intro_001	It’s a day to like, celebrate <IslandName>.þ				
+Npc0/IslandDayGreeting_Morning_000_Intro_002	<glee>I’m like, so happy to be a part of it!þ				
+Npc0/IslandDayGreeting_Night_000_Intro_000	Wow!þ				
+Npc0/IslandDayGreeting_Night_000_Intro_001	<glee>I’ve, like, never seen the sky look so happy before.þ				
+Npc0/IslandDayGreeting_Night_000_Intro_002	<haha>And I’ve spend a lot of time with my head in those clouds!þ				
+Npc0/IslandDayGreeting_Night_000_Intro_003	I reckon some of my family would love to see something like this…þ				
+Npc0/IslandDayGreeting_Noon_000_Intro_000	Oh, <PlayerName>!þ				
+Npc0/IslandDayGreeting_Noon_000_Intro_001	Just in time for some, like, really bonza <Snags>!þ				
+Npc0/IslandDayGreeting_Noon_000_Intro_002	<NPCName> has cooked everyone their own personal flavour!þ				
 Npc0/LongConvo_001_Intro_000	Did you know, all the seeds I sell are from my own collection?þ				
 Npc0/LongConvo_001_Intro_001	<shy>I started collecting the seeds when I was, like, just a little girl.þ				
 Npc0/LongConvo_001_Intro_002	I would spend all the <Dinks> I had saved up and buy them wherever I could.þ				
@@ -1858,6 +1931,9 @@ Npc0/Night_Greeting 0_Response_003_000	Stay safe, <PlayerName>.
 Npc0/Night_Greeting 1_Intro_000	<scared>Whoa. I just got chills.þ				
 Npc0/Night_Greeting 1_Intro_001	<shy>It’s probably nothing…þ				
 Npc0/Night_Greeting 1_Response_003_000	Stay safe, <PlayerName>.				
+Npc0/Night_Greeting 2_Intro_000	<no>I, like, don’t reall love the dark.þ				
+Npc0/Night_Greeting 2_Intro_001	Anyway, what’s up, <PlayerName>?þ				
+Npc0/Night_Greeting 2_Response_003_000					
 Npc0/Noon_Greeting 0_Intro_000	Oh, <PlayerName>.þ				
 Npc0/Noon_Greeting 0_Intro_001	What brings you to see little ol’ me?þ				
 Npc0/Noon_Greeting 0_Response_003_000	<wave>Hooroo!				
@@ -1998,6 +2074,12 @@ Npc0/TownMention_Level_004_Intro_000	<no>þI can’t believe this is the same <I
 Npc0/TownMention_Level_004_Intro_001	<pumped>This place is, like, amazing and stuff.þ				
 Npc0/TownMention_Level_004_Intro_002	<yes>You should be so proud of yourself, <PlayerName>.þ				
 Npc0/TownMention_Level_004_Intro_003	<glee>Keep up the bonza work!þþþ				
+Npc1/BugComp_Greeting 000_Intro_000	Hey <PlayerName>!				
+Npc1/BugComp_Greeting 000_Intro_001	You ready to get flogged at this <bugComp>?				
+Npc1/BugComp_Greeting 000_Response_003_000	I'm coming 1st, I tell ya!				
+Npc1/CompleteRequest_000_Intro_000	<glee>You beauty!				
+Npc1/CompleteRequest_000_Intro_001	<yes>You always pull through for me, <PlayerName>.				
+Npc1/CompleteRequest_000_Intro_002	<shy>Why don't I give you this in exchange for helping me out?				
 Npc1/Gossip_About_NPC_000_Intro_000	Sure, you can buy seeds from <NPCName>, but then they gotta grow.þ				
 Npc1/Gossip_About_NPC_000_Intro_001	Who has time for that?þ				
 Npc1/Gossip_About_NPC_000_Intro_002	<haha>You can just buy your food from me!þ				
@@ -2036,12 +2118,19 @@ Npc1/High_Friendship_Greeting 1_Response_003_000	<yes>Righto. Hope I see you lat
 Npc1/High_Friendship_Greeting 2_Intro_000	Well if it isn’t <PlayerName>!þ				
 Npc1/High_Friendship_Greeting 2_Intro_001	I knew I would see you today!þ				
 Npc1/High_Friendship_Greeting 2_Response_003_000	See you around, <PlayerName>.				
+Npc1/Highest_Friendship_Greeting 1_Intro_000	Ah, <PlayerName>!				
+Npc1/Highest_Friendship_Greeting 1_Intro_001	<yes>Always nice to see a friendly face.þ				
+Npc1/Highest_Friendship_Greeting 1_Response_003_000					
 Npc1/Highest_Friendship_Greeting 2_Intro_000	Oh, it’s <PlayerName>.þþComing to see me?þ				
 Npc1/Highest_Friendship_Greeting 2_Intro_001	<haha>But I’m not even open!þ				
 Npc1/Highest_Friendship_Greeting 2_Response_003_000	Hope we chat again, okay?				
 Npc1/Hot_Greeting 0_Intro_000	The heat is charging me up today!þ				
 Npc1/Hot_Greeting 0_Intro_001	<haha>And I love to charge!				
 Npc1/Hot_Greeting 0_Response_003_000					
+Npc1/Hot_Greeting 1_Intro_000	<shy>Phew!þ				
+Npc1/Hot_Greeting 1_Intro_001	<haha>It’s nearly as hot as my low, low prices!þ				
+Npc1/Hot_Greeting 1_Intro_002	You wanted to chat <PlayerName>?þ				
+Npc1/Hot_Greeting 1_Response_003_000					
 Npc1/Introduction_001_Intro_000	Ah ha! So you must be <PlayerName>!				
 Npc1/Introduction_001_Intro_001	<NPCName> told me you’re the one to thank for getting this place all set up for me.þ				
 Npc1/Introduction_001_Intro_002	Thanks for that!þ				
@@ -2051,6 +2140,21 @@ Npc1/Introduction_001_Intro_005	<yes>Now, I make most of my <Dinks> selling exot
 Npc1/Introduction_001_Intro_006	<haha>I guess you could say “exotic” means any of the items found here on <IslandName>.þ				
 Npc1/Introduction_001_Intro_007	<pumped>So, if you find anything, and I do mean anything, you don’t want, please drop by and show me. 				
 Npc1/Introduction_001_Intro_008	<haha>I’ll offer you a great price for it!þ				
+Npc1/IslandDayGreeting_AfterNoon_001_Intro_000	<NPCName> says she has a surprise for us when the sun goes down…þ				
+Npc1/IslandDayGreeting_AfterNoon_001_Intro_001	<haha>I hope it’s heaps of <PermitPoints>.þ				
+Npc1/IslandDayGreeting_AfterNoon_001_Intro_002	<shy>I need to apply for some licences for next year.þ				
+Npc1/IslandDayGreeting_Morning_001_Intro_000	G’day, <PlayerName>.þ				
+Npc1/IslandDayGreeting_Morning_001_Intro_001	Or I guess I should say Happy <IslandDay>!þ				
+Npc1/IslandDayGreeting_Morning_001_Intro_002	<NPCName> is cooking up some <Snags>.þ				
+Npc1/IslandDayGreeting_Morning_001_Intro_003	<haha>I hope she doesn’t snag mine for herself!þ				
+Npc1/IslandDayGreeting_Night_001_Intro_000	What a night.þ				
+Npc1/IslandDayGreeting_Night_001_Intro_001	I reckon my brother would love this!þ				
+Npc1/IslandDayGreeting_Night_001_Intro_002	<haha>Love to charge people to see it at least!þ				
+Npc1/IslandDayGreeting_Night_001_Intro_003	I do miss him, but I know he can’t make it to <IslandName>...				
+Npc1/IslandDayGreeting_Noon_001_Intro_000	G’day, <PlayerName>.þ				
+Npc1/IslandDayGreeting_Noon_001_Intro_001	The <Snags> are ready!þ				
+Npc1/IslandDayGreeting_Noon_001_Intro_002	Who would have guessed <NPCName> was such a good cook?þ				
+Npc1/IslandDayGreeting_Noon_001_Intro_003	She should really open a <Snag> shop…þ				
 Npc1/Johns Shop_Convo_Intro_000	Welcome to John's Goods! How Can I help?				
 Npc1/Johns Shop_Convo_Option_000	Sell goods.				
 Npc1/Johns Shop_Convo_Option_001	I wanted to chat.				
@@ -2222,8 +2326,13 @@ Npc1/RandomConvo_027_Option_002	I don't like to work to much.
 Npc1/RandomConvo_027_Response_000_000	<haha>You might just be a born trader after all!				
 Npc1/RandomConvo_027_Response_001_000	<haha>I might believe you if you weren't here so much!þ				
 Npc1/RandomConvo_027_Response_002_000	<haha>Says the person buying up all my tools!				
-Npc1/RandomConvo_028_Intro_000	Need Text				
-Npc1/RandomConvo_029_Intro_000	Need Text				
+Npc1/RandomConvo_028_Intro_000	<IslandName> is really starting to feel like a home.				
+Npc1/RandomConvo_028_Intro_001	<haha>I reckon it is home now!				
+Npc1/RandomConvo_028_Intro_002	I love waking up and having a wander around my shop every morning.þ				
+Npc1/RandomConvo_028_Intro_003					
+Npc1/RandomConvo_029_Intro_000	Sorry I’ve been running a bit late for work lately, <PlayerName>.				
+Npc1/RandomConvo_029_Intro_001	<shy>I know sometimes you're in there waiting for me…				
+Npc1/RandomConvo_029_Intro_002	<haha>I guess I just want to say thanks for waiting!				
 Npc1/RandomConvo_030_Intro_000	<glee>It’s always good talking to you <PlayerName>.þ				
 Npc1/RandomConvo_030_Intro_001	<haha>It almost makes me forget that I work 12 hour days, 6 days a week.þ				
 Npc1/RandomConvo_031_Intro_000	You know, I would love to give you more great deals, <PlayerName>.þþ				
@@ -2251,9 +2360,20 @@ Npc1/RandomConvo_036_Intro_003	But taking a risk like this? And seeing everythin
 Npc1/RandomConvo_036_Intro_004	<proud>I got a feeling like it’s all gonna be worth it.þ				
 Npc1/RandomConvo_036_Intro_005	<yes>Just gotta keep working.þ One day at a time.þ				
 Npc1/RandomConvo_036_Intro_006					
-Npc1/RandomConvo_037_Intro_000	Need Text				
-Npc1/RandomConvo_038_Intro_000	Need Text				
-Npc1/RandomConvo_039_Intro_000	Need Text				
+Npc1/RandomConvo_037_Intro_000	<yes>You know, I grew this beard when I was a bit younger.				
+Npc1/RandomConvo_037_Intro_001	My brother asked if he could trade me something for my moustache.þ				
+Npc1/RandomConvo_037_Intro_002	I figured it would grow back, you know?þ				
+Npc1/RandomConvo_037_Intro_003	<sigh>It never did…				
+Npc1/RandomConvo_038_Intro_000	<no>You know, it doesn’t bother me too much working hard to help my brother.þ				
+Npc1/RandomConvo_038_Intro_001	<yes>He's a good guys, he just gets himself into trouble.þ				
+Npc1/RandomConvo_038_Intro_002	<no>Always saying things like “Lets make some deals, let’s trade some wheels”				
+Npc1/RandomConvo_039_Intro_000	<shy>My brother says he’s too busy to come and visit me here on <IslandName>.				
+Npc1/RandomConvo_039_Intro_001	<no>He’s got a boat, but he says he can’t even take it out for a quick visit.þ				
+Npc1/RandomConvo_039_Intro_002	<sigh>It’s a real shame...				
+Npc1/RandomConvo_039_Intro_003	<yes>I think he'd like you, <PlayerName>.				
+Npc1/RandomConvo_040_Intro_000	My brother still has my old steam boat back home.þ				
+Npc1/RandomConvo_040_Intro_001	<thinking>I hope he’s treating the old girl well.þ				
+Npc1/RandomConvo_040_Intro_002	<glee>She’s my pride and joy. I can’t wait to see her again some day.þ				
 Npc1/TownMention_Level_001_Intro_000	It’s clear you’ve been working hard to get <IslandName> together, <PlayerName>þ				
 Npc1/TownMention_Level_001_Intro_001	It’s starting to shape up around here!þ				
 Npc1/TownMention_Level_002_Intro_000	<IslandName> has really changed since you help get me set up here!þ				
@@ -2274,6 +2394,9 @@ Npc10/BankConversation_Option_001	Let's chat.
 Npc10/BankConversation_Option_002	Nevermind.				
 Npc10/BankConversation_Response_000_000	Ok. Lets take a look...				
 Npc10/BankConversation_Response_002_000					
+Npc10/CompleteRequest_000_Intro_000	<proud>Hmph.				
+Npc10/CompleteRequest_000_Intro_001	Very good.				
+Npc10/CompleteRequest_000_Intro_002					
 Npc10/Introduction_010_Intro_000	<PlayerName> I assume?þ				
 Npc10/Introduction_010_Intro_001	<proud>My name is <myName>.				
 Npc10/Introduction_010_Intro_002	<yes>I am the new banker here on <IslandName>þ.				
@@ -2294,6 +2417,19 @@ Npc10/Introduction_010_Response_000_007	<no>And you can never have have too many
 Npc10/Introduction_010_Response_000_008	So come and speak to me during my operating hours to exhange <Dinks> for <PermitPoints>				
 Npc10/Introduction_010_Response_001_000	<thinking>Ah, I see, someone on this island who knows the ins and outs of finance.				
 Npc10/Introduction_010_Response_001_001					
+Npc10/IslandDayGreeting_AfterNoon_010_Intro_000	Hmph.þ				
+Npc10/IslandDayGreeting_AfterNoon_010_Intro_001	Today has been satisfactory so far.þ				
+Npc10/IslandDayGreeting_AfterNoon_010_Intro_002	However, I do doubt that the “surprise” <NPCName> has in store for us tonight will impress me.þ				
+Npc10/IslandDayGreeting_Morning_010_Intro_000	<no>Hmph.þ				
+Npc10/IslandDayGreeting_Morning_010_Intro_001	What even is a <SnagSizzle>?þ				
+Npc10/IslandDayGreeting_Morning_010_Intro_002	What’s so good about <Snags> anyway?þ				
+Npc10/IslandDayGreeting_Night_010_Intro_000	Hmph.þ				
+Npc10/IslandDayGreeting_Night_010_Intro_001	I don’t know what to say.þ				
+Npc10/IslandDayGreeting_Night_010_Intro_002	I’ve never seen anything like this before...þ				
+Npc10/IslandDayGreeting_Noon_010_Intro_000	Hmph.þ				
+Npc10/IslandDayGreeting_Noon_010_Intro_001	I hate to admit it.þ				
+Npc10/IslandDayGreeting_Noon_010_Intro_002	<no>But these “<Snags>” are actually very nice.þ				
+Npc10/IslandDayGreeting_Noon_010_Intro_003					
 Npc10/JimmyWorkConvo_Intro_000	Welcome back, <PlayerName>.				
 Npc10/JimmyWorkConvo_Intro_001	Are you here to talk business?				
 Npc10/JimmyWorkConvo_Option_000	Want to buy anything?				
@@ -2457,6 +2593,7 @@ Npc11/Introduction_011_Intro_006	What was your name again?
 Npc11/Introduction_011_Intro_007	<PlayerName>, I like you. I like you a lot.				
 Npc11/Introduction_011_Intro_008	<yes>Let's do some deals. Lets trade some wheels.				
 Npc11/Introduction_011_Intro_009					
+Npc11/IslandDayGreeting_AfterNoon_011_Intro_000	Happy <IslandDay>!				
 Npc11/JimmyWorkConvo_Intro_000	Welcome back, <PlayerName>.				
 Npc11/JimmyWorkConvo_Intro_001	Are you here to talk business?				
 Npc11/JimmyWorkConvo_Option_000	Want to buy anything?				
@@ -2481,6 +2618,300 @@ Npc11/SomethingToSellJimmy_Response_000_001	Thank you for your goods here, suck-
 Npc11/SomethingToSellJimmy_Response_000_002	<yes>Here is your <$>.				
 Npc11/SomethingToSellJimmy_Response_000_003	<proud>Pleasure as always.				
 Npc11/SomethingToSellJimmy_Response_001_000					
+Npc12/CompleteBirthday_000_Intro_000	<pumped>Oh, what a bonza <birthday> gift!				
+Npc12/CompleteBirthday_000_Intro_001	<yes>You’re too good to me <PlayerName>.				
+Npc12/CompleteBirthday_000_Intro_002	<glee>Thank you!				
+Npc12/CompleteRequest_000_Intro_000	<glee>You bloody beauty!				
+Npc12/CompleteRequest_000_Intro_001	Thanks a bunch, <petName>.				
+Npc12/CompleteRequest_000_Intro_002	You always pull through!				
+Npc12/IslandDayGreeting_AfterNoon_012_Intro_000	<no>First <NPCName> cooks the best snag I’ve ever had.				
+Npc12/IslandDayGreeting_AfterNoon_012_Intro_001	<shock>And she has the nerve to say there is still a surprise tonight?þ				
+Npc12/IslandDayGreeting_AfterNoon_012_Intro_002	<no>You know what, if I didn’t love that woman…þ				
+Npc12/IslandDayGreeting_Morning_012_Intro_000	Oh, hi there <petName>.þ				
+Npc12/IslandDayGreeting_Morning_012_Intro_001	I’m really looking forward to a <IslandDay> snag.þ				
+Npc12/IslandDayGreeting_Morning_012_Intro_002	<yes>I reckon <NPCName> knows what she’s doing.þ				
+Npc12/IslandDayGreeting_Morning_012_Intro_003	<haha>But between you and me, it’s taking a lot of willpower to not snatch those tongs out of her hands.þ				
+Npc12/IslandDayGreeting_Night_012_Intro_000	All those colours…þ				
+Npc12/IslandDayGreeting_Night_012_Intro_001	<thinking>Do you reckon the sky can taste them?þ				
+Npc12/IslandDayGreeting_Night_012_Intro_002	<yes>I hope they taste good.þ				
+Npc12/IslandDayGreeting_Night_012_Intro_003	<haha>Because they look like they do!þ				
+Npc12/IslandDayGreeting_Noon_012_Intro_000	<boohoo>I’m tempted to hang up me apron.þ				
+Npc12/IslandDayGreeting_Noon_012_Intro_001	<no><NPCName> is an amazing cook.þ				
+Npc12/IslandDayGreeting_Noon_012_Intro_002	<shy>I can’t believe she made everyone their own custom <Snag>.þ				
+Npc12/IslandDayGreeting_Noon_012_Intro_003	She really knows everyone here on <IslandName>.þ				
+Npc12/IslandDayGreeting_Noon_012_Intro_004	<yes>I reckon she's having the best day of her life.				
+Npc12/IslandDayGreeting_Noon_012_Intro_005	Happy <IslandDay>, mate.				
+Npc12/NothingToGiveBugComp_Intro_000	Oh, you don't have any bugs after all?				
+Npc12/NothingToGiveBugComp_Intro_001	<boohoo>Why did you trick me...				
+Npc12/NothingToGiveTuckshop_Intro_000	Oh, you don't have anything tasty to sell?				
+Npc12/NothingToGiveTuckshop_Intro_001	<no>No worries, mate.				
+Npc12/RandomConvo_000_Intro_000	I’d love to talk, <petName>, but it’s been all go today.þ				
+Npc12/RandomConvo_000_Intro_001	<no>I’ve been flat out like a <animalName> swimming! þ				
+Npc12/RandomConvo_001_Intro_000	<IslandName> is the only place I’ve seen anything grow in a long while.þ				
+Npc12/RandomConvo_001_Intro_001	<yes>What a great place for finding fresh ingredients.þ				
+Npc12/RandomConvo_001_Intro_002	<shy>I’m bonza at cooking, but there’s only so much you can do with <BlobFish>.				
+Npc12/RandomConvo_002_Intro_000	<proud>I won’t stand for any trouble at my place.þ				
+Npc12/RandomConvo_002_Intro_001	<no>First whiff of a barney, and you’ll be out on your ear!þ				
+Npc12/RandomConvo_003_Intro_000	<proud>Tell me what you’ve got at home and I reckon I can make a feast out of it.þ				
+Npc12/RandomConvo_003_Intro_001	<no>You don’t need fancy ingredients to make something special.þ				
+Npc12/RandomConvo_003_Intro_002	<haha>It sure helps though!þ				
+Npc12/RandomConvo_004_Intro_000	I heard some people eat <animalName>.þ				
+Npc12/RandomConvo_004_Intro_001	<no>They’re not for me, they’re far too tough.þ				
+Npc12/RandomConvo_004_Intro_002	<thinking>Still, anything’s better than nothing when you’re hungry, I reckon.þ				
+Npc12/RandomConvo_005_Intro_000	<yes>I think it’s great to talk about your problems.þ				
+Npc12/RandomConvo_005_Intro_001	<haha>Just not to me, <petName>.þ				
+Npc12/RandomConvo_005_Intro_002	<proud>I’ve got a business to run!þ				
+Npc12/RandomConvo_006_Intro_000	<glee>Nothing beats a true-blue sunrise, I reckon.þ				
+Npc12/RandomConvo_006_Intro_001	<yes>Best time of the day, the morning.				
+Npc12/RandomConvo_006_Intro_002	<proud>Everybody’s still fast asleep and you can go about your business without anybody bothering you.þ				
+Npc12/RandomConvo_007_Intro_000	<no>You’d never catch me down in the deep mines!þ				
+Npc12/RandomConvo_007_Intro_001	<shy>I wouldn’t mind the dark, but I just can’t stand bats.				
+Npc12/RandomConvo_007_Intro_002	<no>They’re too flappy, for a start. þ				
+Npc12/RandomConvo_007_Intro_003	Oh and that screeching? Forget it!þ				
+Npc12/RandomConvo_008_Intro_000	Back in <SouthCity>, I was expected to do nothing but cook <Blobfish> and keep my mouth shut.þ				
+Npc12/RandomConvo_008_Intro_001	<haha>Sure, I says, I can do that, when <animalName> fly mate!				
+Npc12/RandomConvo_008_Intro_002	Sling your hook, I says, I’m outta this dump!þ				
+Npc12/RandomConvo_008_Intro_003	Best decision I ever made, <petName>l.þ				
+Npc12/RandomConvo_009_Intro_000	<yes>I always have a nibble of everything I make.				
+Npc12/RandomConvo_009_Intro_001	<proud>Quality control, yeah?þ				
+Npc12/RandomConvo_009_Intro_002	<shy>Of course, sometimes I have too many nibbles and there’s none left for the customers!þ				
+Npc12/RandomConvo_009_Intro_003	<haha>Especially on Sundays, mind.				
+Npc12/RandomConvo_009_Intro_004	<glee>Sunday is treat day.þ				
+Npc12/RandomConvo_010_Intro_000	<no>I swear, some people would just sit around all flaming day if they had the chance.þ				
+Npc12/RandomConvo_010_Intro_001	<no>Staying cooped up every day is no good for you.þ				
+Npc12/RandomConvo_010_Intro_002	<thinking>You’ve got to be kind to your body if you want it to last.þ				
+Npc12/RandomConvo_010_Intro_003	<pumped>Take it out for walks! Go for a swim! þ				
+Npc12/RandomConvo_010_Intro_004	<yes>Anything is better than nothing, I reckon.þ				
+Npc12/RandomConvo_011_Intro_000	<thinking>Make sure you’re getting your blood pumping at least thirty minutes a day.þ				
+Npc12/RandomConvo_011_Intro_001	<yes>Out there in the real world, I mean.þ				
+Npc12/RandomConvo_011_Intro_002	<haha>You don’t want your heart getting lazy, you’ll probably need it later!þ				
+Npc12/RandomConvo_012_Intro_000	Still gallivanting around all over town, are you?þ				
+Npc12/RandomConvo_012_Intro_001	<sigh>I’d join you if I wasn’t so busy at work.				
+Npc12/RandomConvo_012_Intro_002	<proud>There’s nothing like fresh air to keep your ticker ticking.þ				
+Npc12/RandomConvo_012_Intro_003	<yes>Remember to take regular breaks, <petName>. þ				
+Npc12/RandomConvo_013_Intro_000	<yes>A good meal is something you really want to take your time with.þ				
+Npc12/RandomConvo_013_Intro_001	<proud>My stuff’s for savouring.þ				
+Npc12/RandomConvo_013_Intro_002	<shock>Some people out there just put the food up to their mouths and are finished in three bites!þ				
+Npc12/RandomConvo_013_Intro_003	How crazy is that?þ				
+Npc12/RandomConvo_013_Intro_004	<no>Within a second there’s nothing left but quickly vanishing crumbs!þ				
+Npc12/RandomConvo_013_Intro_005	<no>Unbelievable!þ				
+Npc12/RandomConvo_014_Intro_000	I think it’s bonza we were given this chance to start again.þ				
+Npc12/RandomConvo_014_Intro_001	<shy>It takes a brave soul to pack everything up and move on, if I do say so myself.þ				
+Npc12/RandomConvo_014_Intro_002	I think this place is shaping up wonderfully though, <petName>.				
+Npc12/RandomConvo_015_Intro_000	I don’t need somebody else to do everything for me.				
+Npc12/RandomConvo_015_Intro_001	<yes>You can always rely on yourself, I reckon. þ				
+Npc12/RandomConvo_015_Intro_002	Oh sure, <PlayerName>, you might fetch me a few things here and there.				
+Npc12/RandomConvo_015_Intro_003	And you might have helped build my shop.				
+Npc12/RandomConvo_015_Intro_004	<proud>But everything else was good old fashioned <myName>!þ				
+Npc12/RandomConvo_016_Intro_000	Nothing better than some <itemName>to get you going, huh?þ				
+Npc12/RandomConvo_016_Intro_001	Reckon beans are hard to catch?þ				
+Npc12/RandomConvo_016_Intro_002	I’ve only had one and I’m bouncing off the walls!þ				
+Npc12/RandomConvo_017_Intro_000	<thinking>A lot of people don’t put much thought into what they’re having for tea.þ				
+Npc12/RandomConvo_017_Intro_001	<no>Shame for them I reckonþ.				
+Npc12/RandomConvo_017_Intro_002	<glee>A tough day can fly by knowing a healthy home cooked feed is waiting at the end of it.þ				
+Npc12/RandomConvo_018_Intro_000	Just because you like everything on the menu doesn’t mean you need to order it all at once, <petName>.þ				
+Npc12/RandomConvo_018_Intro_001	<haha>You can always come back!				
+Npc12/RandomConvo_019_Intro_000	<yes>I’ll try anything once, me.þ				
+Npc12/RandomConvo_019_Intro_001	<no>Oh, there’s stuff I’d probably never eat again though.þ				
+Npc12/RandomConvo_019_Intro_002	<proud>That’s what life’s for, I reckon. Trying things.þ				
+Npc12/RandomConvo_019_Intro_003	<haha>I’m here for a good time, not a long time!þ				
+Npc12/RandomConvo_020_Intro_000	<proud>You’ll never catch me behind a desk, that’s for sure.				
+Npc12/RandomConvo_020_Intro_001	<no>Day in day out watching the clock, growing old miserably.þ				
+Npc12/RandomConvo_020_Intro_002	<shy>I guess I don’t need to tell you though!þ				
+Npc12/RandomConvo_020_Intro_003	I see you with your little legs always running all over the place.				
+Npc12/RandomConvo_020_Intro_004	<yes>Always scurrying around here and there, foraging and thwacking things.þ				
+Npc12/RandomConvo_020_Intro_005	<haha>Good work, <PlayerName>!þ				
+Npc12/RandomConvo_021_Intro_000	<thinking>I’ve always been the busy type. I just like working, I think.þþ				
+Npc12/RandomConvo_021_Intro_001	<pumped>Getting. Stuff. Done.þ				
+Npc12/RandomConvo_021_Intro_002	<no>There wasn’t much work in <SouthCity>, or at least, none that mattered to anybody. þ				
+Npc12/RandomConvo_021_Intro_003	<no>Never made a difference.þ				
+Npc12/RandomConvo_021_Intro_004	<yes>I feel like I’m doing that now though, <petName>.				
+Npc12/RandomConvo_021_Intro_005	We’re making a difference here, eh?				
+Npc12/RandomConvo_022_Intro_000	You can have all the planning and preparation in the world.				
+Npc12/RandomConvo_022_Intro_001	<pumped>But sooner or later you’ve got to actually knuckle down and get things done.				
+Npc12/RandomConvo_022_Intro_002	That’s what I like about you, <PlayerName>.				
+Npc12/RandomConvo_022_Intro_003	You get stuff done.				
+Npc12/RandomConvo_023_Intro_000	It’s all well and good being a little harsh at times.				
+Npc12/RandomConvo_023_Intro_001	<yes>Tough love, they call it.þ				
+Npc12/RandomConvo_023_Intro_002	<no>There’s no point being mean just for the sake of it though, and you’ve gotta expect a little back.þ				
+Npc12/RandomConvo_023_Intro_003	<proud>I says, don’t be afraid of speaking your mind, but don’t be surprised when somebody doesn’t wanna hear it either.þ				
+Npc12/RandomConvo_024_Intro_000	<no>You don’t have to love what you do for a living, we’re all just trying to get by.þ				
+Npc12/RandomConvo_024_Intro_001	<yes>You should absolutely find something you love doing though.þ				
+Npc12/RandomConvo_024_Intro_002	<shy>Something you can put your whole heart and soul into, yeah?þ				
+Npc12/RandomConvo_025_Intro_000	<thinking>I reckon everybody’s passionate about something or other.þ				
+Npc12/RandomConvo_025_Intro_001	<yes>Do what you want, I reckon, as long as you’re not hurting anybody.þ				
+Npc12/RandomConvo_025_Intro_002	<haha>You gotta be you!				
+Npc12/RandomConvo_026_Intro_000	I tell you, ever since I’ve been here, it’s like a fog’s been lifted.þþ				
+Npc12/RandomConvo_026_Intro_001	<proud>I’m making some of the best feeds I reckon I ever have.þ				
+Npc12/RandomConvo_026_Intro_002	<yes>It’s definitely easier when you’ve got ingredients to work with!þ				
+Npc12/RandomConvo_027_Intro_000	You know, you’re probably my favourite customer. þ				
+Npc12/RandomConvo_027_Intro_001	You don’t say much, you always pay your bills, and you’re always ready to lend an ear.þ				
+Npc12/RandomConvo_027_Intro_002	I reckon we mate a cracking great team, <petName>.				
+Npc12/RandomConvo_028_Intro_000	I used to hear stories when I was little about what the world outside was like.				
+Npc12/RandomConvo_028_Intro_001	<shy>Before Everything Went South, I mean.þ				
+Npc12/RandomConvo_028_Intro_002	<no>I don’t think I ever paid too much attention at first.				
+Npc12/RandomConvo_028_Intro_003	I figured they were just stories to pass the time.þ				
+Npc12/RandomConvo_028_Intro_004	<yes>Turns out most of them were right, the good and the bad.þ				
+Npc12/RandomConvo_028_Intro_005	I guess you can’t have one without the other, right, <petName>?þ				
+Npc12/RandomConvo_029_Intro_000	Sure, you could make what I sell yourself.				
+Npc12/RandomConvo_029_Intro_001	You’d have to wait all year, mind.þ				
+Npc12/RandomConvo_029_Intro_002	It might even taste similar, if you’re lucky.				
+Npc12/RandomConvo_029_Intro_003	<no>It’s never going to be the same though.þ				
+Npc12/RandomConvo_029_Intro_004	<pumped>The stuff I sell is made with blood, sweat and tears.þ				
+Npc12/RandomConvo_029_Intro_005	<proud>That’s the <myName> guarantee, <petName>!þ				
+Npc12/RandomConvo_030_Intro_000	It’s been absolutely chockers at my place lately.þ				
+Npc12/RandomConvo_030_Intro_001	<glee>I can’t thank you enough for letting me liven <IslandName> up!þ				
+Npc12/RandomConvo_030_Intro_002	Thanks again <PlayerName>!þ				
+Npc12/RandomConvo_031_Intro_000	<no>Big city folk just don’t get it, I reckon.þ				
+Npc12/RandomConvo_031_Intro_001	They’ve got their steel, their concrete, their paperwork… and that’s it!þ				
+Npc12/RandomConvo_031_Intro_002	<shy>You’ve gotta make time for your friends, yeah?þ				
+Npc12/RandomConvo_031_Intro_003	<yes>They’re the ones that’ll pull you out of the muck, or listen when you need a good whinge. þ				
+Npc12/RandomConvo_031_Intro_004	I feel like you get it, <PlayerName>, I really do.þ				
+Npc12/RandomConvo_031_Intro_005	<shy>Thanks for being there, <petName>.þ				
+Npc12/RandomConvo_032_Intro_000	<shy>I had my head in the clouds when I was younger. þ				
+Npc12/RandomConvo_032_Intro_001	<thinking>I was always dreaming of finer foods.þ				
+Npc12/RandomConvo_032_Intro_002	<no>Nothing too fancy, mind.				
+Npc12/RandomConvo_032_Intro_003	<pumped>Just wholesome simple tucker that could fill your belly and keep you fighting fit.þ				
+Npc12/RandomConvo_032_Intro_004	<shy>It’s easy to dream. Doesn’t cost you a <Dink>.þ				
+Npc12/RandomConvo_032_Intro_005	<proud>Putting all this together took some hard yakka though, if I say so myself.þ				
+Npc12/RandomConvo_032_Intro_006	Thanks to you, I reckon I can get you the best tucker on <IslandName>! þ				
+Npc12/RandomConvo_033_Intro_000	We’d get traders from time to time back in <SouthCity>.				
+Npc12/RandomConvo_033_Intro_001	Coming in on their fancy <Airships>.				
+Npc12/RandomConvo_033_Intro_002	<Nomads>, they called em.þ				
+Npc12/RandomConvo_033_Intro_003	It was the only time we ever saw or ate anything different.þ				
+Npc12/RandomConvo_033_Intro_004	<proud>I’ll tell you, the first time I ever ate a slice of roo meat… it was like my whole world opened up.þ				
+Npc12/RandomConvo_033_Intro_005	<pumped>So tender, so juicy. I never knew what taste even was before then!þ				
+Npc12/RandomConvo_033_Intro_006	<no>Of course, the folks in charge would always shut them down right quick, but it didn’t matter.þ				
+Npc12/RandomConvo_033_Intro_007	<pumped>I knew I needed to get out.þ				
+Npc12/RandomConvo_034_Intro_000	There’s nobody to watch your back out in the big city.				
+Npc12/RandomConvo_034_Intro_001	<no>If you fall down there, you’ll go right on getting trampled.þ				
+Npc12/RandomConvo_034_Intro_002	<no>Not here though, <PlayerName>.				
+Npc12/RandomConvo_034_Intro_003	You’d help me up, right?þ				
+Npc12/RandomConvo_034_Intro_004	<haha>Of course you would!				
+Npc12/RandomConvo_034_Intro_005	<pumped>Just try and trample us here, I reckon!				
+Npc12/RandomConvo_034_Intro_006	<angry>We’ll give them what for!þ				
+Npc12/RandomConvo_034_Intro_007	<proud>That’s mateship, that is.þ				
+Npc12/RandomConvo_035_Intro_000	You can’t always trust people, <PlayerName>, but you can always trust them to be themselves.þþ				
+Npc12/RandomConvo_035_Intro_001	As long as you keep that in mind, nothing will surprise you, I reckon.þ				
+Npc12/RandomConvo_035_Intro_002	Anyway, I like you <petName>, but I’ve got work to do!þ				
+Npc12/RandomConvo_036_Intro_000	<proud>I worked hard to get where I am, I did.				
+Npc12/RandomConvo_036_Intro_001	<yes>There was always someone there telling me I couldn’t do it.þ				
+Npc12/RandomConvo_036_Intro_002	I didn’t have a head for business, they says.				
+Npc12/RandomConvo_036_Intro_003	<no>My cooking was trash, they says, blah blah blah blah.þ				
+Npc12/RandomConvo_036_Intro_004	<angry>I’d had just about enough of it, so I says, stuff that, and stuff you too!þ				
+Npc12/RandomConvo_036_Intro_005	<proud>Sooner or later you’ve got to just ignore the whingers and take charge of yourself.þ				
+Npc12/RandomConvo_036_Intro_006	You should listen, <PlayerName>, I bloody wish I did sooner!þ				
+Npc12/RandomConvo_037_Intro_000	You’re a good egg, <PlayerName>, I mean that.þ				
+Npc12/RandomConvo_037_Intro_001	<shy>I appreciate you taking the time to listen to me natter on.þ				
+Npc12/RandomConvo_037_Intro_002	<haha>Most times I’d be nattering regardless, but it’s nice to have somebody listen!þ				
+Npc12/RandomConvo_037_Intro_003	You let me know if you need anything, <petName>.þ				
+Npc12/RandomConvo_038_Intro_000	You ever wonder about all that junk buried beneath the surface?þ				
+Npc12/RandomConvo_038_Intro_001	You reckon someone left it there or what?þ				
+Npc12/RandomConvo_038_Intro_002	I like to think it was the <animalName>. Nah, hear me out!þ				
+Npc12/RandomConvo_038_Intro_003	They had all these fancy machines, yeah? All these whirring and buzzing things and what-have-you.þ				
+Npc12/RandomConvo_038_Intro_004	Well, they’ve got them all going full bull at all hours, right?þ				
+Npc12/RandomConvo_038_Intro_005	Well, <animalName> bossman is cranky now. The head <animalName> or whatever, Top Dog.þ				
+Npc12/RandomConvo_038_Intro_006	He can’t get to sleep, see, on account of all the ruckus.þ				
+Npc12/RandomConvo_038_Intro_007	So one day he says, “Oi, youse!”, he says, “Pack that in, the lot of you!”þ				
+Npc12/RandomConvo_038_Intro_008	So they do, too.				
+Npc12/RandomConvo_038_Intro_009	They bury heaps of it, they do. So’s they can focus on all the regular important <animalName> stuff.þ				
+Npc12/RandomConvo_038_Intro_010	Like, um, burying and sniffing and running and all that malarky.þ				
+Npc12/RandomConvo_038_Intro_011	<yes>That’s my theory anyway.þ				
+Npc12/RandomConvo_039_Intro_000	<no>I’d like to say I was great at rustling up tucker straight from the word Go, but that wouldn’t be true.þ				
+Npc12/RandomConvo_039_Intro_001	<shy>Nah mate, I burned more than a few <itemName> to get here, I did.þ				
+Npc12/RandomConvo_039_Intro_002	<pumped>Ate every single one of them too! Builds character.þ				
+Npc12/RandomConvo_039_Intro_003	Only way to learn, I reckon. þ				
+Npc12/RandomConvo_039_Intro_004	<pumped>Not just pies either!				
+Npc12/RandomConvo_039_Intro_005	<shy>Nah, I burnt a salad first time I tried it!þ				
+Npc12/RandomConvo_039_Intro_006					
+Npc12/SomethingToSellBugComp_Intro_000	<glee>WOW!				
+Npc12/SomethingToSellBugComp_Intro_001	Look at all these really, really cute bugs!				
+Npc12/SomethingToSellBugComp_Intro_002	Can I buy them for <$>?				
+Npc12/SomethingToSellBugComp_Option_000	Sell!				
+Npc12/SomethingToSellBugComp_Option_001	No thanks				
+Npc12/SomethingToSellBugComp_Response_000_000	Thanks <PlayerName>!				
+Npc12/SomethingToSellBugComp_Response_001_000	<no>Oh...				
+Npc12/SomethingToSellBugComp_Response_001_001					
+Npc12/SomethingToSellTuckshop_Intro_000	<thinking>Hmmm.				
+Npc12/SomethingToSellTuckshop_Intro_001	Some great produce here, <PlayerName>.				
+Npc12/SomethingToSellTuckshop_Intro_002	How does <$> sound?				
+Npc12/SomethingToSellTuckshop_Option_000	Sell!				
+Npc12/SomethingToSellTuckshop_Option_001	No thanks				
+Npc12/SomethingToSellTuckshop_Response_000_000	Pleasure doing business, <PlayerName>!				
+Npc12/SomethingToSellTuckshop_Response_001_000					
+Npc12/TotalEqualsZeroBugComp_Intro_000	All right... Lets see...				
+Npc12/TotalEqualsZeroBugComp_Intro_001	It seems these items aren't worth anything, but I can still take them off your hands if you don't want them?				
+Npc12/TotalEqualsZeroBugComp_Option_000	Yes, I dont want them.				
+Npc12/TotalEqualsZeroBugComp_Option_001	I'll have them back thanks.				
+Npc12/TotalEqualsZeroBugComp_Response_000_000	Righto, mate.				
+Npc12/TotalEqualsZeroBugComp_Response_000_001	Cheers.				
+Npc12/TotalEqualsZeroBugComp_Response_001_000	That's fine, please return if you wish to sell anything else.				
+Npc13/BugCatchingCompConvo_InComp_Intro_000	<wave>Hello, <PlayerName>!				
+Npc13/BugCatchingCompConvo_InComp_Intro_001	How's the <bugComp> going?				
+Npc13/BugCatchingCompConvo_InComp_Intro_002	<yes>Don't forget to log and update your points in the <compBook>.				
+Npc13/BugCatchingCompConvo_InComp_Option_000	Want to buy some bugs?				
+Npc13/BugCatchingCompConvo_InComp_Option_001	Let's chat.				
+Npc13/BugCatchingCompConvo_InComp_Option_002	Nevermind.				
+Npc13/BugCatchingCompConvo_InComp_Response_000_000	<glee>Oh, yes please.				
+Npc13/BugCatchingCompConvo_InComp_Response_000_001	<yes>I've got lots of pocket money to spend.				
+Npc13/BugCatchingCompConvo_InComp_Response_002_000	<glee>Have fun!				
+Npc13/BugCatchingCompConvo_InCompNotStarted_Intro_000	<wave>Hello, <PlayerName>!				
+Npc13/BugCatchingCompConvo_InCompNotStarted_Intro_001	<glee>The <bugComp> will officially start at <bugCompStartTime>.				
+Npc13/BugCatchingCompConvo_InCompNotStarted_Intro_002	While we wait to start, do you have any bugs I can keep?				
+Npc13/BugCatchingCompConvo_InCompNotStarted_Option_000	Want to buy some bugs?				
+Npc13/BugCatchingCompConvo_InCompNotStarted_Option_001	Let's chat.				
+Npc13/BugCatchingCompConvo_InCompNotStarted_Option_002	Nevermind.				
+Npc13/BugCatchingCompConvo_InCompNotStarted_Response_000_000	<glee>Oh, yes please.				
+Npc13/BugCatchingCompConvo_InCompNotStarted_Response_000_001	<yes>I've got lots of pocket money to spend.				
+Npc13/BugCatchingCompConvo_InCompNotStarted_Response_002_000	<glee>Bye bye, <PlayerName>!				
+Npc13/BugCatchingCompConvo_NotInComp_Intro_000	<NPCName> told me that I could host a <bugComp> while I’m visiting <IslandName>.þ				
+Npc13/BugCatchingCompConvo_NotInComp_Intro_001	<glee>I thought that sounded really, really fun.þ				
+Npc13/BugCatchingCompConvo_NotInComp_Intro_002	<yes>So that’s what I’m doing today.þ				
+Npc13/BugCatchingCompConvo_NotInComp_Option_000	I want to join.				
+Npc13/BugCatchingCompConvo_NotInComp_Option_001	What are the rules?				
+Npc13/BugCatchingCompConvo_NotInComp_Option_002	No thanks.				
+Npc13/BugCatchingCompConvo_NotInComp_Response_000_000	<glee>YAY!þ				
+Npc13/BugCatchingCompConvo_NotInComp_Response_000_001	The <compBook> is over on the table, so you can sign up there.þ				
+Npc13/BugCatchingCompConvo_NotInComp_Response_000_002	<NPCName> helped me write down the rules in it too if you don't know how to play.				
+Npc13/BugCatchingCompConvo_NotInComp_Response_001_000	The main rule is to catch as many bugs as you can today, before <bugCompEndTime>.				
+Npc13/BugCatchingCompConvo_NotInComp_Response_001_001	Once you've joined the <bugComp>, each bug you catch will get you some points.þ				
+Npc13/BugCatchingCompConvo_NotInComp_Response_001_002	<yes>The rarer the bug, the more points you will get for it.þ				
+Npc13/BugCatchingCompConvo_NotInComp_Response_001_003	<angry>And don’t even try to be a naughty cheater.þ				
+Npc13/BugCatchingCompConvo_NotInComp_Response_001_004	<no>Any bugs you catch before you sign up or before the comp starts won’t count.þ				
+Npc13/BugCatchingCompConvo_NotInComp_Response_001_005	<yes>If you want to sign up check out the <compBook> on the table over there.þ				
+Npc13/BugCatchingCompConvo_NotInComp_Response_002_000	<sigh>That’s okay...				
+Npc13/BugCatchingCompConvo_NotInComp_Response_002_001	<no>I know that not all grown ups have time for fun.þ				
+Npc13/BugCatchingCompConvo_NotInComp_Response_002_002	You must be busy like <NPCName>.þ				
+Npc13/BugCatchingCompEnded_Intro_000	<wave>Hello, <PlayerName>.				
+Npc13/BugCatchingCompEnded_Intro_001	Today’s <bugComp> was so much fun!þ				
+Npc13/BugCatchingCompEnded_Intro_002	<proud>I’m going to send the top 3 contestants a great prize in the mail.þ				
+Npc13/BugCatchingCompEnded_Intro_003	If you want to see who placed in the top 3, you can check the <compBook> here in the tent for the rest of the day.				
+Npc13/BugCatchingCompEnded_Intro_004	I'll come back soon to visit and we can have another <bugComp>, okay?				
+Npc13/BugCatchingCompEnded_Option_000	Want to buy some bugs?				
+Npc13/BugCatchingCompEnded_Option_001	Let's chat.				
+Npc13/BugCatchingCompEnded_Option_002	Nevermind.				
+Npc13/BugCatchingCompEnded_Response_000_000	<glee>Oh, yes please.				
+Npc13/BugCatchingCompEnded_Response_000_001	<yes>I've got lots of pocket money to spend.				
+Npc13/BugCatchingCompEnded_Response_002_000	<glee>Have fun!				
+Npc16/Nick_Salesman_Convo_Intro_000	<haha>Ho! Ho! Ho!				
+Npc16/Nick_Salesman_Convo_Intro_001	Hello there, <PlayerName>!				
+Npc16/Nick_Salesman_Convo_Intro_002	I hope you're being nice today!				
+Npc16/Nick_Salesman_Convo_Option_000	Can you make me something?				
+Npc16/Nick_Salesman_Convo_Option_001	How's your holidays?				
+Npc16/Nick_Salesman_Convo_Option_002	Nevermind				
+Npc16/Nick_Salesman_Convo_Response_000_000	Here's my list.				
+Npc16/Nick_Salesman_Convo_Response_000_001	Check it twice!				
+Npc16/Nick_Salesman_Convo_Response_001_000	<haha>Ho! Ho! Ho!				
+Npc16/Nick_Salesman_Convo_Response_001_001	<glee>I love it here on <IslandName>!				
+Npc16/Nick_Salesman_Convo_Response_001_002	<shock>Oh!				
+Npc16/Nick_Salesman_Convo_Response_001_003	That reminds me!				
+Npc16/Nick_Salesman_Convo_Response_001_004	<worried>It seems some of my White <animalName> have gone missing.				
+Npc16/Nick_Salesman_Convo_Response_001_005	<shy>I’m sure they will come back eventually.				
+Npc16/Nick_Salesman_Convo_Response_001_006	But if you see one, would you be so kind as to catch one and drop it off at an <itemName>?				
+Npc16/Nick_Salesman_Convo_Response_001_007	<glee>Thanks a lot <PlayerName>!				
+Npc16/Nick_Salesman_Convo_Response_001_008	You’ve always been very nice!				
+Npc16/Nick_Salesman_Convo_Response_001_009	<haha>Ho! Ho! Ho!				
+Npc16/Nick_Salesman_Convo_Response_002_000					
 Npc2/Arvo_Greeting 0_Intro_000	Oh, an postmeridian interaction?				
 Npc2/Arvo_Greeting 0_Response_003_000	<no>What a waste of my time.þ				
 Npc2/Arvo_Greeting 0_Response_003_001	Sadly, there are only a few hours left today.þ				
@@ -2489,6 +2920,9 @@ Npc2/Arvo_Greeting 1_Response_003_000	Goodbye.
 Npc2/Arvo_Greeting 2_Intro_000	My goodness!				
 Npc2/Arvo_Greeting 2_Intro_001	It is <getTime> already.þ				
 Npc2/Arvo_Greeting 2_Response_003_000	I will be on my way.				
+Npc2/BugComp_Greeting 000_Intro_000	I am currently participating in a “<bugComp>”.				
+Npc2/BugComp_Greeting 000_Intro_001	Why are you interrupting me?				
+Npc2/BugComp_Greeting 000_Response_003_000	Goodbye.				
 Npc2/CanMakeTechForYou_Intro_000	So, you are interested in my <itemName>.				
 Npc2/CanMakeTechForYou_Intro_001	It will be very handy to have I can assure you!				
 Npc2/CanMakeTechForYou_Intro_002	Now to make that item I will require the components and <craftItemPrice>. 				
@@ -2592,6 +3026,21 @@ Npc2/Introduction_002_Intro_006	I will pay you very generously for each <itemNam
 Npc2/Introduction_002_Intro_007	Oh, and I also sell blueprints for some basic recipes.				
 Npc2/Introduction_002_Intro_008	<PlayerName>, is it?				
 Npc2/Introduction_002_Intro_009					
+Npc2/IslandDayGreeting_AfterNoon_002_Intro_000	I am shocked to admit that I am enjoying today's celebration.þ				
+Npc2/IslandDayGreeting_AfterNoon_002_Intro_001	It would appear that <IslandName> is indeed worth celebrating.þ				
+Npc2/IslandDayGreeting_AfterNoon_002_Intro_002	I have actually helped <NPCName> with tonight's surprise.þ				
+Npc2/IslandDayGreeting_AfterNoon_002_Intro_003	<shocked>Oh!þ				
+Npc2/IslandDayGreeting_AfterNoon_002_Intro_004	I will not give you any further information.þ				
+Npc2/IslandDayGreeting_Morning_002_Intro_000	I do not understand the custom.þ				
+Npc2/IslandDayGreeting_Morning_002_Intro_001	But I intend to participate in this <IslandDay> nonetheless.þ				
+Npc2/IslandDayGreeting_Morning_002_Intro_002	<NPCName> informed me she would be auditing my licences if I did not.þ				
+Npc2/IslandDayGreeting_Night_002_Intro_000	It was actually pretty simple to create these sparkles you see in the sky.þ				
+Npc2/IslandDayGreeting_Night_002_Intro_001	<thinking>I am considering calling them “Sparkle Works”.þ				
+Npc2/IslandDayGreeting_Night_002_Intro_002	<yes>This may be one of the most enjoyable projects I have worked on in recent memory.þ				
+Npc2/IslandDayGreeting_Noon_002_Intro_000	It would appear that these <Snags> look revolting.þ				
+Npc2/IslandDayGreeting_Noon_002_Intro_001	<yes>However, the flavour is quite impressive.þ				
+Npc2/IslandDayGreeting_Noon_002_Intro_002	<thinking>Excuse me, but I think they require further research.þ				
+Npc2/IslandDayGreeting_Noon_002_Intro_003	And by that, I mean eating. þ				
 Npc2/LearntNewTech_Intro_000	<thinking>Hmmm...	<Pensée> Hmmm ...	<Мышление> Хммм ...		<思考>うーん...
 Npc2/LearntNewTech_Intro_001	<shocked>Oh!	<Choqué> Oh!	<Шокировал> О!		ああ<ショック>！
 Npc2/LearntNewTech_Intro_002	I have a great idea for a new invention!	J'ai une idée géniale pour une nouvelle invention!	У меня есть отличная идея для нового изобретения!		私は新しい発明のための素晴らしいアイデアを持っています！
@@ -2813,10 +3262,16 @@ Npc2/TownMention_Level_004_Intro_002	If not for you, then I would have never hav
 Npc2/TownMention_Level_004_Intro_003	<yes>And if not for you, <IslandName> would be a much worse place to live.þ				
 Npc3/Arvo_Greeting 0_Intro_000	Afternoon, <PlayerName>!				
 Npc3/Arvo_Greeting 0_Response_003_000					
+Npc3/BugComp_Greeting 000_Intro_000	G’day.				
+Npc3/BugComp_Greeting 000_Intro_001	You catchin’ bugs too?				
+Npc3/BugComp_Greeting 000_Response_003_000					
 Npc3/Cold_Greeting 1_Intro_000	Hurts me bones, this cold.þ				
 Npc3/Cold_Greeting 1_Response_003_000					
 Npc3/Cold_Greeting 2_Intro_000	Bloody freezing today…				
 Npc3/Cold_Greeting 2_Response_003_000					
+Npc3/CompleteRequest_000_Intro_000	<glee>Beauty, mate.				
+Npc3/CompleteRequest_000_Intro_001	<no>You’re too good.				
+Npc3/CompleteRequest_000_Intro_002	Thanks, you should take this.				
 Npc3/FurnitureShop_Convo_Intro_000	Yup?				
 Npc3/FurnitureShop_Convo_Option_000	Can you make me something?				
 Npc3/FurnitureShop_Convo_Option_001	I want to chat.				
@@ -2824,11 +3279,38 @@ Npc3/FurnitureShop_Convo_Option_002	Nevermind.
 Npc3/FurnitureShop_Convo_Response_000_000	Sure can. Have a look.				
 Npc3/FurnitureShop_Convo_Response_001_000	Alright.				
 Npc3/FurnitureShop_Convo_Response_002_000	Alright.				
+Npc3/High_Friendship_Greeting 0_Intro_000	Hey <PlayerName>.þ				
+Npc3/High_Friendship_Greeting 0_Intro_001	How’s it going, mate?þ				
+Npc3/High_Friendship_Greeting 0_Response_003_000	Have a good one.				
+Npc3/Highest_Friendship_Greeting 0_Intro_000	Oh, <PlayerName>.				
+Npc3/Highest_Friendship_Greeting 0_Intro_001	What brings you to old <myName>?				
+Npc3/Highest_Friendship_Greeting 0_Response_003_000	Take yer time today, alright?				
+Npc3/Highest_Friendship_Greeting 1_Intro_000	Look who it is, eh? Ol’ <PlayerName>.þ				
+Npc3/Highest_Friendship_Greeting 1_Intro_001	What’ll it be today?þ				
+Npc3/Highest_Friendship_Greeting 1_Response_003_000					
+Npc3/Highest_Friendship_Greeting 2_Intro_000	Good to see ya, <PlayerName>.				
+Npc3/Highest_Friendship_Greeting 2_Intro_001	How ya doin’?				
+Npc3/Highest_Friendship_Greeting 2_Response_003_000					
 Npc3/Hot_Greeting 1_Intro_000	Bloody swelter today, <PlayerName>.				
 Npc3/Hot_Greeting 1_Response_003_000					
 Npc3/Introduction_003_Intro_000	Hello there, I’m <myName>.þ				
 Npc3/Introduction_003_Intro_001	<yes>Like makin’ furniture and other things.þ				
 Npc3/Introduction_003_Intro_002	So if you like buyin’ that sort of stuff, come and talk to me.þ				
+Npc3/IslandDayGreeting_AfterNoon_003_Intro_000	<glee>Ahhh.þ				
+Npc3/IslandDayGreeting_AfterNoon_003_Intro_001	<shy>Me belly is full.þ				
+Npc3/IslandDayGreeting_AfterNoon_003_Intro_002	And so is me heart.þ				
+Npc3/IslandDayGreeting_AfterNoon_003_Intro_003	<yes>What a wonderful day.þ				
+Npc3/IslandDayGreeting_AfterNoon_003_Intro_004	You and <NPCName> have done good work for <IslandName>.þ				
+Npc3/IslandDayGreeting_Morning_003_Intro_000	<yes><IslandDay> today.þ				
+Npc3/IslandDayGreeting_Morning_003_Intro_001	Lookin’ forward to some good <Snags>.				
+Npc3/IslandDayGreeting_Morning_003_Intro_002	<yes>And some even good-er company.				
+Npc3/IslandDayGreeting_Night_003_Intro_000	<no>I ain’t ever seen anything like this.þ				
+Npc3/IslandDayGreeting_Night_003_Intro_001	It’s bloody beautiful, it is.þ				
+Npc3/IslandDayGreeting_Night_003_Intro_002	<yes>Bloody beautiful.þ				
+Npc3/IslandDayGreeting_Noon_003_Intro_000	<NPCName> cooked some bloody good <Snags>.þ				
+Npc3/IslandDayGreeting_Noon_003_Intro_001	Reminds me of the <SnagSizzles> me and the missus used to attend.þ				
+Npc3/IslandDayGreeting_Noon_003_Intro_002	Today’s a real nice day.þ				
+Npc3/IslandDayGreeting_Noon_003_Intro_003					
 Npc3/LongConvo_001_Intro_000	Thinkin’ about me wife lately.þ				
 Npc3/LongConvo_001_Intro_001	<no>She went too early..þ				
 Npc3/LongConvo_001_Intro_002	Loved that lady.þ				
@@ -2857,6 +3339,8 @@ Npc3/Medium_Friendship_Greeting 0_Intro_000	G’day mate.
 Npc3/Medium_Friendship_Greeting 0_Response_003_000					
 Npc3/Medium_Friendship_Greeting 1_Intro_000	How yer goin’.				
 Npc3/Medium_Friendship_Greeting 1_Response_003_000	Alright then.				
+Npc3/Medium_Friendship_Greeting 2_Intro_000	Hows things then?				
+Npc3/Medium_Friendship_Greeting 2_Response_003_000	Hooroo.				
 Npc3/Morning_Greeting 0_Intro_000	Mornin’ <PlayerName>þ.				
 Npc3/Morning_Greeting 0_Response_003_000	þRighto.þ				
 Npc3/Morning_Greeting 1_Intro_000	<yes>Up nice ‘n early.				
@@ -2867,6 +3351,9 @@ Npc3/Night_Greeting 0_Intro_000	<yes>Nearly bedtime for me, I reckon.
 Npc3/Night_Greeting 0_Response_003_000					
 Npc3/Night_Greeting 1_Intro_000	Hard to see ya in this darkness.				
 Npc3/Night_Greeting 1_Response_003_000	<no>Bloody murky is what it is.				
+Npc3/Night_Greeting 2_Intro_000	<no>I can barely see me nose in this light.þ				
+Npc3/Night_Greeting 2_Intro_001	That you, <PlayerName>?þ				
+Npc3/Night_Greeting 2_Response_003_000					
 Npc3/Noon_Greeting 0_Intro_000	<yes>Still a lot of day left, I reckon.				
 Npc3/Noon_Greeting 0_Response_003_000	No hurry, <PlayerName>.				
 Npc3/Noon_Greeting 1_Intro_000	Nearly time for smoko I reckon.				
@@ -3010,6 +3497,10 @@ Npc4/ClothesShopConvo_Option_001	I want to chat.
 Npc4/ClothesShopConvo_Option_002	I'm fine.				
 Npc4/ClothesShopConvo_Response_000_000	Sure!				
 Npc4/ClothesShopConvo_Response_002_000	Please take a look around!				
+Npc4/CompleteRequest_000_Intro_000	Thank you very much, <PlayerName>!				
+Npc4/CompleteRequest_000_Intro_001	<yes>I’ll put in a good word for your help.				
+Npc4/CompleteRequest_000_Intro_002	Oh, I found this, y’know.				
+Npc4/CompleteRequest_000_Intro_003					
 Npc4/Gossip_About_NPC_000_Intro_000	I don’t think <NPCName> can see much beyond the here and now.þþ				
 Npc4/Gossip_About_NPC_000_Intro_001	She’s all on the surface, y’know?þ				
 Npc4/Gossip_About_NPC_001_Intro_000	I love the music in <NPCName> shop.þ				
@@ -3037,6 +3528,22 @@ Npc4/Introduction_004_Intro_003	I became a <Nomad> a while back I just had to ge
 Npc4/Introduction_004_Intro_004	<shy>So now I travel around selling the clothes I like to make.þ				
 Npc4/Introduction_004_Intro_005	<glee>If you see anything you like, please let me know.				
 Npc4/Introduction_004_Intro_006	Or just drop by whenever, y'know?				
+Npc4/IslandDayGreeting_AfterNoon_004_Intro_000	Isn’t today amazing?þ				
+Npc4/IslandDayGreeting_AfterNoon_004_Intro_001	I mean, I knew it would be.þ				
+Npc4/IslandDayGreeting_AfterNoon_004_Intro_002	I’m never wrong about that sort of stuff, y’know?þ				
+Npc4/IslandDayGreeting_Morning_004_Intro_000	Hey, <PlayerName>.þ				
+Npc4/IslandDayGreeting_Morning_004_Intro_001	Happy <IslandDay>.þ				
+Npc4/IslandDayGreeting_Morning_004_Intro_002	<NPCName> is putting on a <SnagSizzle> for us all.þ				
+Npc4/IslandDayGreeting_Morning_004_Intro_003	<yes>She’s been excited about this for weeks now, y’know?þ				
+Npc4/IslandDayGreeting_Night_004_Intro_000	<thinking>I had a dream that I saw the sky like this once.þ				
+Npc4/IslandDayGreeting_Night_004_Intro_001	<yes>It was last night.þ				
+Npc4/IslandDayGreeting_Night_004_Intro_002	<glee>It’s so pretty, y’know?þ				
+Npc4/IslandDayGreeting_Noon_004_Intro_000	<yes>This <Snag> is so good, y’know?þ				
+Npc4/IslandDayGreeting_Noon_004_Intro_001	<thinking>The taste reminds me of something I can’t quite put my finger on…þ				
+Npc4/IslandDayGreeting_Noon_004_Intro_002	<shocked>OH!þ				
+Npc4/IslandDayGreeting_Noon_004_Intro_003	<glee>That’s it!þ				
+Npc4/IslandDayGreeting_Noon_004_Intro_004	<yes>My <Snag> tastes a bit like metal!þ				
+Npc4/IslandDayGreeting_Noon_004_Intro_005	<glee>It’s so yummy!þ				
 Npc4/LongConvo_001_Intro_000	Hey, <PlayerName>. þ				
 Npc4/LongConvo_001_Intro_001	Y'know, I’ve been wondering, why did you decide to leave <SouthCity>?				
 Npc4/LongConvo_001_Option_000	It was terrible there!				
@@ -3166,6 +3673,7 @@ Npc5/Introduction_005_Intro_009	<proud>I like going new places and hunting.
 Npc5/Introduction_005_Intro_010	I can make some handy hunting gear if you want, just ask me.				
 Npc5/Introduction_005_Intro_011	I'll be visiting <IslandName> every now and again.				
 Npc5/Introduction_005_Intro_012	I hope we bump into each other in the future!				
+Npc5/IslandDayGreeting_AfterNoon_005_Intro_000	Happy <IslandDay>!				
 Npc5/Ned_Salesman_Intro_000	Ah, <PlayerName>!				
 Npc5/Ned_Salesman_Intro_001	Fancy bumping into you out here.				
 Npc5/Ned_Salesman_Intro_002	Do you need something?				
@@ -3290,6 +3798,12 @@ Npc6/BeingUpgradedConvo_Intro_001
 Npc6/CloseDeedWindow_Intro_000	Ah, you've changed your mind?				
 Npc6/CloseDeedWindow_Intro_001	Not to worry!				
 Npc6/CloseDeedWindow_Intro_002					
+Npc6/CompleteBirthday_000_Intro_000	<shy> Oh, you really shouldn’t have, <PlayerName>.				
+Npc6/CompleteBirthday_000_Intro_001	<yes>I’ll tell you what, it means a lot that you even remembered it was my <birthday>!				
+Npc6/CompleteBirthday_000_Intro_002	<glee>You’ve made an old lady very happy today.				
+Npc6/CompleteRequest_000_Intro_000	<shy>Thank you very much, <PlayerName>.				
+Npc6/CompleteRequest_000_Intro_001	<haha>I’ll tell you what, you’re always helping me out!				
+Npc6/CompleteRequest_000_Intro_002	<glee>Here’s a reward, please take it!				
 Npc6/ConfirmDeed_Intro_000	Okay, so we're going to apply for the <deedName>?				
 Npc6/ConfirmDeed_Intro_001	Just so you know, this will put the town in <deedDebtAmount> in debt.				
 Npc6/ConfirmDeed_Intro_002	Oh don't worry, we will pay it off in no time! <pumped>				
@@ -3318,6 +3832,41 @@ Npc6/FirstDayFaintConvo_Intro_011	Maybe they thought you wouldn't notice?
 Npc6/FirstDayFaintConvo_Intro_012	<thinking>It looks like some of your tools have taken a bit of damage too…				
 Npc6/FirstDayFaintConvo_Intro_013	Please be careful out there, <PlayerName>.				
 Npc6/FirstDayFaintConvo_Intro_014					
+Npc6/GetSnag_Convo_Intro_000	Righto, <PlayerName>.				
+Npc6/GetSnag_Convo_Intro_001	<glee>These <Snags> are ready to go!				
+Npc6/GetSnag_Convo_Intro_002	<proud>Trust me, it’s an old family delicacy.				
+Npc6/GetSnag_Convo_Intro_003	Now, what type would you like?				
+Npc6/GetSnag_Convo_Option_000	Meat Snag				
+Npc6/GetSnag_Convo_Option_001	Veggie Snag				
+Npc6/GetSnag_Convo_Option_002	Surprise me!				
+Npc6/GetSnag_Convo_Response_000_000	Righto.þ				
+Npc6/GetSnag_Convo_Response_000_001	Now, I’ve actually made this <Snag> just for you, <PlayerName>.þ				
+Npc6/GetSnag_Convo_Response_000_002	<yes>I put a lot of love into this <Snag>.þ				
+Npc6/GetSnag_Convo_Response_000_003	It’s just a way of saying thanks for everything you’ve done for me this past year.þ				
+Npc6/GetSnag_Convo_Response_000_004	Not to mention everything you’ve done for <IslandName>.þ				
+Npc6/GetSnag_Convo_Response_000_005	I hope you like it, mate.þ				
+Npc6/GetSnag_Convo_Response_000_006	<shy>Now go and enjoy the <Snag> and the rest of <IslandDay>.þ				
+Npc6/GetSnag_Convo_Response_000_007	<glee>You’ve bloody earned it!þ				
+Npc6/GetSnag_Convo_Response_001_000	Righto.þ				
+Npc6/GetSnag_Convo_Response_001_001	Now, I’ve actually made this <Snag> just for you, <PlayerName>.þ				
+Npc6/GetSnag_Convo_Response_001_002	<yes>I put a lot of love into this <Snag>.þ				
+Npc6/GetSnag_Convo_Response_001_003	It’s just a way of saying thanks for everything you’ve done for me this past year.þ				
+Npc6/GetSnag_Convo_Response_001_004	Not to mention everything you’ve done for <IslandName>.þ				
+Npc6/GetSnag_Convo_Response_001_005	I hope you like it, mate.þ				
+Npc6/GetSnag_Convo_Response_001_006	<shy>Now go and enjoy the <Snag> and the rest of <IslandDay>.þ				
+Npc6/GetSnag_Convo_Response_001_007	<glee>You’ve bloody earned it!þ				
+Npc6/GetSnag_Convo_Response_002_000	Righto.þ				
+Npc6/GetSnag_Convo_Response_002_001	Now, I’ve actually made this <Snag> just for you, <PlayerName>.þ				
+Npc6/GetSnag_Convo_Response_002_002	<yes>I put a lot of love into this <Snag>.þ				
+Npc6/GetSnag_Convo_Response_002_003	It’s just a way of saying thanks for everything you’ve done for me this past year.þ				
+Npc6/GetSnag_Convo_Response_002_004	Not to mention everything you’ve done for <IslandName>.þ				
+Npc6/GetSnag_Convo_Response_002_005	I hope you like it, mate.þ				
+Npc6/GetSnag_Convo_Response_002_006	<shy>Now go and enjoy the <Snag> and the rest of <IslandDay>.þ				
+Npc6/GetSnag_Convo_Response_002_007	<glee>You’ve bloody earned it!þ				
+Npc6/GetSnagPocketsFull_Convo_Intro_000	Oh, <PlayerName>.þ				
+Npc6/GetSnagPocketsFull_Convo_Intro_001	<glee>The <Snags> are ready, and I've got one with your name on it.				
+Npc6/GetSnagPocketsFull_Convo_Intro_002	<shock>Looks like your pockets are full.				
+Npc6/GetSnagPocketsFull_Convo_Intro_003	<no>Clear out some room, then come back and so you can dig in.				
 Npc6/Gossip_About_NPC_000_Intro_000	<NPCName> brings so much life to the place.þ				
 Npc6/Gossip_About_NPC_000_Intro_001	I bloody love it!þ				
 Npc6/Gossip_About_NPC_001_Intro_000	Is it just me, or can <NPCName>’s prices seem a bit steep?þ				
@@ -3341,6 +3890,11 @@ Npc6/Gossip_About_NPC_010_Intro_000	<NPCName> can be really cold-hearted at time
 Npc6/Gossip_About_NPC_010_Intro_001	It’s nice being able to store my <Dinks> somewhere safe though, that’s for sure!þ				
 Npc6/High_Friendship_Greeting 0_Intro_000	<PlayerName> here to see old <myName>?				
 Npc6/High_Friendship_Greeting 0_Response_003_000	Hooroo.				
+Npc6/High_Friendship_Greeting 1_Intro_000	<PlayerName>!				
+Npc6/High_Friendship_Greeting 1_Intro_001	What brings you to see old <myName>?				
+Npc6/High_Friendship_Greeting 1_Response_003_000	Have a good one!				
+Npc6/Highest_Friendship_Greeting 0_Intro_000	I’ll tell you what, it’s bloody lovely to see you, <PlayerName>!þ				
+Npc6/Highest_Friendship_Greeting 0_Response_003_000					
 Npc6/Highest_Friendship_Greeting 1_Intro_000	Well, would you look at this. It’s only <PlayerName>!þ				
 Npc6/Highest_Friendship_Greeting 1_Intro_001	What can I do for you?þ				
 Npc6/Highest_Friendship_Greeting 1_Response_003_000	Always lovely chatting with you!				
@@ -3352,6 +3906,79 @@ Npc6/HouseIsBeingMoved_Intro_001
 Npc6/HouseIsBeingUpgraded_Intro_000	<thinking>Hmmm...				
 Npc6/HouseIsBeingUpgraded_Intro_001	<no>Your house is currently in the proccess of upgrading.				
 Npc6/HouseIsBeingUpgraded_Intro_002	Let's get that finished and then we can think about moving it after, okay?				
+Npc6/IslandDayGreeting_AfterNoon_006_Intro_000	G’day, <PlayerName>.þ				
+Npc6/IslandDayGreeting_AfterNoon_006_Intro_001	Hope you’re enjoying yourselfþ.				
+Npc6/IslandDayGreeting_AfterNoon_006_Option_000	What day is it?				
+Npc6/IslandDayGreeting_AfterNoon_006_Option_001	What's this surprise?				
+Npc6/IslandDayGreeting_AfterNoon_006_Option_002	Talk to you soon				
+Npc6/IslandDayGreeting_AfterNoon_006_Response_000_000	Well, tomorrow will actually mark the <timeSinceArriving> since you and I arrived here on <IslandName>.þ				
+Npc6/IslandDayGreeting_AfterNoon_006_Response_000_001	<proud>So in honour of our time spent here, I named today <IslandDay>.				
+Npc6/IslandDayGreeting_AfterNoon_006_Response_000_002	<shy>I’ll tell you what, time goes quickly when you’re my age.				
+Npc6/IslandDayGreeting_AfterNoon_006_Response_000_003	<no>I can’t believe how much <IslandName> has grown since then.				
+Npc6/IslandDayGreeting_AfterNoon_006_Response_000_004	<IslandDay> is a day to celebrate <IslandName> and how far we’ve come.þ				
+Npc6/IslandDayGreeting_AfterNoon_006_Response_000_005	<glee>And not to mention all the new friends we’ve made!				
+Npc6/IslandDayGreeting_AfterNoon_006_Response_000_006	So I hope you will stick around and join us as we ring in our next year here on  <IslandName>!				
+Npc6/IslandDayGreeting_AfterNoon_006_Response_001_000	<haha>I’m not telling you!þ				
+Npc6/IslandDayGreeting_AfterNoon_006_Response_001_001	I’ll tell you what, you’ll have to wait for the sun to go down.þ				
+Npc6/IslandDayGreeting_AfterNoon_006_Response_002_000	Don’t forget that I’ve still got a surprise for everyone tonight!þ				
+Npc6/IslandDayGreeting_AfterNoon_006_Response_002_001	<glee>Plenty of <IslandDay> left to celebrate.þ				
+Npc6/IslandDayGreeting_Morning_006_Intro_000	G’day, <PlayerName>.þ				
+Npc6/IslandDayGreeting_Morning_006_Intro_001	It’s <IslandDay> today, so I’m chucking a <SnagSizzle> for us all.þ				
+Npc6/IslandDayGreeting_Morning_006_Option_000	What day is it?				
+Npc6/IslandDayGreeting_Morning_006_Option_001	Can I have a Snag?				
+Npc6/IslandDayGreeting_Morning_006_Option_002	Talk to you soon				
+Npc6/IslandDayGreeting_Morning_006_Response_000_000	Well, tomorrow will actually mark the <timeSinceArriving> since you and I arrived here on <IslandName>.þ				
+Npc6/IslandDayGreeting_Morning_006_Response_000_001	<proud>So in honour of our time spent here, I named today <IslandDay>.				
+Npc6/IslandDayGreeting_Morning_006_Response_000_002	<shy>I’ll tell you what, time goes quickly when you’re my age.				
+Npc6/IslandDayGreeting_Morning_006_Response_000_003	<no>I can’t believe how much <IslandName> has grown since then.				
+Npc6/IslandDayGreeting_Morning_006_Response_000_004	<IslandDay> is a day to celebrate <IslandName> and how far we’ve come.þ				
+Npc6/IslandDayGreeting_Morning_006_Response_000_005	<glee>And not to mention all the new friends we’ve made!				
+Npc6/IslandDayGreeting_Morning_006_Response_000_006	So I hope you will stick around and join us as we ring in our next year here on  <IslandName>!				
+Npc6/IslandDayGreeting_Morning_006_Response_001_000	You’ll have to hold your horses.þ				
+Npc6/IslandDayGreeting_Morning_006_Response_001_001	It takes a bit to cook a good <Snag>.þ				
+Npc6/IslandDayGreeting_Morning_006_Response_001_002	<no>Not to mention how many different sorts I’ve got to cook for everyone here.þ				
+Npc6/IslandDayGreeting_Morning_006_Response_001_003	<shy>I’ll tell you what, some of the folks here on <IslandName> can be picky eaters.þ				
+Npc6/IslandDayGreeting_Morning_006_Response_001_004	<haha>Myself included!þ				
+Npc6/IslandDayGreeting_Morning_006_Response_001_005	<yes>The <Snags> will be ready around noon.				
+Npc6/IslandDayGreeting_Morning_006_Response_001_006	So make sure you're back here at lunch time!				
+Npc6/IslandDayGreeting_Morning_006_Response_002_000	Righto!þ				
+Npc6/IslandDayGreeting_Morning_006_Response_002_001	<yes>The <Snags> will be ready around noon.				
+Npc6/IslandDayGreeting_Morning_006_Response_002_002	So make sure you're back here at lunch time!				
+Npc6/IslandDayGreeting_Morning_006_Response_002_003	Until then, enjoy yourself today, <PlayerName>.þ				
+Npc6/IslandDayGreeting_Night_006_Intro_000	Oh, <PlayerName>!þ				
+Npc6/IslandDayGreeting_Night_006_Intro_001	How do you like the show in the sky?þ				
+Npc6/IslandDayGreeting_Night_006_Intro_002	<shy>I had a little help getting it ready.þ				
+Npc6/IslandDayGreeting_Night_006_Intro_003	You should be able to see them all over <IslandName> for the rest of the night.þ				
+Npc6/IslandDayGreeting_Night_006_Intro_004	Feel free to go wandering and check some of your favourite spots here on <IslandName>.				
+Npc6/IslandDayGreeting_Night_006_Option_000	Thanks for today.				
+Npc6/IslandDayGreeting_Night_006_Option_001	Talk to you soon				
+Npc6/IslandDayGreeting_Night_006_Response_000_000	I’ll tell you what, no need to thank me!þ				
+Npc6/IslandDayGreeting_Night_006_Response_000_001	Everyone here tonight should be thanking you!þ				
+Npc6/IslandDayGreeting_Night_006_Response_000_002	You’ve done an amazing job, bringing everyone on <IslandName> together and helping us all find a new home.þ				
+Npc6/IslandDayGreeting_Night_006_Response_000_003	I’m honoured that you came with me on the <AirShip> all that time ago.þ				
+Npc6/IslandDayGreeting_Night_006_Response_000_004	<glee>Here’s to another beautiful year on <IslandName>.þ				
+Npc6/IslandDayGreeting_Night_006_Response_001_000	Righto, <PlayerName>.þ				
+Npc6/IslandDayGreeting_Night_006_Response_001_001	<yes>Enjoy your night.þ				
+Npc6/IslandDayGreeting_Night_006_Response_001_002	<glee>Here’s to another beautiful year on <IslandName>.þ				
+Npc6/IslandDayGreeting_Noon_006_Intro_000	G’day, <PlayerName>.þ				
+Npc6/IslandDayGreeting_Noon_006_Intro_001	It’s <IslandDay> today, so I’m chucking a <SnagSizzle> for us all.þ				
+Npc6/IslandDayGreeting_Noon_006_Option_000	What day is it?				
+Npc6/IslandDayGreeting_Noon_006_Option_001	Got anymore Snags?				
+Npc6/IslandDayGreeting_Noon_006_Option_002	Talk to you soon				
+Npc6/IslandDayGreeting_Noon_006_Response_000_000	Well, tomorrow will actually mark the <timeSinceArriving> since you and I arrived here on <IslandName>.þ				
+Npc6/IslandDayGreeting_Noon_006_Response_000_001	<proud>So in honour of our time spent here, I named today <IslandDay>.				
+Npc6/IslandDayGreeting_Noon_006_Response_000_002	<shy>I’ll tell you what, time goes quickly when you’re my age.				
+Npc6/IslandDayGreeting_Noon_006_Response_000_003	<no>I can’t believe how much <IslandName> has grown since then.				
+Npc6/IslandDayGreeting_Noon_006_Response_000_004	<IslandDay> is a day to celebrate <IslandName> and how far we’ve come.þ				
+Npc6/IslandDayGreeting_Noon_006_Response_000_005	<glee>And not to mention all the new friends we’ve made!				
+Npc6/IslandDayGreeting_Noon_006_Response_000_006	So I hope you will stick around and join us as we ring in our next year here on  <IslandName>!				
+Npc6/IslandDayGreeting_Noon_006_Response_001_000	Sorry mate, they’re all gone!þ				
+Npc6/IslandDayGreeting_Noon_006_Response_001_001	I’ll tell you what, it looks like they were a big hit.þ				
+Npc6/IslandDayGreeting_Noon_006_Response_001_002	We’ll have to do this again next year, right?þ				
+Npc6/IslandDayGreeting_Noon_006_Response_001_003	Oh, and there is a surprise later on tonight, <PlayerName>.þ				
+Npc6/IslandDayGreeting_Noon_006_Response_001_004	<glee>Plenty of <IslandDay> left to celebrate.þ				
+Npc6/IslandDayGreeting_Noon_006_Response_002_000	Oh, and there is a surprise later on tonight, <PlayerName>.þ				
+Npc6/IslandDayGreeting_Noon_006_Response_002_001	<glee>Plenty of <IslandDay> left to celebrate.þ				
 Npc6/LongConvo_001_Intro_000	Oh, hey <PlayerName>. Did I ever tell you why we had to leave <IslandName> all those years ago?þ				
 Npc6/LongConvo_001_Intro_001	You see, growing up, I didn’t even know the world had gone south!þ				
 Npc6/LongConvo_001_Intro_002	<yes>Everything had always been okay here on <IslandName>. þ				
@@ -3417,6 +4044,11 @@ Npc6/Medium_Friendship_Greeting 0_Intro_001	Do you need anything?þ
 Npc6/Medium_Friendship_Greeting 0_Response_003_000					
 Npc6/Medium_Friendship_Greeting 1_Intro_000	How’s it going, <PlayerName>?þ				
 Npc6/Medium_Friendship_Greeting 1_Response_003_000					
+Npc6/Medium_Friendship_Greeting 2_Intro_000	<haha>I’ll tell you what, I was just thinking of you, <PlayerName>!				
+Npc6/Medium_Friendship_Greeting 2_Intro_001	Can I help you with something?þ				
+Npc6/Medium_Friendship_Greeting 2_Response_003_000					
+Npc6/Morning_Greeting 0_Intro_000	Morning, <PlayerName>.				
+Npc6/Morning_Greeting 0_Response_003_000					
 Npc6/MoveHouseConvo_Intro_000	Alright, we can move your house for <sprite=11>25,000.				
 Npc6/MoveHouseConvo_Intro_001	Does that sound okay?				
 Npc6/MoveHouseConvo_Option_000	Let's do it!				
@@ -3515,6 +4147,13 @@ Npc6/RandomConvo_013_Intro_003	<glee>It just goes to show you’re never too old
 Npc6/RandomConvo_015_Intro_000	Have a think about which <PermitPoints> you want to spend first.				
 Npc6/RandomConvo_015_Intro_001	I’ll tell you what, you look like somebody that’ll nab all of them.				
 Npc6/RandomConvo_015_Intro_002	There’s some that will make things much easier!				
+Npc6/RandomConvo_016_Intro_000	Hey <PlayerName>. You know, <myName> is actually my surname, right?þ				
+Npc6/RandomConvo_016_Option_000	What’s your first name?				
+Npc6/RandomConvo_016_Option_001	Why does everyone call you that?				
+Npc6/RandomConvo_016_Response_000_000	<thinking>Hmmm…				
+Npc6/RandomConvo_016_Response_000_001	<haha>I’ll tell you what, I might tell you one day...				
+Npc6/RandomConvo_016_Response_001_000	<yes>Everyone called my Father <myName>. It was just easier.				
+Npc6/RandomConvo_016_Response_001_001	<haha>I guess the name just stuck on me too!				
 Npc6/RandomConvo_019_Intro_000	You know what I hated most about <SouthCity>?				
 Npc6/RandomConvo_019_Intro_001	<no>The terrible, terrible food they have there.				
 Npc6/RandomConvo_019_Intro_002	<BlobFish>? Forget about that!þ				
@@ -3560,6 +4199,8 @@ Npc6/RandomConvo_034_Intro_000	My father always used to say: “You keep your fr
 Npc6/RandomConvo_034_Intro_001	<haha> He wasn’t much of a wordy, but he knew how to get things done, make no mistake.þ				
 Npc6/RandomConvo_034_Intro_002	<yes>Always looking out for his friends, he was.þ				
 Npc6/RandomConvo_034_Intro_003	<yes>Just like you <PlayerName>.þ				
+Npc6/RandomConvo_035_Intro_000	Need Text				
+Npc6/RandomConvo_038_Intro_000					
 Npc6/StartingConversation_Intro_000	So, you wanted to talk about your home?				
 Npc6/StartingConversation_Option_000	I want to upgrade				
 Npc6/StartingConversation_Option_001	I want to move my house.				
@@ -3631,6 +4272,10 @@ Npc7/AnimalShopIntro_Intro_000	Welcome to Irwin's Barn. How can I help?
 Npc7/AnimalShopIntro_Option_000	I want to chat				
 Npc7/AnimalShopIntro_Option_001	Nevermind				
 Npc7/AnimalShopIntro_Response_001_000					
+Npc7/CompleteRequest_000_Intro_000	<glee>Wackadoo!				
+Npc7/CompleteRequest_000_Intro_001	<thinking><PlayerName> pulls through again.				
+Npc7/CompleteRequest_000_Intro_002	<glee>Thanks again, <PlayerName>!				
+Npc7/CompleteRequest_000_Intro_003	<yes>I want you to take this as a reward!				
 Npc7/ConfirmAnimalBought_Intro_000	This is so great!	C'est génial!	Это так здорово!		これはとても素晴らしいです！
 Npc7/ConfirmAnimalBought_Intro_001	<yes>I've popped <animalJustBoughtName> in this animal box. Please take her to new home and release her.	<Pompé> S'il vous plaît prendre soin de <animalJustBoughtName>.	<Закачивается> Пожалуйста заботиться о <animalJustBoughtName>.		<汲み上げ> <animalJustBoughtName>の世話をしてください。
 Npc7/ConfirmAnimalBought_Intro_002	<boohoo>I'm going to miss her!	<Boohoo> Je vais lui manquer!	<Громко рыдать или смеяться> Я буду скучать по ней!		<boohoo>私は彼女を欠場するつもりです！
@@ -3653,6 +4298,21 @@ Npc7/Introduction_007_Intro_004	I’m visiting <IslandName> trying to find a hom
 Npc7/Introduction_007_Intro_005	If you have a <AnimalHandlingLicence> come by and talk to me.þ				
 Npc7/Introduction_007_Intro_006	<glee>There’s nothing more bonza than looking after a beautiful little creature!þ				
 Npc7/Introduction_007_Intro_007	<yes>I hope you can help me out, <PlayerName>.þ				
+Npc7/IslandDayGreeting_AfterNoon_007_Intro_000	Oh, <PlayerName>.þ				
+Npc7/IslandDayGreeting_AfterNoon_007_Intro_001	Isn’t today bonza!þ				
+Npc7/IslandDayGreeting_AfterNoon_007_Intro_002	<glee>And <NPCName> still has a surprise for us!þ				
+Npc7/IslandDayGreeting_AfterNoon_007_Intro_003	<dance>You bloody beauty!þ				
+Npc7/IslandDayGreeting_Morning_007_Intro_000	<IslandDay>!þ				
+Npc7/IslandDayGreeting_Morning_007_Intro_001	<dance>You bloody beauty!þ				
+Npc7/IslandDayGreeting_Morning_007_Intro_002	<NPCName> is cooking up a <SnagSizzle>.þ				
+Npc7/IslandDayGreeting_Morning_007_Intro_003	She told me she had a special <Snag> for everyone!				
+Npc7/IslandDayGreeting_Night_007_Intro_000	<glee>The sky is lovely.þ				
+Npc7/IslandDayGreeting_Night_007_Intro_001	<thinking>You reckon the animals around <IslandName> are bothered by it?þ				
+Npc7/IslandDayGreeting_Night_007_Intro_002	<glee>I doubt it, they are probably loving it too.þ				
+Npc7/IslandDayGreeting_Noon_007_Intro_000	What a rippa <IslandDay>!þ				
+Npc7/IslandDayGreeting_Noon_007_Intro_001	<NPCName> made me a veggie <Snag>.þ				
+Npc7/IslandDayGreeting_Noon_007_Intro_002	It’s bloody beautiful, mate.þ				
+Npc7/IslandDayGreeting_Noon_007_Intro_003	She’s tops, that <NPCName>.				
 Npc7/LongConvo_001_Intro_000	Hey <PlayerName>. I actually have a confession to make.þ				
 Npc7/LongConvo_001_Intro_001	<shy>I didn’t really choose to leave <SouthCity>.þ				
 Npc7/LongConvo_001_Intro_002	<haha>I might have been kicked out.þ				
@@ -3825,9 +4485,14 @@ Npc7/WantToBuyAnimalNoMoney_Response_000_000	Oh great!<pumped>	Oh génial! <Pomp
 Npc7/WantToBuyAnimalNoMoney_Response_000_001	Wait, you don't have enough money... <shy>	Attendez, vous n'avez pas assez d'argent ... <timide>	Подождите, у вас нет достаточно денег ... <застенчивый>		待って、あなたは十分なお金を持っていない... <恥ずかしがり屋>
 Npc7/WantToBuyAnimalNoMoney_Response_000_002	If you can get it together she will be here waiting for you all day!	Si vous pouvez l'obtenir ensemble, elle sera là pour vous attendre toute la journée!	Если вы можете получить его вместе, она будет здесь ждет вас в течение всего дня!		あなたが一緒にそれを得ることができれば、彼女は一日中あなたを待ってここになります！
 Npc7/WantToBuyAnimalNoMoney_Response_001_000	That's okay! I'm sure she'll find a home soon! <yes>	C'est bon! Je suis sûr qu'elle va trouver une maison bientôt! <Oui>	Это нормально! Я уверен, что она будет найти дом в ближайшее время! <Да>		大丈夫！私は彼女がすぐに家を見つけることができます確信しています！ <はい>
+Npc8/CompleteRequest_000_Intro_000	<pumped>You’re a bloody legend, <PlayerName>.				
+Npc8/CompleteRequest_000_Intro_001	<yes>Too bloody good I reckon.				
+Npc8/CompleteRequest_000_Intro_002	Take this for your trouble!				
 Npc8/Gossip_About_NPC_000_Intro_000	Just between you and me...þ				
 Npc8/Gossip_About_NPC_000_Intro_001	<yes>I heard <NPCName> grows her hair herself.þ				
 Npc8/Gossip_About_NPC_000_Intro_002					
+Npc8/Gossip_About_NPC_007_Intro_000	<glee><NPCName>’s hair is sooo soft!þþ				
+Npc8/Gossip_About_NPC_007_Intro_001					
 Npc8/HairDresserConvo_Intro_000	Welcome!				
 Npc8/HairDresserConvo_Intro_001	Can I interest you in a little trim?				
 Npc8/HairDresserConvo_Option_000	Yes please!				
@@ -3847,6 +4512,16 @@ Npc8/Introduction_008_Intro_000	Hey there, I’m <myName>.þ
 Npc8/Introduction_008_Intro_001	<glee>I’m a hairstylistþ!				
 Npc8/Introduction_008_Intro_002	<shy>I’m kinda new at it though.þ				
 Npc8/Introduction_008_Intro_003	<glee>If you would like a haircut I could always use the practice!þ				
+Npc8/IslandDayGreeting_AfterNoon_008_Intro_000	I’m having a bloody bonza day, <PlayerName>.þ				
+Npc8/IslandDayGreeting_AfterNoon_008_Intro_001	How are you enjoying yourself?þ				
+Npc8/IslandDayGreeting_AfterNoon_008_Intro_002	I hope you got a <Snag> while they were still hot!þ				
+Npc8/IslandDayGreeting_Morning_008_Intro_000	Happy <IslandDay>, <PlayerName>.þ				
+Npc8/IslandDayGreeting_Morning_008_Intro_001	It’s going to be a great day, full of tunes, sun and some bloody beautiful <Snags>.				
+Npc8/IslandDayGreeting_Morning_008_Intro_002	It's going to be grouse!				
+Npc8/IslandDayGreeting_Noon_008_Intro_000	<NPCName> made me a rippa of a <Snag>!þ				
+Npc8/IslandDayGreeting_Noon_008_Intro_001	<no>Everything I cook usually ends up with some hair in it.þ				
+Npc8/IslandDayGreeting_Noon_008_Intro_002	<yes>At least I know it’s not my own hair.þ				
+Npc8/IslandDayGreeting_Noon_008_Intro_003	<worried>That would be so gross.þ				
 Npc8/RandomConvo_000_Intro_000	My family would never let me near their hair.				
 Npc8/RandomConvo_000_Intro_001	<no>They said that I'd always cut something of theirs that wasn't hair.				
 Npc8/RandomConvo_000_Intro_002	<haha>Did they not know that looking good can sometimes hurt?				
@@ -3915,6 +4590,9 @@ Npc9/Ask if has Another donation_Option_000	I have another donation.	J'ai un aut
 Npc9/Ask if has Another donation_Option_001	Thats all!	C'est tout!	Вот и все!		それで全部です！
 Npc9/Ask if has Another donation_Response_000_000	Oh? What else have you got?	Oh? Qu'avez-vous obtenu?	Ой? Что еще у вас есть?		ああ？あなたは他に何を持っていますか？
 Npc9/Ask if has Another donation_Response_001_000	Thank you again, <PlayerName>. 	Merci encore, <PlayerName>.	Еще раз спасибо, <PlayerName>.		<プレイヤー名>、ありがとうございました。
+Npc9/CompleteRequest_000_Intro_000	Thank you, <PlayerName>.				
+Npc9/CompleteRequest_000_Intro_001	<shy>I would shake your hand in thanks, but that might be inappropriate.				
+Npc9/CompleteRequest_000_Intro_002					
 Npc9/EmptyNoPhoto_Intro_000					
 Npc9/EmptyWithPhoto_Intro_000	That's one of our empty frames.	C'est un de nos cadres vides.	Это один из наших пустых кадров.		それが私たちの空のフレームの一つです。
 Npc9/EmptyWithPhoto_Intro_001	Oh! Do you have a photo we could put here?	Oh! Avez-vous une photo que nous pourrions mettre ici?	Ой! У вас есть фото мы могли бы поставить здесь?		ああ！あなたは私たちがここに置くことができる写真を持っていますか？
@@ -3935,6 +4613,40 @@ Npc9/Introduction_009_Intro_002	<proud>I’m <myName>.
 Npc9/Introduction_009_Intro_003	<glee>I'd love to open a museum here on <IslandName>.				
 Npc9/Introduction_009_Intro_004	 We could fill it with all the interesting things found here on <IslandName>!				
 Npc9/Introduction_009_Intro_005	So please speak to Fletch about building the museum as soon as possible!				
+Npc9/IslandDayGreeting_AfterNoon_009_Intro_000	I think I’m going to write a paper about <IslandDay> and why it’s so good.þ				
+Npc9/IslandDayGreeting_AfterNoon_009_Intro_001	<thinking>Maybe that’s the surprise <NPCName> has for us tonight!þ				
+Npc9/IslandDayGreeting_AfterNoon_009_Intro_002	<glee>Everyone gets to write an essay!þ				
+Npc9/IslandDayGreeting_Morning_009_Intro_000	Oh, G’day <PlayerName>.þ				
+Npc9/IslandDayGreeting_Morning_009_Intro_001	<no>I’m not even going to step foot into the Museum today.þ				
+Npc9/IslandDayGreeting_Morning_009_Intro_002	<shy>I’ve been told to relax and take it easy for <IslandDay>.þ				
+Npc9/IslandDayGreeting_Night_009_Intro_000	Oh my!				
+Npc9/IslandDayGreeting_Night_009_Intro_001	The sky!þ				
+Npc9/IslandDayGreeting_Night_009_Intro_002	<yes>It’s absolutely incredible.þ				
+Npc9/IslandDayGreeting_Night_009_Intro_003	I’ve never seen something so amazing.þ				
+Npc9/IslandDayGreeting_Night_009_Intro_004	Are you seeing this, <PlayerName>?þ				
+Npc9/IslandDayGreeting_Noon_009_Intro_000	<NPCName> has outdone herself.þ				
+Npc9/IslandDayGreeting_Noon_009_Intro_001	<yes>This is the best <Snag> I’ve ever had.þ				
+Npc9/IslandDayGreeting_Noon_009_Intro_002	Part of me wants to put what’s left of my <Snag> into an exhibit, just to save it for later.				
+Npc9/IslandDayGreeting_Noon_009_Intro_003	<haha>But it’s too tasty.þ				
+Npc9/MultipleDonateNoDoubles_Intro_000	<shocked>Oh my!				
+Npc9/MultipleDonateNoDoubles_Intro_001	<shy>I see you have quite a few new amazing specimens not yet in our museum!				
+Npc9/MultipleDonateNoDoubles_Intro_002	Would you be willing to donate all of these?				
+Npc9/MultipleDonateNoDoubles_Option_000	Take them!				
+Npc9/MultipleDonateNoDoubles_Option_001	Actually...				
+Npc9/MultipleDonateNoDoubles_Response_000_000	<glee>Your generosity is outstanding!				
+Npc9/MultipleDonateNoDoubles_Response_000_001	Please accept <donationReward> as a small token of our gratitude!				
+Npc9/MultipleDonateNoDoubles_Response_001_000	Oh, I'll give these back then.				
+Npc9/MultipleDonateNoDoubles_Response_001_001	If you change your mind, don't hesitate to come back.				
+Npc9/MultipleDonateWithDoubles_Intro_000	<shocked>Oh my!				
+Npc9/MultipleDonateWithDoubles_Intro_001	<shy>I see you have quite a few new amazing specimens not yet in our museum!				
+Npc9/MultipleDonateWithDoubles_Intro_002	Would you be willing to donate all of these?				
+Npc9/MultipleDonateWithDoubles_Option_000	Take them!				
+Npc9/MultipleDonateWithDoubles_Option_001	Actually...				
+Npc9/MultipleDonateWithDoubles_Response_000_000	<glee>Your generosity is outstanding!				
+Npc9/MultipleDonateWithDoubles_Response_000_001	I only require one of each specimen, so I’ll return these other ones to you.				
+Npc9/MultipleDonateWithDoubles_Response_000_002	Please accept <donationReward> as a small token of our gratitude!				
+Npc9/MultipleDonateWithDoubles_Response_001_000	Oh, I'll give these back then.				
+Npc9/MultipleDonateWithDoubles_Response_001_001					
 Npc9/MuseumKeeperConvo_Intro_000	Welcome to the museum!	Bienvenue au musée!	Добро пожаловать в музей!		博物館へようこそ！
 Npc9/MuseumKeeperConvo_Intro_001	What can I do for you?	Que puis-je faire pour vous?	Что я могу сделать для вас?		どういうご用件ですか？
 Npc9/MuseumKeeperConvo_Option_000	I have a donation.	J'ai un don.	У меня есть пожертвования.		私は寄付を持っています。
@@ -4219,6 +4931,12 @@ Randomised/Night_Greeting 5_Intro_000	The stars are so pretty tonight!	Les étoi
 Randomised/Night_Greeting 5_Response_003_000	I wonder what kind of 	Je me demande quel genre de	Интересно, какого рода		私は不思議どのような種類の
 Randomised/Night_Greeting 6_Intro_000	Oh, <PlayerName>. You're out late, aren't you?	Oh, <PlayerName>. Vous êtes à la fin, n'êtes-vous pas?	О, <PlayerName>. Вы поздно, не так ли?		ああ、<プレイヤー名>。あなたは、遅くはないされていますか？
 Randomised/Night_Greeting 6_Response_003_000	Maybe 	Peut-être	Может быть		多分
+Randomised/OfferABalloon_Intro_000	Oh, here you go <PlayerName>.þ				
+Randomised/OfferABalloon_Intro_001	<yes>You looked like you needed a <itemName>.				
+Randomised/OfferABalloon_Intro_002	Go have some fun.				
+Randomised/OfferAPartyHorn_Intro_000	Oh, here you go <PlayerName>.þ				
+Randomised/OfferAPartyHorn_Intro_001	<yes>You looked like you needed a <itemName>.				
+Randomised/OfferAPartyHorn_Intro_002	Go make some noise!				
 Randomised/Raining_Greeting 0_Intro_000	Wet enough for you? <haha>	assez humide pour vous? <Haha>	Мокрый достаточно для вас? <Ха>		あなたのためのウェット十分な？ <笑>
 Randomised/Raining_Greeting 0_Response_003_000	Try and stay dry if you can. <wave>	Essayez de rester au sec si vous le pouvez. <Vague>	Попробуйте, и если вы можете остаться сухим. <Волна>		試してみて、できればドライをご利用いただけます。 <波>
 Randomised/Raining_Greeting 1_Intro_000	It's raining its pouring! <haha>	Il pleut son versant! <Haha>	Это дождь его заливка! <Ха>		注ぐ雨が降っています！ <笑>
@@ -4415,6 +5133,13 @@ RandomisedRequests/AlreadyHangingOutWithSomeone_000_Intro_000	Oh, I'm okay thank
 RandomisedRequests/AlreadyHangingOutWithSomeone_001_Intro_000	Actually, it looks like you and <followedByName> are having a good time. 				
 RandomisedRequests/AlreadyHangingOutWithSomeone_001_Intro_001	I'd hate to be a third wheel! <haha>				
 RandomisedRequests/AlreadyHangingOutWithSomeone_002_Intro_000	Nah, it's okay thanks. You and <followedByName> have a good time!				
+RandomisedRequests/Birthday_GiftConvo_001_Intro_000	Oh, I can't believe you remembered my birthday!				
+RandomisedRequests/Birthday_GiftConvo_001_Intro_001	You really didn’t need to get me a gift, <PlayerName>.				
+RandomisedRequests/Birthday_GiftConvo_001_Option_000	Take this!				
+RandomisedRequests/Birthday_GiftConvo_001_Option_001	I don't have it on me.				
+RandomisedRequests/Birthday_GiftConvo_001_Response_000_000	Wow!				
+RandomisedRequests/Birthday_GiftConvo_001_Response_000_001	Maybe come and talk to me when you have enough money?				
+RandomisedRequests/Birthday_GiftConvo_001_Response_001_000	<shy>Oh, I see...				
 RandomisedRequests/GivenDislikeFood_Intro_000	<no>Oh, no...				
 RandomisedRequests/GivenDislikeFood_Intro_001	<no>I don't really eat stuff like this...				
 RandomisedRequests/GivenDislikeFood_Intro_002	You can have this back.				
@@ -4436,6 +5161,7 @@ RandomisedRequests/HasntGotDayOff_002_Intro_000	<thinking>Hmmm... I'm a bit busy
 RandomisedRequests/HasntGotDayOff_002_Intro_001	<yes>What about <nextDayOff>? I'll be free all day!				
 RandomisedRequests/HasntGotDayOff_003_Intro_000	<no>Can't today, <PlayerName>.				
 RandomisedRequests/HasntGotDayOff_003_Intro_001	Ask me again on <nextDayOff>, okay?				
+RandomisedRequests/NoBirthdayGift_Intro_000					
 RandomisedRequests/NoRequests 0_Intro_000	Hmmm...				
 RandomisedRequests/NoRequests 0_Intro_001	<no>I dont have a job for you, sorry!				
 RandomisedRequests/NoRequests 1_Intro_000	<no>Nah, I'm all good for now.				
@@ -4476,6 +5202,7 @@ RandomisedRequests/RequestAccepted_003_Option_001	Not yet.
 RandomisedRequests/RequestAccepted_003_Response_000_000	Thanks, <PlayerName>!				
 RandomisedRequests/RequestAccepted_003_Response_001_000	<sigh>Oh, I see.				
 RandomisedRequests/RequestAccepted_003_Response_001_001	<shy>You must have made a mistake, right?				
+RandomisedRequests/RequestAccepted_004_Intro_000	Oh, you found <requestItem>?				
 RandomisedRequests/RequestCertainFish_001_Intro_000	<thinking>Hey, would it be too much trouble for you to catch <requestItem>?				
 RandomisedRequests/RequestCertainFish_001_Intro_001	You can usually catch <requestItem> in the <requestItemLocation> this time of the year.				
 RandomisedRequests/RequestCertainFish_001_Option_000	No problems.				
@@ -4586,6 +5313,16 @@ Shopping/AskAboutItem_Option_000	I'll take it!	Je le prends!	Я возьму э�
 Shopping/AskAboutItem_Option_001	No thanks.	Non merci.	Спасибо, не надо.		結構です。
 Shopping/AskAboutItem_Response_000_000	Very good! <yes>	Très bien! <Oui>	Отлично! <Да>		とても良い！ <はい>
 Shopping/AskAboutItem_Response_001_000	No worries! Feel free to ask about any of our products. <glee>	Pas de soucis! Ne hésitez pas à poser des questions sur l'un de nos produits. <Glee>	Без проблем! Не стесняйтесь спрашивать о любом из наших продуктов. <Ликования>		心配ない！当社の製品のいずれかについて尋ねること自由に感じ。 <歓喜>
+Shopping/AskAboutKeys_Intro_000	Oh, those are my special and super rare keys.				
+Shopping/AskAboutKeys_Intro_001	You won't find a better price for these puppies.				
+Shopping/AskAboutKeys_Intro_002	I'm practically giving them away at <buyItemPrice> for a pack of 5.				
+Shopping/AskAboutKeys_Option_000	I'll take it!				
+Shopping/AskAboutKeys_Option_001	No thanks.				
+Shopping/AskAboutKeys_Response_000_000	Good choice, <PlayerName>.				
+Shopping/AskAboutKeys_Response_000_001	<no>Like I said, you won't find them at a better price.				
+Shopping/AskAboutKeys_Response_001_000	Hmmm...				
+Shopping/AskAboutKeys_Response_001_001	I'll see you when you change your mind.				
+Shopping/AskAboutKeys_Response_001_002	<no>Like I said, you won't find them at a better price.				
 Shopping/AskAboutRecipe_Intro_000	Oh, thats a recipe for <buyItemName>.				
 Shopping/AskAboutRecipe_Intro_001	I can teach you how to craft <buyItemName> for <buyItemPrice>?				
 Shopping/AskAboutRecipe_Option_000	Teach me!				
@@ -4639,6 +5376,7 @@ Sign/AcceptingDonations_Intro_000	The town is currently in <TownDonateText> debt
 Sign/AcceptingDonations_Intro_001	Please consider donating to our town.	S'il vous plaît envisager de faire don à notre ville.	Пожалуйста, поддержите в наш город.		私たちの町に寄付をご検討ください。
 Sign/AcceptingDonations_Option_000	Donate	Faire un don	жертвовать		寄付
 Sign/AcceptingDonations_Option_001	No Thanks.	Non merci.	Спасибо, не надо.		結構です。
+Sign/AllPlayersMustBeInLift_Intro_000	Everyone must be in the lift.				
 Sign/AnimalDropOffPointNoAnimal_Intro_000	Animal Collection Point. Place animal inside to recieve reward.				
 Sign/AnimalShopSign_Intro_000	<NPCName>'s Barn	Grange Irwin	Ирвина Barn		アーウィンの納屋
 Sign/AnimalShopSign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
@@ -4648,11 +5386,51 @@ Sign/BankSign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		
 Sign/BankSign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		<getClosedDays>
 Sign/BarberShopSign_Intro_000	<NPCName>'s Salon				
 Sign/BarberShopSign_Intro_001	<getOpeningHours>				
-Sign/BarberShopSign_Intro_002	<getClosedDays>				
+Sign/BarberShopSign_Intro_002					
+Sign/BugCatchingCompClosedSign_Book_Intro_000	<bugComp> is now closed.				
+Sign/BugCatchingCompClosedSign_Book_Intro_001	Congrats to the winners:				
+Sign/BugCatchingCompClosedSign_Book_Intro_002	<getCompScoreboard>				
+Sign/BugCatchingCompRunning_Book_Sign_Intro_000	What should I do?				
+Sign/BugCatchingCompRunning_Book_Sign_Option_000	Log new score.				
+Sign/BugCatchingCompRunning_Book_Sign_Option_001	Who is winning?				
+Sign/BugCatchingCompRunning_Book_Sign_Option_002	Nevermind.				
+Sign/BugCatchingCompRunning_Book_Sign_Response_000_000	Your new logged score is now <compScore>.				
+Sign/BugCatchingCompRunning_Book_Sign_Response_000_001	Current Scoreboard				
+Sign/BugCatchingCompRunning_Book_Sign_Response_000_002	<getCompScoreboard>				
+Sign/BugCatchingCompRunning_Book_Sign_Response_001_000	Current Scoreboard				
+Sign/BugCatchingCompRunning_Book_Sign_Response_001_001	<getCompScoreboard>				
+Sign/BugCatchingCompSign_Book_Intro_000	Should I sign up for the <bugComp>?				
+Sign/BugCatchingCompSign_Book_Option_000	Sign Up				
+Sign/BugCatchingCompSign_Book_Option_001	Rules				
+Sign/BugCatchingCompSign_Book_Option_002	Nevermind.				
+Sign/BugCatchingCompSign_Book_Response_000_000	Thank you for signing up!				
+Sign/BugCatchingCompSign_Book_Response_000_001	Please make sure you log your score in the <compBook> before the competition ends at <bugCompEndTime>.				
+Sign/BugCatchingCompSign_Book_Response_000_002	The latest score added to the <compBook> before 5:00pm will be your final score.				
+Sign/BugCatchingCompSign_Book_Response_000_003	Rules can be checked in the <compBook>.				
+Sign/BugCatchingCompSign_Book_Response_001_000	Once your signed up and the competition has started, catch as many bugs as you can.				
+Sign/BugCatchingCompSign_Book_Response_001_001	The rarer the bug is, the more points it's worth.				
+Sign/BugCatchingCompSign_Book_Response_001_002	The last score you enter into to the <compBook> will be your final score.				
+Sign/BugCatchingCompSign_Book_Response_001_003	You can use the <compBook> to update your score at any time, as long as it's before <bugCompEndTime>.				
+Sign/BugCatchingCompSign_Book_Response_001_004	Also have fun from <NPCName>.				
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Intro_000	I'm signed up!				
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Intro_001	The <bugComp> starts at <bugCompStartTime>.				
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Option_000	Rules				
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Option_001	Nevermind.				
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Option_002	Nevermind.				
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_000_000	Once your signed up and the competition has started, catch as many bugs as you can.				
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_000_001	The rarer the bug is, the more points it's worth.				
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_000_002	The last score you enter into to the <compBook> will be your final score.				
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_000_003					
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_001_000	Once your signed up and the competition has started, catch as many bugs as you can.				
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_001_001	The rarer the bug is, the more points it's worth.				
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_001_002	The last score you enter into to the <compBook> will be your final score.				
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_001_003	You can use the <compBook> to update your score at any time, as long as it's before <bugCompEndTime>.				
 Sign/ClosedSign_Intro_000	Closed				
 Sign/ClothShopSign_Intro_000	Threadspace.	ThreadSpace.	ThreadSpace.		Threadspace。
 Sign/ClothShopSign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
 Sign/ClothShopSign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		<getClosedDays>
+Sign/CompBookLoggedScore_Sign_Intro_000	Your new logged score is now <compScore>.				
+Sign/CompBookLoggedScoreTooLate_Sign_Intro_000	The <bugComp> is over, so I can't log my score.				
 Sign/ConfirmSleepSign_Intro_000	Call it a day?				
 Sign/ConfirmSleepSign_Option_000	Sleep until tomorrow.				
 Sign/ConfirmSleepSign_Option_001	Just resting my eyes.				
@@ -4681,9 +5459,27 @@ Sign/HairDresserMirror_Option_001
 Sign/HasRepairKit_Intro_000	Should I use a <itemName> to repair all the tools in my pockets?				
 Sign/HasRepairKit_Option_000	Yes.				
 Sign/HasRepairKit_Option_001					
+Sign/Inv_SnagOnBread_Intro_000	Wow!				
+Sign/Inv_SnagOnBread_Intro_001	What an amazing <itemName>!				
+Sign/Inv_SnagOnBread_Intro_002	It feels like I could eat even more now!				
 Sign/Johns_HourSign_Intro_000	<NPCName>'s Goods	Les marchandises de John	Джон Товары		ジョンの製品
 Sign/Johns_HourSign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
 Sign/Johns_HourSign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		<getClosedDays>
+Sign/MineControl_Convo_Intro_000	Should I use a <itemName> for a trip down?				
+Sign/MineControl_Convo_Option_000	Go down!				
+Sign/MineControl_Convo_Option_001	Nevermind				
+Sign/MineControl_Convo_Option_002	Nevermind				
+Sign/MineControl_Convo_Response_001_000	<deepMineForecast>				
+Sign/MineControl_NonLocal_Intro_000					
+Sign/MineControl_NoPass_Intro_000	I need a <itemName> to use this.				
+Sign/MineControl_Up_Convo_Intro_000	Should I go back up?				
+Sign/MineControl_Up_Convo_Option_000	Go up!				
+Sign/MineControl_Up_Convo_Option_001	Nevermind				
+Sign/MineLevel_AlreadySet_Intro_000					
+Sign/MineLevel_HasRubyShard_Intro_000	Should I insert 4 <itemName> to set the mine level?				
+Sign/MineLevel_HasRubyShard_Option_000	Set Level				
+Sign/MineLevel_HasRubyShard_Option_001	Nevermind				
+Sign/MineLevel_NotEnoughRubyShards_Intro_000	Looks like something shiny might go in here...				
 Sign/NoFletch_Sleeping Bags_Intro_000	<NPCName> keeps these in case they need them.	<NPCName> les conserve au cas où ils en auraient besoin.	<NPCName> хранит их на случай, если они понадобятся.	<NPCName> 保留这些以备他们需要。	<NPCName>は、必要な場合に備えてこれらを保持します。
 Sign/NoFletch_Sleeping Bags_Intro_001	I'm sure she won't mind if I take one...	Je suis sûr que ça ne la dérangera pas si j'en prends un...	Я уверен, что она не будет возражать, если я возьму одну ...	我敢肯定她不会介意我拿一个...	私が持っていっても彼女は気にしないと確信しています...
 Sign/NoFletch_Sleeping Bags_Option_000	Take one.	Prends-en un.	Взять одну.	拿一个。	一つを取って。
@@ -4693,12 +5489,15 @@ Sign/NotAcceptingDonations_Intro_000	The town is not currently accepting donatio
 Sign/NotAcceptingDonations_Intro_001	Thank you for your support!	Merci pour votre soutien!	Спасибо за поддержку!		ご支援いただきありがとうございます！
 Sign/NoVisitorSign_Intro_000	Visitors Site				
 Sign/NoVisitorSign_Intro_001					
+Sign/RainmakerSign_Intro_000					
 Sign/SleepHouseMove_Intro_000	This building is going to me moved.				
 Sign/SleepHouseMove_Intro_001	I need to sleep outside so the movers don't wake me up.				
 Sign/SleepUnderground_Intro_000	I don't want to sleep down here.				
 Sign/Town Debt Complete Convo_Intro_000	The town is now debt free!				
 Sign/Town Debt Complete Convo_Intro_001	Thank you for your contribution!				
 Sign/TownBook_Intro_000	This book tracks the towns awards.				
+Sign/TuckshopSpecialSign_Intro_000	Tuckerbox Special!				
+Sign/TuckshopSpecialSign_Intro_001	Currently paying top <Dink> for <itemName>.				
 Sign/VisitorsSiteSign_Intro_000	Visitors Site				
 Sign/VisitorsSiteSign_Intro_001					
 Sign/WeatherStationSign_Intro_000	Weather Station: 				

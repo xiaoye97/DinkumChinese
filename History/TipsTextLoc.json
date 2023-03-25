@@ -112,7 +112,7 @@
     "Loc": ""
   },
   {
-    "Ori": "Certain flowers can be placed in a keg.",
+    "Ori": "Certain flowers can be placed in a billy.",
     "Loc": ""
   },
   {
@@ -149,6 +149,22 @@
   },
   {
     "Ori": "You will recover stamina slowly if you are full.",
+    "Loc": ""
+  },
+  {
+    "Ori": "Wildflowers go away after Spring",
+    "Loc": ""
+  },
+  {
+    "Ori": "Gems are worth more whole rather than in shards",
+    "Loc": ""
+  },
+  {
+    "Ori": "You have to take the Bug Comp seriously",
+    "Loc": ""
+  },
+  {
+    "Ori": "Billy Tins can make more than tea and coffee",
     "Loc": ""
   }
 ]

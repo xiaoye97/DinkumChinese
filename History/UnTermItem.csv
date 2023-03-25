@@ -48,7 +48,7 @@ InventoryItemDescriptions/InvDesc_717	Black and warm
 InventoryItemNames/InvItem_718	Black Plaid Pants
 InventoryItemDescriptions/InvDesc_718	Nice pants.
 InventoryItemNames/InvItem_719	Yellow Shorts
-InventoryItemDescriptions/InvDesc_719	Easy to wear!
+InventoryItemDescriptions/InvDesc_719	Easy to wear.
 InventoryItemNames/InvItem_720	Yellow T Shirt
 InventoryItemDescriptions/InvDesc_720	It's pretty yellow.
 InventoryItemNames/InvItem_721	Yellow Boots
@@ -311,7 +311,7 @@ InventoryItemNames/InvItem_849	Doggo Collar
 InventoryItemDescriptions/InvDesc_849	Put it on a pet!
 InventoryItemNames/InvItem_850	Mu Saddle
 InventoryItemDescriptions/InvDesc_850	Save a horse, ride a Mu
-InventoryItemNames/InvItem_851	Copper Street Lamp
+InventoryItemNames/InvItem_851	Copper Bulb Lamp
 InventoryItemDescriptions/InvDesc_851	A nice light.
 InventoryItemNames/InvItem_852	Cooked Prime Meat
 InventoryItemDescriptions/InvDesc_852	It's cooked perfectly.
@@ -526,7 +526,7 @@ InventoryItemDescriptions/InvDesc_957	A prize from an Alpha Jackaroo
 InventoryItemNames/InvItem_958	Alpha Scale
 InventoryItemDescriptions/InvDesc_958	A prize from an Alpha Croco
 InventoryItemNames/InvItem_959	Alpha Spear
-InventoryItemDescriptions/InvDesc_959	Quak
+InventoryItemDescriptions/InvDesc_959	Quaking in your boots
 InventoryItemNames/InvItem_960	Alpha Bat
 InventoryItemDescriptions/InvDesc_960	Hows this?
 InventoryItemNames/InvItem_961	Pattern Stone Path
@@ -535,7 +535,7 @@ InventoryItemNames/InvItem_962	Panda Hood
 InventoryItemDescriptions/InvDesc_962	They like waffles.
 InventoryItemNames/InvItem_963	Alpha Eye
 InventoryItemDescriptions/InvDesc_963	A prize from an Alpha Devil
-InventoryItemNames/InvItem_964	Cobble Stone Path
+InventoryItemNames/InvItem_964	Cobblestone Path
 InventoryItemDescriptions/InvDesc_964	A bunch of rocks cobbled together
 InventoryItemNames/InvItem_965	Cobblestone Fence
 InventoryItemDescriptions/InvDesc_965	Keep things in or out.
@@ -544,7 +544,7 @@ InventoryItemDescriptions/InvDesc_966	A simple dirt path lined with rocks.
 InventoryItemNames/InvItem_967	Cobblestone Road
 InventoryItemDescriptions/InvDesc_967	A bunch of rocks cobbled together
 InventoryItemNames/InvItem_968	Cobblestone Road Lines
-InventoryItemDescriptions/InvDesc_968	A bunch of rocks cobbled together
+InventoryItemDescriptions/InvDesc_968	A road covered in little white lines.
 InventoryItemNames/InvItem_969	Cooked Freshwater Fish
 InventoryItemDescriptions/InvDesc_969	Something fishy about this.
 InventoryItemNames/InvItem_970	Cooked Saltwater Fish
@@ -617,3 +617,437 @@ InventoryItemNames/InvItem_1003	Pearl Path
 InventoryItemDescriptions/InvDesc_1003	An expensive path for your feet.
 InventoryItemNames/InvItem_1004	Melon Scarecrow
 InventoryItemDescriptions/InvDesc_1004	Stop birds from eating all your crops.
+InventoryItemNames/InvItem_1005	Elf Ears
+InventoryItemDescriptions/InvDesc_1005	Pointy Lil Ears
+InventoryItemNames/InvItem_1006	Elf Hat
+InventoryItemDescriptions/InvDesc_1006	A helper's hat
+InventoryItemNames/InvItem_1007	Elf Pants
+InventoryItemDescriptions/InvDesc_1007	Pants of a hard worker
+InventoryItemNames/InvItem_1008	Elf Shirt
+InventoryItemDescriptions/InvDesc_1008	A helper's shirt
+InventoryItemNames/InvItem_1009	Elf Shoes
+InventoryItemDescriptions/InvDesc_1009	For someone on their feet all year
+InventoryItemNames/InvItem_1010	Festive Tree
+InventoryItemDescriptions/InvDesc_1010	So pretty!
+InventoryItemNames/InvItem_1011	Festive Scarecrow
+InventoryItemDescriptions/InvDesc_1011	Stop birds from eating all your crops.
+InventoryItemNames/InvItem_1012	Festive Crate
+InventoryItemDescriptions/InvDesc_1012	Store special things in here if you like
+InventoryItemNames/InvItem_1013	Festive Jackaroo
+InventoryItemDescriptions/InvDesc_1013	A statue made of light
+InventoryItemNames/InvItem_1014	Cherries
+InventoryItemDescriptions/InvDesc_1014	What can I put on top of these?
+InventoryItemNames/InvItem_1015	Cooked Cherries
+InventoryItemDescriptions/InvDesc_1015	Chic-a-Cherry Cooked
+InventoryItemNames/InvItem_1016	Fireplace
+InventoryItemDescriptions/InvDesc_1016	It's a fire for inside
+InventoryItemNames/InvItem_1017	Mini Festive Tree
+InventoryItemDescriptions/InvDesc_1017	
+InventoryItemNames/InvItem_1018	Festive Boom Box
+InventoryItemDescriptions/InvDesc_1018	A box that plays a festive beat.
+InventoryItemNames/InvItem_1019	Festive Towel
+InventoryItemDescriptions/InvDesc_1019	Soak up that festive sun
+InventoryItemNames/InvItem_1020	Festive Umbrella
+InventoryItemDescriptions/InvDesc_1020	Block out that festive sun
+InventoryItemNames/InvItem_1021	Candy Cane
+InventoryItemDescriptions/InvDesc_1021	It's minty
+InventoryItemNames/InvItem_1022	Jolly Dress
+InventoryItemDescriptions/InvDesc_1022	So jolly! He! He! He!
+InventoryItemNames/InvItem_1023	Striped Boogie Board
+InventoryItemDescriptions/InvDesc_1023	Float your day away.
+InventoryItemNames/InvItem_1024	Star Light
+InventoryItemDescriptions/InvDesc_1024	Twinkle Twinkle
+InventoryItemNames/InvItem_1025	Candy Pickaxe
+InventoryItemDescriptions/InvDesc_1025	Sweet Pickaxe
+InventoryItemNames/InvItem_1026	Candy Axe
+InventoryItemDescriptions/InvDesc_1026	Choppy Night
+InventoryItemNames/InvItem_1027	Gingerbread Path
+InventoryItemDescriptions/InvDesc_1027	So tasty you can walk on it.
+InventoryItemNames/InvItem_1028	Festive Fence
+InventoryItemDescriptions/InvDesc_1028	Keeps festivities in
+InventoryItemNames/InvItem_1029	Pleep Whistle
+InventoryItemDescriptions/InvDesc_1029	Calls Pleep towards you.
+InventoryItemNames/InvItem_1030	Holly Wreath
+InventoryItemDescriptions/InvDesc_1030	It's a joy to wear!
+InventoryItemNames/InvItem_1031	Tuckshop Deed
+InventoryItemDescriptions/InvDesc_1031	A place to get tucker and yarns
+InventoryItemNames/InvItem_1032	Marble Path
+InventoryItemDescriptions/InvDesc_1032	What a fancy path.
+InventoryItemNames/InvItem_1033	Coffee Seeds
+InventoryItemDescriptions/InvDesc_1033	Put 'em in the ground!
+InventoryItemNames/InvItem_1034	Coffee Bean
+InventoryItemDescriptions/InvDesc_1034	Roast for energy
+InventoryItemNames/InvItem_1035	Roasted Coffee Beans
+InventoryItemDescriptions/InvDesc_1035	Brew for more energy
+InventoryItemNames/InvItem_1036	Coffee
+InventoryItemDescriptions/InvDesc_1036	Morning brown
+InventoryItemNames/InvItem_1037	Signwriting  Table
+InventoryItemDescriptions/InvDesc_1037	Craft signs and other stuff
+InventoryItemNames/InvItem_1038	A Letter Statue
+InventoryItemDescriptions/InvDesc_1038	Alphabet statue
+InventoryItemNames/InvItem_1039	B Letter Statue
+InventoryItemDescriptions/InvDesc_1039	Alphabet statue
+InventoryItemNames/InvItem_1040	C Letter Statue
+InventoryItemDescriptions/InvDesc_1040	Alphabet statue
+InventoryItemNames/InvItem_1041	D Letter Statue
+InventoryItemDescriptions/InvDesc_1041	Alphabet statue
+InventoryItemNames/InvItem_1042	E Letter Statue
+InventoryItemDescriptions/InvDesc_1042	Alphabet statue
+InventoryItemNames/InvItem_1043	F Letter Statue
+InventoryItemDescriptions/InvDesc_1043	Alphabet statue
+InventoryItemNames/InvItem_1044	G Letter Statue
+InventoryItemDescriptions/InvDesc_1044	Alphabet statue
+InventoryItemNames/InvItem_1045	H Letter Statue
+InventoryItemDescriptions/InvDesc_1045	Alphabet statue
+InventoryItemNames/InvItem_1046	I Letter Statue
+InventoryItemDescriptions/InvDesc_1046	Alphabet statue
+InventoryItemNames/InvItem_1047	J Letter Statue
+InventoryItemDescriptions/InvDesc_1047	Alphabet statue
+InventoryItemNames/InvItem_1048	K Letter Statue
+InventoryItemDescriptions/InvDesc_1048	Alphabet statue
+InventoryItemNames/InvItem_1049	L Letter Statue
+InventoryItemDescriptions/InvDesc_1049	Alphabet statue
+InventoryItemNames/InvItem_1050	M Letter Statue
+InventoryItemDescriptions/InvDesc_1050	Alphabet statue
+InventoryItemNames/InvItem_1051	N Letter Statue
+InventoryItemDescriptions/InvDesc_1051	Alphabet statue
+InventoryItemNames/InvItem_1052	O Letter Statue
+InventoryItemDescriptions/InvDesc_1052	Alphabet statue
+InventoryItemNames/InvItem_1053	P Letter Statue
+InventoryItemDescriptions/InvDesc_1053	Alphabet statue
+InventoryItemNames/InvItem_1054	Q Letter Statue
+InventoryItemDescriptions/InvDesc_1054	Alphabet statue
+InventoryItemNames/InvItem_1055	R Letter Statue
+InventoryItemDescriptions/InvDesc_1055	Alphabet statue
+InventoryItemNames/InvItem_1056	S Letter Statue
+InventoryItemDescriptions/InvDesc_1056	Alphabet statue
+InventoryItemNames/InvItem_1057	T Letter Statue
+InventoryItemDescriptions/InvDesc_1057	Alphabet statue
+InventoryItemNames/InvItem_1058	U Letter Statue
+InventoryItemDescriptions/InvDesc_1058	Alphabet statue
+InventoryItemNames/InvItem_1059	V Letter Statue
+InventoryItemDescriptions/InvDesc_1059	Alphabet statue
+InventoryItemNames/InvItem_1060	W Letter Statue
+InventoryItemDescriptions/InvDesc_1060	Alphabet statue
+InventoryItemNames/InvItem_1061	X Letter Statue
+InventoryItemDescriptions/InvDesc_1061	Alphabet statue
+InventoryItemNames/InvItem_1062	Y Letter Statue
+InventoryItemDescriptions/InvDesc_1062	Alphabet statue
+InventoryItemNames/InvItem_1063	Z Letter Statue
+InventoryItemDescriptions/InvDesc_1063	Alphabet statue
+InventoryItemNames/InvItem_1064	Hand Written sign
+InventoryItemDescriptions/InvDesc_1064	Shows a message
+InventoryItemNames/InvItem_1065	Signwriting  Pen
+InventoryItemDescriptions/InvDesc_1065	Allows you to write on signs
+InventoryItemNames/InvItem_1066	Iron Sign
+InventoryItemDescriptions/InvDesc_1066	A big green sign
+InventoryItemNames/InvItem_1067	Gum Wood Direction Sign
+InventoryItemDescriptions/InvDesc_1067	Points the way
+InventoryItemNames/InvItem_1068	Palm Wood Direction Sign
+InventoryItemDescriptions/InvDesc_1068	Points the way
+InventoryItemNames/InvItem_1069	Hard Wood Direction Sign
+InventoryItemDescriptions/InvDesc_1069	Points the way
+InventoryItemNames/InvItem_1070	Tin Direction Sign
+InventoryItemDescriptions/InvDesc_1070	Points the way
+InventoryItemNames/InvItem_1071	Sail Boat
+InventoryItemDescriptions/InvDesc_1071	A wind powered boat.
+InventoryItemNames/InvItem_1072	Jackaroo Crossing Sign
+InventoryItemDescriptions/InvDesc_1072	Watch out for Roos around this.
+InventoryItemNames/InvItem_1073	Lattice Fence
+InventoryItemDescriptions/InvDesc_1073	See through fence
+InventoryItemNames/InvItem_1074	Jackaroo Paw
+InventoryItemDescriptions/InvDesc_1074	A strange looking flower
+InventoryItemNames/InvItem_1075	Flannel Flower
+InventoryItemDescriptions/InvDesc_1075	Will it keep you warm?
+InventoryItemNames/InvItem_1076	River Daisy
+InventoryItemDescriptions/InvDesc_1076	Grows near rivers?
+InventoryItemNames/InvItem_1077	Orange Paper Daisy
+InventoryItemDescriptions/InvDesc_1077	It looks fake.
+InventoryItemNames/InvItem_1078	Gum Wood Flower Bed
+InventoryItemDescriptions/InvDesc_1078	Decorative Flower Bed
+InventoryItemNames/InvItem_1079	Wide Gum Wood Bridge
+InventoryItemDescriptions/InvDesc_1079	Maybe you could cross the water on this?
+InventoryItemNames/InvItem_1080	Wide Hard Wood Bridge
+InventoryItemDescriptions/InvDesc_1080	Maybe you could cross the water on this?
+InventoryItemNames/InvItem_1081	Bird of Paradise
+InventoryItemDescriptions/InvDesc_1081	A strange looking flower
+InventoryItemNames/InvItem_1082	Glow Button
+InventoryItemDescriptions/InvDesc_1082	A yellow puff of light
+InventoryItemNames/InvItem_1083	Trash Bin
+InventoryItemDescriptions/InvDesc_1083	For general waste
+InventoryItemNames/InvItem_1084	Leaf Glider
+InventoryItemDescriptions/InvDesc_1084	Fly around like an annoying bat
+InventoryItemNames/InvItem_1085	Desert Pea Pot
+InventoryItemDescriptions/InvDesc_1085	A Desert Pea in a pot.
+InventoryItemNames/InvItem_1086	River Daisy Pot
+InventoryItemDescriptions/InvDesc_1086	A River Daisy in a pot.
+InventoryItemNames/InvItem_1087	Flannel Flower Pot
+InventoryItemDescriptions/InvDesc_1087	A Flannel Flower in a pot.
+InventoryItemNames/InvItem_1088	Butterfly Orchid Pot
+InventoryItemDescriptions/InvDesc_1088	A Butterfly Orchid  in a pot.
+InventoryItemNames/InvItem_1089	Orange Paper Daisy Pot
+InventoryItemDescriptions/InvDesc_1089	A Paper Daisy in a pot.
+InventoryItemNames/InvItem_1090	Pink Paper Daisy
+InventoryItemDescriptions/InvDesc_1090	It looks fake.
+InventoryItemNames/InvItem_1091	White Paper Daisy
+InventoryItemDescriptions/InvDesc_1091	It looks fake.
+InventoryItemNames/InvItem_1092	Wheelbarrow Flower Bed
+InventoryItemDescriptions/InvDesc_1092	Plant flowers in a perfectly good wheelbarrow.
+InventoryItemNames/InvItem_1093	Ruby Shard
+InventoryItemDescriptions/InvDesc_1093	Sharp bits of ruby
+InventoryItemNames/InvItem_1094	Emerald Shard
+InventoryItemDescriptions/InvDesc_1094	Sharp bits of emerald
+InventoryItemNames/InvItem_1095	Waterbed
+InventoryItemDescriptions/InvDesc_1095	Create decorative waterfalls
+InventoryItemNames/InvItem_1096	Bottle of Clouds
+InventoryItemDescriptions/InvDesc_1096	Should I open it?
+InventoryItemNames/InvItem_1097	Large Cement Fountain
+InventoryItemDescriptions/InvDesc_1097	A big water feature.
+InventoryItemNames/InvItem_1098	Copper Flower Pot
+InventoryItemDescriptions/InvDesc_1098	Decorative Flower Pot
+InventoryItemNames/InvItem_1099	Lilly Pilly Seed
+InventoryItemDescriptions/InvDesc_1099	A fruity seed
+InventoryItemNames/InvItem_1100	Small Lilly Pilly Seed
+InventoryItemDescriptions/InvDesc_1100	A fruity little seed
+InventoryItemNames/InvItem_1101	Comp Bug Net
+InventoryItemDescriptions/InvDesc_1101	Catch those creepy crawlies like a pro.
+InventoryItemNames/InvItem_1102	Gold Bug Comp Trophy
+InventoryItemDescriptions/InvDesc_1102	1st Place!
+InventoryItemNames/InvItem_1103	Silver Bug Comp Trophy
+InventoryItemDescriptions/InvDesc_1103	2nd is the best!
+InventoryItemNames/InvItem_1104	Bronze Bug Comp Trophy
+InventoryItemDescriptions/InvDesc_1104	3rd ain't bad.
+InventoryItemNames/InvItem_1105	Bridged Waterbed
+InventoryItemDescriptions/InvDesc_1105	Create decorative waterfalls with a bridge.
+InventoryItemNames/InvItem_1106	Band Stand
+InventoryItemDescriptions/InvDesc_1106	An outdoor community centre.
+InventoryItemNames/InvItem_1107	Diving Helmet
+InventoryItemDescriptions/InvDesc_1107	Spooky.
+InventoryItemNames/InvItem_1108	Improved Chainsaw
+InventoryItemDescriptions/InvDesc_1108	An Improved saw comprised of chain.
+InventoryItemNames/InvItem_1109	Empty Improved Chainsaw
+InventoryItemDescriptions/InvDesc_1109	It needs charging.
+InventoryItemNames/InvItem_1110	Balloon
+InventoryItemDescriptions/InvDesc_1110	Who would have thought air could be so much fun?
+InventoryItemNames/InvItem_1111	Red Cloth Path
+InventoryItemDescriptions/InvDesc_1111	Picnicy
+InventoryItemNames/InvItem_1112	Sparkler
+InventoryItemDescriptions/InvDesc_1112	A mini firework
+InventoryItemNames/InvItem_1113	Mu Whistle
+InventoryItemDescriptions/InvDesc_1113	Calls Mus to you
+InventoryItemNames/InvItem_1114	Camera Tripod
+InventoryItemDescriptions/InvDesc_1114	Take a selfie
+InventoryItemNames/InvItem_1115	Wooden Swing
+InventoryItemDescriptions/InvDesc_1115	Weeee!
+InventoryItemNames/InvItem_1116	Lily Pad
+InventoryItemDescriptions/InvDesc_1116	A lil' water pad
+InventoryItemNames/InvItem_1117	Giant Lily Pad
+InventoryItemDescriptions/InvDesc_1117	You can stand on it!
+InventoryItemNames/InvItem_1118	Hard Wood Flower Bed
+InventoryItemDescriptions/InvDesc_1118	Decorative Flower Bed
+InventoryItemNames/InvItem_1119	Portable Roof
+InventoryItemDescriptions/InvDesc_1119	It's a roof
+InventoryItemNames/InvItem_1120	Wall
+InventoryItemDescriptions/InvDesc_1120	Wall
+InventoryItemNames/InvItem_1121	Billy Can Kit
+InventoryItemDescriptions/InvDesc_1121	Allows you make hot drinks and soups.
+InventoryItemNames/InvItem_1122	Tongs
+InventoryItemDescriptions/InvDesc_1122	Don't burn your hands
+InventoryItemNames/InvItem_1123	Tape Measure
+InventoryItemDescriptions/InvDesc_1123	Measures out tiles
+InventoryItemNames/InvItem_1124	Jacaranda Sapling
+InventoryItemDescriptions/InvDesc_1124	Bury it for a lil' tree.
+InventoryItemNames/InvItem_1125	Small Cement Fountain
+InventoryItemDescriptions/InvDesc_1125	A small water feature.
+InventoryItemNames/InvItem_1126	Wattle Tea
+InventoryItemDescriptions/InvDesc_1126	Refreshing!
+InventoryItemNames/InvItem_1127	Bottle Brush Tea
+InventoryItemDescriptions/InvDesc_1127	Healthy.
+InventoryItemNames/InvItem_1128	Croco Statue
+InventoryItemDescriptions/InvDesc_1128	A scary old statue.
+InventoryItemNames/InvItem_1129	Frilly Statue
+InventoryItemDescriptions/InvDesc_1129	A silly old statue.
+InventoryItemNames/InvItem_1130	Cement Planter
+InventoryItemDescriptions/InvDesc_1130	Plant flowers and other plants in it.
+InventoryItemNames/InvItem_1131	Vine
+InventoryItemDescriptions/InvDesc_1131	It's like nature's rope
+InventoryItemNames/InvItem_1132	Vine Fence
+InventoryItemDescriptions/InvDesc_1132	A fence covered in vines.
+InventoryItemNames/InvItem_1133	Mossy Brick Path
+InventoryItemDescriptions/InvDesc_1133	Some bricks for the ground.
+InventoryItemNames/InvItem_1134	Market Stall
+InventoryItemDescriptions/InvDesc_1134	A decorative stall for items
+InventoryItemNames/InvItem_1135	Marble Fence
+InventoryItemDescriptions/InvDesc_1135	Keep things in or out.
+InventoryItemNames/InvItem_1136	Post Box
+InventoryItemDescriptions/InvDesc_1136	Another place to check your mail
+InventoryItemNames/InvItem_1137	Marble Pedestal
+InventoryItemDescriptions/InvDesc_1137	A garden pedestal
+InventoryItemNames/InvItem_1138	Marble Bench
+InventoryItemDescriptions/InvDesc_1138	Sit down outside why don't ya.
+InventoryItemNames/InvItem_1139	Marble Pillar
+InventoryItemDescriptions/InvDesc_1139	A garden pillar
+InventoryItemNames/InvItem_1140	Rope Fence
+InventoryItemDescriptions/InvDesc_1140	Rope used to separate things.
+InventoryItemNames/InvItem_1141	Gerse Shirt
+InventoryItemDescriptions/InvDesc_1141	Let's Build
+InventoryItemNames/InvItem_1142	Purple Jeans
+InventoryItemDescriptions/InvDesc_1142	Jean wizz
+InventoryItemNames/InvItem_1143	Purple Sneakers
+InventoryItemDescriptions/InvDesc_1143	Got them kicks.
+InventoryItemNames/InvItem_1144	Orange Sneakers
+InventoryItemDescriptions/InvDesc_1144	Got them kicks.
+InventoryItemNames/InvItem_1145	KD Shirt
+InventoryItemDescriptions/InvDesc_1145	Look like a gent
+InventoryItemNames/InvItem_1146	Orange Pants
+InventoryItemDescriptions/InvDesc_1146	Nice pants.
+InventoryItemNames/InvItem_1147	White Shorts
+InventoryItemDescriptions/InvDesc_1147	Easy to wear.
+InventoryItemNames/InvItem_1148	Reaps Shirt
+InventoryItemDescriptions/InvDesc_1148	This shirt reaps
+InventoryItemNames/InvItem_1149	Lime Sneakers
+InventoryItemDescriptions/InvDesc_1149	Got them kicks.
+InventoryItemNames/InvItem_1150	Helmet
+InventoryItemDescriptions/InvDesc_1150	Safety First
+InventoryItemNames/InvItem_1151	Stone Lantern
+InventoryItemDescriptions/InvDesc_1151	An old lantern
+InventoryItemNames/InvItem_1152	Sailor Hat
+InventoryItemDescriptions/InvDesc_1152	Ahoy
+InventoryItemNames/InvItem_1153	Sailor Pants
+InventoryItemDescriptions/InvDesc_1153	Ahoy
+InventoryItemNames/InvItem_1154	Sailor  Shirt
+InventoryItemDescriptions/InvDesc_1154	Ahoy
+InventoryItemNames/InvItem_1155	Sailor  Boots
+InventoryItemDescriptions/InvDesc_1155	Ahoy
+InventoryItemNames/InvItem_1156	Sailor Dress
+InventoryItemDescriptions/InvDesc_1156	Ahoy
+InventoryItemNames/InvItem_1157	Sport Glasses
+InventoryItemDescriptions/InvDesc_1157	Glasses for running
+InventoryItemNames/InvItem_1158	Marble
+InventoryItemDescriptions/InvDesc_1158	Pretty white rock
+InventoryItemNames/InvItem_1159	Dinner Set
+InventoryItemDescriptions/InvDesc_1159	Ready for a meal
+InventoryItemNames/InvItem_1160	Stack of Plates
+InventoryItemDescriptions/InvDesc_1160	Clean or dirty?
+InventoryItemNames/InvItem_1161	Fake Bread
+InventoryItemDescriptions/InvDesc_1161	Display Bread
+InventoryItemNames/InvItem_1162	Fake Wattle Brew
+InventoryItemDescriptions/InvDesc_1162	Display Brew
+InventoryItemNames/InvItem_1163	Ramp
+InventoryItemDescriptions/InvDesc_1163	A ramp that uses the tile under it.
+InventoryItemNames/InvItem_1164	Advanced Sling Shot
+InventoryItemDescriptions/InvDesc_1164	Aim and fire.
+InventoryItemNames/InvItem_1165	Berkonium Ore
+InventoryItemDescriptions/InvDesc_1165	What a strange ore
+InventoryItemNames/InvItem_1166	Berkonium Bar
+InventoryItemDescriptions/InvDesc_1166	A bar of Berkonium
+InventoryItemNames/InvItem_1167	Plant Hammer
+InventoryItemDescriptions/InvDesc_1167	It's a bit snappy
+InventoryItemNames/InvItem_1168	Raw Grub Meat
+InventoryItemDescriptions/InvDesc_1168	Should I even eat this?
+InventoryItemNames/InvItem_1169	Cooked Grub Meat
+InventoryItemDescriptions/InvDesc_1169	I should totally eat this.
+InventoryItemNames/InvItem_1170	Plant Book
+InventoryItemDescriptions/InvDesc_1170	An original book that can identify and track plant growth.
+InventoryItemNames/InvItem_1171	Traffic Cone
+InventoryItemDescriptions/InvDesc_1171	Looks like a witch hat to me.
+InventoryItemNames/InvItem_1172	Apple Jam
+InventoryItemDescriptions/InvDesc_1172	Apple conserve
+InventoryItemNames/InvItem_1173	Banana Jam
+InventoryItemDescriptions/InvDesc_1173	Banana conserve
+InventoryItemNames/InvItem_1174	Lime Jam
+InventoryItemDescriptions/InvDesc_1174	Lime conserve
+InventoryItemNames/InvItem_1175	Quandong Jam
+InventoryItemDescriptions/InvDesc_1175	Quandong conserve
+InventoryItemNames/InvItem_1176	Red Hibiscus
+InventoryItemDescriptions/InvDesc_1176	A little bush with flowers
+InventoryItemNames/InvItem_1177	Yellow Hibiscus
+InventoryItemDescriptions/InvDesc_1177	A little bush with flowers
+InventoryItemNames/InvItem_1178	Wide Brick Bridge
+InventoryItemDescriptions/InvDesc_1178	Maybe you could cross the water on this?
+InventoryItemNames/InvItem_1179	Improved Dirt Printer
+InventoryItemDescriptions/InvDesc_1179	Prints dirt
+InventoryItemNames/InvItem_1180	Improved Dirt Printer
+InventoryItemDescriptions/InvDesc_1180	All outta dirt. It needs charging.
+InventoryItemNames/InvItem_1181	Vine Festoon
+InventoryItemDescriptions/InvDesc_1181	Viney
+InventoryItemNames/InvItem_1182	Stone Wand
+InventoryItemDescriptions/InvDesc_1182	Is this magic?
+InventoryItemNames/InvItem_1183	Bottle Brush Vase
+InventoryItemDescriptions/InvDesc_1183	Bottle Brush Vase
+InventoryItemNames/InvItem_1184	Potted Lilly Pilly
+InventoryItemDescriptions/InvDesc_1184	Potted Lilly Pilly
+InventoryItemNames/InvItem_1185	Painted Lady Butterfly
+InventoryItemDescriptions/InvDesc_1185	I can't see it
+InventoryItemNames/InvItem_1186	Grass Yellow Butterfly
+InventoryItemDescriptions/InvDesc_1186	A dink a dozen.
+InventoryItemNames/InvItem_1187	Purple Azure Butterfly
+InventoryItemDescriptions/InvDesc_1187	Is it purple or azure?
+InventoryItemNames/InvItem_1188	Blast Furnace
+InventoryItemDescriptions/InvDesc_1188	A mega furnace that can also process Berkonium Ore
+InventoryItemNames/InvItem_1189	Improved Table Saw
+InventoryItemDescriptions/InvDesc_1189	Can cut a lot of wood into a lot of planks.
+InventoryItemNames/InvItem_1190	Ginger Shirt
+InventoryItemDescriptions/InvDesc_1190	Fit for an emperor
+InventoryItemNames/InvItem_1191	Purple Shorts
+InventoryItemDescriptions/InvDesc_1191	Easy to wear!
+InventoryItemNames/InvItem_1192	Improved Jack Hammer
+InventoryItemDescriptions/InvDesc_1192	Hammer away at hard things.
+InventoryItemNames/InvItem_1193	Empty Improved Jack Hammer
+InventoryItemDescriptions/InvDesc_1193	It needs charging.
+InventoryItemNames/InvItem_1194	Improved Compactor
+InventoryItemDescriptions/InvDesc_1194	Smash that dirt to level
+InventoryItemNames/InvItem_1195	Improved Compactor
+InventoryItemDescriptions/InvDesc_1195	It needs charging.
+InventoryItemNames/InvItem_1196	Jurd Shirt
+InventoryItemDescriptions/InvDesc_1196	A shirt from Jurdville
+InventoryItemNames/InvItem_1197	Mouth Almighty
+InventoryItemDescriptions/InvDesc_1197	It keeps its eggs in its mouth.
+InventoryItemNames/InvItem_1198	Bee Hood
+InventoryItemDescriptions/InvDesc_1198	Buzz buzz
+InventoryItemNames/InvItem_1199	Stone Sign
+InventoryItemDescriptions/InvDesc_1199	Shows a message in stone
+InventoryItemNames/InvItem_1200	Duck Canyon Shirt
+InventoryItemDescriptions/InvDesc_1200	Not much but it fits the bill
+InventoryItemNames/InvItem_1201	Tree House Shirt
+InventoryItemDescriptions/InvDesc_1201	AJayy hideaway
+InventoryItemNames/InvItem_1202	Soho Shirt
+InventoryItemDescriptions/InvDesc_1202	Zockt on
+InventoryItemNames/InvItem_1203	Spec Shirt
+InventoryItemDescriptions/InvDesc_1203	It's got a spooky specter on it.
+InventoryItemNames/InvItem_1204	Tom Shirt
+InventoryItemDescriptions/InvDesc_1204	Please take your Ticket
+InventoryItemNames/InvItem_1205	Penguin Hood
+InventoryItemDescriptions/InvDesc_1205	Join Penguin Island
+InventoryItemNames/InvItem_1206	Finch Hood
+InventoryItemDescriptions/InvDesc_1206	Row of feathers
+InventoryItemNames/InvItem_1207	Moxie Shirt
+InventoryItemDescriptions/InvDesc_1207	You've got moxie, kid
+InventoryItemNames/InvItem_1208	Tiger Hood
+InventoryItemDescriptions/InvDesc_1208	Roar!
+InventoryItemNames/InvItem_1209	Tongue
+InventoryItemDescriptions/InvDesc_1209	A gross, long tongue
+InventoryItemNames/InvItem_1210	Diggo Statue
+InventoryItemDescriptions/InvDesc_1210	A cute old statue.
+InventoryItemNames/InvItem_1211	Tongue Whip
+InventoryItemDescriptions/InvDesc_1211	It licks
+InventoryItemNames/InvItem_1212	Caito Shirt
+InventoryItemDescriptions/InvDesc_1212	Spuddy good shirt.
+InventoryItemNames/InvItem_1213	RileyKS Shirt
+InventoryItemDescriptions/InvDesc_1213	It's Riley effective
+InventoryItemNames/InvItem_1214	Sandwich Chalkboard
+InventoryItemDescriptions/InvDesc_1214	Shows a message in chalk
+InventoryItemNames/InvItem_1215	Bushlime Box
+InventoryItemDescriptions/InvDesc_1215	A decorative box of fruit
+InventoryItemNames/InvItem_1216	Banana Box
+InventoryItemDescriptions/InvDesc_1216	A decorative box of fruit
+InventoryItemNames/InvItem_1217	Apple Box
+InventoryItemDescriptions/InvDesc_1217	A decorative box of fruit
+InventoryItemNames/InvItem_1218	Quandong Box
+InventoryItemDescriptions/InvDesc_1218	A decorative box of fruit
+InventoryItemNames/InvItem_1219	Party Horn
+InventoryItemDescriptions/InvDesc_1219	Annoying and fun
+InventoryItemNames/InvItem_1220	Snag
+InventoryItemDescriptions/InvDesc_1220	A rare delicacy 
+InventoryItemNames/InvItem_1221	Balloon
+InventoryItemDescriptions/InvDesc_1221	Who would have thought air could be so much fun?
