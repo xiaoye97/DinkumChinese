@@ -379,7 +379,7 @@ namespace DinkumChinese
                 MatchCollection mc2 = reg.Matches(term.Languages[3]);
                 if (mc1.Count != mc2.Count)
                 {
-                    string log = $"行号:{i + hangOffset} Key:{term.Term} 中的括号数量不一致 英文原文有{mc1.Count}对括号 中文中有{mc2.Count}对括号";
+                    string log = $"行号:{i + hangOffset} Key:{term.Term} 中的括号数量不一致 英文原文有{mc1.Count}对括号 中文中有{mc2.Count}对括号 原文:{term.Languages[0]} 中文:{term.Languages[3]}";
                     LogInfo(log);
                     sb.AppendLine(log);
                     findCount++;

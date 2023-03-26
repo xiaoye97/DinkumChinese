@@ -144,7 +144,7 @@ Generic/TuckshopConversation_Option_002	Nevermind
 Generic/TuckshopConversation_Option_003	Nevermind				
 Generic/TuckshopConversation_Response_000_000	<yes>Well, today I'm paying top <Dink> for <itemName>.				
 Generic/TuckshopConversation_Response_001_000	Can do.				
-Generic/TuckshopConversation_Response_002_000	See you around, <PlayerName>.				
+Generic/TuckshopConversation_Response_002_000					
 Generic/TuckshopConversation_Response_003_000	See you around, <PlayerName>.				
 InventoryItemDescriptions/InvDesc_0	Chop down trees and plants.	Couper les arbres et les plantes.	Срубите деревьев и растений.	砍倒树木和植物。	木々や植物を切り倒します。
 InventoryItemDescriptions/InvDesc_1	A voucher worth 10,000 Dinks	Un bâton de jet-cascadeurs.	Метание-палка-трюк.	投掷，棒特技。	投げ-スティックスタント。
