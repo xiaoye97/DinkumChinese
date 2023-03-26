@@ -12,18 +12,6 @@ namespace DinkumChinese
 {
     public class SpritePatch
     {
-        [HarmonyPrefix, HarmonyPatch(typeof(swapIconsForController), "Start")]
-        public static bool swapIconsForController_Start_Patch(swapIconsForController __instance)
-        {
-            string path = DinkumChinesePlugin.Inst.GetPath(__instance.transform);
-            if (path == "MapCanvas/MenuScreen/OptionWindow/ControlLayout")
-            {
-                __instance.keyboardSprite = FileHelper.LoadSprite($"{Paths.PluginPath}/I2LocPatch/Sprite/controlLayoutKeyboard.png");
-                __instance.controllerSprite = FileHelper.LoadSprite($"{Paths.PluginPath}/I2LocPatch/Sprite/controlLayoutController.png");
-            }
-            return true;
-        }
-
         /// <summary>
         /// 尝试替换Image图片
         /// </summary>

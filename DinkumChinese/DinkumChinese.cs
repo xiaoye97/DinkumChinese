@@ -16,9 +16,12 @@ using I2LocPatch;
 
 namespace DinkumChinese
 {
-    [BepInPlugin("xiaoye97.Dinkum.DinkumChinese", "DinkumChinese", "1.13.0")]
+    [BepInPlugin(GUID, PluginName, Version)]
     public class DinkumChinesePlugin : BaseUnityPlugin
     {
+        public const string GUID = "xiaoye97.Dinkum.DinkumChinese";
+        public const string PluginName = "DinkumChinese";
+        public const string Version = "1.13.0";
         public static DinkumChinesePlugin Inst;
 
         public static bool Pause
@@ -59,7 +62,7 @@ namespace DinkumChinese
             LogNoTranslation = Config.Bind<bool>("Tool", "LogNoTranslation", true, "可以输出没翻译的目标");
             DebugWindow = new UIWindow("汉化测试工具[Ctrl+小键盘4]");
             DebugWindow.OnWinodwGUI = DebugWindowGUI;
-            ErrorWindow = new UIWindow("汉化出现错误");
+            ErrorWindow = new UIWindow($"汉化出现错误 {PluginName} v{Version}");
             ErrorWindow.OnWinodwGUI = ErrorWindowFunc;
             try
             {
@@ -99,6 +102,7 @@ namespace DinkumChinese
 
         public void ErrorWindowFunc()
         {
+            GUILayout.Label("请注意检查是否有新版本汉化");
             GUILayout.Label(ErrorStr);
         }
 

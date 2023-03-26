@@ -674,7 +674,7 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, " fruit", "水果");
             instructions = ReplaceIL(instructions, "Cook something at the Cooking table", "烹饪食物");
             instructions = ReplaceIL(instructions, " tree seeds", "树种子");
-            instructions = ReplaceIL(instructions, "crop seeds", "作物种子");
+            instructions = ReplaceIL(instructions, " crop seeds", "作物种子");
             instructions = ReplaceIL(instructions, "Water ", "浇灌");
             instructions = ReplaceIL(instructions, " crops", "作物");
             instructions = ReplaceIL(instructions, "Smash ", "挖掘");
