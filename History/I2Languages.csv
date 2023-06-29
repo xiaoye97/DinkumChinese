@@ -144,7 +144,7 @@ Generic/TuckshopConversation_Option_002	Nevermind
 Generic/TuckshopConversation_Option_003	Nevermind				
 Generic/TuckshopConversation_Response_000_000	<yes>Well, today I'm paying top <Dink> for <itemName>.				
 Generic/TuckshopConversation_Response_001_000	Can do.				
-Generic/TuckshopConversation_Response_002_000					
+Generic/TuckshopConversation_Response_002_000	See you around, <PlayerName>.				
 Generic/TuckshopConversation_Response_003_000	See you around, <PlayerName>.				
 InventoryItemDescriptions/InvDesc_0	Chop down trees and plants.	Couper les arbres et les plantes.	Срубите деревьев и растений.	砍倒树木和植物。	木々や植物を切り倒します。
 InventoryItemDescriptions/InvDesc_1	A voucher worth 10,000 Dinks	Un bâton de jet-cascadeurs.	Метание-палка-трюк.	投掷，棒特技。	投げ-スティックスタント。
@@ -259,7 +259,7 @@ InventoryItemDescriptions/InvDesc_197	An uncommon shell	Une coquille rare	Ред
 InventoryItemDescriptions/InvDesc_198	A common shell	Une coquille commune	Общая оболочка	在共同的壳	一般的なシェル
 InventoryItemDescriptions/InvDesc_199	A rare shell.	Une coquille rare.	Редкие оболочки.	一种罕见的贝壳。	珍しいシェル。
 InventoryItemDescriptions/InvDesc_2	Catch those creepy crawlies.	Attraper ces bestioles.	Поймать этих жутких тварей.	抓住这些爬行。	これらの不気味crawliesをキャッチ。
-InventoryItemDescriptions/InvDesc_20	Very poisonous. Ain't it cute?	Très toxique. Est-il pas mignon?	Очень ядовит. Разве это не мило?	很毒。是不是很可爱吗？	非常に有毒。それはかわいいではないですか？
+InventoryItemDescriptions/InvDesc_20	Ain't it cute?	Très toxique. Est-il pas mignon?	Очень ядовит. Разве это не мило?	很毒。是不是很可爱吗？	非常に有毒。それはかわいいではないですか？
 InventoryItemDescriptions/InvDesc_200	Good fish. You're not Morwong about that.	Bon poisson. Vous n'êtes pas Morwong à ce sujet.	Хорошая рыба. Вы не Morwong об этом.	好鱼。你不是唇指䱵科有关。	良い魚。あなたはそれについてタカノハダイ科いません。
 InventoryItemDescriptions/InvDesc_201	An ocean fish that is blue.	Un poisson de l'océan qui est bleu.	Океаническая рыба, которая является синей.	海洋鱼类是蓝色的。	青い海の魚。
 InventoryItemDescriptions/InvDesc_202	It hates mondays.	Il déteste Mondays.	Он ненавидит понедельники.	它讨厌星期一。	それは月曜日が嫌い。
@@ -1512,10 +1512,10 @@ InventoryItemNames/InvItem_74	Holiday Shirt	shirt de vacances	Праздник S
 InventoryItemNames/InvItem_75	Thongs	tongs	вьетнамки	丁字裤	ゴム草履
 InventoryItemNames/InvItem_76	Holiday Shorts	Short de vacances	Праздничные шорты	假日短裤	ホリデーショーツ
 InventoryItemNames/InvItem_77	Tradie Shirt	shirt tradie	Tradie рубашка	Tradie衬衫	Tradieシャツ
-InventoryItemNames/InvItem_78	Kahkey Boots	Kahkey Bottes	Kahkey Boots	Kahkey靴	Kahkeyブーツ
-InventoryItemNames/InvItem_79	Kahkey Shorts	Kahkey Shorts	Kahkey шорты	Kahkey短裤	Kahkeyショーツ
+InventoryItemNames/InvItem_78	Khaki Boots	Kahkey Bottes	Kahkey Boots	Kahkey靴	Kahkeyブーツ
+InventoryItemNames/InvItem_79	Khaki Shorts	Kahkey Shorts	Kahkey шорты	Kahkey短裤	Kahkeyショーツ
 InventoryItemNames/InvItem_8	Basic Pickaxe	Basic Pioche	Основной Pickaxe	基本镐	基本つるはし
-InventoryItemNames/InvItem_80	Kahkey	Kahkey	Kahkey	Kahkey	Kahkey
+InventoryItemNames/InvItem_80	Khaki Shirt	Kahkey	Kahkey	Kahkey	Kahkey
 InventoryItemNames/InvItem_81	Clothing Shop Deed	Double Boutique Deed	Твин Магазин Купчая	双店契约	ツインショップ証書
 InventoryItemNames/InvItem_82	Blue Shorts	Short bleu	Синие шорты	蓝短裤	ブルーショーツ
 InventoryItemNames/InvItem_83	Blue and Yellow Shirt	Bleu et chemise jaune	Синий и желтая рубашка	蓝色和黄色衬衫	青と黄色のシャツ
@@ -1618,7 +1618,7 @@ MilestonDesc/MilestoneDesc_0	None	Aucun	Никто	没有	なし
 MilestoneDesc/MilestoneDesc_0	None	Aucun	Никто	没有	なし
 MilestoneDesc/MilestoneDesc_1	Picking fruit and logs off the ground will get you far in this place. Here is a milestone for gathering lots of stuff up.	Cueillir des fruits et des bûches sur le sol vous mènera loin dans cet endroit. Voici une étape importante pour rassembler beaucoup de choses.	Собирая фрукты и бревна с земли, вы далеко уйдете в этом месте. Вот веха для сбора большого количества вещей.	采摘水果并从地面上砍伐，将带您到达这个地方。这是收集很多东西的里程碑。	果物を摘み取り、地面からログオフすると、この場所に遠くまで行くことができます。これはたくさんのものを集めるためのマイルストーンです。
 MilestoneDesc/MilestoneDesc_10	Planting seeds in the red dirt. They grow up so fast. Here is a milestone for planting some seeds.	Planter des graines dans la terre rouge. Ils grandissent si vite. Voici une étape importante pour planter des graines.	Посадка семян в красной грязи. Они растут так быстро. Это важная веха для посадки семян.	在红色的泥土中种植种子。他们成长地好快。这是种植一些种子的里程碑。	赤い土に種をまく。彼らはとても速く成長します。ここにいくつかの種を植えるためのマイルストーンがあります。
-MilestoneDesc/MilestoneDesc_11	Watering plants is good for your soul and good for the plants general health. It's win-win. So here is a milestone for watering a lot of plants!	L'arrosage des plantes est bon pour votre âme et bon pour la santé générale des plantes. C'est gagnant-gagnant. Voici donc une étape importante pour l'arrosage de beaucoup de plantes!	Полив растений полезен для души и полезен для здоровья растений в целом. Это беспроигрышный вариант. Итак, вот важный этап в поливе большого количества растений!	给植物浇水有益于您的灵魂，也有益于植物的整体健康。这是双赢的。因此，这是为许多植物浇水的里程碑！	植物に水をまくことはあなたの魂と植物の一般的な健康に良いです。それは双方に有利です。だから、ここはたくさんの植物に水をまくためのマイルストーンです！
+MilestoneDesc/MilestoneDesc_11	Watering plants is good for your soul and good for the plant's general health. It's win-win. So here is a milestone for watering a lot of plants!	L'arrosage des plantes est bon pour votre âme et bon pour la santé générale des plantes. C'est gagnant-gagnant. Voici donc une étape importante pour l'arrosage de beaucoup de plantes!	Полив растений полезен для души и полезен для здоровья растений в целом. Это беспроигрышный вариант. Итак, вот важный этап в поливе большого количества растений!	给植物浇水有益于您的灵魂，也有益于植物的整体健康。这是双赢的。因此，这是为许多植物浇水的里程碑！	植物に水をまくことはあなたの魂と植物の一般的な健康に良いです。それは双方に有利です。だから、ここはたくさんの植物に水をまくためのマイルストーンです！
 MilestoneDesc/MilestoneDesc_12	Smashing rocks is hard work. But sometimes they have stuff in them! Here is a milestone for smashing rocks.	Briser des pierres est un travail difficile. Mais parfois, ils ont des trucs en eux! Voici une étape importante pour briser des roches.	Разбивать камни - тяжелая работа. Но иногда в них есть что-нибудь! Вот веха для разбивания скал.	砸石头是艰苦的工作。但是有时候他们里面有东西！这是砸石头的里程碑。	岩を砕くことは大変な作業です。しかし時々彼らは中に物を持っています！これが岩を破壊するためのマイルストーンです。
 MilestoneDesc/MilestoneDesc_13	You've smashed a couple of them rocks filled with ore. Here is a milestone for smashing ore deposits.	Vous avez brisé quelques roches remplies de minerai. Voici une étape importante pour la destruction des gisements de minerai.	Вы разбили пару камней, заполненных рудой. Это важная веха для разгрома рудных месторождений.	您已经砸碎了其中一些装满矿石的岩石。这是粉碎矿床的里程碑。	あなたはそれらの鉱石で満たされた岩のいくつかを粉砕しました。これは鉱石堆積物を破壊するためのマイルストーンです。
 MilestoneDesc/MilestoneDesc_14	Smelting. Oh, you've been smelting alright. Here is a milestone for smelting ore into bars.	Fonte. Oh, vous avez bien fondu. Voici une étape importante pour la fusion du minerai en barres.	Выплавка. О, ты хорошо плавил. Это важный этап в плавке руды в слитки.	冶炼。哦，你一直在冶炼。这是将矿石冶炼成条的里程碑。	製錬。ああ、あなたは精錬してきました。これは鉱石を製錬してバーにするためのマイルストーンです。
@@ -1627,15 +1627,15 @@ MilestoneDesc/MilestoneDesc_16	Sometime trees get in the way and sometimes you j
 MilestoneDesc/MilestoneDesc_17	You can't just chop a tree down and leave the stump. Here is a milestone for getting rid of the lil' stumps that are there after the tree falls down.	Vous ne pouvez pas simplement couper un arbre et laisser la souche. Voici une étape importante pour se débarrasser des petites souches qui sont là après la chute de l'arbre.	Нельзя просто срубить дерево и оставить пень. Это важный этап в избавлении от пней, оставшихся после падения дерева.	您不能只砍倒一棵树离开树桩。这是摆脱树倒下后剩下的小树桩的里程碑。	木を切り倒して切り株から離れることはできません。これは、木が倒れた後に存在するリルの切り株を取り除くためのマイルストーンです。
 MilestoneDesc/MilestoneDesc_18	You like wood, right? But what about square wood? Here is a milestone for cutting wood into planks.	Vous aimez le bois, non? Mais qu'en est-il du bois carré? Voici une étape importante pour la découpe du bois en planches.	Тебе нравится дерево, правда? А как насчет квадратного дерева? Это важный этап в разделке дерева на доски.	你喜欢木头，对不对？但是方木呢？这是将木头切成木板的里程碑。	あなたは木が好きですか？しかし、正方形の木はどうですか？これが木材を板に切るためのマイルストーンです。
 MilestoneDesc/MilestoneDesc_19	You've caught a bunch of fish. Here is a milestone for catching a bunch of fish!	Vous avez attrapé un tas de poissons. Voici une étape importante pour attraper un tas de poissons!	Вы поймали кучу рыбы. Это важный этап в ловле рыбы!	你抓到一堆鱼了。这是抓一堆鱼的里程碑！	たくさんの魚を捕まえました。たくさんの魚を捕まえるマイルストーンです！
-MilestoneDesc/MilestoneDesc_2	Being friendly and making friends is an adventure on it's own! Be sure to chat with everyone every day! You might learn something.	Être amical et se faire des amis est une aventure en soi! Assurez-vous de discuter avec tout le monde tous les jours! Vous pourriez apprendre quelque chose.	Быть дружелюбным и заводить друзей - само по себе приключение! Обязательно болтайте со всеми каждый день! Вы можете чему-нибудь научиться.	友好相处和交友本身就是一次冒险！确保每天与所有人聊天！您可能会学到一些东西。	フレンドリーで友達を作ることはそれ自体が冒険です！毎日みんなとチャットしてください！あなたは何かを学ぶかもしれません。
+MilestoneDesc/MilestoneDesc_2	Being friendly and making friends is an adventure on its own! Be sure to chat with everyone every day! You might learn something.	Être amical et se faire des amis est une aventure en soi! Assurez-vous de discuter avec tout le monde tous les jours! Vous pourriez apprendre quelque chose.	Быть дружелюбным и заводить друзей - само по себе приключение! Обязательно болтайте со всеми каждый день! Вы можете чему-нибудь научиться.	友好相处和交友本身就是一次冒险！确保每天与所有人聊天！您可能会学到一些东西。	フレンドリーで友達を作ることはそれ自体が冒険です！毎日みんなとチャットしてください！あなたは何かを学ぶかもしれません。
 MilestoneDesc/MilestoneDesc_20	No matter how much you clear it seems to come back. Mowing never ends. Here is a milestone for chopping grass.	Peu importe combien vous êtes clair, il semble revenir. La tonte ne s'arrête jamais. Voici une étape importante pour couper l'herbe.	Независимо от того, насколько вы очищаете, кажется, что он вернется. Кошение никогда не заканчивается. Это важная веха для рубки травы.	无论您清除了多少，它似乎都会回来。割草永无止境。这是砍草的里程碑。	どれだけクリアしても、戻ってくるようです。刈り取りは決して終わりません。これが草を切るためのマイルストーンです。
-MilestoneDesc/MilestoneDesc_21	Hunting is sometimes necessary. Here is milestone for hunting creatures.	La chasse est parfois nécessaire. Voici une étape importante pour la chasse aux créatures.	Иногда нужна охота. Это веха для охоты на существ.	狩猎有时是必要的。这是狩猎生物的里程碑。	狩猟が必要になることもあります。これが生き物を狩るマイルストーンです。
+MilestoneDesc/MilestoneDesc_21	Hunting is sometimes necessary. Here is a milestone for hunting creatures.	La chasse est parfois nécessaire. Voici une étape importante pour la chasse aux créatures.	Иногда нужна охота. Это веха для охоты на существ.	狩猎有时是必要的。这是狩猎生物的里程碑。	狩猟が必要になることもあります。これが生き物を狩るマイルストーンです。
 MilestoneDesc/MilestoneDesc_22	Trapping animals for relocation is a kind way to deal with them. It's not easy to do, either! Here is a milestone for trapping an animal.	Le piégeage des animaux en vue de leur réinstallation est une façon aimable de les gérer. Ce n'est pas facile non plus! Voici une étape importante pour piéger un animal.	Отлов животных для переселения - хороший способ справиться с ними. Это тоже непросто! Это важная веха в отлове животного.	诱捕动物进行安置是对付它们的一种方式。这也不容易！这是诱捕动物的里程碑。	移動のために動物を捕獲することは、それらに対処する親切な方法です。それも簡単ではありません！これが動物を捕獲するためのマイルストーンです。
-MilestoneDesc/MilestoneDesc_23	Buying furniture for your home? Maybe a gift? Here is milestone for buying furniture.	Vous achetez des meubles pour votre maison? Peut-être un cadeau? Voici une étape importante pour l'achat de meubles.	Покупаете мебель для дома? Может подарок? Это важный этап в покупке мебели.	在家里购买家具？也许是礼物？这是购买家具的里程碑。	あなたの家のための家具を買いますか？たぶんプレゼント？ここに家具を購入するためのマイルストーンがあります。
+MilestoneDesc/MilestoneDesc_23	Buying furniture for your home? Maybe a gift? Here is a milestone for buying furniture.	Vous achetez des meubles pour votre maison? Peut-être un cadeau? Voici une étape importante pour l'achat de meubles.	Покупаете мебель для дома? Может подарок? Это важный этап в покупке мебели.	在家里购买家具？也许是礼物？这是购买家具的里程碑。	あなたの家のための家具を買いますか？たぶんプレゼント？ここに家具を購入するためのマイルストーンがあります。
 MilestoneDesc/MilestoneDesc_24	New walls. Same old house. Here is a milestone for buying wallpaper.	De nouveaux murs. Même vieille maison. Voici une étape importante pour l'achat de papier peint.	Новые стены. Тот же старый дом. Это важный этап в покупке обоев.	新墙。同样的老房子。这是购买墙纸的里程碑。	新しい壁。同じ古い家。これは壁紙を購入するためのマイルストーンです。
 MilestoneDesc/MilestoneDesc_25	Here is a milestone for buying flooring.	Voici une étape importante pour l'achat de revêtements de sol.	Это важный этап в покупке напольных покрытий.	这是购买地板的里程碑。	ここにフローリングを購入するためのマイルストーンがあります。
 MilestoneDesc/MilestoneDesc_26	Here is a milestone for buying seeds.	Voici une étape importante pour l'achat de semences.	Это важный этап в покупке семян.	这是购买种子的里程碑。	ここに種子を購入するためのマイルストーンがあります。
-MilestoneDesc/MilestoneDesc_27	Reap what you have sewn. Here is a milestone for harvesting crops.	Récoltez ce que vous avez cousu. Voici une étape importante pour la récolte des cultures.	Возьмите то, что сшили. Это важный этап в сборе урожая.	收获您缝制的东西。这是收获作物的里程碑。	あなたが縫ったものを刈り取ります。これが作物収穫のマイルストーンです。
+MilestoneDesc/MilestoneDesc_27	Reap what you have sown. Here is a milestone for harvesting crops.	Récoltez ce que vous avez cousu. Voici une étape importante pour la récolte des cultures.	Возьмите то, что сшили. Это важный этап в сборе урожая.	收获您缝制的东西。这是收获作物的里程碑。	あなたが縫ったものを刈り取ります。これが作物収穫のマイルストーンです。
 MilestoneDesc/MilestoneDesc_28	Looking good in some new threads. Here is a milestone for buying clothes	Voici une étape importante pour l'achat de tops.	Вот веха для покупки топов.	这是购买上衣的里程碑。	トップス購入のマイルストーンはこちらです。
 MilestoneDesc/MilestoneDesc_29	Cooked fruit. Sounds gross, I know. It might be... Anyway, here is a milestone for cooking fruit.	Voici une étape importante pour l'achat de pantalons.	Вот веха для покупки брюк.	这是购买裤子的里程碑。	これがパンツ購入のマイルストーンです。
 MilestoneDesc/MilestoneDesc_3	Catching bugs is a great activity. Here is a milestone for catching some of those creepy crawlies.	Attraper des insectes est une excellente activité. Voici une étape importante pour attraper certaines de ces bestioles effrayantes.	Выявление ошибок - отличное занятие. Это важная веха для поимки некоторых из этих жутких ползунков.	捕获错误是一项很棒的活动。这是捕捉其中一些令人毛骨悚然的爬虫的里程碑。	バグをキャッチすることは素晴らしい活動です。これらは、これらの不気味な這い回しを捕らえるためのマイルストーンです。
@@ -1659,7 +1659,7 @@ MilestoneDesc/MilestoneDesc_45	Watch your energy. If you push yourself too far o
 MilestoneDesc/MilestoneDesc_46	The more friendly you are with someone the more likely they will send you mail! Here is a milestone for receiving letters.			あなたが誰かと友好的であるほど、彼らはあなたにメールを送る可能性が高くなります！これが手紙を受け取るためのマイルストーンです。	
 MilestoneDesc/MilestoneDesc_47	From tent, to house to even bigger house! Here is a milestone for upgrading your home.			テントから家、さらに大きな家まで！これがあなたの家をアップグレードするためのマイルストーンです。	
 MilestoneDesc/MilestoneDesc_48	Every adventure starts somewhere and yours starts here. Here is a milestone for placing the base tent.			すべての冒険はどこかで始まり、あなたの冒険はここから始まります。これがベーステントを配置するためのマイルストーンです。	
-MilestoneDesc/MilestoneDesc_49	A place to rest your head - Your new home for now. Here is a milestone for placing your tent.			あなたの頭を休める場所-今のところあなたの新しい家。これがあなたのテントを置くためのマイルストーンです。	
+MilestoneDesc/MilestoneDesc_49	A place to rest your head - your new home for now. Here is a milestone for placing your tent.			あなたの頭を休める場所-今のところあなたの新しい家。これがあなたのテントを置くためのマイルストーンです。	
 MilestoneDesc/MilestoneDesc_5	Fruit? Meat? Fungus? It doesn't matter. Food will give you energy to keep doing your tasks all day long. Here is a milestone for eating things!			フルーツ？お肉？菌？それは問題ではありません。食べ物はあなたに一日中あなたの仕事をし続けるためのエネルギーを与えます。これが物を食べるためのマイルストーンです！	
 MilestoneDesc/MilestoneDesc_50	Building the town - one building at a time. Here is a milestone for finishing a new building!			町の建設-一度に1つの建物。これが新しい建物を完成させるためのマイルストーンです！	
 MilestoneDesc/MilestoneDesc_51	You can buy a lot of useful tools to help you! Here is a milestone for buying tools.	Vous pouvez acheter de nombreux outils utiles pour vous aider! Voici une étape importante pour l'achat d'outils.	Вы можете купить много полезных инструментов, которые помогут вам! Вот веха для покупки инструментов.	您可以购买很多有用的工具来帮助您！这是购买工具的里程碑。	あなたはあなたを助けるために便利なツールをたくさん買うことができます！ツール購入のマイルストーンは次のとおりです。
@@ -1687,7 +1687,7 @@ MilestoneDesc/MilestoneDesc_70	Keeping your bee's happy and they will give you a
 MilestoneDesc/MilestoneDesc_71	Painting things gives them their own flair. Here is a milestone for making something your own with a nice paint job.				
 MilestoneDesc/MilestoneDesc_72	Going on a fishing trip but you caught a shark. Crikey! Here is a milestone for reeling in a beast.				
 MilestoneDesc/MilestoneDesc_73	Shells are nature's way of littering. Here is a milestone for picking up those bad boys.				
-MilestoneDesc/MilestoneDesc_74	Those flowers might be nice if I put them in a barrel and let they sit. Here is a milestone for brewing in a keg.				
+MilestoneDesc/MilestoneDesc_74	Why not make some tea in a Billy and then pop them in a keg? Here is a milestone for doing some brewing.				
 MilestoneDesc/MilestoneDesc_75	Tele-Towers are handy. But are you still you? Oh well, here is a milestone for using the Tele-Towers.				
 MilestoneDesc/MilestoneDesc_76	Plants love old stinky stuff. Poop. Bones. They love it all. Here is a milestone for using the composter.				
 MilestoneDesc/MilestoneDesc_77	Move dirt from here to there. Here is a milestone for using a Wheelbarrow.				
@@ -1710,8 +1710,8 @@ MilestoneDesc/MilestoneDesc_91	Sometimes the sky gets mad and starting throwing 
 MilestoneDesc/MilestoneDesc_92	Here is a milestone for finding a Thunder Egg and selling it.				
 MilestoneDesc/MilestoneDesc_93	Alpha animals cause havoc. Here is a milestone for defeating an Alpha animal.				
 MilestoneDesc/MilestoneDesc_94	Why keep your fish in an aquarium when you could keep them in your belly? Here is a milestone for cooking fish.				
-MilestoneDesc/MilestoneDesc_95	It's brave it dive down and grab a random critter with your bare hands. Here is a milestone for catching underwater critters.				
-MilestoneDesc/MilestoneDesc_96	Bug Comps are serious business. No Time for fun. Here is a milestone for placing in the Bug Comp.				
+MilestoneDesc/MilestoneDesc_95	It's brave to dive down and grab a random critter with your bare hands. Here is a milestone for catching underwater critters.				
+MilestoneDesc/MilestoneDesc_96	Bug Comps are serious business. No time for fun. Here is a milestone for placing in the Bug Comp.				
 MilestoneDesc/MilestoneDesc_97	They aren't as pretty as vehicles, but riding an animal is good fun. Here is a milestone for riding an animal for a distance.				
 MilestoneTitles/Milestone_Name_0	None	Aucun	Никто	没有	なし
 MilestoneTitles/Milestone_Name_1	Harvest Master	Maître De Récolte	Мастер Урожая	收获大师	収穫マスター
@@ -1760,7 +1760,7 @@ MilestoneTitles/Milestone_Name_48	Explorer			冒険者
 MilestoneTitles/Milestone_Name_49	Camper	Campeur	Отдыхающий	露营者	キャンピングカー
 MilestoneTitles/Milestone_Name_5	Super Taster	Super Dégustateur	Супер Дегустатор	超级品尝师	スーパーテイスター
 MilestoneTitles/Milestone_Name_50	Town Planner	Urbaniste	Градостроитель	城市规划师	タウンプランナー
-MilestoneTitles/Milestone_Name_51	Equiped	Équipé	Оборудованный	配备	装備
+MilestoneTitles/Milestone_Name_51	Equipped	Équipé	Оборудованный	配备	装備
 MilestoneTitles/Milestone_Name_52	Smashing	Briser	Разрушение	粉碎	スマッシング
 MilestoneTitles/Milestone_Name_53	Board As	Bord Comme	Доска Как	登上	ボードとして
 MilestoneTitles/Milestone_Name_54	Entomologist	Entomologiste	Энтомолог	昆虫学家	昆虫学者
@@ -2155,7 +2155,7 @@ Npc1/IslandDayGreeting_Noon_001_Intro_000	G’day, <PlayerName>.þ
 Npc1/IslandDayGreeting_Noon_001_Intro_001	The <Snags> are ready!þ				
 Npc1/IslandDayGreeting_Noon_001_Intro_002	Who would have guessed <NPCName> was such a good cook?þ				
 Npc1/IslandDayGreeting_Noon_001_Intro_003	She should really open a <Snag> shop…þ				
-Npc1/Johns Shop_Convo_Intro_000	Welcome to John's Goods! How Can I help?				
+Npc1/Johns Shop_Convo_Intro_000	Welcome to John's Goods! How can I help?				
 Npc1/Johns Shop_Convo_Option_000	Sell goods.				
 Npc1/Johns Shop_Convo_Option_001	I wanted to chat.				
 Npc1/Johns Shop_Convo_Option_002	I'm good.				
@@ -4416,7 +4416,7 @@ Npc7/RandomConvo_024_Intro_000	<yes><animalName> horns can be valuable back in <
 Npc7/RandomConvo_024_Intro_001	<no>Posh people like to use them for cutlery handles and the like.þ				
 Npc7/RandomConvo_024_Intro_002	<no>Kinda gross if you ask me.þ				
 Npc7/RandomConvo_024_Intro_003	<yes>They’re better off just being left on their heads!þ				
-Npc7/RandomConvo_025_Intro_000	The one insect I can get behind is the humble <inventoryItem>.þ				
+Npc7/RandomConvo_025_Intro_000	The one insect I can get behind is the humble <itemName>.þ				
 Npc7/RandomConvo_025_Intro_001	<glee>Not only are they cute, but they make honey!þ				
 Npc7/RandomConvo_025_Intro_002	<haha>What a sweet thing for a bug to do!þ				
 Npc7/RandomConvo_026_Intro_000	<animalName> are funny little critters, don’t you think?þ				
@@ -5350,6 +5350,17 @@ Shopping/SomethingToSell_Intro_000	<thinking>Let's see...
 Shopping/SomethingToSell_Intro_001	All up, I can offer you <$>?				
 Shopping/SomethingToSell_Option_000	Sounds good!				
 Shopping/SomethingToSell_Option_001	No thanks.				
+Shopping/SomethingToSell_RaffleTickets_Intro_000	<thinking>Let's see...				
+Shopping/SomethingToSell_RaffleTickets_Intro_001	All up, I can offer you <$>?				
+Shopping/SomethingToSell_RaffleTickets_Option_000	Sounds good!				
+Shopping/SomethingToSell_RaffleTickets_Option_001	No thanks.				
+Shopping/SomethingToSell_RaffleTickets_Response_000_000	Very good! I'll take these items and here is your <$>.				
+Shopping/SomethingToSell_RaffleTickets_Response_000_001	Oh and I believe I owe you <ticketAmount>.þ				
+Shopping/SomethingToSell_RaffleTickets_Response_000_002	You’ll get one <itemName> for each fish you sell me.þ				
+Shopping/SomethingToSell_RaffleTickets_Response_000_003	Don’t forget to check out the green prize box to see what your <itemName> can get you.				
+Shopping/SomethingToSell_RaffleTickets_Response_001_000	That's fine, mate.				
+Shopping/SomethingToSell_RaffleTickets_Response_001_001	I'll just give you your stuff back.				
+Shopping/SomethingToSell_RaffleTickets_Response_001_002	Thank you for visiting John's Goods! <yes>				
 Shopping/SomethingToSell_Response_000_000	Very good! I'll take these items and here is your <$> .				
 Shopping/SomethingToSell_Response_000_001	Thank you for visiting John's Goods! <yes>				
 Shopping/SomethingToSell_Response_001_000	That's fine, mate.				
@@ -5489,6 +5500,11 @@ Sign/NotAcceptingDonations_Intro_000	The town is not currently accepting donatio
 Sign/NotAcceptingDonations_Intro_001	Thank you for your support!	Merci pour votre soutien!	Спасибо за поддержку!		ご支援いただきありがとうございます！
 Sign/NoVisitorSign_Intro_000	Visitors Site				
 Sign/NoVisitorSign_Intro_001					
+Sign/Raffle Sign_Intro_000	It’s the John's Goods Anniversary Event!				
+Sign/Raffle Sign_Intro_001	For every fish you sell to John’s Goods you will earn a <itemName>.þ				
+Sign/Raffle Sign_Intro_002	<itemName>s can be exchanged for prizes from the prize box inside the store.þ				
+Sign/Raffle Sign_Intro_003	This is a limited time event, so get fishing and start redeeming your prizes!þ				
+Sign/Raffle Sign_Intro_004					
 Sign/RainmakerSign_Intro_000					
 Sign/SleepHouseMove_Intro_000	This building is going to me moved.				
 Sign/SleepHouseMove_Intro_001	I need to sleep outside so the movers don't wake me up.				

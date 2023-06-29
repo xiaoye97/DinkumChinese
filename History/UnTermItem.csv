@@ -2,7 +2,7 @@ Key	English
 InventoryItemNames/InvItem_695	Fake Beard
 InventoryItemDescriptions/InvDesc_695	Looks real to me...
 InventoryItemNames/InvItem_696	Cement Fence
-InventoryItemDescriptions/InvDesc_696	Its strong!
+InventoryItemDescriptions/InvDesc_696	It's strong!
 InventoryItemNames/InvItem_697	Simple Animal Trap
 InventoryItemDescriptions/InvDesc_697	Catch some stuff.
 InventoryItemNames/InvItem_698	Bottle Brush
@@ -16,7 +16,7 @@ InventoryItemDescriptions/InvDesc_701	Carries water from point A to point B
 InventoryItemNames/InvItem_702	Iron Watering Can
 InventoryItemDescriptions/InvDesc_702	It's empty. Fill it with water.
 InventoryItemNames/InvItem_703	Compost Bin
-InventoryItemDescriptions/InvDesc_703	Turn poop and stuff into fertilizer
+InventoryItemDescriptions/InvDesc_703	Turn poop and stuff into fertiliser
 InventoryItemNames/InvItem_704	Shovel of Sand
 InventoryItemDescriptions/InvDesc_704	This big spoon is filled with sand.
 InventoryItemNames/InvItem_705	Shovel of Mud
@@ -74,7 +74,7 @@ InventoryItemDescriptions/InvDesc_730	Helps you see. A lot.
 InventoryItemNames/InvItem_731	Triangle Glasses
 InventoryItemDescriptions/InvDesc_731	Could take an eye out.
 InventoryItemNames/InvItem_732	Shutter Shades
-InventoryItemDescriptions/InvDesc_732	Keep the sun out of some of you eyes.
+InventoryItemDescriptions/InvDesc_732	Keep the sun out of some of your eyes.
 InventoryItemNames/InvItem_733	Round Horned Glasses
 InventoryItemDescriptions/InvDesc_733	Stylish.
 InventoryItemNames/InvItem_734	Round Horned Sun Glasses
@@ -134,9 +134,9 @@ InventoryItemDescriptions/InvDesc_760	Wood used to seperate things.
 InventoryItemNames/InvItem_761	Hard Wood Fence
 InventoryItemDescriptions/InvDesc_761	Wood used to seperate things.
 InventoryItemNames/InvItem_762	Tin Fence
-InventoryItemDescriptions/InvDesc_762	Its strong!
+InventoryItemDescriptions/InvDesc_762	It's strong!
 InventoryItemNames/InvItem_763	Big Fried Egg
-InventoryItemDescriptions/InvDesc_763	Its a big one and it's fried!
+InventoryItemDescriptions/InvDesc_763	It's a big one and it's fried!
 InventoryItemNames/InvItem_764	Fried Egg
 InventoryItemDescriptions/InvDesc_764	Sunny side up.
 InventoryItemNames/InvItem_765	Gum Wood Gate
@@ -288,7 +288,7 @@ InventoryItemDescriptions/InvDesc_837	Lures sharks to its position.
 InventoryItemNames/InvItem_838	Battle Shovel
 InventoryItemDescriptions/InvDesc_838	Dig this.
 InventoryItemNames/InvItem_839	Bone Bow
-InventoryItemDescriptions/InvDesc_839	How do this even work?
+InventoryItemDescriptions/InvDesc_839	How does this even work?
 InventoryItemNames/InvItem_840	Bone Arrow
 InventoryItemDescriptions/InvDesc_840	Sharp bones that can be shot.
 InventoryItemNames/InvItem_841	Gold Pocket Watch
@@ -336,7 +336,7 @@ InventoryItemDescriptions/InvDesc_861	It's ready for baking.
 InventoryItemNames/InvItem_862	Sugar
 InventoryItemDescriptions/InvDesc_862	Sweet.
 InventoryItemNames/InvItem_863	Worm Farm
-InventoryItemDescriptions/InvDesc_863	Creates fertilizer every now and again
+InventoryItemDescriptions/InvDesc_863	Creates fertiliser every now and again
 InventoryItemNames/InvItem_864	Machine Manual
 InventoryItemDescriptions/InvDesc_864	Tells you what can go in what machine.
 InventoryItemNames/InvItem_865	Warm Nordic Bed
@@ -369,7 +369,7 @@ InventoryItemNames/InvItem_879	Dark Wooden Seat
 InventoryItemDescriptions/InvDesc_879	A single chair for sitting.
 InventoryItemNames/InvItem_880	Dark Wooden Couch
 InventoryItemDescriptions/InvDesc_880	A Couch. You can sit on it with a friend
-InventoryItemNames/InvItem_881	Wooden Bedside Table
+InventoryItemNames/InvItem_881	Dark Wooden Bedside Table
 InventoryItemDescriptions/InvDesc_881	A wooden table for beside your bed.
 InventoryItemNames/InvItem_882	Tea Pot
 InventoryItemDescriptions/InvDesc_882	
@@ -412,7 +412,7 @@ InventoryItemDescriptions/InvDesc_900	A creepy gold statue.
 InventoryItemNames/InvItem_901	Iron Cement Fence
 InventoryItemDescriptions/InvDesc_901	Very Fancy
 InventoryItemNames/InvItem_902	Copper Top Fence
-InventoryItemDescriptions/InvDesc_902	Fany Fence
+InventoryItemDescriptions/InvDesc_902	Fancy Fence
 InventoryItemNames/InvItem_903	Umbrella
 InventoryItemDescriptions/InvDesc_903	Keep the wet out
 InventoryItemNames/InvItem_904	Bulletin Board
@@ -528,7 +528,7 @@ InventoryItemDescriptions/InvDesc_958	A prize from an Alpha Croco
 InventoryItemNames/InvItem_959	Alpha Spear
 InventoryItemDescriptions/InvDesc_959	Quaking in your boots
 InventoryItemNames/InvItem_960	Alpha Bat
-InventoryItemDescriptions/InvDesc_960	Hows this?
+InventoryItemDescriptions/InvDesc_960	How's this?
 InventoryItemNames/InvItem_961	Pattern Stone Path
 InventoryItemDescriptions/InvDesc_961	A path in a circular pattern
 InventoryItemNames/InvItem_962	Panda Hood
@@ -561,7 +561,7 @@ InventoryItemNames/InvItem_975	Dark Detective Pants
 InventoryItemDescriptions/InvDesc_975	On the case.
 InventoryItemNames/InvItem_976	Dark Trench Coat
 InventoryItemDescriptions/InvDesc_976	A sneaky coat.
-InventoryItemNames/InvItem_977	P.I Hat
+InventoryItemNames/InvItem_977	Dark P.I Hat
 InventoryItemDescriptions/InvDesc_977	For investigating.
 InventoryItemNames/InvItem_978	Blue Summer Dress
 InventoryItemDescriptions/InvDesc_978	Keeps you cool
@@ -612,7 +612,7 @@ InventoryItemDescriptions/InvDesc_1000	Warm flooring
 InventoryItemNames/InvItem_1001	Bottle Tree Seed
 InventoryItemDescriptions/InvDesc_1001	Plant a Bottle Tree. They grow slow!
 InventoryItemNames/InvItem_1002	Mushroom Path
-InventoryItemDescriptions/InvDesc_1002	It's glows a bit
+InventoryItemDescriptions/InvDesc_1002	It glows a bit
 InventoryItemNames/InvItem_1003	Pearl Path
 InventoryItemDescriptions/InvDesc_1003	An expensive path for your feet.
 InventoryItemNames/InvItem_1004	Melon Scarecrow
@@ -850,7 +850,7 @@ InventoryItemDescriptions/InvDesc_1119	It's a roof
 InventoryItemNames/InvItem_1120	Wall
 InventoryItemDescriptions/InvDesc_1120	Wall
 InventoryItemNames/InvItem_1121	Billy Can Kit
-InventoryItemDescriptions/InvDesc_1121	Allows you make hot drinks and soups.
+InventoryItemDescriptions/InvDesc_1121	Make hot drinks, jams and soups.
 InventoryItemNames/InvItem_1122	Tongs
 InventoryItemDescriptions/InvDesc_1122	Don't burn your hands
 InventoryItemNames/InvItem_1123	Tape Measure
@@ -875,7 +875,7 @@ InventoryItemNames/InvItem_1132	Vine Fence
 InventoryItemDescriptions/InvDesc_1132	A fence covered in vines.
 InventoryItemNames/InvItem_1133	Mossy Brick Path
 InventoryItemDescriptions/InvDesc_1133	Some bricks for the ground.
-InventoryItemNames/InvItem_1134	Market Stall
+InventoryItemNames/InvItem_1134	Hard Wood Market Stall
 InventoryItemDescriptions/InvDesc_1134	A decorative stall for items
 InventoryItemNames/InvItem_1135	Marble Fence
 InventoryItemDescriptions/InvDesc_1135	Keep things in or out.
@@ -915,9 +915,9 @@ InventoryItemNames/InvItem_1152	Sailor Hat
 InventoryItemDescriptions/InvDesc_1152	Ahoy
 InventoryItemNames/InvItem_1153	Sailor Pants
 InventoryItemDescriptions/InvDesc_1153	Ahoy
-InventoryItemNames/InvItem_1154	Sailor  Shirt
+InventoryItemNames/InvItem_1154	Sailor Shirt
 InventoryItemDescriptions/InvDesc_1154	Ahoy
-InventoryItemNames/InvItem_1155	Sailor  Boots
+InventoryItemNames/InvItem_1155	Sailor Boots
 InventoryItemDescriptions/InvDesc_1155	Ahoy
 InventoryItemNames/InvItem_1156	Sailor Dress
 InventoryItemDescriptions/InvDesc_1156	Ahoy
@@ -929,9 +929,9 @@ InventoryItemNames/InvItem_1159	Dinner Set
 InventoryItemDescriptions/InvDesc_1159	Ready for a meal
 InventoryItemNames/InvItem_1160	Stack of Plates
 InventoryItemDescriptions/InvDesc_1160	Clean or dirty?
-InventoryItemNames/InvItem_1161	Fake Bread
+InventoryItemNames/InvItem_1161	Bread Board
 InventoryItemDescriptions/InvDesc_1161	Display Bread
-InventoryItemNames/InvItem_1162	Fake Wattle Brew
+InventoryItemNames/InvItem_1162	Wattle Brew Set
 InventoryItemDescriptions/InvDesc_1162	Display Brew
 InventoryItemNames/InvItem_1163	Ramp
 InventoryItemDescriptions/InvDesc_1163	A ramp that uses the tile under it.
@@ -1051,3 +1051,205 @@ InventoryItemNames/InvItem_1220	Snag
 InventoryItemDescriptions/InvDesc_1220	A rare delicacy 
 InventoryItemNames/InvItem_1221	Balloon
 InventoryItemDescriptions/InvDesc_1221	Who would have thought air could be so much fun?
+InventoryItemNames/InvItem_1222	Dinkum Shirt
+InventoryItemDescriptions/InvDesc_1222	What's a Dinkum?
+InventoryItemNames/InvItem_1223	JB Shirt
+InventoryItemDescriptions/InvDesc_1223	Thanks for playing
+InventoryItemNames/InvItem_1224	Prize Ticket
+InventoryItemDescriptions/InvDesc_1224	Can be redeemed for prizes
+InventoryItemNames/InvItem_1225	Dinkum Cap
+InventoryItemDescriptions/InvDesc_1225	A snazzy hat
+InventoryItemNames/InvItem_1226	Bubble Blower
+InventoryItemDescriptions/InvDesc_1226	The fun never pops
+InventoryItemNames/InvItem_1227	Croco Plush
+InventoryItemDescriptions/InvDesc_1227	It's small and cute
+InventoryItemNames/InvItem_1228	Frying pan
+InventoryItemDescriptions/InvDesc_1228	Not just for frying
+InventoryItemNames/InvItem_1229	Magpie Plush
+InventoryItemDescriptions/InvDesc_1229	It's small and cute
+InventoryItemNames/InvItem_1230	Mu Plush
+InventoryItemDescriptions/InvDesc_1230	It's small and cute
+InventoryItemNames/InvItem_1231	Red Bar Stool
+InventoryItemDescriptions/InvDesc_1231	A red bar stool
+InventoryItemNames/InvItem_1232	Raffle Wheel
+InventoryItemDescriptions/InvDesc_1232	Take it for a spin
+InventoryItemNames/InvItem_1233	Cape
+InventoryItemDescriptions/InvDesc_1233	Who wears a cape?
+InventoryItemNames/InvItem_1234	Anniversary Balloons
+InventoryItemDescriptions/InvDesc_1234	Place 'em down
+InventoryItemNames/InvItem_1235	Velvet Rope Fence
+InventoryItemDescriptions/InvDesc_1235	Fancy rope used to separate things.
+InventoryItemNames/InvItem_1236	Red Carpet Path
+InventoryItemDescriptions/InvDesc_1236	Roll it out
+InventoryItemNames/InvItem_1237	Seaweed
+InventoryItemDescriptions/InvDesc_1237	It's like salty grass
+InventoryItemNames/InvItem_1238	Seaweed Soup
+InventoryItemDescriptions/InvDesc_1238	A salty treat
+InventoryItemNames/InvItem_1239	Bush Devil Plush
+InventoryItemDescriptions/InvDesc_1239	It's small and cute
+InventoryItemNames/InvItem_1240	Camera Drone
+InventoryItemDescriptions/InvDesc_1240	Take a selfie
+InventoryItemNames/InvItem_1241	Frilly Plush
+InventoryItemDescriptions/InvDesc_1241	It's small and cute
+InventoryItemNames/InvItem_1242	Blue Hang Glider
+InventoryItemDescriptions/InvDesc_1242	Float your day away.
+InventoryItemNames/InvItem_1243	Pink Hang Glider
+InventoryItemDescriptions/InvDesc_1243	Float your day away.
+InventoryItemNames/InvItem_1244	Orange Hang Glider
+InventoryItemDescriptions/InvDesc_1244	Float your day away.
+InventoryItemNames/InvItem_1245	Purple Hang Glider
+InventoryItemDescriptions/InvDesc_1245	Float your day away.
+InventoryItemNames/InvItem_1246	Diggo Plush
+InventoryItemDescriptions/InvDesc_1246	It's small and cute
+InventoryItemNames/InvItem_1247	Gum Wood Market Stall
+InventoryItemDescriptions/InvDesc_1247	A decorative stall for items
+InventoryItemNames/InvItem_1248	Palm Wood Market Stall
+InventoryItemDescriptions/InvDesc_1248	A decorative stall for items
+InventoryItemNames/InvItem_1249	Gum Wood Arch
+InventoryItemDescriptions/InvDesc_1249	Walk under it!
+InventoryItemNames/InvItem_1250	Palm Wood Arch
+InventoryItemDescriptions/InvDesc_1250	Walk under it!
+InventoryItemNames/InvItem_1251	Hard Wood Arch
+InventoryItemDescriptions/InvDesc_1251	Walk under it!
+InventoryItemNames/InvItem_1252	Candelabra
+InventoryItemDescriptions/InvDesc_1252	Makes a table
+InventoryItemNames/InvItem_1253	White Gala Dress
+InventoryItemDescriptions/InvDesc_1253	For a special occasion
+InventoryItemNames/InvItem_1254	Wide Palm Wood Bridge
+InventoryItemDescriptions/InvDesc_1254	Maybe you could cross the water on this?
+InventoryItemNames/InvItem_1255	Pincher Plant Plush
+InventoryItemDescriptions/InvDesc_1255	It's small and cute
+InventoryItemNames/InvItem_1256	Fairy Light Wall
+InventoryItemDescriptions/InvDesc_1256	Festive
+InventoryItemNames/InvItem_1257	Tuxedo Jacket
+InventoryItemDescriptions/InvDesc_1257	Real Sharp
+InventoryItemNames/InvItem_1258	Tuxedo Pants
+InventoryItemDescriptions/InvDesc_1258	These are some nice pants.
+InventoryItemNames/InvItem_1259	Tuxedo Shoes
+InventoryItemDescriptions/InvDesc_1259	Shoes for a tux
+InventoryItemNames/InvItem_1260	Vine Wall
+InventoryItemDescriptions/InvDesc_1260	A nice backdrop
+InventoryItemNames/InvItem_1261	Statue
+InventoryItemDescriptions/InvDesc_1261	A statue of a person
+InventoryItemNames/InvItem_1262	Seamstress Dress
+InventoryItemDescriptions/InvDesc_1262	It's got powerful energy
+InventoryItemNames/InvItem_1263	Lab Coat
+InventoryItemDescriptions/InvDesc_1263	For a scientist
+InventoryItemNames/InvItem_1264	Bouquet Pot
+InventoryItemDescriptions/InvDesc_1264	A bouquet in a pot.
+InventoryItemNames/InvItem_1265	Black Hood
+InventoryItemDescriptions/InvDesc_1265	A hood with a cape
+InventoryItemNames/InvItem_1266	Ute
+InventoryItemDescriptions/InvDesc_1266	Vroom Vroom
+InventoryItemNames/InvItem_1267	Red Hood
+InventoryItemDescriptions/InvDesc_1267	A red hood with a cape
+InventoryItemNames/InvItem_1268	Tie Dye Pants
+InventoryItemDescriptions/InvDesc_1268	Tied and dyed
+InventoryItemNames/InvItem_1269	Tie Dye Shirt
+InventoryItemDescriptions/InvDesc_1269	Tied and dyed
+InventoryItemNames/InvItem_1270	Tie Dye Cap
+InventoryItemDescriptions/InvDesc_1270	How do you tie a cap?
+InventoryItemNames/InvItem_1271	Sugar Cane Crate
+InventoryItemDescriptions/InvDesc_1271	A decorative box of fruit
+InventoryItemNames/InvItem_1272	Cabbage Box
+InventoryItemDescriptions/InvDesc_1272	A decorative box of fruit
+InventoryItemNames/InvItem_1273	Carrot Box
+InventoryItemDescriptions/InvDesc_1273	A decorative box of fruit
+InventoryItemNames/InvItem_1274	Corn Box
+InventoryItemDescriptions/InvDesc_1274	A decorative box of fruit
+InventoryItemNames/InvItem_1275	Kale Box
+InventoryItemDescriptions/InvDesc_1275	A decorative box of fruit
+InventoryItemNames/InvItem_1276	Potato Box
+InventoryItemDescriptions/InvDesc_1276	A decorative box of spuds
+InventoryItemNames/InvItem_1277	Bottled Brush Set
+InventoryItemDescriptions/InvDesc_1277	Display Brew
+InventoryItemNames/InvItem_1278	Jelly Brew Set
+InventoryItemDescriptions/InvDesc_1278	Display Brew
+InventoryItemNames/InvItem_1279	Cooked Meat Plate
+InventoryItemDescriptions/InvDesc_1279	Ready for a meal
+InventoryItemNames/InvItem_1280	Cooked Drumstick Plate
+InventoryItemDescriptions/InvDesc_1280	Ready for a meal
+InventoryItemNames/InvItem_1281	Lamington Plate
+InventoryItemDescriptions/InvDesc_1281	Ready for a meal
+InventoryItemNames/InvItem_1282	Meat Pie Plate
+InventoryItemDescriptions/InvDesc_1282	Ready for a meal
+InventoryItemNames/InvItem_1283	Wheat Crate
+InventoryItemDescriptions/InvDesc_1283	A decorative box of wheat
+InventoryItemNames/InvItem_1284	Kanz Shirt
+InventoryItemDescriptions/InvDesc_1284	It's dangerous to go alone!
+InventoryItemNames/InvItem_1285	Tomato Box
+InventoryItemDescriptions/InvDesc_1285	A decorative box of fruit
+InventoryItemNames/InvItem_1286	Cheese Board
+InventoryItemDescriptions/InvDesc_1286	Ready for a meal
+InventoryItemNames/InvItem_1287	Cooked Croco Meat Plate
+InventoryItemDescriptions/InvDesc_1287	Ready for a meal
+InventoryItemNames/InvItem_1288	Pavlova Plate
+InventoryItemDescriptions/InvDesc_1288	Ready for a meal
+InventoryItemNames/InvItem_1289	Quiche Plate
+InventoryItemDescriptions/InvDesc_1289	Ready for a meal
+InventoryItemNames/InvItem_1290	Damper Plate
+InventoryItemDescriptions/InvDesc_1290	Ready for a meal
+InventoryItemNames/InvItem_1291	Sausage Roll Plate
+InventoryItemDescriptions/InvDesc_1291	Ready for a meal
+InventoryItemNames/InvItem_1292	Pastie Plate
+InventoryItemDescriptions/InvDesc_1292	Ready for a meal
+InventoryItemNames/InvItem_1293	Fairy Bread Plate
+InventoryItemDescriptions/InvDesc_1293	Ready for a meal
+InventoryItemNames/InvItem_1294	Egg Plate
+InventoryItemDescriptions/InvDesc_1294	Ready for a meal
+InventoryItemNames/InvItem_1295	Fish And Chips Plate
+InventoryItemDescriptions/InvDesc_1295	Ready for a meal
+InventoryItemNames/InvItem_1296	Fruit Salad Plate
+InventoryItemDescriptions/InvDesc_1296	Ready for a meal
+InventoryItemNames/InvItem_1297	Garden Salad Plate
+InventoryItemDescriptions/InvDesc_1297	Ready for a meal
+InventoryItemNames/InvItem_1298	Hearty Stew Plate
+InventoryItemDescriptions/InvDesc_1298	Ready for a meal
+InventoryItemNames/InvItem_1299	Prime Roast Plate
+InventoryItemDescriptions/InvDesc_1299	Ready for a meal
+InventoryItemNames/InvItem_1300	Onion Box
+InventoryItemDescriptions/InvDesc_1300	A decorative box of fruit
+InventoryItemNames/InvItem_1301	Watermelon Box
+InventoryItemDescriptions/InvDesc_1301	A decorative box of fruit
+InventoryItemNames/InvItem_1302	Pumpkin Box
+InventoryItemDescriptions/InvDesc_1302	A decorative box of fruit
+InventoryItemNames/InvItem_1303	Food Modeller
+InventoryItemDescriptions/InvDesc_1303	Put food in it to make display food.
+InventoryItemNames/InvItem_1304	Flour Bag Stack
+InventoryItemDescriptions/InvDesc_1304	Display Brew
+InventoryItemNames/InvItem_1305	Sugar Bag Stack
+InventoryItemDescriptions/InvDesc_1305	Display Brew
+InventoryItemNames/InvItem_1306	Coffee Bag Stack
+InventoryItemDescriptions/InvDesc_1306	Display Brew
+InventoryItemNames/InvItem_1307	Coffee Cup Set
+InventoryItemDescriptions/InvDesc_1307	Display Brew
+InventoryItemNames/InvItem_1308	Wattle Tea Set
+InventoryItemDescriptions/InvDesc_1308	Display Brew
+InventoryItemNames/InvItem_1309	Bottle Tea Set
+InventoryItemDescriptions/InvDesc_1309	Display Brew
+InventoryItemNames/InvItem_1310	Mighty Spread Set
+InventoryItemDescriptions/InvDesc_1310	Display Brew
+InventoryItemNames/InvItem_1311	Honey Set
+InventoryItemDescriptions/InvDesc_1311	Display Brew
+InventoryItemNames/InvItem_1312	Apple Jam Set
+InventoryItemDescriptions/InvDesc_1312	Display Brew
+InventoryItemNames/InvItem_1313	Lime Jam Set
+InventoryItemDescriptions/InvDesc_1313	Display Brew
+InventoryItemNames/InvItem_1314	Banana Jam Set
+InventoryItemDescriptions/InvDesc_1314	Display Brew
+InventoryItemNames/InvItem_1315	Quandong Jam Set
+InventoryItemDescriptions/InvDesc_1315	Display Brew
+InventoryItemNames/InvItem_1316	River Reed Seed
+InventoryItemDescriptions/InvDesc_1316	A reed seed
+InventoryItemNames/InvItem_1317	Register
+InventoryItemDescriptions/InvDesc_1317	Some books
+InventoryItemNames/InvItem_1318	Grean Bean Box
+InventoryItemDescriptions/InvDesc_1318	A decorative box of fruit
+InventoryItemNames/InvItem_1319	Meat on a Stick Set
+InventoryItemDescriptions/InvDesc_1319	Ready for a meal
+InventoryItemNames/InvItem_1320	Dagwood Dog Set
+InventoryItemDescriptions/InvDesc_1320	Ready for a meal
+InventoryItemNames/InvItem_1321	Cherry Box
+InventoryItemDescriptions/InvDesc_1321	A decorative box of fruit
+InventoryItemNames/InvItem_1322	Seaweed Soup Plate
+InventoryItemDescriptions/InvDesc_1322	Ready for a meal
