@@ -1,18 +1,18 @@
-﻿using BepInEx;
+﻿using TMPro;
 using I2.Loc;
+using System;
+using BepInEx;
+using XYModLib;
+using System.IO;
+using I2LocPatch;
 using HarmonyLib;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using System.Text.RegularExpressions;
 using System.Text;
-using TMPro;
-using System.IO;
-using BepInEx.Configuration;
-using XYModLib;
 using Newtonsoft.Json;
-using System;
-using I2LocPatch;
+using BepInEx.Configuration;
+using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace DinkumChinese
 {
@@ -21,7 +21,7 @@ namespace DinkumChinese
     {
         public const string GUID = "xiaoye97.Dinkum.DinkumChinese";
         public const string PluginName = "DinkumChinese";
-        public const string Version = "1.13.0";
+        public const string Version = "1.14.0";
         public static DinkumChinesePlugin Inst;
 
         public static bool Pause
