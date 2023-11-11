@@ -112,7 +112,7 @@ namespace DinkumChinese
             return instructions;
         }
 
-        [HarmonyTranspiler, HarmonyPatch(typeof(ConversationManager), "checkLineForReplacement")]
+        [HarmonyTranspiler, HarmonyPatch(typeof(ConversationManager), "CheckLineForReplacement")]
         public static IEnumerable<CodeInstruction> ConversationManager_checkLineForReplacement_Patch(IEnumerable<CodeInstruction> instructions)
         {
             instructions = ReplaceIL(instructions, "South City", "南部城市");
@@ -144,8 +144,8 @@ namespace DinkumChinese
             return instructions;
         }
 
-        [HarmonyTranspiler, HarmonyPatch(typeof(ConversationManager), "talkToNPC")]
-        public static IEnumerable<CodeInstruction> ConversationManager_talkToNPC_Patch(IEnumerable<CodeInstruction> instructions)
+        [HarmonyTranspiler, HarmonyPatch(typeof(ConversationManager), "StartConversationWithAvailableNPC")]
+        public static IEnumerable<CodeInstruction> ConversationManager_StartConversationWithAvailableNPC_Patch(IEnumerable<CodeInstruction> instructions)
         {
             instructions = ReplaceIL(instructions, "A new deed is available!", "新契约可用！");
             instructions = ReplaceIL(instructions, "Talk to Fletch to apply for deeds.", "与Fletch谈谈申请契约。");
@@ -163,8 +163,8 @@ namespace DinkumChinese
             return instructions;
         }
 
-        [HarmonyTranspiler, HarmonyPatch(typeof(EquipItemToChar), "OnDestroy")]
-        public static IEnumerable<CodeInstruction> EquipItemToChar_OnDestroy_Patch(IEnumerable<CodeInstruction> instructions)
+        [HarmonyTranspiler, HarmonyPatch(typeof(EquipItemToChar), "OnDisable")]
+        public static IEnumerable<CodeInstruction> EquipItemToChar_OnDisable_Patch(IEnumerable<CodeInstruction> instructions)
         {
             instructions = ReplaceIL(instructions, " has left", " 离开了");
             return instructions;
@@ -232,18 +232,19 @@ namespace DinkumChinese
         {
             instructions = ReplaceIL(instructions, "All year", "全年");
             instructions = ReplaceIL(instructions, "Summer", "夏天");
-            instructions = ReplaceIL(instructions, "Autum", "秋天");
+            instructions = ReplaceIL(instructions, "Autumn", "秋天");
             instructions = ReplaceIL(instructions, "Winter", "冬天");
             instructions = ReplaceIL(instructions, "Spring", "春天");
             instructions = ReplaceIL(instructions, "Bury", "掩埋");
             instructions = ReplaceIL(instructions, "Speeds up certain production devices for up to 12 tiles", "加快某些生产设备的速度，半径范围12格子");
+            instructions = ReplaceIL(instructions, "Speeds up certain production devices for up to 8 tiles", "加快某些生产设备的速度，半径范围12格子");
             instructions = ReplaceIL(instructions, "Reaches ", "灌溉范围半径");
             instructions = ReplaceIL(instructions, " tiles out.\n<color=red>Requires Water Tank</color>", "格。\n<color=red>需要水箱</color>");
             instructions = ReplaceIL(instructions, "Provides water to sprinklers ", "向");
             instructions = ReplaceIL(instructions, " tiles out.", "格半径内的洒水器提供水源。");
             instructions = ReplaceIL(instructions, "Fills animal feeders ", "填充动物饲料 半径范围");
             instructions = ReplaceIL(instructions, " tiles out.\n<color=red>Requires Animal Food</color>", "格。\n<color=red>需要动物饲料</color>");
-
+            instructions = ReplaceIL(instructions, " x Tiles Wide", "x半径范围");
             return instructions;
         }
 
@@ -733,11 +734,10 @@ namespace DinkumChinese
             return instructions;
         }
 
-        [HarmonyTranspiler, HarmonyPatch(typeof(WeatherManager), "currentWeather")]
-        public static IEnumerable<CodeInstruction> WeatherManager_currentWeather_Patch(IEnumerable<CodeInstruction> instructions)
+        [HarmonyTranspiler, HarmonyPatch(typeof(WeatherManager), "GetWeatherDescription")]
+        public static IEnumerable<CodeInstruction> WeatherManager_GetWeatherDescription_Patch(IEnumerable<CodeInstruction> instructions)
         {
-            instructions = ReplaceIL(instructions, "It is currently ", "当前气温");
-            instructions = ReplaceIL(instructions, "° and ", "°并且");
+            instructions = ReplaceIL(instructions, "It is currently {0} ° and ", "当前气温{0}°并且");
             instructions = ReplaceIL(instructions, "Storming", "暴风雨");
             instructions = ReplaceIL(instructions, "Raining", "降雨");
             instructions = ReplaceIL(instructions, "Foggy", "雾气");
@@ -750,26 +750,6 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, " Westernly ", "西");
             instructions = ReplaceIL(instructions, " Easternly ", "东");
             instructions = ReplaceIL(instructions, " Wind.", "风。");
-            return instructions;
-        }
-
-        [HarmonyTranspiler, HarmonyPatch(typeof(WeatherManager), "tomorrowsWeather")]
-        public static IEnumerable<CodeInstruction> WeatherManager_tomorrowsWeather_Patch(IEnumerable<CodeInstruction> instructions)
-        {
-            instructions = ReplaceIL(instructions, "Tomorrow expect ", "明日天气预报:");
-            instructions = ReplaceIL(instructions, "Storms", "暴风雨");
-            instructions = ReplaceIL(instructions, "Rain", "降雨");
-            instructions = ReplaceIL(instructions, "Fog", "雾气");
-            instructions = ReplaceIL(instructions, "Fine Weather", "好天气");
-            instructions = ReplaceIL(instructions, ". With", "。还有");
-            instructions = ReplaceIL(instructions, " Strong", "强烈的");
-            instructions = ReplaceIL(instructions, " Light", "微弱的");
-            instructions = ReplaceIL(instructions, " Northern ", "北");
-            instructions = ReplaceIL(instructions, " Southern ", "南");
-            instructions = ReplaceIL(instructions, " Westernly ", "西");
-            instructions = ReplaceIL(instructions, " Easternly ", "东");
-            instructions = ReplaceIL(instructions, "Wind. With temperatures around ", "风。温度接近");
-            instructions = ReplaceIL(instructions, "°.", "°。");
             return instructions;
         }
 

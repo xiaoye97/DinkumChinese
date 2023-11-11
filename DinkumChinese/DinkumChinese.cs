@@ -9,7 +9,6 @@ using HarmonyLib;
 using System.Linq;
 using UnityEngine;
 using System.Text;
-using Newtonsoft.Json;
 using BepInEx.Configuration;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
@@ -21,8 +20,9 @@ namespace DinkumChinese
     {
         public const string GUID = "xiaoye97.Dinkum.DinkumChinese";
         public const string PluginName = "DinkumChinese";
-        public const string Version = "1.14.0";
+        public const string Version = "1.15.0";
         public static DinkumChinesePlugin Inst;
+        public static IJson Json;
 
         public static bool Pause
         {
@@ -57,6 +57,7 @@ namespace DinkumChinese
         private void Awake()
         {
             Inst = this;
+            Json = new LitJsonHelper();
             DevMode = Config.Bind<bool>("Dev", "DevMode", false, "开发模式时，可以按快捷键触发开发功能");
             DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "开发模式时，不加载DynamicText Post Quest翻译，方便dump");
             LogNoTranslation = Config.Bind<bool>("Tool", "LogNoTranslation", true, "可以输出没翻译的目标");
@@ -256,10 +257,11 @@ namespace DinkumChinese
         [HarmonyPrefix, HarmonyPatch(typeof(RealWorldTimeLight), "setUpDayAndDate")]
         public static bool RealWorldTimeLight_setUpDayAndDate_Patch(RealWorldTimeLight __instance)
         {
-            __instance.seasonAverageTemp = __instance.seasonAverageTemps[WorldManager.manageWorld.month - 1];
-            __instance.DayText.text = __instance.getDayName(WorldManager.manageWorld.day - 1);
-            __instance.DateText.text = (WorldManager.manageWorld.day + (WorldManager.manageWorld.week - 1) * 7).ToString("00");
-            __instance.SeasonText.text = __instance.getSeasonName(WorldManager.manageWorld.month - 1);
+            __instance.seasonAverageTemp = __instance.seasonAverageTemps[WorldManager.Instance.month - 1];
+            __instance.DayText.text = __instance.getDayName(WorldManager.Instance.day - 1);
+            __instance.DateText.text = (WorldManager.Instance.day + (WorldManager.Instance.week - 1) * 7).ToString("00");
+            __instance.SeasonText.text = __instance.getSeasonName(WorldManager.Instance.month - 1);
+            SeasonManager.manage.checkSeasonAndChangeMaterials();
             return false;
         }
 
@@ -271,15 +273,15 @@ namespace DinkumChinese
             __result = result;
             if (!LocalizationManager.Sources[0].ContainsTerm(result))
             {
-                if (__instance.startLineAlt.aConverstationSequnce.Length > i)
+                if (__instance.startLineAlt.sequence.Length > i)
                 {
-                    if (string.IsNullOrWhiteSpace(__instance.startLineAlt.aConverstationSequnce[i]))
+                    if (string.IsNullOrWhiteSpace(__instance.startLineAlt.sequence[i]))
                     {
                         __result = result;
                     }
                     else
                     {
-                        __result = result + "_" + __instance.startLineAlt.aConverstationSequnce[i].GetHashCode();
+                        __result = result + "_" + __instance.startLineAlt.sequence[i].GetHashCode();
                     }
                 }
             }
@@ -323,15 +325,15 @@ namespace DinkumChinese
             {
                 if (__instance.responesAlt.Length > i)
                 {
-                    if (__instance.responesAlt[i].aConverstationSequnce.Length > r)
+                    if (__instance.responesAlt[i].sequence.Length > r)
                     {
-                        if (string.IsNullOrWhiteSpace(__instance.responesAlt[i].aConverstationSequnce[r]))
+                        if (string.IsNullOrWhiteSpace(__instance.responesAlt[i].sequence[r]))
                         {
                             __result = result;
                         }
                         else
                         {
-                            __result = result + "_" + __instance.responesAlt[i].aConverstationSequnce[r].GetHashCode();
+                            __result = result + "_" + __instance.responesAlt[i].sequence[r].GetHashCode();
                         }
                     }
                 }
@@ -500,15 +502,15 @@ namespace DinkumChinese
             foreach (var c in conversations)
             {
                 // Intro
-                for (int i = 0; i < c.startLineAlt.aConverstationSequnce.Length; i++)
+                for (int i = 0; i < c.startLineAlt.sequence.Length; i++)
                 {
                     string key = c.getIntroName(i);
                     if (!LocalizationManager.Sources[0].ContainsTerm(key))
                     {
-                        if (!string.IsNullOrWhiteSpace(c.startLineAlt.aConverstationSequnce[i]))
+                        if (!string.IsNullOrWhiteSpace(c.startLineAlt.sequence[i]))
                         {
-                            string term = $"{key}_{c.startLineAlt.aConverstationSequnce[i].GetHashCode()}";
-                            string line = $"{term}\t{c.startLineAlt.aConverstationSequnce[i].StrToI2Str()}";
+                            string term = $"{key}_{c.startLineAlt.sequence[i].GetHashCode()}";
+                            string line = $"{term}\t{c.startLineAlt.sequence[i].StrToI2Str()}";
                             if (terms.Contains(term))
                             {
                                 string log = $"重复的term，忽略。{line}";
@@ -519,7 +521,7 @@ namespace DinkumChinese
                                 terms.Add(term);
                                 TermLine termLine = new TermLine();
                                 termLine.Name = term;
-                                termLine.Texts = new string[] { c.startLineAlt.aConverstationSequnce[i] };
+                                termLine.Texts = new string[] { c.startLineAlt.sequence[i] };
                                 i2File.Lines.Add(termLine);
                                 //sb.AppendLine(line);
                                 LogInfo(line);
@@ -561,15 +563,15 @@ namespace DinkumChinese
                 // Respone
                 for (int k = 0; k < c.responesAlt.Length; k++)
                 {
-                    for (int l = 0; l < c.responesAlt[k].aConverstationSequnce.Length; l++)
+                    for (int l = 0; l < c.responesAlt[k].sequence.Length; l++)
                     {
                         string key = c.getResponseName(k, l);
                         if (!LocalizationManager.Sources[0].ContainsTerm(key))
                         {
-                            if (!string.IsNullOrWhiteSpace(c.responesAlt[k].aConverstationSequnce[l]))
+                            if (!string.IsNullOrWhiteSpace(c.responesAlt[k].sequence[l]))
                             {
-                                string term = $"{key}_{c.responesAlt[k].aConverstationSequnce[l].GetHashCode()}";
-                                string line = $"{term}\t{c.responesAlt[k].aConverstationSequnce[l].StrToI2Str()}";
+                                string term = $"{key}_{c.responesAlt[k].sequence[l].GetHashCode()}";
+                                string line = $"{term}\t{c.responesAlt[k].sequence[l].StrToI2Str()}";
                                 if (terms.Contains(term))
                                 {
                                     string log = $"重复的term，忽略。{line}";
@@ -581,7 +583,7 @@ namespace DinkumChinese
                                     //sb.AppendLine(line);
                                     TermLine termLine = new TermLine();
                                     termLine.Name = term;
-                                    termLine.Texts = new string[] { c.responesAlt[k].aConverstationSequnce[l] };
+                                    termLine.Texts = new string[] { c.responesAlt[k].sequence[l] };
                                     i2File.Lines.Add(termLine);
                                     LogInfo(line);
                                 }
@@ -614,7 +616,7 @@ namespace DinkumChinese
                 list2.Add(new TextLocData(p.title, ""));
                 list2.Add(new TextLocData(p.contentText, ""));
             }
-            var json = JsonConvert.SerializeObject(list2, Formatting.Indented);
+            var json = Json.ToJson(list2, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/PostTextLoc.json", json);
             Debug.Log(json);
         }
@@ -628,7 +630,7 @@ namespace DinkumChinese
                 list.Add(new TextLocData(q.QuestName, ""));
                 list.Add(new TextLocData(q.QuestDescription, ""));
             }
-            var json = JsonConvert.SerializeObject(list, Formatting.Indented);
+            var json = Json.ToJson(list, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/QuestTextLoc.json", json);
             Debug.Log(json);
         }
@@ -648,7 +650,7 @@ namespace DinkumChinese
             foreach (var m in mgr.fishingTips) list.Add(new TextLocData(m.letterText, ""));
             foreach (var m in mgr.bugTips) list.Add(new TextLocData(m.letterText, ""));
             foreach (var m in mgr.licenceLevelUp) list.Add(new TextLocData(m.letterText, ""));
-            var json = JsonConvert.SerializeObject(list, Formatting.Indented);
+            var json = Json.ToJson(list, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/MailTextLoc.json", json);
             Debug.Log(json);
         }
@@ -658,7 +660,7 @@ namespace DinkumChinese
             var mgr = GameObject.FindObjectOfType<LoadingScreenImageAndTips>(true);
             List<TextLocData> list = new List<TextLocData>();
             foreach (var tip in mgr.tips) list.Add(new TextLocData(tip, ""));
-            var json = JsonConvert.SerializeObject(list, Formatting.Indented);
+            var json = Json.ToJson(list, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/TipsTextLoc.json", json);
             Debug.Log(json);
         }
@@ -668,7 +670,7 @@ namespace DinkumChinese
             var mgr = AnimalManager.manage;
             List<TextLocData> list = new List<TextLocData>();
             foreach (var a in mgr.allAnimals) list.Add(new TextLocData(a.animalName, ""));
-            var json = JsonConvert.SerializeObject(list, Formatting.Indented);
+            var json = Json.ToJson(list, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/AnimalsTextLoc.json", json);
             Debug.Log(json);
         }
@@ -678,9 +680,9 @@ namespace DinkumChinese
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"Key\tEnglish");
             List<string> keys = new List<string>();
-            foreach (var item in Inventory.inv.allItems)
+            foreach (var item in Inventory.Instance.allItems)
             {
-                int id = Inventory.inv.getInvItemId(item);
+                int id = Inventory.Instance.getInvItemId(item);
                 string nameKey = "InventoryItemNames/InvItem_" + id.ToString();
                 string descKey = "InventoryItemDescriptions/InvDesc_" + id.ToString();
                 if (!LocalizationManager.Sources[0].ContainsTerm(nameKey))

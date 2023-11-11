@@ -129,14 +129,14 @@ namespace DinkumChinese
                     string text2 = "";
                     if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSummer && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInWinter && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSpring && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInAutum)
                     {
-                        text2 = UIAnimationManager.manage.getCharacterNameTag("全年");
+                        text2 = UIAnimationManager.manage.GetCharacterNameTag("全年");
                     }
                     else
                     {
                         text2 += "在";
                         if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSummer)
                         {
-                            text2 += UIAnimationManager.manage.getCharacterNameTag("夏天");
+                            text2 += UIAnimationManager.manage.GetCharacterNameTag("夏天");
                         }
                         if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInAutum)
                         {
@@ -144,7 +144,7 @@ namespace DinkumChinese
                             {
                                 text2 += "和";
                             }
-                            text2 += UIAnimationManager.manage.getCharacterNameTag("秋天");
+                            text2 += UIAnimationManager.manage.GetCharacterNameTag("秋天");
                         }
                         if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInWinter)
                         {
@@ -152,7 +152,7 @@ namespace DinkumChinese
                             {
                                 text2 += "和";
                             }
-                            text2 += UIAnimationManager.manage.getCharacterNameTag("冬天");
+                            text2 += UIAnimationManager.manage.GetCharacterNameTag("冬天");
                         }
                         if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSpring)
                         {
@@ -160,7 +160,7 @@ namespace DinkumChinese
                             {
                                 text2 += "和";
                             }
-                            text2 += UIAnimationManager.manage.getCharacterNameTag("春天");
+                            text2 += UIAnimationManager.manage.GetCharacterNameTag("春天");
                         }
                     }
                     if (_this.allItems[itemId].placeable.tileObjectGrowthStages.needsTilledSoil)
@@ -188,7 +188,7 @@ namespace DinkumChinese
                             }
                             text3 = _this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestDrop.getInvItemName();
                         }
-                        text4 = UIAnimationManager.manage.getItemColorTag(text3);
+                        text4 = UIAnimationManager.manage.GetItemColorTag(text3);
                     }
                     else
                     {
@@ -242,9 +242,9 @@ namespace DinkumChinese
                     "。"
                         });
                     }
-                    if (!WorldManager.manageWorld.allObjectSettings[_this.allItems[itemId].placeable.tileObjectId].walkable)
+                    if (!WorldManager.Instance.allObjectSettings[_this.allItems[itemId].placeable.tileObjectId].walkable)
                     {
-                        text = text + "噢，这还需要" + UIAnimationManager.manage.getItemColorTag("植物支架") + "来附着生长。";
+                        text = text + "噢，这还需要" + UIAnimationManager.manage.GetItemColorTag("植物支架") + "来附着生长。";
                     }
                 }
                 __result = text;
@@ -537,7 +537,7 @@ namespace DinkumChinese
                 string nameOri = QuestManager.manage.allQuests[questNo].QuestName.StrToI2Str();
                 string name = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, nameOri);
                 string descOri = QuestManager.manage.allQuests[questNo].QuestDescription.StrToI2Str();
-                string desc = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, descOri).Replace("<IslandName>", Inventory.inv.islandName);
+                string desc = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, descOri).Replace("<IslandName>", Inventory.Instance.islandName);
                 __instance.questTitle.text = name;
                 __instance.questDesc.text = desc;
             }
