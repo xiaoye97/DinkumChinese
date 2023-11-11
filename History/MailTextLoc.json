@@ -1,134 +1,134 @@
 [
-  {
-    "Ori": "We have received the animal you sent us! \r\n\r\nThe specimen will be studied and released back into the wild unharmed.\r\n\r\nYour reward is attached.\r",
-    "Loc": ""
-  },
-  {
-    "Ori": "We have returned your <itemAttachedName>.",
-    "Loc": ""
-  },
-  {
-    "Ori": "Hi there!\n\nI wanted to say thanks to everyone who showed off Dinkum and played before launch. I've loved watching all the videos and streams!\n\nI got a gift for you! Don't worry, it didn't cost me too many Dinks.",
-    "Loc": ""
-  },
-  {
-    "Ori": "Here is the <itemAttachedName> you ordered.",
-    "Loc": ""
-  },
-  {
-    "Ori": "Here is the <itemAttachedName> you ordered.\n\nThank you very much.",
-    "Loc": ""
-  },
-  {
-    "Ori": "I've been cooking a little and I had some <itemAttachedName> left over.\n\nHope you like it!",
-    "Loc": ""
-  },
-  {
-    "Ori": "Hey, here is some <itemAttachedName>. Don't worry about how long it's been sitting in your mail box. Eat it! \n\nIt will be fine!",
-    "Loc": ""
-  },
-  {
-    "Ori": "It was nice talking to you the other day. Thanks for being a great friend!",
-    "Loc": ""
-  },
-  {
-    "Ori": "I was hunting Jackaroo. I hope you don't mind it but I sent you some <itemAttachedName>.",
-    "Loc": ""
-  },
-  {
-    "Ori": "Are you eating enough fruit? Just in case I sent you a <itemAttachedName>.",
-    "Loc": ""
-  },
-  {
-    "Ori": "I saw this <itemAttachedName> and thought it would really suit your house. I hope you like it.",
-    "Loc": ""
-  },
-  {
-    "Ori": "So, I thought you might like <itemAttachedName>. If you don't like it, sell it. That's what I was going to do!",
-    "Loc": ""
-  },
-  {
-    "Ori": "I hope you like hand-me-downs! Here is a <itemAttachedName>. I haven't worn it for years.",
-    "Loc": ""
-  },
-  {
-    "Ori": "Just letting you know that I appreciate everything you are doing for our town.",
-    "Loc": ""
-  },
-  {
-    "Ori": "Your house looks pretty nice. But don't you think it would look nicer with some <itemAttachedName>? \n\nI'll be sure to peep through your windows to make sure you put it up!",
-    "Loc": ""
-  },
-  {
-    "Ori": "I saw this and thought of you.",
-    "Loc": ""
-  },
-  {
-    "Ori": "I don't really need this <itemAttachedName>. (To be honest I found it anyway)",
-    "Loc": ""
-  },
-  {
-    "Ori": "Are you eating enough veggies? Here take this <itemAttachedName>. Eat it. They are good for you!",
-    "Loc": ""
-  },
-  {
-    "Ori": "I chopped down a tree. I mean, I did it. Me!\nAnyway, I made some <itemAttachedName>. I thought you would have a better use for them.",
-    "Loc": ""
-  },
-  {
-    "Ori": "I found these floating in the river. \nI know you are always looking for this sort of stuff. So I sent it to you!",
-    "Loc": ""
-  },
-  {
-    "Ori": "I grew this <itemAttachedName> myself.\n\nLet me know what you think.",
-    "Loc": ""
-  },
-  {
-    "Ori": "Here's a bit of pocket money for you. I know it's not much but you do so much for the town. \n\nI wanted to thank you some way.",
-    "Loc": ""
-  },
-  {
-    "Ori": "I think you might have dropped this at my place the other day.\n\nIf you didn't, please be honest and bring it back to me!",
-    "Loc": ""
-  },
-  {
-    "Ori": "Happy money day!\n\nI'm pretty sure that it's money day... andway, enjoy!",
-    "Loc": ""
-  },
-  {
-    "Ori": "I smashed a rock and found some <itemAttachedName>. \n\nYou like this sort of stuff, right?",
-    "Loc": ""
-  },
-  {
-    "Ori": "I smashed a rock and found some <itemAttachedName>. \n\nYou like this sort of stuff, right?",
-    "Loc": ""
-  },
-  {
-    "Ori": "<itemAttachedName>, <itemAttachedName>, <itemAttachedName>.\n\n You can never have enough <itemAttachedName>.",
-    "Loc": ""
-  },
-  {
-    "Ori": "Here's a <itemAttachedName>. Put it in your house if you like. I don't mind.",
-    "Loc": ""
-  },
-  {
-    "Ori": "I found this <itemAttachedName> in the dirt the other day. \n\nI've seen these before. Do you know what they do?",
-    "Loc": ""
-  },
-  {
-    "Ori": "Here's the <itemAttachedName> I wanted to give to you.\n\nYour pockets were full, so I sent it to you instead.",
-    "Loc": ""
-  },
-  {
-    "Ori": "<b>Here's a fishin' tip for <season></b>!\r\n\nAn undiscovered fish has been spotted in the <biomeName>.\r\n\nIf anyone wants to find it, they should be fishing <timeOfDay>!\r",
-    "Loc": ""
-  },
-  {
-    "Ori": "<b>Bug tips for <season></b>\n\nIt was <timeOfDay>. There was a bug in the <biomeName> I've never seen before.\n\nThought you might like to know.\n",
-    "Loc": ""
-  },
-  {
-    "Ori": "You've been working hard and I'll tell you what, it hasn't gone unnoticed. \n\nBecause you've been increasing your skills there is a new level of <licenceName> available to you.\n\nCome and see me to apply for it!",
-    "Loc": ""
-  }
+    {
+        "Ori": "We have received the animal you sent us! \r\n\r\nThe specimen will be studied and released back into the wild unharmed.\r\n\r\nYour reward is attached.\r",
+        "Loc": ""
+    },
+    {
+        "Ori": "We have returned your <itemAttachedName>.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Hi there!\n\nI wanted to say thanks to everyone who showed off Dinkum and played before launch. I've loved watching all the videos and streams!\n\nI got a gift for you! Don't worry, it didn't cost me too many Dinks.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Here is the <itemAttachedName> you ordered.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Here is the <itemAttachedName> you ordered.\n\nThank you very much.",
+        "Loc": ""
+    },
+    {
+        "Ori": "I've been cooking a little and I had some <itemAttachedName> left over.\n\nHope you like it!",
+        "Loc": ""
+    },
+    {
+        "Ori": "Hey, here is some <itemAttachedName>. Don't worry about how long it's been sitting in your mail box. Eat it! \n\nIt will be fine!",
+        "Loc": ""
+    },
+    {
+        "Ori": "It was nice talking to you the other day. Thanks for being a great friend!",
+        "Loc": ""
+    },
+    {
+        "Ori": "I was hunting Jackaroo. I hope you don't mind it but I sent you some <itemAttachedName>.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Are you eating enough fruit? Just in case I sent you a <itemAttachedName>.",
+        "Loc": ""
+    },
+    {
+        "Ori": "I saw this <itemAttachedName> and thought it would really suit your house. I hope you like it.",
+        "Loc": ""
+    },
+    {
+        "Ori": "So, I thought you might like <itemAttachedName>. If you don't like it, sell it. That's what I was going to do!",
+        "Loc": ""
+    },
+    {
+        "Ori": "I hope you like hand-me-downs! Here is a <itemAttachedName>. I haven't worn it for years.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Just letting you know that I appreciate everything you are doing for our town.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Your house looks pretty nice. But don't you think it would look nicer with some <itemAttachedName>? \n\nI'll be sure to peep through your windows to make sure you put it up!",
+        "Loc": ""
+    },
+    {
+        "Ori": "I saw this and thought of you.",
+        "Loc": ""
+    },
+    {
+        "Ori": "I don't really need this <itemAttachedName>. (To be honest I found it anyway)",
+        "Loc": ""
+    },
+    {
+        "Ori": "Are you eating enough veggies? Here take this <itemAttachedName>. Eat it. They are good for you!",
+        "Loc": ""
+    },
+    {
+        "Ori": "I chopped down a tree. I mean, I did it. Me!\nAnyway, I made some <itemAttachedName>. I thought you would have a better use for them.",
+        "Loc": ""
+    },
+    {
+        "Ori": "I found these floating in the river. \nI know you are always looking for this sort of stuff. So I sent it to you!",
+        "Loc": ""
+    },
+    {
+        "Ori": "I grew this <itemAttachedName> myself.\n\nLet me know what you think.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Here's a bit of pocket money for you. I know it's not much but you do so much for the town. \n\nI wanted to thank you some way.",
+        "Loc": ""
+    },
+    {
+        "Ori": "I think you might have dropped this at my place the other day.\n\nIf you didn't, please be honest and bring it back to me!",
+        "Loc": ""
+    },
+    {
+        "Ori": "Happy money day!\n\nI'm pretty sure that it's money day... andway, enjoy!",
+        "Loc": ""
+    },
+    {
+        "Ori": "I smashed a rock and found some <itemAttachedName>. \n\nYou like this sort of stuff, right?",
+        "Loc": ""
+    },
+    {
+        "Ori": "I smashed a rock and found some <itemAttachedName>. \n\nYou like this sort of stuff, right?",
+        "Loc": ""
+    },
+    {
+        "Ori": "<itemAttachedName>, <itemAttachedName>, <itemAttachedName>.\n\n You can never have enough <itemAttachedName>.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Here's a <itemAttachedName>. Put it in your house if you like. I don't mind.",
+        "Loc": ""
+    },
+    {
+        "Ori": "I found this <itemAttachedName> in the dirt the other day. \n\nI've seen these before. Do you know what they do?",
+        "Loc": ""
+    },
+    {
+        "Ori": "Here's the <itemAttachedName> I wanted to give to you.\n\nYour pockets were full, so I sent it to you instead.",
+        "Loc": ""
+    },
+    {
+        "Ori": "<b>Here's a fishin' tip for <season></b>!\r\n\nAn undiscovered fish has been spotted in the <biomeName>.\r\n\nIf anyone wants to find it, they should be fishing <timeOfDay>!\r",
+        "Loc": ""
+    },
+    {
+        "Ori": "<b>Bug tips for <season></b>\n\nIt was <timeOfDay>. There was a bug in the <biomeName> I've never seen before.\n\nThought you might like to know.\n",
+        "Loc": ""
+    },
+    {
+        "Ori": "You've been working hard and I'll tell you what, it hasn't gone unnoticed. \n\nBecause you've been increasing your skills there is a new level of <licenceName> available to you.\n\nCome and see me to apply for it!",
+        "Loc": ""
+    }
 ]
