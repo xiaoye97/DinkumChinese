@@ -22,7 +22,20 @@ namespace DinkumChinese
         public const string PluginName = "DinkumChinese";
         public const string Version = "1.15.0";
         public static DinkumChinesePlugin Inst;
-        public static IJson Json;
+
+        public static IJson Json
+        {
+            get
+            {
+                if (_json == null)
+                {
+                    _json = new LitJsonHelper();
+                }
+                return _json;
+            }
+        }
+
+        private static IJson _json;
 
         public static bool Pause
         {
@@ -57,7 +70,6 @@ namespace DinkumChinese
         private void Awake()
         {
             Inst = this;
-            Json = new LitJsonHelper();
             DevMode = Config.Bind<bool>("Dev", "DevMode", false, "开发模式时，可以按快捷键触发开发功能");
             DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "开发模式时，不加载DynamicText Post Quest翻译，方便dump");
             LogNoTranslation = Config.Bind<bool>("Tool", "LogNoTranslation", true, "可以输出没翻译的目标");
