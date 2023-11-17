@@ -73,7 +73,7 @@ namespace DinkumChinese
             DevMode = Config.Bind<bool>("Dev", "DevMode", false, "开发模式时，可以按快捷键触发开发功能");
             DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "开发模式时，不加载DynamicText Post Quest翻译，方便dump");
             LogNoTranslation = Config.Bind<bool>("Tool", "LogNoTranslation", true, "可以输出没翻译的目标");
-            DebugWindow = new UIWindow("汉化测试工具[Ctrl+小键盘4]");
+            DebugWindow = new UIWindow("汉化测试工具[Ctrl+数字键4]");
             DebugWindow.OnWinodwGUI = DebugWindowGUI;
             ErrorWindow = new UIWindow($"汉化出现错误 {PluginName} v{Version}");
             ErrorWindow.OnWinodwGUI = ErrorWindowFunc;
@@ -129,29 +129,29 @@ namespace DinkumChinese
             if (DevMode.Value)
             {
                 // Ctrl + 小键盘4 切换GUI
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad4))
+                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha4))
                 {
                     DebugWindow.Show = !DebugWindow.Show;
                 }
                 // Ctrl + 小键盘5 切换暂停游戏，游戏速度1
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad5))
+                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha5))
                 {
                     Pause = !Pause;
                     Time.timeScale = Pause ? 0 : 1;
                 }
                 // Ctrl + 小键盘6 切换暂停游戏，游戏速度10
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad6))
+                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha6))
                 {
                     Pause = !Pause;
                     Time.timeScale = Pause ? 1 : 10;
                 }
                 // Ctrl + 小键盘7 dump场景内所有文本，不包括隐藏的文本
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad7))
+                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha7))
                 {
                     DumpText(false);
                 }
                 // Ctrl + 小键盘8 dump场景内所有文本，包括隐藏的文本
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Keypad8))
+                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha8))
                 {
                     DumpText(true);
                 }
@@ -170,12 +170,12 @@ namespace DinkumChinese
         public void DebugWindowGUI()
         {
             GUILayout.BeginVertical("功能区", GUI.skin.window);
-            if (GUILayout.Button("[Ctrl+小键盘5] 切换暂停游戏，游戏速度1"))
+            if (GUILayout.Button("[Ctrl+数字键5] 切换暂停游戏，游戏速度1"))
             {
                 Pause = !Pause;
                 Time.timeScale = Pause ? 0 : 1;
             }
-            if (GUILayout.Button("[Ctrl+小键盘6] 切换暂停游戏，游戏速度10"))
+            if (GUILayout.Button("[Ctrl+数字键6] 切换暂停游戏，游戏速度10"))
             {
                 Pause = !Pause;
                 Time.timeScale = Pause ? 1 : 10;
@@ -186,11 +186,11 @@ namespace DinkumChinese
             }
             GUILayout.EndVertical();
             GUILayout.BeginVertical("Dump", GUI.skin.window);
-            if (GUILayout.Button("[Ctrl+小键盘7] dump场景内所有文本，不包括隐藏的文本"))
+            if (GUILayout.Button("[Ctrl+数字键7] dump场景内所有文本，不包括隐藏的文本"))
             {
                 DumpText(false);
             }
-            if (GUILayout.Button("[Ctrl+小键盘8] dump场景内所有文本，包括隐藏的文本"))
+            if (GUILayout.Button("[Ctrl+数字键8] dump场景内所有文本，包括隐藏的文本"))
             {
                 DumpText(true);
             }
