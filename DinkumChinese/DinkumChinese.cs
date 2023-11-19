@@ -20,7 +20,7 @@ namespace DinkumChinese
     {
         public const string GUID = "xiaoye97.Dinkum.DinkumChinese";
         public const string PluginName = "DinkumChinese";
-        public const string Version = "1.15.0";
+        public const string Version = "1.16.0";
         public static DinkumChinesePlugin Inst;
 
         public static IJson Json
@@ -66,6 +66,8 @@ namespace DinkumChinese
         public UIWindow ErrorWindow;
         public string ErrorStr;
         public bool IsPluginLoaded;
+
+        private float tipsCD = 15;
 
         private void Awake()
         {
@@ -126,6 +128,10 @@ namespace DinkumChinese
 
         private void Update()
         {
+            if (tipsCD > 0)
+            {
+                tipsCD -= Time.deltaTime;
+            }
             if (DevMode.Value)
             {
                 // Ctrl + 小键盘4 切换GUI
@@ -163,6 +169,10 @@ namespace DinkumChinese
         {
             DebugWindow.OnGUI();
             ErrorWindow.OnGUI();
+            if (tipsCD > 0)
+            {
+                GUILayout.Label($"[{(int)tipsCD}s]温馨提示：汉化mod是开源免费的，不需要花钱买，Dinkum汉化QQ群:864425971，群文件就有");
+            }
         }
 
         private Vector2 cv;
@@ -197,6 +207,10 @@ namespace DinkumChinese
             if (GUILayout.Button("dump所有不在多语言表格内的对话(需要未汉化状态)"))
             {
                 DumpAllConversation();
+            }
+            if (GUILayout.Button("dump所有不在多语言表格内的对话Object(需要未汉化状态)"))
+            {
+                DumpAllConversationObject();
             }
             if (GUILayout.Button("dump post(需要未汉化状态)"))
             {
@@ -599,6 +613,84 @@ namespace DinkumChinese
                                     i2File.Lines.Add(termLine);
                                     LogInfo(line);
                                 }
+                            }
+                        }
+                    }
+                }
+            }
+            i2File.WriteCSVTable($"{Paths.GameRootPath}/I2/{i2File.Name}.csv");
+            LogInfo($"Dump {i2File.Name}完毕");
+        }
+
+        public void DumpAllConversationObject()
+        {
+            List<ConversationObject> conversations = new List<ConversationObject>();
+            // 直接从资源搜索单独的Conversation
+            conversations.AddRange(Resources.FindObjectsOfTypeAll<ConversationObject>());
+
+            //StringBuilder sb = new StringBuilder();
+            //sb.AppendLine($"Key\tEnglish");
+            List<string> terms = new List<string>();
+            I2File i2File = new I2File();
+            i2File.Name = "NoTermConversationObject";
+            i2File.Languages = new List<string>() { "English" };
+
+            foreach (var c in conversations)
+            {
+                // Openings
+                if (c.targetOpenings != null && c.targetOpenings.sequence.Length > 0)
+                {
+                    for (int i = 0; i < c.targetOpenings.sequence.Length; i++)
+                    {
+                        string term = $"{c.conversationTarget}/{c.name}_Intro_{i.ToString("D3")}";
+                        string text = c.targetOpenings.sequence[i];
+                        string line = $"{term}\t{text.StrToI2Str()}";
+                        if (!string.IsNullOrWhiteSpace(term))
+                        {
+                            terms.Add(term);
+                            TermLine termLine = new TermLine();
+                            termLine.Name = term;
+                            termLine.Texts = new string[] { text };
+                            i2File.Lines.Add(termLine);
+                            LogInfo(line);
+                        }
+                    }
+                }
+                // Option
+                for (int i = 0; i < c.playerOptions.Length; i++)
+                {
+                    string term = $"{c.conversationTarget}/{c.name}_Option_{i.ToString("D3")}";
+                    string text = c.playerOptions[i];
+                    string line = $"{term}\t{text.StrToI2Str()}";
+                    if (!string.IsNullOrWhiteSpace(term))
+                    {
+                        terms.Add(term);
+                        TermLine termLine = new TermLine();
+                        termLine.Name = term;
+                        termLine.Texts = new string[] { text };
+                        i2File.Lines.Add(termLine);
+                        LogInfo(line);
+                    }
+                }
+                // Respone
+                for (int i = 0; i < c.targetResponses.Count; i++)
+                {
+                    var response = c.targetResponses[i];
+                    if (response.sequence.Length > 0)
+                    {
+                        for (int j = 0; j < response.sequence.Length; j++)
+                        {
+                            string term = $"{c.conversationTarget}/{c.name}_Response_{i.ToString("D3")}_{j.ToString("D3")}";
+                            string text = response.sequence[j];
+                            string line = $"{term}\t{text.StrToI2Str()}";
+                            if (!string.IsNullOrWhiteSpace(term))
+                            {
+                                terms.Add(term);
+                                TermLine termLine = new TermLine();
+                                termLine.Name = term;
+                                termLine.Texts = new string[] { text };
+                                i2File.Lines.Add(termLine);
+                                LogInfo(line);
                             }
                         }
                     }
