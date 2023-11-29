@@ -20,7 +20,7 @@ namespace DinkumChinese
     {
         public const string GUID = "xiaoye97.Dinkum.DinkumChinese";
         public const string PluginName = "DinkumChinese";
-        public const string Version = "1.16.0";
+        public const string Version = "1.17.0";
         public static DinkumChinesePlugin Inst;
 
         public static IJson Json
@@ -76,6 +76,7 @@ namespace DinkumChinese
             DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "开发模式时，不加载DynamicText Post Quest翻译，方便dump");
             LogNoTranslation = Config.Bind<bool>("Tool", "LogNoTranslation", true, "可以输出没翻译的目标");
             DebugWindow = new UIWindow("汉化测试工具[Ctrl+数字键4]");
+            DebugWindow.WindowRect.position = new Vector2(500, 100);
             DebugWindow.OnWinodwGUI = DebugWindowGUI;
             ErrorWindow = new UIWindow($"汉化出现错误 {PluginName} v{Version}");
             ErrorWindow.OnWinodwGUI = ErrorWindowFunc;
@@ -190,7 +191,7 @@ namespace DinkumChinese
                 Pause = !Pause;
                 Time.timeScale = Pause ? 1 : 10;
             }
-            if (GUILayout.Button("检查括号"))
+            if (GUILayout.Button("检查括号(需要已汉化状态)"))
             {
                 CheckKuoHao();
             }
@@ -204,38 +205,21 @@ namespace DinkumChinese
             {
                 DumpText(true);
             }
-            if (GUILayout.Button("dump所有不在多语言表格内的对话(需要未汉化状态)"))
+            if (GUILayout.Button("一键导出全部原文(需要未汉化状态)"))
             {
-                DumpAllConversation();
-            }
-            if (GUILayout.Button("dump所有不在多语言表格内的对话Object(需要未汉化状态)"))
-            {
-                DumpAllConversationObject();
-            }
-            if (GUILayout.Button("dump post(需要未汉化状态)"))
-            {
+                List<string> ignoreTermList = new List<string>();
+                var list1 = DumpAllConversationObject();
+                var list2 = DumpAllItem();
+                ignoreTermList.AddRange(list1);
+                ignoreTermList.AddRange(list2);
+                I2LocPatchPlugin.Instance.DumpAllLocRes(ignoreTermList);
                 DumpAllPost();
-            }
-            if (GUILayout.Button("dump quest(需要未汉化状态)"))
-            {
                 DumpAllQuest();
-            }
-            if (GUILayout.Button("dump mail(需要未汉化状态)"))
-            {
                 DumpAllMail();
-            }
-            if (GUILayout.Button("dump tips(需要未汉化状态)"))
-            {
                 DumpAllTips();
-            }
-            if (GUILayout.Button("dump animals(需要未汉化状态)"))
-            {
                 DumpAnimals();
             }
-            if (GUILayout.Button("dump没翻译key的物品(需要未汉化状态)"))
-            {
-                DumpAllUnTermItem();
-            }
+
             GUILayout.EndVertical();
         }
 
@@ -414,11 +398,43 @@ namespace DinkumChinese
                 }
                 else if (mc1.Count > 0)
                 {
+                    List<string> oriList = new List<string>();
+                    List<string> locList = new List<string>();
                     for (int j = 0; j < mc1.Count; j++)
                     {
-                        if (mc1[j].Value != mc2[j].Value)
+                        if (!oriList.Contains(mc1[j].Value))
                         {
-                            string log = $"行号:{i + hangOffset} Key:{term.Term} 中的第{j}对括号内容不一致 原文中:<{mc1[j].Value}> 翻译中:<{mc2[j].Value}>";
+                            oriList.Add(mc1[j].Value);
+                        }
+                        if (!locList.Contains(mc2[j].Value))
+                        {
+                            locList.Add(mc2[j].Value);
+                        }
+                        //if (mc1[j].Value != mc2[j].Value)
+                        //{
+                        //    string log = $"行号:{i + hangOffset} Key:{term.Term} 中的第{j}对括号内容不一致 原文中:<{mc1[j].Value}> 翻译中:<{mc2[j].Value}>";
+                        //    LogInfo(log);
+                        //    sb.AppendLine(log);
+                        //    findCount++;
+                        //}
+                    }
+                    for (int j = 0; j < oriList.Count; j++)
+                    {
+                        string ori = oriList[j];
+                        if (!locList.Contains(ori))
+                        {
+                            string log = $"行号:{i + hangOffset} Key:{term.Term} 中的原文有括号<{ori}>，而译文中不存在";
+                            LogInfo(log);
+                            sb.AppendLine(log);
+                            findCount++;
+                        }
+                    }
+                    for (int j = 0; j < oriList.Count; j++)
+                    {
+                        string loc = locList[j];
+                        if (!oriList.Contains(loc))
+                        {
+                            string log = $"行号:{i + hangOffset} Key:{term.Term} 中的译文有括号<{loc}>，而原文中不存在";
                             LogInfo(log);
                             sb.AppendLine(log);
                             findCount++;
@@ -512,117 +528,7 @@ namespace DinkumChinese
             LogInfo($"Dump完毕,{Paths.GameRootPath}/I2/TextDump.txt");
         }
 
-        public void DumpAllConversation()
-        {
-            List<Conversation> conversations = new List<Conversation>();
-            // 直接从资源搜索单独的Conversation
-            conversations.AddRange(Resources.FindObjectsOfTypeAll<Conversation>());
-
-            //StringBuilder sb = new StringBuilder();
-            //sb.AppendLine($"Key\tEnglish");
-            List<string> terms = new List<string>();
-            I2File i2File = new I2File();
-            i2File.Name = "NoTermConversation";
-            i2File.Languages = new List<string>() { "English" };
-
-            foreach (var c in conversations)
-            {
-                // Intro
-                for (int i = 0; i < c.startLineAlt.sequence.Length; i++)
-                {
-                    string key = c.getIntroName(i);
-                    if (!LocalizationManager.Sources[0].ContainsTerm(key))
-                    {
-                        if (!string.IsNullOrWhiteSpace(c.startLineAlt.sequence[i]))
-                        {
-                            string term = $"{key}_{c.startLineAlt.sequence[i].GetHashCode()}";
-                            string line = $"{term}\t{c.startLineAlt.sequence[i].StrToI2Str()}";
-                            if (terms.Contains(term))
-                            {
-                                string log = $"重复的term，忽略。{line}";
-                                Logger.LogError(log);
-                            }
-                            else
-                            {
-                                terms.Add(term);
-                                TermLine termLine = new TermLine();
-                                termLine.Name = term;
-                                termLine.Texts = new string[] { c.startLineAlt.sequence[i] };
-                                i2File.Lines.Add(termLine);
-                                //sb.AppendLine(line);
-                                LogInfo(line);
-                            }
-                        }
-                    }
-                }
-                // Option
-                for (int j = 0; j < c.optionNames.Length; j++)
-                {
-                    if (!c.optionNames[j].Contains("<"))
-                    {
-                        string key = c.getOptionName(j);
-                        if (!LocalizationManager.Sources[0].ContainsTerm(key))
-                        {
-                            if (!string.IsNullOrWhiteSpace(c.optionNames[j]))
-                            {
-                                string term = $"{key}_{c.optionNames[j].GetHashCode()}";
-                                string line = $"{term}\t{c.optionNames[j].StrToI2Str()}";
-                                if (terms.Contains(term))
-                                {
-                                    string log = $"重复的term，忽略。{line}";
-                                    Logger.LogError(log);
-                                }
-                                else
-                                {
-                                    terms.Add(term);
-                                    //sb.AppendLine(line);
-                                    TermLine termLine = new TermLine();
-                                    termLine.Name = term;
-                                    termLine.Texts = new string[] { c.optionNames[j] };
-                                    i2File.Lines.Add(termLine);
-                                    LogInfo(line);
-                                }
-                            }
-                        }
-                    }
-                }
-                // Respone
-                for (int k = 0; k < c.responesAlt.Length; k++)
-                {
-                    for (int l = 0; l < c.responesAlt[k].sequence.Length; l++)
-                    {
-                        string key = c.getResponseName(k, l);
-                        if (!LocalizationManager.Sources[0].ContainsTerm(key))
-                        {
-                            if (!string.IsNullOrWhiteSpace(c.responesAlt[k].sequence[l]))
-                            {
-                                string term = $"{key}_{c.responesAlt[k].sequence[l].GetHashCode()}";
-                                string line = $"{term}\t{c.responesAlt[k].sequence[l].StrToI2Str()}";
-                                if (terms.Contains(term))
-                                {
-                                    string log = $"重复的term，忽略。{line}";
-                                    Logger.LogError(log);
-                                }
-                                else
-                                {
-                                    terms.Add(term);
-                                    //sb.AppendLine(line);
-                                    TermLine termLine = new TermLine();
-                                    termLine.Name = term;
-                                    termLine.Texts = new string[] { c.responesAlt[k].sequence[l] };
-                                    i2File.Lines.Add(termLine);
-                                    LogInfo(line);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            i2File.WriteCSVTable($"{Paths.GameRootPath}/I2/{i2File.Name}.csv");
-            LogInfo($"Dump {i2File.Name}完毕");
-        }
-
-        public void DumpAllConversationObject()
+        public List<string> DumpAllConversationObject()
         {
             List<ConversationObject> conversations = new List<ConversationObject>();
             // 直接从资源搜索单独的Conversation
@@ -632,7 +538,7 @@ namespace DinkumChinese
             //sb.AppendLine($"Key\tEnglish");
             List<string> terms = new List<string>();
             I2File i2File = new I2File();
-            i2File.Name = "NoTermConversationObject";
+            i2File.Name = "对话表";
             i2File.Languages = new List<string>() { "English" };
 
             foreach (var c in conversations)
@@ -652,7 +558,7 @@ namespace DinkumChinese
                             termLine.Name = term;
                             termLine.Texts = new string[] { text };
                             i2File.Lines.Add(termLine);
-                            LogInfo(line);
+                            //LogInfo(line);
                         }
                     }
                 }
@@ -669,7 +575,7 @@ namespace DinkumChinese
                         termLine.Name = term;
                         termLine.Texts = new string[] { text };
                         i2File.Lines.Add(termLine);
-                        LogInfo(line);
+                        //LogInfo(line);
                     }
                 }
                 // Respone
@@ -690,14 +596,15 @@ namespace DinkumChinese
                                 termLine.Name = term;
                                 termLine.Texts = new string[] { text };
                                 i2File.Lines.Add(termLine);
-                                LogInfo(line);
+                                //LogInfo(line);
                             }
                         }
                     }
                 }
             }
             i2File.WriteCSVTable($"{Paths.GameRootPath}/I2/{i2File.Name}.csv");
-            LogInfo($"Dump {i2File.Name}完毕");
+            LogInfo($"对话表Dump完毕");
+            return terms;
         }
 
         public void DumpAllPost()
@@ -722,7 +629,8 @@ namespace DinkumChinese
             }
             var json = Json.ToJson(list2, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/PostTextLoc.json", json);
-            Debug.Log(json);
+            LogInfo("Post表Dump完毕");
+            //Debug.Log(json);
         }
 
         public void DumpAllQuest()
@@ -736,7 +644,8 @@ namespace DinkumChinese
             }
             var json = Json.ToJson(list, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/QuestTextLoc.json", json);
-            Debug.Log(json);
+            LogInfo("Quest表Dump完毕");
+            //Debug.Log(json);
         }
 
         public void DumpAllMail()
@@ -756,7 +665,8 @@ namespace DinkumChinese
             foreach (var m in mgr.licenceLevelUp) list.Add(new TextLocData(m.letterText, ""));
             var json = Json.ToJson(list, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/MailTextLoc.json", json);
-            Debug.Log(json);
+            LogInfo("Mail表Dump完毕");
+            //Debug.Log(json);
         }
 
         public void DumpAllTips()
@@ -766,7 +676,8 @@ namespace DinkumChinese
             foreach (var tip in mgr.tips) list.Add(new TextLocData(tip, ""));
             var json = Json.ToJson(list, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/TipsTextLoc.json", json);
-            Debug.Log(json);
+            LogInfo("Tips表Dump完毕");
+            //Debug.Log(json);
         }
 
         public void DumpAnimals()
@@ -776,7 +687,8 @@ namespace DinkumChinese
             foreach (var a in mgr.allAnimals) list.Add(new TextLocData(a.animalName, ""));
             var json = Json.ToJson(list, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/AnimalsTextLoc.json", json);
-            Debug.Log(json);
+            LogInfo("Animals表Dump完毕");
+            //Debug.Log(json);
         }
 
         public void DumpAllUnTermItem()
@@ -821,6 +733,46 @@ namespace DinkumChinese
                 }
             }
             File.WriteAllText($"{Paths.GameRootPath}/I2/UnTermItem.csv", sb.ToString());
+        }
+
+        public List<string> DumpAllItem()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"Key\tEnglish");
+            List<string> keys = new List<string>();
+            foreach (var item in Inventory.Instance.allItems)
+            {
+                int id = Inventory.Instance.getInvItemId(item);
+                string nameKey = "InventoryItemNames/InvItem_" + id.ToString();
+                string descKey = "InventoryItemDescriptions/InvDesc_" + id.ToString();
+                string line = nameKey + "\t" + item.itemName;
+                //LogInfo(line);
+                if (keys.Contains(nameKey))
+                {
+                    string log = $"出现重复的key {nameKey} 已阻止此项添加";
+                    Logger.LogError(log);
+                }
+                else
+                {
+                    keys.Add(nameKey);
+                    sb.AppendLine(line);
+                }
+                line = descKey + "\t" + item.itemDescription;
+                //LogInfo(line);
+                if (keys.Contains(descKey))
+                {
+                    string log = $"出现重复的key {descKey} 已阻止此项添加";
+                    Logger.LogError(log);
+                }
+                else
+                {
+                    keys.Add(descKey);
+                    sb.AppendLine(line);
+                }
+            }
+            File.WriteAllText($"{Paths.GameRootPath}/I2/物品表.csv", sb.ToString());
+            LogInfo("物品表Dump完毕");
+            return keys;
         }
 
         #endregion Dump

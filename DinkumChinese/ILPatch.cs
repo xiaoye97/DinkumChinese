@@ -210,6 +210,7 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, "On ya!", "哦耶！");
             instructions = ReplaceIL(instructions, "You received", "你获得了");
             instructions = ReplaceIL(instructions, "New Crafting Recipe", "新制作配方");
+            instructions = ReplaceIL(instructions, "New Crafting Recipes", "新制作配方");
             instructions = ReplaceIL(instructions, "An item was sent to your Mailbox", "物品送去了你的邮箱");
             instructions = ReplaceIL(instructions, "Your pockets were full!", "你的口袋满了！");
             return instructions;

@@ -429,6 +429,7 @@ namespace DinkumChinese
         {
             try
             {
+                //Debug.Log($"PickUpNotification.fillButtonPrompt1 buttonPromptText:{buttonPromptText}");
                 string text = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, buttonPromptText);
                 __instance.itemText.text = text;
             }
@@ -443,6 +444,7 @@ namespace DinkumChinese
         {
             try
             {
+                //Debug.Log($"PickUpNotification.fillButtonPrompt2 buttonPromptText:{buttonPromptText}");
                 string text = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, buttonPromptText);
                 __instance.itemText.text = text;
             }
@@ -451,6 +453,22 @@ namespace DinkumChinese
                 Debug.LogException(e);
             }
         }
+
+        //[HarmonyPrefix, HarmonyPatch(typeof(NotificationManager), "showButtonPrompt")]
+        //public static bool NotificationManager_showButtonPrompt_Patch(NotificationManager __instance, ref string promptText)
+        //{
+        //    try
+        //    {
+        //        Debug.Log($"NotificationManager.showButtonPrompt promptText:{promptText}");
+        //        string text = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, promptText);
+        //        promptText = text;
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        Debug.LogException(e);
+        //    }
+        //    return true;
+        //}
 
         [HarmonyPostfix, HarmonyPatch(typeof(PostOnBoard), "getContentText")]
         public static void PostOnBoard_getContentText_Patch(PostOnBoard __instance, ref string __result, int postId)
@@ -547,18 +565,18 @@ namespace DinkumChinese
             }
         }
 
-        [HarmonyPostfix, HarmonyPatch(typeof(QuestTracker), "pinTheTask")]
-        public static void QuestTracker_pinTheTask_Patch(QuestTracker __instance, QuestTracker.typeOfTask type, int id)
+        [HarmonyPostfix, HarmonyPatch(typeof(QuestTracker), "updatePinnedTask")]
+        public static void QuestTracker_updatePinnedTask_Patch(QuestTracker __instance)
         {
             try
             {
-                if (type == QuestTracker.typeOfTask.Quest)
+                if (__instance.pinnedType == QuestTracker.typeOfTask.Quest)
                 {
-                    if (!QuestManager.manage.isQuestCompleted[id])
+                    if (!QuestManager.manage.isQuestCompleted[__instance.pinnedId])
                     {
-                        string nameOri = QuestManager.manage.allQuests[id].QuestName.StrToI2Str();
+                        string nameOri = QuestManager.manage.allQuests[__instance.pinnedId].QuestName.StrToI2Str();
                         string name = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, nameOri);
-                        string pinText = __instance.pinMissionText.text.Replace(QuestManager.manage.allQuests[id].QuestName, name);
+                        string pinText = __instance.pinMissionText.text.Replace(QuestManager.manage.allQuests[__instance.pinnedId].QuestName, name);
                         __instance.pinMissionText.text = pinText;
                     }
                 }
