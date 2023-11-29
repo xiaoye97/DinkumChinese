@@ -1,4 +1,1392 @@
 Key	English
+InventoryItemNames/InvItem_0	Basic Axe
+InventoryItemDescriptions/InvDesc_0	Chop down trees and plants.
+InventoryItemNames/InvItem_1	Megaphone
+InventoryItemDescriptions/InvDesc_1	Let's you speak louder
+InventoryItemNames/InvItem_2	Bug Net
+InventoryItemDescriptions/InvDesc_2	Catch those creepy crawlies.
+InventoryItemNames/InvItem_3	Chainsaw
+InventoryItemDescriptions/InvDesc_3	A saw comprised of chain.
+InventoryItemNames/InvItem_4	Fishing Rod
+InventoryItemDescriptions/InvDesc_4	A rod used for fishing and the like.
+InventoryItemNames/InvItem_5	Shovel of Dirt
+InventoryItemDescriptions/InvDesc_5	This big spoon for dirt is filled with dirt
+InventoryItemNames/InvItem_6	Shovel
+InventoryItemDescriptions/InvDesc_6	It's like a big spoon for dirt and stuff.
+InventoryItemNames/InvItem_7	Hoe
+InventoryItemDescriptions/InvDesc_7	Hoe the dirt. Make it all soft and stuff.
+InventoryItemNames/InvItem_8	Basic Pickaxe
+InventoryItemDescriptions/InvDesc_8	This might be the first game ever to have one of these
+InventoryItemNames/InvItem_9	Torch
+InventoryItemDescriptions/InvDesc_9	This isn't a flashlight... it's a torch!
+InventoryItemNames/InvItem_10	Basic Watering Can
+InventoryItemDescriptions/InvDesc_10	Carries water from point A to point B
+InventoryItemNames/InvItem_11	Wooden Bat
+InventoryItemDescriptions/InvDesc_11	Howzat?
+InventoryItemNames/InvItem_12	Bag of Cement
+InventoryItemDescriptions/InvDesc_12	Made with a stone crusher.
+InventoryItemNames/InvItem_13	BBQ
+InventoryItemDescriptions/InvDesc_13	Throw some stuff on this. It will then cook.
+InventoryItemNames/InvItem_14	Bone
+InventoryItemDescriptions/InvDesc_14	A bone that can be used to make stuff.
+InventoryItemNames/InvItem_15	Brick Path
+InventoryItemDescriptions/InvDesc_15	Some bricks for the ground.
+InventoryItemNames/InvItem_16	Brick Steps
+InventoryItemDescriptions/InvDesc_16	5, 6, 7, 8
+InventoryItemNames/InvItem_17	Bush Lime
+InventoryItemDescriptions/InvDesc_17	Sour but yummy.
+InventoryItemNames/InvItem_18	Camp Fire
+InventoryItemDescriptions/InvDesc_18	A fire you can use while camping!
+InventoryItemNames/InvItem_19	Cooked Meat
+InventoryItemDescriptions/InvDesc_19	So yum.
+InventoryItemNames/InvItem_20	Funnel Web Spider
+InventoryItemDescriptions/InvDesc_20	Very poisonous. Ain't it cute?
+InventoryItemNames/InvItem_21	Raw Meat
+InventoryItemDescriptions/InvDesc_21	Delicious if you cook it. Not so much if you dont.
+InventoryItemNames/InvItem_22	Nails
+InventoryItemDescriptions/InvDesc_22	Used to nail things together.
+InventoryItemNames/InvItem_23	Shiny Stone
+InventoryItemDescriptions/InvDesc_23	This rock is shiny. There might be something in it.
+InventoryItemNames/InvItem_24	???
+InventoryItemDescriptions/InvDesc_24	No One Knows
+InventoryItemNames/InvItem_25	Garden Light
+InventoryItemDescriptions/InvDesc_25	A lil' light.
+InventoryItemNames/InvItem_26	Stone
+InventoryItemDescriptions/InvDesc_26	Some rock. Cool.
+InventoryItemNames/InvItem_27	Stone Grinder
+InventoryItemDescriptions/InvDesc_27	Get those little materials out of those big ol' stones. Or turn regular rocks into cement.
+InventoryItemNames/InvItem_28	Sugar Cane
+InventoryItemDescriptions/InvDesc_28	You could make sugar out of this!
+InventoryItemNames/InvItem_29	Ulysses Butterfly
+InventoryItemDescriptions/InvDesc_29	Nice bug, bro.
+InventoryItemNames/InvItem_30	Wooden Crate
+InventoryItemDescriptions/InvDesc_30	Store things in here if you like
+InventoryItemNames/InvItem_31	Windmill Plan
+InventoryItemDescriptions/InvDesc_31	We could build a wind mill here!
+InventoryItemNames/InvItem_32	Palm Wood Fence
+InventoryItemDescriptions/InvDesc_32	Wood used to seperate things.
+InventoryItemNames/InvItem_33	Gum Log
+InventoryItemDescriptions/InvDesc_33	A log of gum wood.
+InventoryItemNames/InvItem_34	Wooden Torch
+InventoryItemDescriptions/InvDesc_34	Burns with a medium light. Will burn out by the end of the day.
+InventoryItemNames/InvItem_35	Crafting Lab Deed
+InventoryItemDescriptions/InvDesc_35	A deed for a building to research and dicover new crafting recipes.
+InventoryItemNames/InvItem_36	Your House Deed
+InventoryItemDescriptions/InvDesc_36	You can live here.
+InventoryItemNames/InvItem_37	Post Office Deed
+InventoryItemDescriptions/InvDesc_37	This will put your town on the map!
+InventoryItemNames/InvItem_38	PowerLine
+InventoryItemDescriptions/InvDesc_38	High Voltage!
+InventoryItemNames/InvItem_39	Shop Deed
+InventoryItemDescriptions/InvDesc_39	A deed for a store with a wider range of items.
+InventoryItemNames/InvItem_40	Aussie Hat
+InventoryItemDescriptions/InvDesc_40	This will keep that sun off ya.
+InventoryItemNames/InvItem_41	Black Boots
+InventoryItemDescriptions/InvDesc_41	Nice black boots.
+InventoryItemNames/InvItem_42	Blue Jeans
+InventoryItemDescriptions/InvDesc_42	Not only for Barry.
+InventoryItemNames/InvItem_43	Tradie Boots
+InventoryItemDescriptions/InvDesc_43	Boots good for hard work.
+InventoryItemNames/InvItem_44	Tradie Pants
+InventoryItemDescriptions/InvDesc_44	Pants for the trade.
+InventoryItemNames/InvItem_45	Dark Shorts
+InventoryItemDescriptions/InvDesc_45	Dark and easy to wear.
+InventoryItemNames/InvItem_46	Purple Shirt
+InventoryItemDescriptions/InvDesc_46	For Ghaz
+InventoryItemNames/InvItem_47	Red Flanney
+InventoryItemDescriptions/InvDesc_47	A red flannelette shirt.
+InventoryItemNames/InvItem_48	Barcoo Grunter
+InventoryItemDescriptions/InvDesc_48	Beep. Beep. Grunt.
+InventoryItemNames/InvItem_49	Barramundi
+InventoryItemDescriptions/InvDesc_49	Thats good eatin' eh?
+InventoryItemNames/InvItem_50	River Bass
+InventoryItemDescriptions/InvDesc_50	A fresh water bass. Ain't rare.
+InventoryItemNames/InvItem_51	Do not use
+InventoryItemDescriptions/InvDesc_51	Thats good eatin' fo sho
+InventoryItemNames/InvItem_52	Jungle Perch
+InventoryItemDescriptions/InvDesc_52	Welcome to the river. We've got perch.
+InventoryItemNames/InvItem_53	Purple Armchair
+InventoryItemDescriptions/InvDesc_53	
+InventoryItemNames/InvItem_54	Wooden Double Bed
+InventoryItemDescriptions/InvDesc_54	Double Bed
+InventoryItemNames/InvItem_55	Coffee Table
+InventoryItemDescriptions/InvDesc_55	Sorry, you can only put coffee on this puppy.
+InventoryItemNames/InvItem_56	Wooden Chair
+InventoryItemDescriptions/InvDesc_56	A single chair for sitting.
+InventoryItemNames/InvItem_57	Wooden Couch
+InventoryItemDescriptions/InvDesc_57	A Couch. You can sit on it with a friend
+InventoryItemNames/InvItem_58	Small Round Table
+InventoryItemDescriptions/InvDesc_58	Small and round. Awesome.
+InventoryItemNames/InvItem_59	Dark Wood Cabinet
+InventoryItemDescriptions/InvDesc_59	Put skeletons in here.
+InventoryItemNames/InvItem_60	Sugar Cane Seeds
+InventoryItemDescriptions/InvDesc_60	Sugar cane seeds. Put 'em in the ground!
+InventoryItemNames/InvItem_61	Dog Hat
+InventoryItemDescriptions/InvDesc_61	Woof.
+InventoryItemNames/InvItem_62	Holiday Hat
+InventoryItemDescriptions/InvDesc_62	You could wear this on holiday. Or whenever.
+InventoryItemNames/InvItem_63	Blue Beanie
+InventoryItemDescriptions/InvDesc_63	Keep that dome hot
+InventoryItemNames/InvItem_64	Top Hat
+InventoryItemDescriptions/InvDesc_64	FANCY!
+InventoryItemNames/InvItem_65	Red Baseball Cap
+InventoryItemDescriptions/InvDesc_65	Strike 1
+InventoryItemNames/InvItem_66	Yellow Bucket Hat
+InventoryItemDescriptions/InvDesc_66	Bounce!
+InventoryItemNames/InvItem_67	Welcome sign
+InventoryItemDescriptions/InvDesc_67	A big green sign
+InventoryItemNames/InvItem_68	Business Pants
+InventoryItemDescriptions/InvDesc_68	Pants for business.
+InventoryItemNames/InvItem_69	Business Shirt
+InventoryItemDescriptions/InvDesc_69	A Shirt for business.
+InventoryItemNames/InvItem_70	Business Shoes
+InventoryItemDescriptions/InvDesc_70	Shoes for business.
+InventoryItemNames/InvItem_71	Green Pants
+InventoryItemDescriptions/InvDesc_71	Yup. Green and pants.
+InventoryItemNames/InvItem_72	Green Sweater
+InventoryItemDescriptions/InvDesc_72	Mr Rogers.
+InventoryItemNames/InvItem_73	Green Shoes
+InventoryItemDescriptions/InvDesc_73	Gross. Green Shoes.
+InventoryItemNames/InvItem_74	Blue Holiday Shirt
+InventoryItemDescriptions/InvDesc_74	Flipping Stylin'
+InventoryItemNames/InvItem_75	Thongs
+InventoryItemDescriptions/InvDesc_75	Flip and flop these bad boys.
+InventoryItemNames/InvItem_76	Blue Holiday Shorts
+InventoryItemDescriptions/InvDesc_76	Easy to wear.
+InventoryItemNames/InvItem_77	Tradie Shirt
+InventoryItemDescriptions/InvDesc_77	High Vis. Low stress.
+InventoryItemNames/InvItem_78	Khaki Boots
+InventoryItemDescriptions/InvDesc_78	Struth, boots.
+InventoryItemNames/InvItem_79	Khaki Shorts
+InventoryItemDescriptions/InvDesc_79	Struth, Shorts
+InventoryItemNames/InvItem_80	Khaki Shirt
+InventoryItemDescriptions/InvDesc_80	Struth, Shirt.
+InventoryItemNames/InvItem_81	Clothing Shop Deed
+InventoryItemDescriptions/InvDesc_81	Two Story Clothing and Weapon Shop
+InventoryItemNames/InvItem_82	Blue Shorts
+InventoryItemDescriptions/InvDesc_82	Blue and easy to wear.
+InventoryItemNames/InvItem_83	Blue and Yellow Shirt
+InventoryItemDescriptions/InvDesc_83	Is it blue with yellow stripes?
+InventoryItemNames/InvItem_84	Red Sneakers
+InventoryItemDescriptions/InvDesc_84	Red Shoes.
+InventoryItemNames/InvItem_85	Blue Dress
+InventoryItemDescriptions/InvDesc_85	Blue and easy to wear.
+InventoryItemNames/InvItem_86	Fairest Dress
+InventoryItemDescriptions/InvDesc_86	Fairest in the land.
+InventoryItemNames/InvItem_92	White Flats
+InventoryItemDescriptions/InvDesc_92	White Flat Shoes
+InventoryItemNames/InvItem_88	Mustard Coat
+InventoryItemDescriptions/InvDesc_88	A nice coloured coat.
+InventoryItemNames/InvItem_89	White Sneakers
+InventoryItemDescriptions/InvDesc_89	Scuffing be damned.
+InventoryItemNames/InvItem_90	Ripped Jeans
+InventoryItemDescriptions/InvDesc_90	Jeans for sunburnt knees.
+InventoryItemNames/InvItem_91	White Dress
+InventoryItemDescriptions/InvDesc_91	Long sleves and white
+InventoryItemNames/InvItem_93	Red Dress
+InventoryItemDescriptions/InvDesc_93	A red dress. You can wear this.
+InventoryItemNames/InvItem_94	Red Flats
+InventoryItemDescriptions/InvDesc_94	Red Flat Shoes
+InventoryItemNames/InvItem_95	Pin Stripe Jacket
+InventoryItemDescriptions/InvDesc_95	Sharp.
+InventoryItemNames/InvItem_96	Pin Stripe Pants
+InventoryItemDescriptions/InvDesc_96	These are some nice pants.
+InventoryItemNames/InvItem_97	Grass Hopper
+InventoryItemDescriptions/InvDesc_97	Jumpin' for joy.
+InventoryItemNames/InvItem_98	Common Blue Tail
+InventoryItemDescriptions/InvDesc_98	A Common Dragonfly
+InventoryItemNames/InvItem_99	Wood Bridge
+InventoryItemDescriptions/InvDesc_99	Maybe you could cross the water on this?
+InventoryItemNames/InvItem_100	Fly
+InventoryItemDescriptions/InvDesc_100	A common fly
+InventoryItemNames/InvItem_101	Cockroach
+InventoryItemDescriptions/InvDesc_101	Yuck.
+InventoryItemNames/InvItem_102	Yellow Wattle Flower
+InventoryItemDescriptions/InvDesc_102	A yellow flower.
+InventoryItemNames/InvItem_103	Metal Detector
+InventoryItemDescriptions/InvDesc_103	Is something burried here? If it beeps dig there.
+InventoryItemNames/InvItem_104	Opal
+InventoryItemDescriptions/InvDesc_104	A Shiny Gemstone.
+InventoryItemNames/InvItem_105	Copper Ore
+InventoryItemDescriptions/InvDesc_105	Smelt it down to bars.
+InventoryItemNames/InvItem_106	Iron Ore
+InventoryItemDescriptions/InvDesc_106	Smelt it down to bars.
+InventoryItemNames/InvItem_107	Quartz Crystal
+InventoryItemDescriptions/InvDesc_107	Looks expensive. Kinda isn't.
+InventoryItemNames/InvItem_108	Peacock Spider
+InventoryItemDescriptions/InvDesc_108	A fancy little spider.
+InventoryItemNames/InvItem_109	Trogid
+InventoryItemDescriptions/InvDesc_109	It can't fly.
+InventoryItemNames/InvItem_110	Street Lamp
+InventoryItemDescriptions/InvDesc_110	A very strong light
+InventoryItemNames/InvItem_111	Cabbage
+InventoryItemDescriptions/InvDesc_111	Crunchy or soft. It up to you.
+InventoryItemNames/InvItem_112	Cabbage Seeds
+InventoryItemDescriptions/InvDesc_112	Put 'em in the ground!
+InventoryItemNames/InvItem_113	Iron Bar
+InventoryItemDescriptions/InvDesc_113	A bar of Iron
+InventoryItemNames/InvItem_114	Copper Bar
+InventoryItemDescriptions/InvDesc_114	A bar of Copper
+InventoryItemNames/InvItem_115	Furnace
+InventoryItemDescriptions/InvDesc_115	A faster furnace that can also process Iron Ore
+InventoryItemNames/InvItem_116	Carrot
+InventoryItemDescriptions/InvDesc_116	What's up, medical person?
+InventoryItemNames/InvItem_117	Carrot Seeds
+InventoryItemDescriptions/InvDesc_117	Put 'em in the ground!
+InventoryItemNames/InvItem_118	Dink Voucher
+InventoryItemDescriptions/InvDesc_118	A voucher worth 10000 Dinks
+InventoryItemNames/InvItem_119	Dink Voucher
+InventoryItemDescriptions/InvDesc_119	A voucher worth 10000 Dinks
+InventoryItemNames/InvItem_120	Green Beanie
+InventoryItemDescriptions/InvDesc_120	Keep that dome hot
+InventoryItemNames/InvItem_121	Red Beanie
+InventoryItemDescriptions/InvDesc_121	Keep that dome hot
+InventoryItemNames/InvItem_122	Blue Bucket Hat
+InventoryItemDescriptions/InvDesc_122	Bounce!
+InventoryItemNames/InvItem_123	Corn
+InventoryItemDescriptions/InvDesc_123	This is poppin'
+InventoryItemNames/InvItem_124	Corn Seeds
+InventoryItemDescriptions/InvDesc_124	Put 'em in the ground!
+InventoryItemNames/InvItem_125	Plant Shop Deed
+InventoryItemDescriptions/InvDesc_125	A deed for a farming equipment and seed shop.
+InventoryItemNames/InvItem_126	Fast Watering Can
+InventoryItemDescriptions/InvDesc_126	Carries water from point A to point B
+InventoryItemNames/InvItem_127	Dark Wooden Single Bed
+InventoryItemDescriptions/InvDesc_127	Hey red bed. That rhymes.
+InventoryItemNames/InvItem_128	Basic Watering Can
+InventoryItemDescriptions/InvDesc_128	It's empty. Fill it with water.
+InventoryItemNames/InvItem_129	Mine Deed
+InventoryItemDescriptions/InvDesc_129	A deed for an underground mine. A great place to easily find ores.
+InventoryItemNames/InvItem_130	Miners Helmet
+InventoryItemDescriptions/InvDesc_130	Gives off light, but has limited power.
+InventoryItemNames/InvItem_131	Wooden Chair
+InventoryItemDescriptions/InvDesc_131	A single chair for sitting.
+InventoryItemNames/InvItem_132	Wooden Table
+InventoryItemDescriptions/InvDesc_132	A wooden table.
+InventoryItemNames/InvItem_133	Wooden Bedside Table
+InventoryItemDescriptions/InvDesc_133	A wooden table for beside your bed.
+InventoryItemNames/InvItem_134	Wooden Chest Of Drawers
+InventoryItemDescriptions/InvDesc_134	Put stuff in here.
+InventoryItemNames/InvItem_135	Wooden Cabinet
+InventoryItemDescriptions/InvDesc_135	A wooden table.
+InventoryItemNames/InvItem_136	Wooden Single Bed
+InventoryItemDescriptions/InvDesc_136	A bed for one.
+InventoryItemNames/InvItem_137	Stylish ArmChair
+InventoryItemDescriptions/InvDesc_137	An Arm Chair
+InventoryItemNames/InvItem_138	Stylish Sofa
+InventoryItemDescriptions/InvDesc_138	A Sofa
+InventoryItemNames/InvItem_139	Dark Wooden Chair
+InventoryItemDescriptions/InvDesc_139	Wooden chair
+InventoryItemNames/InvItem_140	Purple Sofa
+InventoryItemDescriptions/InvDesc_140	Its soft.
+InventoryItemNames/InvItem_141	A white chair
+InventoryItemDescriptions/InvDesc_141	A white single person chair
+InventoryItemNames/InvItem_142	White Coffee Table
+InventoryItemDescriptions/InvDesc_142	A small white coffee table.
+InventoryItemNames/InvItem_143	White Dinner Table
+InventoryItemDescriptions/InvDesc_143	A large white table.
+InventoryItemNames/InvItem_144	White Long Cofee Table
+InventoryItemDescriptions/InvDesc_144	A long coffee table.
+InventoryItemNames/InvItem_145	White Sofa
+InventoryItemDescriptions/InvDesc_145	A white 2 seat chair.
+InventoryItemNames/InvItem_146	Stylish Bed
+InventoryItemDescriptions/InvDesc_146	A double bed.
+InventoryItemNames/InvItem_147	Stylish Bedside Table
+InventoryItemDescriptions/InvDesc_147	A set of drawers for beside the bed.
+InventoryItemNames/InvItem_148	Stylish Drawers
+InventoryItemDescriptions/InvDesc_148	A set of drawers.
+InventoryItemNames/InvItem_149	Stylish Dresser
+InventoryItemDescriptions/InvDesc_149	A tall of drawers.
+InventoryItemNames/InvItem_150	Furniture Shop Deed
+InventoryItemDescriptions/InvDesc_150	A deed to build a furniture workshop and buy furniture for your home.
+InventoryItemNames/InvItem_151	Dainty Bed
+InventoryItemDescriptions/InvDesc_151	A dainty bed
+InventoryItemNames/InvItem_152	Dainty Bedside Table
+InventoryItemDescriptions/InvDesc_152	A dainty bedside table.
+InventoryItemNames/InvItem_153	Dainty Chair
+InventoryItemDescriptions/InvDesc_153	A dainty chair
+InventoryItemNames/InvItem_154	Dainty Coffee Table
+InventoryItemDescriptions/InvDesc_154	A coffee table
+InventoryItemNames/InvItem_155	Dainty Drawers
+InventoryItemDescriptions/InvDesc_155	A set of drawers
+InventoryItemNames/InvItem_156	Dainty Kitchen Table
+InventoryItemDescriptions/InvDesc_156	A large table.
+InventoryItemNames/InvItem_157	Dainty Lamp
+InventoryItemDescriptions/InvDesc_157	Lights up house.
+InventoryItemNames/InvItem_158	Dainty Ottoman
+InventoryItemDescriptions/InvDesc_158	For feet.
+InventoryItemNames/InvItem_159	Dainty Sofa
+InventoryItemDescriptions/InvDesc_159	A sofa. Seats 2.
+InventoryItemNames/InvItem_160	White Arm Chair
+InventoryItemDescriptions/InvDesc_160	A white chair.
+InventoryItemNames/InvItem_161	White Ottoman
+InventoryItemDescriptions/InvDesc_161	A white ottoman
+InventoryItemNames/InvItem_162	White Bed
+InventoryItemDescriptions/InvDesc_162	A Small white bedside table.
+InventoryItemNames/InvItem_163	White Bed Side Table.
+InventoryItemDescriptions/InvDesc_163	A Small white bedside table.
+InventoryItemNames/InvItem_164	White Chest of Drawers
+InventoryItemDescriptions/InvDesc_164	White Drawers
+InventoryItemNames/InvItem_165	Fern Vase
+InventoryItemDescriptions/InvDesc_165	Fern Vase
+InventoryItemNames/InvItem_166	Purple Vase
+InventoryItemDescriptions/InvDesc_166	Purple Vase
+InventoryItemNames/InvItem_167	Yellow Wattle Vase
+InventoryItemDescriptions/InvDesc_167	Yellow Wattle Vase
+InventoryItemNames/InvItem_168	Kitchen Cabinet
+InventoryItemDescriptions/InvDesc_168	Kitchen Cabinet
+InventoryItemNames/InvItem_169	Kitchen Oven
+InventoryItemDescriptions/InvDesc_169	Kitchen Oven
+InventoryItemNames/InvItem_170	Kitchen Sink
+InventoryItemDescriptions/InvDesc_170	Kitchen Sink
+InventoryItemNames/InvItem_171	Stylish Chair
+InventoryItemDescriptions/InvDesc_171	A chair
+InventoryItemNames/InvItem_172	Stylish Table
+InventoryItemDescriptions/InvDesc_172	A Short Table
+InventoryItemNames/InvItem_173	Stylish Lamp
+InventoryItemDescriptions/InvDesc_173	A standing lamp
+InventoryItemNames/InvItem_174	Regal ArmChair
+InventoryItemDescriptions/InvDesc_174	An Armchair
+InventoryItemNames/InvItem_175	Regal Bed
+InventoryItemDescriptions/InvDesc_175	A bed.
+InventoryItemNames/InvItem_176	Regal Bedside Table
+InventoryItemDescriptions/InvDesc_176	A bedside table.
+InventoryItemNames/InvItem_177	Regal Chair
+InventoryItemDescriptions/InvDesc_177	A one person chair.
+InventoryItemNames/InvItem_178	Regal Lamp
+InventoryItemDescriptions/InvDesc_178	A lamp
+InventoryItemNames/InvItem_179	Regal Sofa
+InventoryItemDescriptions/InvDesc_179	A sofa. Seats 2.
+InventoryItemNames/InvItem_180	Regal Table
+InventoryItemDescriptions/InvDesc_180	A long table.
+InventoryItemNames/InvItem_181	Regal Drawers
+InventoryItemDescriptions/InvDesc_181	Chest of Drawers.
+InventoryItemNames/InvItem_182	Feather
+InventoryItemDescriptions/InvDesc_182	A bit of a bird.
+InventoryItemNames/InvItem_183	Copper Pickaxe
+InventoryItemDescriptions/InvDesc_183	Faster and better than a regular pickaxe
+InventoryItemNames/InvItem_184	Iron Pickaxe
+InventoryItemDescriptions/InvDesc_184	A really good pickaxe.
+InventoryItemNames/InvItem_185	Space Helmet
+InventoryItemDescriptions/InvDesc_185	I've always wanted to have one.
+InventoryItemNames/InvItem_186	Space Suit Pants
+InventoryItemDescriptions/InvDesc_186	Pants for space.
+InventoryItemNames/InvItem_187	Space Suit Shirt
+InventoryItemDescriptions/InvDesc_187	A Shirt for space.
+InventoryItemNames/InvItem_188	Space Suit Shoes
+InventoryItemDescriptions/InvDesc_188	Shoes for space
+InventoryItemNames/InvItem_189	Pink Baseball Cap
+InventoryItemDescriptions/InvDesc_189	Strike 1
+InventoryItemNames/InvItem_190	Black Pants
+InventoryItemDescriptions/InvDesc_190	Dark Pants
+InventoryItemNames/InvItem_191	Black Shirt
+InventoryItemDescriptions/InvDesc_191	So Dark.
+InventoryItemNames/InvItem_192	Black Sneakers
+InventoryItemDescriptions/InvDesc_192	So dark.
+InventoryItemNames/InvItem_193	Daisy Shorts
+InventoryItemDescriptions/InvDesc_193	Looks like them shorts are in trouble.
+InventoryItemNames/InvItem_194	Pink Dress
+InventoryItemDescriptions/InvDesc_194	Dress
+InventoryItemNames/InvItem_195	Strapped Sandals
+InventoryItemDescriptions/InvDesc_195	Strapped up.
+InventoryItemNames/InvItem_196	Green Baseball Cap
+InventoryItemDescriptions/InvDesc_196	Strike 1
+InventoryItemNames/InvItem_197	Nautilis Shell
+InventoryItemDescriptions/InvDesc_197	An uncommon shell
+InventoryItemNames/InvItem_198	Scallop Shell
+InventoryItemDescriptions/InvDesc_198	A common shell
+InventoryItemNames/InvItem_199	Syrinx Shell
+InventoryItemDescriptions/InvDesc_199	A rare shell.
+InventoryItemNames/InvItem_200	Banded Morwong
+InventoryItemDescriptions/InvDesc_200	Good fish. You're not Morwong about that.
+InventoryItemNames/InvItem_201	Bluefish
+InventoryItemDescriptions/InvDesc_201	An ocean fish that is blue.
+InventoryItemNames/InvItem_202	Garfish
+InventoryItemDescriptions/InvDesc_202	It hates mondays.
+InventoryItemNames/InvItem_203	Golden Perch
+InventoryItemDescriptions/InvDesc_203	Gold belly on this Perch
+InventoryItemNames/InvItem_204	Mangrove Jack
+InventoryItemDescriptions/InvDesc_204	Jack?
+InventoryItemNames/InvItem_205	Luderick
+InventoryItemDescriptions/InvDesc_205	This is a Luderick-us fish.
+InventoryItemNames/InvItem_206	Blue Spot Flathead
+InventoryItemDescriptions/InvDesc_206	Its head is flat and its eyes are on top.
+InventoryItemNames/InvItem_207	Travalla
+InventoryItemDescriptions/InvDesc_207	I will call him Trevor.
+InventoryItemNames/InvItem_208	Yellowfin Tuna
+InventoryItemDescriptions/InvDesc_208	A massive fish!
+InventoryItemNames/InvItem_209	Pirate Coat
+InventoryItemDescriptions/InvDesc_209	Yarr.
+InventoryItemNames/InvItem_210	Spinifex Tuft
+InventoryItemDescriptions/InvDesc_210	A bunch of sticky grass. Burn it in fire to make resin.
+InventoryItemNames/InvItem_211	Hot Air Balloon
+InventoryItemDescriptions/InvDesc_211	A floating raft.
+InventoryItemNames/InvItem_212	Spinifex Resin
+InventoryItemDescriptions/InvDesc_212	Sticky resin used in crafting. Made from burnt spinifex tuft.
+InventoryItemNames/InvItem_213	Palm Wood
+InventoryItemDescriptions/InvDesc_213	A light wood log.
+InventoryItemNames/InvItem_214	Prickly Pear Flesh
+InventoryItemDescriptions/InvDesc_214	Spiky Cactus Flesh.
+InventoryItemNames/InvItem_215	Cactus Figs
+InventoryItemDescriptions/InvDesc_215	The fruit of a cactus.
+InventoryItemNames/InvItem_216	Copper Axe
+InventoryItemDescriptions/InvDesc_216	A more advanced axe.
+InventoryItemNames/InvItem_217	Iron Axe
+InventoryItemDescriptions/InvDesc_217	A very strong axe.
+InventoryItemNames/InvItem_218	Jump Charm
+InventoryItemDescriptions/InvDesc_218	Jump higher while wearing this.
+InventoryItemNames/InvItem_219	Swim Charm
+InventoryItemDescriptions/InvDesc_219	Swim Faster while wearing this.
+InventoryItemNames/InvItem_220	Run Charm
+InventoryItemDescriptions/InvDesc_220	Run Faster while wearing this.
+InventoryItemNames/InvItem_221	White Collar Dress
+InventoryItemDescriptions/InvDesc_221	A black dress with a white collar.
+InventoryItemNames/InvItem_222	Dark Blue Button Dress
+InventoryItemDescriptions/InvDesc_222	Blue and easy to wear.
+InventoryItemNames/InvItem_223	Crab Pot
+InventoryItemDescriptions/InvDesc_223	Put it in shallow water. Fill it with meat.
+InventoryItemNames/InvItem_224	Mud Crab
+InventoryItemDescriptions/InvDesc_224	A muddy crab
+InventoryItemNames/InvItem_225	Honey
+InventoryItemDescriptions/InvDesc_225	Sweet and stick.
+InventoryItemNames/InvItem_226	Bee House
+InventoryItemDescriptions/InvDesc_226	Collect honey from this. Can take a week.
+InventoryItemNames/InvItem_227	Bee
+InventoryItemDescriptions/InvDesc_227	A little honey maker. Where's the queen?
+InventoryItemNames/InvItem_228	Queen Bee
+InventoryItemDescriptions/InvDesc_228	The boss bee. Can start a hive.
+InventoryItemNames/InvItem_229	Red Back Spider
+InventoryItemDescriptions/InvDesc_229	Very poisonous. Ain't it cute?
+InventoryItemNames/InvItem_230	Desert Scorpion
+InventoryItemDescriptions/InvDesc_230	8 Legs. Friendlier than it looks
+InventoryItemNames/InvItem_231	Stinkbug
+InventoryItemDescriptions/InvDesc_231	It stinks!
+InventoryItemNames/InvItem_232	Paper Wasp
+InventoryItemDescriptions/InvDesc_232	This thing kills spiders when its hungy.
+InventoryItemNames/InvItem_233	Birdwing Butterfly
+InventoryItemDescriptions/InvDesc_233	It's really rare and big!
+InventoryItemNames/InvItem_234	Swallow-tail Butterfly
+InventoryItemDescriptions/InvDesc_234	It has a little tail.
+InventoryItemNames/InvItem_235	Harlequin Butterfly
+InventoryItemDescriptions/InvDesc_235	It's fluttering by, Mr. J.
+InventoryItemNames/InvItem_236	Sling Shot
+InventoryItemDescriptions/InvDesc_236	Aim and fire.
+InventoryItemNames/InvItem_237	Yabbie
+InventoryItemDescriptions/InvDesc_237	Like a lobster but it's a yabbie instead.
+InventoryItemNames/InvItem_238	Pink Shots
+InventoryItemDescriptions/InvDesc_238	Easy to wear.
+InventoryItemNames/InvItem_239	Pink Sneakers
+InventoryItemDescriptions/InvDesc_239	Pink sneaky shoes.
+InventoryItemNames/InvItem_240	Pink T-Shirt
+InventoryItemDescriptions/InvDesc_240	A normal pink T-Shirt
+InventoryItemNames/InvItem_241	Blue Sneakers
+InventoryItemDescriptions/InvDesc_241	Blue sneaky shoes.
+InventoryItemNames/InvItem_242	Blue T-Shirt
+InventoryItemDescriptions/InvDesc_242	A normal blue T-Shirt
+InventoryItemNames/InvItem_243	Purple Dress
+InventoryItemDescriptions/InvDesc_243	Its sure is purple!
+InventoryItemNames/InvItem_244	Purple Flats
+InventoryItemDescriptions/InvDesc_244	Purple Flat Shoes
+InventoryItemNames/InvItem_245	Purple Pants
+InventoryItemDescriptions/InvDesc_245	Like purple shorts, but longer.
+InventoryItemNames/InvItem_246	Crocodile Tooth
+InventoryItemDescriptions/InvDesc_246	A sharp tooth from a croc.
+InventoryItemNames/InvItem_247	Glowing Mushroom
+InventoryItemDescriptions/InvDesc_247	Why does it glow?
+InventoryItemNames/InvItem_248	Firefly
+InventoryItemDescriptions/InvDesc_248	I can not believe my eyes.
+InventoryItemNames/InvItem_249	Field Cricket
+InventoryItemDescriptions/InvDesc_249	So small. So loud.
+InventoryItemNames/InvItem_250	Cement Path
+InventoryItemDescriptions/InvDesc_250	Nice and sleek paths
+InventoryItemNames/InvItem_251	Brick Fence
+InventoryItemDescriptions/InvDesc_251	Keep things in or out.
+InventoryItemNames/InvItem_252	Ute
+InventoryItemDescriptions/InvDesc_252	OLD ITEM
+InventoryItemNames/InvItem_253	Green Boots
+InventoryItemDescriptions/InvDesc_253	Tough green boots
+InventoryItemNames/InvItem_254	Brown Pants
+InventoryItemDescriptions/InvDesc_254	Yup. Brown and pants.
+InventoryItemNames/InvItem_255	Blue Flanney Shirt
+InventoryItemDescriptions/InvDesc_255	Blue and warm
+InventoryItemNames/InvItem_256	Black Pants
+InventoryItemDescriptions/InvDesc_256	Are these socks or pants?
+InventoryItemNames/InvItem_257	Green Jacket
+InventoryItemDescriptions/InvDesc_257	It has a short singlet
+InventoryItemNames/InvItem_258	Maroon Pants
+InventoryItemDescriptions/InvDesc_258	Yup. Maroon and pants.
+InventoryItemNames/InvItem_259	Adventure Hood
+InventoryItemDescriptions/InvDesc_259	What time is it?
+InventoryItemNames/InvItem_260	Red Strapped Shoes
+InventoryItemDescriptions/InvDesc_260	Red shoes
+InventoryItemNames/InvItem_261	Overall Dress
+InventoryItemDescriptions/InvDesc_261	Its all over
+InventoryItemNames/InvItem_262	Stripped Tights
+InventoryItemDescriptions/InvDesc_262	Black and white tights.
+InventoryItemNames/InvItem_263	Chef Hat
+InventoryItemDescriptions/InvDesc_263	Bone Apple Tea
+InventoryItemNames/InvItem_264	Cement Steps
+InventoryItemDescriptions/InvDesc_264	5, 6, 7, 8
+InventoryItemNames/InvItem_265	Water Tank Plan
+InventoryItemDescriptions/InvDesc_265	Build a water tank.
+InventoryItemNames/InvItem_266	Chef Jacket
+InventoryItemDescriptions/InvDesc_266	Perfect to cook in.
+InventoryItemNames/InvItem_267	Chef Pants
+InventoryItemDescriptions/InvDesc_267	Pants for cooking
+InventoryItemNames/InvItem_268	Orange Shorts
+InventoryItemDescriptions/InvDesc_268	Easy to wear.
+InventoryItemNames/InvItem_269	Orange T-Shirt
+InventoryItemDescriptions/InvDesc_269	Bright T-Shirt
+InventoryItemNames/InvItem_270	Brown Sandals
+InventoryItemDescriptions/InvDesc_270	Slip those puppies on.
+InventoryItemNames/InvItem_271	Hedge
+InventoryItemDescriptions/InvDesc_271	A fence made from plants.
+InventoryItemNames/InvItem_272	Roo Poo
+InventoryItemDescriptions/InvDesc_272	It's poop. Plants might like it.
+InventoryItemNames/InvItem_273	Palm Wood Lamp Post
+InventoryItemDescriptions/InvDesc_273	Fence post that is also a light
+InventoryItemNames/InvItem_274	Palm Wood Gate
+InventoryItemDescriptions/InvDesc_274	Opens and closes.
+InventoryItemNames/InvItem_275	Fertilizer
+InventoryItemDescriptions/InvDesc_275	Will make plants grow faster.
+InventoryItemNames/InvItem_276	Wood Bridge Rail
+InventoryItemDescriptions/InvDesc_276	Stop you from falling in.
+InventoryItemNames/InvItem_277	Bomb
+InventoryItemDescriptions/InvDesc_277	Tick Tick Tick - BOOOM!
+InventoryItemNames/InvItem_278	Sprinkler
+InventoryItemDescriptions/InvDesc_278	Waters crops automatically.
+InventoryItemNames/InvItem_279	Aviator Sun Glasses
+InventoryItemDescriptions/InvDesc_279	Danger Zone!
+InventoryItemNames/InvItem_280	Eye Patch
+InventoryItemDescriptions/InvDesc_280	Yaaar
+InventoryItemNames/InvItem_281	Fake Mustache
+InventoryItemDescriptions/InvDesc_281	Doesn't mean it's not cool.
+InventoryItemNames/InvItem_282	Modern Glasses
+InventoryItemDescriptions/InvDesc_282	Helps you see.
+InventoryItemNames/InvItem_283	Modern Sun Glasses
+InventoryItemDescriptions/InvDesc_283	Helps you look cool.
+InventoryItemNames/InvItem_284	Monicle
+InventoryItemDescriptions/InvDesc_284	Don't let it fall off.
+InventoryItemNames/InvItem_285	Old School Glasses
+InventoryItemDescriptions/InvDesc_285	Helps you see.
+InventoryItemNames/InvItem_286	Round Glasses
+InventoryItemDescriptions/InvDesc_286	Helps you see.
+InventoryItemNames/InvItem_287	Round Sun Glasses
+InventoryItemDescriptions/InvDesc_287	Helps you look cool.
+InventoryItemNames/InvItem_288	Small Glasses
+InventoryItemDescriptions/InvDesc_288	Helps you see.
+InventoryItemNames/InvItem_289	Small Sun Glasses
+InventoryItemDescriptions/InvDesc_289	Helps you look cool.
+InventoryItemNames/InvItem_290	Square Glasses
+InventoryItemDescriptions/InvDesc_290	Helps you see.
+InventoryItemNames/InvItem_291	Square Sun Glasses
+InventoryItemDescriptions/InvDesc_291	Helps you look cool.
+InventoryItemNames/InvItem_292	Jolly Beard
+InventoryItemDescriptions/InvDesc_292	Makes you so Jolly!
+InventoryItemNames/InvItem_293	Jolly Hat
+InventoryItemDescriptions/InvDesc_293	So Jolly!
+InventoryItemNames/InvItem_294	Jolly Pants
+InventoryItemDescriptions/InvDesc_294	So Jolly! Ho Ho Ho!
+InventoryItemNames/InvItem_295	Jolly Shirt
+InventoryItemDescriptions/InvDesc_295	So Jolly! Ho Ho Ho!
+InventoryItemNames/InvItem_296	Jolly Shoes
+InventoryItemDescriptions/InvDesc_296	So Jolly! Ho Ho Ho!
+InventoryItemNames/InvItem_297	Bananas
+InventoryItemDescriptions/InvDesc_297	Squishy
+InventoryItemNames/InvItem_298	Termite Nest
+InventoryItemDescriptions/InvDesc_298	Gross. Its full of termites.
+InventoryItemNames/InvItem_299	Dink
+InventoryItemDescriptions/InvDesc_299	Dosh. Cash. Money.
+InventoryItemNames/InvItem_300	Apple
+InventoryItemDescriptions/InvDesc_300	One a day.
+InventoryItemNames/InvItem_301	Hard Wood Log
+InventoryItemDescriptions/InvDesc_301	This wood is harder than other wood I guess?
+InventoryItemNames/InvItem_302	Animal Trap
+InventoryItemDescriptions/InvDesc_302	Catch some stuff.
+InventoryItemNames/InvItem_303	Scythe
+InventoryItemDescriptions/InvDesc_303	I'm scythed about this.
+InventoryItemNames/InvItem_304	Table Saw
+InventoryItemDescriptions/InvDesc_304	Can cut wood into planks.
+InventoryItemNames/InvItem_305	Wood Plank
+InventoryItemDescriptions/InvDesc_305	A plank of gum wood.
+InventoryItemNames/InvItem_306	Palm Wood Plank
+InventoryItemDescriptions/InvDesc_306	A plank of palm wood.
+InventoryItemNames/InvItem_307	Hard Wood Plank
+InventoryItemDescriptions/InvDesc_307	A plank of hard wood.
+InventoryItemNames/InvItem_308	Raw Drumstick
+InventoryItemDescriptions/InvDesc_308	Delicious if you cook it. Not so much if you dont.
+InventoryItemNames/InvItem_309	Pearl
+InventoryItemDescriptions/InvDesc_309	A glistening pearl.
+InventoryItemNames/InvItem_310	Cooked Drumstick
+InventoryItemDescriptions/InvDesc_310	Delicious if you cook it. Not so much if you dont.
+InventoryItemNames/InvItem_311	Magic Shovel
+InventoryItemDescriptions/InvDesc_311	How is this so?
+InventoryItemNames/InvItem_312	Magic Shovel of Dirt
+InventoryItemDescriptions/InvDesc_312	How is this so?
+InventoryItemNames/InvItem_313	Grass Seed
+InventoryItemDescriptions/InvDesc_313	Grows grass!
+InventoryItemNames/InvItem_314	Palm Wood Path
+InventoryItemDescriptions/InvDesc_314	A wooden path for walking on.
+InventoryItemNames/InvItem_315	Palm Wood Steps
+InventoryItemDescriptions/InvDesc_315	5, 6, 7, 8
+InventoryItemNames/InvItem_316	Gum Nut
+InventoryItemDescriptions/InvDesc_316	Dont try and chew this.
+InventoryItemNames/InvItem_317	Pine Cone
+InventoryItemDescriptions/InvDesc_317	It kinda looks like a pine tree?
+InventoryItemNames/InvItem_318	Palm Tree Seed
+InventoryItemDescriptions/InvDesc_318	Grows into a palm tree.
+InventoryItemNames/InvItem_319	Sleeping Bag
+InventoryItemDescriptions/InvDesc_319	A bed on the go.
+InventoryItemNames/InvItem_320	Kale
+InventoryItemDescriptions/InvDesc_320	Healthy.
+InventoryItemNames/InvItem_321	Kale Seeds
+InventoryItemDescriptions/InvDesc_321	Put 'em in the ground!
+InventoryItemNames/InvItem_322	Potato
+InventoryItemDescriptions/InvDesc_322	Boil 'em, mash 'em.
+InventoryItemNames/InvItem_323	Potato Seeds
+InventoryItemDescriptions/InvDesc_323	Put 'em in the ground!
+InventoryItemNames/InvItem_324	Wheat
+InventoryItemDescriptions/InvDesc_324	Much tastier when it's been grinded.
+InventoryItemNames/InvItem_325	Wheat Seeds
+InventoryItemDescriptions/InvDesc_325	Put 'em in the ground!
+InventoryItemNames/InvItem_326	Watermelon Seeds
+InventoryItemDescriptions/InvDesc_326	Put 'em in the ground!
+InventoryItemNames/InvItem_327	Watermelon
+InventoryItemDescriptions/InvDesc_327	If only I could get into it.
+InventoryItemNames/InvItem_328	Pumpkin
+InventoryItemDescriptions/InvDesc_328	Is this spooky?
+InventoryItemNames/InvItem_329	Pumpkin Seeds
+InventoryItemDescriptions/InvDesc_329	Put 'em in the ground!
+InventoryItemNames/InvItem_330	Onion
+InventoryItemDescriptions/InvDesc_330	I'm getting teary.
+InventoryItemNames/InvItem_331	Onion Seeds
+InventoryItemDescriptions/InvDesc_331	Put 'em in the ground!
+InventoryItemNames/InvItem_332	Visiting Site Deed
+InventoryItemDescriptions/InvDesc_332	A place for visitors to easily set up camp.
+InventoryItemNames/InvItem_333	Carp
+InventoryItemDescriptions/InvDesc_333	Latin the day.
+InventoryItemNames/InvItem_334	Eyestripe Surgeon Fish
+InventoryItemDescriptions/InvDesc_334	This guy is a doctor.
+InventoryItemNames/InvItem_335	Black & White Snapper
+InventoryItemDescriptions/InvDesc_335	Snap.
+InventoryItemNames/InvItem_336	Boofhead Catfish
+InventoryItemDescriptions/InvDesc_336	Bit of a mean name.
+InventoryItemNames/InvItem_337	Murray Cod
+InventoryItemDescriptions/InvDesc_337	A massive fish!
+InventoryItemNames/InvItem_338	Eel Tailed Catfish
+InventoryItemDescriptions/InvDesc_338	Gross tail!
+InventoryItemNames/InvItem_339	Stingray
+InventoryItemDescriptions/InvDesc_339	Is this a fish?
+InventoryItemNames/InvItem_340	MotorBike
+InventoryItemDescriptions/InvDesc_340	Broom broom.
+InventoryItemNames/InvItem_341	Bird Coop
+InventoryItemDescriptions/InvDesc_341	Birds can live in this.
+InventoryItemNames/InvItem_342	Animal Shop Deed
+InventoryItemDescriptions/InvDesc_342	Build a Barn where animals can be sold.
+InventoryItemNames/InvItem_343	Animal Feeder
+InventoryItemDescriptions/InvDesc_343	Put animal food in here to feed animals.
+InventoryItemNames/InvItem_344	Animal Food
+InventoryItemDescriptions/InvDesc_344	Farm animals can munch on this.
+InventoryItemNames/InvItem_345	Chicken Egg
+InventoryItemDescriptions/InvDesc_345	What's inside?
+InventoryItemNames/InvItem_346	Rock Path
+InventoryItemDescriptions/InvDesc_346	A simple path made from rock.
+InventoryItemNames/InvItem_347	Animal Stall
+InventoryItemDescriptions/InvDesc_347	Large Animals can live in this
+InventoryItemNames/InvItem_348	Vombat Whistle
+InventoryItemDescriptions/InvDesc_348	Calls Vombats towards you.
+InventoryItemNames/InvItem_349	Milking Bucket
+InventoryItemDescriptions/InvDesc_349	Collect milk in this.
+InventoryItemNames/InvItem_350	Milk
+InventoryItemDescriptions/InvDesc_350	Creamy and tasty!
+InventoryItemNames/InvItem_351	Wooden Flower Bed
+InventoryItemDescriptions/InvDesc_351	Decorative Flower Bed
+InventoryItemNames/InvItem_352	Hedge Arch
+InventoryItemDescriptions/InvDesc_352	Walk under it!
+InventoryItemNames/InvItem_353	Diving Knife
+InventoryItemDescriptions/InvDesc_353	Harvest things that grow under water.
+InventoryItemNames/InvItem_354	Pink Bow Hat
+InventoryItemDescriptions/InvDesc_354	Little bow
+InventoryItemNames/InvItem_355	Sun Hat
+InventoryItemDescriptions/InvDesc_355	This will keep that sun off ya.
+InventoryItemNames/InvItem_356	Gangsta Hat
+InventoryItemDescriptions/InvDesc_356	This will keep that sun off ya.
+InventoryItemNames/InvItem_357	Emu Mount
+InventoryItemDescriptions/InvDesc_357	You can ride this mu.
+InventoryItemNames/InvItem_358	Brick Fountain
+InventoryItemDescriptions/InvDesc_358	A nice little water feature.
+InventoryItemNames/InvItem_359	Cooking Table
+InventoryItemDescriptions/InvDesc_359	A place to prepare meals.
+InventoryItemNames/InvItem_360	Lamington
+InventoryItemDescriptions/InvDesc_360	Coconuty
+InventoryItemNames/InvItem_361	Fish and Chips
+InventoryItemDescriptions/InvDesc_361	From the water and the dirt.
+InventoryItemNames/InvItem_362	Fruit Salad
+InventoryItemDescriptions/InvDesc_362	Yummy Yummy.
+InventoryItemNames/InvItem_363	Garden Salad
+InventoryItemDescriptions/InvDesc_363	Crunchy and fresh!
+InventoryItemNames/InvItem_364	Hearty Stew
+InventoryItemDescriptions/InvDesc_364	Warm in your tum.
+InventoryItemNames/InvItem_365	Desert Rose Pot
+InventoryItemDescriptions/InvDesc_365	A Desert Rose in a pot.
+InventoryItemNames/InvItem_366	Fruit Bowl
+InventoryItemDescriptions/InvDesc_366	A decorative bowl of fruit.
+InventoryItemNames/InvItem_367	Alarm Clock
+InventoryItemDescriptions/InvDesc_367	A clock. With an alarm.
+InventoryItemNames/InvItem_368	Regal Clock
+InventoryItemDescriptions/InvDesc_368	A big old clock.
+InventoryItemNames/InvItem_369	Red Lava Lamp
+InventoryItemDescriptions/InvDesc_369	Its all gooey.
+InventoryItemNames/InvItem_370	Roo Plush
+InventoryItemDescriptions/InvDesc_370	It's small and cute
+InventoryItemNames/InvItem_371	Basic Wooden Floor
+InventoryItemDescriptions/InvDesc_371	A wood floor.
+InventoryItemNames/InvItem_372	Basic Wooden Wall
+InventoryItemDescriptions/InvDesc_372	A wood wallpaper.
+InventoryItemNames/InvItem_373	Dainty Floor
+InventoryItemDescriptions/InvDesc_373	A dainty floor
+InventoryItemNames/InvItem_374	Regal Rug
+InventoryItemDescriptions/InvDesc_374	A regal rug.
+InventoryItemNames/InvItem_375	Dainty Wall
+InventoryItemDescriptions/InvDesc_375	A dainty wallpaper
+InventoryItemNames/InvItem_376	Checkered Floor
+InventoryItemDescriptions/InvDesc_376	Like a chess board!
+InventoryItemNames/InvItem_377	Basic White Wall
+InventoryItemDescriptions/InvDesc_377	White Slates
+InventoryItemNames/InvItem_378	Light Blue Wall
+InventoryItemDescriptions/InvDesc_378	Blue Slates
+InventoryItemNames/InvItem_379	Checkered Wall
+InventoryItemDescriptions/InvDesc_379	Black and white!
+InventoryItemNames/InvItem_380	Museum Deed
+InventoryItemDescriptions/InvDesc_380	A deed to build a museum that will catalogue all the island's wildlife.
+InventoryItemNames/InvItem_381	Chequer Vest
+InventoryItemDescriptions/InvDesc_381	Makes you smarter.
+InventoryItemNames/InvItem_382	Old Key
+InventoryItemDescriptions/InvDesc_382	This probably opens something...
+InventoryItemNames/InvItem_383	Quarry
+InventoryItemDescriptions/InvDesc_383	Pull up rocks from the depth every day
+InventoryItemNames/InvItem_384	Old Gear
+InventoryItemDescriptions/InvDesc_384	What does this do?
+InventoryItemNames/InvItem_385	Yellow Hang Glider
+InventoryItemDescriptions/InvDesc_385	Float your day away.
+InventoryItemNames/InvItem_386	Candle hat
+InventoryItemDescriptions/InvDesc_386	It's got a lil' candle on it. Cute!
+InventoryItemNames/InvItem_387	Basic Spear
+InventoryItemDescriptions/InvDesc_387	Long and sharp
+InventoryItemNames/InvItem_388	Chicken Whistle
+InventoryItemDescriptions/InvDesc_388	Call of the chook.
+InventoryItemNames/InvItem_389	Basic Hammer
+InventoryItemDescriptions/InvDesc_389	A big hammer for hitting things slowly.
+InventoryItemNames/InvItem_390	Toad Skin
+InventoryItemDescriptions/InvDesc_390	Kind of poison
+InventoryItemNames/InvItem_391	Bulletin Board Deed
+InventoryItemDescriptions/InvDesc_391	A place for the community to post news and requests.
+InventoryItemNames/InvItem_392	Keg
+InventoryItemDescriptions/InvDesc_392	Leave stuff in there for way too long.
+InventoryItemNames/InvItem_393	Wattle Brew
+InventoryItemDescriptions/InvDesc_393	Refreshing!
+InventoryItemNames/InvItem_394	Camera
+InventoryItemDescriptions/InvDesc_394	Cheese!
+InventoryItemNames/InvItem_395	Animal Collection Point
+InventoryItemDescriptions/InvDesc_395	Drop trapped animals inside to receive rewards.
+InventoryItemNames/InvItem_396	Desert Rose
+InventoryItemDescriptions/InvDesc_396	A desert flower.
+InventoryItemNames/InvItem_397	Billy Button
+InventoryItemDescriptions/InvDesc_397	A yellow puff
+InventoryItemNames/InvItem_398	Royal Bluebell
+InventoryItemDescriptions/InvDesc_398	A regal blue flower
+InventoryItemNames/InvItem_399	Desert Pea
+InventoryItemDescriptions/InvDesc_399	A strange red flower
+InventoryItemNames/InvItem_400	Common Heath
+InventoryItemDescriptions/InvDesc_400	A ver
+InventoryItemNames/InvItem_401	Town Hall
+InventoryItemDescriptions/InvDesc_401	The centre of any town.
+InventoryItemNames/InvItem_402	Animal Shears
+InventoryItemDescriptions/InvDesc_402	Snip off some wool!
+InventoryItemNames/InvItem_403	Wool
+InventoryItemDescriptions/InvDesc_403	Soft and fluffy
+InventoryItemNames/InvItem_404	Animal Den
+InventoryItemDescriptions/InvDesc_404	Smaller animals can live in these
+InventoryItemNames/InvItem_405	Blueprint
+InventoryItemDescriptions/InvDesc_405	Study this to learn crafting recipes
+InventoryItemNames/InvItem_406	Pink Polka Dot Pants
+InventoryItemDescriptions/InvDesc_406	Polka-y
+InventoryItemNames/InvItem_407	Pink Polka Dot Shirt
+InventoryItemDescriptions/InvDesc_407	Dotty.
+InventoryItemNames/InvItem_408	Pink Polka dot Shoes
+InventoryItemDescriptions/InvDesc_408	Step on the spot.
+InventoryItemNames/InvItem_409	Pink Polka Dot Dress
+InventoryItemDescriptions/InvDesc_409	Spot on.
+InventoryItemNames/InvItem_410	Orange Dino Shirt
+InventoryItemDescriptions/InvDesc_410	It's got a dino on it.
+InventoryItemNames/InvItem_411	Skull Shirt
+InventoryItemDescriptions/InvDesc_411	Rad.
+InventoryItemNames/InvItem_412	Feather Shirt
+InventoryItemDescriptions/InvDesc_412	Light as.
+InventoryItemNames/InvItem_413	Black Baseball Cap
+InventoryItemDescriptions/InvDesc_413	Strike 1
+InventoryItemNames/InvItem_414	White Baseball Cap
+InventoryItemDescriptions/InvDesc_414	Strike 1
+InventoryItemNames/InvItem_415	Grey Sweat Pants
+InventoryItemDescriptions/InvDesc_415	Pants for sweating.
+InventoryItemNames/InvItem_416	Brown Sand Shoes
+InventoryItemDescriptions/InvDesc_416	Slip these puppies on.
+InventoryItemNames/InvItem_417	Camo Cap
+InventoryItemDescriptions/InvDesc_417	Hide under your hat.
+InventoryItemNames/InvItem_418	Camo Dress
+InventoryItemDescriptions/InvDesc_418	Where is it?
+InventoryItemNames/InvItem_419	Camo Pants
+InventoryItemDescriptions/InvDesc_419	It's like wearing nothing at all
+InventoryItemNames/InvItem_420	Camo Shirt
+InventoryItemDescriptions/InvDesc_420	Hide in plain sight.
+InventoryItemNames/InvItem_421	Camo Boots
+InventoryItemDescriptions/InvDesc_421	Left, right, left
+InventoryItemNames/InvItem_422	Cargo Pants
+InventoryItemDescriptions/InvDesc_422	Pockets. Lots of pockets.
+InventoryItemNames/InvItem_423	Blue Stripe Shirt
+InventoryItemDescriptions/InvDesc_423	Or blue with white stripes?
+InventoryItemNames/InvItem_424	Green Sand Shoes
+InventoryItemDescriptions/InvDesc_424	Slip these puppies on.
+InventoryItemNames/InvItem_425	Orange Cargo Pants
+InventoryItemDescriptions/InvDesc_425	Pockets. Lots of pockets.
+InventoryItemNames/InvItem_426	Orange Sand Shoes
+InventoryItemDescriptions/InvDesc_426	Slip these puppies on.
+InventoryItemNames/InvItem_427	Orange Stripe Shirt
+InventoryItemDescriptions/InvDesc_427	Or yellow with orange stripes?
+InventoryItemNames/InvItem_428	Straw Sun Hat
+InventoryItemDescriptions/InvDesc_428	This will keep that sun off ya.
+InventoryItemNames/InvItem_429	Red Puffy Jacket
+InventoryItemDescriptions/InvDesc_429	It's warm!
+InventoryItemNames/InvItem_430	Blue Puffy Jacket
+InventoryItemDescriptions/InvDesc_430	It's warm!
+InventoryItemNames/InvItem_431	Green Puffy Jacket
+InventoryItemDescriptions/InvDesc_431	It's warm!
+InventoryItemNames/InvItem_432	Purple Puffy Jacket
+InventoryItemDescriptions/InvDesc_432	It's warm!
+InventoryItemNames/InvItem_433	Blue Ugly Sweater
+InventoryItemDescriptions/InvDesc_433	It's ugly.
+InventoryItemNames/InvItem_434	Blue Cuffed Pants
+InventoryItemDescriptions/InvDesc_434	Cuffed up and ready to go.
+InventoryItemNames/InvItem_435	Green Cuffed Pants
+InventoryItemDescriptions/InvDesc_435	Cuffed up and ready to go.
+InventoryItemNames/InvItem_436	Purple Cuffed Pants
+InventoryItemDescriptions/InvDesc_436	Cuffed up and ready to go.
+InventoryItemNames/InvItem_437	Red Cuffed Pants
+InventoryItemDescriptions/InvDesc_437	Cuffed up and ready to go.
+InventoryItemNames/InvItem_438	Pink Singlet
+InventoryItemDescriptions/InvDesc_438	Sing it.
+InventoryItemNames/InvItem_439	Red Singlet
+InventoryItemDescriptions/InvDesc_439	Sing it.
+InventoryItemNames/InvItem_440	Red Shorts
+InventoryItemDescriptions/InvDesc_440	Easy to wear.
+InventoryItemNames/InvItem_441	Black Singlet
+InventoryItemDescriptions/InvDesc_441	Sing it.
+InventoryItemNames/InvItem_442	Black Shorts
+InventoryItemDescriptions/InvDesc_442	Easy to wear!
+InventoryItemNames/InvItem_443	Swimming Goggles
+InventoryItemDescriptions/InvDesc_443	See all the fish.
+InventoryItemNames/InvItem_444	Punk Goggles
+InventoryItemDescriptions/InvDesc_444	Keep the steam out of your eyes.
+InventoryItemNames/InvItem_445	Yellow Gum Boots
+InventoryItemDescriptions/InvDesc_445	Keep your toots dry.
+InventoryItemNames/InvItem_446	Rain Coat
+InventoryItemDescriptions/InvDesc_446	Keep dry.
+InventoryItemNames/InvItem_447	Rain Hat
+InventoryItemDescriptions/InvDesc_447	This will keep that rain off ya.
+InventoryItemNames/InvItem_448	Blue Stripe dress
+InventoryItemDescriptions/InvDesc_448	Blue and easy to wear.
+InventoryItemNames/InvItem_449	Orange Stripe dress
+InventoryItemDescriptions/InvDesc_449	Orange and easy to wear.
+InventoryItemNames/InvItem_450	Gacha Machine
+InventoryItemDescriptions/InvDesc_450	If you place money in it, who knows what you will get!
+InventoryItemNames/InvItem_451	Basic Bench
+InventoryItemDescriptions/InvDesc_451	Sit down outside why don't ya.
+InventoryItemNames/InvItem_452	Scarecrow
+InventoryItemDescriptions/InvDesc_452	Stop birds from eating all your crops.
+InventoryItemNames/InvItem_453	Brick Flower Bed
+InventoryItemDescriptions/InvDesc_453	Decorative Flower Bed
+InventoryItemNames/InvItem_454	Recycling Bin
+InventoryItemDescriptions/InvDesc_454	Place unwanted items in this.
+InventoryItemNames/InvItem_455	Small Rock
+InventoryItemDescriptions/InvDesc_455	Throw some stuff on this. It will then cook.
+InventoryItemNames/InvItem_456	Tin Ore
+InventoryItemDescriptions/InvDesc_456	Smelt it down to bars.
+InventoryItemNames/InvItem_457	Crude Axe
+InventoryItemDescriptions/InvDesc_457	Chop down trees and plants.
+InventoryItemNames/InvItem_458	Crude Furnace
+InventoryItemDescriptions/InvDesc_458	Can melt down Tin and Copper ore into bars.
+InventoryItemNames/InvItem_459	Tent
+InventoryItemDescriptions/InvDesc_459	A place to live, when you don't have a house yet.
+InventoryItemNames/InvItem_460	Tin Bar
+InventoryItemDescriptions/InvDesc_460	A bar of Tin
+InventoryItemNames/InvItem_461	Flagpole
+InventoryItemDescriptions/InvDesc_461	Place to set your
+InventoryItemNames/InvItem_462	Base Tent
+InventoryItemDescriptions/InvDesc_462	A base of operations.
+InventoryItemNames/InvItem_463	Picket Fence
+InventoryItemDescriptions/InvDesc_463	A homely fence.
+InventoryItemNames/InvItem_464	Picket Gate
+InventoryItemDescriptions/InvDesc_464	Opens and closes.
+InventoryItemNames/InvItem_465	Skull Mask
+InventoryItemDescriptions/InvDesc_465	Spooky.
+InventoryItemNames/InvItem_466	Tin Sheet
+InventoryItemDescriptions/InvDesc_466	A sheet of Tin. Made by cuting Tin Bar on a tablesaw.
+InventoryItemNames/InvItem_467	Dog Kennel
+InventoryItemDescriptions/InvDesc_467	A house for a pupper.
+InventoryItemNames/InvItem_468	Dog Whistle
+InventoryItemDescriptions/InvDesc_468	Stay and follow
+InventoryItemNames/InvItem_469	Green Pattern Wall
+InventoryItemDescriptions/InvDesc_469	Patterned
+InventoryItemNames/InvItem_470	Blue Pattern Wall
+InventoryItemDescriptions/InvDesc_470	Patterned
+InventoryItemNames/InvItem_471	Red Pattern Wall
+InventoryItemDescriptions/InvDesc_471	Patterned
+InventoryItemNames/InvItem_472	Pink Pattern Wall
+InventoryItemDescriptions/InvDesc_472	Patterned
+InventoryItemNames/InvItem_473	Dark Wooden Wall
+InventoryItemDescriptions/InvDesc_473	A dark wood wallpaper.
+InventoryItemNames/InvItem_474	Dark Wooden Floor
+InventoryItemDescriptions/InvDesc_474	A dark wood floor.
+InventoryItemNames/InvItem_475	Pink Carpet
+InventoryItemDescriptions/InvDesc_475	Soft on the toes
+InventoryItemNames/InvItem_476	Basic Blue Wallpaper
+InventoryItemDescriptions/InvDesc_476	Stripes
+InventoryItemNames/InvItem_477	Basic Green Wallpaper
+InventoryItemDescriptions/InvDesc_477	Stripes
+InventoryItemNames/InvItem_478	Basic Pink Wallpaper
+InventoryItemDescriptions/InvDesc_478	Stripes
+InventoryItemNames/InvItem_479	Basic Red Wall
+InventoryItemDescriptions/InvDesc_479	Patterned
+InventoryItemNames/InvItem_480	Bank Deed
+InventoryItemDescriptions/InvDesc_480	A deed for a place to store money and gain interest.
+InventoryItemNames/InvItem_481	Crafting Table
+InventoryItemDescriptions/InvDesc_481	Craft stuff here.
+InventoryItemNames/InvItem_482	Tiki Torch
+InventoryItemDescriptions/InvDesc_482	A holiday light.
+InventoryItemNames/InvItem_483	Crude Fence
+InventoryItemDescriptions/InvDesc_483	A basic fence. Does the job.
+InventoryItemNames/InvItem_484	Bonytongue
+InventoryItemDescriptions/InvDesc_484	Cheeky fish.
+InventoryItemNames/InvItem_485	Green Flat Cap
+InventoryItemDescriptions/InvDesc_485	It's flat and a cap.
+InventoryItemNames/InvItem_486	Pirate Pants
+InventoryItemDescriptions/InvDesc_486	Don't steal these.
+InventoryItemNames/InvItem_487	Pirate Boots
+InventoryItemDescriptions/InvDesc_487	Why aren't these flippers?
+InventoryItemNames/InvItem_488	Pirate Hat
+InventoryItemDescriptions/InvDesc_488	Keeps the sun off and the water in.
+InventoryItemNames/InvItem_489	Ninja Hood
+InventoryItemDescriptions/InvDesc_489	Sneaky
+InventoryItemNames/InvItem_490	Ninja Boots
+InventoryItemDescriptions/InvDesc_490	Sneaky Boots
+InventoryItemNames/InvItem_491	Ninja Pants
+InventoryItemDescriptions/InvDesc_491	Sneaky pants
+InventoryItemNames/InvItem_492	Ninja Shirt
+InventoryItemDescriptions/InvDesc_492	Sneaky
+InventoryItemNames/InvItem_493	Yellow Polka Dot Dress
+InventoryItemDescriptions/InvDesc_493	Spot on.
+InventoryItemNames/InvItem_494	Yellow Plaid Dress
+InventoryItemDescriptions/InvDesc_494	Nice!
+InventoryItemNames/InvItem_495	Blue Plaid Dress
+InventoryItemDescriptions/InvDesc_495	Plaid
+InventoryItemNames/InvItem_496	Brown Overall Dress
+InventoryItemDescriptions/InvDesc_496	Overalls
+InventoryItemNames/InvItem_497	Green Overall Dress
+InventoryItemDescriptions/InvDesc_497	Overalls
+InventoryItemNames/InvItem_498	Green Cardigan Dress
+InventoryItemDescriptions/InvDesc_498	A warm Dress
+InventoryItemNames/InvItem_499	Pink Cardigan Dress
+InventoryItemDescriptions/InvDesc_499	A warm dress
+InventoryItemNames/InvItem_500	Green Bow Hat
+InventoryItemDescriptions/InvDesc_500	Little bow
+InventoryItemNames/InvItem_501	Old Straw Hat
+InventoryItemDescriptions/InvDesc_501	This will keep that sun off ya.
+InventoryItemNames/InvItem_502	Donation Box
+InventoryItemDescriptions/InvDesc_502	Residents can make donations towards the town here.
+InventoryItemNames/InvItem_503	Weather Station
+InventoryItemDescriptions/InvDesc_503	Spins around and predicts the weather somehow.
+InventoryItemNames/InvItem_504	Green Flannelette Shirt
+InventoryItemDescriptions/InvDesc_504	Green and warm
+InventoryItemNames/InvItem_505	Green Plaid Pants
+InventoryItemDescriptions/InvDesc_505	Nice pants.
+InventoryItemNames/InvItem_506	Blue Plaid Pants
+InventoryItemDescriptions/InvDesc_506	Nice pants.
+InventoryItemNames/InvItem_507	Orange Flanney Shirt
+InventoryItemDescriptions/InvDesc_507	Orange and warm
+InventoryItemNames/InvItem_508	Orange Plaid Pants
+InventoryItemDescriptions/InvDesc_508	Nice pants.
+InventoryItemNames/InvItem_509	Red Plaid Pants
+InventoryItemDescriptions/InvDesc_509	Nice pants.
+InventoryItemNames/InvItem_510	Orange Flat Cap
+InventoryItemDescriptions/InvDesc_510	It's flat and a cap.
+InventoryItemNames/InvItem_511	Red Flat Cap
+InventoryItemDescriptions/InvDesc_511	It's flat and a cap.
+InventoryItemNames/InvItem_512	Blue Flat Cap
+InventoryItemDescriptions/InvDesc_512	It's flat and a cap.
+InventoryItemNames/InvItem_513	Blue Flanney Dress
+InventoryItemDescriptions/InvDesc_513	Blue and warm
+InventoryItemNames/InvItem_514	Green Flannelette Dress
+InventoryItemDescriptions/InvDesc_514	Green and warm
+InventoryItemNames/InvItem_515	Orange Flanney Dress
+InventoryItemDescriptions/InvDesc_515	Orange and warm
+InventoryItemNames/InvItem_516	Red Flanney Dress
+InventoryItemDescriptions/InvDesc_516	A red flannelette shirt.
+InventoryItemNames/InvItem_517	Guitar
+InventoryItemDescriptions/InvDesc_517	Strum it!
+InventoryItemNames/InvItem_518	Guest House Deed
+InventoryItemDescriptions/InvDesc_518	An extra house for the town.
+InventoryItemNames/InvItem_519	Guest House Deed
+InventoryItemDescriptions/InvDesc_519	An extra house for the town.
+InventoryItemNames/InvItem_520	Guest House Deed
+InventoryItemDescriptions/InvDesc_520	An extra house for the town.
+InventoryItemNames/InvItem_521	House Deed
+InventoryItemDescriptions/InvDesc_521	Allows someone to move to your town.
+InventoryItemNames/InvItem_522	Eastern Chair
+InventoryItemDescriptions/InvDesc_522	Eastern Chair
+InventoryItemNames/InvItem_523	Eastern Seat
+InventoryItemDescriptions/InvDesc_523	A single chair for sitting.
+InventoryItemNames/InvItem_524	Eastern Bed
+InventoryItemDescriptions/InvDesc_524	Sleep here.
+InventoryItemNames/InvItem_525	Eastern Bedside Table
+InventoryItemDescriptions/InvDesc_525	A wooden table for beside your bed.
+InventoryItemNames/InvItem_526	Eastern Bookshelf
+InventoryItemDescriptions/InvDesc_526	Keep books here.
+InventoryItemNames/InvItem_527	Eastern Wardrobe
+InventoryItemDescriptions/InvDesc_527	A wooden table.
+InventoryItemNames/InvItem_528	Eastern Coffee Table
+InventoryItemDescriptions/InvDesc_528	A small table.
+InventoryItemNames/InvItem_529	Eastern Couch
+InventoryItemDescriptions/InvDesc_529	A Couch. You can sit on it with a friend
+InventoryItemNames/InvItem_530	Eastern Table
+InventoryItemDescriptions/InvDesc_530	A wooden table.
+InventoryItemNames/InvItem_531	Eastern Lamp
+InventoryItemDescriptions/InvDesc_531	Keep books here.
+InventoryItemNames/InvItem_532	Eastern Floor
+InventoryItemDescriptions/InvDesc_532	An eastern flooring.
+InventoryItemNames/InvItem_533	Eastern Wall
+InventoryItemDescriptions/InvDesc_533	Patterned
+InventoryItemNames/InvItem_534	Red Wood Floor
+InventoryItemDescriptions/InvDesc_534	A dark wood floor.
+InventoryItemNames/InvItem_535	Small Stack of Books
+InventoryItemDescriptions/InvDesc_535	Some books
+InventoryItemNames/InvItem_536	Wombie Bank
+InventoryItemDescriptions/InvDesc_536	A cute pink wombat bank.
+InventoryItemNames/InvItem_537	Billy Button Pot
+InventoryItemDescriptions/InvDesc_537	A Billy Button in a pot.
+InventoryItemNames/InvItem_538	Royal Bluebell Pot
+InventoryItemDescriptions/InvDesc_538	A Royal Bluebell in a pot.
+InventoryItemNames/InvItem_539	Rattan Bed
+InventoryItemDescriptions/InvDesc_539	Sleep here.
+InventoryItemNames/InvItem_540	Rattan Bookshelf
+InventoryItemDescriptions/InvDesc_540	Keep books here.
+InventoryItemNames/InvItem_541	Rattan Cabinet
+InventoryItemDescriptions/InvDesc_541	Rattan Cabinet
+InventoryItemNames/InvItem_542	Rattan Chair
+InventoryItemDescriptions/InvDesc_542	Rattan Chair
+InventoryItemNames/InvItem_543	Rattan Coffee Table
+InventoryItemDescriptions/InvDesc_543	A small table.
+InventoryItemNames/InvItem_544	Rattan Couch
+InventoryItemDescriptions/InvDesc_544	A Couch. You can sit on it with a friend
+InventoryItemNames/InvItem_545	Rattan Table
+InventoryItemDescriptions/InvDesc_545	A wooden table.
+InventoryItemNames/InvItem_546	Rattan Floor
+InventoryItemDescriptions/InvDesc_546	Rattan flooring.
+InventoryItemNames/InvItem_547	Rattan Lamp
+InventoryItemDescriptions/InvDesc_547	Keep books here.
+InventoryItemNames/InvItem_548	Rattan Seat
+InventoryItemDescriptions/InvDesc_548	A single chair for sitting.
+InventoryItemNames/InvItem_549	Rattan Bedside Table
+InventoryItemDescriptions/InvDesc_549	A wooden table for beside your bed.
+InventoryItemNames/InvItem_550	Rattan Wall
+InventoryItemDescriptions/InvDesc_550	Patterned
+InventoryItemNames/InvItem_551	Nordic Bed
+InventoryItemDescriptions/InvDesc_551	Sleep here.
+InventoryItemNames/InvItem_552	Nordic Bedside Table
+InventoryItemDescriptions/InvDesc_552	A wooden table for beside your bed.
+InventoryItemNames/InvItem_553	Nordic Bookshelf
+InventoryItemDescriptions/InvDesc_553	Keep books here.
+InventoryItemNames/InvItem_554	Nordic Cabinet
+InventoryItemDescriptions/InvDesc_554	Nordic
+InventoryItemNames/InvItem_555	Nordic Chair
+InventoryItemDescriptions/InvDesc_555	Nordic Chair
+InventoryItemNames/InvItem_556	Nordic Coffee Table
+InventoryItemDescriptions/InvDesc_556	A small table.
+InventoryItemNames/InvItem_557	Nordic Couch
+InventoryItemDescriptions/InvDesc_557	A Couch. You can sit on it with a friend
+InventoryItemNames/InvItem_558	Nordic Table
+InventoryItemDescriptions/InvDesc_558	A wooden table.
+InventoryItemNames/InvItem_559	Nordic Floor
+InventoryItemDescriptions/InvDesc_559	Cool flooring
+InventoryItemNames/InvItem_560	Nordic Lamp
+InventoryItemDescriptions/InvDesc_560	Keep books here.
+InventoryItemNames/InvItem_561	Nordic Seat
+InventoryItemDescriptions/InvDesc_561	A single chair for sitting.
+InventoryItemNames/InvItem_562	Nordic Wall
+InventoryItemDescriptions/InvDesc_562	Cool wall
+InventoryItemNames/InvItem_563	Pink Bed
+InventoryItemDescriptions/InvDesc_563	Sleep here.
+InventoryItemNames/InvItem_564	Pink Bedside Table
+InventoryItemDescriptions/InvDesc_564	A wooden table for beside your bed.
+InventoryItemNames/InvItem_565	Pink Bookshelf
+InventoryItemDescriptions/InvDesc_565	Keep books here.
+InventoryItemNames/InvItem_566	Pink Cabinet
+InventoryItemDescriptions/InvDesc_566	Pink cabinet.
+InventoryItemNames/InvItem_567	Pink Chair
+InventoryItemDescriptions/InvDesc_567	Pink Chair
+InventoryItemNames/InvItem_568	Pink Coffee Table
+InventoryItemDescriptions/InvDesc_568	A small table.
+InventoryItemNames/InvItem_569	Pink Couch
+InventoryItemDescriptions/InvDesc_569	A Couch. You can sit on it with a friend
+InventoryItemNames/InvItem_570	Pink Table
+InventoryItemDescriptions/InvDesc_570	A pink table.
+InventoryItemNames/InvItem_571	Pink Lamp
+InventoryItemDescriptions/InvDesc_571	Pink lamp. Pretty.
+InventoryItemNames/InvItem_572	Pink Seat
+InventoryItemDescriptions/InvDesc_572	A single chair for sitting.
+InventoryItemNames/InvItem_573	Cube Floor
+InventoryItemDescriptions/InvDesc_573	It's a floor
+InventoryItemNames/InvItem_574	Cube Wall
+InventoryItemDescriptions/InvDesc_574	It's a wall
+InventoryItemNames/InvItem_575	Cooked Apple
+InventoryItemDescriptions/InvDesc_575	Cooked. Nice.
+InventoryItemNames/InvItem_576	Cooked Banana
+InventoryItemDescriptions/InvDesc_576	Nice and cooked.
+InventoryItemNames/InvItem_577	Cooked Bush Lime
+InventoryItemDescriptions/InvDesc_577	Sour and cooked. yummy.
+InventoryItemNames/InvItem_578	Palm Wood Bridge
+InventoryItemDescriptions/InvDesc_578	Maybe you could cross the water on this?
+InventoryItemNames/InvItem_579	Meadow Katydid
+InventoryItemDescriptions/InvDesc_579	Jumpin' for joy.
+InventoryItemNames/InvItem_580	Rhinoceros Beetle
+InventoryItemDescriptions/InvDesc_580	It can't fly.
+InventoryItemNames/InvItem_581	Goliath stick
+InventoryItemDescriptions/InvDesc_581	It's a big stick!
+InventoryItemNames/InvItem_582	Bogong Moth
+InventoryItemDescriptions/InvDesc_582	Dusty and gross.
+InventoryItemNames/InvItem_583	Scarlet Jezebel Butterfly
+InventoryItemDescriptions/InvDesc_583	Its red... I guess?
+InventoryItemNames/InvItem_584	Raw Giant Drumstick
+InventoryItemDescriptions/InvDesc_584	It's so big!
+InventoryItemNames/InvItem_585	Hot Cylinder
+InventoryItemDescriptions/InvDesc_585	It's warm. Is it buzzing?
+InventoryItemNames/InvItem_586	Green Board
+InventoryItemDescriptions/InvDesc_586	It has things on it.
+InventoryItemNames/InvItem_587	Old Wheel
+InventoryItemDescriptions/InvDesc_587	Where is the rest of it?
+InventoryItemNames/InvItem_588	Shiny Disc
+InventoryItemDescriptions/InvDesc_588	I can see myself.
+InventoryItemNames/InvItem_589	North Teletower
+InventoryItemDescriptions/InvDesc_589	Two Story Clothing and Weapon Shop
+InventoryItemNames/InvItem_590	East Teletower
+InventoryItemDescriptions/InvDesc_590	Two Story Clothing and Weapon Shop
+InventoryItemNames/InvItem_591	South Teletower
+InventoryItemDescriptions/InvDesc_591	Two Story Clothing and Weapon Shop
+InventoryItemNames/InvItem_592	West Teletower
+InventoryItemDescriptions/InvDesc_592	Two Story Clothing and Weapon Shop
+InventoryItemNames/InvItem_593	Copper Spear
+InventoryItemDescriptions/InvDesc_593	Long and sharper.
+InventoryItemNames/InvItem_594	Iron Spear
+InventoryItemDescriptions/InvDesc_594	Long and sharper.
+InventoryItemNames/InvItem_595	Copper Hammer
+InventoryItemDescriptions/InvDesc_595	A big hammer for hitting things slowly.
+InventoryItemNames/InvItem_596	Iron Hammer
+InventoryItemDescriptions/InvDesc_596	A big hammer for hitting things slowly.
+InventoryItemNames/InvItem_597	Island Map
+InventoryItemDescriptions/InvDesc_597	Pins can be placed on it to mark points of interest.
+InventoryItemNames/InvItem_598	Adventurer's Journal
+InventoryItemDescriptions/InvDesc_598	Fletch's Father's  journal. It's filled with his past milestones...
+InventoryItemNames/InvItem_599	Jack Hammer
+InventoryItemDescriptions/InvDesc_599	Hammer away at hard things.
+InventoryItemNames/InvItem_600	Jet Ski
+InventoryItemDescriptions/InvDesc_600	A bike for the water.
+InventoryItemNames/InvItem_601	Glass Bulb
+InventoryItemDescriptions/InvDesc_601	Does this work?
+InventoryItemNames/InvItem_602	Smooth Slate
+InventoryItemDescriptions/InvDesc_602	Was this ever useful?
+InventoryItemNames/InvItem_603	Big Chicken Egg
+InventoryItemDescriptions/InvDesc_603	It's a big one!
+InventoryItemNames/InvItem_604	Rowboat
+InventoryItemDescriptions/InvDesc_604	A human powered boat.
+InventoryItemNames/InvItem_605	Blackfish
+InventoryItemDescriptions/InvDesc_605	A black fish!
+InventoryItemNames/InvItem_606	Galaxias
+InventoryItemDescriptions/InvDesc_606	Tiny and bright.
+InventoryItemNames/InvItem_607	Silver Perch
+InventoryItemDescriptions/InvDesc_607	Shiny
+InventoryItemNames/InvItem_608	Anchovy
+InventoryItemDescriptions/InvDesc_608	So small.
+InventoryItemNames/InvItem_609	Goat Fish
+InventoryItemDescriptions/InvDesc_609	It's not a fish?
+InventoryItemNames/InvItem_610	Barracuda
+InventoryItemDescriptions/InvDesc_610	Oooooo
+InventoryItemNames/InvItem_611	Blob Fish
+InventoryItemDescriptions/InvDesc_611	What is this?
+InventoryItemNames/InvItem_612	Saratoga
+InventoryItemDescriptions/InvDesc_612	It might be roman?
+InventoryItemNames/InvItem_613	Tarpon
+InventoryItemDescriptions/InvDesc_613	A billabong shark.
+InventoryItemNames/InvItem_614	Black Cricket
+InventoryItemDescriptions/InvDesc_614	Trying to hide, eh?
+InventoryItemNames/InvItem_615	Monarch Butterfly
+InventoryItemDescriptions/InvDesc_615	The queen of butterflies.
+InventoryItemNames/InvItem_616	Lacewing
+InventoryItemDescriptions/InvDesc_616	Gentle!
+InventoryItemNames/InvItem_617	Emperor DragonFly
+InventoryItemDescriptions/InvDesc_617	It's huge!
+InventoryItemNames/InvItem_618	Pygmyfly
+InventoryItemDescriptions/InvDesc_618	Small and red
+InventoryItemNames/InvItem_619	Tau Emerald Dragonfly
+InventoryItemDescriptions/InvDesc_619	Pretty!
+InventoryItemNames/InvItem_620	Ladybird
+InventoryItemDescriptions/InvDesc_620	Is this a bird or a bug?
+InventoryItemNames/InvItem_621	Tiger Moth
+InventoryItemDescriptions/InvDesc_621	Careful, tiger
+InventoryItemNames/InvItem_622	Duskhawker Dragonfly
+InventoryItemDescriptions/InvDesc_622	Coolest name ever.
+InventoryItemNames/InvItem_623	Largidae
+InventoryItemDescriptions/InvDesc_623	It's not that large.
+InventoryItemNames/InvItem_624	Huntsman
+InventoryItemDescriptions/InvDesc_624	It's scary, but nice.
+InventoryItemNames/InvItem_625	Blue Moon Butterfly
+InventoryItemDescriptions/InvDesc_625	These are everywhere.
+InventoryItemNames/InvItem_626	Fiddler Beetle
+InventoryItemDescriptions/InvDesc_626	The smallest fiddle in the world.
+InventoryItemNames/InvItem_627	Stag Beetle
+InventoryItemDescriptions/InvDesc_627	Look at the horns!
+InventoryItemNames/InvItem_628	Marlin
+InventoryItemDescriptions/InvDesc_628	Big fish, big nose.
+InventoryItemNames/InvItem_629	Grayling
+InventoryItemDescriptions/InvDesc_629	What's a full grown gray look like?
+InventoryItemNames/InvItem_630	Hercules Moth
+InventoryItemDescriptions/InvDesc_630	This guy sounds tough.
+InventoryItemNames/InvItem_631	Centipede
+InventoryItemDescriptions/InvDesc_631	There are at least 4 legs here.
+InventoryItemNames/InvItem_632	Short Finned Eel
+InventoryItemDescriptions/InvDesc_632	Like a water snake.
+InventoryItemNames/InvItem_633	Spinning Wheel
+InventoryItemDescriptions/InvDesc_633	Turn wool into fabric
+InventoryItemNames/InvItem_634	Cloth
+InventoryItemDescriptions/InvDesc_634	Used to make clothes.
+InventoryItemNames/InvItem_635	Cheese Maker
+InventoryItemDescriptions/InvDesc_635	Turn milk into cheese.
+InventoryItemNames/InvItem_636	Cheese
+InventoryItemDescriptions/InvDesc_636	Old, hard milk
+InventoryItemNames/InvItem_637	High Quality Milk
+InventoryItemDescriptions/InvDesc_637	Very creamy and very tasty!
+InventoryItemNames/InvItem_638	High Quality Cheese
+InventoryItemDescriptions/InvDesc_638	The best hard milk there is.
+InventoryItemNames/InvItem_639	Old Spring
+InventoryItemDescriptions/InvDesc_639	I think it used to bounce?
+InventoryItemNames/InvItem_640	Sliding Handle
+InventoryItemDescriptions/InvDesc_640	Slides around with ease.
+InventoryItemNames/InvItem_641	Button Board
+InventoryItemDescriptions/InvDesc_641	Who needs this many buttons?
+InventoryItemNames/InvItem_642	Bright Wire
+InventoryItemDescriptions/InvDesc_642	So colourful!
+InventoryItemNames/InvItem_643	Old Toy
+InventoryItemDescriptions/InvDesc_643	A toy with some buttons.
+InventoryItemNames/InvItem_644	Ear Hats
+InventoryItemDescriptions/InvDesc_644	Maybe they keep your ears warm?
+InventoryItemNames/InvItem_645	Old Contraption
+InventoryItemDescriptions/InvDesc_645	This looks very useful.
+InventoryItemNames/InvItem_646	Cooked Giant Drumstick
+InventoryItemDescriptions/InvDesc_646	It's so big!
+InventoryItemNames/InvItem_647	Cooked Croco Meat
+InventoryItemDescriptions/InvDesc_647	It's got a bite to it.
+InventoryItemNames/InvItem_648	Croco Meat
+InventoryItemDescriptions/InvDesc_648	Not so snappy now, eh?
+InventoryItemNames/InvItem_649	Mangrove Stick
+InventoryItemDescriptions/InvDesc_649	Its very bendy!
+InventoryItemNames/InvItem_650	Bottle Tree Wood
+InventoryItemDescriptions/InvDesc_650	Its hollow.
+InventoryItemNames/InvItem_651	Red Hooded Cap
+InventoryItemDescriptions/InvDesc_651	Keep the neck safe.
+InventoryItemNames/InvItem_652	Pilot Goggles
+InventoryItemDescriptions/InvDesc_652	Keep bug out of your eyes.
+InventoryItemNames/InvItem_653	Googly Eyes
+InventoryItemDescriptions/InvDesc_653	What are you even looking at?
+InventoryItemNames/InvItem_654	Hero Mask
+InventoryItemDescriptions/InvDesc_654	Who is that?
+InventoryItemNames/InvItem_655	Bunny Hood
+InventoryItemDescriptions/InvDesc_655	Looks familiar..
+InventoryItemNames/InvItem_656	Yellow Sweats
+InventoryItemDescriptions/InvDesc_656	I hope you dont sweat yellow.
+InventoryItemNames/InvItem_657	Yellow Sneakers
+InventoryItemDescriptions/InvDesc_657	Got them kicks.
+InventoryItemNames/InvItem_658	Yellow B Shirt
+InventoryItemDescriptions/InvDesc_658	The "B" stands for shirt.
+InventoryItemNames/InvItem_659	Mine Pass
+InventoryItemDescriptions/InvDesc_659	A pass to use the mine elevator.
+InventoryItemNames/InvItem_660	Fern Seed
+InventoryItemDescriptions/InvDesc_660	Grows a fern
+InventoryItemNames/InvItem_661	Bush Seed
+InventoryItemDescriptions/InvDesc_661	Grows a bush
+InventoryItemNames/InvItem_662	Base Tent Deed
+InventoryItemDescriptions/InvDesc_662	Place Base tent here.
+InventoryItemNames/InvItem_663	Visiting Site Deed
+InventoryItemDescriptions/InvDesc_663	A place for visitors to easily set up camp.
+InventoryItemNames/InvItem_664	Flame Sac
+InventoryItemDescriptions/InvDesc_664	This makes fire?
+InventoryItemNames/InvItem_665	Basic Green Rug
+InventoryItemDescriptions/InvDesc_665	It's soft and green
+InventoryItemNames/InvItem_666	Basic Red Rug
+InventoryItemDescriptions/InvDesc_666	It's soft and red
+InventoryItemNames/InvItem_667	Bank Wall
+InventoryItemDescriptions/InvDesc_667	Smells like money.
+InventoryItemNames/InvItem_668	Grass Floor
+InventoryItemDescriptions/InvDesc_668	Is this even flooring?
+InventoryItemNames/InvItem_669	Cooked Cactus Fig
+InventoryItemDescriptions/InvDesc_669	The fruit of a cactus.
+InventoryItemNames/InvItem_670	Wooden Item Sign
+InventoryItemDescriptions/InvDesc_670	Shows an item off.
+InventoryItemNames/InvItem_671	Cloud Wall
+InventoryItemDescriptions/InvDesc_671	Its like the sky!
+InventoryItemNames/InvItem_672	Retro Flower Wall
+InventoryItemDescriptions/InvDesc_672	It's groovy.
+InventoryItemNames/InvItem_673	Retro Floor
+InventoryItemDescriptions/InvDesc_673	It's groovy.
+InventoryItemNames/InvItem_674	Basic Blue Rug
+InventoryItemDescriptions/InvDesc_674	It's soft and blue
+InventoryItemNames/InvItem_675	Basic Pink Rug
+InventoryItemDescriptions/InvDesc_675	It's soft and pink
+InventoryItemNames/InvItem_676	Basic Purple Rug
+InventoryItemDescriptions/InvDesc_676	It's soft and purple
+InventoryItemNames/InvItem_677	Basic Orange Rug
+InventoryItemDescriptions/InvDesc_677	It's soft and orange
+InventoryItemNames/InvItem_678	Marble Floor
+InventoryItemDescriptions/InvDesc_678	Fancy.
+InventoryItemNames/InvItem_679	Bug Book
+InventoryItemDescriptions/InvDesc_679	A book that can identify bugs in the wild.
+InventoryItemNames/InvItem_680	Fish Book
+InventoryItemDescriptions/InvDesc_680	A book that can identify fish in the wild.
+InventoryItemNames/InvItem_681	Plant Book
+InventoryItemDescriptions/InvDesc_681	A book that can identify and track plant growth.
+InventoryItemNames/InvItem_682	Compactor
+InventoryItemDescriptions/InvDesc_682	Smash that dirt to level
+InventoryItemNames/InvItem_683	Jackaroo Mask
+InventoryItemDescriptions/InvDesc_683	Looks familiar..
+InventoryItemNames/InvItem_684	Helicopter
+InventoryItemDescriptions/InvDesc_684	Zoom zoom.
+InventoryItemNames/InvItem_685	Meat Pie
+InventoryItemDescriptions/InvDesc_685	Get it in ya!
+InventoryItemNames/InvItem_686	Pavlova
+InventoryItemDescriptions/InvDesc_686	Celebrate the best way!
+InventoryItemNames/InvItem_687	Dagwood Dog
+InventoryItemDescriptions/InvDesc_687	A corn covered hotdog.
+InventoryItemNames/InvItem_688	Croc Teeth Bat
+InventoryItemDescriptions/InvDesc_688	Snap?
+InventoryItemNames/InvItem_689	Flaming Bat
+InventoryItemDescriptions/InvDesc_689	It's hot!
+InventoryItemNames/InvItem_690	Quiche
+InventoryItemDescriptions/InvDesc_690	Breakfast cake.
+InventoryItemNames/InvItem_691	Meat on a stick
+InventoryItemDescriptions/InvDesc_691	It's like meat but stickier.
+InventoryItemNames/InvItem_692	Water Tank
+InventoryItemDescriptions/InvDesc_692	Feeds sprinklers and watering cans.
+InventoryItemNames/InvItem_693	Silo
+InventoryItemDescriptions/InvDesc_693	Automatically fill your feeders
+InventoryItemNames/InvItem_694	Blackwood Seed
+InventoryItemDescriptions/InvDesc_694	The seed is red though?
 InventoryItemNames/InvItem_695	Fake Beard
 InventoryItemDescriptions/InvDesc_695	Looks real to me...
 InventoryItemNames/InvItem_696	Cement Fence
@@ -1577,3 +2965,5 @@ InventoryItemNames/InvItem_1483	Yellow Tang
 InventoryItemDescriptions/InvDesc_1483	I prefer orange
 InventoryItemNames/InvItem_1484	Festive Roo Plush
 InventoryItemDescriptions/InvDesc_1484	It's small and cute
+InventoryItemNames/InvItem_1485	Wheezing Shirt
+InventoryItemDescriptions/InvDesc_1485	The wheeze intensifies
