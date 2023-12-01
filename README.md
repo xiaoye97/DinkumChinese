@@ -1,6 +1,10 @@
 # DinkumChinese
 Dinkum汉化
 
+Dinkum汉化交流QQ频道：7opslk1lrt
+
+汉化下载/汉化错漏反馈/游戏交流，都可以进频道
+
 ## 下载
 
 [点我下载][8]
