@@ -1273,15 +1273,9 @@ GENERIC/AtWorkChat_Option_000	<chat>
 GENERIC/AtWorkChat_Option_001	<jobCondition>
 GENERIC/AtWorkChat_Option_002	<cancel>
 GENERIC/AtWorkChat_Response_002_000	Oh, alright then.
-GENERIC/BillabongFishExhibitSign_Intro_000	In this exhibit:
-GENERIC/BillabongFishExhibitSign_Intro_001	<color=#7F26A4>Bonytongue</color>þ<color=#7F26A4>Blackfish</color>þ<color=#7F26A4>Tarpon</color>þ<color=#7F26A4>Grayling</color>
-GENERIC/BillabongFishExhibitSign_Intro_002	<color=#7F26A4>Short Finned Eel</color>
+GENERIC/BillabongFishExhibitSign_Intro_000	
 GENERIC/Blueprint_Hand_Intro_000	I can't learn anything new from this...
-GENERIC/BushlandBugExhibitSign_Intro_000	In this exhibit:
-GENERIC/BushlandBugExhibitSign_Intro_001	<color=#7F26A4>Ulysses Butterfly</color>þ<color=#7F26A4>Fly</color>þ<color=#7F26A4>Bee</color>þ<color=#7F26A4>Queen Bee</color>
-GENERIC/BushlandBugExhibitSign_Intro_002	<color=#7F26A4>Birdwing Butterfly</color>þ<color=#7F26A4>Swallow-tail Butterfly</color>þ<color=#7F26A4>Harlequin Butterfly</color>þ<color=#7F26A4>Bogong Moth</color>
-GENERIC/BushlandBugExhibitSign_Intro_003	<color=#7F26A4>Scarlet Jezebel Butterfly</color>þ<color=#7F26A4>Monarch Butterfly</color>þ<color=#7F26A4>Lacewing</color>þ<color=#7F26A4>Tiger Moth</color>
-GENERIC/BushlandBugExhibitSign_Intro_004	<color=#7F26A4>Blue Moon Butterfly</color>þ<color=#7F26A4>Painted Lady Butterfly</color>þ<color=#7F26A4>Grass Yellow Butterfly</color>þ<color=#7F26A4>Purple Azure Butterfly</color>
+GENERIC/BushlandBugExhibitSign_Intro_000	
 GENERIC/CompleteHuntingRequest_Intro_000	Thank you for taking care of the <requestedHuntTarget>.
 GENERIC/CompleteHuntingRequest_Intro_001	Those Alpha creatures are really dangerous and can cause a lot of havoc.
 GENERIC/CompleteHuntingRequest_Intro_002	Here, take <BulletinBoardReward> as promised.
@@ -1304,8 +1298,7 @@ GENERIC/CraftedRequestCompleted_Intro_000	Oh bonza! You crafted a <requestItem> 
 GENERIC/CraftedRequestCompleted_Option_000	Here you go.
 GENERIC/CraftedRequestCompleted_Option_001	Nah.
 GENERIC/CraftedRequestCompleted_Response_001_000	Oh, righto, <PlayerName>...
-GENERIC/DesertBugExhibitSign_Intro_000	In this exhibit:
-GENERIC/DesertBugExhibitSign_Intro_001	<color=#7F26A4>Red Back Spider</color>þ<color=#7F26A4>Desert Scorpion</color>þ<color=#7F26A4>Pygmyfly</color>þ<color=#7F26A4>Huntsman</color>
+GENERIC/DesertBugExhibitSign_Intro_000	
 GENERIC/FirstDayFaintConvo_Intro_000	.........<PlayerName>.........
 GENERIC/FirstDayFaintConvo_Intro_001	<PlayerName>.........
 GENERIC/FirstDayFaintConvo_Intro_002	<PlayerName>?
@@ -1328,11 +1321,7 @@ GENERIC/FoundPhoto_Option_000	Sure did!
 GENERIC/FoundPhoto_Option_001	Not yet.
 GENERIC/FoundPhoto_Response_000_000	Great! Can't wait to see it!
 GENERIC/FoundPhoto_Response_001_000	No problems. I can't wait to see it
-GENERIC/FreshWaterFishExhibitSign_Intro_000	In this exhibit:
-GENERIC/FreshWaterFishExhibitSign_Intro_001	<color=#7F26A4>Barcoo Grunter</color>þ<color=#7F26A4>Barramundi</color>þ<color=#7F26A4>River Bass</color>þ<color=#7F26A4>Jungle Perch</color>
-GENERIC/FreshWaterFishExhibitSign_Intro_002	<color=#7F26A4>Golden Perch</color>þ<color=#7F26A4>Carp</color>þ<color=#7F26A4>Murray Cod</color>þ<color=#7F26A4>Galaxias</color>
-GENERIC/FreshWaterFishExhibitSign_Intro_003	<color=#7F26A4>Silver Perch</color>þ<color=#7F26A4>Deep Fish</color>þ<color=#7F26A4>Yabbie</color>þ<color=#7F26A4>Fresh Water Mussel</color>
-GENERIC/FreshWaterFishExhibitSign_Intro_004	<color=#7F26A4>Inland Crab</color>þ<color=#7F26A4>White Yabbie</color>
+GENERIC/FreshWaterFishExhibitSign_Intro_000	
 GENERIC/GivenCompostIngredients_Intro_000	Thanks, <PlayerName>!
 GENERIC/GivenCompostIngredients_Intro_001	Here is <BulletinBoardReward>.
 GENERIC/GivenCompostIngredients_Intro_002	I'll get to work making some more!
@@ -1359,8 +1348,7 @@ GENERIC/GivenCorrectShippingItem_Intro_001	<yes>You've really saved me, I didn't
 GENERIC/GivenCorrectShippingItem_Intro_002	Here is your <BulletinBoardReward>!
 GENERIC/GivenSmeltingIngredient_Intro_000	Thank you, <PlayerName>.
 GENERIC/GivenSmeltingIngredient_Intro_001	Take these <BulletinBoardReward>. I just like smelting them and I don't really need them.
-GENERIC/MangroveWaterFishExhibitSign_Intro_000	In this exhibit:
-GENERIC/MangroveWaterFishExhibitSign_Intro_001	<color=#7F26A4>Mangrove Jack</color>þ<color=#7F26A4>Eel Tailed Catfish</color>
+GENERIC/MangroveWaterFishExhibitSign_Intro_000	
 GENERIC/MoveInRequest_Intro_000	Hey, <PlayerName>.
 GENERIC/MoveInRequest_Intro_001	I've decided I really like it here. 
 GENERIC/MoveInRequest_Intro_002	So, I spoke to Fletch, and I've applied for a deed so I can set up a permanent store here in town.
@@ -1813,14 +1801,7 @@ GENERIC/Quest_8_Convo_Complete_Intro_004	<glee>Well done, mate!
 GENERIC/RequestItem_Incorrect_1_Intro_000	Oh...
 GENERIC/RequestItem_Incorrect_1_Intro_001	I actually wanted <requestItem>.
 GENERIC/RequestItem_Incorrect_1_Intro_002	I'll give this back.
-GENERIC/SaltWaterFishExhibitSign_Intro_000	In this exhibit:
-GENERIC/SaltWaterFishExhibitSign_Intro_001	<color=#7F26A4>Banded Morwong</color>þ<color=#7F26A4>Bluefish</color>þ<color=#7F26A4>Garfish</color>þ<color=#7F26A4>Luderick</color>
-GENERIC/SaltWaterFishExhibitSign_Intro_002	<color=#7F26A4>Blue Spot Flathead</color>þ<color=#7F26A4>Travalla</color>þ<color=#7F26A4>Yellowfin Tuna</color>þ<color=#7F26A4>Eyestripe Surgeonfish</color>
-GENERIC/SaltWaterFishExhibitSign_Intro_003	<color=#7F26A4>Black & White Snapper</color>þ<color=#7F26A4>Stingray</color>þ<color=#7F26A4>Anchovy</color>þ<color=#7F26A4>Goat Fish</color>
-GENERIC/SaltWaterFishExhibitSign_Intro_004	<color=#7F26A4>Barracuda</color>þ<color=#7F26A4>Blob Fish</color>þ<color=#7F26A4>Marlin</color>þ<color=#7F26A4>Biscuit Sea Star</color>
-GENERIC/SaltWaterFishExhibitSign_Intro_005	<color=#7F26A4>Eleven-armed Sea Star</color>þ<color=#7F26A4>Black Sea Cucumber</color>þ<color=#7F26A4>Spiny Sea Urchin</color>þ<color=#7F26A4>Pink Sea Urchin</color>
-GENERIC/SaltWaterFishExhibitSign_Intro_006	<color=#7F26A4>King Prawn</color>þ<color=#7F26A4>Tiger Prawn</color>þ<color=#7F26A4>Bay Bug</color>þ<color=#7F26A4>Purple Mottled Crab</color>
-GENERIC/SaltWaterFishExhibitSign_Intro_007	<color=#7F26A4>Blue Mussel</color>
+GENERIC/SaltWaterFishExhibitSign_Intro_000	
 GENERIC/SellItemByWeight_Intro_000	Ah, I see you've got a nice <sellByWeightName> there.
 GENERIC/SellItemByWeight_Intro_001	Looks like it weighs around <getItemWeight>!
 GENERIC/SellItemByWeight_Intro_002	How does <getItemByWeightPrice> sound for it?
@@ -1876,12 +1857,7 @@ GENERIC/TradeSameItem_Intro_000	Wait a second. . . This is a <BulletinBoardRewar
 GENERIC/TradeSameItem_Intro_001	<haha> I guess we're right where we started! Here, you can have this back.
 GENERIC/TradeWrongTypeOfItem_Intro_000	Ah . . . This isn't what I'm after.
 GENERIC/TradeWrongTypeOfItem_Intro_001	You can have this back.
-GENERIC/TropicalBugExhibitSign 1_Intro_000	In this exhibit:
-GENERIC/TropicalBugExhibitSign 1_Intro_001	<color=#7F26A4>Funnel Web Spider</color>þ<color=#7F26A4>Grasshopper</color>þ<color=#7F26A4>Common Blue Tail</color>þ<color=#7F26A4>Cockroach</color>
-GENERIC/TropicalBugExhibitSign 1_Intro_002	<color=#7F26A4>Peacock Spider</color>þ<color=#7F26A4>Stink Bug</color>þ<color=#7F26A4>Paper Wasp</color>þ<color=#7F26A4>Firefly</color>
-GENERIC/TropicalBugExhibitSign 1_Intro_003	<color=#7F26A4>Cricket</color>þ<color=#7F26A4>Meadow Katydid</color>þ<color=#7F26A4>Rhinoceros Beetle</color>þ<color=#7F26A4>Black Cricket</color>
-GENERIC/TropicalBugExhibitSign 1_Intro_004	<color=#7F26A4>Emperor DragonFly</color>þ<color=#7F26A4>Tau Emerald Dragonfly</color>þ<color=#7F26A4>Duskhawker DragonFly</color>þ<color=#7F26A4>Largidae</color>
-GENERIC/TropicalBugExhibitSign 1_Intro_005	<color=#7F26A4>Fiddler Beetle</color>þ<color=#7F26A4>Stag Beetle</color>þ<color=#7F26A4>Centipede</color>þ<color=#7F26A4>Glow Bug</color>
+GENERIC/TropicalBugExhibitSign 1_Intro_000	
 GENERIC/TuckshopConversation_Intro_000	Welcome to the Tuckerbox.
 GENERIC/TuckshopConversation_Intro_001	What can I do for you, <petName>?
 GENERIC/TuckshopConversation_Option_000	I want to sell
@@ -1894,8 +1870,7 @@ GENERIC/TuckshopMoveInRequest_Intro_001	<shy>You’ve really shown me some of th
 GENERIC/TuckshopMoveInRequest_Intro_002	<yes>I reckon it’s finally time to leave <SouthCity> for good.þ
 GENERIC/TuckshopMoveInRequest_Intro_003	<proud>I’ve talked to <NPCName> and I’ve applied for a <itemName>.þ
 GENERIC/TuckshopMoveInRequest_Intro_004	<glee>I hope we can get it up and running soon.þ
-GENERIC/UnkownBugExhibitSign_Intro_000	This exhibit is currently empty.
-GENERIC/UnkownBugExhibitSign_Intro_001	We look forward to future donations!
+GENERIC/UnkownBugExhibitSign_Intro_000	
 GENERIC/UseTreasureMapOffIsland_Intro_000	Hmmm...
 GENERIC/UseTreasureMapOffIsland_Intro_001	I've marked an X on my map!
 GENERIC/UseTreasureMapOnMainIsland_Intro_000	Hmmm...
@@ -5221,6 +5196,10 @@ SIGN/NoBoardingPass_Option_000	Let's fly!
 SIGN/NoBoardingPass_Option_001	Nevermind
 SIGN/NoBoardingPass_Response_000_000	No <itemName>?
 SIGN/NoBoardingPass_Response_000_001	Can't take off until I see a <itemName>, sorry.
+SIGN/NoFletch_Sleeping Bags_Intro_000	<NPCName> keeps these in case they need them.
+SIGN/NoFletch_Sleeping Bags_Intro_001	I'm sure she won't mind if I take one...
+SIGN/NoFletch_Sleeping Bags_Option_000	Take one.
+SIGN/NoFletch_Sleeping Bags_Option_001	Don't take one.
 SIGN/NoRepairKit_Intro_000	I need a <itemName> to use this.
 SIGN/NotAcceptingDonations_Intro_000	The town is not currently accepting donations.
 SIGN/NotAcceptingDonations_Intro_001	Thank you for your support!

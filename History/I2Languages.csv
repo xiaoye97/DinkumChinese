@@ -4266,13 +4266,9 @@ Sign/MineLevel_HasRubyShard_Option_000	Set Level
 Sign/MineLevel_HasRubyShard_Option_001	Nevermind				
 Sign/MineLevel_NotEnoughRubyShards_Intro_000	Looks like something shiny might go in here...				
 Sign/NoFletch_Sleeping Bags_Intro_000	<NPCName> keeps these in case they need them.	<NPCName> les conserve au cas où ils en auraient besoin.	<NPCName> хранит их на случай, если они понадобятся.	<NPCName> 保留这些以备他们需要。	<NPCName>は、必要な場合に備えてこれらを保持します。
-SIGN/NoFletch_Sleeping Bags_Intro_000	<NPCName> keeps these in case they need them.				
 Sign/NoFletch_Sleeping Bags_Intro_001	I'm sure she won't mind if I take one...	Je suis sûr que ça ne la dérangera pas si j'en prends un...	Я уверен, что она не будет возражать, если я возьму одну ...	我敢肯定她不会介意我拿一个...	私が持っていっても彼女は気にしないと確信しています...
-SIGN/NoFletch_Sleeping Bags_Intro_001	I'm sure she won't mind if I take one...				
 Sign/NoFletch_Sleeping Bags_Option_000	Take one.	Prends-en un.	Взять одну.	拿一个。	一つを取って。
-SIGN/NoFletch_Sleeping Bags_Option_000	Take one.				
 Sign/NoFletch_Sleeping Bags_Option_001	Don't take one.	N'en prenez pas.	Не бери.	不要拿一个。	服用しないでください。
-SIGN/NoFletch_Sleeping Bags_Option_001	Don't take one.				
 Sign/NoRepairKit_Intro_000	I need a <itemName> to use this.				
 Sign/NotAcceptingDonations_Intro_000	The town is not currently accepting donations.	La ville n'accepte actuellement les dons.	Город в настоящее время не принимает пожертвования.		町は現在、寄付を受け付けていません。
 Sign/NotAcceptingDonations_Intro_001	Thank you for your support!	Merci pour votre soutien!	Спасибо за поддержку!		ご支援いただきありがとうございます！
