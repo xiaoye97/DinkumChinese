@@ -3,7 +3,6 @@ using I2.Loc;
 using System;
 using BepInEx;
 using XYModLib;
-using System.IO;
 using I2LocPatch;
 using HarmonyLib;
 using System.Linq;
@@ -23,6 +22,52 @@ namespace DinkumChinese
         public const string Version = "1.17.0";
         public static DinkumChinesePlugin Inst;
 
+        public static Queue<TextMeshProUGUI> waitShowTMPs = new Queue<TextMeshProUGUI>();
+
+        public List<TextLocData> AnimalsTextLocList = new List<TextLocData>();
+
+        public UIWindow DebugWindow;
+
+        public ConfigEntry<bool> DevMode;
+
+        public ConfigEntry<bool> DontLoadLocOnDevMode;
+
+        public List<TextLocData> DynamicTextLocList = new List<TextLocData>();
+
+        public string ErrorStr;
+
+        public UIWindow ErrorWindow;
+
+        public List<TextLocData> HoverTextLocList = new List<TextLocData>();
+
+        public bool IsPluginLoaded;
+
+        public ConfigEntry<bool> LogNoTranslation;
+
+        public List<TextLocData> MailTextLocList = new List<TextLocData>();
+
+        public List<TextLocData> NPCNameTextLocList = new List<TextLocData>();
+
+        public List<TextLocData> PostTextLocList = new List<TextLocData>();
+
+        public List<TextLocData> QuestTextLocList = new List<TextLocData>();
+
+        public List<TextLocData> TipsTextLocList = new List<TextLocData>();
+
+        private static IJson _json;
+
+        private static bool pause;
+
+        private Vector2 cv;
+
+        private bool isChatHide;
+
+        private int lastChatCount;
+
+        private float showChatCD;
+
+        private float tipsCD = 15;
+
         public static IJson Json
         {
             get
@@ -34,8 +79,6 @@ namespace DinkumChinese
                 return _json;
             }
         }
-
-        private static IJson _json;
 
         public static bool Pause
         {
@@ -49,323 +92,10 @@ namespace DinkumChinese
             }
         }
 
-        private static bool pause;
-
-        public ConfigEntry<bool> DevMode;
-        public ConfigEntry<bool> DontLoadLocOnDevMode;
-        public ConfigEntry<bool> LogNoTranslation;
-
-        public List<TextLocData> DynamicTextLocList = new List<TextLocData>();
-        public List<TextLocData> PostTextLocList = new List<TextLocData>();
-        public List<TextLocData> QuestTextLocList = new List<TextLocData>();
-        public List<TextLocData> TipsTextLocList = new List<TextLocData>();
-        public List<TextLocData> MailTextLocList = new List<TextLocData>();
-        public List<TextLocData> AnimalsTextLocList = new List<TextLocData>();
-
-        public UIWindow DebugWindow;
-        public UIWindow ErrorWindow;
-        public string ErrorStr;
-        public bool IsPluginLoaded;
-
-        private float tipsCD = 15;
-
-        private void Awake()
-        {
-            Inst = this;
-            DevMode = Config.Bind<bool>("Dev", "DevMode", false, "开发模式时，可以按快捷键触发开发功能");
-            DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "开发模式时，不加载DynamicText Post Quest翻译，方便dump");
-            LogNoTranslation = Config.Bind<bool>("Tool", "LogNoTranslation", true, "可以输出没翻译的目标");
-            DebugWindow = new UIWindow("汉化测试工具[Ctrl+数字键4]");
-            DebugWindow.WindowRect.position = new Vector2(500, 100);
-            DebugWindow.OnWinodwGUI = DebugWindowGUI;
-            ErrorWindow = new UIWindow($"汉化出现错误 {PluginName} v{Version}");
-            ErrorWindow.OnWinodwGUI = ErrorWindowFunc;
-            try
-            {
-                Harmony.CreateAndPatchAll(typeof(DinkumChinesePlugin));
-                Harmony.CreateAndPatchAll(typeof(ILPatch));
-                Harmony.CreateAndPatchAll(typeof(StringReturnPatch));
-                Harmony.CreateAndPatchAll(typeof(StartTranslatePatch));
-                Harmony.CreateAndPatchAll(typeof(SpritePatch));
-            }
-            catch (ExecutionEngineException ex)
-            {
-                ErrorStr = $"汉化出现错误。推测是由于用户名或者游戏路径中包含非英文字符导致。\n异常信息:\n{ex}";
-                ErrorWindow.Show = true;
-            }
-            catch (Exception ex)
-            {
-                ErrorStr = $"汉化出现错误。\n异常信息:\n{ex}";
-                ErrorWindow.Show = true;
-            }
-            if (DevMode.Value && DontLoadLocOnDevMode.Value)
-            {
-                return;
-            }
-            Invoke("LogFlagTrue", 2f);
-            DynamicTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/DynamicTextLoc.txt");
-            PostTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/PostTextLoc.json");
-            QuestTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/QuestTextLoc.json");
-            TipsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TipsTextLoc.json");
-            MailTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/MailTextLoc.json");
-            AnimalsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/AnimalsTextLoc.json");
-        }
-
-        public void LogFlagTrue()
-        {
-            IsPluginLoaded = true;
-        }
-
-        public void ErrorWindowFunc()
-        {
-            GUILayout.Label("请注意检查是否有新版本汉化");
-            GUILayout.Label(ErrorStr);
-        }
-
-        private void Start()
-        {
-            OnGameStartOnceFix();
-        }
-
-        private void Update()
-        {
-            if (tipsCD > 0)
-            {
-                tipsCD -= Time.deltaTime;
-            }
-            if (DevMode.Value)
-            {
-                // Ctrl + 小键盘4 切换GUI
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha4))
-                {
-                    DebugWindow.Show = !DebugWindow.Show;
-                }
-                // Ctrl + 小键盘5 切换暂停游戏，游戏速度1
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha5))
-                {
-                    Pause = !Pause;
-                    Time.timeScale = Pause ? 0 : 1;
-                }
-                // Ctrl + 小键盘6 切换暂停游戏，游戏速度10
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha6))
-                {
-                    Pause = !Pause;
-                    Time.timeScale = Pause ? 1 : 10;
-                }
-                // Ctrl + 小键盘7 dump场景内所有文本，不包括隐藏的文本
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha7))
-                {
-                    DumpText(false);
-                }
-                // Ctrl + 小键盘8 dump场景内所有文本，包括隐藏的文本
-                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha8))
-                {
-                    DumpText(true);
-                }
-            }
-            FixChatFont();
-        }
-
-        private void OnGUI()
-        {
-            DebugWindow.OnGUI();
-            ErrorWindow.OnGUI();
-            if (tipsCD > 0)
-            {
-                GUILayout.Label($"[{(int)tipsCD}s]温馨提示：汉化mod是开源免费的，不需要花钱买，Dinkum汉化QQ群:864425971，群文件就有");
-            }
-        }
-
-        private Vector2 cv;
-
-        public void DebugWindowGUI()
-        {
-            GUILayout.BeginVertical("功能区", GUI.skin.window);
-            if (GUILayout.Button("[Ctrl+数字键5] 切换暂停游戏，游戏速度1"))
-            {
-                Pause = !Pause;
-                Time.timeScale = Pause ? 0 : 1;
-            }
-            if (GUILayout.Button("[Ctrl+数字键6] 切换暂停游戏，游戏速度10"))
-            {
-                Pause = !Pause;
-                Time.timeScale = Pause ? 1 : 10;
-            }
-            if (GUILayout.Button("检查括号(需要已汉化状态)"))
-            {
-                CheckKuoHao();
-            }
-            GUILayout.EndVertical();
-            GUILayout.BeginVertical("Dump", GUI.skin.window);
-            if (GUILayout.Button("[Ctrl+数字键7] dump场景内所有文本，不包括隐藏的文本"))
-            {
-                DumpText(false);
-            }
-            if (GUILayout.Button("[Ctrl+数字键8] dump场景内所有文本，包括隐藏的文本"))
-            {
-                DumpText(true);
-            }
-            if (GUILayout.Button("一键导出全部原文(需要未汉化状态)"))
-            {
-                List<string> ignoreTermList = new List<string>();
-                var list1 = DumpAllConversationObject();
-                var list2 = DumpAllItem();
-                ignoreTermList.AddRange(list1);
-                ignoreTermList.AddRange(list2);
-                I2LocPatchPlugin.Instance.DumpAllLocRes(ignoreTermList);
-                DumpAllPost();
-                DumpAllQuest();
-                DumpAllMail();
-                DumpAllTips();
-                DumpAnimals();
-            }
-
-            GUILayout.EndVertical();
-        }
-
-        private int lastChatCount;
-        private bool isChatHide;
-        private float showChatCD;
-
-        public void FixChatFont()
-        {
-            if (ChatBox.chat != null)
-            {
-                if (isChatHide)
-                {
-                    showChatCD -= Time.deltaTime;
-                    if (showChatCD < 0)
-                    {
-                        isChatHide = false;
-                        foreach (var chat in ChatBox.chat.chatLog)
-                        {
-                            chat.contents.enabled = false;
-                            chat.contents.enabled = true;
-                        }
-                    }
-                }
-                if (ChatBox.chat.chatLog.Count != lastChatCount)
-                {
-                    lastChatCount = ChatBox.chat.chatLog.Count;
-                    isChatHide = true;
-                    showChatCD = 0.5f;
-                }
-            }
-        }
-
         public static void LogInfo(string log)
         {
             Inst.Logger.LogInfo(log);
         }
-
-        [HarmonyPostfix, HarmonyPatch(typeof(OptionsMenu), "Start")]
-        public static void OptionsMenuStartPatch()
-        {
-            LocalizationManager.CurrentLanguage = "Chinese";
-        }
-
-        [HarmonyPrefix, HarmonyPatch(typeof(RealWorldTimeLight), "setUpDayAndDate")]
-        public static bool RealWorldTimeLight_setUpDayAndDate_Patch(RealWorldTimeLight __instance)
-        {
-            __instance.seasonAverageTemp = __instance.seasonAverageTemps[WorldManager.Instance.month - 1];
-            __instance.DayText.text = __instance.getDayName(WorldManager.Instance.day - 1);
-            __instance.DateText.text = (WorldManager.Instance.day + (WorldManager.Instance.week - 1) * 7).ToString("00");
-            __instance.SeasonText.text = __instance.getSeasonName(WorldManager.Instance.month - 1);
-            SeasonManager.manage.checkSeasonAndChangeMaterials();
-            return false;
-        }
-
-        [HarmonyPrefix, HarmonyPatch(typeof(Conversation), "getIntroName")]
-        public static bool Conversation_getIntroName(Conversation __instance, ref string __result, int i)
-        {
-            if (Inst.DevMode.Value && Inst.DontLoadLocOnDevMode.Value) return true;
-            string result = $"{__instance.saidBy}/{__instance.gameObject.name}_Intro_{i.ToString("D3")}";
-            __result = result;
-            if (!LocalizationManager.Sources[0].ContainsTerm(result))
-            {
-                if (__instance.startLineAlt.sequence.Length > i)
-                {
-                    if (string.IsNullOrWhiteSpace(__instance.startLineAlt.sequence[i]))
-                    {
-                        __result = result;
-                    }
-                    else
-                    {
-                        __result = result + "_" + __instance.startLineAlt.sequence[i].GetHashCode();
-                    }
-                }
-            }
-            if (Inst.DevMode.Value)
-                Debug.Log($"Conversation_getIntroName {__result}");
-            return false;
-        }
-
-        [HarmonyPrefix, HarmonyPatch(typeof(Conversation), "getOptionName")]
-        public static bool Conversation_getOptionName(Conversation __instance, ref string __result, int i)
-        {
-            if (Inst.DevMode.Value && Inst.DontLoadLocOnDevMode.Value) return true;
-            string result = $"{__instance.saidBy}/{__instance.gameObject.name}_Option_{i.ToString("D3")}";
-            __result = result;
-            if (!LocalizationManager.Sources[0].ContainsTerm(result))
-            {
-                if (__instance.optionNames.Length > i)
-                {
-                    if (string.IsNullOrWhiteSpace(__instance.optionNames[i]))
-                    {
-                        __result = result;
-                    }
-                    else
-                    {
-                        __result = result + "_" + __instance.optionNames[i].GetHashCode();
-                    }
-                }
-            }
-            if (Inst.DevMode.Value)
-                Debug.Log($"Conversation_getOptionName {__result}");
-            return false;
-        }
-
-        [HarmonyPrefix, HarmonyPatch(typeof(Conversation), "getResponseName")]
-        public static bool Conversation_getResponseName(Conversation __instance, ref string __result, int i, int r)
-        {
-            if (Inst.DevMode.Value && Inst.DontLoadLocOnDevMode.Value) return true;
-            string result = $"{__instance.saidBy}/{__instance.gameObject.name}_Response_{i.ToString("D3")}_{r.ToString("D3")}";
-            __result = result;
-            if (!LocalizationManager.Sources[0].ContainsTerm(result))
-            {
-                if (__instance.responesAlt.Length > i)
-                {
-                    if (__instance.responesAlt[i].sequence.Length > r)
-                    {
-                        if (string.IsNullOrWhiteSpace(__instance.responesAlt[i].sequence[r]))
-                        {
-                            __result = result;
-                        }
-                        else
-                        {
-                            __result = result + "_" + __instance.responesAlt[i].sequence[r].GetHashCode();
-                        }
-                    }
-                }
-            }
-            if (Inst.DevMode.Value)
-                Debug.Log($"Conversation_getResponseName {__result}");
-            return false;
-        }
-
-        [HarmonyPostfix, HarmonyPatch(typeof(LocalizationManager), "TryGetTranslation")]
-        public static void Localize_OnLocalize(string Term, bool __result)
-        {
-            if (Inst.IsPluginLoaded && Inst.LogNoTranslation.Value)
-            {
-                if (!__result)
-                {
-                    Debug.LogWarning($"LocalizationManager获取翻译失败:Term:{Term}");
-                }
-            }
-        }
-
-        public static Queue<TextMeshProUGUI> waitShowTMPs = new Queue<TextMeshProUGUI>();
 
         /// <summary>
         /// 检查翻译中的括号是否匹配
@@ -447,31 +177,91 @@ namespace DinkumChinese
             System.IO.File.WriteAllText($"{Paths.GameRootPath}/CheckKuoHao.txt", sb.ToString());
         }
 
-        /// <summary>
-        /// 获取路径
-        /// </summary>
-        /// <param name="t"></param>
-        /// <returns></returns>
-        public string GetPath(Transform t)
+        public void DebugWindowGUI()
         {
-            List<string> paths = new List<string>();
-            StringBuilder sb = new StringBuilder();
-            paths.Add(t.name);
-            Transform p = t.parent;
-            while (p != null)
+            GUILayout.BeginVertical("功能区", GUI.skin.window);
+            if (GUILayout.Button("[Ctrl+数字键5] 切换暂停游戏，游戏速度1"))
             {
-                paths.Add(p.name);
-                p = p.parent;
+                Pause = !Pause;
+                Time.timeScale = Pause ? 0 : 1;
             }
-            for (int i = paths.Count - 1; i >= 0; i--)
+            if (GUILayout.Button("[Ctrl+数字键6] 切换暂停游戏，游戏速度10"))
             {
-                sb.Append(paths[i]);
-                if (i != 0)
+                Pause = !Pause;
+                Time.timeScale = Pause ? 1 : 10;
+            }
+            if (GUILayout.Button("检查括号(需要已汉化状态)"))
+            {
+                CheckKuoHao();
+            }
+            GUILayout.EndVertical();
+            GUILayout.BeginVertical("Dump", GUI.skin.window);
+            if (GUILayout.Button("[Ctrl+数字键7] dump场景内所有文本，不包括隐藏的文本"))
+            {
+                DumpTool.DumpText(false);
+            }
+            if (GUILayout.Button("[Ctrl+数字键8] dump场景内所有文本，包括隐藏的文本"))
+            {
+                DumpTool.DumpText(true);
+            }
+            if (GUILayout.Button("一键导出全部原文(需要未汉化状态)"))
+            {
+                List<string> ignoreTermList = new List<string>();
+                var list1 = DumpTool.DumpAllConversationObject();
+                var list2 = DumpTool.DumpAllItem();
+                ignoreTermList.AddRange(list1);
+                ignoreTermList.AddRange(list2);
+                I2LocPatchPlugin.Instance.DumpAllLocRes(ignoreTermList);
+                DumpTool.DumpAllPost();
+                DumpTool.DumpAllQuest();
+                DumpTool.DumpAllMail();
+                DumpTool.DumpAllTips();
+                DumpTool.DumpAnimals();
+                DumpTool.DumpNPCNames();
+                DumpTool.DumpHoverText();
+                DumpTool.DumpInventoryLootTableTimeWeatherMaster_locationName();
+                DumpTool.DumpMapIcon();
+            }
+
+            GUILayout.EndVertical();
+        }
+
+        public void ErrorWindowFunc()
+        {
+            GUILayout.Label("请注意检查是否有新版本汉化");
+            GUILayout.Label("Dinkum汉化交流QQ频道:7opslk1lrt");
+            GUILayout.Label(ErrorStr);
+        }
+
+        public void FixChatFont()
+        {
+            if (ChatBox.chat != null)
+            {
+                if (isChatHide)
                 {
-                    sb.Append('/');
+                    showChatCD -= Time.deltaTime;
+                    if (showChatCD < 0)
+                    {
+                        isChatHide = false;
+                        foreach (var chat in ChatBox.chat.chatLog)
+                        {
+                            chat.contents.enabled = false;
+                            chat.contents.enabled = true;
+                        }
+                    }
+                }
+                if (ChatBox.chat.chatLog.Count != lastChatCount)
+                {
+                    lastChatCount = ChatBox.chat.chatLog.Count;
+                    isChatHide = true;
+                    showChatCD = 0.5f;
                 }
             }
-            return sb.ToString();
+        }
+
+        public void LogFlagTrue()
+        {
+            IsPluginLoaded = true;
         }
 
         /// <summary>
@@ -479,302 +269,127 @@ namespace DinkumChinese
         /// </summary>
         public void OnGameStartOnceFix()
         {
-            // 动物的生物群系翻译
-            //AnimalManager.manage.northernOceanFish.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.northernOceanFish.locationName);
-            //AnimalManager.manage.southernOceanFish.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.southernOceanFish.locationName);
-            //AnimalManager.manage.riverFish.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.riverFish.locationName);
-            //AnimalManager.manage.mangroveFish.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.mangroveFish.locationName);
-            //AnimalManager.manage.billabongFish.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.billabongFish.locationName);
-            //AnimalManager.manage.topicalBugs.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.topicalBugs.locationName);
-            //AnimalManager.manage.desertBugs.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.desertBugs.locationName);
-            //AnimalManager.manage.bushlandBugs.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.bushlandBugs.locationName);
-            //AnimalManager.manage.pineLandBugs.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.pineLandBugs.locationName);
-            //AnimalManager.manage.plainsBugs.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.plainsBugs.locationName);
-            //AnimalManager.manage.underWaterOceanCreatures.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.underWaterOceanCreatures.locationName);
-            //AnimalManager.manage.underWaterRiverCreatures.locationName =
-            //    TextLocData.GetLoc(DynamicTextLocList, AnimalManager.manage.underWaterRiverCreatures.locationName);
+            ReplaceNPCNames();
+            ReplaceHoverTexts();
         }
-
-        #region Dump
 
         /// <summary>
-        /// Dump当前的文本
+        /// 替换NPC的名字
         /// </summary>
-        /// <param name="includeInactive"></param>
-        public void DumpText(bool includeInactive)
+        public void ReplaceNPCNames()
         {
-            StringBuilder sb = new StringBuilder();
-            var tmps = GameObject.FindObjectsOfType<TextMeshProUGUI>(includeInactive);
-            foreach (var tmp in tmps)
+            List<NPCDetails> coms = new List<NPCDetails>();
+            coms.AddRange(Resources.FindObjectsOfTypeAll<NPCDetails>());
+            foreach (var com in coms)
             {
-                var i2 = tmp.GetComponent<Localize>();
-                if (i2 != null) continue;
-                sb.AppendLine("===========");
-                sb.AppendLine($"path:{GetPath(tmp.transform)}");
-                sb.AppendLine($"text:{tmp.text.StrToI2Str()}");
+                string cnText = TextLocData.GetLoc(NPCNameTextLocList, com.NPCName);
+                com.NPCName = cnText;
             }
-            File.WriteAllText($"{Paths.GameRootPath}/I2/TextDump.txt", sb.ToString());
-            LogInfo($"Dump完毕,{Paths.GameRootPath}/I2/TextDump.txt");
         }
 
-        public List<string> DumpAllConversationObject()
+        public void ReplaceHoverTexts()
         {
-            List<ConversationObject> conversations = new List<ConversationObject>();
-            // 直接从资源搜索单独的Conversation
-            conversations.AddRange(Resources.FindObjectsOfTypeAll<ConversationObject>());
-
-            //StringBuilder sb = new StringBuilder();
-            //sb.AppendLine($"Key\tEnglish");
-            List<string> terms = new List<string>();
-            I2File i2File = new I2File();
-            i2File.Name = "对话表";
-            i2File.Languages = new List<string>() { "English" };
-
-            foreach (var c in conversations)
+            List<HoverToolTipOnButton> coms = new List<HoverToolTipOnButton>();
+            coms.AddRange(Resources.FindObjectsOfTypeAll<HoverToolTipOnButton>());
+            foreach (var com in coms)
             {
-                // Openings
-                if (c.targetOpenings != null && c.targetOpenings.sequence.Length > 0)
-                {
-                    for (int i = 0; i < c.targetOpenings.sequence.Length; i++)
-                    {
-                        string term = $"{c.conversationTarget}/{c.name}_Intro_{i.ToString("D3")}";
-                        string text = c.targetOpenings.sequence[i];
-                        string line = $"{term}\t{text.StrToI2Str()}";
-                        if (!string.IsNullOrWhiteSpace(term))
-                        {
-                            terms.Add(term);
-                            TermLine termLine = new TermLine();
-                            termLine.Name = term;
-                            termLine.Texts = new string[] { text };
-                            i2File.Lines.Add(termLine);
-                            //LogInfo(line);
-                        }
-                    }
-                }
-                // Option
-                for (int i = 0; i < c.playerOptions.Length; i++)
-                {
-                    string term = $"{c.conversationTarget}/{c.name}_Option_{i.ToString("D3")}";
-                    string text = c.playerOptions[i];
-                    string line = $"{term}\t{text.StrToI2Str()}";
-                    if (!string.IsNullOrWhiteSpace(term))
-                    {
-                        terms.Add(term);
-                        TermLine termLine = new TermLine();
-                        termLine.Name = term;
-                        termLine.Texts = new string[] { text };
-                        i2File.Lines.Add(termLine);
-                        //LogInfo(line);
-                    }
-                }
-                // Respone
-                for (int i = 0; i < c.targetResponses.Count; i++)
-                {
-                    var response = c.targetResponses[i];
-                    if (response.sequence.Length > 0)
-                    {
-                        for (int j = 0; j < response.sequence.Length; j++)
-                        {
-                            string term = $"{c.conversationTarget}/{c.name}_Response_{i.ToString("D3")}_{j.ToString("D3")}";
-                            string text = response.sequence[j];
-                            string line = $"{term}\t{text.StrToI2Str()}";
-                            if (!string.IsNullOrWhiteSpace(term))
-                            {
-                                terms.Add(term);
-                                TermLine termLine = new TermLine();
-                                termLine.Name = term;
-                                termLine.Texts = new string[] { text };
-                                i2File.Lines.Add(termLine);
-                                //LogInfo(line);
-                            }
-                        }
-                    }
-                }
+                string cnText = TextLocData.GetLoc(HoverTextLocList, com.hoveringText);
+                com.hoveringText = cnText;
             }
-            i2File.WriteCSVTable($"{Paths.GameRootPath}/I2/{i2File.Name}.csv");
-            LogInfo($"对话表Dump完毕");
-            return terms;
         }
 
-        public void DumpAllPost()
+        private void Awake()
         {
-            List<BullitenBoardPost> list = new List<BullitenBoardPost>();
-            list.Add(BulletinBoard.board.announcementPosts[0]);
-            list.Add(BulletinBoard.board.huntingTemplate);
-            list.Add(BulletinBoard.board.captureTemplate);
-            list.Add(BulletinBoard.board.tradeTemplate);
-            list.Add(BulletinBoard.board.photoTemplate);
-            list.Add(BulletinBoard.board.cookingTemplate);
-            list.Add(BulletinBoard.board.smeltingTemplate);
-            list.Add(BulletinBoard.board.compostTemplate);
-            list.Add(BulletinBoard.board.sateliteTemplate);
-            list.Add(BulletinBoard.board.craftingTemplate);
-            list.Add(BulletinBoard.board.shippingRequestTemplate);
-            List<TextLocData> list2 = new List<TextLocData>();
-            foreach (var p in list)
+            Inst = this;
+            DevMode = Config.Bind<bool>("Dev", "DevMode", false, "开发模式时，可以按快捷键触发开发功能");
+            DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "开发模式时，不加载DynamicText Post Quest翻译，方便dump");
+            LogNoTranslation = Config.Bind<bool>("Tool", "LogNoTranslation", true, "可以输出没翻译的目标");
+            DebugWindow = new UIWindow("汉化测试工具[Ctrl+数字键4] Dinkum汉化交流QQ频道:7opslk1lrt");
+            DebugWindow.WindowRect.position = new Vector2(500, 100);
+            DebugWindow.OnWinodwGUI = DebugWindowGUI;
+            ErrorWindow = new UIWindow($"汉化出现错误 {PluginName} v{Version}");
+            ErrorWindow.OnWinodwGUI = ErrorWindowFunc;
+            try
             {
-                list2.Add(new TextLocData(p.title, ""));
-                list2.Add(new TextLocData(p.contentText, ""));
+                Harmony.CreateAndPatchAll(typeof(OtherPatch));
+                Harmony.CreateAndPatchAll(typeof(ILPatch));
+                Harmony.CreateAndPatchAll(typeof(StringReturnPatch));
+                Harmony.CreateAndPatchAll(typeof(StartTranslatePatch));
+                Harmony.CreateAndPatchAll(typeof(SpritePatch));
             }
-            var json = Json.ToJson(list2, true);
-            File.WriteAllText($"{Paths.GameRootPath}/I2/PostTextLoc.json", json);
-            LogInfo("Post表Dump完毕");
-            //Debug.Log(json);
-        }
-
-        public void DumpAllQuest()
-        {
-            var mgr = QuestManager.manage;
-            List<TextLocData> list = new List<TextLocData>();
-            foreach (var q in mgr.allQuests)
+            catch (ExecutionEngineException ex)
             {
-                list.Add(new TextLocData(q.QuestName, ""));
-                list.Add(new TextLocData(q.QuestDescription, ""));
+                ErrorStr = $"汉化出现错误。推测是由于用户名或者游戏路径中包含非英文字符导致。\n异常信息:\n{ex}";
+                ErrorWindow.Show = true;
             }
-            var json = Json.ToJson(list, true);
-            File.WriteAllText($"{Paths.GameRootPath}/I2/QuestTextLoc.json", json);
-            LogInfo("Quest表Dump完毕");
-            //Debug.Log(json);
-        }
-
-        public void DumpAllMail()
-        {
-            var mgr = MailManager.manage;
-            List<TextLocData> list = new List<TextLocData>();
-            list.Add(new TextLocData(mgr.animalResearchLetter.letterText, ""));
-            list.Add(new TextLocData(mgr.returnTrapLetter.letterText, ""));
-            list.Add(new TextLocData(mgr.devLetter.letterText, ""));
-            list.Add(new TextLocData(mgr.catalogueItemLetter.letterText, ""));
-            list.Add(new TextLocData(mgr.craftmanDayOff.letterText, ""));
-            foreach (var m in mgr.randomLetters) list.Add(new TextLocData(m.letterText, ""));
-            foreach (var m in mgr.thankYouLetters) list.Add(new TextLocData(m.letterText, ""));
-            foreach (var m in mgr.didNotFitInInvLetter) list.Add(new TextLocData(m.letterText, ""));
-            foreach (var m in mgr.fishingTips) list.Add(new TextLocData(m.letterText, ""));
-            foreach (var m in mgr.bugTips) list.Add(new TextLocData(m.letterText, ""));
-            foreach (var m in mgr.licenceLevelUp) list.Add(new TextLocData(m.letterText, ""));
-            var json = Json.ToJson(list, true);
-            File.WriteAllText($"{Paths.GameRootPath}/I2/MailTextLoc.json", json);
-            LogInfo("Mail表Dump完毕");
-            //Debug.Log(json);
-        }
-
-        public void DumpAllTips()
-        {
-            var mgr = GameObject.FindObjectOfType<LoadingScreenImageAndTips>(true);
-            List<TextLocData> list = new List<TextLocData>();
-            foreach (var tip in mgr.tips) list.Add(new TextLocData(tip, ""));
-            var json = Json.ToJson(list, true);
-            File.WriteAllText($"{Paths.GameRootPath}/I2/TipsTextLoc.json", json);
-            LogInfo("Tips表Dump完毕");
-            //Debug.Log(json);
-        }
-
-        public void DumpAnimals()
-        {
-            var mgr = AnimalManager.manage;
-            List<TextLocData> list = new List<TextLocData>();
-            foreach (var a in mgr.allAnimals) list.Add(new TextLocData(a.animalName, ""));
-            var json = Json.ToJson(list, true);
-            File.WriteAllText($"{Paths.GameRootPath}/I2/AnimalsTextLoc.json", json);
-            LogInfo("Animals表Dump完毕");
-            //Debug.Log(json);
-        }
-
-        public void DumpAllUnTermItem()
-        {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"Key\tEnglish");
-            List<string> keys = new List<string>();
-            foreach (var item in Inventory.Instance.allItems)
+            catch (Exception ex)
             {
-                int id = Inventory.Instance.getInvItemId(item);
-                string nameKey = "InventoryItemNames/InvItem_" + id.ToString();
-                string descKey = "InventoryItemDescriptions/InvDesc_" + id.ToString();
-                if (!LocalizationManager.Sources[0].ContainsTerm(nameKey))
+                ErrorStr = $"汉化出现错误。\n异常信息:\n{ex}";
+                ErrorWindow.Show = true;
+            }
+            if (DevMode.Value && DontLoadLocOnDevMode.Value)
+            {
+                return;
+            }
+            Invoke("LogFlagTrue", 2f);
+            Invoke("OnGameStartOnceFix", 2f);
+            DynamicTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/DynamicTextLoc.csv");
+            NPCNameTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/NPCNamesLoc.csv");
+            HoverTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/HoverTextLoc.csv");
+            PostTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/PostTextLoc.json");
+            QuestTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/QuestTextLoc.json");
+            TipsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TipsTextLoc.json");
+            MailTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/MailTextLoc.json");
+            AnimalsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/AnimalsTextLoc.json");
+        }
+
+        private void OnGUI()
+        {
+            DebugWindow.OnGUI();
+            ErrorWindow.OnGUI();
+            if (tipsCD > 0)
+            {
+                GUILayout.Label($"[{(int)tipsCD}s]温馨提示：汉化mod是开源免费的，不需要花钱买，Dinkum汉化交流QQ频道:7opslk1lrt");
+            }
+        }
+
+        private void Update()
+        {
+            if (tipsCD > 0)
+            {
+                tipsCD -= Time.deltaTime;
+            }
+            if (DevMode.Value)
+            {
+                // Ctrl + 小键盘4 切换GUI
+                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha4))
                 {
-                    string line = nameKey + "\t" + item.itemName;
-                    LogInfo(line);
-                    if (keys.Contains(nameKey))
-                    {
-                        string log = $"出现重复的key {nameKey} 已阻止此项添加";
-                        Logger.LogError(log);
-                    }
-                    else
-                    {
-                        keys.Add(nameKey);
-                        sb.AppendLine(line);
-                    }
+                    DebugWindow.Show = !DebugWindow.Show;
                 }
-                if (!LocalizationManager.Sources[0].ContainsTerm(descKey))
+                // Ctrl + 小键盘5 切换暂停游戏，游戏速度1
+                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha5))
                 {
-                    string line = descKey + "\t" + item.itemDescription;
-                    LogInfo(line);
-                    if (keys.Contains(descKey))
-                    {
-                        string log = $"出现重复的key {descKey} 已阻止此项添加";
-                        Logger.LogError(log);
-                    }
-                    else
-                    {
-                        keys.Add(descKey);
-                        sb.AppendLine(line);
-                    }
+                    Pause = !Pause;
+                    Time.timeScale = Pause ? 0 : 1;
+                }
+                // Ctrl + 小键盘6 切换暂停游戏，游戏速度10
+                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha6))
+                {
+                    Pause = !Pause;
+                    Time.timeScale = Pause ? 1 : 10;
+                }
+                // Ctrl + 小键盘7 dump场景内所有文本，不包括隐藏的文本
+                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha7))
+                {
+                    DumpTool.DumpText(false);
+                }
+                // Ctrl + 小键盘8 dump场景内所有文本，包括隐藏的文本
+                if (Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Alpha8))
+                {
+                    DumpTool.DumpText(true);
                 }
             }
-            File.WriteAllText($"{Paths.GameRootPath}/I2/UnTermItem.csv", sb.ToString());
+            FixChatFont();
         }
-
-        public List<string> DumpAllItem()
-        {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"Key\tEnglish");
-            List<string> keys = new List<string>();
-            foreach (var item in Inventory.Instance.allItems)
-            {
-                int id = Inventory.Instance.getInvItemId(item);
-                string nameKey = "InventoryItemNames/InvItem_" + id.ToString();
-                string descKey = "InventoryItemDescriptions/InvDesc_" + id.ToString();
-                string line = nameKey + "\t" + item.itemName;
-                //LogInfo(line);
-                if (keys.Contains(nameKey))
-                {
-                    string log = $"出现重复的key {nameKey} 已阻止此项添加";
-                    Logger.LogError(log);
-                }
-                else
-                {
-                    keys.Add(nameKey);
-                    sb.AppendLine(line);
-                }
-                line = descKey + "\t" + item.itemDescription;
-                //LogInfo(line);
-                if (keys.Contains(descKey))
-                {
-                    string log = $"出现重复的key {descKey} 已阻止此项添加";
-                    Logger.LogError(log);
-                }
-                else
-                {
-                    keys.Add(descKey);
-                    sb.AppendLine(line);
-                }
-            }
-            File.WriteAllText($"{Paths.GameRootPath}/I2/物品表.csv", sb.ToString());
-            LogInfo("物品表Dump完毕");
-            return keys;
-        }
-
-        #endregion Dump
     }
 }

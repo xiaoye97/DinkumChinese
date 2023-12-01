@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using HarmonyLib;
 using UnityEngine;
 using I2LocPatch;
+using I2.Loc;
 
 namespace DinkumChinese
 {
@@ -39,7 +40,7 @@ namespace DinkumChinese
                 string t = TextLocData.GetLoc(DinkumChinesePlugin.Inst.TipsTextLocList, ori);
                 if (t == ori)
                 {
-                    Debug.Log($"LoadingScreenImageAndTips 有待翻译的文本:[{t}]，请添加到DynamicTextLoc");
+                    Debug.Log($"LoadingScreenImageAndTips 有待翻译的文本:[{t}]，请添加到TipsTextLocList");
                 }
                 else
                 {
@@ -86,6 +87,12 @@ namespace DinkumChinese
             {
                 m.letterText = TextLocData.GetLoc(DinkumChinesePlugin.Inst.MailTextLocList, m.letterText);
             }
+        }
+
+        [HarmonyPostfix, HarmonyPatch(typeof(OptionsMenu), "Start")]
+        public static void OptionsMenuStartPatch()
+        {
+            LocalizationManager.CurrentLanguage = "Chinese";
         }
     }
 }

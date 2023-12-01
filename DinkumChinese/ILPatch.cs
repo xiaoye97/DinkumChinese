@@ -102,6 +102,16 @@ namespace DinkumChinese
             return instructions;
         }
 
+        [HarmonyTranspiler, HarmonyPatch(typeof(CalendarButton), "showDateDetails")]
+        public static IEnumerable<CodeInstruction> CalendarButton_showDateDetails_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "'s Birthday", "的生日");
+            instructions = ReplaceIL(instructions, "Bug Catching Comp", "捕虫大赛");
+            instructions = ReplaceIL(instructions, "Fishing Comp", "钓鱼大赛");
+            instructions = ReplaceIL(instructions, "John's Goods Anniversary", "约翰杂货店周年活动");
+            return instructions;
+        }
+
         // todo
         [HarmonyTranspiler, HarmonyPatch(typeof(CameraController), "moveCameraToShowPos", MethodType.Enumerator)]
         public static IEnumerable<CodeInstruction> CameraController_moveCameraToShowPos_Patch(IEnumerable<CodeInstruction> instructions)
@@ -359,6 +369,16 @@ namespace DinkumChinese
             return instructions;
         }
 
+        [HarmonyTranspiler, HarmonyPatch(typeof(NPCDoesTasks), "UserCode_RpcWave")]
+        public static IEnumerable<CodeInstruction> NPCDoesTasks_UserCode_RpcWave_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "G'day!", "你好啊！");
+            instructions = ReplaceIL(instructions, "Nice to see you, ", "很高兴见到你，");
+            instructions = ReplaceIL(instructions, "Hi, ", "嗨，");
+            instructions = ReplaceIL(instructions, "Hello, ", "你好，");
+            instructions = ReplaceIL(instructions, "G'day, ", "你好呀，");
+            return instructions;
+        }
         [HarmonyTranspiler, HarmonyPatch(typeof(NPCRequest), "acceptRequest")]
         public static IEnumerable<CodeInstruction> NPCRequest_acceptRequest_Patch(IEnumerable<CodeInstruction> instructions)
         {
