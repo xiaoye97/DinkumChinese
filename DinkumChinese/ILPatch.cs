@@ -126,12 +126,27 @@ namespace DinkumChinese
         public static IEnumerable<CodeInstruction> ConversationManager_checkLineForReplacement_Patch(IEnumerable<CodeInstruction> instructions)
         {
             instructions = ReplaceIL(instructions, "South City", "南部城市");
+            instructions = ReplaceIL(instructions, "Animal Type", "动物类型");
+            instructions = ReplaceIL(instructions, "Animal Name", "动物名字");
             instructions = ReplaceIL(instructions, "Journal", "日记");
             instructions = ReplaceIL(instructions, "Licence", "许可证");
             instructions = ReplaceIL(instructions, "Licences", "许可证");
+            instructions = ReplaceIL(instructions, "Shift", "转移");
+            instructions = ReplaceIL(instructions, "Shifts", "转移");
             instructions = ReplaceIL(instructions, "Airship", "飞艇");
+            instructions = ReplaceIL(instructions, "Airships", "飞艇");
             instructions = ReplaceIL(instructions, "Nomad", "游商");
             instructions = ReplaceIL(instructions, "Nomads", "游商");
+            instructions = ReplaceIL(instructions, "Birthday", "生日");
+            instructions = ReplaceIL(instructions, "Permit Points", "许可点数");
+            instructions = ReplaceIL(instructions, "Snag Sizzles", "烤肠");
+            instructions = ReplaceIL(instructions, "Snag Sizzle", "烤肠");
+            instructions = ReplaceIL(instructions, "Snag", "香肠");
+            instructions = ReplaceIL(instructions, "Snags", "香肠");
+            instructions = ReplaceIL(instructions, " Day", "日");
+            instructions = ReplaceIL(instructions, " Year", "年");
+            instructions = ReplaceIL(instructions, "reward", "奖励");
+            instructions = ReplaceIL(instructions, "Animal", "动物");
             instructions = ReplaceIL(instructions, "I just love the colours!", "我只是喜欢这些颜色！");
             instructions = ReplaceIL(instructions, "I love this one.", "我喜欢这个。");
             instructions = ReplaceIL(instructions, "The composition is wonderful", "这组合很奇妙");
@@ -147,9 +162,14 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, "The design just came to me, y'know?", "刚想到的设计，你知道吗？");
             instructions = ReplaceIL(instructions, "Y'know, that would look great on you, ", "你知道，这对你来说很好看，");
             instructions = ReplaceIL(instructions, "I put a lot of myself into this one.", "我把很多心血都投入到了这上面。");
+            instructions = ReplaceIL(instructions, "darl", "伙计");
+            instructions = ReplaceIL(instructions, "love", "朋友");
+            instructions = ReplaceIL(instructions, "possum", "亲爱的");
+            instructions = ReplaceIL(instructions, "Bug Catching Comp", "捕虫大赛");
+            instructions = ReplaceIL(instructions, "Fishing Comp", "钓鱼大赛");
+            instructions = ReplaceIL(instructions, "Comp Log Book", "比赛手册");
             instructions = ReplaceIL(instructions, "Beginning...", "开始...");
             instructions = ReplaceIL(instructions, "...Nothing happened...", "...没事发生...");
-            instructions = ReplaceIL(instructions, "Permit Points", "许可点数");
             instructions = ReplaceIL(instructions, "s", "");
             return instructions;
         }
@@ -399,6 +419,13 @@ namespace DinkumChinese
             return instructions;
         }
 
+        [HarmonyTranspiler, HarmonyPatch(typeof(NPCRequest), "getDesiredItemNameByNumber")]
+        public static IEnumerable<CodeInstruction> NPCRequest_getDesiredItemNameByNumber_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = ReplaceIL(instructions, "a ", "");
+            return instructions;
+        }
+
         [HarmonyTranspiler, HarmonyPatch(typeof(NPCRequest), "getMissionText")]
         public static IEnumerable<CodeInstruction> NPCRequest_getMissionText_Patch(IEnumerable<CodeInstruction> instructions)
         {
@@ -408,7 +435,6 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, "<sprite=12> Collect ", "<sprite=12> 收集 ");
             return instructions;
         }
-
         [HarmonyTranspiler, HarmonyPatch(typeof(NPCSchedual), "getDaysClosed")]
         public static IEnumerable<CodeInstruction> NPCSchedual_getDaysClosed_Patch(IEnumerable<CodeInstruction> instructions)
         {

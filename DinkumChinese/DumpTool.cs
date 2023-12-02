@@ -17,6 +17,59 @@ namespace DinkumChinese
         /// Dump对话
         /// </summary>
         /// <returns></returns>
+        public static Dictionary<string, string> GetAllConversationObjectDict()
+        {
+            Dictionary<string, string> dict = new Dictionary<string, string>();
+            List<ConversationObject> conversations = new List<ConversationObject>();
+            // 直接从资源搜索单独的Conversation
+            conversations.AddRange(Resources.FindObjectsOfTypeAll<ConversationObject>());
+
+            List<string> terms = new List<string>();
+            I2File i2File = new I2File();
+            i2File.Name = "对话表";
+            i2File.Languages = new List<string>() { "English" };
+
+            foreach (var c in conversations)
+            {
+                // Openings
+                if (c.targetOpenings != null && c.targetOpenings.sequence.Length > 0)
+                {
+                    for (int i = 0; i < c.targetOpenings.sequence.Length; i++)
+                    {
+                        string term = $"{c.conversationTarget}/{c.name}_Intro_{i.ToString("D3")}";
+                        string text = c.targetOpenings.sequence[i].StrToI2Str();
+                        dict[term] = text;
+                    }
+                }
+                // Option
+                for (int i = 0; i < c.playerOptions.Length; i++)
+                {
+                    string term = $"{c.conversationTarget}/{c.name}_Option_{i.ToString("D3")}";
+                    string text = c.playerOptions[i].StrToI2Str();
+                    dict[term] = text;
+                }
+                // Respone
+                for (int i = 0; i < c.targetResponses.Count; i++)
+                {
+                    var response = c.targetResponses[i];
+                    if (response.sequence.Length > 0)
+                    {
+                        for (int j = 0; j < response.sequence.Length; j++)
+                        {
+                            string term = $"{c.conversationTarget}/{c.name}_Response_{i.ToString("D3")}_{j.ToString("D3")}";
+                            string text = response.sequence[j].StrToI2Str();
+                            dict[term] = text;
+                        }
+                    }
+                }
+            }
+            return dict;
+        }
+
+        /// <summary>
+        /// Dump对话
+        /// </summary>
+        /// <returns></returns>
         public static List<string> DumpAllConversationObject()
         {
             List<ConversationObject> conversations = new List<ConversationObject>();
@@ -143,7 +196,6 @@ namespace DinkumChinese
         /// </summary>
         public static void DumpAllMail()
         {
-            var mgr = MailManager.manage;
             List<TextLocData> list = new List<TextLocData>();
             foreach (var item in Resources.FindObjectsOfTypeAll<LetterTemplate>())
             {

@@ -475,7 +475,7 @@ namespace DinkumChinese
         {
             try
             {
-                string textOri = __instance.getPostPostsById().contentText.StrToI2Str();
+                string textOri = __instance.getPostPostsById().contentText;
                 string text = TextLocData.GetLoc(DinkumChinesePlugin.Inst.PostTextLocList, textOri);
                 __result = text.Replace("<boardRewardItem>",
                     __instance.getPostPostsById().getBoardRewardItem(postId)).Replace("<boardHuntRequestAnimal>",
@@ -494,7 +494,7 @@ namespace DinkumChinese
         {
             try
             {
-                string titleOri = __instance.getPostPostsById().title.StrToI2Str();
+                string titleOri = __instance.getPostPostsById().title;
                 string title = TextLocData.GetLoc(DinkumChinesePlugin.Inst.PostTextLocList, titleOri);
                 __result = title.Replace("<boardRewardItem>",
                     __instance.getPostPostsById().getBoardRewardItem(postId)).Replace("<boardHuntRequestAnimal>",
@@ -514,7 +514,7 @@ namespace DinkumChinese
             {
                 if (__instance.isMainQuestButton)
                 {
-                    string nameOri = QuestManager.manage.allQuests[questNo].QuestName.StrToI2Str();
+                    string nameOri = QuestManager.manage.allQuests[questNo].QuestName;
                     string name = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, nameOri);
                     __instance.buttonText.text = name;
                 }
@@ -537,7 +537,7 @@ namespace DinkumChinese
         {
             try
             {
-                string nameOri = __instance.displayingQuest.QuestName.StrToI2Str();
+                string nameOri = __instance.displayingQuest.QuestName;
                 string name = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, nameOri);
                 __instance.QuestText.text = name;
             }
@@ -552,9 +552,9 @@ namespace DinkumChinese
         {
             try
             {
-                string nameOri = QuestManager.manage.allQuests[questNo].QuestName.StrToI2Str();
+                string nameOri = QuestManager.manage.allQuests[questNo].QuestName;
                 string name = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, nameOri);
-                string descOri = QuestManager.manage.allQuests[questNo].QuestDescription.StrToI2Str();
+                string descOri = QuestManager.manage.allQuests[questNo].QuestDescription;
                 string desc = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, descOri).Replace("<IslandName>", Inventory.Instance.islandName);
                 __instance.questTitle.text = name;
                 __instance.questDesc.text = desc;
@@ -574,7 +574,7 @@ namespace DinkumChinese
                 {
                     if (!QuestManager.manage.isQuestCompleted[__instance.pinnedId])
                     {
-                        string nameOri = QuestManager.manage.allQuests[__instance.pinnedId].QuestName.StrToI2Str();
+                        string nameOri = QuestManager.manage.allQuests[__instance.pinnedId].QuestName;
                         string name = TextLocData.GetLoc(DinkumChinesePlugin.Inst.QuestTextLocList, nameOri);
                         string pinText = __instance.pinMissionText.text.Replace(QuestManager.manage.allQuests[__instance.pinnedId].QuestName, name);
                         __instance.pinMissionText.text = pinText;

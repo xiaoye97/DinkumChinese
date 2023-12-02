@@ -19,7 +19,7 @@ namespace DinkumChinese
     {
         public const string GUID = "xiaoye97.Dinkum.DinkumChinese";
         public const string PluginName = "DinkumChinese";
-        public const string Version = "1.18.0";
+        public const string Version = "1.19.0";
         public static DinkumChinesePlugin Inst;
 
         public static Queue<TextMeshProUGUI> waitShowTMPs = new Queue<TextMeshProUGUI>();
@@ -104,6 +104,8 @@ namespace DinkumChinese
         {
             System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
             sw.Start();
+            // 获取对话表
+            var duiHuaDict = DumpTool.GetAllConversationObjectDict();
             // 索引和Excel表中的行对应的偏移
             int hangOffset = 3;
             int findCount = 0;
@@ -117,11 +119,14 @@ namespace DinkumChinese
             {
                 var term = asset.SourceData.mTerms[i];
                 if (string.IsNullOrWhiteSpace(term.Languages[3])) continue;
-                MatchCollection mc1 = reg.Matches(term.Languages[0]);
-                MatchCollection mc2 = reg.Matches(term.Languages[3]);
+                string ori = duiHuaDict.ContainsKey(term.Term) ? duiHuaDict[term.Term] : term.Languages[0];
+                ori = ori.StrToI2Str();
+                string loc = term.Languages[3].StrToI2Str();
+                MatchCollection mc1 = reg.Matches(ori);
+                MatchCollection mc2 = reg.Matches(loc);
                 if (mc1.Count != mc2.Count)
                 {
-                    string log = $"行号:{i + hangOffset} Key:{term.Term} 中的括号数量不一致 英文原文有{mc1.Count}对括号 中文中有{mc2.Count}对括号 原文:{term.Languages[0]} 中文:{term.Languages[3]}";
+                    string log = $"行号:{i + hangOffset} Key:{term.Term} 中的括号数量不一致 英文原文有{mc1.Count}对括号 译文中有{mc2.Count}对括号 原文:{ori} 译文:{loc}";
                     LogInfo(log);
                     sb.AppendLine(log);
                     findCount++;
@@ -140,20 +145,13 @@ namespace DinkumChinese
                         {
                             locList.Add(mc2[j].Value);
                         }
-                        //if (mc1[j].Value != mc2[j].Value)
-                        //{
-                        //    string log = $"行号:{i + hangOffset} Key:{term.Term} 中的第{j}对括号内容不一致 原文中:<{mc1[j].Value}> 翻译中:<{mc2[j].Value}>";
-                        //    LogInfo(log);
-                        //    sb.AppendLine(log);
-                        //    findCount++;
-                        //}
                     }
                     for (int j = 0; j < oriList.Count; j++)
                     {
-                        string ori = oriList[j];
-                        if (!locList.Contains(ori))
+                        string oriKuoHao = oriList[j];
+                        if (!locList.Contains(oriKuoHao))
                         {
-                            string log = $"行号:{i + hangOffset} Key:{term.Term} 中的原文有括号<{ori}>，而译文中不存在";
+                            string log = $"行号:{i + hangOffset} Key:{term.Term} 中的原文有括号<{oriKuoHao}>，而译文中不存在";
                             LogInfo(log);
                             sb.AppendLine(log);
                             findCount++;
@@ -161,15 +159,27 @@ namespace DinkumChinese
                     }
                     for (int j = 0; j < oriList.Count; j++)
                     {
-                        string loc = locList[j];
-                        if (!oriList.Contains(loc))
+                        string locKuoHao = locList[j];
+                        if (!oriList.Contains(locKuoHao))
                         {
-                            string log = $"行号:{i + hangOffset} Key:{term.Term} 中的译文有括号<{loc}>，而原文中不存在";
+                            string log = $"行号:{i + hangOffset} Key:{term.Term} 中的译文有括号<{locKuoHao}>，而原文中不存在";
                             LogInfo(log);
                             sb.AppendLine(log);
                             findCount++;
                         }
                     }
+                }
+                if (loc.Contains("\""))
+                {
+                    string log = $"行号:{i + hangOffset} Key:{term.Term} 中的译文有英文双引号";
+                    LogInfo(log);
+                    sb.AppendLine(log);
+                }
+                if (loc.Contains(","))
+                {
+                    string log = $"行号:{i + hangOffset} Key:{term.Term} 中的译文有英文逗号";
+                    LogInfo(log);
+                    sb.AppendLine(log);
                 }
             }
             sw.Stop();
@@ -220,7 +230,6 @@ namespace DinkumChinese
                 DumpTool.DumpNPCNames();
                 DumpTool.DumpHoverText();
                 DumpTool.DumpInventoryLootTableTimeWeatherMaster_locationName();
-                DumpTool.DumpMapIcon();
             }
 
             GUILayout.EndVertical();
