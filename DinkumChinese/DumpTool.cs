@@ -13,6 +13,10 @@ namespace DinkumChinese
 {
     public static class DumpTool
     {
+        /// <summary>
+        /// Dump对话
+        /// </summary>
+        /// <returns></returns>
         public static List<string> DumpAllConversationObject()
         {
             List<ConversationObject> conversations = new List<ConversationObject>();
@@ -90,6 +94,10 @@ namespace DinkumChinese
             return terms;
         }
 
+        /// <summary>
+        /// Dump物品
+        /// </summary>
+        /// <returns></returns>
         public static List<string> DumpAllItem()
         {
             StringBuilder sb = new StringBuilder();
@@ -130,41 +138,30 @@ namespace DinkumChinese
             return keys;
         }
 
+        /// <summary>
+        /// Dump邮件
+        /// </summary>
         public static void DumpAllMail()
         {
             var mgr = MailManager.manage;
             List<TextLocData> list = new List<TextLocData>();
-            list.Add(new TextLocData(mgr.animalResearchLetter.letterText, ""));
-            list.Add(new TextLocData(mgr.returnTrapLetter.letterText, ""));
-            list.Add(new TextLocData(mgr.devLetter.letterText, ""));
-            list.Add(new TextLocData(mgr.catalogueItemLetter.letterText, ""));
-            list.Add(new TextLocData(mgr.craftmanDayOff.letterText, ""));
-            foreach (var m in mgr.randomLetters) list.Add(new TextLocData(m.letterText, ""));
-            foreach (var m in mgr.thankYouLetters) list.Add(new TextLocData(m.letterText, ""));
-            foreach (var m in mgr.didNotFitInInvLetter) list.Add(new TextLocData(m.letterText, ""));
-            foreach (var m in mgr.fishingTips) list.Add(new TextLocData(m.letterText, ""));
-            foreach (var m in mgr.bugTips) list.Add(new TextLocData(m.letterText, ""));
-            foreach (var m in mgr.licenceLevelUp) list.Add(new TextLocData(m.letterText, ""));
+            foreach (var item in Resources.FindObjectsOfTypeAll<LetterTemplate>())
+            {
+                list.Add(new TextLocData(item.letterText, ""));
+            }
             var json = DinkumChinesePlugin.Json.ToJson(list, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/MailTextLoc.json", json);
             LogInfo("Mail表Dump完毕");
             //Debug.Log(json);
         }
 
+        /// <summary>
+        /// Dump告示
+        /// </summary>
         public static void DumpAllPost()
         {
             List<BullitenBoardPost> list = new List<BullitenBoardPost>();
-            list.Add(BulletinBoard.board.announcementPosts[0]);
-            list.Add(BulletinBoard.board.huntingTemplate);
-            list.Add(BulletinBoard.board.captureTemplate);
-            list.Add(BulletinBoard.board.tradeTemplate);
-            list.Add(BulletinBoard.board.photoTemplate);
-            list.Add(BulletinBoard.board.cookingTemplate);
-            list.Add(BulletinBoard.board.smeltingTemplate);
-            list.Add(BulletinBoard.board.compostTemplate);
-            list.Add(BulletinBoard.board.sateliteTemplate);
-            list.Add(BulletinBoard.board.craftingTemplate);
-            list.Add(BulletinBoard.board.shippingRequestTemplate);
+            list.AddRange(Resources.FindObjectsOfTypeAll<BullitenBoardPost>());
             List<TextLocData> list2 = new List<TextLocData>();
             foreach (var p in list)
             {
@@ -177,6 +174,9 @@ namespace DinkumChinese
             //Debug.Log(json);
         }
 
+        /// <summary>
+        /// Dump任务
+        /// </summary>
         public static void DumpAllQuest()
         {
             var mgr = QuestManager.manage;

@@ -158,7 +158,7 @@ namespace DinkumChinese
         public static IEnumerable<CodeInstruction> ConversationManager_StartConversationWithAvailableNPC_Patch(IEnumerable<CodeInstruction> instructions)
         {
             instructions = ReplaceIL(instructions, "A new deed is available!", "新契约可用！");
-            instructions = ReplaceIL(instructions, "Talk to Fletch to apply for deeds.", "与Fletch谈谈申请契约。");
+            instructions = ReplaceIL(instructions, "Talk to Fletch to apply for deeds.", "与弗莱奇谈谈申请契约。");
             return instructions;
         }
 
@@ -294,7 +294,7 @@ namespace DinkumChinese
         {
             instructions = ReplaceIL(instructions, "A new Licence is available!", "新的许可证可用！");
             instructions = ReplaceIL(instructions, "A new deed is available!", "新契约可用！");
-            instructions = ReplaceIL(instructions, "Talk to Fletch to apply for deeds.", "与Fletch谈谈申请契约。");
+            instructions = ReplaceIL(instructions, "Talk to Fletch to apply for deeds.", "与弗莱奇谈谈申请契约。");
             return instructions;
         }
 
@@ -520,11 +520,11 @@ namespace DinkumChinese
             instructions = ReplaceIL(instructions, "<sprite=13> Collect the requested items.\n<sprite=12> Bring items to ", "<sprite=13> 收集请求的物品。\n<sprite=12> 将物品带到");
             instructions = ReplaceIL(instructions, "<sprite=12> Collect the requested items.", "<sprite=12> 收集请求的物品。");
             instructions = ReplaceIL(instructions, "\n<sprite=12> Bring items to ", "\n<sprite=12> 将物品带到");
-            instructions = ReplaceIL(instructions, "<sprite=12> Do some favours for John", "<sprite=12> 帮助John");
-            instructions = ReplaceIL(instructions, "<sprite=13> Do some favours for John", "<sprite=13> 帮助John");
-            instructions = ReplaceIL(instructions, "\n<sprite=12> Spend money or sell items in John's store", "\n<sprite=12> 在John的店里花钱或卖东西");
-            instructions = ReplaceIL(instructions, "\n<sprite=13> Spend money or sell items in John's store", "\n<sprite=13> 在John的店里花钱或卖东西");
-            instructions = ReplaceIL(instructions, "\n<sprite=12> Convince John to move in.", "\n<sprite=12> 说服John留下来。");
+            instructions = ReplaceIL(instructions, "<sprite=12> Do some favours for John", "<sprite=12> 帮助约翰");
+            instructions = ReplaceIL(instructions, "<sprite=13> Do some favours for John", "<sprite=13> 帮助约翰");
+            instructions = ReplaceIL(instructions, "\n<sprite=12> Spend money or sell items in John's store", "\n<sprite=12> 在约翰的店里花钱或卖东西");
+            instructions = ReplaceIL(instructions, "\n<sprite=13> Spend money or sell items in John's store", "\n<sprite=13> 在约翰的店里花钱或卖东西");
+            instructions = ReplaceIL(instructions, "\n<sprite=12> Convince John to move in.", "\n<sprite=12> 说服约翰留下来。");
             instructions = ReplaceIL(instructions, "<sprite=12> Ask ", "<sprite=12> 询问");
             instructions = ReplaceIL(instructions, " about the town to apply for the ", "关于城镇申请");
             instructions = ReplaceIL(instructions, "<sprite=12> Place the ", "<sprite=12> 放置");
@@ -540,7 +540,7 @@ namespace DinkumChinese
         public static IEnumerable<CodeInstruction> QuestManager_completeQuest_Patch(IEnumerable<CodeInstruction> instructions)
         {
             instructions = ReplaceIL(instructions, "A new deed is available!", "新契约可用！");
-            instructions = ReplaceIL(instructions, "Talk to Fletch to apply for deeds.", "与Fletch谈谈申请契约。");
+            instructions = ReplaceIL(instructions, "Talk to Fletch to apply for deeds.", "与弗莱奇谈谈申请契约。");
             return instructions;
         }
 

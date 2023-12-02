@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinkumChinese", "DinkumChin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinkumChinesePublishTool", "DinkumChinesePublishTool\DinkumChinesePublishTool.csproj", "{D08084CF-D29B-42B4-9CA2-FA822F139771}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocJsonUpgradeTools", "LocJsonUpgradeTools\LocJsonUpgradeTools.csproj", "{A42DFF60-1B40-48B8-B3FD-C48DCD0F9EF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D08084CF-D29B-42B4-9CA2-FA822F139771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D08084CF-D29B-42B4-9CA2-FA822F139771}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D08084CF-D29B-42B4-9CA2-FA822F139771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42DFF60-1B40-48B8-B3FD-C48DCD0F9EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42DFF60-1B40-48B8-B3FD-C48DCD0F9EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42DFF60-1B40-48B8-B3FD-C48DCD0F9EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42DFF60-1B40-48B8-B3FD-C48DCD0F9EF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
