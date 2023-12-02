@@ -8,51 +8,11 @@
         "Loc": ""
     },
     {
-        "Ori": "<boardHuntRequestAnimal>",
-        "Loc": ""
-    },
-    {
-        "Ori": "<boardHuntRequestAnimal> has been spotted at this location. This is a very dangerous Alpha animal and should only be taken on by an experienced hunter.",
-        "Loc": ""
-    },
-    {
         "Ori": "<boardHuntRequestAnimal> Capture Reward",
         "Loc": ""
     },
     {
         "Ori": "The Animal Research Centre is offering an increased reward for each <boardHuntRequestAnimal> delivered for a limited time.\r\n\r\nYou will receive this reward for each <boardHuntRequestAnimal> delivered during this period.\r",
-        "Loc": ""
-    },
-    {
-        "Ori": "Want to Trade",
-        "Loc": ""
-    },
-    {
-        "Ori": "I have a <boardRewardItem> I don't want anymore. I'm willing to trade <boardRequestItem> for it.\nIf anyone is interested, please come see me.",
-        "Loc": ""
-    },
-    {
-        "Ori": "Photo Request",
-        "Loc": ""
-    },
-    {
-        "Ori": "I would love to see a photo <getAnimalsInPhotoList>.",
-        "Loc": ""
-    },
-    {
-        "Ori": "Cooking some <boardRewardItem>",
-        "Loc": ""
-    },
-    {
-        "Ori": "I'm making <boardRewardItem> and I'm short <boardRequestItem>!\nIf anyone can bring me <boardRequestItem>, I'll happily share some <boardRewardItem> with you!",
-        "Loc": ""
-    },
-    {
-        "Ori": "Want to practice smelting.",
-        "Loc": ""
-    },
-    {
-        "Ori": "I've been smelting ore a bit and I've run out. If anyone can bring me  <boardRequestItem> I'll give them <boardRewardItem> I have laying around.",
         "Loc": ""
     },
     {
@@ -64,11 +24,11 @@
         "Loc": ""
     },
     {
-        "Ori": "Investigation Request",
+        "Ori": "Cooking some <boardRewardItem>",
         "Loc": ""
     },
     {
-        "Ori": "I swear I saw something fall out of the sky the other night. \n\nMaybe someone can go check it out?",
+        "Ori": "I'm making <boardRewardItem> and I'm short <boardRequestItem>!\nIf anyone can bring me <boardRequestItem>, I'll happily share some <boardRewardItem> with you!",
         "Loc": ""
     },
     {
@@ -80,11 +40,67 @@
         "Loc": ""
     },
     {
+        "Ori": "<boardHuntRequestAnimal>",
+        "Loc": ""
+    },
+    {
+        "Ori": "<boardHuntRequestAnimal> has been spotted at this location. This is a very dangerous Alpha animal and should only be taken on by an experienced hunter.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Photo Request",
+        "Loc": ""
+    },
+    {
+        "Ori": "I would love to see a photo <getAnimalsInPhotoList>.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Investigation Request",
+        "Loc": ""
+    },
+    {
+        "Ori": "You might think I'm crazy, but I swear I saw Jackaroo flying in the sky last night.\n\nI think they might have dropped something?\n\nSomeone should check that out!",
+        "Loc": ""
+    },
+    {
+        "Ori": "---- Reminder ----",
+        "Loc": ""
+    },
+    {
+        "Ori": "This is a reminder post.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Investigation Request",
+        "Loc": ""
+    },
+    {
+        "Ori": "I swear I saw something fall out of the sky the other night. \n\nMaybe someone can go check it out?",
+        "Loc": ""
+    },
+    {
         "Ori": "Shipping Request",
         "Loc": ""
     },
     {
         "Ori": "I need to send a big shipment of <boardRequestItem> back home.\n\nIf anyone can help me fill this shipment, please come and see me with the goods.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Want to practice smelting.",
+        "Loc": ""
+    },
+    {
+        "Ori": "I've been smelting ore a bit and I've run out. If anyone can bring me  <boardRequestItem> I'll give them <boardRewardItem> I have laying around.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Want to Trade",
+        "Loc": ""
+    },
+    {
+        "Ori": "I have a <boardRewardItem> I don't want anymore. I'm willing to trade <boardRequestItem> for it.\nIf anyone is interested, please come see me.",
         "Loc": ""
     }
 ]
