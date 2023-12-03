@@ -19,7 +19,7 @@ namespace DinkumChinese
     {
         public const string GUID = "xiaoye97.Dinkum.DinkumChinese";
         public const string PluginName = "DinkumChinese";
-        public const string Version = "1.19.0";
+        public const string Version = "1.20.0";
         public static DinkumChinesePlugin Inst;
 
         public static Queue<TextMeshProUGUI> waitShowTMPs = new Queue<TextMeshProUGUI>();
