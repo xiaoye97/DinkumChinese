@@ -60,7 +60,7 @@
         "Loc": ""
     },
     {
-        "Ori": "Food made at a cooking table will recover more health and stamina.",
+        "Ori": "Food made at a cooking table will offer more health and stamina.",
         "Loc": ""
     },
     {
@@ -165,6 +165,46 @@
     },
     {
         "Ori": "Billy Tins can make more than tea and coffee",
+        "Loc": ""
+    },
+    {
+        "Ori": "Eat before you use stamina",
+        "Loc": ""
+    },
+    {
+        "Ori": "Wild mushrooms will wilt after noon",
+        "Loc": ""
+    },
+    {
+        "Ori": "Sitting will cause you to recover health faster",
+        "Loc": ""
+    },
+    {
+        "Ori": "Keep an eye on the sky at night",
+        "Loc": ""
+    },
+    {
+        "Ori": "You can move a full container using a trolley",
+        "Loc": ""
+    },
+    {
+        "Ori": "Soon",
+        "Loc": ""
+    },
+    {
+        "Ori": "Customisation kits can be used to upgrade Guest Houses",
+        "Loc": ""
+    },
+    {
+        "Ori": "Ladders are cool",
+        "Loc": ""
+    },
+    {
+        "Ori": "John sells different fruits and veg every day",
+        "Loc": ""
+    },
+    {
+        "Ori": "Cooked foods are only as valuable as their ingredients",
         "Loc": ""
     }
 ]

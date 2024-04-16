@@ -55,16 +55,39 @@ FLETCH/Fletch_Option_001	I want to move my house.	Je veux déménager ma maison.
 FLETCH/Fletch_Option_002	Nevermind	Pas Grave	Неважно	没关系	どうでも
 FLETCH/Fletch_Response_001_000	Hmmm...	Hmmm...	Хм...	嗯...	うーん...
 FLETCH/Fletch_Response_002_000					
-GENERIC/14 NPC_Villager4_Intro_000					
-GENERIC/14 NPC_Villager4_Intro_001	I'm <myName>. I moved into the new house here.				
-GENERIC/14 NPC_Villager4_Intro_002	You're <PlayerName>, right?				
-GENERIC/14 NPC_Villager4_Intro_003	I heard that you're the one thats been working hard to get this town set up?				
-GENERIC/14 NPC_Villager4_Intro_004	Here is the Weather Station's forecast:þ				
-GENERIC/15 NPC_Villager_Intro_000	Ah! Hey there!				
-GENERIC/15 NPC_Villager_Intro_001	I'm <myName>. I moved into the new house here.				
-GENERIC/15 NPC_Villager_Intro_002	You're <PlayerName>, right?				
-GENERIC/15 NPC_Villager_Intro_003	I heard that you're the one thats been working hard to get this town set up?				
-GENERIC/15 NPC_Villager_Intro_004	Well, thanks for that, <PlayerName>! <glee>				
+Generic/12 NPC_Sheila_Intro_000					
+Generic/12 NPC_Sheila_Intro_001	The name is <myName>.þ				
+Generic/12 NPC_Sheila_Intro_002	<yes><NPCName> got in contact with me and told me to come check out <IslandName>.þ				
+Generic/12 NPC_Sheila_Intro_003	<thinking>When she told me about all the tucker you can find here, I had to pack my bags and come take a look.þ				
+Generic/12 NPC_Sheila_Intro_004	<glee>I bloody love cooking and eating great food.þ				
+Generic/12 NPC_Sheila_Intro_005	<yes>I hope to try all the wonderful food you can cook here on <IslandName>.				
+Generic/12 NPC_Sheila_Intro_006	Lovely to meet you, <petName>.þ				
+Generic/13 NPC_Julia_Intro_000	<wave>Oh, hello.				
+Generic/13 NPC_Julia_Intro_001	My name is <myName>.				
+Generic/13 NPC_Julia_Intro_002	<NPCName> told me about you.				
+Generic/13 NPC_Julia_Intro_003	He's my big brother.				
+Generic/13 NPC_Julia_Intro_004	<NPCName> told me that your name is <PlayerName>.				
+Generic/13 NPC_Julia_Intro_005	<no>I asked him if you liked bugs and stuff, but he said he didn’t know.þ				
+Generic/13 NPC_Julia_Intro_006	So anyway, do you like bugs?				
+Generic/13 NPC_Julia_Intro_007	<glee>I really, really love bugs.				
+Generic/13 NPC_Julia_Intro_008	<NPCName> told me to come visit him here on <IslandName> because there are lots of bugs.				
+Generic/13 NPC_Julia_Intro_009	And guess what?				
+Generic/13 NPC_Julia_Intro_010	<pumped>He was right!				
+Generic/14 NPC_Ghost_Intro_000	Ah! Hey there!				
+Generic/14 NPC_Ghost_Intro_001	I'm <myName>. I moved into the new house here.				
+Generic/14 NPC_Ghost_Intro_002	You're <PlayerName>, right?				
+Generic/14 NPC_Ghost_Intro_003	I heard that you're the one thats been working hard to get this town set up?				
+Generic/14 NPC_Ghost_Intro_004	Well, thanks for that, <PlayerName>! <glee>				
+Generic/14 NPC_Villager4_Intro_000					
+Generic/14 NPC_Villager4_Intro_001	I'm <myName>. I moved into the new house here.				
+Generic/14 NPC_Villager4_Intro_002	You're <PlayerName>, right?				
+Generic/14 NPC_Villager4_Intro_003	I heard that you're the one thats been working hard to get this town set up?				
+Generic/14 NPC_Villager4_Intro_004	Here is the Weather Station's forecast:þ				
+Generic/15 NPC_Villager_Intro_000	Ah! Hey there!				
+Generic/15 NPC_Villager_Intro_001	I'm <myName>. I moved into the new house here.				
+Generic/15 NPC_Villager_Intro_002	You're <PlayerName>, right?				
+Generic/15 NPC_Villager_Intro_003	I heard that you're the one thats been working hard to get this town set up?				
+Generic/15 NPC_Villager_Intro_004	Well, thanks for that, <PlayerName>! <glee>				
 Generic/16 NPC_Nick_Intro_000	G’day <PlayerName>.				
 Generic/16 NPC_Nick_Intro_001	Good to see you again!				
 Generic/16 NPC_Nick_Intro_002	<shy>Who am I?				
@@ -81,183 +104,705 @@ Generic/16 NPC_Nick_Intro_012	I can craft you some interesting items, but I didn
 Generic/16 NPC_Nick_Intro_013	So if you track them down for me, I’d be happy to whip some things up for you.				
 Generic/16 NPC_Nick_Intro_014	I’ve been crafting things for years and years, it really makes me happy!				
 Generic/16 NPC_Nick_Intro_015	Come talk to me if any time you see me here on <IslandName> and take a look at what I can craft.				
-Generic/16 NPC_Nick_Intro_016	<haha>Ho! Ho! Ho!				
-GENERIC/AcceptDog_Intro_000	Oh, so you placed the <itemName>?				
-GENERIC/AcceptDog_Intro_001	What kind of dog would you like?				
-GENERIC/AcceptDog_Option_000	A fancy boy!				
-GENERIC/AcceptDog_Option_001	A good boy!				
-GENERIC/AcceptDog_Option_002	A little boy!				
-GENERIC/AcceptDog_Option_003	A loyal boy!				
-GENERIC/AcceptDog_Response_000_000	Great. Lets give them a name, okay?				
-GENERIC/AcceptDog_Response_001_000	Great. Lets give them a name, okay?				
-GENERIC/AcceptDog_Response_002_000	Great. Lets give them a name, okay?				
-GENERIC/AcceptDog_Response_003_000	Great. Lets give them a name, okay?				
-GENERIC/BuildTeleporterRequest_Intro_000	<yes><PlayerName>, I see you have been repairing the Tele-Towers around the island.				
-GENERIC/BuildTeleporterRequest_Intro_001	<thinking>To be honest, I did not think you had the know-how to even understand what they were intended for…				
-GENERIC/BuildTeleporterRequest_Intro_002	<yes>Regardless, I have come up with an idea to build a <itemName> that we could place wherever we want.				
-GENERIC/BuildTeleporterRequest_Intro_003	<thinking>Now adding too many would most likely disrupt the Tele-Network.				
-GENERIC/BuildTeleporterRequest_Intro_004	<yes>So I think we will only be able to build one.				
-GENERIC/BuildTeleporterRequest_Intro_005	I have spoken to <NPCName> and she has agreed to add it to the available deeds.				
-GENERIC/BuildTownOfficeAccepted_Intro_000	<shock>Oh, <PlayerName>!				
-GENERIC/BuildTownOfficeAccepted_Intro_001	I wanted to let you know that <IslandName> has been cleared to build 3 additional buildings.þ				
-GENERIC/BuildTownOfficeAccepted_Intro_002	<pumped>These buildings are additional houses!þ				
-GENERIC/BuildTownOfficeAccepted_Intro_003	<thinking>I’ve been told we can use them for whatever purpose we want.þ				
-GENERIC/BuildTownOfficeAccepted_Intro_004	<glee>I’ll let you decide whether the new house is storage, a display home or a place for a friend to stay when they come to visit.þ				
-GENERIC/BuildTownOfficeAccepted_Intro_005	<yes>We’re allowed to have three total here on <IslandName>.				
-GENERIC/BuildTownOfficeAccepted_Intro_006	So come and ask me about the deeds when you want to build one!				
-GENERIC/BuildTownOfficeComplete_Intro_000	Great work! We'll have our town bustling in no time.				
-GENERIC/BuildTownOfficeComplete_Intro_001	Here is a deed for a Market Place. This will be a place for visitors to set up their home or shop while they stay here.				
-GENERIC/BuildTownOfficeComplete_Intro_002	It might be a good idea to visit their tents and say hello!				
-GENERIC/BuildTownOfficeComplete_Intro_003	If you give them enough business, and maybe do a couple of odd jobs for them, they might move here permanently!				
-GENERIC/BuildTownOfficeComplete_Intro_004	Once the post office is built, we can have a look at some more deeds to place, okay?				
-GENERIC/BuildTownOfficeComplete_Intro_005	I'm looking forward to seeing more people move here!				
-GENERIC/BuilldTownOfficeRequest_Intro_000	Hey <PlayerName> .				
-GENERIC/BuilldTownOfficeRequest_Intro_001	Lets start building our town!				
-GENERIC/BuilldTownOfficeRequest_Intro_002	We're going to need just the basic to begin with.				
-GENERIC/BuilldTownOfficeRequest_Intro_003	Are you ready?				
-GENERIC/BuilldTownOfficeRequest_Intro_004	<thinking>You could probably use it to get some infomation on any plants you are growing.				
-GENERIC/BuilldTownOfficeRequest_Intro_005	<yes>Oh, don't worry about me, I think you'll, like, get more use out of it to be honest.				
-GENERIC/BuilldTownOfficeRequest_Intro_006	<haha>Anyway, I've got all the info up here!				
-GENERIC/BuilldTownOfficeRequest_Intro_007	<glee>Anyway, if you could place it down somewhere, that would be great.				
-GENERIC/BuilldTownOfficeRequest_Intro_008	<yes>Be sure to check it every so often.				
-GENERIC/BuilldTownOfficeRequest_Intro_009	<yes>Anything you find in it is up for grabs, so feel free to take it!				
-GENERIC/BuilldTownOfficeRequest_Option_000	I'm ready!				
-GENERIC/BuilldTownOfficeRequest_Option_001	Not yet.				
-GENERIC/BuilldTownOfficeRequest_Response_000_000	Okay! I'm going to get you to place some land deeds.				
-GENERIC/BuilldTownOfficeRequest_Response_000_001	These deeds will show people where they can build their houses or businesses.				
-GENERIC/BuilldTownOfficeRequest_Response_000_002	Use this Axe to clear the land where you want to place the deed.				
-GENERIC/BuilldTownOfficeRequest_Response_000_003	Land deeds can only be placed on clear and levelled land.				
-GENERIC/BuilldTownOfficeRequest_Response_000_004	Come back and talk to me once you have placed the deed.				
-GENERIC/BuilldTownOfficeRequest_Response_001_000	Not a problem! I'll let you have a look around for now.				
-GENERIC/BuilldTownOfficeRequest_Response_001_001	Have a look around, and then come back when you're ready.				
-GENERIC/BuilldTownOfficeRequest_Response_001_002	Just be sure it's before night time! We don't want to be setting up in the dark.				
-GENERIC/Completed_Intro_000	Well done <PlayerName>.				
-GENERIC/Completed_Intro_001	You have acquired 10 <itemName>.				
-GENERIC/Completed_Intro_002	<no>I did not think this was possible.				
-GENERIC/Completed_Intro_003	<yes>I am impressed.þ				
-GENERIC/Completed_Intro_004	Now, if you would allow me to study the 10 <itemName>.þ				
-GENERIC/Completed_Intro_005	<thinking>….þ				
-GENERIC/Completed_Intro_006	<thinking>Hmmm…				
-GENERIC/Completed_Intro_007	<shocked>Yes!þ				
-GENERIC/Completed_Intro_008	<glee>I believe there is a way to process this into a usable material.þ				
-GENERIC/Completed_Intro_009	Studying this <itemName> has given me an idea for a new invention.				
-GENERIC/Completed_Intro_010	Please, <PlayerName>, come talk to me if you want me to craft you something new!				
+Generic/16 NPC_Nick_Intro_016					
+Generic/6 NPC_Fletch_Intro_000	So, <PlayerName> . We made it.				
+Generic/6 NPC_Fletch_Intro_001	Let's find a place we can start building!				
+Generic/AcceptDog_Intro_000	Oh, so you placed the <itemName>?				
+Generic/AcceptDog_Intro_001	What kind of dog would you like?				
+Generic/AcceptDog_Option_000	A fancy boy!				
+Generic/AcceptDog_Option_001	A good boy!				
+Generic/AcceptDog_Option_002	A little boy!				
+Generic/AcceptDog_Option_003	A loyal boy!				
+Generic/AcceptDog_Response_000_000	Great. Lets give them a name, okay?				
+Generic/AcceptDog_Response_001_000	Great. Lets give them a name, okay?				
+Generic/AcceptDog_Response_002_000	Great. Lets give them a name, okay?				
+Generic/AcceptDog_Response_003_000	Great. Lets give them a name, okay?				
+Generic/AgreeToMakeTech_Intro_000	þExcellent.				
+Generic/AgreeToMakeTech_Intro_001	<proud>I will begin right away.				
+Generic/AgreeToMakeTech_Intro_002	<yes>It will probably take all night, but I assure you, it will be ready by tomorrow.				
+Generic/AgreeToMakeTech_Intro_003	Now, if you do not mind, I have work to do.				
+Generic/AtWorkChat_Intro_000	Oh, what did you want to chat about?				
+Generic/AtWorkChat_Response_002_000					
+Generic/Blueprint_Hand_Intro_000	I can't learn anything new from this...				
+Generic/BuildTeleporterRequest_Intro_000	<yes><PlayerName>, I see you have been repairing the Tele-Towers around the island.				
+Generic/BuildTeleporterRequest_Intro_001	<thinking>To be honest, I did not think you had the know-how to even understand what they were intended for…				
+Generic/BuildTeleporterRequest_Intro_002	<yes>Regardless, I have come up with an idea to build a <itemName> that we could place wherever we want.				
+Generic/BuildTeleporterRequest_Intro_003	<thinking>Now adding too many would most likely disrupt the Tele-Network.				
+Generic/BuildTeleporterRequest_Intro_004	<yes>So I think we will only be able to build one.				
+Generic/BuildTeleporterRequest_Intro_005	I have spoken to <NPCName> and she has agreed to add it to the available deeds.				
+Generic/BuildTownOfficeAccepted_Intro_000	<shock>Oh, <PlayerName>!				
+Generic/BuildTownOfficeAccepted_Intro_001	I wanted to let you know that <IslandName> has been cleared to build 3 additional buildings.þ				
+Generic/BuildTownOfficeAccepted_Intro_002	<pumped>These buildings are additional houses!þ				
+Generic/BuildTownOfficeAccepted_Intro_003	<thinking>I’ve been told we can use them for whatever purpose we want.þ				
+Generic/BuildTownOfficeAccepted_Intro_004	<glee>I’ll let you decide whether the new house is storage, a display home or a place for a friend to stay when they come to visit.þ				
+Generic/BuildTownOfficeAccepted_Intro_005	<yes>We’re allowed to have three total here on <IslandName>.				
+Generic/BuildTownOfficeAccepted_Intro_006	So come and ask me about the deeds when you want to build one!				
+Generic/BuildTownOfficeComplete_Intro_000	Great work! We'll have our town bustling in no time.				
+Generic/BuildTownOfficeComplete_Intro_001	Here is a deed for a Market Place. This will be a place for visitors to set up their home or shop while they stay here.				
+Generic/BuildTownOfficeComplete_Intro_002	It might be a good idea to visit their tents and say hello!				
+Generic/BuildTownOfficeComplete_Intro_003	If you give them enough business, and maybe do a couple of odd jobs for them, they might move here permanently!				
+Generic/BuildTownOfficeComplete_Intro_004	Once the post office is built, we can have a look at some more deeds to place, okay?				
+Generic/BuildTownOfficeComplete_Intro_005	I'm looking forward to seeing more people move here!				
+Generic/BuilldTownOfficeRequest_Intro_000	Hey <PlayerName> .				
+Generic/BuilldTownOfficeRequest_Intro_001	Lets start building our town!				
+Generic/BuilldTownOfficeRequest_Intro_002	We're going to need just the basic to begin with.				
+Generic/BuilldTownOfficeRequest_Intro_003	Are you ready?				
+Generic/BuilldTownOfficeRequest_Intro_004	<thinking>You could probably use it to get some infomation on any plants you are growing.				
+Generic/BuilldTownOfficeRequest_Intro_005	<yes>Oh, don't worry about me, I think you'll, like, get more use out of it to be honest.				
+Generic/BuilldTownOfficeRequest_Intro_006	<haha>Anyway, I've got all the info up here!				
+Generic/BuilldTownOfficeRequest_Intro_007	<glee>Anyway, if you could place it down somewhere, that would be great.				
+Generic/BuilldTownOfficeRequest_Intro_008	<yes>Be sure to check it every so often.				
+Generic/BuilldTownOfficeRequest_Intro_009	<yes>Anything you find in it is up for grabs, so feel free to take it!				
+Generic/BuilldTownOfficeRequest_Option_000	I'm ready!				
+Generic/BuilldTownOfficeRequest_Option_001	Not yet.				
+Generic/BuilldTownOfficeRequest_Response_000_000	Okay! I'm going to get you to place some land deeds.				
+Generic/BuilldTownOfficeRequest_Response_000_001	These deeds will show people where they can build their houses or businesses.				
+Generic/BuilldTownOfficeRequest_Response_000_002	Use this Axe to clear the land where you want to place the deed.				
+Generic/BuilldTownOfficeRequest_Response_000_003	Land deeds can only be placed on clear and levelled land.				
+Generic/BuilldTownOfficeRequest_Response_000_004	Come back and talk to me once you have placed the deed.				
+Generic/BuilldTownOfficeRequest_Response_001_000	Not a problem! I'll let you have a look around for now.				
+Generic/BuilldTownOfficeRequest_Response_001_001	Have a look around, and then come back when you're ready.				
+Generic/BuilldTownOfficeRequest_Response_001_002	Just be sure it's before night time! We don't want to be setting up in the dark.				
+Generic/Completed_Intro_000	Well done <PlayerName>.				
+Generic/Completed_Intro_001	You have acquired 10 <itemName>.				
+Generic/Completed_Intro_002	<no>I did not think this was possible.				
+Generic/Completed_Intro_003	<yes>I am impressed.þ				
+Generic/Completed_Intro_004	Now, if you would allow me to study the 10 <itemName>.þ				
+Generic/Completed_Intro_005	<thinking>….þ				
+Generic/Completed_Intro_006	<thinking>Hmmm…				
+Generic/Completed_Intro_007	<shocked>Yes!þ				
+Generic/Completed_Intro_008	<glee>I believe there is a way to process this into a usable material.þ				
+Generic/Completed_Intro_009	Studying this <itemName> has given me an idea for a new invention.				
+Generic/Completed_Intro_010	Please, <PlayerName>, come talk to me if you want me to craft you something new!				
 Generic/CompleteHuntingRequest_Intro_000	Thank you for taking care of the <requestedHuntTarget>.				
 Generic/CompleteHuntingRequest_Intro_001	Those Alpha creatures are really dangerous and can cause a lot of havoc.				
 Generic/CompleteHuntingRequest_Intro_002	Here, take <BulletinBoardReward> as promised.				
-Generic/CompleteHuntingRequest_Intro_003					
-GENERIC/CompleteQuest_Intro_000	<glee>Well done, <PlayerName>.				
-GENERIC/CompleteQuest_Intro_001	<yes>You have proven yourself invaluable once again!				
-GENERIC/CompleteQuest_Intro_002	<shocked>You're really starting to carry a lot of stuff around!				
-GENERIC/CompleteQuest_Intro_003	<yes>I'll tell you what, I'll teach you how to craft a <itemName>.				
-GENERIC/CompleteQuest_Intro_004	<yes>You're going to need a recipe for Nails too.				
-GENERIC/CompleteQuest_Intro_005	<proud>I'll tell you what, <IslandName> is well on it's way to being a great settlement again!				
-GENERIC/CompleteQuest_Intro_006	<yes>With a furnace and a table saw we can start thinking about building more permanent structures.				
-GENERIC/CompleteQuest_Intro_007	I'll tell you what, we should try and get <NPCName> to set up a real shop here!				
-GENERIC/CompleteQuest_Intro_008	<yes>Come back and talk to me when you are ready.				
-GENERIC/CompleteQuest_Intro_009	<thinking>Although, probably can't sell you a lot of tools until you have all your <Licences> in order.				
-GENERIC/CompleteQuest_Intro_010	You know about <Licences>, right?				
-GENERIC/CompleteQuest_Option_000	Let's do it!				
-GENERIC/CompleteQuest_Option_001	How do we do that?				
-GENERIC/CompleteQuest_Response_000_000	That's the spirit, <PlayerName>!				
-GENERIC/CompleteQuest_Response_000_001	<yes>I reckon if we spend a bit of money at his tent, he'll see it's worth while...				
-GENERIC/CompleteQuest_Response_000_002	<yes>Oh, and we should show him how friendly people are around here!				
-GENERIC/CompleteQuest_Response_000_003	Why don't you ask <NPCName> if he has anything he needs done?				
-GENERIC/CompleteQuest_Response_000_004	<haha>If we can prove to him that <IslandName> is a great place to move, I'm sure he'll ask to live here for good!				
-GENERIC/CompleteQuest_Response_000_005	You’ll have to spend some <PermitPoints> to get them, but if you keep doing milestones you’ll make enough in no time.				
-GENERIC/CompleteQuest_Response_000_006	As you get better at doing certain tasks, new <Licence> levels will open up too.				
-GENERIC/CompleteQuest_Response_000_007	Now, let’s see if there is a <Licence> you can apply for right now...				
-GENERIC/CompleteQuest_Response_000_008	I’ll let you decide where the best place for this <itemName> is.				
-GENERIC/CompleteQuest_Response_000_009	<haha>Just be sure it's closeby!				
-GENERIC/CompleteQuest_Response_000_010	<glee>We want visitors to feel like part of the <IslandName> community while they are here!				
-GENERIC/CompleteQuest_Response_000_011	Who knows, maybe we can convince him to set up a permanent shop here!				
-GENERIC/CompleteQuest_Response_000_012	<yes>Be sure to talk to me once you have placed the <itemName>.				
-GENERIC/CompleteQuest_Response_001_000	<thinking>Hmmmm....				
-GENERIC/CompleteQuest_Response_001_001	<yes>I reckon if we spend a bit of money at his shop, he'll see it's worth while...				
-GENERIC/CompleteQuest_Response_001_002	<yes>Oh, and we should show him how friendly people are around here!				
-GENERIC/CompleteQuest_Response_001_003	Why don't you ask <NPCName> if he has anything he needs done?				
-GENERIC/CompleteQuest_Response_001_004	<haha>If we can prove to him that <IslandName> is a great place to move, I'm sure he'll ask to live here for good!				
-GENERIC/CompleteQuest_Response_001_005	You’ll have to spend some <PermitPoints> to get them, but if you keep doing milestones you’ll make enough in no time.				
-GENERIC/CompleteQuest_Response_001_006	As you get better at doing certain tasks, new <Licence> levels will open up too.				
-GENERIC/CompleteQuest_Response_001_007	Now, let’s see if there is a <Licence> you can apply for right now...				
-GENERIC/CompleteQuest_Response_001_008	I’ll let you decide where the best place for this <itemName> is.				
-GENERIC/CompleteQuest_Response_001_009	<haha>Just be sure it's closeby!				
-GENERIC/CompleteQuest_Response_001_010	<glee>We want visitors to feel like part of the <IslandName> community while they are here!				
-GENERIC/CompleteQuest_Response_001_011	Who knows, maybe we can convince him to set up a permanent shop here!				
-GENERIC/CompleteQuest_Response_001_012	<yes>Be sure to talk to me once you have placed the <itemName>.				
-GENERIC/DidNotGiveAnything_Intro_000					
-GENERIC/DidNotGiveAnything_Intro_001					
-GENERIC/ExhibitSignReadable (1)_Intro_000					
-GENERIC/ExhibitSignReadable (2)_Intro_000					
-GENERIC/ExhibitSignReadable_Intro_000					
-GENERIC/Generic_Intro_000	G’day there.	Bonjour là-bas.	Добрый день.	你好。	さあ、それでは。
-GENERIC/Generic_Intro_001	The name’s <myName>.	Le nom est <monNom>.	Имя <myName>.	名字是<我的名字>。	名前は<myName>です。
-GENERIC/Generic_Intro_002	I’m <NPCName>’s little brother!	Je suis le petit frère de <NPCName> !	Я младший брат <NPCName>!	我是<NPCName>的弟弟！	私は<NPCName>の弟です！
-GENERIC/Generic_Intro_003	<NPCName> said I should come visit <IslandName>.	<NPCName> m'a dit de venir visiter <IslandName>.	<NPCName> сказал, что мне следует посетить <IslandName>.	<NPCName>说我应该来参观<IslandName>。	<NPCName> さんは、<IslandName> に遊びに来るべきだと言いました。
-GENERIC/Generic_Intro_004	<no>I wasn’t really up for a vacation.	<no>Je n’étais pas vraiment partant pour des vacances.	<нет>На самом деле я не собирался в отпуск.	<no>我其实并没有准备好去度假。	<no>本当に休暇を取るつもりはありませんでした。
-GENERIC/Generic_Intro_005	<haha>As soon as he mentioned the amount of fish you could find here, I was booking a ticket!	<haha>Dès qu'il a mentionné la quantité de poisson que l'on pouvait trouver ici, j'ai réservé un billet !	<ха-ха>Как только он упомянул, сколько рыбы здесь можно найти, я забронировал билет!	<哈哈>当他提到这里可以找到的鱼的数量时，我就订票了！	<笑>彼がここで見つかる魚の量について話すとすぐに、チケットを予約していました。
-GENERIC/Generic_Intro_006	A place like this would be perfect for a <FishingComp>.	Un endroit comme celui-ci serait parfait pour un <FishingComp>.	Такое место идеально подошло бы для <FishingComp>.	这样的地方最适合<FishingComp>了。	こんな場所は＜フィッシングコンプ＞にぴったりですね。
-GENERIC/Generic_Intro_007	So I’m hosting one today!	J’en organise donc un aujourd’hui !	Итак, я провожу его сегодня!	所以今天我要主持一场！	ということで、今日は私が主催します！
-GENERIC/Intro_Intro_000	Ah, <PlayerName>.þ				
-GENERIC/Intro_Intro_001	Am I correct in assuming that you have discovered the incredibly rare <itemName>.				
-GENERIC/Intro_Intro_002	<thinking>I have seen this ore referenced often in the data I have been extracting from the shiny discs.				
-GENERIC/Intro_Intro_003	<thinking>However, I must admit, I had assumed that it was a myth...				
-GENERIC/Intro_Intro_004	If you could bring me 10 <itemName>, I believe I may have a way to process it into a very useful material.				
-GENERIC/Intro_Intro_005	Please come back and speak to me once you have collected the <itemName>.				
-GENERIC/Intro_Intro_006	I’ve already applied for the <itemName>.				
-GENERIC/Intro_Intro_007	<yes>So, come and speak to me if you think we are ready to build it.				
-GENERIC/IntroToQuest_Intro_000					
-GENERIC/IntroToQuest_Intro_001	 You up for it?				
-GENERIC/IntroToQuest_Intro_002	That’s a tool I think will be very handy, indeed!				
-GENERIC/IntroToQuest_Intro_003	I think we should try and make enough money to buy a <itemName> from <NPCName>.				
-GENERIC/IntroToQuest_Intro_004	Here is my half of the Dinks. The rest is up to you! 				
-GENERIC/IntroToQuest_Intro_005	Maybe you could go catch some of the bugs around here?				
-GENERIC/IntroToQuest_Intro_006	Or maybe you could cook some of that fruit you found?				
-GENERIC/IntroToQuest_Intro_007	<glee>For every milestone you surpass, you’ll be rewarded with <PermitPoints>.				
-GENERIC/IntroToQuest_Intro_008	<yes>I'll tell you what, you're going to want a lot of <PermitPoints> eventually.				
-GENERIC/IntroToQuest_Intro_009	<no>But we can talk more about that tomorrow.				
-GENERIC/IntroToQuest_Intro_010	<yes>For now, check out the journal.				
-GENERIC/IntroToQuest_Intro_011	<shocked>I think you’ll find that you’ve actually completed some of the milestones inside.				
-GENERIC/IntroToQuest_Intro_012	So be sure to claim them. <glee>				
-GENERIC/IntroToQuest_Intro_013	<yes>Now, are you hungry? I am.				
-GENERIC/IntroToQuest_Intro_014	<haha>I think it's just about lunch time.				
-GENERIC/IntroToQuest_Intro_015	<glee>I’ve seen fruit growing around this island and that sounds tasty!				
-GENERIC/IntroToQuest_Intro_016	<yes>You go and find us some fruit and when you get back I will show you how to craft a <itemName>.				
-GENERIC/IntroToQuest_Option_000	I'm ready!				
-GENERIC/IntroToQuest_Option_001	Not yet.				
-GENERIC/IntroToQuest_Option_002	Not yet.				
-GENERIC/IntroToQuest_Response_000_000	If we are going to build anything around here we’re going to need materials.þ				
-GENERIC/IntroToQuest_Response_000_001	I reckon we need to wood and Tin. þ				
-GENERIC/IntroToQuest_Response_000_002	Now, wood? That’s easy. You chop down a tree and then you’ve got some wood.þ <yes>				
-GENERIC/IntroToQuest_Response_000_003	But Tin? That’s a bit trickier. I’ve seen it around the island poking out of rocks here and there. It’s a dark ore. You’ll know it if you see it.<yes>				
-GENERIC/IntroToQuest_Response_000_004	Now, we’re going to need to smelt it down into bars before we can use the Tin Ore for building things. <thinking>				
-GENERIC/IntroToQuest_Response_000_005	Go give the island a bit of a looky-loo for <questRequiredItems>.				
-GENERIC/IntroToQuest_Response_000_006	Bring them back here and I'll show you how we can turn Tin Ore into bars. <glee>				
-GENERIC/IntroToQuest_Response_000_007	<proud>Once you’ve gathered everything we need, come and see me!				
-GENERIC/IntroToQuest_Response_001_000	Righto then.				
-GENERIC/IntroToQuest_Response_001_001	Come see me soon, okay?				
-GENERIC/IntroToQuest_Response_001_002	If you are tired, pop that on the ground and have a lay down.				
-GENERIC/IntroToQuest_Response_001_003	<haha>I'll tell you what, a good nights rest will do us both good!				
-GENERIC/IntroToQuest_Response_001_004	Thanks for your help today, <PlayerName>.				
-GENERIC/IntroToQuest_Response_001_005	I can't believe we're on <IslandName>!				
-GENERIC/IntroToQuest_Response_001_006	<glee>I couldn't have done any of this without you!				
-GENERIC/IntroToQuest_Response_002_000	<yes>Righto.				
-GENERIC/IntroToQuest_Response_002_001	You've been helping out a lot, so take your time, <PlayerName>.				
-GENERIC/IntroToQuest_Response_002_002	<glee>Just come back and see me when you're ready.				
+Generic/CompleteHuntingRequest_Intro_003	Thanks for keeping <IslandName> safe for everyone, <PlayerName>.				
+Generic/CompleteQuest_Intro_000	<glee>Well done, <PlayerName>.				
+Generic/CompleteQuest_Intro_001	<yes>You have proven yourself invaluable once again!				
+Generic/CompleteQuest_Intro_002	<shocked>You're really starting to carry a lot of stuff around!				
+Generic/CompleteQuest_Intro_003	<yes>I'll tell you what, I'll teach you how to craft a <itemName>.				
+Generic/CompleteQuest_Intro_004	<yes>You're going to need a recipe for Nails too.				
+Generic/CompleteQuest_Intro_005	<proud>I'll tell you what, <IslandName> is well on it's way to being a great settlement again!				
+Generic/CompleteQuest_Intro_006	<yes>With a furnace and a table saw we can start thinking about building more permanent structures.				
+Generic/CompleteQuest_Intro_007	I'll tell you what, we should try and get <NPCName> to set up a real shop here!				
+Generic/CompleteQuest_Intro_008	<yes>Come back and talk to me when you are ready.				
+Generic/CompleteQuest_Intro_009	<thinking>Although, probably can't sell you a lot of tools until you have all your <Licences> in order.				
+Generic/CompleteQuest_Intro_010	You know about <Licences>, right?				
+Generic/CompleteQuest_Option_000	Let's do it!				
+Generic/CompleteQuest_Option_001	How do we do that?				
+Generic/CompleteQuest_Response_000_000	That's the spirit, <PlayerName>!				
+Generic/CompleteQuest_Response_000_001	<yes>I reckon if we spend a bit of money at his tent, he'll see it's worth while...				
+Generic/CompleteQuest_Response_000_002	<yes>Oh, and we should show him how friendly people are around here!				
+Generic/CompleteQuest_Response_000_003	Why don't you ask <NPCName> if he has anything he needs done?				
+Generic/CompleteQuest_Response_000_004	<haha>If we can prove to him that <IslandName> is a great place to move, I'm sure he'll ask to live here for good!				
+Generic/CompleteQuest_Response_000_005	You’ll have to spend some <PermitPoints> to get them, but if you keep doing milestones you’ll make enough in no time.				
+Generic/CompleteQuest_Response_000_006	As you get better at doing certain tasks, new <Licence> levels will open up too.				
+Generic/CompleteQuest_Response_000_007	Now, let’s see if there is a <Licence> you can apply for right now...				
+Generic/CompleteQuest_Response_000_008	I’ll let you decide where the best place for this <itemName> is.				
+Generic/CompleteQuest_Response_000_009	<haha>Just be sure it's closeby!				
+Generic/CompleteQuest_Response_000_010	<glee>We want visitors to feel like part of the <IslandName> community while they are here!				
+Generic/CompleteQuest_Response_000_011	Who knows, maybe we can convince him to set up a permanent shop here!				
+Generic/CompleteQuest_Response_000_012	<yes>Be sure to talk to me once you have placed the <itemName>.				
+Generic/CompleteQuest_Response_001_000	<thinking>Hmmmm....				
+Generic/CompleteQuest_Response_001_001	<yes>I reckon if we spend a bit of money at his shop, he'll see it's worth while...				
+Generic/CompleteQuest_Response_001_002	<yes>Oh, and we should show him how friendly people are around here!				
+Generic/CompleteQuest_Response_001_003	Why don't you ask <NPCName> if he has anything he needs done?				
+Generic/CompleteQuest_Response_001_004	<haha>If we can prove to him that <IslandName> is a great place to move, I'm sure he'll ask to live here for good!				
+Generic/CompleteQuest_Response_001_005	You’ll have to spend some <PermitPoints> to get them, but if you keep doing milestones you’ll make enough in no time.				
+Generic/CompleteQuest_Response_001_006	As you get better at doing certain tasks, new <Licence> levels will open up too.				
+Generic/CompleteQuest_Response_001_007	Now, let’s see if there is a <Licence> you can apply for right now...				
+Generic/CompleteQuest_Response_001_008	I’ll let you decide where the best place for this <itemName> is.				
+Generic/CompleteQuest_Response_001_009	<haha>Just be sure it's closeby!				
+Generic/CompleteQuest_Response_001_010	<glee>We want visitors to feel like part of the <IslandName> community while they are here!				
+Generic/CompleteQuest_Response_001_011	Who knows, maybe we can convince him to set up a permanent shop here!				
+Generic/CompleteQuest_Response_001_012	<yes>Be sure to talk to me once you have placed the <itemName>.				
+Generic/CompleteRequestConvo_Intro_000	Wow. You really found <requestItem>!				
+Generic/CompleteRequestConvo_Intro_001	You're the best <PlayerName>!				
+Generic/CompleteRequestConvo_Intro_002	I really owe you one. Here, take this.				
+Generic/CompleteRequestConvo_Intro_003	Its not much but I hope you like it! Thanks again.				
+Generic/CompostRequestCompleteConvo_Intro_000	Oh, you've got <requestItem> ?				
+Generic/CompostRequestCompleteConvo_Option_000	Here you go!				
+Generic/CompostRequestCompleteConvo_Option_001	Not yet, sorry.				
+Generic/CompostRequestCompleteConvo_Response_000_000	Great!				
+Generic/CompostRequestCompleteConvo_Response_001_000	Oh, okay then...				
+Generic/CookingRequestCompleteConvo_Intro_000	You brought me <requestItem> ?				
+Generic/CookingRequestCompleteConvo_Option_000	Here you go!				
+Generic/CookingRequestCompleteConvo_Option_001	Not yet, sorry.				
+Generic/CookingRequestCompleteConvo_Response_000_000	Thats great. Now I can make <BulletinBoardReward>				
+Generic/CookingRequestCompleteConvo_Response_001_000	Aww . . . you got me excited for <BulletinBoardReward> .				
+Generic/CraftedRequestCompleted_Intro_000	Oh bonza! You crafted a <requestItem> for me?				
+Generic/CraftedRequestCompleted_Option_000	Here you go.				
+Generic/CraftedRequestCompleted_Option_001	Nah.				
+Generic/CraftedRequestCompleted_Response_001_000	Oh, righto, <PlayerName>...				
+Generic/DidNotGiveAnything_Intro_000					
+Generic/DidNotGiveAnything_Intro_001					
+Generic/ExhibitSignReadable (1)_Intro_000					
+Generic/ExhibitSignReadable (2)_Intro_000					
+Generic/ExhibitSignReadable_Intro_000					
+Generic/FirstDayFaintConvo_Intro_000	.........<PlayerName>.........				
+Generic/FirstDayFaintConvo_Intro_001	<PlayerName>.........				
+Generic/FirstDayFaintConvo_Intro_002	<PlayerName>?				
+Generic/FirstDayFaintConvo_Intro_003	<PlayerName>! Can you hear me?				
+Generic/FirstDayFaintConvo_Intro_004	<yes>I’m so glad you’re okay!				
+Generic/FirstDayFaintConvo_Intro_005	It looks like you fainted out there!þ				
+Generic/FirstDayFaintConvo_Intro_006	<yes>Please be careful out there and always keep an eye on your health and energy.				
+Generic/FirstDayFaintConvo_Intro_007	<no>If the world starts losing colour you know you’ve worked too hard.				
+Generic/FirstDayFaintConvo_Intro_008	<yes>Please make sure you eat something to keep your energy up.				
+Generic/FirstDayFaintConvo_Intro_009	<shy>When you didn’t return after a while, I had to call for a search party from <SouthCity> to come and find you.				
+Generic/FirstDayFaintConvo_Intro_010	<worried>Those guys delivered you here, but it looks like they went through your pockets and took a fair cut of your <Dinks>.				
+Generic/FirstDayFaintConvo_Intro_011	Maybe they thought you wouldn't notice?				
+Generic/FirstDayFaintConvo_Intro_012	<thinking>It looks like some of your tools have taken a bit of damage too…				
+Generic/FirstDayFaintConvo_Intro_013	Please be careful out there, <PlayerName>.				
+Generic/FirstDayFaintConvo_Intro_014	<haha>I’ll tell you what, I’m glad you’re okay, but I don’t really want to have to go through that again!				
+Generic/FlyOverIntroConvo_Intro_000					
+Generic/FlyOverIntroConvo_Intro_001	All passengers, please prepare to leave the Airship.				
+Generic/FoundPhoto_Intro_000	You got the photo for me?				
+Generic/FoundPhoto_Option_000	Sure did!				
+Generic/FoundPhoto_Option_001	Not yet.				
+Generic/FoundPhoto_Response_000_000	Great! Can't wait to see it!				
+Generic/FoundPhoto_Response_001_000	No problems. I can't wait to see it				
+Generic/Generic_Intro_000	G’day there.	Bonjour là-bas.	Добрый день.	你好。	さあ、それでは。
+Generic/Generic_Intro_001	The name’s <myName>.	Le nom est <monNom>.	Имя <myName>.	名字是<我的名字>。	名前は<myName>です。
+Generic/Generic_Intro_002	I’m <NPCName>’s little brother!	Je suis le petit frère de <NPCName> !	Я младший брат <NPCName>!	我是<NPCName>的弟弟！	私は<NPCName>の弟です！
+Generic/Generic_Intro_003	<NPCName> said I should come visit <IslandName>.	<NPCName> m'a dit de venir visiter <IslandName>.	<NPCName> сказал, что мне следует посетить <IslandName>.	<NPCName>说我应该来参观<IslandName>。	<NPCName> さんは、<IslandName> に遊びに来るべきだと言いました。
+Generic/Generic_Intro_004	<no>I wasn’t really up for a vacation.	<no>Je n’étais pas vraiment partant pour des vacances.	<нет>На самом деле я не собирался в отпуск.	<no>我其实并没有准备好去度假。	<no>本当に休暇を取るつもりはありませんでした。
+Generic/Generic_Intro_005	<haha>As soon as he mentioned the amount of fish you could find here, I was booking a ticket!	<haha>Dès qu'il a mentionné la quantité de poisson que l'on pouvait trouver ici, j'ai réservé un billet !	<ха-ха>Как только он упомянул, сколько рыбы здесь можно найти, я забронировал билет!	<哈哈>当他提到这里可以找到的鱼的数量时，我就订票了！	<笑>彼がここで見つかる魚の量について話すとすぐに、チケットを予約していました。
+Generic/Generic_Intro_006	A place like this would be perfect for a <FishingComp>.	Un endroit comme celui-ci serait parfait pour un <FishingComp>.	Такое место идеально подошло бы для <FishingComp>.	这样的地方最适合<FishingComp>了。	こんな場所は＜フィッシングコンプ＞にぴったりですね。
+Generic/Generic_Intro_007	So I’m hosting one today!	J’en organise donc un aujourd’hui !	Итак, я провожу его сегодня!	所以今天我要主持一场！	ということで、今日は私が主催します！
+Generic/GivenCompostIngredients_Intro_000	Thanks, <PlayerName>!				
+Generic/GivenCompostIngredients_Intro_001	Here is <BulletinBoardReward>.				
+Generic/GivenCompostIngredients_Intro_002	I'll get to work making some more!				
+Generic/GivenCookingIngredient_Intro_000	Wow! Thank you. Now I can make some <BulletinBoardReward>				
+Generic/GivenCookingIngredient_Intro_001	Please enjoy this <BulletinBoardReward> .				
+Generic/GivenCookingIngredient_Intro_002	Thank you so much, <PlayerName> .				
+Generic/GivenCorrectCraftedItem_Intro_000	<glee>Thanks a lot, <PlayerName>!				
+Generic/GivenCorrectCraftedItem_Intro_001	<yes>When I put up that post, I knew you would be the one to pull through for me.				
+Generic/GivenCorrectCraftedItem_Intro_002	Here is your <BulletinBoardReward>!				
+Generic/GivenCorrectItemForTrade_Intro_000	You've got yourself a deal, <PlayerName>.				
+Generic/GivenCorrectItemForTrade_Intro_001	Here's my <BulletinBoardReward>.				
+Generic/GivenCorrectItemForTrade_Intro_002	Thanks for trading!				
+Generic/GivenCorrectPhoto_Intro_000	Wow!				
+Generic/GivenCorrectPhoto_Intro_001	<yes>This is a great photo, <PlayerName>.				
+Generic/GivenCorrectPhoto_Intro_002	<glee>Thank you for taking this for me!				
+Generic/GivenCorrectPhoto_Intro_003	Can I keep it? I will pay <BulletinBoardReward>?				
+Generic/GivenCorrectPhoto_Option_000	It's all yours!				
+Generic/GivenCorrectPhoto_Option_001	Actually I want it...				
+Generic/GivenCorrectPhoto_Response_000_000	<glee>Thank you very much <PlayerName>!				
+Generic/GivenCorrectPhoto_Response_000_001	Here is <BulletinBoardReward>!				
+Generic/GivenCorrectPhoto_Response_001_000	<sigh>Well, thanks for letting me take a look anyway...				
+Generic/GivenCorrectShippingItem_Intro_000	<glee>Thanks a lot, <PlayerName>!				
+Generic/GivenCorrectShippingItem_Intro_001	<yes>You've really saved me, I didn't think I would get that shipment filled.				
+Generic/GivenCorrectShippingItem_Intro_002	Here is your <BulletinBoardReward>!				
+Generic/GivenSmeltingIngredient_Intro_000	Thank you, <PlayerName>.				
+Generic/GivenSmeltingIngredient_Intro_001	Take these <BulletinBoardReward>. I just like smelting them and I don't really need them.				
+Generic/Intro_Intro_000	Ah, <PlayerName>.þ				
+Generic/Intro_Intro_001	Am I correct in assuming that you have discovered the incredibly rare <itemName>.				
+Generic/Intro_Intro_002	<thinking>I have seen this ore referenced often in the data I have been extracting from the shiny discs.				
+Generic/Intro_Intro_003	<thinking>However, I must admit, I had assumed that it was a myth...				
+Generic/Intro_Intro_004	If you could bring me 10 <itemName>, I believe I may have a way to process it into a very useful material.				
+Generic/Intro_Intro_005	Please come back and speak to me once you have collected the <itemName>.				
+Generic/Intro_Intro_006	I’ve already applied for the <itemName>.				
+Generic/Intro_Intro_007	<yes>So, come and speak to me if you think we are ready to build it.				
+Generic/IntroToQuest_Intro_000					
+Generic/IntroToQuest_Intro_001	 You up for it?				
+Generic/IntroToQuest_Intro_002	That’s a tool I think will be very handy, indeed!				
+Generic/IntroToQuest_Intro_003	I think we should try and make enough money to buy a <itemName> from <NPCName>.				
+Generic/IntroToQuest_Intro_004	Here is my half of the Dinks. The rest is up to you! 				
+Generic/IntroToQuest_Intro_005	Maybe you could go catch some of the bugs around here?				
+Generic/IntroToQuest_Intro_006	Or maybe you could cook some of that fruit you found?				
+Generic/IntroToQuest_Intro_007	<glee>For every milestone you surpass, you’ll be rewarded with <PermitPoints>.				
+Generic/IntroToQuest_Intro_008	<yes>I'll tell you what, you're going to want a lot of <PermitPoints> eventually.				
+Generic/IntroToQuest_Intro_009	<no>But we can talk more about that tomorrow.				
+Generic/IntroToQuest_Intro_010	<yes>For now, check out the journal.				
+Generic/IntroToQuest_Intro_011	<shocked>I think you’ll find that you’ve actually completed some of the milestones inside.				
+Generic/IntroToQuest_Intro_012	So be sure to claim them. <glee>				
+Generic/IntroToQuest_Intro_013	<yes>Now, are you hungry? I am.				
+Generic/IntroToQuest_Intro_014	<haha>I think it's just about lunch time.				
+Generic/IntroToQuest_Intro_015	<glee>I’ve seen fruit growing around this island and that sounds tasty!				
+Generic/IntroToQuest_Intro_016	<yes>You go and find us some fruit and when you get back I will show you how to craft a <itemName>.				
+Generic/IntroToQuest_Option_000	I'm ready!				
+Generic/IntroToQuest_Option_001	Not yet.				
+Generic/IntroToQuest_Option_002	Not yet.				
+Generic/IntroToQuest_Response_000_000	If we are going to build anything around here we’re going to need materials.þ				
+Generic/IntroToQuest_Response_000_001	I reckon we need to wood and Tin. þ				
+Generic/IntroToQuest_Response_000_002	Now, wood? That’s easy. You chop down a tree and then you’ve got some wood.þ <yes>				
+Generic/IntroToQuest_Response_000_003	But Tin? That’s a bit trickier. I’ve seen it around the island poking out of rocks here and there. It’s a dark ore. You’ll know it if you see it.<yes>				
+Generic/IntroToQuest_Response_000_004	Now, we’re going to need to smelt it down into bars before we can use the Tin Ore for building things. <thinking>				
+Generic/IntroToQuest_Response_000_005	Go give the island a bit of a looky-loo for <questRequiredItems>.				
+Generic/IntroToQuest_Response_000_006	Bring them back here and I'll show you how we can turn Tin Ore into bars. <glee>				
+Generic/IntroToQuest_Response_000_007	<proud>Once you’ve gathered everything we need, come and see me!				
+Generic/IntroToQuest_Response_001_000	Righto then.				
+Generic/IntroToQuest_Response_001_001	Come see me soon, okay?				
+Generic/IntroToQuest_Response_001_002	If you are tired, pop that on the ground and have a lay down.				
+Generic/IntroToQuest_Response_001_003	<haha>I'll tell you what, a good nights rest will do us both good!				
+Generic/IntroToQuest_Response_001_004	Thanks for your help today, <PlayerName>.				
+Generic/IntroToQuest_Response_001_005	I can't believe we're on <IslandName>!				
+Generic/IntroToQuest_Response_001_006	<glee>I couldn't have done any of this without you!				
+Generic/IntroToQuest_Response_002_000	<yes>Righto.				
+Generic/IntroToQuest_Response_002_001	You've been helping out a lot, so take your time, <PlayerName>.				
+Generic/IntroToQuest_Response_002_002	<glee>Just come back and see me when you're ready.				
+Generic/MoveInRequest_Intro_000	Hey, <PlayerName>.				
+Generic/MoveInRequest_Intro_001	I've decided I really like it here. 				
+Generic/MoveInRequest_Intro_002	So, I spoke to Fletch, and I've applied for a deed so I can set up a permanent store here in town.				
+Generic/MoveInRequest_Intro_003	I hope I can move in soon!				
+Generic/MuseumMoveInRequest 1_Intro_000	There are so many amazing creatures and plants on this island! <pumped>þ				
+Generic/MuseumMoveInRequest 1_Intro_001	I think it might be worth documenting them all, correct? <yes>þ				
+Generic/MuseumMoveInRequest 1_Intro_002	What if we built a museum here?þ				
+Generic/MuseumMoveInRequest 1_Intro_003	Somewhere where we could gather all of the amazing things here for everyone to see?þ <glee>				
+Generic/MuseumMoveInRequest 1_Intro_004	I’ll talk to <NPCName> about applying for a <itemName>.þ				
+Generic/MuseumMoveInRequest 1_Intro_005	This is so exicting! <glee>				
+Generic/NoItemGiven_Intro_000	Oh, you don't have <requestItem> at all.				
+Generic/NoItemGiven_Intro_001	Let me know if you find <requestItem>.				
+Generic/NoPhotoGiven_Intro_000	Oh, you don't have the photo? Thats ok!				
 Generic/NPC_000_RandomConvo_000_Intro	<haha>It’s kind of overwhelming!				
-GENERIC/PlaceKennelRequest_Intro_000	Hey <PlayerName>. Want a pet dog?				
-GENERIC/PlaceKennelRequest_Intro_001	<yes>If you do place this <itemName> somewhere and come and speak to me.				
-GENERIC/Q_0_CompleteQuest_Intro_000	So, this is where you decided to build, huh?				
-GENERIC/Q_0_CompleteQuest_Intro_001	<glee>It’s absolutely perfect! Our new home here on <IslandName>!				
-GENERIC/Q_0_CompleteQuest_Intro_002	Thank you so much for setting up the Base Tent.<yes>				
-GENERIC/Q_0_CompleteQuest_Intro_003	Oh, and guess what? I actually have a <itemName> for you too! <haha>				
-GENERIC/Q_0_CompleteQuest_Intro_004	<shy>I know it's not much but it will be a place you can call home!				
-GENERIC/Q_0_CompleteQuest_Intro_005	Now, there is plenty of room to spread out here on <IslandName>.				
-GENERIC/Q_0_CompleteQuest_Intro_006	So please take your time to place your <itemName>.				
-GENERIC/Q_0_CompleteQuest_Intro_007	<yes>You’ll probably be visiting the Base Tent a fair bit.				
-GENERIC/Q_0_CompleteQuest_Intro_008	<thinking>So keep that in mind while you are looking for a spot to claim as your own.				
-GENERIC/Q_0_CompleteQuest_Intro_009	I’ll be inside the Base Tent getting things ready. 				
-GENERIC/Q_0_CompleteQuest_Intro_010	Come and speak to me once you’ve placed your <itemName>.				
+Generic/PlaceKennelRequest_Intro_000	Hey <PlayerName>. Want a pet dog?				
+Generic/PlaceKennelRequest_Intro_001	<yes>If you do place this <itemName> somewhere and come and speak to me.				
+Generic/Q_0_CompleteQuest_Intro_000	So, this is where you decided to build, huh?				
+Generic/Q_0_CompleteQuest_Intro_001	<glee>It’s absolutely perfect! Our new home here on <IslandName>!				
+Generic/Q_0_CompleteQuest_Intro_002	Thank you so much for setting up the Base Tent.<yes>				
+Generic/Q_0_CompleteQuest_Intro_003	Oh, and guess what? I actually have a <itemName> for you too! <haha>				
+Generic/Q_0_CompleteQuest_Intro_004	<shy>I know it's not much but it will be a place you can call home!				
+Generic/Q_0_CompleteQuest_Intro_005	Now, there is plenty of room to spread out here on <IslandName>.				
+Generic/Q_0_CompleteQuest_Intro_006	So please take your time to place your <itemName>.				
+Generic/Q_0_CompleteQuest_Intro_007	<yes>You’ll probably be visiting the Base Tent a fair bit.				
+Generic/Q_0_CompleteQuest_Intro_008	<thinking>So keep that in mind while you are looking for a spot to claim as your own.				
+Generic/Q_0_CompleteQuest_Intro_009	I’ll be inside the Base Tent getting things ready. 				
+Generic/Q_0_CompleteQuest_Intro_010	Come and speak to me once you’ve placed your <itemName>.				
+Generic/Quest_0_CompleteQuest_Intro_000	So, this is where you decided to build, huh?				
+Generic/Quest_0_CompleteQuest_Intro_001	<glee>It’s absolutely perfect! Our new home here on <IslandName>!				
+Generic/Quest_0_CompleteQuest_Intro_002	Thank you so much for setting up the Base Tent.<yes>				
+Generic/Quest_0_CompleteQuest_Intro_003	Oh, and guess what? I actually have a <itemName> for you too! <haha>				
+Generic/Quest_0_CompleteQuest_Intro_004	<shy>I know it's not much but it will be a place you can call home!				
+Generic/Quest_0_CompleteQuest_Intro_005	Now, there is plenty of room to spread out here on <IslandName>.				
+Generic/Quest_0_CompleteQuest_Intro_006	So please take your time to place your <itemName>.				
+Generic/Quest_0_CompleteQuest_Intro_007	<yes>You’ll probably be visiting the Base Tent a fair bit.				
+Generic/Quest_0_CompleteQuest_Intro_008	<thinking>So keep that in mind while you are looking for a spot to claim as your own.				
+Generic/Quest_0_CompleteQuest_Intro_009	I’ll be inside the Base Tent getting things ready. 				
+Generic/Quest_0_CompleteQuest_Intro_010	Come and speak to me once you’ve placed your <itemName>.				
+Generic/Quest_0_IntroToQuest_Intro_000	Wow!				
+Generic/Quest_0_IntroToQuest_Intro_001	<glee>Smell that fresh air!				
+Generic/Quest_0_IntroToQuest_Intro_002	I'll tell you what, it feels good to finally be back on <IslandName>.				
+Generic/Quest_0_IntroToQuest_Intro_003	Now, <PlayerName>, I’m going to need your help getting settled, okay?þ				
+Generic/Quest_0_IntroToQuest_Intro_004	<yes>I’ll give you this <itemName>. Take your time and find a good place for it. It’ll be like our town hub!				
+Generic/Quest_0_IntroToQuest_Intro_005	Take this map as well. If you have any questions, please just ask me.þ				
+Generic/Quest_0_IntroToQuest_Intro_006	<shy>I haven’t been back to <IslandName> for a very long time, but I think I can still be helpful.þ				
+Generic/Quest_0_IntroToQuest_Intro_007	<yes>I’ll be waiting by this dock until you set up the <itemName>.				
+Generic/Quest_0_IntroToQuest_Intro_008	<yes>So if you get lost, just check your map to find the dock again.				
+Generic/Quest_0_IntroToQuest_Intro_009	Good luck, <PlayerName>!				
+Generic/Quest_0_TalkToWhileNotComplete_Intro_000	Ah, <PlayerName>. Hows it going, mate? Do you have any questions?				
+Generic/Quest_0_TalkToWhileNotComplete_Option_000	Tell me about the Island.				
+Generic/Quest_0_TalkToWhileNotComplete_Option_001	Where do you think we should set up camp?				
+Generic/Quest_0_TalkToWhileNotComplete_Option_002	How do I place the tent?				
+Generic/Quest_0_TalkToWhileNotComplete_Option_003	See ya!				
+Generic/Quest_0_TalkToWhileNotComplete_Response_000_000	<thinking>You see, I was actually born here on <IslandName>.				
+Generic/Quest_0_TalkToWhileNotComplete_Response_000_001	<no>Back before we moved to  <SouthCity>...				
+Generic/Quest_0_TalkToWhileNotComplete_Response_000_002	<thinking>Hmmm...				
+Generic/Quest_0_TalkToWhileNotComplete_Response_000_003	Oh, right. Let me tell you what I remember about <IslandName>...				
+Generic/Quest_0_TalkToWhileNotComplete_Response_000_004	If I remember correctly, up north you'll find a tropical climate.				
+Generic/Quest_0_TalkToWhileNotComplete_Response_000_005	<thinking>To the south it can get a bit chilly, but I recall my Dad warned me about the wildlife down there…				
+Generic/Quest_0_TalkToWhileNotComplete_Response_000_006	To the east and west of the island are flat open plains. The ground is nice and flat, so it would be easy to build there.				
+Generic/Quest_0_TalkToWhileNotComplete_Response_000_007	The coasts are a great place for fishing year-round. So if you like throwing a line, it might be worth setting up the <itemName> near the beach.				
+Generic/Quest_0_TalkToWhileNotComplete_Response_000_008	<haha>The centre of the island is a desert. It’s hot and dry there, and it’s full of bugs!				
+Generic/Quest_0_TalkToWhileNotComplete_Response_000_009	<yes>But no matter where you decide we should build, being close to water is always a good idea. 				
+Generic/Quest_0_TalkToWhileNotComplete_Response_000_010	So if you want to set up inland anywhere, try and do it close to a river.				
+Generic/Quest_0_TalkToWhileNotComplete_Response_000_011	<haha>I feel like that’s a lot to take in. Sorry about that, <PlayerName>!				
+Generic/Quest_0_TalkToWhileNotComplete_Response_001_000	It’s been a long time since I was here last! I was a little girl back then, so I’ll let you figure out how long ago that was! <shy>				
+Generic/Quest_0_TalkToWhileNotComplete_Response_001_001	But I do have two places in mind that might be a good place to set up the <itemName>... <thinking>				
+Generic/Quest_0_TalkToWhileNotComplete_Response_001_002	The eastern and western coasts both have plainlands that I think would make for an easy building area. <yes>				
+Generic/Quest_0_TalkToWhileNotComplete_Response_001_003	The terrain there is flat and won't take too much effort to build on. Plus the climate should be good for farming most of the year. <yes>				
+Generic/Quest_0_TalkToWhileNotComplete_Response_001_004	But you don’t have to listen to old <myName>!  You’re the one running around out there!þ				
+Generic/Quest_0_TalkToWhileNotComplete_Response_001_005	I’m sure that wherever you decide to place the <itemName>, it will be the right place.<yes>				
+Generic/Quest_0_TalkToWhileNotComplete_Response_001_006	Now if you have any other questions, just ask!				
+Generic/Quest_0_TalkToWhileNotComplete_Response_002_000	Ah, good question <PlayerName>!				
+Generic/Quest_0_TalkToWhileNotComplete_Response_002_001	First select the <itemName> in your toolbelt so it’s in your hand.				
+Generic/Quest_0_TalkToWhileNotComplete_Response_002_002	Once you use the <itemName> you’re going to have to decide where to place it.<yes>				
+Generic/Quest_0_TalkToWhileNotComplete_Response_002_003	You’re going to need enough space for the <itemName> to be set up. The only other thing to keep in mind is that the ground needs to be flat and even. <yes>				
+Generic/Quest_0_TalkToWhileNotComplete_Response_002_004	If you have any other questions, please come and ask me <yes>				
+Generic/Quest_0_TalkToWhileNotComplete_Response_003_000	Good luck, <PlayerName>!				
+Generic/Quest_1_CompleteQuest_Intro_000	You found a good place for your tent?				
+Generic/Quest_1_CompleteQuest_Intro_001	<shy>I know it's not much, but I hope you like your new home!				
+Generic/Quest_1_CompleteQuest_Intro_002	I'll tell you what, you've got the "spark", <PlayerName>.				
+Generic/Quest_1_CompleteQuest_Intro_003	<yes>You see, most people back in <SouthCity> are scared of leaving.				
+Generic/Quest_1_CompleteQuest_Intro_004	<thinking>There is something about that place that pulls the "spark" out of people...				
+Generic/Quest_1_CompleteQuest_Intro_005	<no>But I'll tell you what, we certainly aren't the first to leave!				
+Generic/Quest_1_CompleteQuest_Intro_006	Have you ever heard of the traveling trader, <NPCName>?				
+Generic/Quest_1_CompleteQuest_Option_000	No I haven't.				
+Generic/Quest_1_CompleteQuest_Option_001	Of course I have!				
+Generic/Quest_1_CompleteQuest_Response_000_000	<yes>I'll tell you what, he’s a bloody legend!				
+Generic/Quest_1_CompleteQuest_Response_000_001	Rumour is he traded a paperclip for a steam boat once!				
+Generic/Quest_1_CompleteQuest_Response_000_002	<proud>Trading is in his very blood!				
+Generic/Quest_1_CompleteQuest_Response_000_003	<NPCName> got in contact with me before we left <SouthCity>.				
+Generic/Quest_1_CompleteQuest_Response_000_004	<pumped>He's interested in visiting with his shop here!				
+Generic/Quest_1_CompleteQuest_Response_000_005	<no>I'll tell you what, we can't miss an opportunity like this!				
+Generic/Quest_1_CompleteQuest_Response_000_006	<yes>I reckon we get this <itemName> ready for him.				
+Generic/Quest_1_CompleteQuest_Response_000_007	<yes>That way we'll have a place ready for any visitors who come to <IslandName>.				
+Generic/Quest_1_CompleteQuest_Response_000_008	I’ll let you decide where the best place for this <itemName> is.				
+Generic/Quest_1_CompleteQuest_Response_000_009	<haha>Just be sure it's closeby!				
+Generic/Quest_1_CompleteQuest_Response_000_010	<glee>We want visitors to feel like part of the <IslandName> community while they are here!				
+Generic/Quest_1_CompleteQuest_Response_000_011	Who knows, maybe we can convince him to set up a permanent shop here!				
+Generic/Quest_1_CompleteQuest_Response_000_012	<yes>Be sure to talk to me once you have placed the <itemName>.				
+Generic/Quest_1_CompleteQuest_Response_001_000	<haha>Who hasn't!				
+Generic/Quest_1_CompleteQuest_Response_001_001	<pumped>He's a bloody legend!				
+Generic/Quest_1_CompleteQuest_Response_001_002	<proud>Trading is in his very blood!				
+Generic/Quest_1_CompleteQuest_Response_001_003	<NPCName> got in contact with me before we left <SouthCity>.				
+Generic/Quest_1_CompleteQuest_Response_001_004	<pumped>He's interested in visiting with his shop here!				
+Generic/Quest_1_CompleteQuest_Response_001_005	<no>I'll tell you what, we can't miss an opportunity like this!				
+Generic/Quest_1_CompleteQuest_Response_001_006	<yes>I reckon we get this <itemName> ready for him.				
+Generic/Quest_1_CompleteQuest_Response_001_007	<yes>That way we'll have a place ready for any visitors who come to <IslandName>.				
+Generic/Quest_1_CompleteQuest_Response_001_008	I’ll let you decide where the best place for this <itemName> is.				
+Generic/Quest_1_CompleteQuest_Response_001_009	<haha>Just be sure it's closeby!				
+Generic/Quest_1_CompleteQuest_Response_001_010	<glee>We want visitors to feel like part of the <IslandName> community while they are here!				
+Generic/Quest_1_CompleteQuest_Response_001_011	Who knows, maybe we can convince him to set up a permanent shop here!				
+Generic/Quest_1_CompleteQuest_Response_001_012	<yes>Be sure to talk to me once you have placed the <itemName>.				
+Generic/Quest_1_IntroToQuest_Intro_000	As you know, we’ve been tasked with starting a new settlement on this island.þ				
+Generic/Quest_1_IntroToQuest_Intro_001	I know you’ve just arrived but I’m going to need your help right away!þ				
+Generic/Quest_1_IntroToQuest_Intro_002	The first thing we need to do is set up a base camp.þ				
+Generic/Quest_1_IntroToQuest_Intro_003	Take this <itemName>. This will be our base of operations as it were. We will be building the settlement out from there.				
+Generic/Quest_1_IntroToQuest_Intro_004	Please take your time to look around the island before deciding where to start our new settlement.				
+Generic/Quest_1_IntroToQuest_Intro_005	Once you have found a suitable place,  you will need to clear out the land to place the <itemName>.				
+Generic/Quest_1_IntroToQuest_Intro_006	I’ll give you some tools that I’ve brought with me. These should be enough to clear some space to set up the <itemName>				
+Generic/Quest_1_IntroToQuest_Intro_007	I will wait here at the dock, but I will meet you at the <itemName> once you’ve got it set up. If you have any further questions please come and see me.				
+Generic/Quest_1_IntroToQuest_Intro_008	I’m so glad you’ve made it here safe and I’m very excited to be working with you!				
+Generic/Quest_1_TalkToWhileNotComplete_Intro_000	Ah, <PlayerName> what do you think of the <itemName>?				
+Generic/Quest_1_TalkToWhileNotComplete_Intro_001	I got it all set up fairly quickly, right! <haha>				
+Generic/Quest_1_TalkToWhileNotComplete_Intro_002	How’d you go setting up yours?				
+Generic/Quest_1_TalkToWhileNotComplete_Option_000	How do I place the tent?				
+Generic/Quest_1_TalkToWhileNotComplete_Option_001	I haven't set up yet.				
+Generic/Quest_1_TalkToWhileNotComplete_Response_000_000	It's actually the same way you set up the Base Tent!				
+Generic/Quest_1_TalkToWhileNotComplete_Response_000_001	First select the <itemName> in your toolbelt so it’s in your hand.þ				
+Generic/Quest_1_TalkToWhileNotComplete_Response_000_002	Once you use the <itemName> you’re going to have to decide where to place it.<yes>þ				
+Generic/Quest_1_TalkToWhileNotComplete_Response_000_003	You’re going to need enough space for the <itemName> to be set up. The only other thing to keep in mind is that the ground needs to be flat and even. <yes>				
+Generic/Quest_1_TalkToWhileNotComplete_Response_000_004	Come back and speak to me once you've got your <itemName> all set up.				
+Generic/Quest_1_TalkToWhileNotComplete_Response_001_000	Come back and speak to me once you've got your <itemName> all set up.				
+Generic/Quest_13_Intro_Intro_000	Oh, <PlayerName>!				
+Generic/Quest_13_Intro_Intro_001	The towns ecconomy is growing very nicely.				
+Generic/Quest_13_Intro_Intro_002	I think it might be a good time for us to think about maybe building a bank.				
+Generic/Quest_13_Intro_Intro_003	Please speak to me if you are interested in applying for a bank deed! <yes>				
+Generic/Quest_14_Completed_Intro_000	Oh, and thanks for placing the <itemName>. You're a good friend, <PlayerName>. <glee>				
+Generic/Quest_14_Intro_Intro_000	Hey <PlayerName>.				
+Generic/Quest_14_Intro_Intro_001	I've had an idea for something <IslandName> could really use!				
+Generic/Quest_14_Intro_Intro_002	Take this <itemName>.				
+Generic/Quest_14_Intro_Intro_003	<proud>I thought people could maybe put things they don't want in here.				
+Generic/Quest_14_Intro_Intro_004	<yes>I will clear it out on Thursdays.				
+Generic/Quest_14_Intro_Intro_005	<shocked>What am I doing with the stuff?				
+Generic/Quest_14_Intro_Intro_006	<shy>I'm going to recycle it...				
+Generic/Quest_14_Intro_Intro_007	<glee>Anyway, if you could place it down somewhere, that would be great.				
+Generic/Quest_14_Intro_Intro_008	<yes>Be sure to check it every so often.				
+Generic/Quest_14_Intro_Intro_009	<yes>Anything you find in it is up for grabs, so feel free to take it!				
+Generic/Quest_15_BuildTeleporterRequest_Intro_000	<yes><PlayerName>, I see you have been repairing the Tele-Towers around the island.				
+Generic/Quest_15_BuildTeleporterRequest_Intro_001	<thinking>To be honest, I did not think you had the know-how to even understand what they were intended for…				
+Generic/Quest_15_BuildTeleporterRequest_Intro_002	<yes>Regardless, I have come up with an idea to build a <itemName> that we could place wherever we want.				
+Generic/Quest_15_BuildTeleporterRequest_Intro_003	<thinking>Now adding too many would most likely disrupt the Tele-Network.				
+Generic/Quest_15_BuildTeleporterRequest_Intro_004	<yes>So I think we will only be able to build one.				
+Generic/Quest_15_BuildTeleporterRequest_Intro_005	I have spoken to <NPCName> and she has agreed to add it to the available deeds.				
+Generic/Quest_17_Completed_Intro_000	Oh, <PlayerName>!				
+Generic/Quest_17_Completed_Intro_001	<IslandName> is growing very nicely.				
+Generic/Quest_17_Completed_Intro_002	With our current population, <SouthCity> has offically recognised <IslandName> as a settlement.				
+Generic/Quest_17_Completed_Intro_003	That means we can upgrade the base tent into a real Town Hall.				
+Generic/Quest_17_Completed_Intro_004	<proud>I'll tell you what, I'll cover the costs myself.				
+Generic/Quest_17_Completed_Intro_005	If I could ask you to gather items required for the Town Hall.				
+Generic/Quest_17_Completed_Intro_006	<yes>I've put a Deposit Box out the front of the Base Tent.				
+Generic/Quest_17_Completed_Intro_007	<shy>I'll tell you what, you've really changed my life for the better, <PlayerName>.				
+Generic/Quest_17_Completed_Intro_008	<yes>Infact, everyone here on <IslandName> owes it all to you!				
+Generic/Quest_17_Completed_Intro_009	<yes>It's not much, but we wanted to get you a gift.				
+Generic/Quest_17_Completed_Intro_010	<yes>Think of it as a symbol of gratitude from everyone here on <IslandName>.				
+Generic/Quest_17_Intro_Intro_000	<PlayerName>, I've been contacted by some of the people back in <SouthCity>.				
+Generic/Quest_17_Intro_Intro_001	<no>I've been notified that we will need 5 permanent residents before <IslandName> is recognised as an official settlement.				
+Generic/Quest_17_Intro_Intro_002	Now, there is no hurry, but maybe that should be our next goal?				
+Generic/Quest_17_Intro_Intro_003	<haha>I'll tell you what, any visitors that see how nice <IslandName> is will want to stay anyway!				
+Generic/Quest_17_Intro_Intro_004	Once <SouthCity> recognises <IslandName> as an official settlement, we can build a Town Hall!				
+Generic/Quest_17_Intro_Intro_005	<glee>I'm sure we'll reach our goal soon!				
+Generic/Quest_18_Intro_Intro_000	Oh, <PlayerName>.				
+Generic/Quest_18_Intro_Intro_001	<glee>I, like, have a gift for you.				
+Generic/Quest_18_Intro_Intro_002	It's my <itemName>.				
+Generic/Quest_18_Intro_Intro_003	<shy>I've been adding information to it, like, my whole life.				
+Generic/Quest_18_Intro_Intro_004	<thinking>You could probably use it to get some infomation on any plants you are growing.				
+Generic/Quest_18_Intro_Intro_005	<yes>Oh, don't worry about me, I think you'll, like, get more use out of it to be honest.				
+Generic/Quest_18_Intro_Intro_006	<haha>Anyway, I've got all the info up here!				
+Generic/Quest_19_Intro_Intro_000	<shock>Oh, <PlayerName>!				
+Generic/Quest_19_Intro_Intro_001	I wanted to let you know that <IslandName> has been cleared to build 3 additional buildings.þ				
+Generic/Quest_19_Intro_Intro_002	<pumped>These buildings are additional houses!þ				
+Generic/Quest_19_Intro_Intro_003	<thinking>I’ve been told we can use them for whatever purpose we want.þ				
+Generic/Quest_19_Intro_Intro_004	<glee>I’ll let you decide whether the new house is storage, a display home or a place for a friend to stay when they come to visit.þ				
+Generic/Quest_19_Intro_Intro_005	<yes>We’re allowed to have three total here on <IslandName>.				
+Generic/Quest_19_Intro_Intro_006	So come and ask me about the deeds when you want to build one!				
+Generic/Quest_2_CompleteQuest_Intro_000	So, we're all set for visitors, huh? 				
+Generic/Quest_2_CompleteQuest_Intro_001	Well done <PlayerName>! 				
+Generic/Quest_2_CompleteQuest_Intro_002	<pumped>We’ve only been here for a little while, but you’ve achieved so much already!				
+Generic/Quest_2_CompleteQuest_Intro_003	<yes>You remind me of my father. He was born right here on <IslandName>, you know?				
+Generic/Quest_2_CompleteQuest_Intro_004	<proud>He was a true blue Adventurer through and through.				
+Generic/Quest_2_CompleteQuest_Intro_005	He loved doing new things and keeping track of all his milestones in his <itemName>.				
+Generic/Quest_2_CompleteQuest_Intro_006	<sigh>I wanted to come here and try and meet those milestones myself.				
+Generic/Quest_2_CompleteQuest_Intro_007	<no>But I’m getting a bit long in the tooth, <PlayerName>.				
+Generic/Quest_2_CompleteQuest_Intro_008	<shy>Please, I want you to take his <itemName>.				
+Generic/Quest_2_CompleteQuest_Intro_009	<yes>Please keep good care of it.				
+Generic/Quest_2_CompleteQuest_Intro_010	This is your adventure now.				
+Generic/Quest_2_IntroToQuest_Intro_000	<PlayerName>! I received a letter earlier today from someone named <NPCName>. Unusual name, if you ask me.				
+Generic/Quest_2_IntroToQuest_Intro_001	Now I’ve heard of this fella. He’s a travelling trader. More than that, he’s a bloody legend.				
+Generic/Quest_2_IntroToQuest_Intro_002	Rumour is he traded a paperclip for a boat once!				
+Generic/Quest_2_IntroToQuest_Intro_003	Trading is in his very blood!				
+Generic/Quest_2_IntroToQuest_Intro_004	Well, he’s heard about all the hard work we’re doing putting this town together, and he reckons he wants to bring his little travelling store right here.				
+Generic/Quest_2_IntroToQuest_Intro_005	Opportunity is knocking, so let’s answer that door with a smile. Let's clear out some more space somewhere for this <itemName>				
+Generic/Quest_2_IntroToQuest_Intro_006	That way, there will be a place for anyone visiting our island to stay.				
+Generic/Quest_2_IntroToQuest_Intro_007	<PlayerName>, take this <itemName> and place it somewhere you think would be a good place visitors can stay.þ				
+Generic/Quest_2_TalkToWhileNotComplete_Intro_000	<PlayerName>! Have you found a place for the <itemName>?				
+Generic/Quest_2_TalkToWhileNotComplete_Option_000	How do I place the deed?				
+Generic/Quest_2_TalkToWhileNotComplete_Option_001	I'm still looking.				
+Generic/Quest_2_TalkToWhileNotComplete_Response_000_000	Just select the <itemName> from your toolbelt. Just like you did with the tents.				
+Generic/Quest_2_TalkToWhileNotComplete_Response_000_001	Oh and make sure that the ground is nice and flat or you won't be able to place it.				
+Generic/Quest_2_TalkToWhileNotComplete_Response_001_000	All good, mate. Be sure to come back here once you’ve placed the <itemName>.				
+Generic/Quest_20_Intro_Intro_000	<yes><IslandName> is really starting to grow…				
+Generic/Quest_20_Intro_Intro_001	<thinking>I’ll tell you what, it might be a good idea to build a Band Stand.				
+Generic/Quest_20_Intro_Intro_002	<haha>No, we’re not having any musical guests any time soon.				
+Generic/Quest_20_Intro_Intro_003	<PlayerName>, if <IslandName> had a Band Stand, we could use it as a place to host events.				
+Generic/Quest_20_Intro_Intro_004	We could host parties, gatherings, celebrations…				
+Generic/Quest_20_Intro_Intro_005	<glee>It would be a place where everyone on <IslandName> could gather and just hang out.				
+Generic/Quest_20_Intro_Intro_006	I’ve already applied for the <itemName>.				
+Generic/Quest_20_Intro_Intro_007	<yes>So, come and speak to me if you think we are ready to build it.				
+Generic/Quest_21_Completed_Intro_000	Well done <PlayerName>.				
+Generic/Quest_21_Completed_Intro_001	You have acquired 10 <itemName>.				
+Generic/Quest_21_Completed_Intro_002	<no>I did not think this was possible.				
+Generic/Quest_21_Completed_Intro_003	<yes>I am impressed.þ				
+Generic/Quest_21_Completed_Intro_004	Now, if you would allow me to study the 10 <itemName>.þ				
+Generic/Quest_21_Completed_Intro_005	<thinking>….þ				
+Generic/Quest_21_Completed_Intro_006	<thinking>Hmmm…				
+Generic/Quest_21_Completed_Intro_007	<shocked>Yes!þ				
+Generic/Quest_21_Completed_Intro_008	<glee>I believe there is a way to process this into a usable material.þ				
+Generic/Quest_21_Completed_Intro_009	Studying this <itemName> has given me an idea for a new invention.				
+Generic/Quest_21_Completed_Intro_010	Please, <PlayerName>, come talk to me if you want me to craft you something new!				
+Generic/Quest_21_Intro_Intro_000	Ah, <PlayerName>.þ				
+Generic/Quest_21_Intro_Intro_001	Am I correct in assuming that you have discovered the incredibly rare <itemName>.				
+Generic/Quest_21_Intro_Intro_002	<thinking>I have seen this ore referenced often in the data I have been extracting from the shiny discs.				
+Generic/Quest_21_Intro_Intro_003	<thinking>However, I must admit, I had assumed that it was a myth...				
+Generic/Quest_21_Intro_Intro_004	If you could bring me 10 <itemName>, I believe I may have a way to process it into a very useful material.				
+Generic/Quest_21_Intro_Intro_005	Please come back and speak to me once you have collected the <itemName>.				
+Generic/Quest_3_CompleteQuest_Intro_000	Oh, you've found something to eat!				
+Generic/Quest_3_CompleteQuest_Intro_001	<yes>Eating food will help keep your energy up!				
+Generic/Quest_3_CompleteQuest_Intro_002	Here is the recipe for a <itemName>.				
+Generic/Quest_3_CompleteQuest_Intro_003	I found these stones earlier so you can use these to craft your <itemName>.				
+Generic/Quest_3_CompleteQuest_Intro_004	<shy>You'll have to find some wood yourself though.				
+Generic/Quest_3_CompleteQuest_Intro_005	Feel free to use the crafting table in the Base Tent to craft a <itemName>.				
+Generic/Quest_3_CompleteQuest_Intro_006	Take your time, <PlayerName>.				
+Generic/Quest_3_CompleteQuest_Intro_007	When you are done, come and have a chat with me.				
+Generic/Quest_3_CompleteQuest_Intro_008	<glee>I have a gift for you!				
+Generic/Quest_3_IntroToQuest_Intro_000	<shy>That journal means a lot to me.				
+Generic/Quest_3_IntroToQuest_Intro_001	<shy>But I think my Dad would be glad someone like you is looking after it.				
+Generic/Quest_3_IntroToQuest_Intro_002	<pumped>But, I have a challenge for you, <PlayerName>.				
+Generic/Quest_3_IntroToQuest_Intro_003	<pumped>I want you to try and beat my Father’s milestones.				
+Generic/Quest_3_IntroToQuest_Intro_004	<no>Some of these milestones are going to take a long time to complete, but there is no hurry.				
+Generic/Quest_3_IntroToQuest_Intro_005	<thinking>I’m also going to add daily tasks to the journal. These will be smaller milestones that should be easy to complete in just one day.				
+Generic/Quest_3_IntroToQuest_Intro_006	<proud>Now for the good part.				
+Generic/Quest_3_IntroToQuest_Intro_007	<glee>For every milestone you surpass, you’ll be rewarded with <PermitPoints>.				
+Generic/Quest_3_IntroToQuest_Intro_008	<yes>I'll tell you what, you're going to want a lot of <PermitPoints> eventually.				
+Generic/Quest_3_IntroToQuest_Intro_009	<no>But we can talk more about that tomorrow.				
+Generic/Quest_3_IntroToQuest_Intro_010	<yes>For now, check out the journal.				
+Generic/Quest_3_IntroToQuest_Intro_011	<shocked>I think you’ll find that you’ve actually completed some of the milestones inside.				
+Generic/Quest_3_IntroToQuest_Intro_012	So be sure to claim them. <glee>				
+Generic/Quest_3_IntroToQuest_Intro_013	<yes>Now, are you hungry? I am.				
+Generic/Quest_3_IntroToQuest_Intro_014	<haha>I think it's just about lunch time.				
+Generic/Quest_3_IntroToQuest_Intro_015	<glee>I’ve seen fruit growing around this island and that sounds tasty!				
+Generic/Quest_3_IntroToQuest_Intro_016	<yes>You go and find us some fruit and when you get back I will show you how to craft a <itemName>.				
+Generic/Quest_3_TalkToWhileNotComplete_Intro_000	<PlayerName>. How goes the tucker hunting?				
+Generic/Quest_3_TalkToWhileNotComplete_Option_000	Where can I find fruit?				
+Generic/Quest_3_TalkToWhileNotComplete_Option_001	Not yet.				
+Generic/Quest_3_TalkToWhileNotComplete_Response_000_000	I did see some fruit trees growing inland a bit on our ride over <IslandName>.				
+Generic/Quest_3_TalkToWhileNotComplete_Response_000_001	It usually grows on smaller trees and shrubs.				
+Generic/Quest_3_TalkToWhileNotComplete_Response_000_002	Just try shaking any tree you you can!				
+Generic/Quest_3_TalkToWhileNotComplete_Response_000_003	If I remember correctly there are different fruits all over the island.				
+Generic/Quest_3_TalkToWhileNotComplete_Response_000_004	Good luck mate, looking forward to it! <glee>				
+Generic/Quest_3_TalkToWhileNotComplete_Response_001_000	That's okay!				
+Generic/Quest_3_TalkToWhileNotComplete_Response_001_001	<haha>Old <myName> will be waiting here for you!				
+Generic/Quest_4_CompleteQuest_Intro_000	Ah, goodmorning <PlayerName>!				
+Generic/Quest_4_CompleteQuest_Intro_001	Did you happen to see that <NPCName> has set up his tent at the Visitor's Site?				
+Generic/Quest_4_CompleteQuest_Intro_002	<yes>I told him all about you and how you’ve helped us get started here.				
+Generic/Quest_4_CompleteQuest_Intro_003	<haha>He sounded impressed!				
+Generic/Quest_4_CompleteQuest_Intro_004	John trades all sorts of things back to <SouthCity>.				
+Generic/Quest_4_CompleteQuest_Intro_005	I reckon nearly anything you can find on this island will be valuable to him.				
+Generic/Quest_4_CompleteQuest_Intro_006	He’ll buy fruit, fish, bugs and even rocks! <yes>				
+Generic/Quest_4_CompleteQuest_Intro_007	<NPCName> also sells a lot of useful tools.				
+Generic/Quest_4_CompleteQuest_Intro_008	He’s got mining equipment, logging tools and even some fishing equipment.				
+Generic/Quest_4_CompleteQuest_Intro_009	<thinking>Although, probably can't sell you a lot of tools until you have all your <Licences> in order.				
+Generic/Quest_4_CompleteQuest_Intro_010	You know about <Licences>, right?				
+Generic/Quest_4_CompleteQuest_Option_000	No I don’t.				
+Generic/Quest_4_CompleteQuest_Option_001	Yes I do.				
+Generic/Quest_4_CompleteQuest_Response_000_000	<Licences> are an old <SouthCity> idea!				
+Generic/Quest_4_CompleteQuest_Response_000_001	I’ll tell you what, you didn’t need a <Licence> for anything back when I was growing up!				
+Generic/Quest_4_CompleteQuest_Response_000_002	<no>But these days, you need a <Licence> for everything.				
+Generic/Quest_4_CompleteQuest_Response_000_003	Luckily I’m actually an accredited <Licence> Giver! <proud>				
+Generic/Quest_4_CompleteQuest_Response_000_004	If you want to apply for a <Licence> come and talk to me. <yes>				
+Generic/Quest_4_CompleteQuest_Response_000_005	You’ll have to spend some <PermitPoints> to get them, but if you keep doing milestones you’ll make enough in no time.				
+Generic/Quest_4_CompleteQuest_Response_000_006	As you get better at doing certain tasks, new <Licence> levels will open up too.				
+Generic/Quest_4_CompleteQuest_Response_000_007	Now, let’s see if there is a <Licence> you can apply for right now...				
+Generic/Quest_4_CompleteQuest_Response_001_000	That's great!				
+Generic/Quest_4_CompleteQuest_Response_001_001	I’ll tell you what, you didn’t need a <Licence> for anything back when I was growing up!				
+Generic/Quest_4_CompleteQuest_Response_001_002	<no>But these days, you need a <Licence> for everything.				
+Generic/Quest_4_CompleteQuest_Response_001_003	Luckily I’m actually an accredited <Licence> Giver! <proud>				
+Generic/Quest_4_CompleteQuest_Response_001_004	If you want to apply for a <Licence> come and talk to me. <yes>				
+Generic/Quest_4_CompleteQuest_Response_001_005	You’ll have to spend some <PermitPoints> to get them, but if you keep doing milestones you’ll make enough in no time.				
+Generic/Quest_4_CompleteQuest_Response_001_006	As you get better at doing certain tasks, new <Licence> levels will open up too.				
+Generic/Quest_4_CompleteQuest_Response_001_007	Now, let’s see if there is a <Licence> you can apply for right now...				
+Generic/Quest_4_IntroToQuest_Intro_000	I’m very impressed with the work you’ve done here today, <PlayerName>.				
+Generic/Quest_4_IntroToQuest_Intro_001	<proud>I think there is a great future for us all here at <IslandName>.				
+Generic/Quest_4_IntroToQuest_Intro_002	<shy>Here is a gift for helping me out so much.				
+Generic/Quest_4_IntroToQuest_Intro_003	It's a <itemName>!				
+Generic/Quest_4_IntroToQuest_Intro_004	I think you should take the rest of the day off.				
+Generic/Quest_4_IntroToQuest_Intro_005	Maybe you could go catch some of the bugs around here?				
+Generic/Quest_4_IntroToQuest_Intro_006	Or maybe you could cook some of that fruit you found?				
+Generic/Quest_4_IntroToQuest_Option_000	I'll figure out something to do...				
+Generic/Quest_4_IntroToQuest_Option_001	I'm ready for bed!				
+Generic/Quest_4_IntroToQuest_Response_000_000	<haha>I’m sure you will! 				
+Generic/Quest_4_IntroToQuest_Response_000_001	Oh and before I forget, take this <itemName> too.				
+Generic/Quest_4_IntroToQuest_Response_000_002	When you get tired, pop that on the ground and have a lay down.				
+Generic/Quest_4_IntroToQuest_Response_000_003	<haha>I'll tell you what, a good nights rest will do us both good!				
+Generic/Quest_4_IntroToQuest_Response_000_004	Thanks for your help today, <PlayerName>.				
+Generic/Quest_4_IntroToQuest_Response_000_005	I can't believe we're on <IslandName>!				
+Generic/Quest_4_IntroToQuest_Response_000_006	<glee>I couldn't have done any of this without you!				
+Generic/Quest_4_IntroToQuest_Response_001_000	<haha>I'm tired too!				
+Generic/Quest_4_IntroToQuest_Response_001_001	Here, take this <itemName>.				
+Generic/Quest_4_IntroToQuest_Response_001_002	If you are tired, pop that on the ground and have a lay down.				
+Generic/Quest_4_IntroToQuest_Response_001_003	<haha>I'll tell you what, a good nights rest will do us both good!				
+Generic/Quest_4_IntroToQuest_Response_001_004	Thanks for your help today, <PlayerName>.				
+Generic/Quest_4_IntroToQuest_Response_001_005	I can't believe we're on <IslandName>!				
+Generic/Quest_4_IntroToQuest_Response_001_006	<glee>I couldn't have done any of this without you!				
+Generic/Quest_4_TalkToWhileNotComplete_Intro_000	We've done some good work today, <PlayerName>!				
+Generic/Quest_4_TalkToWhileNotComplete_Intro_001	Take the rest of the day off! 				
+Generic/Quest_4_TalkToWhileNotComplete_Intro_002	<yes>We've got more work to do tomorrow!				
+Generic/Quest_4_TalkToWhileNotComplete_Option_000	Crafting a fire?				
+Generic/Quest_4_TalkToWhileNotComplete_Option_001	Cooking at a fire?				
+Generic/Quest_4_TalkToWhileNotComplete_Option_002	Bug hunting?				
+Generic/Quest_4_TalkToWhileNotComplete_Option_003	Sleeping?				
+Generic/Quest_4_TalkToWhileNotComplete_Option_004	I'm on it!				
+Generic/Quest_4_TalkToWhileNotComplete_Response_000_000	Feel free to use the <itemName> in the Base Tent whenever you want.				
+Generic/Quest_4_TalkToWhileNotComplete_Response_000_001	I'll tell you what, I'm sure you'll learn how to craft lots of useful things here on <IslandName>!				
+Generic/Quest_4_TalkToWhileNotComplete_Response_001_000	Once you've got your <itemName> going, just put the item you want to cook into your hands.				
+Generic/Quest_4_TalkToWhileNotComplete_Response_001_001	<yes>Then all that's left to do it pop it on and wait!				
+Generic/Quest_4_TalkToWhileNotComplete_Response_001_002	<thinking>You'll want to eat a lot of food to keep your energy up!				
+Generic/Quest_4_TalkToWhileNotComplete_Response_002_000	There are a lot of bugs found only here on <IslandName>.				
+Generic/Quest_4_TalkToWhileNotComplete_Response_002_001	<yes>Everytime you catch a new one it will be added to your Pedia. 				
+Generic/Quest_4_TalkToWhileNotComplete_Response_002_002	Maybe you could challenge yourself to find them all?				
+Generic/Quest_4_TalkToWhileNotComplete_Response_003_000	<haha>If you're ready for tomorrow, then sleeping will definetly bring tomorrow here faster!				
+Generic/Quest_4_TalkToWhileNotComplete_Response_003_001	Just pop your <itemName> down on the floor.				
+Generic/Quest_4_TalkToWhileNotComplete_Response_003_002	<yes>Wherever is fine, really.				
+Generic/Quest_4_TalkToWhileNotComplete_Response_003_003	<no>If you want to sleep under the stars, I'm not going to stop you.				
+Generic/Quest_4_TalkToWhileNotComplete_Response_004_000	Thanks again for your help, <PlayerName>!				
+Generic/Quest_5_CompleteQuest_Intro_000	Oh! So you bought the <itemName>! þ				
+Generic/Quest_5_CompleteQuest_Intro_001	Well done, <PlayerName>!				
+Generic/Quest_5_CompleteQuest_Intro_002	Don't you think having <NPCName> here is great?				
+Generic/Quest_5_CompleteQuest_Intro_003	<thinking>If only we could  convince <NPCName> to move here permanently...				
+Generic/Quest_5_CompleteQuest_Intro_004	<thinking>Hmmmm...				
+Generic/Quest_5_CompleteQuest_Intro_005	<haha>Well, let's worry about getting the materials needed for a permanent building first!				
+Generic/Quest_5_CompleteQuest_Intro_006	The <itemName> is a great first step!				
+Generic/Quest_5_CompleteQuest_Intro_007	For now, you can have a break.				
+Generic/Quest_5_CompleteQuest_Intro_008	<yes>Come back and talk to me when you are ready.				
+Generic/Quest_5_IntroToQuest_Intro_000	Oh, <PlayerName>. I almost forgot!				
+Generic/Quest_5_IntroToQuest_Intro_001	I noticed <NPCName> is selling a <itemName>.				
+Generic/Quest_5_IntroToQuest_Intro_002	That’s a tool I think will be very handy, indeed!				
+Generic/Quest_5_IntroToQuest_Intro_003	I think we should try and make enough money to buy a <itemName> from <NPCName>.				
+Generic/Quest_5_IntroToQuest_Intro_004	Here is my half of the Dinks. The rest is up to you! 				
+Generic/Quest_5_TalkToWhileNotComplete_Intro_000	How goes the money making, <PlayerName>.				
+Generic/Quest_5_TalkToWhileNotComplete_Intro_001	Have you earned enough to buy that <itemName> we need?				
+Generic/Quest_5_TalkToWhileNotComplete_Option_000	I want to apply for a licence.				
+Generic/Quest_5_TalkToWhileNotComplete_Option_001	How do I make money?				
+Generic/Quest_5_TalkToWhileNotComplete_Option_002	How do I get permit points?				
+Generic/Quest_5_TalkToWhileNotComplete_Option_003	Still a bit to go.				
+Generic/Quest_5_TalkToWhileNotComplete_Response_000_000	Okay, here you go.				
+Generic/Quest_5_TalkToWhileNotComplete_Response_001_000	<NPCName> will buy pretty much anything from you.				
+Generic/Quest_5_TalkToWhileNotComplete_Response_001_001	He will most of the things you can find around the island. Fruit, rocks, wood and all sorts of things.				
+Generic/Quest_5_TalkToWhileNotComplete_Response_001_002	<no>Now, you don't have to buy the <itemName> right away.				
+Generic/Quest_5_TalkToWhileNotComplete_Response_001_003	<haha>Feel free to buy any tools you think might make you money even quicker!				
+Generic/Quest_5_TalkToWhileNotComplete_Response_002_000	You can get <PermitPoints> by completing the daily tasks in your journal.				
+Generic/Quest_5_TalkToWhileNotComplete_Response_002_001	<yes>You'll also get a big lump of points by beating one of my Dad's milestones.				
+Generic/Quest_5_TalkToWhileNotComplete_Response_002_002	<proud>My Dad did a lot of different things, so you'll find there are milestones for everything!				
+Generic/Quest_5_TalkToWhileNotComplete_Response_002_003	If you just go about your day doing your activites, I'm sure you'll get rewarded eventually!				
+Generic/Quest_5_TalkToWhileNotComplete_Response_003_000	Keep it up, we're well on our way of making <IslandName> even better!				
+Generic/Quest_6_CompleteQuest_Intro_000	Well done, <PlayerName>!				
+Generic/Quest_6_CompleteQuest_Intro_001	<glee>I knew I could count on you to find everything we need!				
+Generic/Quest_6_CompleteQuest_Intro_002	Here is a recipe for a <itemName>.				
+Generic/Quest_6_CompleteQuest_Intro_003	Now why don't you try crafting the <itemName> at the crafting table in the base tent?þ				
+Generic/Quest_6_CompleteQuest_Intro_004	<yes>Once you've crafted the <itemName>, pop it on the ground outside somewhere.				
+Generic/Quest_6_CompleteQuest_Intro_005	Then, just place the ore inside of it.				
+Generic/Quest_6_CompleteQuest_Intro_006	It will take a little while to do its thing, so feel free to do some other activities while it's melting.				
+Generic/Quest_6_CompleteQuest_Intro_007	Bring me the Tin Bar when you're ready, okay?				
+Generic/Quest_6_IntroToQuest_Intro_000	<shy>I’ve got another job for you, <PlayerName>.þ				
+Generic/Quest_6_IntroToQuest_Intro_001	 You up for it?				
+Generic/Quest_6_IntroToQuest_Option_000	I'm ready!				
+Generic/Quest_6_IntroToQuest_Option_001	I want to apply for a licence.				
+Generic/Quest_6_IntroToQuest_Option_002	Not yet.				
+Generic/Quest_6_IntroToQuest_Response_000_000	I'll tell you what, I think camping is fun!				
+Generic/Quest_6_IntroToQuest_Response_000_001	<yes>But if we’re going convince people to stay here on <IslandName> we’ve gotta start building more permanent structures.				
+Generic/Quest_6_IntroToQuest_Response_000_002	<thinking>I’ve noticed there is a lot of <itemName> on this island. I’ve seen it popping out of rocks all over the place.				
+Generic/Quest_6_IntroToQuest_Response_000_003	<proud>I know a way we can melt down <itemName> into stuff great for building.				
+Generic/Quest_6_IntroToQuest_Response_000_004	Now, I'll need you to bring me some items.				
+Generic/Quest_6_IntroToQuest_Response_000_005	We'll need <questRequiredItems>.				
+Generic/Quest_6_IntroToQuest_Response_000_006	Keep in mind, you will need a <MiningLicence> to buy a pickaxe to collect ore and rocks.				
+Generic/Quest_6_IntroToQuest_Response_000_007	<proud>Once you’ve gathered everything we need, come and see me!				
+Generic/Quest_6_IntroToQuest_Response_001_000	Let's have a look then.				
+Generic/Quest_6_IntroToQuest_Response_002_000	<yes>Righto.				
+Generic/Quest_6_IntroToQuest_Response_002_001	You've been helping out a lot, so take your time, <PlayerName>.				
+Generic/Quest_6_IntroToQuest_Response_002_002	<glee>Just come back and see me when you're ready.				
+Generic/Quest_6_TalkToWhileNotComplete_Intro_000	<PlayerName>! How is the search going?				
+Generic/Quest_6_TalkToWhileNotComplete_Intro_001	Have you found all those items we need?				
+Generic/Quest_6_TalkToWhileNotComplete_Option_000	What do I need again?				
+Generic/Quest_6_TalkToWhileNotComplete_Option_001	Where can I get a campfire?				
+Generic/Quest_6_TalkToWhileNotComplete_Option_002	I want to apply for a licence.				
+Generic/Quest_6_TalkToWhileNotComplete_Option_003	I'm still looking.				
+Generic/Quest_6_TalkToWhileNotComplete_Response_000_000	We need <questRequiredItems>.				
+Generic/Quest_6_TalkToWhileNotComplete_Response_000_001	I’ve seen <itemName> here and there on the island. It's a dark ore poking out of rocks.				
+Generic/Quest_6_TalkToWhileNotComplete_Response_000_002	Your going to need a <MiningLicence> to buy a pickaxe to collect ore.				
+Generic/Quest_6_TalkToWhileNotComplete_Response_001_000	You're going to need to craft a <itemName> at the crafting table in the Base Tent.				
+Generic/Quest_6_TalkToWhileNotComplete_Response_001_001	Oh! And Your going to need a <MiningLicence> to buy a pickaxe to collect the stone to craft the <itemName>.				
+Generic/Quest_6_TalkToWhileNotComplete_Response_002_000	Let's have a look...				
+Generic/Quest_6_TalkToWhileNotComplete_Response_003_000	All right, mate. Keep your eyes peeled!				
+Generic/Quest_7_CompleteQuest_Intro_000	<glee>Well done, <PlayerName>.				
+Generic/Quest_7_CompleteQuest_Intro_001	<yes>You have proven yourself invaluable once again!				
+Generic/Quest_7_CompleteQuest_Intro_002	<shocked>You're really starting to carry a lot of stuff around!				
+Generic/Quest_7_CompleteQuest_Intro_003	<yes>I'll tell you what, I'll teach you how to craft a <itemName>.				
+Generic/Quest_7_CompleteQuest_Intro_004	<yes>You're going to need a recipe for Nails too.				
+Generic/Quest_7_CompleteQuest_Intro_005	<proud>I'll tell you what, <IslandName> is well on it's way to being a great settlement again!				
+Generic/Quest_7_CompleteQuest_Intro_006	<yes>With a furnace and a table saw we can start thinking about building more permanent structures.				
+Generic/Quest_7_CompleteQuest_Intro_007	I'll tell you what, we should try and get <NPCName> to set up a real shop here!				
+Generic/Quest_7_CompleteQuest_Option_000	Let's do it!				
+Generic/Quest_7_CompleteQuest_Option_001	How do we do that?				
+Generic/Quest_7_CompleteQuest_Response_000_000	That's the spirit, <PlayerName>!				
+Generic/Quest_7_CompleteQuest_Response_000_001	<yes>I reckon if we spend a bit of money at his tent, he'll see it's worth while...				
+Generic/Quest_7_CompleteQuest_Response_000_002	<yes>Oh, and we should show him how friendly people are around here!				
+Generic/Quest_7_CompleteQuest_Response_000_003	Why don't you ask <NPCName> if he has anything he needs done?				
+Generic/Quest_7_CompleteQuest_Response_000_004	<haha>If we can prove to him that <IslandName> is a great place to move, I'm sure he'll ask to live here for good!				
+Generic/Quest_7_CompleteQuest_Response_001_000	<thinking>Hmmmm....				
+Generic/Quest_7_CompleteQuest_Response_001_001	<yes>I reckon if we spend a bit of money at his shop, he'll see it's worth while...				
+Generic/Quest_7_CompleteQuest_Response_001_002	<yes>Oh, and we should show him how friendly people are around here!				
+Generic/Quest_7_CompleteQuest_Response_001_003	Why don't you ask <NPCName> if he has anything he needs done?				
+Generic/Quest_7_CompleteQuest_Response_001_004	<haha>If we can prove to him that <IslandName> is a great place to move, I'm sure he'll ask to live here for good!				
+Generic/Quest_7_IntroToQuest_Intro_000	I’ve got another job for you! You up for it?þ				
+Generic/Quest_7_IntroToQuest_Option_000	I'm ready!				
+Generic/Quest_7_IntroToQuest_Option_001	Not yet.				
+Generic/Quest_7_IntroToQuest_Response_000_000	If we are going to build anything around here we’re going to need materials.þ				
+Generic/Quest_7_IntroToQuest_Response_000_001	I reckon we need to wood and Tin. þ				
+Generic/Quest_7_IntroToQuest_Response_000_002	Now, wood? That’s easy. You chop down a tree and then you’ve got some wood.þ <yes>				
+Generic/Quest_7_IntroToQuest_Response_000_003	But Tin? That’s a bit trickier. I’ve seen it around the island poking out of rocks here and there. It’s a dark ore. You’ll know it if you see it.<yes>				
+Generic/Quest_7_IntroToQuest_Response_000_004	Now, we’re going to need to smelt it down into bars before we can use the Tin Ore for building things. <thinking>				
+Generic/Quest_7_IntroToQuest_Response_000_005	Go give the island a bit of a looky-loo for <questRequiredItems>.				
+Generic/Quest_7_IntroToQuest_Response_000_006	Bring them back here and I'll show you how we can turn Tin Ore into bars. <glee>				
+Generic/Quest_7_IntroToQuest_Response_001_000	Righto then.				
+Generic/Quest_7_IntroToQuest_Response_001_001	Come see me soon, okay?				
+Generic/Quest_7_TalkToWhileNotComplete_Intro_000	Hi there, <PlayerName>				
+Generic/Quest_7_TalkToWhileNotComplete_Intro_001	Have you managed to get a <itemName>?				
+Generic/Quest_7_TalkToWhileNotComplete_Option_000	I want to apply for a licence.				
+Generic/Quest_7_TalkToWhileNotComplete_Option_001	How do I craft a Furnace?				
+Generic/Quest_7_TalkToWhileNotComplete_Option_002	How do I make a Tin Bar?				
+Generic/Quest_7_TalkToWhileNotComplete_Option_003	I'm on it.				
+Generic/Quest_7_TalkToWhileNotComplete_Response_000_000	Alright then...				
+Generic/Quest_7_TalkToWhileNotComplete_Response_001_000	You can craft the <itemName> at the Crafting Table in the Base Tent.				
+Generic/Quest_7_TalkToWhileNotComplete_Response_001_001	You should have everything you need!				
+Generic/Quest_7_TalkToWhileNotComplete_Response_002_000	Once you've got your furnace, place it somewhere outside.				
+Generic/Quest_7_TalkToWhileNotComplete_Response_002_001	Then, all you have to do then is hold the <itemName> in your hands and pop it in!				
+Generic/Quest_7_TalkToWhileNotComplete_Response_002_002	<haha>Oh, and you'll have to wait a bit!				
+Generic/Quest_7_TalkToWhileNotComplete_Response_003_000	No worries, <PlayerName>.				
+Generic/Quest_7_TalkToWhileNotComplete_Response_003_001	Just be sure to bring me the <itemName> once you have it!				
+Generic/Quest_8_Convo_Complete_Intro_000	<PlayerName>! I just heard the good news!				
+Generic/Quest_8_Convo_Complete_Intro_001	<NPCName> wants us to build him a permanent store here.				
+Generic/Quest_8_Convo_Complete_Intro_002	Talk to me about the town to apply for deeds!				
 Generic/RandomConvo_000_Intro_000	<thinking>Museums are very important for society.				
 Generic/RandomConvo_000_Intro_001	Imagine if we just kept all the old stuff where we found it?				
 Generic/RandomConvo_000_Intro_002	<worried>It would be all over the place!				
@@ -329,45 +874,103 @@ Generic/RandomConvo_019_Intro_002	<pumped>Sometimes I feel bad writing on it, bu
 Generic/RandomConvo_019_Intro_003	<yes>So its all worth it!				
 Generic/RandomConvo_020_Intro_000	What’s the point of anything happening if nobody is there to record it?				
 Generic/RandomConvo_020_Intro_001	<yes>Hey, <PlayerName>, if a tree falls in the woods, please be sure to let me know.				
-GENERIC/TalkToWhileNotComplete_Intro_000	Hi there, <PlayerName>				
-GENERIC/TalkToWhileNotComplete_Intro_001	Have you managed to get a <itemName>?				
-GENERIC/TalkToWhileNotComplete_Intro_002	<yes>We've got more work to do tomorrow!				
-GENERIC/TalkToWhileNotComplete_Option_000	I want to apply for a licence.				
-GENERIC/TalkToWhileNotComplete_Option_001	How do I craft a Furnace?				
-GENERIC/TalkToWhileNotComplete_Option_002	How do I make a Tin Bar?				
-GENERIC/TalkToWhileNotComplete_Option_003	I'm on it.				
-GENERIC/TalkToWhileNotComplete_Option_004	I'm on it!				
-GENERIC/TalkToWhileNotComplete_Response_000_000	Alright then...				
-GENERIC/TalkToWhileNotComplete_Response_000_001	I’ve seen <itemName> here and there on the island. It's a dark ore poking out of rocks.				
-GENERIC/TalkToWhileNotComplete_Response_000_002	Your going to need a <MiningLicence> to buy a pickaxe to collect ore.				
-GENERIC/TalkToWhileNotComplete_Response_000_003	If I remember correctly there are different fruits all over the island.				
-GENERIC/TalkToWhileNotComplete_Response_000_004	Good luck mate, looking forward to it! <glee>				
-GENERIC/TalkToWhileNotComplete_Response_000_005	<thinking>To the south it can get a bit chilly, but I recall my Dad warned me about the wildlife down there…				
-GENERIC/TalkToWhileNotComplete_Response_000_006	To the east and west of the island are flat open plains. The ground is nice and flat, so it would be easy to build there.				
-GENERIC/TalkToWhileNotComplete_Response_000_007	The coasts are a great place for fishing year-round. So if you like throwing a line, it might be worth setting up the <itemName> near the beach.				
-GENERIC/TalkToWhileNotComplete_Response_000_008	<haha>The centre of the island is a desert. It’s hot and dry there, and it’s full of bugs!				
-GENERIC/TalkToWhileNotComplete_Response_000_009	<yes>But no matter where you decide we should build, being close to water is always a good idea. 				
-GENERIC/TalkToWhileNotComplete_Response_000_010	So if you want to set up inland anywhere, try and do it close to a river.				
-GENERIC/TalkToWhileNotComplete_Response_000_011	<haha>I feel like that’s a lot to take in. Sorry about that, <PlayerName>!				
-GENERIC/TalkToWhileNotComplete_Response_001_000	You can craft the <itemName> at the Crafting Table in the Base Tent.				
-GENERIC/TalkToWhileNotComplete_Response_001_001	You should have everything you need!				
-GENERIC/TalkToWhileNotComplete_Response_001_002	<no>Now, you don't have to buy the <itemName> right away.				
-GENERIC/TalkToWhileNotComplete_Response_001_003	<haha>Feel free to buy any tools you think might make you money even quicker!				
-GENERIC/TalkToWhileNotComplete_Response_001_004	But you don’t have to listen to old <myName>!  You’re the one running around out there!þ				
-GENERIC/TalkToWhileNotComplete_Response_001_005	I’m sure that wherever you decide to place the <itemName>, it will be the right place.<yes>				
-GENERIC/TalkToWhileNotComplete_Response_001_006	Now if you have any other questions, just ask!				
-GENERIC/TalkToWhileNotComplete_Response_002_000	Once you've got your furnace, place it somewhere outside.				
-GENERIC/TalkToWhileNotComplete_Response_002_001	Then, all you have to do then is hold the <itemName> in your hands and pop it in!				
-GENERIC/TalkToWhileNotComplete_Response_002_002	<haha>Oh, and you'll have to wait a bit!				
-GENERIC/TalkToWhileNotComplete_Response_002_003	If you just go about your day doing your activites, I'm sure you'll get rewarded eventually!				
-GENERIC/TalkToWhileNotComplete_Response_002_004	If you have any other questions, please come and ask me <yes>				
-GENERIC/TalkToWhileNotComplete_Response_003_000	No worries, <PlayerName>.				
-GENERIC/TalkToWhileNotComplete_Response_003_001	Just be sure to bring me the <itemName> once you have it!				
-GENERIC/TalkToWhileNotComplete_Response_003_002	<yes>Wherever is fine, really.				
-GENERIC/TalkToWhileNotComplete_Response_003_003	<no>If you want to sleep under the stars, I'm not going to stop you.				
-GENERIC/TalkToWhileNotComplete_Response_004_000	Thanks again for your help, <PlayerName>!				
-GENERIC/ThanksGiveItem_Intro_000					
-GENERIC/ThanksGiveItem_Intro_001					
+Generic/RequestItem_Incorrect_1_Intro_000	Oh...				
+Generic/RequestItem_Incorrect_1_Intro_001	I actually wanted <requestItem>.				
+Generic/RequestItem_Incorrect_1_Intro_002	I'll give this back.				
+Generic/SellItemByWeight_Intro_000	Ah, I see you've got a nice <sellByWeightName> there.				
+Generic/SellItemByWeight_Intro_001	Looks like it weighs around <getItemWeight>!				
+Generic/SellItemByWeight_Intro_002	How does <getItemByWeightPrice> sound for it?				
+Generic/SellItemByWeight_Option_000	Yes				
+Generic/SellItemByWeight_Option_001	No				
+Generic/SellItemByWeight_Response_000_000	Thank you very much!				
+Generic/SellItemByWeight_Response_001_000	No worries, mate.				
+Generic/ShipmentRequestComplete_Intro_000	Wow! You really got the shipment ready for me?				
+Generic/ShipmentRequestComplete_Option_000	Sure did.				
+Generic/ShipmentRequestComplete_Option_001	Nah.				
+Generic/ShipmentRequestComplete_Response_001_000	Oh, righto, <PlayerName>...				
+Generic/SmeltingRequestCompleteConvo_Intro_000	You brought me <requestItem> ?				
+Generic/SmeltingRequestCompleteConvo_Option_000	Here you go!				
+Generic/SmeltingRequestCompleteConvo_Option_001	Not yet, sorry.				
+Generic/SmeltingRequestCompleteConvo_Response_000_000	Looking forward to smelting these puppies down!				
+Generic/SmeltingRequestCompleteConvo_Response_001_000	Ah... I see.				
+Generic/StopFollowing 1_Intro_000	What do you do for fun around here aanyway, <PlayerName>?				
+Generic/StopFollowing 1_Option_000	This was fun...				
+Generic/StopFollowing 1_Option_001	Let's keep going.				
+Generic/StopFollowing 1_Response_000_000	Alright, it was nice hanging with you.				
+Generic/StopFollowing 1_Response_001_000	Lead the way!				
+Generic/StopFollowing 2_Intro_000	Hanging out with my mate, <PlayerName>.				
+Generic/StopFollowing 2_Intro_001	Need something?				
+Generic/StopFollowing 2_Option_000	This was fun...				
+Generic/StopFollowing 2_Option_001	Let's keep going.				
+Generic/StopFollowing 2_Response_000_000	I guess I should be going too...				
+Generic/StopFollowing 2_Response_000_001	See you around, <PlayerName>. <wave>				
+Generic/StopFollowing 2_Response_001_000	You lead and I'll follow! <haha>				
+Generic/StopFollowing 3_Intro_000	Hey <PlayerName>. Why'd we stop here?				
+Generic/StopFollowing 3_Option_000	This was fun...				
+Generic/StopFollowing 3_Option_001	Let's keep going.				
+Generic/StopFollowing 3_Response_000_000	Alright, it was nice hanging with you.				
+Generic/StopFollowing 3_Response_000_001	Let's do this again soon, okay?<wave>				
+Generic/StopFollowing 3_Response_001_000	Alright, lets do this! <pumped>				
+Generic/StopFollowing 4_Intro_000	Hey <PlayerName>, what's up?				
+Generic/StopFollowing 4_Option_000	This was fun...				
+Generic/StopFollowing 4_Option_001	Let's keep going.				
+Generic/StopFollowing 4_Response_000_000	Alright, it was nice hanging with you. <wave>				
+Generic/StopFollowing 4_Response_001_000	Lead the way!				
+Generic/StopFollowing_Intro_000	What a nice day to hang out with <PlayerName>!				
+Generic/StopFollowing_Intro_001	Where are we off to?				
+Generic/StopFollowing_Option_000	This was fun...				
+Generic/StopFollowing_Option_001	Lets keep going!				
+Generic/StopFollowing_Response_000_000	Oh, I should be going anyway.				
+Generic/StopFollowing_Response_000_001	Thanks for hanging out with me, <PlayerName>.				
+Generic/StopFollowing_Response_001_000	Let's go!				
+Generic/TalkToWhileNotComplete_Intro_000	Hi there, <PlayerName>				
+Generic/TalkToWhileNotComplete_Intro_001	Have you managed to get a <itemName>?				
+Generic/TalkToWhileNotComplete_Intro_002	<yes>We've got more work to do tomorrow!				
+Generic/TalkToWhileNotComplete_Option_000	I want to apply for a licence.				
+Generic/TalkToWhileNotComplete_Option_001	How do I craft a Furnace?				
+Generic/TalkToWhileNotComplete_Option_002	How do I make a Tin Bar?				
+Generic/TalkToWhileNotComplete_Option_003	I'm on it.				
+Generic/TalkToWhileNotComplete_Option_004	I'm on it!				
+Generic/TalkToWhileNotComplete_Response_000_000	Alright then...				
+Generic/TalkToWhileNotComplete_Response_000_001	I’ve seen <itemName> here and there on the island. It's a dark ore poking out of rocks.				
+Generic/TalkToWhileNotComplete_Response_000_002	Your going to need a <MiningLicence> to buy a pickaxe to collect ore.				
+Generic/TalkToWhileNotComplete_Response_000_003	If I remember correctly there are different fruits all over the island.				
+Generic/TalkToWhileNotComplete_Response_000_004	Good luck mate, looking forward to it! <glee>				
+Generic/TalkToWhileNotComplete_Response_000_005	<thinking>To the south it can get a bit chilly, but I recall my Dad warned me about the wildlife down there…				
+Generic/TalkToWhileNotComplete_Response_000_006	To the east and west of the island are flat open plains. The ground is nice and flat, so it would be easy to build there.				
+Generic/TalkToWhileNotComplete_Response_000_007	The coasts are a great place for fishing year-round. So if you like throwing a line, it might be worth setting up the <itemName> near the beach.				
+Generic/TalkToWhileNotComplete_Response_000_008	<haha>The centre of the island is a desert. It’s hot and dry there, and it’s full of bugs!				
+Generic/TalkToWhileNotComplete_Response_000_009	<yes>But no matter where you decide we should build, being close to water is always a good idea. 				
+Generic/TalkToWhileNotComplete_Response_000_010	So if you want to set up inland anywhere, try and do it close to a river.				
+Generic/TalkToWhileNotComplete_Response_000_011	<haha>I feel like that’s a lot to take in. Sorry about that, <PlayerName>!				
+Generic/TalkToWhileNotComplete_Response_001_000	You can craft the <itemName> at the Crafting Table in the Base Tent.				
+Generic/TalkToWhileNotComplete_Response_001_001	You should have everything you need!				
+Generic/TalkToWhileNotComplete_Response_001_002	<no>Now, you don't have to buy the <itemName> right away.				
+Generic/TalkToWhileNotComplete_Response_001_003	<haha>Feel free to buy any tools you think might make you money even quicker!				
+Generic/TalkToWhileNotComplete_Response_001_004	But you don’t have to listen to old <myName>!  You’re the one running around out there!þ				
+Generic/TalkToWhileNotComplete_Response_001_005	I’m sure that wherever you decide to place the <itemName>, it will be the right place.<yes>				
+Generic/TalkToWhileNotComplete_Response_001_006	Now if you have any other questions, just ask!				
+Generic/TalkToWhileNotComplete_Response_002_000	Once you've got your furnace, place it somewhere outside.				
+Generic/TalkToWhileNotComplete_Response_002_001	Then, all you have to do then is hold the <itemName> in your hands and pop it in!				
+Generic/TalkToWhileNotComplete_Response_002_002	<haha>Oh, and you'll have to wait a bit!				
+Generic/TalkToWhileNotComplete_Response_002_003	If you just go about your day doing your activites, I'm sure you'll get rewarded eventually!				
+Generic/TalkToWhileNotComplete_Response_002_004	If you have any other questions, please come and ask me <yes>				
+Generic/TalkToWhileNotComplete_Response_003_000	No worries, <PlayerName>.				
+Generic/TalkToWhileNotComplete_Response_003_001	Just be sure to bring me the <itemName> once you have it!				
+Generic/TalkToWhileNotComplete_Response_003_002	<yes>Wherever is fine, really.				
+Generic/TalkToWhileNotComplete_Response_003_003	<no>If you want to sleep under the stars, I'm not going to stop you.				
+Generic/TalkToWhileNotComplete_Response_004_000	Thanks again for your help, <PlayerName>!				
+Generic/ThanksGiveItem_Intro_000					
+Generic/ThanksGiveItem_Intro_001					
+Generic/TradeCompleteConvo_Intro_000	Oh, you're interested in my <BulletinBoardReward> ?				
+Generic/TradeCompleteConvo_Option_000	I want to trade.				
+Generic/TradeCompleteConvo_Option_001	No thank you.				
+Generic/TradeCompleteConvo_Response_000_000	Alright, let's see what you have!				
+Generic/TradeCompleteConvo_Response_001_000	No problems.				
+Generic/TradeSameItem_Intro_000	Wait a second. . . This is a <BulletinBoardReward> . I'm trying to get rid of my <BulletinBoardReward> ! 				
+Generic/TradeSameItem_Intro_001	<haha> I guess we're right where we started! Here, you can have this back.				
+Generic/TradeWrongTypeOfItem_Intro_000	Ah . . . This isn't what I'm after.				
+Generic/TradeWrongTypeOfItem_Intro_001	You can have this back.				
 Generic/TuckshopConversation_Intro_000	Welcome to the Tuckerbox.				
 Generic/TuckshopConversation_Intro_001	What can I do for you, <petName>?				
 Generic/TuckshopConversation_Option_000	I want to sell				
@@ -378,6 +981,16 @@ Generic/TuckshopConversation_Response_000_000	<yes>Well, today I'm paying top <D
 Generic/TuckshopConversation_Response_001_000	Can do.				
 Generic/TuckshopConversation_Response_002_000	See you around, <PlayerName>.				
 Generic/TuckshopConversation_Response_003_000	See you around, <PlayerName>.				
+Generic/TuckshopMoveInRequest_Intro_000	You know what <PlayerName>?þ				
+Generic/TuckshopMoveInRequest_Intro_001	<shy>You’ve really shown me some of the great cuisine that can be created here on <IslandName>.þ				
+Generic/TuckshopMoveInRequest_Intro_002	<yes>I reckon it’s finally time to leave <SouthCity> for good.þ				
+Generic/TuckshopMoveInRequest_Intro_003	<proud>I’ve talked to <NPCName> and I’ve applied for a <itemName>.þ				
+Generic/TuckshopMoveInRequest_Intro_004	<glee>I hope we can get it up and running soon.þ				
+Generic/Wrong Photo Convo_Intro_000	I mean, this is a nice photo, but it's not what I was looking for . . .				
+Generic/Wrong Photo Convo_Option_000	Let me try again.				
+Generic/Wrong Photo Convo_Option_001	Nevermind.				
+Generic/Wrong Photo Convo_Response_000_000	Oh, you have another photo?				
+Generic/Wrong Photo Convo_Response_001_000	No problems. Thanks for trying!				
 InventoryItemDescriptions/InvDesc_87	White Flat Shoes	Chaussures plates blanches	Белые плоские туфли	白色平底鞋	ホワイトフラットシューズ
 InventoryItemNames/InvItem_87	White Flats	Appartements blanc	Белый Flats	白色平底鞋	ホワイトフラッツ
 JOHN/John_Intro_000	are you okay	êtes-vous d'accord	ты в порядке	你还好吗	大丈夫ですか
@@ -399,6 +1012,7 @@ LicenceDesc/Licence_Brewing_1_Desc	Unlocks the Billy Kit recipe used for brewing
 LicenceDesc/Licence_Brewing_2_Desc	Unlocks the Keg recipe used for brewing advanced drinks.				
 LicenceDesc/Licence_Building_1_Desc	Allows the holder to craft simple bridges.	Permet au titulaire de créer et de placer le chemin.	Позволяет владельцу создавать и прокладывать пути.	允许持有人制作和放置路径。	ホルダーがパスを作成して配置できるようにします。
 LicenceDesc/Licence_Building_2_Desc	Allows the holder to build Windmills to help speed up production tasks.	Permet au détenteur de construire des moulins à vent pour accélérer les tâches de production.	Позволяет владельцу строить ветряные мельницы для ускорения производственных задач.	允许持有者建造风车以帮助加快生产任务。	所有者が風車を構築して生産タスクをスピードアップできるようにします。
+LicenceDesc/Licence_Building_3_Desc	Unlocks the recipes for Advanced Crafting Table and Advanced Cooking Table				
 LicenceDesc/Licence_Cargo_1_Desc	Allows the holder to expand their pockets by 3 slots.	Permet au titulaire d'élargir ses poches.	Позволяет владельцу расширить карманы.	允许持有人扩大其口袋。	ホルダーがポケットを拡張できるようにします。
 LicenceDesc/Licence_Commerce_1_Desc	The holder will receive 5% more when selling items	Le titulaire recevra 5% de plus lors de la vente d'articles	Владелец получит на 5% больше при продаже предметов	持有人在出售物品时将获得5％的收益	アイテムを販売すると、ホルダーは5％の追加を受け取ります
 LicenceDesc/Licence_Commerce_2_Desc	The holder will receive 10% more when selling items	Le titulaire recevra 10% de plus lors de la vente d'articles	Владелец получит на 10% больше при продаже предметов	持有人在出售物品时将获得10％的收益	ホルダーはアイテムを販売するときに10％以上受け取る
@@ -409,6 +1023,7 @@ LicenceDesc/Licence_Excavation_Desc	Allows the holder to purchase and use shovel
 LicenceDesc/Licence_Farming_1_Desc	Allows the holder to buy farming equipment and seeds.	Permet au titulaire d'acheter du matériel agricole et des semences.	Позволяет владельцу покупать сельскохозяйственную технику и семена.	允许持有人购买农用设备和种子。	所有者が農機具や種子を購入できるようにします。
 LicenceDesc/Licence_Farming_2_Desc	Allows the holder to craft fertilzer. Unlocks a new watercan recipe.	Permet au titulaire de fabriquer et d'utiliser de l'engrais.	Позволяет держателю обрабатывать и использовать удобрения.	允许持有人制作和使用肥料。	所有者が肥料を作り、使用できるようにします。
 LicenceDesc/Licence_Farming_3_Desc	Allows the holder to access irregation licence. Unlocks a new watercan recipe.	Permet au titulaire de fabriquer et d'utiliser des arroseurs.	Позволяет держателю создавать и использовать разбрызгиватели.	允许持有人制作和使用洒水器。	ホルダーがスプリンクラーを作成して使用できるようにします。
+LicenceDesc/Licence_FishFarming_1_Desc	Unlocks the recipe for Fish Ponds, used to breed and farm fish				
 LicenceDesc/Licence_Fishing_1_Desc	Allows holder to buy fishing rods and catch fish.	Permet au titulaire d'acheter des cannes à pêche et d'attraper du poisson.	Позволяет владельцу покупать удочки и ловить рыбу.	允许持有人购买钓鱼竿并捕鱼。	釣り竿を購入して魚を捕まえることができます。
 LicenceDesc/Licence_Fishing_2_Desc	Allows the holder to see bubbles created by underwater creatures. Unlocks a new fishing rod recipe	Des poissons plus rares commenceront à apparaître sur l'île.	На острове начнет появляться более редкая рыба.	岛上开始出现稀有鱼类。	珍しい魚が島に現れ始めます。
 LicenceDesc/Licence_Fishing_3_Desc	Allows the holder to craft Crab Pots. Unlocks a new fishing rod recipe.	Chaque poisson peut apparaître sur l'île.	Любая рыба может появиться на острове.	每条鱼都可以出现在岛上。	すべての魚が島に現れることができます。
@@ -450,6 +1065,7 @@ LicenceNames/Licence_2	Logging Licence	Enregistrement	Протоколирова
 LicenceNames/Licence_20	Water Scaping Licence				
 LicenceNames/Licence_21	Brewing Licence				
 LicenceNames/Licence_22	Animal Processing Licence				
+LicenceNames/Licence_23	Fish Farming Licence				
 LicenceNames/Licence_3	Fishing Licence	Pêche	Рыбная Ловля	钓鱼	釣り
 LicenceNames/Licence_4	Hunting Licence	Chasse	Охота	狩猎	狩猟
 LicenceNames/Licence_5	Landscaping Licence	Plongée	Дайвинг	潜水	ダイビング
@@ -525,7 +1141,7 @@ MilestoneDesc/MilestoneDesc_41	Deep down in the shifting mines, it's dangerous..
 MilestoneDesc/MilestoneDesc_42	You help anyone that asks, eh? Here is a milestone for doing a lot of favours.			あなたは尋ねる人を助けますねこれは、多くの恩恵をもたらすためのマイルストーンです。	
 MilestoneDesc/MilestoneDesc_43	Being poisoned might not kill you, but it will take a lot of energy out of you. Here is a one time milestone for being poisoned. But try not to be from now on, okay?			毒されてもあなたを殺すことはないかもしれませんが、それはあなたから多くのエネルギーを奪います。これが中毒の1回限りのマイルストーンです。でもこれからはしないようにしましょうね	
 MilestoneDesc/MilestoneDesc_44	You sure can take a hit or two. Here is a milestone for taking damage.			あなたは確かに1つか2つのヒットを取ることができます。これがダメージを受けるためのマイルストーンです。	
-MilestoneDesc/MilestoneDesc_45	Watch your energy. If you push yourself too far or if you stay out too late you will faint. You'll lose stuff if you pass out. Here's a milestone for fainting, but try not to from now on. 			あなたのエネルギーに注意してください。押しすぎたり、遅すぎたりすると失神します。あなたが気絶するとあなたはものを失うでしょう。これが失神のマイルストーンですが、これからはそうしないようにしてください。	
+MilestoneDesc/MilestoneDesc_45	Watch your health! Make sure to eat food that recovers health. Maybe have a sit down to recover faster? Here's a milestone for fainting, but try not to from now on. 			あなたのエネルギーに注意してください。押しすぎたり、遅すぎたりすると失神します。あなたが気絶するとあなたはものを失うでしょう。これが失神のマイルストーンですが、これからはそうしないようにしてください。	
 MilestoneDesc/MilestoneDesc_46	The more friendly you are with someone the more likely they will send you mail! Here is a milestone for receiving letters.			あなたが誰かと友好的であるほど、彼らはあなたにメールを送る可能性が高くなります！これが手紙を受け取るためのマイルストーンです。	
 MilestoneDesc/MilestoneDesc_47	From tent, to house to even bigger house! Here is a milestone for upgrading your home.			テントから家、さらに大きな家まで！これがあなたの家をアップグレードするためのマイルストーンです。	
 MilestoneDesc/MilestoneDesc_48	Every adventure starts somewhere and yours starts here. Here is a milestone for placing the base tent.			すべての冒険はどこかで始まり、あなたの冒険はここから始まります。これがベーステントを配置するためのマイルストーンです。	
@@ -3508,7 +4124,7 @@ Npc9/RandomConvo_019_Intro_003	<yes>So its all worth it!
 Npc9/RandomConvo_020_Intro_000	What’s the point of anything happening if nobody is there to record it?				
 Npc9/RandomConvo_020_Intro_001	<yes>Hey, <PlayerName>, if a tree falls in the woods, please be sure to let me know.				
 Npc9/Thank you_Intro_000	Thank you! It looks great up here doesn't it?	Merci! Il semble très haut ne pas ici?	Спасибо! Он отлично смотрится здесь, не так ли?		ありがとうございました！それはそれはここで素晴らしいアップをしないに見えますか？
-Player/ConfirmDeedNotServer_Intro_000	This deed is for my island.				
+Player/ConfirmDeedNotServer_Intro_000					
 Player/ConfirmDeedNotServer_Intro_001	I should probably place it there.				
 Player/ConfirmDeedPlacement_Intro_000	Is this a good place for the <currentItemInHand>?				
 Player/ConfirmDeedPlacement_Option_000	Yes				
@@ -3517,7 +4133,7 @@ Player/ConstructionBox_Needs Items_Intro_000	Building materials are required to 
 Player/ConstructionBox_Needs Items_Intro_001	Should I place building materials inside?				
 Player/ConstructionBox_Needs Items_Option_000	Place Items				
 Player/ConstructionBox_Needs Items_Option_001	Nevermind.				
-Player/ConstructionBoxFull_Intro_000	All the materials are here. 				
+Player/ConstructionBoxFull_Intro_000					
 Player/ConstructionBoxFull_Intro_001	Construction will start tomorrow.				
 Player/ConstructionBoxOnceCompleted_Intro_000	All the required construction materials have been deposited!				
 Player/ConstructionBoxOnceCompleted_Intro_001	Construction can begin tomorrow.				
@@ -3527,50 +4143,98 @@ Player/InventoryFullBugOrFish_Option_000	Yes.
 Player/InventoryFullBugOrFish_Option_001	No.				
 Player/Telebox Once Completed_Intro_000	That seems to have done it!				
 Player/Telebox Once Completed_Intro_001	What happens next?				
-Player/TeleboxNeedsItems_Intro_000	This thing looks broken. There are parts missing.				
+Player/TeleboxNeedsItems_Intro_000					
 Player/TeleboxNeedsItems_Intro_001	Should I place something inside?				
 Player/TeleboxNeedsItems_Option_000	Place Items				
 Player/TeleboxNeedsItems_Option_001	Nevermind.				
-Player/TeleCallerDoesn'tWork_Intro_000					
-Randomised/Afternoon_Greeting 0_Intro_000	The suns getting low.	Les soleils devient faible.	Солнца становятся низкими.		太陽が低いを取得します。
-Randomised/Afternoon_Greeting 0_Response_003_000	<thinking>Well, I guess it's been a good day!	<Pensée> Eh bien, je suppose que ça a été une bonne journée!	<Мышление> Ну, я предполагаю, что это был хороший день!		<思考>まあ、私はそれは良い1日だったと思います！
-Randomised/Afternoon_Greeting 1_Intro_000	I love sunsets! That orange glow warms my soul!	J'adore les couchers de soleil! de qu'Orange de mon âme! réchauffe	Я люблю закаты! Что оранжевый свет согревает мою душу!		私は夕日が大好き！そのオレンジグロー温め私の魂！
-Randomised/Afternoon_Greeting 1_Response_003_000	<glee>Have a good arvo!	<Glee> Bonne Arvo!	<Ликования> Есть хороший Арво!		<歓喜>良いARVOを持っています！
-Randomised/Afternoon_Greeting 2_Intro_000	Good afternoon, <PlayerName>!	Bonjour, <PlayerName>!	Добрый день, <PlayerName>!		こんにちは、<プレイヤー名>！
-Randomised/Afternoon_Greeting 2_Response_003_000	Sun will be down soon, be carefull, <PlayerName>.	Sun sera bientôt vers le bas, soyez prudent, <PlayerName>.	Солнце будет вниз в ближайшее время, будьте осторожны, <PlayerName>.		Sunは<プレイヤー名>、気をつけても、すぐにダウンします。
-Randomised/Afternoon_Greeting 3_Intro_000	Sunset all ready!? It feels like the day just started!	Coucher de soleil tout prêt !? Il se sent comme le jour vient de commencer!	Закат все готово !? Такое ощущение, что день только начался!		サンセットすべての準備！それはちょうど始めた日のように感じています！
-Randomised/Afternoon_Greeting 3_Response_003_000	<haha>Maybe I need to manage my time a bit better, eh?	<Haha> Peut-être que je dois gérer mon temps un peu mieux, hein?	<Ха> Может быть, мне нужно управлять своим временем немного лучше, а?		<笑>たぶん私は、えっ、少し良く私の時間を管理する必要がありますか？
-Randomised/Afternoon_Greeting 4_Intro_000	Sunset all ready!? It feels like the day just started!	Coucher de soleil tout prêt !? Il se sent comme le jour vient de commencer!	Закат все готово !? Такое ощущение, что день только начался!		サンセットすべての準備！それはちょうど始めた日のように感じています！
-Randomised/Afternoon_Greeting 4_Response_003_000	<thinking>Maybe I need to manage my time a bit better, eh?	<Pensée> Peut-être que je dois gérer mon temps un peu mieux, hein?	<Мышление> Может быть, мне нужно управлять своим временем немного лучше, а?		<思考>たぶん私は、えっ、少し良く私の時間を管理する必要がありますか？
-Randomised/Afternoon_Greeting 5_Intro_000	The sun will be down soon, so please be careful! <yes> 	Le soleil sera bientôt vers le bas, donc s'il vous plaît soyez prudent! <Oui>	Солнце будет вниз в ближайшее время, поэтому, пожалуйста, будьте осторожны! <Да>		太陽がすぐにダウンになりますので、ご注意ください！ <はい>
-Randomised/Afternoon_Greeting 5_Response_003_000	<wave>Stay safe, <PlayerName>.	<Vague> Coffre séjour, <PlayerName>.	<Волна> Оставайтесь в безопасности, <PlayerName>.		<波>ステイ安全、<プレイヤー名>。
-Randomised/Cold_Greeting 0_Intro_000	It's a bit chilly, isn't it.	Il est un peu froid de, ne l'est pas.	Это немного холодно, не так.		これは、ビット肌寒いですが、そうではありません。
-Randomised/Cold_Greeting 0_Response_003_000	Stay warm, <PlayerName>! <wave>	Restez au chaud, <PlayerName>! <Vague>	Пребывание тепло, <PlayerName>! <Волна>		ステイ暖かく、<プレイヤー名>！ <波>
-Randomised/Cold_Greeting 1_Intro_000	Brrrrr...	Brrr ...	Бррррр ...		Brrrrr ...
-Randomised/Cold_Greeting 1_Intro_001	Hey <PlayerName>	Hey <PlayerName>	Эй <PlayerName>		ねえ<プレイヤー名>
-Randomised/Cold_Greeting 1_Response_003_000	I'm going to try and warm up my hands, <PlayerName>! <wave>	Je vais essayer de réchauffer mes mains, <PlayerName>! <Vague>	Я собираюсь попробовать и разогреть руки мои, <PlayerName>! <Волна>		私は<プレイヤー名>、私の手を試してみて、ウォームアップするつもりです！ <波>
-Randomised/Cold_Greeting 2_Intro_000	It's cold today.	Il fait froid aujourd'hui.	Сегодня холодно.		今日は寒い。
-Randomised/Cold_Greeting 2_Response_003_000	Bye! <wave>	Au revoir! <Vague>	До свидания! <Волна>		さようなら！ <波>
-Randomised/Cold_Greeting 3_Intro_000	You think the weather will warm up soon?	Vous pensez que le temps se réchauffera bientôt?	Вы думаете, что погода будет разогреть в ближайшее время?		あなたは天気がすぐにウォームアップすると思いますか？
-Randomised/Cold_Greeting 3_Response_003_000	I hope so!	Je l'espère!	Я надеюсь, что это так!		そうだといい！
-Randomised/Cold_Greeting 4_Intro_000	I don't remember it being this cold last year!	Je ne me souviens pas d'être ce froid l'année dernière!	Я не помню, причем этот холод в прошлом году!		私はこの寒さ去年いることを覚えていません！
-Randomised/Cold_Greeting 4_Response_003_000	Keep rugged up, okay? <wave>	Gardez robuste, d'accord? <Vague>	Держите прочный, ладно? <Волна>		大丈夫、頑丈アップをしてください？ <波>
-Randomised/Cold_Greeting 5_Intro_000	Another cold day!	Une autre journée froide!	Еще один холодный день!		別の寒い日！
-Randomised/Cold_Greeting 5_Response_003_000	See you? <wave>	À bientôt? <Vague>	Увидимся? <Волна>		またね？ <波>
-Randomised/Cold_Greeting 6_Intro_000	Nice and cool weather!	Nice et le temps frais!	Ницца и прохладная погода!		ニースと涼しい天気！
-Randomised/Cold_Greeting 6_Intro_001	Maybe it's a bit too cool though! <haha>	Peut-être qu'il est un peu trop cool si! <Haha>	Может быть, это немного слишком прохладно, хотя! <Ха>		多分それはしかし冷却あまりにも少しです！ <笑>
-Randomised/Cold_Greeting 6_Response_003_000	<wave>See you around, <PlayerName>.	<Wave> Voir autour de vous, <PlayerName>.	<Волна> Увидимся, <PlayerName>.		<波が> <プレイヤー名>、あなたの周りを参照してください。
-Randomised/Foggy_Greeting 0_Intro_000	It’s a bit spooky out today with all this fog!þ	Il est un peu fantasmagorique aujourd'hui avec tout ce brouillard!þ	Это немного жуткий аут сегодня со всем этим туманом!þ		それはすべて、この霧で今日少し不気味アウトです！þ
-Randomised/Foggy_Greeting 0_Response_003_000	See you later, if this fog doesn't get thicker! <wave>	Rendez-vous plus tard, si ce brouillard ne soit pas plus épais! <Vague>	Увидимся позже, если этот туман не становится толще! <Волна>		この霧は厚く取得していない場合は、後でお会いしましょう！ <波>
-Randomised/Foggy_Greeting 1_Intro_000	Everything looks like a dream in this haze!	Tout ressemble à un rêve dans cette brume!	Все выглядит, как сон в этом тумане!		すべては、このヘイズの夢のように見えます！
-Randomised/Foggy_Greeting 1_Response_003_000	Wait, am I dreaming?! <thinking>	Attendez, je rêve ?! <Pensée>	Подождите, я сплю ?! <Мышление>		待って、私は夢を見ています！ <思考>
-Randomised/Foggy_Greeting 2_Intro_000	Thick fog today. I can barely see my feet!	aujourd'hui brouillard épais. Je peux à peine voir mes pieds!	Густой туман сегодня. Я едва могу видеть мои ноги!		濃霧今日。私はやっと私の足を見ることができます！
-Randomised/Foggy_Greeting 2_Response_003_000	See you around! <wave>	À un de ces quatre! <Vague>	Увидимся! <Волна>		またね！ <波>
-Randomised/Foggy_Greeting 3_Intro_000	It feels like a different place with all of this fog around.þ	Il se sent comme un endroit différent avec tout cela autour de brouillard.þ	Он чувствует, как в другом месте со всем этим туманом вокруг.þ		これは、この霧の周りのすべてと別の場所のように感じています。þ
-Randomised/Foggy_Greeting 3_Response_003_000	Now, where was I going again?<wave>	Maintenant, où allais-je à nouveau? <Vague>	Теперь, где я снова иду? <Волна>		さて、どこ私は再びつもりだった？<波>
-Randomised/Foggy_Greeting 4_Intro_000	Who is that? ...	Qui est-ce? ...	Это кто? ...		あれは誰？ ...
-Randomised/Foggy_Greeting 4_Intro_001	Is that you <PlayerName>? I can barely see you through this fog!	Est-ce que vous <PlayerName>? Je peux à peine vous voir à travers ce brouillard!	Это ты <PlayerName>? Я едва могу видеть вас через этот туман!		それは、<プレイヤー名>ですか？私はやっとこの霧を通してあなたを見ることができます！
-Randomised/Foggy_Greeting 4_Response_003_000	What your step?<wave>	Qu'est-ce que votre étape? <Vague>	Что ваш шаг? <Волна>		どのようなあなたのステップ？<波>
+Player/TeleCallerDoesn'tWork_Intro_000	It doesn't work right now...				
+Randomised/Afternoon_Greeting 0_Intro_000	The suns getting low.				
+Randomised/Afternoon_Greeting 0_Response_003_000	<thinking>Well, I guess it's been a good day!				
+Randomised/Afternoon_Greeting 1_Intro_000	I love sunsets! That orange glow warms my soul!				
+Randomised/Afternoon_Greeting 1_Response_003_000	<glee>Have a good arvo!				
+Randomised/Afternoon_Greeting 2_Intro_000	Good afternoon, <PlayerName>!				
+Randomised/Afternoon_Greeting 2_Response_003_000	Sun will be down soon, be carefull, <PlayerName>.				
+Randomised/Afternoon_Greeting 3_Intro_000	Sunset all ready!? It feels like the day just started!				
+Randomised/Afternoon_Greeting 3_Response_003_000	<haha>Maybe I need to manage my time a bit better, eh?				
+Randomised/Afternoon_Greeting 4_Intro_000	Sunset all ready!? It feels like the day just started!				
+Randomised/Afternoon_Greeting 4_Response_003_000	<thinking>Maybe I need to manage my time a bit better, eh?				
+Randomised/Afternoon_Greeting 5_Intro_000	The sun will be down soon, so please be careful! <yes> 				
+Randomised/Afternoon_Greeting 5_Response_003_000	<wave>Stay safe, <PlayerName>.				
+Randomised/Cold_Greeting 0_Intro_000	It's a bit chilly, isn't it.				
+Randomised/Cold_Greeting 0_Response_003_000	Stay warm, <PlayerName>! <wave>				
+Randomised/Cold_Greeting 1_Intro_000	Brrrrr...				
+Randomised/Cold_Greeting 1_Intro_001	Hey <PlayerName>				
+Randomised/Cold_Greeting 1_Response_003_000	I'm going to try and warm up my hands, <PlayerName>! <wave>				
+Randomised/Cold_Greeting 2_Intro_000	It's cold today.				
+Randomised/Cold_Greeting 2_Response_003_000	Bye! <wave>				
+Randomised/Cold_Greeting 3_Intro_000	You think the weather will warm up soon?				
+Randomised/Cold_Greeting 3_Response_003_000	I hope so!				
+Randomised/Cold_Greeting 4_Intro_000	I don't remember it being this cold last year!				
+Randomised/Cold_Greeting 4_Response_003_000	Keep rugged up, okay? <wave>				
+Randomised/Cold_Greeting 5_Intro_000	Another cold day!				
+Randomised/Cold_Greeting 5_Response_003_000	See you? <wave>				
+Randomised/Cold_Greeting 6_Intro_000	Nice and cool weather!				
+Randomised/Cold_Greeting 6_Intro_001	Maybe it's a bit too cool though! <haha>				
+Randomised/Cold_Greeting 6_Response_003_000	<wave>See you around, <PlayerName>.				
+Randomised/Foggy_Greeting 0_Intro_000	It’s a bit spooky out today with all this fog!þ				
+Randomised/Foggy_Greeting 0_Response_003_000	See you later, if this fog doesn't get thicker! <wave>				
+Randomised/Foggy_Greeting 1_Intro_000	Everything looks like a dream in this haze!				
+Randomised/Foggy_Greeting 1_Response_003_000	Wait, am I dreaming?! <thinking>				
+Randomised/Foggy_Greeting 2_Intro_000	Thick fog today. I can barely see my feet!				
+Randomised/Foggy_Greeting 2_Response_003_000	See you around! <wave>				
+Randomised/Foggy_Greeting 3_Intro_000	It feels like a different place with all of this fog around.þ				
+Randomised/Foggy_Greeting 3_Response_003_000	Now, where was I going again?<wave>				
+Randomised/Foggy_Greeting 4_Intro_000	Who is that? ...				
+Randomised/Foggy_Greeting 4_Intro_001	Is that you <PlayerName>? I can barely see you through this fog!				
+Randomised/Foggy_Greeting 4_Response_003_000	What your step?<wave>				
+Randomised/Greeting 0_Intro_000	Hey <PlayerName>.				
+Randomised/Greeting 0_Intro_001	What's up?				
+Randomised/Greeting 0_Response_003_000	All good. Catch you later.				
+Randomised/Greeting 1_Intro_000	Oh, if it isn't <PlayerName>.				
+Randomised/Greeting 1_Intro_001	What can I do for you today?				
+Randomised/Greeting 1_Response_003_000	All good. Catch you later.				
+Randomised/Greeting 10_Intro_000	G'day.				
+Randomised/Greeting 10_Response_003_000	All good. Catch you later. <wave>				
+Randomised/Greeting 11_Intro_000	Oh, well if it isn't <PlayerName>.				
+Randomised/Greeting 11_Response_003_000	Oh. Talk again soon, okay?				
+Randomised/Greeting 12_Intro_000	<PlayerName>? Here to see lil' ol' me?				
+Randomised/Greeting 12_Response_003_000	Seeya! <wave>				
+Randomised/Greeting 13_Intro_000	It's <PlayerName>! The big cheese! The the top dog!				
+Randomised/Greeting 13_Response_003_000	See you next time.				
+Randomised/Greeting 14_Intro_000	Sorry, I just spaced out. <haha>				
+Randomised/Greeting 14_Intro_001	What can I do for you?				
+Randomised/Greeting 14_Response_003_000	All good, <PlayerName>.				
+Randomised/Greeting 15_Intro_000	Whoa!				
+Randomised/Greeting 15_Intro_001	I just got deja vu! <haha>				
+Randomised/Greeting 15_Intro_002	You wanted to chat?				
+Randomised/Greeting 15_Response_003_000	I swear we've chatted				
+Randomised/Greeting 16_Intro_000	Can I help you, <PlayerName>?				
+Randomised/Greeting 16_Response_003_000	Talk again soon, yeah? <yes>				
+Randomised/Greeting 17_Intro_000	WOAH! <shocked>				
+Randomised/Greeting 17_Intro_001	You scared me, <PlayerName>! <haha>				
+Randomised/Greeting 17_Response_003_000	We'll catch up again soon. <yes>				
+Randomised/Greeting 18_Intro_000	Huh?				
+Randomised/Greeting 18_Response_003_000	Huh?				
+Randomised/Greeting 2_Intro_000	<PlayerName>! I swear I was just thinking about you. <haha>				
+Randomised/Greeting 2_Intro_001	Do you need something?				
+Randomised/Greeting 2_Response_003_000	Nice talking to you.				
+Randomised/Greeting 3_Intro_000	Hey <PlayerName>. 				
+Randomised/Greeting 3_Intro_001	I had something to say to you!				
+Randomised/Greeting 3_Intro_002	... I've forgotten. <haha>				
+Randomised/Greeting 3_Response_003_000	Maybe I'll remember it. I'll get back to you.				
+Randomised/Greeting 4_Intro_000	<PlayerName>, <PlayerName>, <PlayerName>.				
+Randomised/Greeting 4_Intro_001	What brings you to little ol' me?				
+Randomised/Greeting 4_Response_003_000	Goodbye. <wave>				
+Randomised/Greeting 5_Intro_000	<PlayerName> ! My favourite person!				
+Randomised/Greeting 5_Response_003_000	Bye bye! <wave>				
+Randomised/Greeting 6_Intro_000	Oh, it's <PlayerName>.				
+Randomised/Greeting 6_Response_003_000	See you around then. <wave>				
+Randomised/Greeting 7_Intro_000	Howdy!				
+Randomised/Greeting 7_Response_003_000	Thanks for 				
+Randomised/Greeting 8_Intro_000	<PlayerName>!				
+Randomised/Greeting 8_Response_003_000	Nice to see you!				
+Randomised/Greeting 9_Intro_000	Hey, <PlayerName>.				
+Randomised/Greeting 9_Response_003_000	Alright then!				
 Randomised/Greeting0_Intro_000	Hey <PlayerName>.	Hey <PlayerName>.	Эй <PlayerName>.		<プレイヤー名>ねえ。
 Randomised/Greeting0_Intro_001	What's up?	Quoi de neuf?	Как дела?		調子はどう？
 Randomised/Greeting0_Response_003_000	All good. Catch you later.	Tout bon. Catch plus tard.	Все хорошо. Увидимся.		すべての良いです。あなたを後で捕まえる。
@@ -3619,98 +4283,98 @@ Randomised/Greeting8_Intro_000	<PlayerName>!	<PlayerName>!	<PlayerName>!		<プ�
 Randomised/Greeting8_Response_003_000	Nice to see you!	Ravi de vous voir!	Рад вас видеть!		お会いできてうれしいです！
 Randomised/Greeting9_Intro_000	Hey, <PlayerName>.	Hey, <PlayerName>.	Эй, <PlayerName>.		ねえ、<プレイヤー名>。
 Randomised/Greeting9_Response_003_000	Alright then!	Très bien alors!	Ладно!		その後、よし！
-Randomised/Hot_Greeting 0_Intro_000	G'day, <PlayerName>. Phewh! It's so hot already!	G'day, <PlayerName>. Phewh! Il est si chaud déjà!	G'day, <PlayerName>. Phewh! Это так жарко уже!		やあ、<プレイヤー名>。 Phewh！これは、すでに暑いです！
-Randomised/Hot_Greeting 0_Response_003_000	See you around! <wave>	À un de ces quatre! <Vague>	Увидимся! <Волна>		またね！ <波>
-Randomised/Hot_Greeting 1_Intro_000	Oh, <PlayerName>. How are you handling this heat?	Oh, <PlayerName>. Comment gérez-vous cette chaleur?	О, <PlayerName>. Как вы обработка этого тепла?		ああ、<プレイヤー名>。どのようにこの熱を処理していますか？
-Randomised/Hot_Greeting 1_Intro_001	I'm so hot it feels like you could fry an egg on my head.	Je suis tellement chaud, il se sent comme vous pourriez faire frire un œuf sur la tête.	Я так жарко, он чувствует, как вы могли бы жарить яйца на голове.		私はあなたが私の頭の上に卵を炒めることができようにそれは感じているので、暑いです。
-Randomised/Hot_Greeting 1_Response_003_000	Stay cool if you can! <wave>	cool séjour si vous le pouvez! <Vague>	Пребывание здорово, если вы можете! <Волна>		ステイクールすることができますならば！ <波>
-Randomised/Hot_Greeting 10_Intro_000	<PlayerName>. How things going? Keeping cool I hope!	<PlayerName>. Comment vont les choses? Garder fraîche je l'espère!	<PlayerName>. Как дела? Держа прохладный я надеюсь!		<プレイヤー名>。どのように物事が行くの？クールな私の希望を維持！
-Randomised/Hot_Greeting 10_Response_003_000	See you later. <wave>	À plus tard. <Vague>	Увидимся. <Волна>		じゃあまたね。 <波>
-Randomised/Hot_Greeting 2_Intro_000	Hey <PlayerName>. Is it just me or is it really hot today?	Hey <PlayerName>. Est-ce juste moi ou est-ce aujourd'hui vraiment chaud?	Эй <PlayerName>. Это только меня или это действительно жарко сегодня?		<プレイヤー名>ねえ。それは私だけですか、それは本当に暑い今日のでしょうか？
-Randomised/Hot_Greeting 2_Response_003_000	I don't think its just me.	Je ne pense pas que ce juste moi.	Я не думаю, что его только меня.		私はそのちょうど私には思いません。
-Randomised/Hot_Greeting 3_Intro_000	It's so hot, <PlayerName>. Like, how does it even get this hot?	Il est si chaud, <PlayerName>. Comme, comment ça même obtenir ce chaud?	Это так жарко, <PlayerName>. Мол, как это даже получить это горячее?		それは<プレイヤー名>、暑いです。同様に、どのようにそれもこれを熱くしますか？
-Randomised/Hot_Greeting 3_Intro_001	Did you want something?	Est-ce que vous voulez quelque chose?	Вы что то хотели?		あなたが何かをしたいでしたか？
-Randomised/Hot_Greeting 3_Response_003_000	A bit of a breeze wouldn't go to bad right 	Un peu d'un jeu d'enfant ne serait pas aller à droite mauvais	Немного ветер не пошел бы к плохому праву		風のビットが悪い右に行かないだろう
-Randomised/Hot_Greeting 4_Intro_000	Hello, <PlayerName>. Feels like it's going to be a scorcher today.	Bonjour, <PlayerName>. Feels comme ça va être un scorcher aujourd'hui.	Здравствуйте, <PlayerName>. Чувствует, как он будет лихач сегодня.		こんにちは、<プレイヤー名>。今日Scorcherのことになるだろうように感じています。
-Randomised/Hot_Greeting 4_Intro_001	How's things?	Comment vont les affaires?	Как дела?		どのようなものですか？
-Randomised/Hot_Greeting 4_Response_003_000	I'm going to try and keep cool.	Je vais essayer de garder au frais.	Я собираюсь попробовать и прохладней.		私が試してみて、冷静さを保つつもりです。
-Randomised/Hot_Greeting 5_Intro_000	<PlayerName>. This heat. Not good. I'm sweating already.	<PlayerName>. Cette chaleur. Pas bon. Je transpire déjà.	<PlayerName>. Это тепло. Фигово. Я вспотел уже.		<プレイヤー名>。この熱。良くない。私はすでに汗をかいています。
-Randomised/Hot_Greeting 5_Intro_001	Oh, sorry did you have something to say?	Oh, désolé avez-vous quelque chose à dire?	Ой, извините вы что-то сказать?		ああ、申し訳ありませんあなたは言いたいことがあるのですか？
-Randomised/Hot_Greeting 5_Response_003_000	Keep it cool, <PlayerName>.	Gardez-le refroidir, <PlayerName>.	Держите его остывать, <PlayerName>.		<プレイヤー名>、それが冷静さを保ちます。
-Randomised/Hot_Greeting 6_Intro_000	<PlayerName>! I hope you're keeping cool.	<PlayerName>! J'espère que vous êtes cool de maintien.	<PlayerName>! Я надеюсь, что ты хранишь прохладный.		<プレイヤー名>！私はあなたが冷静さを保っている願っています。
-Randomised/Hot_Greeting 6_Response_003_000	I hope it cools down for all of us soon.	J'espère qu'il refroidisse pour tous bientôt nous.	Я надеюсь, что он остывает для всех нас в ближайшее время.		私はそれがすぐに私たちのすべてのために冷える願っています。
-Randomised/Hot_Greeting 7_Intro_000	It's a hot one today, <PlayerName>. <haha>	Il est un aujourd'hui chaud, <PlayerName>. <Haha>	Это горячий один сегодня, <PlayerName>. <Ха>		それは<プレイヤー名>、今日暑い一つです。 <笑>
-Randomised/Hot_Greeting 7_Intro_001	What's happening?	Que ce passe-t-il?	Что происходит?		何が起こっていますか？
-Randomised/Hot_Greeting 7_Response_003_000	I hope it cools down soon. <wave>	J'espère qu'il se refroidit bientôt. <Vague>	Я надеюсь, что он остывает в ближайшее время. <Волна>		私はそれがすぐに冷える願っています。 <波>
-Randomised/Hot_Greeting 8_Intro_000	Are you hot, <PlayerName>? I'm hot.	Êtes-vous chaud, <PlayerName>? J'ai chaud.	Вы горячий, <PlayerName>? Я жарко.		あなたは<プレイヤー名>、熱いいますか？私は暑いです。
-Randomised/Hot_Greeting 8_Intro_001	Oh, sorry, did you need something?	Oh, désolé, avez-vous besoin de quelque chose?	Ой, простите, вы что-то нужно?		ああ、申し訳ありませんが、あなたが何かを必要とするのですか？
-Randomised/Hot_Greeting 8_Response_003_000	See you later. <wave>	À plus tard. <Vague>	Увидимся. <Волна>		じゃあまたね。 <波>
-Randomised/Hot_Greeting 9_Intro_000	What brings <PlayerName> here on this hot, hot day?	Qu'apporte <PlayerName> ici ce jour chaud, chaud?	Что приносит <PlayerName> здесь в этот жаркий, жаркий день?		何がこの暑い、暑い日には、ここで<プレイヤー名>をもたらしますか？
-Randomised/Hot_Greeting 9_Response_003_000	See you later. <wave>	À plus tard. <Vague>	Увидимся. <Волна>		じゃあまたね。 <波>
-Randomised/Midday Greeting 0_Intro_000	Things are really starting to shape up around here, huh?	Les choses commencent vraiment à prendre forme ici, hein?	Вещи действительно начинают формировать вокруг здесь, да?		物事は本当にこの辺り、ハァッをシェイプアップし始めていますか？
-Randomised/Midday Greeting 0_Response_003_000	Keep up the good work, <PlayerName>.	Continuez le bon travail, <PlayerName>.	Следите за хорошую работу, <PlayerName>.		<プレイヤー名>、良い仕事をしてください。
-Randomised/Midday Greeting 1_Intro_000	Still a lot of day left, right, <PlayerName>?	Encore beaucoup de jour à gauche, à droite, <PlayerName>?	Еще много дней осталось, право, <PlayerName>?		それでも一日の多くは、<プレイヤー名>、右に左？
-Randomised/Midday Greeting 1_Response_003_000	Enjoy the rest of your day, <PlayerName>.	Profitez du reste de votre journée, <PlayerName>.	Наслаждайтесь оставшуюся часть дня, <PlayerName>.		<プレイヤー名>、あなたの日の残りをお楽しみください。
-Randomised/Midday Greeting 2_Intro_000	Ah, <PlayerName>! Keeping busy?þ	Ah, <PlayerName>! Rester occupé?þ	Ах, <PlayerName>! Сохраняя занят?þ		ああ、<プレイヤー名>！忙しいですか？þ
-Randomised/Midday Greeting 2_Response_003_000	Enjoy the rest of your day, <PlayerName>.	Profitez du reste de votre journée, <PlayerName>.	Наслаждайтесь оставшуюся часть дня, <PlayerName>.		<プレイヤー名>、あなたの日の残りをお楽しみください。
-Randomised/Midday Greeting 3_Intro_000	Good morning! Or is it the afternoon? <haha>	Bonjour! Ou est-ce l'après-midi? <Haha>	Доброе утро! Или это во второй половине дня? <Ха>		おはようございます！それとも午後のですか？ <笑>
-Randomised/Midday Greeting 3_Intro_001	Anyway, how are you <PlayerName>?	De toute façon, comment allez-vous <PlayerName>?	Во всяком случае, как вы <PlayerName>?		とにかく、どのように<プレイヤー名>はありますか？
-Randomised/Midday Greeting 3_Response_003_000	I should figure out what time it is! <PlayerName>.	Je figurât à quelle heure il est! <PlayerName>.	Я должен выяснить, какое время это! <PlayerName>.		私はそれが何であるかを時間を把握する必要があります！ <プレイヤー名>。
-Randomised/Midday Greeting 4_Intro_000	I’m tired already! <haha>	Je suis déjà fatigué! <Haha>	Я уже устал! <Ха>		私はすでに疲れています！ <笑>
-Randomised/Midday Greeting 4_Intro_001	How are you, <PlayerName>?	Comment êtes-vous, <PlayerName>?	Как вы, <PlayerName>?		どのようにして、<プレイヤー名>、ありますか？
-Randomised/Midday Greeting 4_Response_003_000	Maybe<PlayerName>.	Peut-être <PlayerName>.	Может быть, <PlayerName>.		たぶん<プレイヤー名>。
-Randomised/Midday Greeting 5_Intro_000	You know, this is my favourite time of day.	Vous savez, c'est mon moment préféré de la journée.	Вы знаете, это мое любимое время суток.		あなたが知っている、これはその日の私の好きな時間です。
-Randomised/Midday Greeting 5_Intro_001	How's things, <PlayerName>?	Comment sont des choses, <PlayerName>?	Как это вещи, <PlayerName>?		どのようなもの、<プレイヤー名>ですか？
-Randomised/Midday Greeting 5_Response_003_000	Catch you around then.	Attrapez autour de vous alors.	Поймать вокруг вас тогда.		あなたの周りをキャッチ。
-Randomised/Midday Greeting 6_Intro_000	There's not much fishing to be had around this time of day. The morning and the night are the best times!	Il n'y a pas beaucoup de pêche à eu autour de ce moment de la journée. Le matin et la nuit sont les meilleurs moments!	Там не так много рыболовный быть было в это время суток. Утром и вечером лучшие времена!		その日のこの頃持っていたことに多くの釣りはありません。朝と夜は最高の時間です！
-Randomised/Midday Greeting 6_Response_003_000	See ya.	À plus.	До встречи.		じゃあ。
-Randomised/Midday Greeting 7_Intro_000	It might be nice to sit under a shady tree this time of day...	Il pourrait être agréable de s'asseoir sous un arbre ce moment de la journée ...	Это может быть приятно сидеть под тенистым деревом это время суток ...		日陰の木の下で一日のこの時間を座っていいかもしれません...
-Randomised/Midday Greeting 7_Intro_001	Oh, <PlayerName>! Need something?	Oh, <PlayerName>! Besoin de quelque chose?	О, <PlayerName>! Нужно что-то?		ああ、<プレイヤー名>！何が必要ですか？
-Randomised/Midday Greeting 7_Response_003_000	Catch you around then.	Attrapez autour de vous alors.	Поймать вокруг вас тогда.		あなたの周りをキャッチ。
-Randomised/Morning Greeting 0_Intro_000	Oh, goodmorning <PlayerName>!	Oh, goodmorning <PlayerName>!	О, GoodMorning <PlayerName>!		ああ、おはようございます<プレイヤー名>！
-Randomised/Morning Greeting 0_Response_003_000	Have good day, okay?	Avoir une bonne journée, d'accord?	Иметь хороший день, хорошо?		大丈夫、良い日がありますか？
-Randomised/Morning Greeting 1_Intro_000	Oh, I just love a sunrise, don't you?	Oh, j'aime juste un lever de soleil, ne vous?	О, я просто люблю восход солнца, не так ли?		ああ、私は、日の出を愛し、あなたはそうではありませんか？
-Randomised/Morning Greeting 1_Intro_001	What's up <PlayerName>?	Quoi de neuf <PlayerName>?	Что до <PlayerName>?		<プレイヤー名>何までですか？
-Randomised/Morning Greeting 1_Response_003_000	Have good day, okay?	Avoir une bonne journée, d'accord?	Иметь хороший день, хорошо?		大丈夫、良い日がありますか？
-Randomised/Morning Greeting 2_Intro_000	Everything feels so fresh this morningþ!	Tout est si frais ce matinþ!	Все чувствует себя настолько новым утромþ!		すべては今朝とても新鮮に感じていますþ！
-Randomised/Morning Greeting 2_Intro_001	What can I do for you <PlayerName>?	Que puis-je faire pour vous <PlayerName>?	Что я могу сделать для вас <PlayerName>?		私は<プレイヤー名>あなたのために何ができますか？
-Randomised/Morning Greeting 2_Response_003_000	Enjoy your morning, <PlayerName>. <glee>	Profitez de votre matinée, <PlayerName>. <Glee>	Наслаждайтесь утром, <PlayerName>. <Ликования>		<プレイヤー名>、あなたの朝をお楽しみください。 <歓喜>
-Randomised/Morning Greeting 3_Intro_000	Oh, good morning, <PlayerName>. 	Oh, bonjour, <PlayerName>.	О, доброе утро, <PlayerName>.		ああ、おはよう、<プレイヤー名>。
-Randomised/Morning Greeting 3_Response_003_000	See you around. <PlayerName>!	À un de ces quatre. <PlayerName>!	Увидимся. <PlayerName>!		またね。 <プレイヤー名>！
-Randomised/Morning Greeting 4_Intro_000	Good morning <PlayerName>!	Bonjour <PlayerName>!	Доброе утро <PlayerName>!		<プレイヤー名>おはようございます！
-Randomised/Morning Greeting 4_Intro_001	You're up and about nice and early, as usual.	Vous êtes debout et agréable et tôt, comme d'habitude.	Вы и о Ницце и в начале, как обычно.		あなたは最高だし、素敵程度と早く、いつものように。
-Randomised/Morning Greeting 4_Response_003_000	Have fun, mate.þ	Amusez-vous, mon pote.þ	Удачи, приятель.þ		楽しみを持って、チームメイト。þ
-Randomised/Morning Greeting 5_Intro_000	Getting a nice and early start to your day, <PlayerName>! Good to see!	Obtenir une belle et au début de début de journée, <PlayerName>! Bon à voir!	Как красиво и раннее начало дня, <PlayerName>! Рад видеть!		<プレイヤー名>、あなたの日にいいと早期開始を取得！見て良いです！
-Randomised/Morning Greeting 5_Intro_001	Do you need something?	Avez-vous besoin de quelque chose?	Тебе нужно что-нибудь?		何か要りますか？
-Randomised/Morning Greeting 5_Response_003_000	Keep it up! <pumped>	Continue comme ça! <Pompé>	Так держать! <Закачивается>		がんばり続ける！ <汲み上げ>
-Randomised/Morning Greeting 6_Intro_000	Ah! <PlayerName>! What a beautiful morning.	Ah! <PlayerName>! Quel beau matin.	Ах! <PlayerName>! Какое прекрасное утро.		ああ！ <プレイヤー名>！どのような美しい朝。
-Randomised/Morning Greeting 6_Intro_001	Nothing like fresh air, beautiful scenery, and a whole day left!	Rien comme l'air frais, de beaux paysages, et une gauche journée!	Ничего, как свежий воздух, красивые пейзажи, и целый день слева!		新鮮な空気、美しい景色、そして一日のようなものは何も残っていません！
-Randomised/Morning Greeting 6_Response_003_000	Breath it all in! <haha>	Souffle tout en! <Haha>	Дыхание это все! <Ха>		ブレスそれがすべてで！ <笑>
-Randomised/Morning Greeting 7_Intro_000	Good morning, <PlayerName>.	Bonjour, <PlayerName>.	Доброе утро, <PlayerName>.		おはよう、<プレイヤー名>。
-Randomised/Morning Greeting 7_Intro_001	I'm not usually a morning person, but I'm up and about anyway.	Je ne suis pas habituellement une personne du matin, mais je suis et de toute façon.	Я обычно не утром человек, но я и о любом случае.		私は通常、朝の人ではないんだけど、私はとにかくアップし、約です。
-Randomised/Morning Greeting 7_Response_003_000	Maybe I should head to bed <haha>	Peut-être que je devrais la tête au lit <haha>	Может быть, я должен направиться спать <ха>		たぶん私はベッドに向かうべきです<笑>
-Randomised/Morning Greeting 8_Intro_000	Here I was thinking my morning couldn't get better, when who do I see but <PlayerName>!	Ici, je pensais mon matin ne pouvait pas mieux, quand je vois qui ne mais <PlayerName>!	Здесь я думал, мое утро не может стать лучше, когда кто я вижу, но <PlayerName>!		ここで私は良く得ることができなかった私の朝を考えていた、とき、私は見たが、<プレイヤー名>ない人！
-Randomised/Morning Greeting 8_Intro_001	Is there something I can do for you?	Y at-il quelque chose que je peux faire pour vous?	Есть ли что-то я могу сделать для вас?		私はあなたのために行うことができるものはありますか？
-Randomised/Morning Greeting 8_Response_003_000	Thanks for brightening up my morning!	Merci pour égayer ma matinée!	Спасибо за просияв мое утро!		私の朝を明るくしてくれてありがとう！
-Randomised/Morning Greeting 9_Intro_000	Morning, <PlayerName>.	Matin, <PlayerName>.	Утро, <PlayerName>.		朝、<プレイヤー名>。
-Randomised/Morning Greeting 9_Intro_001	I'm still a little sleepy! I don't think I got enough rest last night.	Je suis encore un peu endormi! Je ne pense pas que je suis arrivé assez de repos hier soir.	Я все еще немного сонный! Я не думаю, что прошлой ночью я получил достаточно отдыха.		私はまだ少し眠いです！私は昨夜十分な休息を得たとは思いません。
-Randomised/Morning Greeting 9_Intro_002	What brings you 	Qu'est-ce que vous apporte	Что привело вас		あなたは何をもたらします
-Randomised/Morning Greeting 9_Response_003_000	See you around, I guess.	Rendez-vous autour, je suppose.	Увидимся, я думаю.		あなたの周りを参照してください、私は推測します。
-Randomised/Night_Greeting 0_Intro_000	<PlayerName>! Burning that midnight oil, I see.  	<PlayerName>! La combustion que l'huile de minuit, je vois.	<PlayerName>! Жжение, что допоздна, я вижу.		<プレイヤー名>！その真夜中の油を燃やし、私が参照してください。
-Randomised/Night_Greeting 0_Response_003_000	Good night!	Bonne nuit!	Спокойной ночи!		おやすみ！
-Randomised/Night_Greeting 1_Intro_000	Never enough time in the day, is there?þ	Jamais assez de temps dans la journée, est-il?þ	Никогда не хватает времени в день, не существует?þ		日中決して十分な時間が、ありますか？þ
-Randomised/Night_Greeting 1_Response_003_000	See you tomorrow, maybe?	Rendez-vous demain, peut-être?	Увидимся завтра, может быть?		多分、明日お会いしましょうか？
-Randomised/Night_Greeting 2_Intro_000	Everything's so mysterious in the dark…þþ	Tout est si mystérieux dans l'obscurité ...þþ	Все это так таинственно в темноте ...þþ		すべてが暗闇の中でとても神秘的です...þþ
-Randomised/Night_Greeting 2_Intro_001	Even our little town! <haha>	Même notre petite ville! <Haha>	Даже наш маленький город! <Ха>		でも、私たちの小さな町！ <笑>
-Randomised/Night_Greeting 2_Response_003_000	Night!	Nuit!	Ночь!		夜！
-Randomised/Night_Greeting 3_Intro_000	It's dark already.	Il est déjà sombre.	Это уже темно.		それはもう暗いです。
-Randomised/Night_Greeting 3_Response_003_000	See you!	À bientôt!	Увидимся!		またね！
-Randomised/Night_Greeting 4_Intro_000	Some scary things come out at night!	Certaines choses effrayantes sortent la nuit!	Некоторые страшные вещи выходят ночью!		いくつか怖いものは夜に出てきます！
-Randomised/Night_Greeting 4_Response_003_000	Stay safe, please <Playername>.	Rester en sécurité, s'il vous plaît <Playername>.	Оставайтесь в безопасности, пожалуйста, <Playername>.		してください<プレイヤー名>、安全に滞在。
-Randomised/Night_Greeting 5_Intro_000	The stars are so pretty tonight!	Les étoiles sont si jolies ce soir!	Звезды так мила сегодня!		星がとてもきれい今夜です！
-Randomised/Night_Greeting 5_Response_003_000	I wonder what kind of 	Je me demande quel genre de	Интересно, какого рода		私は不思議どのような種類の
-Randomised/Night_Greeting 6_Intro_000	Oh, <PlayerName>. You're out late, aren't you?	Oh, <PlayerName>. Vous êtes à la fin, n'êtes-vous pas?	О, <PlayerName>. Вы поздно, не так ли?		ああ、<プレイヤー名>。あなたは、遅くはないされていますか？
-Randomised/Night_Greeting 6_Response_003_000	Maybe 	Peut-être	Может быть		多分
+Randomised/Hot_Greeting 0_Intro_000	G'day, <PlayerName>. Phewh! It's so hot already!				
+Randomised/Hot_Greeting 0_Response_003_000	See you around! <wave>				
+Randomised/Hot_Greeting 1_Intro_000	Oh, <PlayerName>. How are you handling this heat?				
+Randomised/Hot_Greeting 1_Intro_001	I'm so hot it feels like you could fry an egg on my head.				
+Randomised/Hot_Greeting 1_Response_003_000	Stay cool if you can! <wave>				
+Randomised/Hot_Greeting 10_Intro_000	<PlayerName>. How things going? Keeping cool I hope!				
+Randomised/Hot_Greeting 10_Response_003_000	See you later. <wave>				
+Randomised/Hot_Greeting 2_Intro_000	Hey <PlayerName>. Is it just me or is it really hot today?				
+Randomised/Hot_Greeting 2_Response_003_000	I don't think its just me.				
+Randomised/Hot_Greeting 3_Intro_000	It's so hot, <PlayerName>. Like, how does it even get this hot?				
+Randomised/Hot_Greeting 3_Intro_001	Did you want something?				
+Randomised/Hot_Greeting 3_Response_003_000	A bit of a breeze wouldn't go to bad right 				
+Randomised/Hot_Greeting 4_Intro_000	Hello, <PlayerName>. Feels like it's going to be a scorcher today.				
+Randomised/Hot_Greeting 4_Intro_001	How's things?				
+Randomised/Hot_Greeting 4_Response_003_000	I'm going to try and keep cool.				
+Randomised/Hot_Greeting 5_Intro_000	<PlayerName>. This heat. Not good. I'm sweating already.				
+Randomised/Hot_Greeting 5_Intro_001	Oh, sorry did you have something to say?				
+Randomised/Hot_Greeting 5_Response_003_000	Keep it cool, <PlayerName>.				
+Randomised/Hot_Greeting 6_Intro_000	<PlayerName>! I hope you're keeping cool.				
+Randomised/Hot_Greeting 6_Response_003_000	I hope it cools down for all of us soon.				
+Randomised/Hot_Greeting 7_Intro_000	It's a hot one today, <PlayerName>. <haha>				
+Randomised/Hot_Greeting 7_Intro_001	What's happening?				
+Randomised/Hot_Greeting 7_Response_003_000	I hope it cools down soon. <wave>				
+Randomised/Hot_Greeting 8_Intro_000	Are you hot, <PlayerName>? I'm hot.				
+Randomised/Hot_Greeting 8_Intro_001	Oh, sorry, did you need something?				
+Randomised/Hot_Greeting 8_Response_003_000	See you later. <wave>				
+Randomised/Hot_Greeting 9_Intro_000	What brings <PlayerName> here on this hot, hot day?				
+Randomised/Hot_Greeting 9_Response_003_000	See you later. <wave>				
+Randomised/Midday Greeting 0_Intro_000	Things are really starting to shape up around here, huh?				
+Randomised/Midday Greeting 0_Response_003_000	Keep up the good work, <PlayerName>.				
+Randomised/Midday Greeting 1_Intro_000	Still a lot of day left, right, <PlayerName>?				
+Randomised/Midday Greeting 1_Response_003_000	Enjoy the rest of your day, <PlayerName>.				
+Randomised/Midday Greeting 2_Intro_000	Ah, <PlayerName>! Keeping busy?þ				
+Randomised/Midday Greeting 2_Response_003_000	Enjoy the rest of your day, <PlayerName>.				
+Randomised/Midday Greeting 3_Intro_000	Good morning! Or is it the afternoon? <haha>				
+Randomised/Midday Greeting 3_Intro_001	Anyway, how are you <PlayerName>?				
+Randomised/Midday Greeting 3_Response_003_000	I should figure out what time it is! <PlayerName>.				
+Randomised/Midday Greeting 4_Intro_000	I’m tired already! <haha>				
+Randomised/Midday Greeting 4_Intro_001	How are you, <PlayerName>?				
+Randomised/Midday Greeting 4_Response_003_000	Maybe<PlayerName>.				
+Randomised/Midday Greeting 5_Intro_000	You know, this is my favourite time of day.				
+Randomised/Midday Greeting 5_Intro_001	How's things, <PlayerName>?				
+Randomised/Midday Greeting 5_Response_003_000	Catch you around then.				
+Randomised/Midday Greeting 6_Intro_000	There's not much fishing to be had around this time of day. The morning and the night are the best times!				
+Randomised/Midday Greeting 6_Response_003_000	See ya.				
+Randomised/Midday Greeting 7_Intro_000	It might be nice to sit under a shady tree this time of day...				
+Randomised/Midday Greeting 7_Intro_001	Oh, <PlayerName>! Need something?				
+Randomised/Midday Greeting 7_Response_003_000	Catch you around then.				
+Randomised/Morning Greeting 0_Intro_000	Oh, goodmorning <PlayerName>!				
+Randomised/Morning Greeting 0_Response_003_000	Have good day, okay?				
+Randomised/Morning Greeting 1_Intro_000	Oh, I just love a sunrise, don't you?				
+Randomised/Morning Greeting 1_Intro_001	What's up <PlayerName>?				
+Randomised/Morning Greeting 1_Response_003_000	Have good day, okay?				
+Randomised/Morning Greeting 2_Intro_000	Everything feels so fresh this morningþ!				
+Randomised/Morning Greeting 2_Intro_001	What can I do for you <PlayerName>?				
+Randomised/Morning Greeting 2_Response_003_000	Enjoy your morning, <PlayerName>. <glee>				
+Randomised/Morning Greeting 3_Intro_000	Oh, good morning, <PlayerName>. 				
+Randomised/Morning Greeting 3_Response_003_000	See you around. <PlayerName>!				
+Randomised/Morning Greeting 4_Intro_000	Good morning <PlayerName>!				
+Randomised/Morning Greeting 4_Intro_001	You're up and about nice and early, as usual.				
+Randomised/Morning Greeting 4_Response_003_000	Have fun, mate.þ				
+Randomised/Morning Greeting 5_Intro_000	Getting a nice and early start to your day, <PlayerName>! Good to see!				
+Randomised/Morning Greeting 5_Intro_001	Do you need something?				
+Randomised/Morning Greeting 5_Response_003_000	Keep it up! <pumped>				
+Randomised/Morning Greeting 6_Intro_000	Ah! <PlayerName>! What a beautiful morning.				
+Randomised/Morning Greeting 6_Intro_001	Nothing like fresh air, beautiful scenery, and a whole day left!				
+Randomised/Morning Greeting 6_Response_003_000	Breath it all in! <haha>				
+Randomised/Morning Greeting 7_Intro_000	Good morning, <PlayerName>.				
+Randomised/Morning Greeting 7_Intro_001	I'm not usually a morning person, but I'm up and about anyway.				
+Randomised/Morning Greeting 7_Response_003_000	Maybe I should head to bed <haha>				
+Randomised/Morning Greeting 8_Intro_000	Here I was thinking my morning couldn't get better, when who do I see but <PlayerName>!				
+Randomised/Morning Greeting 8_Intro_001	Is there something I can do for you?				
+Randomised/Morning Greeting 8_Response_003_000	Thanks for brightening up my morning!				
+Randomised/Morning Greeting 9_Intro_000	Morning, <PlayerName>.				
+Randomised/Morning Greeting 9_Intro_001	I'm still a little sleepy! I don't think I got enough rest last night.				
+Randomised/Morning Greeting 9_Intro_002	What brings you 				
+Randomised/Morning Greeting 9_Response_003_000	See you around, I guess.				
+Randomised/Night_Greeting 0_Intro_000	<PlayerName>! Burning that midnight oil, I see.  				
+Randomised/Night_Greeting 0_Response_003_000	Good night!				
+Randomised/Night_Greeting 1_Intro_000	Never enough time in the day, is there?þ				
+Randomised/Night_Greeting 1_Response_003_000	See you tomorrow, maybe?				
+Randomised/Night_Greeting 2_Intro_000	Everything's so mysterious in the dark…þþ				
+Randomised/Night_Greeting 2_Intro_001	<haha>Even our little town!				
+Randomised/Night_Greeting 2_Response_003_000	Night!				
+Randomised/Night_Greeting 3_Intro_000	It's dark already.				
+Randomised/Night_Greeting 3_Response_003_000	See you!				
+Randomised/Night_Greeting 4_Intro_000	Some scary things come out at night!				
+Randomised/Night_Greeting 4_Response_003_000	Stay safe, please <PlayerName>.				
+Randomised/Night_Greeting 5_Intro_000	The stars are so pretty tonight!				
+Randomised/Night_Greeting 5_Response_003_000	I wonder what kind of 				
+Randomised/Night_Greeting 6_Intro_000	Oh, <PlayerName>. You're out late, aren't you?				
+Randomised/Night_Greeting 6_Response_003_000	Maybe 				
 Randomised/OfferABalloon_Intro_000	Oh, here you go <PlayerName>.þ				
 Randomised/OfferABalloon_Intro_001	<yes>You looked like you needed a <itemName>.				
 Randomised/OfferABalloon_Intro_002	Go have some fun.				
@@ -3806,38 +4470,38 @@ Randomised/RandomConvo_026_Intro_002	<glee>Guess what I found?
 Randomised/RandomConvo_026_Intro_003	<pumped>It was a <itemName>!				
 Randomised/RandomConvo_027_Intro_000	Have you done any cooking at a <itemName>.				
 Randomised/RandomConvo_027_Intro_001	There are some great meals you can make there!				
-Randomised/Storming_Greeting 0_Intro_000	It’s raining buckets! Buckets!þ	Il est des seaux de pluie! Seaux!þ	Идет дождь ведрами! Ковши!þ		バケツを雨です！バケツ！þ
-Randomised/Storming_Greeting 0_Response_003_000	Stay safe. <wave>	Être prudent. <Vague>	Оставайтесь в безопасности. <Волна>		おげんきで。 <波>
-Randomised/Storming_Greeting 1_Intro_000	Oh jeeze. Nature can be pretty scary sometimes, huh?þ	Oh jeeze. La nature peut parfois être assez effrayant, hein?þ	О jeeze. Природа может быть довольно страшно иногда, да?þ		jeezeああ。自然はね、かなり怖い時々することができますか？þ
-Randomised/Storming_Greeting 1_Response_003_000	Watch out of lightning! <wave>	Méfiez-vous de la foudre! <Vague>	Остерегайтесь молнии! <Волна>		雷の気をつけろ！ <波>
-Randomised/Storming_Greeting 2_Intro_000	Storms like this make me want to shout!þ	Les tempêtes comme ça me donnent envie de crier!þ	Штормы, как это мне хочется кричать!þ		このような嵐は私が叫びたくなります！þ
-Randomised/Storming_Greeting 2_Response_003_000	AHHHHH!! <angry>	AHHHHH !! <Colère>	Ahhhhh !! <Сердится>		AHHHHH !! <怒り>
-Randomised/Storming_Greeting 3_Intro_000	Thunder is fine. Lightning scares the bejebus out of me.	Tonnerre est très bien. La foudre fait peur le bejebus de moi.	Гром в порядке. Молния пугает bejebus из меня.		サンダーは、罰金です。雷は私の外にbejebusをおびえさせます。
-Randomised/Storming_Greeting 3_Response_003_000	Take care! <wave>	Prends soin de toi! <Vague>	Заботиться! <Волна>		世話をする！ <波>
-Randomised/Storming_Greeting 4_Intro_000	I've heard that lighting can sometimes leave a thunder egg.	Je l'ai entendu dire que l'éclairage peut parfois laisser un œuf de tonnerre.	Я слышал, что освещение может иногда оставить гром яйцо.		私は照明がときどき雷の卵を残すことができると聞きました。
-Randomised/Storming_Greeting 4_Response_003_000	I wonder what they look like?	Je me demande à quoi ils ressemblent?	Интересно, на что они похожи?		私は、彼らがどのように見えますかな？
-Randomised/Storming_Greeting 5_Intro_000	Sometimes you can have too much rain, you know?	Parfois, vous pouvez avoir trop de pluie, vous savez?	Иногда вы можете иметь слишком много дождя, вы знаете?		時には、あなたはあまりにも多くの雨を持つことができ、あなたは知っていますか？
-Randomised/Storming_Greeting 5_Response_003_000	Like right now! Too much rain! <wave>	Comme maintenant! Trop de pluie! <Vague>	Как прямо сейчас! Слишком много дождя! <Волна>		今のように！あまりにも多くの雨！ <波>
-Randomised/Storming_Greeting 6_Intro_000	Storming all day today I reckon.	Storming toute la journée aujourd'hui, je pense.	Storming весь день сегодня я считаю.		一日中、私は数える今日襲撃。
-Randomised/Storming_Greeting 6_Response_003_000	Might be nice to stay  <wave>	Peut-être agréable de séjour <vague>	Может быть приятно пребывания <волна>		滞在するのもいいかもしれない<波>
-Randomised/Storming_Greeting 7_Intro_000	Thunder. Lightning. Yep. That's a storm alright! <haha>	Tonnerre. Éclair. Ouais. C'est un bien de tempête! <Haha>	Гром. Молния. Ага. Это буря в порядке! <Ха>		サンダー。ライトニング。うん。それは嵐大丈夫です！ <笑>
-Randomised/Storming_Greeting 7_Response_003_000	Maybe we should try and stay indoors?	Peut-être que nous devrions essayer de rester à l'intérieur?	Может быть, мы должны попытаться остаться в помещении?		多分、我々は試してみて、屋内に滞在する必要がありますか？
-Randomised/Storming_Greeting 8_Intro_000	Maybe we should try and stay indoors? Weather like this can be dangerous.	Peut-être que nous devrions essayer de rester à l'intérieur? Météo comme cela peut être dangereux.	Может быть, мы должны попытаться остаться в помещении? Погода, как это может быть опасно.		多分、我々は試してみて、屋内に滞在する必要がありますか？このような天気は危険なことができます。
-Randomised/Storming_Greeting 8_Response_003_000	Good luck?	Bonne chance?	Удачи?		がんばろう？
-Randomised/Windy_Greeting 0_Intro_000	I love windy days.	J'adore les jours venteux.	Я люблю ветреные дни.		私は風の強い日が大好きです。
-Randomised/Windy_Greeting 0_Intro_001	How are you, <PlayerName>?	Comment êtes-vous, <PlayerName>?	Как вы, <PlayerName>?		どのようにして、<プレイヤー名>、ありますか？
-Randomised/Windy_Greeting 0_Response_003_000	See you around! <wave>	À un de ces quatre! <Vague>	Увидимся! <Волна>		またね！ <波>
-Randomised/Windy_Greeting 1_Intro_000	Gotta love that breeze!	Vous allez aimer ce jeu d'enfant!	Должен любить этот ветер!		お奨めは、その風が大好き！
-Randomised/Windy_Greeting 1_Response_003_000	Bye! <wave>	Au revoir! <Vague>	До свидания! <Волна>		さようなら！ <波>
-Randomised/Windy_Greeting 2_Intro_000	What a nice breezy day!	Quelle belle journée de Breezy!	Какой приятный свежий день!		どのような素敵なさわやかな一日！
-Randomised/Windy_Greeting 2_Response_003_000	Catch you on the breeze! <wave>	Catch-vous sur la brise! <Vague>	Поймать вас на ветер! <Волна>		風にあなたをキャッチ！ <波>
-Randomised/Windy_Greeting 3_Intro_000	A little windy, but still a lovely day.	Un peu de vent, mais encore une belle journée.	Немного ветрено, но все-таки прекрасный день.		少し風が強いが、それでも素敵な一日。
-Randomised/Windy_Greeting 3_Intro_001	Do you need something?	Avez-vous besoin de quelque chose?	Тебе нужно что-нибудь?		何か要りますか？
-Randomised/Windy_Greeting 3_Response_003_000	See you around, <PlayerName>. <wave>	Voir autour de vous, <PlayerName>. <Vague>	Увидимся, <PlayerName>. <Волна>		<プレイヤー名>、あなたの周りを参照してください。 <波>
-Randomised/Windy_Greeting 4_Intro_000	Who doesn't like a cool breeze?	Qui n'aime pas une brise fraîche?	Кто не любит прохладный ветерок?		誰が涼しい風を好きではありませんか？
-Randomised/Windy_Greeting 4_Response_003_000	Bye bye. <wave>	Bye Bye. <Vague>	Пока-пока. <Волна>		バイバイ。 <波>
-Randomised/Windy_Greeting 5_Intro_000	Has the wind ruined my hair?	Est-ce que le vent ruiné mes cheveux?	Был ли ветер разрушил мои волосы?		風が私の髪を台無しにしていますか？
-Randomised/Windy_Greeting 5_Response_003_000	Maybe the wind will fix it then? <haha>	Peut-être que le vent va fixer alors? <Haha>	Может быть, ветер будет исправить это тогда? <Ха>		たぶん風がそれを修正するのだろうか？ <笑>
+Randomised/Storming_Greeting 0_Intro_000	It’s raining buckets! Buckets!þ				
+Randomised/Storming_Greeting 0_Response_003_000	Stay safe. <wave>				
+Randomised/Storming_Greeting 1_Intro_000	Oh jeeze. Nature can be pretty scary sometimes, huh?þ				
+Randomised/Storming_Greeting 1_Response_003_000	Watch out of lightning! <wave>				
+Randomised/Storming_Greeting 2_Intro_000	Storms like this make me want to shout!þ				
+Randomised/Storming_Greeting 2_Response_003_000	AHHHHH!! <angry>				
+Randomised/Storming_Greeting 3_Intro_000	Thunder is fine. Lightning scares the bejebus out of me.				
+Randomised/Storming_Greeting 3_Response_003_000	Take care! <wave>				
+Randomised/Storming_Greeting 4_Intro_000	I've heard that lighting can sometimes leave a thunder egg.				
+Randomised/Storming_Greeting 4_Response_003_000	I wonder what they look like?				
+Randomised/Storming_Greeting 5_Intro_000	Sometimes you can have too much rain, you know?				
+Randomised/Storming_Greeting 5_Response_003_000	Like right now! Too much rain! <wave>				
+Randomised/Storming_Greeting 6_Intro_000	Storming all day today I reckon.				
+Randomised/Storming_Greeting 6_Response_003_000	Might be nice to stay  <wave>				
+Randomised/Storming_Greeting 7_Intro_000	Thunder. Lightning. Yep. That's a storm alright! <haha>				
+Randomised/Storming_Greeting 7_Response_003_000	Maybe we should try and stay indoors?				
+Randomised/Storming_Greeting 8_Intro_000	Maybe we should try and stay indoors? Weather like this can be dangerous.				
+Randomised/Storming_Greeting 8_Response_003_000	Good luck?				
+Randomised/Windy_Greeting 0_Intro_000	I love windy days.				
+Randomised/Windy_Greeting 0_Intro_001	How are you, <PlayerName>?				
+Randomised/Windy_Greeting 0_Response_003_000	See you around! <wave>				
+Randomised/Windy_Greeting 1_Intro_000	Gotta love that breeze!				
+Randomised/Windy_Greeting 1_Response_003_000	Bye! <wave>				
+Randomised/Windy_Greeting 2_Intro_000	What a nice breezy day!				
+Randomised/Windy_Greeting 2_Response_003_000	Catch you on the breeze! <wave>				
+Randomised/Windy_Greeting 3_Intro_000	A little windy, but still a lovely day.				
+Randomised/Windy_Greeting 3_Intro_001	Do you need something?				
+Randomised/Windy_Greeting 3_Response_003_000	See you around, <PlayerName>. <wave>				
+Randomised/Windy_Greeting 4_Intro_000	Who doesn't like a cool breeze?				
+Randomised/Windy_Greeting 4_Response_003_000	Bye bye. <wave>				
+Randomised/Windy_Greeting 5_Intro_000	Has the wind ruined my hair?				
+Randomised/Windy_Greeting 5_Response_003_000	Maybe the wind will fix it then? <haha>				
 RandomisedComments/CharacterInTentComment_000_Intro_000	I went in and had a chat to <marketPlaceNPCName> in the tent at the Visitor's Site. 				
 RandomisedComments/CharacterInTentComment_000_Intro_001	<shy>I might have given them a hint that they should move here for real!.				
 RandomisedComments/CharacterInTentComment_001_Intro_000	<marketPlaceNPCName> is visiting today!				
@@ -4066,15 +4730,15 @@ RandomisedRequests/RequestSellingItemNotEnoughMoney_001_Response_000_001	Maybe c
 RandomisedRequests/RequestSellingItemNotEnoughMoney_001_Response_001_000	<shy>Was the price too high?				
 Shopping/AlreadyKnowRecipe_Intro_000	Oh, that's a crafting recipe for <buyItemName>.				
 Shopping/AlreadyKnowRecipe_Intro_001	I've already taught you that recipe!				
-Shopping/AskAboutAnimal_Intro_000	Oh! That's a <buyItemName>.	Oh! C'est un <buyItemName>.	Ой! Это <buyItemName>.		ああ！それは、A <buyItemName>です。
-Shopping/AskAboutAnimal_Intro_001	Shes a cutie, right?	Shes un cutie, non?	Shes милашка, верно?		シーズキューティー、右？
-Shopping/AskAboutAnimal_Intro_002	If you've got a good home for her, she's all yours for <buyItemPrice>.	Si vous avez une bonne maison pour elle, elle est tout à vous pour <buyItemPrice>.	Если у вас есть хороший дом для нее, она все твое для <buyItemPrice>.		あなたが彼女のために良い家庭を持っていれば、彼女は<buyItemPrice>のためにすべてのあなたです。
-Shopping/AskAboutAnimal_Option_000	I'll give her a home.	Je vais lui donner une maison.	Я дам ей дом.		私は彼女の家を与えるでしょう。
-Shopping/AskAboutAnimal_Option_001	No thanks.	Non merci.	Спасибо, не надо.		結構です。
-Shopping/AskAboutAnimal_Response_000_000	Oh great!<pumped>	Oh génial! <Pompé>	О великий! <Закачивается>		偉大なああ！<汲み上げ>
-Shopping/AskAboutAnimal_Response_000_001	<glee>Now, I think we should give her a name?	<glee>Maintenant, je pense que nous devrions lui donner un nom ?	<glee> Теперь, я думаю, мы должны дать ей имя?	<glee>现在，我想我们应该给她起个名字？	<グリー>さて、彼女に名前を付けるべきだと思いますか？
-Shopping/AskAboutAnimal_Response_001_000	That's okay! I'm sure she'll find a home soon! <yes>	C'est bon! Je suis sûr qu'elle va trouver une maison bientôt! <Oui>	Это нормально! Я уверен, что она будет найти дом в ближайшее время! <Да>		大丈夫！私は彼女がすぐに家を見つけることができます確信しています！ <はい>
-Shopping/AskAboutBoomBox_Intro_000	Oh, thats my <buyItemName>.				
+Shopping/AskAboutAnimal_Intro_000	Oh! That's a <buyItemName>.				
+Shopping/AskAboutAnimal_Intro_001	Shes a cutie, right?				
+Shopping/AskAboutAnimal_Intro_002	If you've got a good home for her, she's all yours for <buyItemPrice>.				
+Shopping/AskAboutAnimal_Option_000	I'll give her a home.				
+Shopping/AskAboutAnimal_Option_001	No thanks.				
+Shopping/AskAboutAnimal_Response_000_000	Oh great!<pumped>				
+Shopping/AskAboutAnimal_Response_000_001	<glee>Now, I think we should give her a name?				
+Shopping/AskAboutAnimal_Response_001_000	That's okay! I'm sure she'll find a home soon! <yes>				
+Shopping/AskAboutBoomBox_Intro_000					
 Shopping/AskAboutBoomBox_Intro_001	It's a family heirloom. One of a kind.				
 Shopping/AskAboutBoomBox_Intro_002	<no>I couldn't possibly part with it.				
 Shopping/AskAboutBoomBox_Intro_003	<thinking>Unless...				
@@ -4085,14 +4749,14 @@ Shopping/AskAboutBoomBox_Response_000_000	<yes>You've talked me into it, <Player
 Shopping/AskAboutBoomBox_Response_000_001	<boohoo>Please take good care of it.				
 Shopping/AskAboutBoomBox_Response_001_000	That's okay, <PlayerName>.				
 Shopping/AskAboutBoomBox_Response_001_001	<shy>I don't know if I really could have sold it anyway...				
-Shopping/AskAboutBoomBox_Response_001_002					
-Shopping/AskAboutItem_Intro_000	Oh, thats a <buyItemName>.	Oh, thats un <buyItemName>.	О, то будет <buyItemName>.		ああ、ザッツA <buyItemName>。
-Shopping/AskAboutItem_Intro_001	<buyItemDescription>	<BuyItemDescription>	<BuyItemDescription>		<buyItemDescription>
-Shopping/AskAboutItem_Intro_002	That will be <buyItemPrice>?	Ce sera <buyItemPrice>?	Это будет <buyItemPrice>?		それは<buyItemPrice>でしょうか？
-Shopping/AskAboutItem_Option_000	I'll take it!	Je le prends!	Я возьму это!		買います！
-Shopping/AskAboutItem_Option_001	No thanks.	Non merci.	Спасибо, не надо.		結構です。
-Shopping/AskAboutItem_Response_000_000	Very good! <yes>	Très bien! <Oui>	Отлично! <Да>		とても良い！ <はい>
-Shopping/AskAboutItem_Response_001_000	No worries! Feel free to ask about any of our products. <glee>	Pas de soucis! Ne hésitez pas à poser des questions sur l'un de nos produits. <Glee>	Без проблем! Не стесняйтесь спрашивать о любом из наших продуктов. <Ликования>		心配ない！当社の製品のいずれかについて尋ねること自由に感じ。 <歓喜>
+Shopping/AskAboutBoomBox_Response_001_002	Like I said, it's one of a kind...				
+Shopping/AskAboutItem_Intro_000					
+Shopping/AskAboutItem_Intro_001	<buyItemDescription>				
+Shopping/AskAboutItem_Intro_002	That will be <buyItemPrice>?				
+Shopping/AskAboutItem_Option_000	I'll take it!				
+Shopping/AskAboutItem_Option_001	No thanks.				
+Shopping/AskAboutItem_Response_000_000	Very good! <yes>				
+Shopping/AskAboutItem_Response_001_000	No worries! Feel free to ask about any of our products. <glee>				
 Shopping/AskAboutKeys_Intro_000	Oh, those are my special and super rare keys.				
 Shopping/AskAboutKeys_Intro_001	You won't find a better price for these puppies.				
 Shopping/AskAboutKeys_Intro_002	I'm practically giving them away at <buyItemPrice> for a pack of 5.				
@@ -4108,41 +4772,52 @@ Shopping/AskAboutRecipe_Intro_001	I can teach you how to craft <buyItemName> for
 Shopping/AskAboutRecipe_Option_000	Teach me!				
 Shopping/AskAboutRecipe_Option_001	No thanks.				
 Shopping/AskAboutRecipe_Response_000_000	Alright! <yes>				
-Shopping/AskAboutRecipe_Response_001_000					
+Shopping/AskAboutRecipe_Response_001_000	Not a problem.				
 Shopping/AskAboutSeeds_Intro_000	Oh, those are <buyItemName>.				
 Shopping/AskAboutSeeds_Intro_001	<buyItemDescription>				
 Shopping/AskAboutSeeds_Intro_002	They are <buyItemPrice> each. Interested?				
 Shopping/AskAboutSeeds_Option_000	I'll take it!				
 Shopping/AskAboutSeeds_Option_001	No thanks.				
 Shopping/AskAboutSeeds_Response_000_000	Very good! <yes>				
-Shopping/AskAboutSeeds_Response_001_000					
-Shopping/CancelAnimalBuy_Intro_000	Changed your mind?	As changé d'avis?	Вы передумали?		あなたの心を変更しましたか？
-Shopping/CancelAnimalBuy_Intro_001	That's okay. I'm sure she'll find a home soon. <yes>	C'est bon. Je suis sûr qu'elle va trouver une maison bientôt. <Oui>	Это нормально. Я уверен, что она будет найти дом в ближайшее время. <Да>		大丈夫。私は彼女が家をすぐに見つけることができます確信しています。 <はい>
-Shopping/HasEnoughMoneyToBuy_Intro_000	There you are! Thanks for your purchase!	Te voilà! Merci pour votre achat!	Вот ты где! Спасибо за покупку!	你在这！谢谢你的惠顾！	あります！ご購入いただきありがとうございます！
+Shopping/AskAboutSeeds_Response_001_000	No worries! Feel free to ask about any of our products. <glee>				
+Shopping/CancelAnimalBuy_Intro_000	Changed your mind?				
+Shopping/CancelAnimalBuy_Intro_001	That's okay. I'm sure she'll find a home soon. <yes>				
+Shopping/HasEnoughMoneyToBuy_Intro_000	There you are! Thanks for your purchase!				
 Shopping/NeedLicence_Intro_000	Oh, that's a <buyItemName>.				
 Shopping/NeedLicence_Intro_001	Unfortunately I can't sell you this until you have a <licenceType> licence.<no>				
-Shopping/NeedLicence_Intro_002					
-Shopping/NoSpaceInInvToBuy_Intro_000	OH! <shocked>	OH! <Choqué>	ОЙ! <Шокировал>		ああ！ <ショック>
-Shopping/NoSpaceInInvToBuy_Intro_001	It seems like you've got your pockets full!	Il semble que vous avez vos poches pleines!	Похоже, что у вас есть ваши полные карманы!		あなたはあなたのポケットがいっぱい持っているようです！
-Shopping/NoSpaceInInvToBuy_Intro_002	Why don't you come back when you aren't carrying as much! <haha>	Pourquoi ne pas vous revenez quand vous ne portez pas autant! <Haha>	Почему бы вам не вернуться, когда вы не несете столько! <Ха>		あなたは限り運んされていないのに、なぜあなたは戻ってきません！ <笑>
+Shopping/NeedLicence_Intro_002	Come back and see me once you do!<yes>				
+Shopping/NoSpaceInInvToBuy_Intro_000	OH! <shocked>				
+Shopping/NoSpaceInInvToBuy_Intro_001	It seems like you've got your pockets full!				
+Shopping/NoSpaceInInvToBuy_Intro_002	Why don't you come back when you aren't carrying as much! <haha>				
 Shopping/NotEnoughMoneyToBuy_Intro_000	Oh... It seems you can't afford that right now. <shy>				
 Shopping/SomethingToSell_Intro_000	<thinking>Let's see...				
 Shopping/SomethingToSell_Intro_001	All up, I can offer you <$>?				
 Shopping/SomethingToSell_Option_000	Sounds good!				
 Shopping/SomethingToSell_Option_001	No thanks.				
+Shopping/SomethingToSell_RaffleTickets_Intro_000	<thinking>Let's see...				
+Shopping/SomethingToSell_RaffleTickets_Intro_001	All up, I can offer you <$>?				
+Shopping/SomethingToSell_RaffleTickets_Option_000	Sounds good!				
+Shopping/SomethingToSell_RaffleTickets_Option_001	No thanks.				
+Shopping/SomethingToSell_RaffleTickets_Response_000_000	Very good! I'll take these items and here is your <$>.				
+Shopping/SomethingToSell_RaffleTickets_Response_000_001	Oh and I believe I owe you <ticketAmount>.þ				
+Shopping/SomethingToSell_RaffleTickets_Response_000_002	You’ll get one <itemName> for each fish you sell me.þ				
+Shopping/SomethingToSell_RaffleTickets_Response_000_003	Don’t forget to check out the green prize box to see what your <itemName> can get you.				
+Shopping/SomethingToSell_RaffleTickets_Response_001_000	That's fine, mate.				
+Shopping/SomethingToSell_RaffleTickets_Response_001_001	I'll just give you your stuff back.				
+Shopping/SomethingToSell_RaffleTickets_Response_001_002					
 Shopping/SomethingToSell_Response_000_000	Very good! I'll take these items and here is your <$> .				
 Shopping/SomethingToSell_Response_000_001	Thank you for visiting John's Goods! <yes>				
 Shopping/SomethingToSell_Response_001_000	That's fine, mate.				
 Shopping/SomethingToSell_Response_001_001	I'll just give you your stuff back.				
 Shopping/SomethingToSell_Response_001_002	Thank you for visiting John's Goods! <yes>				
-Shopping/TotalEqualsZero_Intro_000	All right... Lets see...	D'accord ... Voyons voir ...	Хорошо ... Давайте посмотрим ...		すべての権利は...見てみましょう...
-Shopping/TotalEqualsZero_Intro_001	It seems these items aren't worth anything, but I can still take them off your hands if you don't want them?	Il semble que ces articles ne valent rien, mais je ne peux toujours les enlever vos mains si vous ne voulez pas?	Кажется, эти пункты ничего не стоит, но я все еще могу взять их на руки, если вы не хотите их?		これらの項目は何もない価値があるようだが、あなたがそれらをしたくない場合は、私はまだあなたの手を離れてそれらを取ることができますか？
-Shopping/TotalEqualsZero_Option_000	Yes, I dont want them.	Oui, je ne veux pas les.	Да, я не хочу их.		はい、私はそれらをしたいいけません。
-Shopping/TotalEqualsZero_Option_001	I'll have them back thanks.	Je les ai de nouveau merci.	Я буду иметь их обратно спасибо.		私は彼らが感謝をバックアップしています。
-Shopping/TotalEqualsZero_Response_000_000	Very good! I will take these of your hands.	Très bien! Je prendrai ces de vos mains.	Отлично! Я возьму это из ваших рук.		とても良い！私はあなたの手のこれらがかかります。
-Shopping/TotalEqualsZero_Response_000_001	Thank you for visiting John's Goods! <sellGiveItems>	Nous vous remercions de visiter les marchandises de John! <> sellGiveItems	Благодарим Вас за посещение Товары Джона! <sellGiveItems>		ジョンの製品を訪問していただきありがとうございます！ <sellGiveItems>
-Shopping/TotalEqualsZero_Response_001_000	That's fine, please return if you wish to sell anything else.	Très bien, s'il vous plaît retourner si vous souhaitez quoi que ce soit d'autre vente.	Это хорошо, пожалуйста, вернуться, если вы хотите продать что-нибудь еще.		罰金、あなたが何かを販売したい場合は、ご返送ください。
-Shopping/TotalEqualsZero_Response_001_001	Thank you for visiting John's Goods!	Nous vous remercions de visiter les marchandises de John!	Благодарим Вас за посещение Товары Джона!	感谢您访问John's Goods！	ジョンの製品を訪問していただきありがとうございます！
+Shopping/TotalEqualsZero_Intro_000	All right... Lets see...				
+Shopping/TotalEqualsZero_Intro_001	It seems these items aren't worth anything, but I can still take them off your hands if you don't want them?				
+Shopping/TotalEqualsZero_Option_000	Yes, I dont want them.				
+Shopping/TotalEqualsZero_Option_001	I'll have them back thanks.				
+Shopping/TotalEqualsZero_Response_000_000	Very good! I will take these of your hands.				
+Shopping/TotalEqualsZero_Response_000_001	Thank you for visiting John's Goods! <sellGiveItems>				
+Shopping/TotalEqualsZero_Response_001_000	That's fine, please return if you wish to sell anything else.				
+Shopping/TotalEqualsZero_Response_001_001	Thank you for visiting John's Goods!				
 Shopping/WantToBuyAnimalNonLocal_Intro_000	Oh! That's a <buyItemName>.				
 Shopping/WantToBuyAnimalNonLocal_Intro_001	Shes a cutie, right?				
 Shopping/WantToBuyAnimalNonLocal_Intro_002	<no>Now, she'll have to live here on <IslandName>. You won't be able to take her home with you.				
@@ -4152,25 +4827,25 @@ Shopping/WantToBuyAnimalNonLocal_Option_001	No thanks.
 Shopping/WantToBuyAnimalNonLocal_Response_000_000	Oh great!<pumped>				
 Shopping/WantToBuyAnimalNonLocal_Response_000_001	<glee>Now, I think we should give her a name?				
 Shopping/WantToBuyAnimalNonLocal_Response_001_000	That's okay! I'm sure she'll find a home soon! <yes>				
-Sign/AcceptingDonations_Intro_000	The town is currently in <TownDonateText> debt and is looking for donations.	La ville est actuellement endetté <TownDonateText> et cherche des dons.	В городе в настоящее время <TownDonateText> долга и ищет пожертвования.		町は<TownDonateText>借金に現在あるし、寄付を募集しています。
-Sign/AcceptingDonations_Intro_001	Please consider donating to our town.	S'il vous plaît envisager de faire don à notre ville.	Пожалуйста, поддержите в наш город.		私たちの町に寄付をご検討ください。
-Sign/AcceptingDonations_Option_000	Donate	Faire un don	жертвовать		寄付
-Sign/AcceptingDonations_Option_001	No Thanks.	Non merci.	Спасибо, не надо.		結構です。
+Sign/AcceptingDonations_Intro_000					
+Sign/AcceptingDonations_Intro_001	Please consider donating to our town.				
+Sign/AcceptingDonations_Option_000	Donate				
+Sign/AcceptingDonations_Option_001	No Thanks.				
 Sign/Airport_TakeOff_Convo_Intro_000					
 Sign/Airport_TakeOff_Convo_Option_000	Let's go!				
 Sign/Airport_TakeOff_Convo_Option_001	Not yet				
 Sign/Airport_TakeOff_Convo_Response_001_000					
-Sign/AllPlayersMustBeInLift_Intro_000	Everyone must be in the lift.				
+Sign/AllPlayersMustBeInLift_Intro_000					
 Sign/AnimalDropOffPointNoAnimal_Intro_000	Animal Collection Point. Place animal inside to recieve reward.				
-Sign/AnimalShopSign_Intro_000	<NPCName>'s Barn	Grange Irwin	Ирвина Barn		アーウィンの納屋
-Sign/AnimalShopSign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
-Sign/AnimalShopSign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		<getClosedDays>
+Sign/AnimalShopSign_Intro_000	Irwin's Barn				
+Sign/AnimalShopSign_Intro_001	<getOpeningHours>				
+Sign/AnimalShopSign_Intro_002	<getClosedDays>				
 Sign/BankSign_Intro_000	The Bank	La Banque	Банк		銀行
 Sign/BankSign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
 Sign/BankSign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		<getClosedDays>
 Sign/BarberShopSign_Intro_000	<NPCName>'s Salon				
 Sign/BarberShopSign_Intro_001	<getOpeningHours>				
-Sign/BarberShopSign_Intro_002					
+Sign/BarberShopSign_Intro_002	<getClosedDays>				
 Sign/BugCatchingCompClosedSign_Book_Intro_000	<bugComp> is now closed.				
 Sign/BugCatchingCompClosedSign_Book_Intro_001	Congrats to the winners:				
 Sign/BugCatchingCompClosedSign_Book_Intro_002	<getCompScoreboard>				
@@ -4204,91 +4879,95 @@ Sign/BugCatchingCompSign_SignedUpBeforeStart_Option_002	Nevermind.
 Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_000_000	Once your signed up and the competition has started, catch as many bugs as you can.				
 Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_000_001	The rarer the bug is, the more points it's worth.				
 Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_000_002	The last score you enter into to the <compBook> will be your final score.				
-Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_000_003					
+Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_000_003	You can use the <compBook> to update your score at any time, as long as it's before <bugCompEndTime>.				
 Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_001_000	Once your signed up and the competition has started, catch as many bugs as you can.				
 Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_001_001	The rarer the bug is, the more points it's worth.				
 Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_001_002	The last score you enter into to the <compBook> will be your final score.				
 Sign/BugCatchingCompSign_SignedUpBeforeStart_Response_001_003	You can use the <compBook> to update your score at any time, as long as it's before <bugCompEndTime>.				
 Sign/ClosedSign_Intro_000	Closed				
-SIGN/ClosedSign_Intro_000	Closed				
-Sign/ClothShopSign_Intro_000	Threadspace.	ThreadSpace.	ThreadSpace.		Threadspace。
-Sign/ClothShopSign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
-Sign/ClothShopSign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		<getClosedDays>
+Sign/ClothShopSign_Intro_000	Threadspace.				
+Sign/ClothShopSign_Intro_001	<getOpeningHours>				
+Sign/ClothShopSign_Intro_002	<getClosedDays>				
 Sign/CompBookLoggedScore_Sign_Intro_000	Your new logged score is now <compScore>.				
 Sign/CompBookLoggedScoreTooLate_Sign_Intro_000	The <bugComp> is over, so I can't log my score.				
-Sign/ConfirmSleepSign_Intro_000	Call it a day?				
-Sign/ConfirmSleepSign_Option_000	Sleep until tomorrow.				
+Sign/ConfirmSleepSign_Intro_000	Sleep?				
+Sign/ConfirmSleepSign_Option_000	Yes.				
 Sign/ConfirmSleepSign_Option_001	Just resting my eyes.				
-Sign/Crafters_Sign_Intro_000	<NPCName>'s Lab	Jolly wrencher - Artisan et Bricoleur	Jolly Wrencher - Мастер и Tinkerer		ジョリーWrencher  - 職人とTinkerer
-Sign/Crafters_Sign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
-Sign/Crafters_Sign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		<getClosedDays>
-Sign/EditHouseSign_Intro_000	Customise this house?				
+Sign/Crafters_Sign_Intro_000	Jolly Wrencher - Craftsman and Tinkerer				
+Sign/Crafters_Sign_Intro_001	<getOpeningHours>				
+Sign/Crafters_Sign_Intro_002	<getClosedDays>				
+Sign/EditHouseSign_Intro_000					
 Sign/EditHouseSign_Option_000	Yes				
 Sign/EditHouseSign_Option_001					
-Sign/Fletch_Sleeping Bags_Intro_000	Those are some spare <itemName> I keep around just in case anyone needs one.þ				
+Sign/Fletch_Sleeping Bags_Intro_000	Those are some spare <itemName> I keep around. <proud>I'll tell yoy what, they come in handy!				
 Sign/Fletch_Sleeping Bags_Intro_001	Do you need one, <PlayerName>?				
 Sign/Fletch_Sleeping Bags_Option_000	Yes please!				
 Sign/Fletch_Sleeping Bags_Option_001	No thanks.				
-Sign/Fletch_Sleeping Bags_Response_000_000	No worries, <PlayerName>.				
+Sign/Fletch_Sleeping Bags_Response_000_000	<glee>Alright then, take one!				
 Sign/Fletch_Sleeping Bags_Response_000_001	<glee>It's all yours!				
-Sign/Fletch_Sleeping Bags_Response_001_000	<glee>Right-o.				
-Sign/FurnitureShopSign_Intro_000	<NPCName> Furniture	Meubles de Ray	Рея Мебель		レイの家具
-Sign/FurnitureShopSign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
-Sign/FurnitureShopSign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		<getClosedDays>
-Sign/GreenHouse_HourSign_Intro_000	<NPCName>'s Greenhouse.	La serre.	Теплица.		温室。
-Sign/GreenHouse_HourSign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
-Sign/GreenHouse_HourSign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		<getClosedDays>
+Sign/Fletch_Sleeping Bags_Response_001_000	<glee>Righto.				
+Sign/FurnitureShopSign_Intro_000	<NPCName>'s Furniture				
+Sign/FurnitureShopSign_Intro_001	<getOpeningHours>				
+Sign/FurnitureShopSign_Intro_002	<getClosedDays>				
+Sign/GreenHouse_HourSign_Intro_000	<NPCName>'s Greenhouse.				
+Sign/GreenHouse_HourSign_Intro_001	<getOpeningHours>				
+Sign/GreenHouse_HourSign_Intro_002	<getClosedDays>				
 Sign/HairDresserMirror_Intro_000	Should I use <NPCName>'s Mirror?				
 Sign/HairDresserMirror_Option_000	Yes				
-Sign/HairDresserMirror_Option_001					
-Sign/HasRepairKit_Intro_000	Should I use a <itemName> to repair all the tools in my pockets?				
+Sign/HairDresserMirror_Option_001	Not right now				
+Sign/HasRepairKit_Intro_000					
 Sign/HasRepairKit_Option_000	Yes.				
 Sign/HasRepairKit_Option_001					
 Sign/Inv_SnagOnBread_Intro_000	Wow!				
 Sign/Inv_SnagOnBread_Intro_001	What an amazing <itemName>!				
 Sign/Inv_SnagOnBread_Intro_002	It feels like I could eat even more now!				
-Sign/Johns_HourSign_Intro_000	<NPCName>'s Goods	Les marchandises de John	Джон Товары		ジョンの製品
-Sign/Johns_HourSign_Intro_001	<getOpeningHours>	<> getOpeningHours	<getOpeningHours>		<getOpeningHours>
-Sign/Johns_HourSign_Intro_002	<getClosedDays>	<> getClosedDays	<getClosedDays>		<getClosedDays>
-Sign/MineControl_Convo_Intro_000	Should I use a <itemName> for a trip down?				
+Sign/Johns_HourSign_Intro_000	John's Goods				
+Sign/Johns_HourSign_Intro_001	<getOpeningHours>				
+Sign/Johns_HourSign_Intro_002	<getClosedDays>				
+Sign/MineControl_Convo_Intro_000					
 Sign/MineControl_Convo_Option_000	Go down!				
 Sign/MineControl_Convo_Option_001	Nevermind				
 Sign/MineControl_Convo_Option_002	Nevermind				
 Sign/MineControl_Convo_Response_001_000	<deepMineForecast>				
-Sign/MineControl_NonLocal_Intro_000					
+Sign/MineControl_NonLocal_Intro_000	I shouldn't use this.				
 Sign/MineControl_NoPass_Intro_000	I need a <itemName> to use this.				
 Sign/MineControl_Up_Convo_Intro_000	Should I go back up?				
 Sign/MineControl_Up_Convo_Option_000	Go up!				
 Sign/MineControl_Up_Convo_Option_001	Nevermind				
-Sign/MineLevel_AlreadySet_Intro_000					
+Sign/MineLevel_AlreadySet_Intro_000	I can't use this, the mine level is already set today.				
 Sign/MineLevel_HasRubyShard_Intro_000	Should I insert 4 <itemName> to set the mine level?				
 Sign/MineLevel_HasRubyShard_Option_000	Set Level				
 Sign/MineLevel_HasRubyShard_Option_001	Nevermind				
 Sign/MineLevel_NotEnoughRubyShards_Intro_000	Looks like something shiny might go in here...				
-Sign/NoFletch_Sleeping Bags_Intro_000	<NPCName> keeps these in case they need them.	<NPCName> les conserve au cas où ils en auraient besoin.	<NPCName> хранит их на случай, если они понадобятся.	<NPCName> 保留这些以备他们需要。	<NPCName>は、必要な場合に備えてこれらを保持します。
-Sign/NoFletch_Sleeping Bags_Intro_001	I'm sure she won't mind if I take one...	Je suis sûr que ça ne la dérangera pas si j'en prends un...	Я уверен, что она не будет возражать, если я возьму одну ...	我敢肯定她不会介意我拿一个...	私が持っていっても彼女は気にしないと確信しています...
-Sign/NoFletch_Sleeping Bags_Option_000	Take one.	Prends-en un.	Взять одну.	拿一个。	一つを取って。
-Sign/NoFletch_Sleeping Bags_Option_001	Don't take one.	N'en prenez pas.	Не бери.	不要拿一个。	服用しないでください。
+Sign/NoFletch_Sleeping Bags_Intro_000	<NPCName> keeps these in case they need them.				
+Sign/NoFletch_Sleeping Bags_Intro_001	I'm sure she won't mind if I take one...				
+Sign/NoFletch_Sleeping Bags_Option_000	Take one.				
+Sign/NoFletch_Sleeping Bags_Option_001	Don't take one.				
 Sign/NoRepairKit_Intro_000	I need a <itemName> to use this.				
-Sign/NotAcceptingDonations_Intro_000	The town is not currently accepting donations.	La ville n'accepte actuellement les dons.	Город в настоящее время не принимает пожертвования.		町は現在、寄付を受け付けていません。
-Sign/NotAcceptingDonations_Intro_001	Thank you for your support!	Merci pour votre soutien!	Спасибо за поддержку!		ご支援いただきありがとうございます！
+Sign/NotAcceptingDonations_Intro_000	The town is not currently accepting donations.				
+Sign/NotAcceptingDonations_Intro_001					
 Sign/NoVisitorSign_Intro_000	Visitors Site				
-Sign/NoVisitorSign_Intro_001					
+Sign/NoVisitorSign_Intro_001	A place where anyone visiting <IslandName> can set up camp!				
+Sign/Raffle Sign_Intro_000	It’s the John's Goods Anniversary Event!				
+Sign/Raffle Sign_Intro_001	For every fish you sell to John’s Goods you will earn a <itemName>.þ				
+Sign/Raffle Sign_Intro_002	<itemName>s can be exchanged for prizes from the prize box inside the store.þ				
+Sign/Raffle Sign_Intro_003	This is a limited time event, so get fishing and start redeeming your prizes!þ				
+Sign/Raffle Sign_Intro_004	Happy fishing!þ				
 Sign/RainmakerSign_Intro_000					
-SIGN/Sign_Intro_000	Should I sign up for the <FishingComp>?	Dois-je m'inscrire au <FishingComp> ?	Должен ли я подписаться на <FishingComp>?	我应该报名参加<FishingComp>吗？	<FishingComp> に登録する必要がありますか?
-SIGN/Sign_Intro_001	<getOpeningHours>	<getOpeningHours>	<getOpeningHours>	<获取开放时间>	<getOPENHOURS>
-SIGN/Sign_Intro_002					
-SIGN/Sign_Option_000	Sign Up	S'inscrire	Зарегистрироваться	报名	サインアップ
-SIGN/Sign_Option_001	Rules	Règles	Правила	规则	ルール
-SIGN/Sign_Option_002					
-SIGN/Sign_Response_000_000	Thank you for signing up!	Merci de vous être inscrit!	Спасибо за регистрацию!	谢谢您注册！	サインアップしていただきありがとうございます！
-SIGN/Sign_Response_000_001	Please make sure you log your score in the <compBook> before the competition ends at <bugCompEndTime>.	Veuillez vous assurer d'enregistrer votre score dans le <compBook> avant la fin du concours à <bugCompEndTime>.	Пожалуйста, не забудьте записать свой результат в <compBook> до окончания соревнования в <bugCompEndTime>.	请确保在比赛于 <bugCompEndTime> 结束之前将您的分数记录在 <compBook> 中。	コンテストが <bugCompEndTime> で終了する前に、<compBook> にスコアを必ず記録してください。
-SIGN/Sign_Response_001_000	Once you have signed up and the competition has started, catch as many <itemName> as you can.	Une fois que vous êtes inscrit et que le concours a commencé, attrapez autant de <itemName> que possible.	После того, как вы зарегистрируетесь и начнется соревнование, поймайте как можно больше <itemName>.	报名并开始比赛后，请尽可能多地捕捉<itemName>。	サインアップしてコンテストが始まったら、できるだけ多くの <itemName> を捕まえてください。
-SIGN/Sign_Response_001_001	Each <itemName> is worth 1 point.	Chaque <itemName> vaut 1 point.	Каждый <itemName> приносит 1 очко.	每个 <itemName> 值 1 分。	各 <itemName> は 1 ポイントの価値があります。
-SIGN/Sign_Response_001_002	The last score you enter into the <compBook> will be your final score.	Le dernier score que vous entrez dans le <compBook> sera votre score final.	Последний балл, который вы введете в <compBook>, будет вашим окончательным результатом.	您输入 <compBook> 的最后分数将是您的最终分数。	<compBook> に入力した最後のスコアが最終スコアとなります。
-SIGN/Sign_Response_001_003					
+Sign/Sign_Intro_000	Should I sign up for the <FishingComp>?	Dois-je m'inscrire au <FishingComp> ?	Должен ли я подписаться на <FishingComp>?	我应该报名参加<FishingComp>吗？	<FishingComp> に登録する必要がありますか?
+Sign/Sign_Intro_001	<getOpeningHours>	<getOpeningHours>	<getOpeningHours>	<获取开放时间>	<getOPENHOURS>
+Sign/Sign_Intro_002					
+Sign/Sign_Option_000	Sign Up	S'inscrire	Зарегистрироваться	报名	サインアップ
+Sign/Sign_Option_001	Rules	Règles	Правила	规则	ルール
+Sign/Sign_Option_002					
+Sign/Sign_Response_000_000	Thank you for signing up!	Merci de vous être inscrit!	Спасибо за регистрацию!	谢谢您注册！	サインアップしていただきありがとうございます！
+Sign/Sign_Response_000_001	Please make sure you log your score in the <compBook> before the competition ends at <bugCompEndTime>.	Veuillez vous assurer d'enregistrer votre score dans le <compBook> avant la fin du concours à <bugCompEndTime>.	Пожалуйста, не забудьте записать свой результат в <compBook> до окончания соревнования в <bugCompEndTime>.	请确保在比赛于 <bugCompEndTime> 结束之前将您的分数记录在 <compBook> 中。	コンテストが <bugCompEndTime> で終了する前に、<compBook> にスコアを必ず記録してください。
+Sign/Sign_Response_001_000	Once you have signed up and the competition has started, catch as many <itemName> as you can.	Une fois que vous êtes inscrit et que le concours a commencé, attrapez autant de <itemName> que possible.	После того, как вы зарегистрируетесь и начнется соревнование, поймайте как можно больше <itemName>.	报名并开始比赛后，请尽可能多地捕捉<itemName>。	サインアップしてコンテストが始まったら、できるだけ多くの <itemName> を捕まえてください。
+Sign/Sign_Response_001_001	Each <itemName> is worth 1 point.	Chaque <itemName> vaut 1 point.	Каждый <itemName> приносит 1 очко.	每个 <itemName> 值 1 分。	各 <itemName> は 1 ポイントの価値があります。
+Sign/Sign_Response_001_002	The last score you enter into the <compBook> will be your final score.	Le dernier score que vous entrez dans le <compBook> sera votre score final.	Последний балл, который вы введете в <compBook>, будет вашим окончательным результатом.	您输入 <compBook> 的最后分数将是您的最终分数。	<compBook> に入力した最後のスコアが最終スコアとなります。
+Sign/Sign_Response_001_003					
 Sign/SleepHouseMove_Intro_000	This building is going to me moved.				
-Sign/SleepHouseMove_Intro_001	I need to sleep outside so the movers don't wake me up.				
+Sign/SleepHouseMove_Intro_001					
 Sign/SleepUnderground_Intro_000	I don't want to sleep down here.				
 Sign/Town Debt Complete Convo_Intro_000	The town is now debt free!				
 Sign/Town Debt Complete Convo_Intro_001	Thank you for your contribution!				
@@ -4296,7 +4975,8 @@ Sign/TownBook_Intro_000	This book tracks the towns awards.
 Sign/TuckshopSpecialSign_Intro_000	Tuckerbox Special!				
 Sign/TuckshopSpecialSign_Intro_001	Currently paying top <Dink> for <itemName>.				
 Sign/VisitorsSiteSign_Intro_000	Visitors Site				
-Sign/VisitorsSiteSign_Intro_001					
+Sign/VisitorsSiteSign_Intro_001	Open 8:00am to 4:00pm				
+Sign/WeatherStationShowsForecast_Convo_Intro_000	Here is the Weather Station's forecast:þ				
 Sign/WeatherStationSign_Intro_000	Weather Station: 				
 Sign/WeatherStationSign_Intro_001	<getCurrentWeather>				
 Sign/WeatherStationSign_Option_000	Tomorrow's Weather				

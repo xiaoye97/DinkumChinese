@@ -1661,24 +1661,25 @@ GENERIC/Quest_4_IntroToQuest_Response_001_006	<glee>I couldn't have done any of 
 GENERIC/Quest_4_TalkToWhileNotComplete_Intro_000	We've done some good work today, <PlayerName>!
 GENERIC/Quest_4_TalkToWhileNotComplete_Intro_001	Take the rest of the day off! 
 GENERIC/Quest_4_TalkToWhileNotComplete_Intro_002	<yes>We've got more work to do tomorrow!
-GENERIC/Quest_4_TalkToWhileNotComplete_Option_000	Crafting a fire?
-GENERIC/Quest_4_TalkToWhileNotComplete_Option_001	Cooking at a fire?
-GENERIC/Quest_4_TalkToWhileNotComplete_Option_002	Bug hunting?
-GENERIC/Quest_4_TalkToWhileNotComplete_Option_003	Sleeping?
-GENERIC/Quest_4_TalkToWhileNotComplete_Option_004	I'm on it!
-GENERIC/Quest_4_TalkToWhileNotComplete_Response_000_000	Feel free to use the <itemName> in the Base Tent whenever you want.
-GENERIC/Quest_4_TalkToWhileNotComplete_Response_000_001	I'll tell you what, I'm sure you'll learn how to craft lots of useful things here on <IslandName>!
-GENERIC/Quest_4_TalkToWhileNotComplete_Response_001_000	Once you've got your <itemName> going, just put the item you want to cook into your hands.
-GENERIC/Quest_4_TalkToWhileNotComplete_Response_001_001	<yes>Then all that's left to do it pop it on and wait!
-GENERIC/Quest_4_TalkToWhileNotComplete_Response_001_002	<thinking>You'll want to eat a lot of food to keep your energy up!
-GENERIC/Quest_4_TalkToWhileNotComplete_Response_002_000	There are a lot of bugs found only here on <IslandName>.
-GENERIC/Quest_4_TalkToWhileNotComplete_Response_002_001	<yes>Everytime you catch a new one it will be added to your Pedia. 
-GENERIC/Quest_4_TalkToWhileNotComplete_Response_002_002	Maybe you could challenge yourself to find them all?
-GENERIC/Quest_4_TalkToWhileNotComplete_Response_003_000	<haha>If you're ready for tomorrow, then sleeping will definetly bring tomorrow here faster!
-GENERIC/Quest_4_TalkToWhileNotComplete_Response_003_001	Just pop your <itemName> down on the floor.
-GENERIC/Quest_4_TalkToWhileNotComplete_Response_003_002	<yes>Wherever is fine, really.
-GENERIC/Quest_4_TalkToWhileNotComplete_Response_003_003	<no>If you want to sleep under the stars, I'm not going to stop you.
-GENERIC/Quest_4_TalkToWhileNotComplete_Response_004_000	Thanks again for your help, <PlayerName>!
+GENERIC/Quest_4_TalkToWhileNotComplete_Option_000	About food?
+GENERIC/Quest_4_TalkToWhileNotComplete_Option_001	Crafting a fire?
+GENERIC/Quest_4_TalkToWhileNotComplete_Option_002	Cooking at a fire?
+GENERIC/Quest_4_TalkToWhileNotComplete_Option_003	Bug hunting?
+GENERIC/Quest_4_TalkToWhileNotComplete_Option_004	Sleeping?
+GENERIC/Quest_4_TalkToWhileNotComplete_Option_005	I'm on it!
+GENERIC/Quest_4_TalkToWhileNotComplete_Response_001_000	Feel free to use the <itemName> in the Base Tent whenever you want.
+GENERIC/Quest_4_TalkToWhileNotComplete_Response_001_001	I'll tell you what, I'm sure you'll learn how to craft lots of useful things here on <IslandName>!
+GENERIC/Quest_4_TalkToWhileNotComplete_Response_002_000	Once you've got your <itemName> going, just put the item you want to cook into your hands.
+GENERIC/Quest_4_TalkToWhileNotComplete_Response_002_001	<yes>Then all that's left to do it pop it on and wait!
+GENERIC/Quest_4_TalkToWhileNotComplete_Response_002_002	<thinking>You'll want to eat a lot of food to keep your energy up!
+GENERIC/Quest_4_TalkToWhileNotComplete_Response_003_000	There are a lot of bugs found only here on <IslandName>.
+GENERIC/Quest_4_TalkToWhileNotComplete_Response_003_001	<yes>Everytime you catch a new one it will be added to your Pedia. 
+GENERIC/Quest_4_TalkToWhileNotComplete_Response_003_002	Maybe you could challenge yourself to find them all?
+GENERIC/Quest_4_TalkToWhileNotComplete_Response_004_000	<haha>If you're ready for tomorrow, then sleeping will definetly bring tomorrow here faster!
+GENERIC/Quest_4_TalkToWhileNotComplete_Response_004_001	Just pop your <itemName> down on the floor.
+GENERIC/Quest_4_TalkToWhileNotComplete_Response_004_002	<yes>Wherever is fine, really.
+GENERIC/Quest_4_TalkToWhileNotComplete_Response_004_003	<no>If you want to sleep under the stars, I'm not going to stop you.
+GENERIC/Quest_4_TalkToWhileNotComplete_Response_005_000	Thanks again for your help, <PlayerName>!
 GENERIC/Quest_5_CompleteQuest_Intro_000	Oh! So you bought the <itemName>! þ
 GENERIC/Quest_5_CompleteQuest_Intro_001	Well done, <PlayerName>!
 GENERIC/Quest_5_CompleteQuest_Intro_002	Don't you think having <NPCName> here is great?
@@ -1798,6 +1799,37 @@ GENERIC/Quest_8_Convo_Complete_Intro_001	<pumped>You did it!
 GENERIC/Quest_8_Convo_Complete_Intro_002	Looks like <NPCName>’s shop is all built!
 GENERIC/Quest_8_Convo_Complete_Intro_003	Now, we’re definitely on our way to become an official settlement.
 GENERIC/Quest_8_Convo_Complete_Intro_004	<glee>Well done, mate!
+GENERIC/Quest_TalkAboutFoodIntro_Intro_000	What did you want to know about food?
+GENERIC/Quest_TalkAboutFoodIntro_Option_000	Stamina
+GENERIC/Quest_TalkAboutFoodIntro_Option_001	Health
+GENERIC/Quest_TalkAboutFoodIntro_Option_002	Fullness
+GENERIC/Quest_TalkAboutFoodIntro_Option_003	Sitting
+GENERIC/Quest_TalkAboutFoodIntro_Option_004	Nevermind
+GENERIC/Quest_TalkAboutFoodIntro_Response_000_000	Hard yakka requires stamina!
+GENERIC/Quest_TalkAboutFoodIntro_Response_000_001	That means, for every task you do, you’ll use up your stamina.
+GENERIC/Quest_TalkAboutFoodIntro_Response_000_002	So, it's a good idea to eat before you do tasks. 
+GENERIC/Quest_TalkAboutFoodIntro_Response_000_003	<proud>That will help keep your stamina up.
+GENERIC/Quest_TalkAboutFoodIntro_Response_000_004	<shy>Some foods offer more stamina than others, but you’ll get the hang of that.
+GENERIC/Quest_TalkAboutFoodIntro_Response_000_005	<worried>If you run out of stamina, you’re going to get tired.
+GENERIC/Quest_TalkAboutFoodIntro_Response_000_006	<yes>You’ll be sluggish and slow until your stamina recovers.
+GENERIC/Quest_TalkAboutFoodIntro_Response_000_007	So keep your belly full of stamina foods and you’ll be right.
+GENERIC/Quest_TalkAboutFoodIntro_Response_001_000	<yes>It can be dangerous out there on <IslandName>.
+GENERIC/Quest_TalkAboutFoodIntro_Response_001_001	<glee>So if you feel your health is low, it's a good idea to keep your belly full of healthy foods.
+GENERIC/Quest_TalkAboutFoodIntro_Response_001_002	These foods will slowly restore your health.
+GENERIC/Quest_TalkAboutFoodIntro_Response_001_003	<yes>You’ll learn what foods are good for restoring health, I’m sure.
+GENERIC/Quest_TalkAboutFoodIntro_Response_001_004	<thinking>If you need to restore health quickly, you can always take a seat and recoup.
+GENERIC/Quest_TalkAboutFoodIntro_Response_001_005	<yes>Your health will recover much quicker from food if you are sitting down.
+GENERIC/Quest_TalkAboutFoodIntro_Response_002_000	Your belly can only hold so much, <PlayerName>.
+GENERIC/Quest_TalkAboutFoodIntro_Response_002_001	So it’s a good idea to choose the foods you want to eat wisely.
+GENERIC/Quest_TalkAboutFoodIntro_Response_002_002	Every type of food has its own benefits.
+GENERIC/Quest_TalkAboutFoodIntro_Response_002_003	You’re going to want to make sure you get a well balanced diet for any task you want to tackle.
+GENERIC/Quest_TalkAboutFoodIntro_Response_002_004	If you're full, but you want to make yourself not full, you can always craft a <itemName> and take a seat.
+GENERIC/Quest_TalkAboutFoodIntro_Response_002_005	That will empty your belly allowing you to choose a different meal to eat.
+GENERIC/Quest_TalkAboutFoodIntro_Response_003_000	If you’re low on health, and eat healthy food, your health will slowly recover.
+GENERIC/Quest_TalkAboutFoodIntro_Response_003_001	However, you can speed up health recovery by taking a seat after eating.
+GENERIC/Quest_TalkAboutFoodIntro_Response_003_002	<haha>Think of it like your body digesting all that healthy goodness!
+GENERIC/Quest_TalkAboutFoodIntro_Response_003_003	
+GENERIC/Quest_TalkAboutFoodIntro_Response_004_000	<yes>Righto.
 GENERIC/RequestItem_Incorrect_1_Intro_000	Oh...
 GENERIC/RequestItem_Incorrect_1_Intro_001	I actually wanted <requestItem>.
 GENERIC/RequestItem_Incorrect_1_Intro_002	I'll give this back.
@@ -4640,7 +4672,7 @@ SALLY/HairDresserConvo_Option_000	Yes please!
 SALLY/HairDresserConvo_Option_001	I wanted to chat.
 SALLY/HairDresserConvo_Option_002	No thanks.
 SALLY/HairDresserConvo_Response_000_000	Please take a seat!
-SALLY/HairDresserConvo_Response_002_000	If you change your mind, drop buy.
+SALLY/HairDresserConvo_Response_002_000	If you change your mind, drop by.
 SALLY/HairDresserInSeatConv_Intro_000	Okay, what can do with your "doo" today? <haha>
 SALLY/HairDresserInSeatConv_Intro_001	A haircut or colour change is <sprite=11>5000.
 SALLY/HairDresserInSeatConv_Option_000	A new hairstyle!
@@ -4992,16 +5024,6 @@ SHOPPING/AskAboutItem_Option_000	I'll take it!
 SHOPPING/AskAboutItem_Option_001	No thanks.
 SHOPPING/AskAboutItem_Response_000_000	Very good! <yes>
 SHOPPING/AskAboutItem_Response_001_000	No worries! Feel free to ask about any of our products. <glee>
-SHOPPING/AskAboutKeys_Intro_000	Oh, those are my special and super rare keys.
-SHOPPING/AskAboutKeys_Intro_001	You won't find a better price for these puppies.
-SHOPPING/AskAboutKeys_Intro_002	I'm practically giving them away at <buyItemPrice> for a pack of 5.
-SHOPPING/AskAboutKeys_Option_000	I'll take it!
-SHOPPING/AskAboutKeys_Option_001	No thanks.
-SHOPPING/AskAboutKeys_Response_000_000	Good choice, <PlayerName>.
-SHOPPING/AskAboutKeys_Response_000_001	<no>Like I said, you won't find them at a better price.
-SHOPPING/AskAboutKeys_Response_001_000	Hmmm...
-SHOPPING/AskAboutKeys_Response_001_001	I'll see you when you change your mind.
-SHOPPING/AskAboutKeys_Response_001_002	<no>Like I said, you won't find them at a better price.
 SHOPPING/AskAboutRecipe_Intro_000	Oh, thats a recipe for <buyItemName>.
 SHOPPING/AskAboutRecipe_Intro_001	I can teach you how to craft <buyItemName> for <buyItemPrice>?
 SHOPPING/AskAboutRecipe_Option_000	Teach me!
@@ -5165,6 +5187,7 @@ SIGN/FurnitureShopSign_Intro_002	<getClosedDays>
 SIGN/GreenHouse_HourSign_Intro_000	<NPCName>'s Greenhouse.
 SIGN/GreenHouse_HourSign_Intro_001	<getOpeningHours>
 SIGN/GreenHouse_HourSign_Intro_002	<getClosedDays>
+SIGN/GuestHouseBeingMoved_Intro_000	I should wait until after this building is moved before upgrading it...
 SIGN/HairDresserMirror_Intro_000	Should I use <NPCName>'s Mirror?
 SIGN/HairDresserMirror_Option_000	Yes
 SIGN/HairDresserMirror_Option_001	Not right now
@@ -5203,6 +5226,7 @@ SIGN/NoFletch_Sleeping Bags_Option_001	Don't take one.
 SIGN/NoRepairKit_Intro_000	I need a <itemName> to use this.
 SIGN/NotAcceptingDonations_Intro_000	The town is not currently accepting donations.
 SIGN/NotAcceptingDonations_Intro_001	Thank you for your support!
+SIGN/NoUpgradeForGuestHouseAvaliable_Intro_000	This building is fully upgraded...
 SIGN/NoVisitorSign_Intro_000	Visitors Site
 SIGN/NoVisitorSign_Intro_001	A place where anyone visiting <IslandName> can set up camp!
 SIGN/PlayerFillingTileObjectOption_Intro_000	How many should I put in?
@@ -5226,6 +5250,19 @@ SIGN/Town Debt Complete Convo_Intro_001	Thank you for your contribution!
 SIGN/TownBook_Intro_000	This book tracks the towns awards.
 SIGN/TuckshopSpecialSign_Intro_000	Tuckerbox Special!
 SIGN/TuckshopSpecialSign_Intro_001	Currently paying top <Dink> for <itemName>.
+SIGN/UpgradeGuestHouseNoMoney_Intro_000	Should I pay <upgradeHouseCost> to upgrade this building?
+SIGN/UpgradeGuestHouseNoMoney_Option_000	Pay for upgrade
+SIGN/UpgradeGuestHouseNoMoney_Option_001	No
+SIGN/UpgradeGuestHouseNoMoney_Response_000_000	I can't afford the upgrade right now...
+SIGN/UpgradeGuestHouseWithMoney_Intro_000	Should I pay <upgradeHouseCost> to upgrade this building?
+SIGN/UpgradeGuestHouseWithMoney_Option_000	Pay for upgrade
+SIGN/UpgradeGuestHouseWithMoney_Option_001	No
+SIGN/UpgradeGuestHouseWithMoney_Response_000_000	The upgrade has started!
+SIGN/UpgradeGuestHouseWithMoney_Response_000_001	I should place the materials in the constuction box...
+SIGN/UpgradeOrCustomiseGuestHouse_Intro_000	Customise or upgrade this house?
+SIGN/UpgradeOrCustomiseGuestHouse_Option_000	Customise
+SIGN/UpgradeOrCustomiseGuestHouse_Option_001	Upgrade
+SIGN/UpgradeOrCustomiseGuestHouse_Option_002	No
 SIGN/VisitorsSiteSign_Intro_000	Visitors Site
 SIGN/VisitorsSiteSign_Intro_001	Open 8:00am to 4:00pm
 SIGN/WeatherStationShowsForecast_Convo_Intro_000	Here is the Weather Station's forecast:þ

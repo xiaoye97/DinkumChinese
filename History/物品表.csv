@@ -47,8 +47,8 @@ InventoryItemNames/InvItem_22	Nails
 InventoryItemDescriptions/InvDesc_22	Used to nail things together.
 InventoryItemNames/InvItem_23	Shiny Stone
 InventoryItemDescriptions/InvDesc_23	This rock is shiny. There might be something in it.
-InventoryItemNames/InvItem_24	???
-InventoryItemDescriptions/InvDesc_24	No One Knows
+InventoryItemNames/InvItem_24	Cooking Kettle
+InventoryItemDescriptions/InvDesc_24	Make soup, tea and jams faster
 InventoryItemNames/InvItem_25	Garden Light
 InventoryItemDescriptions/InvDesc_25	A lil' light.
 InventoryItemNames/InvItem_26	Stone
@@ -61,8 +61,8 @@ InventoryItemNames/InvItem_29	Ulysses Butterfly
 InventoryItemDescriptions/InvDesc_29	Nice bug, bro.
 InventoryItemNames/InvItem_30	Wooden Crate
 InventoryItemDescriptions/InvDesc_30	Store things in here if you like
-InventoryItemNames/InvItem_31	Windmill Plan
-InventoryItemDescriptions/InvDesc_31	We could build a wind mill here!
+InventoryItemNames/InvItem_31	Corner Ramp
+InventoryItemDescriptions/InvDesc_31	A ramp that uses the tile under it.
 InventoryItemNames/InvItem_32	Palm Wood Fence
 InventoryItemDescriptions/InvDesc_32	Wood used to seperate things.
 InventoryItemNames/InvItem_33	Gum Log
@@ -233,10 +233,10 @@ InventoryItemNames/InvItem_116	Carrot
 InventoryItemDescriptions/InvDesc_116	What's up, medical person?
 InventoryItemNames/InvItem_117	Carrot Seeds
 InventoryItemDescriptions/InvDesc_117	Put 'em in the ground!
-InventoryItemNames/InvItem_118	Dink Voucher
-InventoryItemDescriptions/InvDesc_118	A voucher worth 10000 Dinks
-InventoryItemNames/InvItem_119	Dink Voucher
-InventoryItemDescriptions/InvDesc_119	A voucher worth 10000 Dinks
+InventoryItemNames/InvItem_118	Thunderbox
+InventoryItemDescriptions/InvDesc_118	A place to clear your stomach
+InventoryItemNames/InvItem_119	First Aid Kit
+InventoryItemDescriptions/InvDesc_119	Treats wounds instantly
 InventoryItemNames/InvItem_120	Green Beanie
 InventoryItemDescriptions/InvDesc_120	Keep that dome hot
 InventoryItemNames/InvItem_121	Red Beanie
@@ -827,7 +827,7 @@ InventoryItemNames/InvItem_413	Black Baseball Cap
 InventoryItemDescriptions/InvDesc_413	Strike 1
 InventoryItemNames/InvItem_414	White Baseball Cap
 InventoryItemDescriptions/InvDesc_414	Strike 1
-InventoryItemNames/InvItem_415	Grey Sweat Pants
+InventoryItemNames/InvItem_415	White Sweat Pants
 InventoryItemDescriptions/InvDesc_415	Pants for sweating.
 InventoryItemNames/InvItem_416	Brown Sand Shoes
 InventoryItemDescriptions/InvDesc_416	Slip these puppies on.
@@ -1493,8 +1493,8 @@ InventoryItemNames/InvItem_746	Jelly
 InventoryItemDescriptions/InvDesc_746	It's squishy.
 InventoryItemNames/InvItem_747	Jelly Brew
 InventoryItemDescriptions/InvDesc_747	A real pick me up.
-InventoryItemNames/InvItem_748	Bottled Brush
-InventoryItemDescriptions/InvDesc_748	Healthy.
+InventoryItemNames/InvItem_748	Bottle Brush Brew
+InventoryItemDescriptions/InvDesc_748	Healthy
 InventoryItemNames/InvItem_749	Advanced Sprinkler
 InventoryItemDescriptions/InvDesc_749	Waters crops automatically.
 InventoryItemNames/InvItem_750	Vombat Poo
@@ -2235,8 +2235,8 @@ InventoryItemNames/InvItem_1118	Hard Wood Flower Bed
 InventoryItemDescriptions/InvDesc_1118	Decorative Flower Bed
 InventoryItemNames/InvItem_1119	Portable Roof
 InventoryItemDescriptions/InvDesc_1119	It's a roof
-InventoryItemNames/InvItem_1120	Wall
-InventoryItemDescriptions/InvDesc_1120	Wall
+InventoryItemNames/InvItem_1120	Key-Cycler
+InventoryItemDescriptions/InvDesc_1120	Transforms unwanted relics into keys
 InventoryItemNames/InvItem_1121	Billy Can Kit
 InventoryItemDescriptions/InvDesc_1121	Make hot drinks, jams and soups.
 InventoryItemNames/InvItem_1122	Tongs
@@ -2666,7 +2666,7 @@ InventoryItemDescriptions/InvDesc_1333	Grows a lily
 InventoryItemNames/InvItem_1334	Indoor Summer Lily
 InventoryItemDescriptions/InvDesc_1334	Potted Summer Lily
 InventoryItemNames/InvItem_1335	Jackaroo Wand
-InventoryItemDescriptions/InvDesc_1335	Is this magic?
+InventoryItemDescriptions/InvDesc_1335	
 InventoryItemNames/InvItem_1336	Aquamarine Shard
 InventoryItemDescriptions/InvDesc_1336	Sharp bits of Aquamarine
 InventoryItemNames/InvItem_1337	Floor Light
@@ -2719,8 +2719,8 @@ InventoryItemNames/InvItem_1360	Sand Castle
 InventoryItemDescriptions/InvDesc_1360	Kitchen Cabinet
 InventoryItemNames/InvItem_1361	Sand Bucket
 InventoryItemDescriptions/InvDesc_1361	Kitchen Cabinet
-InventoryItemNames/InvItem_1362	Wood Wall
-InventoryItemDescriptions/InvDesc_1362	Wooden chair
+InventoryItemNames/InvItem_1362	Interior Wall
+InventoryItemDescriptions/InvDesc_1362	A wall you can use inside your house
 InventoryItemNames/InvItem_1363	Sand Fence
 InventoryItemDescriptions/InvDesc_1363	Keep things in or out.
 InventoryItemNames/InvItem_1364	Player House 2
@@ -2997,3 +2997,355 @@ InventoryItemNames/InvItem_1499	Festive Gifts
 InventoryItemDescriptions/InvDesc_1499	Twinkle Twinkle
 InventoryItemNames/InvItem_1500	Green Festive Sweater
 InventoryItemDescriptions/InvDesc_1500	It's ugly and festive
+InventoryItemNames/InvItem_1501	Spag Bol
+InventoryItemDescriptions/InvDesc_1501	Spag with some bolognese
+InventoryItemNames/InvItem_1502	Cheesy Spag
+InventoryItemDescriptions/InvDesc_1502	Cheesy
+InventoryItemNames/InvItem_1503	Spag Bol Plate
+InventoryItemDescriptions/InvDesc_1503	Ready for a meal
+InventoryItemNames/InvItem_1504	Cheese Spag Plate
+InventoryItemDescriptions/InvDesc_1504	Ready for a meal
+InventoryItemNames/InvItem_1505	Jam Toast
+InventoryItemDescriptions/InvDesc_1505	Breakie Bread
+InventoryItemNames/InvItem_1506	Croco Skewer
+InventoryItemDescriptions/InvDesc_1506	Better than him skewering me
+InventoryItemNames/InvItem_1507	Scones
+InventoryItemDescriptions/InvDesc_1507	Great with some tea
+InventoryItemNames/InvItem_1508	Burger
+InventoryItemDescriptions/InvDesc_1508	Is the patty the burger or the bun?
+InventoryItemNames/InvItem_1509	Lot Burger
+InventoryItemDescriptions/InvDesc_1509	It's a burger with the lot!
+InventoryItemNames/InvItem_1510	Dunny
+InventoryItemDescriptions/InvDesc_1510	A place to clear your stomach
+InventoryItemNames/InvItem_1511	Jam Toast Plate
+InventoryItemDescriptions/InvDesc_1511	Ready for a meal
+InventoryItemNames/InvItem_1512	Scones Plate
+InventoryItemDescriptions/InvDesc_1512	Ready for a meal
+InventoryItemNames/InvItem_1513	Croco Skewer Set
+InventoryItemDescriptions/InvDesc_1513	Ready for a meal
+InventoryItemNames/InvItem_1514	Burger Plate
+InventoryItemDescriptions/InvDesc_1514	Ready for a meal
+InventoryItemNames/InvItem_1515	Lot Burger Plate
+InventoryItemDescriptions/InvDesc_1515	Ready for a meal
+InventoryItemNames/InvItem_1516	Watermelon Popsicle
+InventoryItemDescriptions/InvDesc_1516	Where did the stick come from?
+InventoryItemNames/InvItem_1517	Advanced Crafting Table
+InventoryItemDescriptions/InvDesc_1517	Craft with items in nearby storage
+InventoryItemNames/InvItem_1518	Advanced Cooking Table
+InventoryItemDescriptions/InvDesc_1518	Cook with items in nearby storage
+InventoryItemNames/InvItem_1519	Sparkin' Soup
+InventoryItemDescriptions/InvDesc_1519	It tingles on your tongue
+InventoryItemNames/InvItem_1520	Water Melon Popsicle Set
+InventoryItemDescriptions/InvDesc_1520	Ready for a meal
+InventoryItemNames/InvItem_1521	Sparkin' Soup Plate
+InventoryItemDescriptions/InvDesc_1521	Ready for a meal
+InventoryItemNames/InvItem_1522	Crab Soup
+InventoryItemDescriptions/InvDesc_1522	Crabby
+InventoryItemNames/InvItem_1523	Parmy and Chips
+InventoryItemDescriptions/InvDesc_1523	A crowd favourite
+InventoryItemNames/InvItem_1524	Parmi and Chips Plate
+InventoryItemDescriptions/InvDesc_1524	Ready for a meal
+InventoryItemNames/InvItem_1525	Crab Soup Plate
+InventoryItemDescriptions/InvDesc_1525	Ready for a meal
+InventoryItemNames/InvItem_1526	Yellow Morel
+InventoryItemDescriptions/InvDesc_1526	A strange looking shroom
+InventoryItemNames/InvItem_1527	Slippery Jack
+InventoryItemDescriptions/InvDesc_1527	A slippery shroom
+InventoryItemNames/InvItem_1528	Field Mushroom
+InventoryItemDescriptions/InvDesc_1528	A common shroom
+InventoryItemNames/InvItem_1529	Milk Cap
+InventoryItemDescriptions/InvDesc_1529	I won't drink this
+InventoryItemNames/InvItem_1530	Hand Trolley
+InventoryItemDescriptions/InvDesc_1530	Can pick up and move full containers
+InventoryItemNames/InvItem_1531	Cooked Yabbie Plate
+InventoryItemDescriptions/InvDesc_1531	Ready for a meal
+InventoryItemNames/InvItem_1532	Cooked Yabbie
+InventoryItemDescriptions/InvDesc_1532	Eat it shellfishly
+InventoryItemNames/InvItem_1533	Red Roundhead
+InventoryItemDescriptions/InvDesc_1533	A rare shroom
+InventoryItemNames/InvItem_1534	Slippery Jack Stool
+InventoryItemDescriptions/InvDesc_1534	Wooden chair
+InventoryItemNames/InvItem_1535	Field Mushroom Lamp
+InventoryItemDescriptions/InvDesc_1535	It's a fun-light.
+InventoryItemNames/InvItem_1536	Slippery Jack Lamp
+InventoryItemDescriptions/InvDesc_1536	It's a fun-light.
+InventoryItemNames/InvItem_1537	Red Roundhead Lamp
+InventoryItemDescriptions/InvDesc_1537	It's a fun-light.
+InventoryItemNames/InvItem_1538	Yellow Morel Lamp
+InventoryItemDescriptions/InvDesc_1538	It's a fun-light.
+InventoryItemNames/InvItem_1539	Milk Cap Lamp
+InventoryItemDescriptions/InvDesc_1539	It's a fun-light.
+InventoryItemNames/InvItem_1540	Mushroom Soup
+InventoryItemDescriptions/InvDesc_1540	A bowl of hot fungus
+InventoryItemNames/InvItem_1541	Cooked Mushroom
+InventoryItemDescriptions/InvDesc_1541	Nice and grilled
+InventoryItemNames/InvItem_1542	Field Mushroom Basket
+InventoryItemDescriptions/InvDesc_1542	A decorative box of fruit
+InventoryItemNames/InvItem_1543	Milk Cap Basket
+InventoryItemDescriptions/InvDesc_1543	A decorative box of fruit
+InventoryItemNames/InvItem_1544	Slippery Jack Basket
+InventoryItemDescriptions/InvDesc_1544	A decorative box of fruit
+InventoryItemNames/InvItem_1545	Yellow Morel Basket
+InventoryItemDescriptions/InvDesc_1545	A decorative box of fruit
+InventoryItemNames/InvItem_1546	Roundhead Basket
+InventoryItemDescriptions/InvDesc_1546	A decorative box of fruit
+InventoryItemNames/InvItem_1547	Field Mushroom Stool
+InventoryItemDescriptions/InvDesc_1547	Wooden chair
+InventoryItemNames/InvItem_1548	Milk Cap Stool
+InventoryItemDescriptions/InvDesc_1548	Wooden chair
+InventoryItemNames/InvItem_1549	Roundhead Stool
+InventoryItemDescriptions/InvDesc_1549	Wooden chair
+InventoryItemNames/InvItem_1550	Yellow Morel Stool
+InventoryItemDescriptions/InvDesc_1550	Wooden chair
+InventoryItemNames/InvItem_1551	Mushroom Soup Plate
+InventoryItemDescriptions/InvDesc_1551	Ready for a meal
+InventoryItemNames/InvItem_1552	Toffee
+InventoryItemDescriptions/InvDesc_1552	It will break your teeth
+InventoryItemNames/InvItem_1553	Toffee Plate
+InventoryItemDescriptions/InvDesc_1553	Ready for a meal
+InventoryItemNames/InvItem_1554	Pumpkin Soup
+InventoryItemDescriptions/InvDesc_1554	It's warm and tasty
+InventoryItemNames/InvItem_1555	Pumpkin Soup Plate
+InventoryItemDescriptions/InvDesc_1555	Ready for a meal
+InventoryItemNames/InvItem_1556	Balloon Sword
+InventoryItemDescriptions/InvDesc_1556	Party on
+InventoryItemNames/InvItem_1557	Battle Broom
+InventoryItemDescriptions/InvDesc_1557	Clean up
+InventoryItemNames/InvItem_1558	Blastoad
+InventoryItemDescriptions/InvDesc_1558	Stuns enemies when it explodes
+InventoryItemNames/InvItem_1559	Plat Pie
+InventoryItemDescriptions/InvDesc_1559	It's poop. Plants might like it.
+InventoryItemNames/InvItem_1560	Toilet
+InventoryItemDescriptions/InvDesc_1560	
+InventoryItemNames/InvItem_1561	Bath Tub
+InventoryItemDescriptions/InvDesc_1561	A wooden table for beside your bed.
+InventoryItemNames/InvItem_1562	Charcoal Wall
+InventoryItemDescriptions/InvDesc_1562	Soot
+InventoryItemNames/InvItem_1563	Pastel Blue Wall
+InventoryItemDescriptions/InvDesc_1563	Pastely
+InventoryItemNames/InvItem_1564	Pastel Green Wall
+InventoryItemDescriptions/InvDesc_1564	Pastely
+InventoryItemNames/InvItem_1565	Pastel Grey Wall
+InventoryItemDescriptions/InvDesc_1565	Pastely
+InventoryItemNames/InvItem_1566	Pastel Orange Wall
+InventoryItemDescriptions/InvDesc_1566	Pastely
+InventoryItemNames/InvItem_1567	Pastel Pink Wall
+InventoryItemDescriptions/InvDesc_1567	Pastely
+InventoryItemNames/InvItem_1568	Pastel Purple Wall
+InventoryItemDescriptions/InvDesc_1568	Pastely
+InventoryItemNames/InvItem_1569	Pastel Red Wall
+InventoryItemDescriptions/InvDesc_1569	Pastely
+InventoryItemNames/InvItem_1570	Light Room Divider
+InventoryItemDescriptions/InvDesc_1570	Keep books here.
+InventoryItemNames/InvItem_1571	Eastern Room Divider
+InventoryItemDescriptions/InvDesc_1571	Keep books here.
+InventoryItemNames/InvItem_1572	Rattan Room Divider
+InventoryItemDescriptions/InvDesc_1572	Keep books here.
+InventoryItemNames/InvItem_1573	Mummy Boots
+InventoryItemDescriptions/InvDesc_1573	Dusty
+InventoryItemNames/InvItem_1574	Mummy Hood
+InventoryItemDescriptions/InvDesc_1574	Dusty
+InventoryItemNames/InvItem_1575	Mummy Pants
+InventoryItemDescriptions/InvDesc_1575	Dusty
+InventoryItemNames/InvItem_1576	Mummy Shirt
+InventoryItemDescriptions/InvDesc_1576	Dusty
+InventoryItemNames/InvItem_1577	Orange And Grey Jumper
+InventoryItemDescriptions/InvDesc_1577	Cozy
+InventoryItemNames/InvItem_1578	White Hoodie
+InventoryItemDescriptions/InvDesc_1578	Cozy
+InventoryItemNames/InvItem_1579	White Comfy Shoes
+InventoryItemDescriptions/InvDesc_1579	Comfy
+InventoryItemNames/InvItem_1580	Black Hoodie
+InventoryItemDescriptions/InvDesc_1580	Cozy
+InventoryItemNames/InvItem_1581	Black Comfy Shoes
+InventoryItemDescriptions/InvDesc_1581	Comfy
+InventoryItemNames/InvItem_1582	Black Sweat Pants
+InventoryItemDescriptions/InvDesc_1582	Pants for sweating.
+InventoryItemNames/InvItem_1583	Orange Hoodie
+InventoryItemDescriptions/InvDesc_1583	Cozy
+InventoryItemNames/InvItem_1584	Orange Comfy Shoes
+InventoryItemDescriptions/InvDesc_1584	Comfy
+InventoryItemNames/InvItem_1585	Orange Sweat Pants
+InventoryItemDescriptions/InvDesc_1585	Pants for sweating.
+InventoryItemNames/InvItem_1586	Black And White Scarf
+InventoryItemDescriptions/InvDesc_1586	Keep your neck warm
+InventoryItemNames/InvItem_1587	Pink Hoodie
+InventoryItemDescriptions/InvDesc_1587	Cozy
+InventoryItemNames/InvItem_1588	Pink Comfy Shoes
+InventoryItemDescriptions/InvDesc_1588	Comfy
+InventoryItemNames/InvItem_1589	Pink Sweat Pants
+InventoryItemDescriptions/InvDesc_1589	Pants for sweating.
+InventoryItemNames/InvItem_1590	Green Hoodie
+InventoryItemDescriptions/InvDesc_1590	Cozy
+InventoryItemNames/InvItem_1591	Green Comfy Shoes
+InventoryItemDescriptions/InvDesc_1591	Comfy
+InventoryItemNames/InvItem_1592	Green Sweat Pants
+InventoryItemDescriptions/InvDesc_1592	Pants for sweating.
+InventoryItemNames/InvItem_1593	Blue Hoodie
+InventoryItemDescriptions/InvDesc_1593	Cozy
+InventoryItemNames/InvItem_1594	Blue Comfy Shoes
+InventoryItemDescriptions/InvDesc_1594	Comfy
+InventoryItemNames/InvItem_1595	Blue Sweat Pants
+InventoryItemDescriptions/InvDesc_1595	Pants for sweating.
+InventoryItemNames/InvItem_1596	Purple Hoodie
+InventoryItemDescriptions/InvDesc_1596	Cozy
+InventoryItemNames/InvItem_1597	Purple Comfy Shoes
+InventoryItemDescriptions/InvDesc_1597	Comfy
+InventoryItemNames/InvItem_1598	Purple Sweat Pants
+InventoryItemDescriptions/InvDesc_1598	Pants for sweating.
+InventoryItemNames/InvItem_1599	Red Hoodie
+InventoryItemDescriptions/InvDesc_1599	Cozy
+InventoryItemNames/InvItem_1600	Red Comfy Shoes
+InventoryItemDescriptions/InvDesc_1600	Comfy
+InventoryItemNames/InvItem_1601	Red Sweat Pants
+InventoryItemDescriptions/InvDesc_1601	Pants for sweating.
+InventoryItemNames/InvItem_1602	Yellow Hoodie
+InventoryItemDescriptions/InvDesc_1602	Cozy
+InventoryItemNames/InvItem_1603	Yellow Comfy Shoes
+InventoryItemDescriptions/InvDesc_1603	Comfy
+InventoryItemNames/InvItem_1604	Yellow Sweat Pants
+InventoryItemDescriptions/InvDesc_1604	Pants for sweating.
+InventoryItemNames/InvItem_1605	Black Scarf
+InventoryItemDescriptions/InvDesc_1605	Keep your neck warm
+InventoryItemNames/InvItem_1606	Grey Scarf
+InventoryItemDescriptions/InvDesc_1606	Keep your neck warm
+InventoryItemNames/InvItem_1607	Patterned Scarf
+InventoryItemDescriptions/InvDesc_1607	Keep your neck warm
+InventoryItemNames/InvItem_1608	Red and Black Scarf
+InventoryItemDescriptions/InvDesc_1608	Keep your neck warm
+InventoryItemNames/InvItem_1609	Gum Log Seat
+InventoryItemDescriptions/InvDesc_1609	Perfect for camping
+InventoryItemNames/InvItem_1610	Dark Room Divider
+InventoryItemDescriptions/InvDesc_1610	Keep books here.
+InventoryItemNames/InvItem_1611	Office Divider
+InventoryItemDescriptions/InvDesc_1611	Dont want them working together
+InventoryItemNames/InvItem_1612	Galaxy Glider
+InventoryItemDescriptions/InvDesc_1612	Into space man
+InventoryItemNames/InvItem_1613	Galaxy Hood
+InventoryItemDescriptions/InvDesc_1613	A strange hood with a cape
+InventoryItemNames/InvItem_1614	Meteorite Chunk
+InventoryItemDescriptions/InvDesc_1614	A chunk of space rock
+InventoryItemNames/InvItem_1615	Star Sabre
+InventoryItemDescriptions/InvDesc_1615	This isn't the sabre you're looking for
+InventoryItemNames/InvItem_1616	Yellow Stripe Jumper
+InventoryItemDescriptions/InvDesc_1616	Cozy
+InventoryItemNames/InvItem_1617	Charcoal Tights
+InventoryItemDescriptions/InvDesc_1617	Nice tights
+InventoryItemNames/InvItem_1618	Green Stripe Jumper
+InventoryItemDescriptions/InvDesc_1618	Cozy
+InventoryItemNames/InvItem_1619	Grey Tights
+InventoryItemDescriptions/InvDesc_1619	Nice tights
+InventoryItemNames/InvItem_1620	Blue Stripe Jumper
+InventoryItemDescriptions/InvDesc_1620	Cozy
+InventoryItemNames/InvItem_1621	White Tights
+InventoryItemDescriptions/InvDesc_1621	Nice tights
+InventoryItemNames/InvItem_1622	Guest House Level 2
+InventoryItemDescriptions/InvDesc_1622	You can live here.
+InventoryItemNames/InvItem_1623	Guest House Deed
+InventoryItemDescriptions/InvDesc_1623	A deed to move a guest house
+InventoryItemNames/InvItem_1624	Guest House 2 Level 2
+InventoryItemDescriptions/InvDesc_1624	You can live here.
+InventoryItemNames/InvItem_1625	Guest House Deed
+InventoryItemDescriptions/InvDesc_1625	A deed to move a guest house
+InventoryItemNames/InvItem_1626	Guest House 2 Level 2
+InventoryItemDescriptions/InvDesc_1626	You can live here.
+InventoryItemNames/InvItem_1627	Guest House Deed
+InventoryItemDescriptions/InvDesc_1627	A deed to move a guest house
+InventoryItemNames/InvItem_1628	Ride On Lawn Mower
+InventoryItemDescriptions/InvDesc_1628	Stop grass growing back
+InventoryItemNames/InvItem_1629	Interior Doorway
+InventoryItemDescriptions/InvDesc_1629	A doorway you can use inside your house
+InventoryItemNames/InvItem_1630	Interior Half Wall
+InventoryItemDescriptions/InvDesc_1630	A half wall you can use inside your house
+InventoryItemNames/InvItem_1631	Fish Pond
+InventoryItemDescriptions/InvDesc_1631	A place to farm and breed fish
+InventoryItemNames/InvItem_1632	Fish Roe
+InventoryItemDescriptions/InvDesc_1632	Lil fish eggs
+InventoryItemNames/InvItem_1633	Rice Seed
+InventoryItemDescriptions/InvDesc_1633	Put 'em in the ground!
+InventoryItemNames/InvItem_1634	Rice
+InventoryItemDescriptions/InvDesc_1634	Want to eat a thousand?
+InventoryItemNames/InvItem_1635	Caviar
+InventoryItemDescriptions/InvDesc_1635	Old fish eggs
+InventoryItemNames/InvItem_1636	Cooked Rice
+InventoryItemDescriptions/InvDesc_1636	Fluffy and filling
+InventoryItemNames/InvItem_1637	Egg Fried Rice
+InventoryItemDescriptions/InvDesc_1637	A perfect meal
+InventoryItemNames/InvItem_1638	Rice Bag Stack
+InventoryItemDescriptions/InvDesc_1638	Display rice
+InventoryItemNames/InvItem_1639	Egg Fried Rice Plate
+InventoryItemDescriptions/InvDesc_1639	Ready for a meal
+InventoryItemNames/InvItem_1640	Caviar Set
+InventoryItemDescriptions/InvDesc_1640	Ready for a meal
+InventoryItemNames/InvItem_1641	Cooked Rice Set
+InventoryItemDescriptions/InvDesc_1641	Ready for a meal
+InventoryItemNames/InvItem_1642	Roe Nigiri
+InventoryItemDescriptions/InvDesc_1642	Tasty and salty
+InventoryItemNames/InvItem_1643	Roe Nigiri Plate
+InventoryItemDescriptions/InvDesc_1643	Ready for a meal
+InventoryItemNames/InvItem_1644	Crude Ladder
+InventoryItemDescriptions/InvDesc_1644	Helps you get to high places
+InventoryItemNames/InvItem_1645	Vine Lattice Ladder
+InventoryItemDescriptions/InvDesc_1645	Helps you get to high places
+InventoryItemNames/InvItem_1646	Creeping Vine
+InventoryItemDescriptions/InvDesc_1646	A vine that creeps up the side of cliffs
+InventoryItemNames/InvItem_1647	Gum Wood Ladder
+InventoryItemDescriptions/InvDesc_1647	Helps you get to high places
+InventoryItemNames/InvItem_1648	Hard Wood Ladder
+InventoryItemDescriptions/InvDesc_1648	Helps you get to high places
+InventoryItemNames/InvItem_1649	Palm Wood Ladder
+InventoryItemDescriptions/InvDesc_1649	Helps you get to high places
+InventoryItemNames/InvItem_1650	Iron Ladder
+InventoryItemDescriptions/InvDesc_1650	Helps you get to high places
+InventoryItemNames/InvItem_1651	Rope Ladder
+InventoryItemDescriptions/InvDesc_1651	Helps you get to high places
+InventoryItemNames/InvItem_1652	Green Wood Floor
+InventoryItemDescriptions/InvDesc_1652	A dark wood floor.
+InventoryItemNames/InvItem_1653	Cabin Wall
+InventoryItemDescriptions/InvDesc_1653	A log wallpaper
+InventoryItemNames/InvItem_1654	Rainbow Fish
+InventoryItemDescriptions/InvDesc_1654	It's so pretty!
+InventoryItemNames/InvItem_1655	Lionfish
+InventoryItemDescriptions/InvDesc_1655	He never tells the truth
+InventoryItemNames/InvItem_1656	Tiger Beetle
+InventoryItemDescriptions/InvDesc_1656	But it has dots on it?
+InventoryItemNames/InvItem_1657	Grass Tree Seed Pod
+InventoryItemDescriptions/InvDesc_1657	It needs fire...
+InventoryItemNames/InvItem_1658	Grass Tree Seed
+InventoryItemDescriptions/InvDesc_1658	Grows a grass tree
+InventoryItemNames/InvItem_1659	Cabin Stool
+InventoryItemDescriptions/InvDesc_1659	A red bar stool
+InventoryItemNames/InvItem_1660	Cabin Chair
+InventoryItemDescriptions/InvDesc_1660	A single chair for sitting.
+InventoryItemNames/InvItem_1661	Cabin Seat
+InventoryItemDescriptions/InvDesc_1661	A single chair for sitting.
+InventoryItemNames/InvItem_1662	Cabin Couch
+InventoryItemDescriptions/InvDesc_1662	A Couch. You can sit on it with a friend
+InventoryItemNames/InvItem_1663	Cabin Bed
+InventoryItemDescriptions/InvDesc_1663	A wooden table for beside your bed.
+InventoryItemNames/InvItem_1664	Old Table
+InventoryItemDescriptions/InvDesc_1664	A small table.
+InventoryItemNames/InvItem_1665	Cabin Coffee Table
+InventoryItemDescriptions/InvDesc_1665	A long coffee table.
+InventoryItemNames/InvItem_1666	Cabin Drawers
+InventoryItemDescriptions/InvDesc_1666	Put stuff in here.
+InventoryItemNames/InvItem_1667	Cabin Kitchen Table
+InventoryItemDescriptions/InvDesc_1667	A wooden table.
+InventoryItemNames/InvItem_1668	Cabin Cabinet
+InventoryItemDescriptions/InvDesc_1668	A wooden table.
+InventoryItemNames/InvItem_1669	Mushroom Risotto
+InventoryItemDescriptions/InvDesc_1669	Mushroomy
+InventoryItemNames/InvItem_1670	Mushroom Risotto Plate
+InventoryItemDescriptions/InvDesc_1670	Ready for a meal
+InventoryItemNames/InvItem_1671	Insta-Grow
+InventoryItemDescriptions/InvDesc_1671	Instantly grows a crop a bit
+InventoryItemNames/InvItem_1672	Old Wood Fence
+InventoryItemDescriptions/InvDesc_1672	Looks a bit shoddy
+InventoryItemNames/InvItem_1673	Old Wood Lamp Post
+InventoryItemDescriptions/InvDesc_1673	Is this even stable?
+InventoryItemNames/InvItem_1674	Natural Path
+InventoryItemDescriptions/InvDesc_1674	A simple dirt path
+InventoryItemNames/InvItem_1675	Gravel Pathway
+InventoryItemDescriptions/InvDesc_1675	Gravel with a cement edge
+InventoryItemNames/InvItem_1676	Auto Sorter
+InventoryItemDescriptions/InvDesc_1676	Sorts your items for you
