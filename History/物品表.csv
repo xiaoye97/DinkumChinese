@@ -2444,7 +2444,7 @@ InventoryItemDescriptions/InvDesc_1222	What's a Dinkum?
 InventoryItemNames/InvItem_1223	JB Shirt
 InventoryItemDescriptions/InvDesc_1223	Thanks for playing
 InventoryItemNames/InvItem_1224	Prize Ticket
-InventoryItemDescriptions/InvDesc_1224	Can be redeemed for prizes
+InventoryItemDescriptions/InvDesc_1224	Can be redeemed for prizes at John's goods
 InventoryItemNames/InvItem_1225	Dinkum Cap
 InventoryItemDescriptions/InvDesc_1225	A snazzy hat
 InventoryItemNames/InvItem_1226	Bubble Blower
@@ -2732,7 +2732,7 @@ InventoryItemDescriptions/InvDesc_1366	A small table.
 InventoryItemNames/InvItem_1367	Season-All
 InventoryItemDescriptions/InvDesc_1367	Allows crops to grow all year
 InventoryItemNames/InvItem_1368	Solar Panel
-InventoryItemDescriptions/InvDesc_1368	Speeds up nearby charging stations
+InventoryItemDescriptions/InvDesc_1368	Speeds up nearby solar compatible items
 InventoryItemNames/InvItem_1369	Palm Wood Table
 InventoryItemDescriptions/InvDesc_1369	Perfect for picnics
 InventoryItemNames/InvItem_1370	Gum Wood Table
@@ -3349,3 +3349,105 @@ InventoryItemNames/InvItem_1675	Gravel Pathway
 InventoryItemDescriptions/InvDesc_1675	Gravel with a cement edge
 InventoryItemNames/InvItem_1676	Auto Sorter
 InventoryItemDescriptions/InvDesc_1676	Sorts your items for you
+InventoryItemNames/InvItem_1677	Wrought Iron Fence
+InventoryItemDescriptions/InvDesc_1677	Very Fancy
+InventoryItemNames/InvItem_1678	Wrought Iron Lamp
+InventoryItemDescriptions/InvDesc_1678	A very strong light
+InventoryItemNames/InvItem_1679	Wrought Iron Bench
+InventoryItemDescriptions/InvDesc_1679	Sit down outside why don't ya.
+InventoryItemNames/InvItem_1680	Wrought Iron Gate
+InventoryItemDescriptions/InvDesc_1680	Opens and closes.
+InventoryItemNames/InvItem_1681	Cabin Bedside Table
+InventoryItemDescriptions/InvDesc_1681	A wooden table for beside your bed.
+InventoryItemNames/InvItem_1682	Cabin Bunk Bed
+InventoryItemDescriptions/InvDesc_1682	So much room
+InventoryItemNames/InvItem_1683	Old Gizmo
+InventoryItemDescriptions/InvDesc_1683	What was this used for?
+InventoryItemNames/InvItem_1684	Smooth Cement Path
+InventoryItemDescriptions/InvDesc_1684	A very smooth path
+InventoryItemNames/InvItem_1685	Honeycomb
+InventoryItemDescriptions/InvDesc_1685	Put it on your head to attract a bee
+InventoryItemNames/InvItem_1686	Wish Fountain Deed
+InventoryItemDescriptions/InvDesc_1686	A place to make wishes using money
+InventoryItemNames/InvItem_1687	Tin Flower Bed
+InventoryItemDescriptions/InvDesc_1687	Decorative Flower Bed
+InventoryItemNames/InvItem_1688	Pin Wheel
+InventoryItemDescriptions/InvDesc_1688	Blows in the wind or in the breath
+InventoryItemNames/InvItem_1689	White Diamond Kite
+InventoryItemDescriptions/InvDesc_1689	A flying diamond!
+InventoryItemNames/InvItem_1690	Black Diamond Kite
+InventoryItemDescriptions/InvDesc_1690	A flying diamond!
+InventoryItemNames/InvItem_1691	Blue Diamond Kite
+InventoryItemDescriptions/InvDesc_1691	A flying diamond!
+InventoryItemNames/InvItem_1692	Green Diamond Kite
+InventoryItemDescriptions/InvDesc_1692	A flying diamond!
+InventoryItemNames/InvItem_1693	Orange Diamond Kite
+InventoryItemDescriptions/InvDesc_1693	A flying diamond!
+InventoryItemNames/InvItem_1694	Pink Diamond Kite
+InventoryItemDescriptions/InvDesc_1694	A flying diamond!
+InventoryItemNames/InvItem_1695	Purple Diamond Kite
+InventoryItemDescriptions/InvDesc_1695	A flying diamond!
+InventoryItemNames/InvItem_1696	Red Diamond Kite
+InventoryItemDescriptions/InvDesc_1696	A flying diamond!
+InventoryItemNames/InvItem_1697	Yellow Diamond Kite
+InventoryItemDescriptions/InvDesc_1697	A flying diamond!
+InventoryItemNames/InvItem_1698	White Box Kite
+InventoryItemDescriptions/InvDesc_1698	A flying box!
+InventoryItemNames/InvItem_1699	Black Box Kite
+InventoryItemDescriptions/InvDesc_1699	A flying box!
+InventoryItemNames/InvItem_1700	Blue Box Kite
+InventoryItemDescriptions/InvDesc_1700	A flying box!
+InventoryItemNames/InvItem_1701	Green Box Kite
+InventoryItemDescriptions/InvDesc_1701	A flying box!
+InventoryItemNames/InvItem_1702	Orange Box Kite
+InventoryItemDescriptions/InvDesc_1702	A flying box!
+InventoryItemNames/InvItem_1703	Pink Box Kite
+InventoryItemDescriptions/InvDesc_1703	A flying box!
+InventoryItemNames/InvItem_1704	Purple Box Kite
+InventoryItemDescriptions/InvDesc_1704	A flying box!
+InventoryItemNames/InvItem_1705	Red Box Kite
+InventoryItemDescriptions/InvDesc_1705	A flying box!
+InventoryItemNames/InvItem_1706	Yellow Box Kite
+InventoryItemDescriptions/InvDesc_1706	A flying box!
+InventoryItemNames/InvItem_1707	White Sled Kite
+InventoryItemDescriptions/InvDesc_1707	A flying sled!
+InventoryItemNames/InvItem_1708	Black Sled Kite
+InventoryItemDescriptions/InvDesc_1708	A flying sled!
+InventoryItemNames/InvItem_1709	Blue Sled Kite
+InventoryItemDescriptions/InvDesc_1709	A flying sled!
+InventoryItemNames/InvItem_1710	Green Sled Kite
+InventoryItemDescriptions/InvDesc_1710	A flying sled!
+InventoryItemNames/InvItem_1711	Orange Sled Kite
+InventoryItemDescriptions/InvDesc_1711	A flying sled!
+InventoryItemNames/InvItem_1712	Pink Sled Kite
+InventoryItemDescriptions/InvDesc_1712	A flying sled!
+InventoryItemNames/InvItem_1713	Purple Sled Kite
+InventoryItemDescriptions/InvDesc_1713	A flying sled!
+InventoryItemNames/InvItem_1714	Red Sled Kite
+InventoryItemDescriptions/InvDesc_1714	A flying sled!
+InventoryItemNames/InvItem_1715	Yellow Sled Kite
+InventoryItemDescriptions/InvDesc_1715	A flying sled!
+InventoryItemNames/InvItem_1716	Kite Kit
+InventoryItemDescriptions/InvDesc_1716	A kite making kit for special events
+InventoryItemNames/InvItem_1717	Glitter Ball
+InventoryItemDescriptions/InvDesc_1717	Glitter wonderland
+InventoryItemNames/InvItem_1718	Search Light
+InventoryItemDescriptions/InvDesc_1718	A skyward facing light
+InventoryItemNames/InvItem_1719	Aurora Shirt
+InventoryItemDescriptions/InvDesc_1719	A Sky Fest memento
+InventoryItemNames/InvItem_1720	Aurora Baseball Cap
+InventoryItemDescriptions/InvDesc_1720	Remind you of Sky Fest
+InventoryItemNames/InvItem_1721	Moon Lamp
+InventoryItemDescriptions/InvDesc_1721	Perfect for dancing around
+InventoryItemNames/InvItem_1722	Star Wall
+InventoryItemDescriptions/InvDesc_1722	A starry wallpaper
+InventoryItemNames/InvItem_1723	Sky Fest Prize Ticket
+InventoryItemDescriptions/InvDesc_1723	Can be redeemed for prizes at Sky Fest
+InventoryItemNames/InvItem_1724	Foil Hat
+InventoryItemDescriptions/InvDesc_1724	Keeps the mind clear
+InventoryItemNames/InvItem_1725	Star Carpet Path
+InventoryItemDescriptions/InvDesc_1725	A star covered carpet
+InventoryItemNames/InvItem_1726	Star Fence
+InventoryItemDescriptions/InvDesc_1726	Fencing with lil' stars on the posts
+InventoryItemNames/InvItem_1727	Star Balloon
+InventoryItemDescriptions/InvDesc_1727	Who would have thought air could be so much fun?

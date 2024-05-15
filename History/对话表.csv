@@ -200,6 +200,22 @@ CLOVER/RandomConvo_037_Response_002_001	What a weird answer to choose, y’know?
 CLOVER/RandomConvo_037_Response_002_002	<haha>Don’t worry though, we’re still friends, <PlayerName>.
 CLOVER/RandomConvo_038_Intro_000	Need Text Here
 CLOVER/RandomConvo_039_Intro_000	Need Text Here
+CLOVER/SkyFest_AfterNoon_004_Intro_000	I see you eyeing my <Kite> <PlayerName>.
+CLOVER/SkyFest_AfterNoon_004_Intro_001	<proud>Yes, I did use my own special fabric.
+CLOVER/SkyFest_AfterNoon_004_Intro_002	<glee>Thanks for noticing!
+CLOVER/SkyFest_AfterNoon_004_Intro_003	Now I need to go chase down some <PaperLanterns>.
+CLOVER/SkyFest_Morning_004_Intro_000	<SkyFest> is a day to be enjoyed, okay <PlayerName>?
+CLOVER/SkyFest_Morning_004_Intro_001	<yes>I worked hard to help make this <Aurora> happen. 
+CLOVER/SkyFest_Morning_004_Intro_002	So I’d be bummed out if you didn’t enjoy it, y’know?
+CLOVER/SkyFest_Night_004_Intro_000	<no>Oh, no, no, no, <PlayerName>.
+CLOVER/SkyFest_Night_004_Intro_001	<no>No need to thank me.
+CLOVER/SkyFest_Night_004_Intro_002	<yes>This <Aurora> is for everyone.
+CLOVER/SkyFest_Night_004_Intro_003	I simply knew how to make it happen, y’know?
+CLOVER/SkyFest_Night_004_Intro_004	Sure is pretty, right?
+CLOVER/SkyFest_Noon_004_Intro_000	I made my <Kite> last night, y’know?
+CLOVER/SkyFest_Noon_004_Intro_001	I just work better when it’s late. 
+CLOVER/SkyFest_Noon_004_Intro_002	<no>There is less noise to distract me, y’know.
+CLOVER/SkyFest_Noon_004_Intro_003	<glee>That way I can hear the voices better.
 CLOVER/TownMention_Level_001_Intro_000	<IslandName> has a lot of potential, y’know.þ
 CLOVER/TownMention_Level_001_Intro_001	<yes>Even though it’s still in the early stages, I feel like the future is bright for us here.þ
 CLOVER/TownMention_Level_001_Intro_002	<glee>Keep up the good work, <PlayerName>.þ
@@ -283,6 +299,11 @@ FLETCH/FirstIntroInGame_Intro_003	<haha>When you were the first and only person 
 FLETCH/FirstIntroInGame_Intro_004	<no>Oh dear, look at old <myName> waffle on...
 FLETCH/FirstIntroInGame_Intro_005	Let's get cracking, <PlayerName>!
 FLETCH/FirstIntroInGame_Intro_006	I'll see you outside, okay?
+FLETCH/GetKite_Convo_Intro_000	Righto, <PlayerName>!
+FLETCH/GetKite_Convo_Intro_001	Here is your <itemName>.
+FLETCH/GetKite_Convo_Intro_002	I was up all night making one for everyone.
+FLETCH/GetKite_Convo_Intro_003	You can use the <KiteMakingTable> near the steps of the Band Stand to make your kite.
+FLETCH/GetKite_Convo_Intro_004	<yes>Oh, and don’t forget that you can use paint to make it your own.
 FLETCH/GetSnag_Convo_Intro_000	Righto, <PlayerName>.
 FLETCH/GetSnag_Convo_Intro_001	<glee>These <Snags> are ready to go!
 FLETCH/GetSnag_Convo_Intro_002	<proud>Trust me, it’s an old family delicacy.
@@ -427,7 +448,7 @@ FLETCH/IslandDayGreeting_Night_006_Intro_000	Oh, <PlayerName>!þ
 FLETCH/IslandDayGreeting_Night_006_Intro_001	How do you like the show in the sky?þ
 FLETCH/IslandDayGreeting_Night_006_Intro_002	<shy>I had a little help getting it ready.þ
 FLETCH/IslandDayGreeting_Night_006_Intro_003	You should be able to see them all over <IslandName> for the rest of the night.þ
-FLETCH/IslandDayGreeting_Night_006_Intro_004	Feel free to go wondering and check them out from your favourite spots here on <IslandName>.
+FLETCH/IslandDayGreeting_Night_006_Intro_004	Feel free to go wandering and check them out from your favourite spots here on <IslandName>.
 FLETCH/IslandDayGreeting_Night_006_Option_000	Thanks for today.
 FLETCH/IslandDayGreeting_Night_006_Option_001	Talk to you soon
 FLETCH/IslandDayGreeting_Night_006_Response_000_000	I’ll tell you what, no need to thank me!þ
@@ -457,6 +478,9 @@ FLETCH/IslandDayGreeting_Noon_006_Response_001_003	Oh, and there is a surprise l
 FLETCH/IslandDayGreeting_Noon_006_Response_001_004	<glee>Plenty of <IslandDay> left to celebrate.þ
 FLETCH/IslandDayGreeting_Noon_006_Response_002_000	Oh, and there is a surprise later on tonight, <PlayerName>.þ
 FLETCH/IslandDayGreeting_Noon_006_Response_002_001	<glee>Plenty of <IslandDay> left to celebrate.þ
+FLETCH/KiteWontFit_Convo_Intro_000	<shocked>Oh!
+FLETCH/KiteWontFit_Convo_Intro_001	<no>Looks like your pockets are full.
+FLETCH/KiteWontFit_Convo_Intro_002	Why don’t you make some room and come speak to me.
 FLETCH/Low_Friendship_Greeting 0_Intro_000	Ah, <PlayerName>.
 FLETCH/Low_Friendship_Greeting 0_Intro_001	How can I help you?
 FLETCH/Low_Friendship_Greeting 0_Option_000	<chat>
@@ -725,6 +749,65 @@ FLETCH/RandomConvo_036_Intro_000	Need Text
 FLETCH/RandomConvo_037_Intro_000	Need Text
 FLETCH/RandomConvo_038_Intro_000	Need Text
 FLETCH/RandomConvo_039_Intro_000	Need Text
+FLETCH/SkyFest_AfterNoon_006_Intro_000	The <PaperLantern> event has started, <PlayerName>!
+FLETCH/SkyFest_AfterNoon_006_Intro_001	<glee>Please go enjoy yourself!
+FLETCH/SkyFest_AfterNoon_006_Option_000	How do I play?
+FLETCH/SkyFest_AfterNoon_006_Option_001	Any tips for me?
+FLETCH/SkyFest_AfterNoon_006_Option_002	Bye for now!
+FLETCH/SkyFest_AfterNoon_006_Response_000_000	Well, the aim of the game is to hit down as many <PaperLanterns> from the sky as you can!
+FLETCH/SkyFest_AfterNoon_006_Response_000_001	Each one will drop a <itemName> once you’ve hit it!
+FLETCH/SkyFest_AfterNoon_006_Response_000_002	<haha>The best way to hit them down is using your <Kite>, but I won't stop you from being creative.
+FLETCH/SkyFest_AfterNoon_006_Response_000_003	You should bring any <itemName> back here to this table to claim rewards from the reward box.
+FLETCH/SkyFest_AfterNoon_006_Response_000_004	Good luck, <PlayerName>!
+FLETCH/SkyFest_AfterNoon_006_Response_001_000	Well, if you stand still, you’ll notice the <Kite> will go wherever you’re looking.
+FLETCH/SkyFest_AfterNoon_006_Response_001_001	If you “use” your <Kite>, you’ll let out some string and the <Kite> will go much higher.
+FLETCH/SkyFest_AfterNoon_006_Response_001_002	It’s easier to aim your <Kite> while doing this and standing still.
+FLETCH/SkyFest_AfterNoon_006_Response_001_003	<thinking>When I was a bit younger, I found this the best strategy:
+FLETCH/SkyFest_AfterNoon_006_Response_001_004	Get close to a <PaperLantern>, “use” your <Kite> to let out some string to make the <Kite> go higher.
+FLETCH/SkyFest_AfterNoon_006_Response_001_005	Then, try to line things up by watching where your <Kite>’s string is.
+FLETCH/SkyFest_AfterNoon_006_Response_001_006	<yes>With a bit of practice, I’m sure you’ll get the hang of it <PlayerName>!
+FLETCH/SkyFest_AfterNoon_006_Response_002_000	Good luck, <PlayerName>!
+FLETCH/SkyFest_Morning_006_Intro_000	Happy <SkyFest> to you, <PlayerName>!
+FLETCH/SkyFest_Morning_006_Intro_001	I've got some great activities planned for today, so I hope you'll stick around!
+FLETCH/SkyFest_Morning_006_Option_000	What day is it?
+FLETCH/SkyFest_Morning_006_Option_001	What activities?
+FLETCH/SkyFest_Morning_006_Option_002	Talk to you soon
+FLETCH/SkyFest_Morning_006_Response_000_000	Today is <SkyFest>!
+FLETCH/SkyFest_Morning_006_Response_000_001	You see, today is the day where we’ll see the <Aurora>!
+FLETCH/SkyFest_Morning_006_Response_000_002	<yes>It’s a very rare occurrence, even here on <IslandName>.
+FLETCH/SkyFest_Morning_006_Response_000_003	<glee>So, today we’re celebrating the sky with some fun activities while we wait.
+FLETCH/SkyFest_Morning_006_Response_000_004	<glee>I hope you’ll join in too, <PlayerName>.
+FLETCH/SkyFest_Morning_006_Response_001_000	Well, around 11:00 everyone will be making a <Kite>!
+FLETCH/SkyFest_Morning_006_Response_001_001	Be sure to come talk to me around 11:00 to get your <itemName>.
+FLETCH/SkyFest_Morning_006_Response_001_002	<proud>I’ve got enough for everyone!
+FLETCH/SkyFest_Morning_006_Response_001_003	<glee>A bit later on, we’ll start the <PaperLantern> event.
+FLETCH/SkyFest_Morning_006_Response_001_004	<yes>I’ll explain how that works a bit later.
+FLETCH/SkyFest_Morning_006_Response_001_005	And of course, everyone is looking forward to the main event. 
+FLETCH/SkyFest_Morning_006_Response_001_006	The <Aurora>!
+FLETCH/SkyFest_Morning_006_Response_001_007	A beautiful and rare natural occurrence, later tonight.
+FLETCH/SkyFest_Morning_006_Response_002_000	Righto!þ
+FLETCH/SkyFest_Morning_006_Response_002_001	Don’t forget to come back a bit later to get your <itemName>!
+FLETCH/SkyFest_Morning_006_Response_002_002	Until then, enjoy yourself, <PlayerName>.þ
+FLETCH/SkyFest_Night_006_Intro_000	<glee>The <Aurora> is in full swing!
+FLETCH/SkyFest_Night_006_Intro_001	<glee>We should be able to see it all night here on <IslandName>.
+FLETCH/SkyFest_Night_006_Intro_002	<shy>I hope you’ve had some fun today, <PlayerName>.
+FLETCH/SkyFest_Night_006_Intro_003	The prize box will be here in the Band Stand all night, but the lanterns will stop once it gets late.
+FLETCH/SkyFest_Night_006_Intro_004	<yes>So make sure you try and get as many tickets as you can before then!
+FLETCH/SkyFest_Night_006_Intro_005	<haha>Hopefully the <Aurora> won’t distract you too much!
+FLETCH/SkyFest_Noon_006_Intro_000	Have you made your <Kite> yet, <PlayerName>?
+FLETCH/SkyFest_Noon_006_Intro_001	Don’t forget you can make your <Kite> at the <KiteMakingTable> near the steps of the Band Stand.
+FLETCH/SkyFest_Noon_006_Option_000	I've made my kite!
+FLETCH/SkyFest_Noon_006_Option_001	Talk to you soon
+FLETCH/SkyFest_Noon_006_Response_000_000	That’s great, <PlayerName>!þ
+FLETCH/SkyFest_Noon_006_Response_000_001	You’re going to need a <Kite> for the <PaperLantern> event.
+FLETCH/SkyFest_Noon_006_Response_000_002	Why don’t you go and get a feel for flying it before we start the event?
+FLETCH/SkyFest_Noon_006_Response_000_003	<yes>Remember, you can "use" the <Kite> to let string out.
+FLETCH/SkyFest_Noon_006_Response_000_004	<pumped>That will let your <Kite> go much higher!
+FLETCH/SkyFest_Noon_006_Response_000_005	<yes>The event will start at 3:00, so you’ve got some time.
+FLETCH/SkyFest_Noon_006_Response_001_000	I hope you're enjoying <SkyFest>.
+FLETCH/SkyFest_Noon_006_Response_001_001	<haha>I'll tell you what, the activities and festivities aren't done yet!
+FLETCH/SkyFest_Noon_006_Response_001_002	Don’t forget that we’ve got the <PaperLantern> event at 3:00!
+FLETCH/SkyFest_Noon_006_Response_001_003	And of course, you can’t forget the wonderful <Aurora> once it’s dark.
 FLETCH/StartingConversation_Intro_000	So, you wanted to talk about your home?
 FLETCH/StartingConversation_Option_000	I want to upgrade
 FLETCH/StartingConversation_Option_001	I want to move my house.
@@ -1195,6 +1278,22 @@ FRANKLIN/RandomConvo_039_Intro_001	<no>I miss it quite a lot.þþþ
 FRANKLIN/RandomConvo_039_Intro_002	<nop>Yet I notice in you something you could not find in <SouthCity>, no matter where you looked. þ
 FRANKLIN/RandomConvo_039_Intro_003	<yes>A spark I find quite admirable. You want to explore and create something new!þ
 FRANKLIN/RandomConvo_039_Intro_004	<yes>I think this is why we get along so well.þ
+FRANKLIN/SkyFest_AfterNoon_002_Intro_000	Yes <PlayerName>, you are correct.
+FRANKLIN/SkyFest_AfterNoon_002_Intro_001	<proud>My <Kite> is beyond incredible.
+FRANKLIN/SkyFest_AfterNoon_002_Intro_002	<thinking>You may think your <Kite> is of similar quality.
+FRANKLIN/SkyFest_AfterNoon_002_Intro_003	<no>But you are incorrect.
+FRANKLIN/SkyFest_Morning_002_Intro_000	Hello.
+FRANKLIN/SkyFest_Morning_002_Intro_001	It is <SkyFest> today.
+FRANKLIN/SkyFest_Morning_002_Intro_002	I will be conducting various experiments throughout the day using my <Kite>.
+FRANKLIN/SkyFest_Morning_002_Intro_003	Please try avoiding me if possible.
+FRANKLIN/SkyFest_Night_002_Intro_000	<thinking>Hmmm…
+FRANKLIN/SkyFest_Night_002_Intro_001	<yes>I know that this <Aurora> is just an interaction of the planet’s magnetic field and charged particles from the Sun.
+FRANKLIN/SkyFest_Night_002_Intro_002	<thinking>But, I must agree with everyone here at <SkyFest>.
+FRANKLIN/SkyFest_Night_002_Intro_003	<yes>This occurrence is something worth observing with one’s own eyes.
+FRANKLIN/SkyFest_Noon_002_Intro_000	Yes.
+FRANKLIN/SkyFest_Noon_002_Intro_001	<proud>My <Kite> is superior to everyone else’s <Kite>.
+FRANKLIN/SkyFest_Noon_002_Intro_002	<thinking>I have made sure it is extremely aerodynamic.
+FRANKLIN/SkyFest_Noon_002_Intro_003	<yes>I’m sure it will reach the heights needed for my experiments.
 FRANKLIN/TechCompleted_Intro_000	Ah, <PlayerName>!
 FRANKLIN/TechCompletedNoSpace_Intro_000	<proud>I have completed the <itemName> you commissioned!
 FRANKLIN/TechCompletedNoSpace_Intro_001	I think you will find it very impressive!
@@ -2098,6 +2197,20 @@ IRWIN/RandomConvo_036_Intro_000	Need Text
 IRWIN/RandomConvo_037_Intro_000	Need Text
 IRWIN/RandomConvo_038_Intro_000	Need Text
 IRWIN/RandomConvo_039_Intro_000	Need Text
+IRWIN/SkyFest_AfterNoon_007_Intro_000	<pumped>Struth!
+IRWIN/SkyFest_AfterNoon_007_Intro_001	<glee>This is maybe my best <Kite> ever!
+IRWIN/SkyFest_AfterNoon_007_Intro_002	It soars just like a beautiful <animalName>!
+IRWIN/SkyFest_AfterNoon_007_Intro_003	<glee>Totally grouse!
+IRWIN/SkyFest_Morning_007_Intro_000	You beauty!
+IRWIN/SkyFest_Morning_007_Intro_001	<dance>It’s <SkyFest>!
+IRWIN/SkyFest_Morning_007_Intro_002	I’ve been waiting all year for this!
+IRWIN/SkyFest_Night_007_Intro_000	It’s amazing to see the sky like this!
+IRWIN/SkyFest_Night_007_Intro_001	<yes>I always love a good <SkyFest> celebration.
+IRWIN/SkyFest_Night_007_Intro_002	<glee>But I reckon a <SkyFest> on <IslandName> will always be the best kind of <SkyFest>.
+IRWIN/SkyFest_Noon_007_Intro_000	Struth!
+IRWIN/SkyFest_Noon_007_Intro_001	I hope you’ve made your <Kite>, <PlayerName>!
+IRWIN/SkyFest_Noon_007_Intro_002	I’ve made a beauty of a <Kite>.
+IRWIN/SkyFest_Noon_007_Intro_003	Can’t wait to fly it around!
 IRWIN/TownMention_Level_001_Intro_000	<IslandName> is well on the way to being a great place! þ
 IRWIN/TownMention_Level_001_Intro_001	<yes>You should be very proud of yourself, <PlayerName>.þ
 IRWIN/TownMention_Level_001_Intro_002	<glee>I hope you keep up the great work!þ
@@ -2572,6 +2685,19 @@ JOHN/RandomConvo_039_Intro_000	<shy>My brother says he’s too busy to come and 
 JOHN/RandomConvo_039_Intro_001	<no>He’s got a boat, but he says he can’t even take it out for a quick visit.þ
 JOHN/RandomConvo_039_Intro_002	<sigh>It’s a real shame...
 JOHN/RandomConvo_039_Intro_003	<yes>I think he'd like you, <PlayerName>.
+JOHN/SkyFest_AfterNoon_001_Intro_000	Righto.
+JOHN/SkyFest_AfterNoon_001_Intro_001	I got my <Kite>, <PlayerName>.
+JOHN/SkyFest_AfterNoon_001_Intro_002	<haha>Stay out of my way, because I’ll be zooming around with this bad boy all arvo!
+JOHN/SkyFest_AfterNoon_001_Intro_003	<haha>I'll be hitting plenty of <PaperLanterns> with it, just you see!
+JOHN/SkyFest_Morning_001_Intro_000	G’day <PlayerName>.
+JOHN/SkyFest_Morning_001_Intro_001	Today is <SkyFest>!
+JOHN/SkyFest_Morning_001_Intro_002	<haha>I reckon the sky can’t get prettier than last year!
+JOHN/SkyFest_Night_001_Intro_000	Wow!
+JOHN/SkyFest_Night_001_Intro_001	<glee>You don’t see something like this <Aurora> every day!
+JOHN/SkyFest_Night_001_Intro_002	Really makes you think how lucky we all are to live here on <IslandName>.
+JOHN/SkyFest_Night_001_Intro_003	<yes>Glad you’re here to share the day with me, <PlayerName>.
+JOHN/SkyFest_Noon_001_Intro_000	Did you finish up your <Kite>, <PlayerName>?
+JOHN/SkyFest_Noon_001_Intro_001	A <SkyFest> <Kite> is a very important thing, so take your time!
 JOHN/Storm_Greeting 0_Intro_000	<yes>It’s tough to do inventory with all this stormy racket…
 JOHN/Storm_Greeting 0_Intro_001	What are you up to, <PlayerName>?
 JOHN/Storm_Greeting 0_Option_000	<chat>
@@ -2968,6 +3094,18 @@ MELVIN/RandomConvo_037_Intro_000	Nah, I’m good.þ
 MELVIN/RandomConvo_037_Intro_001	Don’t wanna talk yer ear off.þ
 MELVIN/RandomConvo_038_Intro_000	Need Text
 MELVIN/RandomConvo_039_Intro_000	Need Text
+MELVIN/SkyFest_AfterNoon_003_Intro_000	<glee>Weee!
+MELVIN/SkyFest_AfterNoon_003_Intro_001	<haha>Bloody wonderful day, <PlayerName>.
+MELVIN/SkyFest_AfterNoon_003_Intro_002	I ain’t going for any <PaperLanterns>.
+MELVIN/SkyFest_AfterNoon_003_Intro_003	I’m just really enjoying this here <Kite>.
+MELVIN/SkyFest_Morning_003_Intro_000	G’day <PlayerName>.
+MELVIN/SkyFest_Morning_003_Intro_001	<SkyFest> today.
+MELVIN/SkyFest_Morning_003_Intro_002	Enjoy yer self, okay?
+MELVIN/SkyFest_Night_003_Intro_000	That <Aurora> is bloody beautiful.
+MELVIN/SkyFest_Night_003_Intro_001	Ain’t it, mate?
+MELVIN/SkyFest_Noon_003_Intro_000	<yes>Made me <Kite> already.
+MELVIN/SkyFest_Noon_003_Intro_001	<shy>She's a bloody beauty.
+MELVIN/SkyFest_Noon_003_Intro_002	The missus would have been proud of my craftin’
 MELVIN/Windy_Greeting 0_Intro_000	Breezy, ain’t it?
 MELVIN/Windy_Greeting 0_Intro_001	What did ya need?
 MELVIN/Windy_Greeting 0_Option_000	<chat>
@@ -3151,6 +3289,24 @@ MILBURN/RandomConvo_036_Intro_000	Need Text
 MILBURN/RandomConvo_037_Intro_000	Need Text
 MILBURN/RandomConvo_038_Intro_000	Need Text
 MILBURN/RandomConvo_039_Intro_000	Need Text
+MILBURN/SkyFest_AfterNoon_010_Intro_000	Hmmph.
+MILBURN/SkyFest_AfterNoon_010_Intro_001	Flying this <Kite> reminds me a lot of my childhood.
+MILBURN/SkyFest_AfterNoon_010_Intro_002	<thinking>Maybe <Dinks> can’t buy happiness…
+MILBURN/SkyFest_AfterNoon_010_Intro_003	<no>No.
+MILBURN/SkyFest_AfterNoon_010_Intro_004	<no>That's a preposterous thought.
+MILBURN/SkyFest_Morning_010_Intro_000	Hmmph.
+MILBURN/SkyFest_Morning_010_Intro_001	Happy sky day, I guess.
+MILBURN/SkyFest_Morning_010_Intro_002	<thinking>Oh, it’s <SkyFest> is it?
+MILBURN/SkyFest_Morning_010_Intro_003	Whatever.
+MILBURN/SkyFest_Night_010_Intro_000	Hmmph.
+MILBURN/SkyFest_Night_010_Intro_001	<no>Same old <SkyFest> sky.
+MILBURN/SkyFest_Night_010_Intro_002	Just like last year, and the year before.
+MILBURN/SkyFest_Night_010_Intro_003	<yes>Once you’ve seen one <Aurora>, you’ve seen them all.
+MILBURN/SkyFest_Night_010_Intro_004	<shy>Although, I guess I did have some fun during this year’s <SkyFest> festivities…
+MILBURN/SkyFest_Noon_010_Intro_000	<shocked>You mean I’m expected to make my own <Kite>!?
+MILBURN/SkyFest_Noon_010_Intro_001	<no>What kind of event is this?
+MILBURN/SkyFest_Noon_010_Intro_002	<pumped>I’ll tell you, <PlayerName>.
+MILBURN/SkyFest_Noon_010_Intro_003	<angry>Poorly planned.
 NED/CompleteBirthday_000_Intro_000	<haha>You sneaky <animalName>.
 NED/CompleteBirthday_000_Intro_001	<shy>You really surprised me with this <birthday> gift, <PlayerName>.
 NED/CompleteBirthday_000_Intro_002	Thanks a bunch, mate.
@@ -3227,6 +3383,12 @@ NED/RandomConvo 8_Intro_000	If I had any advice for a whipper snapper like yours
 NED/RandomConvo 8_Intro_001	Find a passion,  and hold on to it like it owes you something!
 NED/RandomConvo 8_Intro_002	Go at it tooth and nail! <pumped>
 NED/RandomConvo 9_Intro_000	<proud>Weapons and me go together like spaghetti and blankets.
+NED/SkyFest_AfterNoon_005_Intro_000	Happy <SkyFest>!
+NED/SkyFest_Morning_005_Intro_000	Happy <SkyFest>!
+NED/SkyFest_Night_005_Intro_000	It’s amazing to see the sky like this!
+NED/SkyFest_Night_005_Intro_001	<yes>I always love a good <SkyFest> celebration.
+NED/SkyFest_Night_005_Intro_002	<glee>>But I reckon a <SkyFest> on <IslandName> will always be the best kind of <SkyFest>.
+NED/SkyFest_Noon_005_Intro_000	Nice <Kite>, mate!
 NED/SomethingToSellTrapper_Intro_000	Very nice indeed.
 NED/SomethingToSellTrapper_Intro_001	Tell you what, how does <$> sound?
 NED/SomethingToSellTrapper_Option_000	Deal.
@@ -3279,6 +3441,13 @@ Npc11/JimmyWorkConvo_Response_002_000	Righto.
 Npc11/NothingToGiveJimmy_Intro_000	<sigh>Hmmm, you know what they say, <PlayerName>. Time is <Dinks>
 Npc11/NothingToGiveJimmy_Intro_001	<angry>And you just wasted my time.
 Npc11/NothingToGiveJimmy_Intro_002	<no>Don't come back unless you really want to do business.
+Npc11/SkyFest_AfterNoon_011_Intro_000	Happy <SkyFest>!
+Npc11/SkyFest_Morning_011_Intro_000	Happy<SkyFest>!
+Npc11/SkyFest_Night_011_Intro_000	You know what?
+Npc11/SkyFest_Night_011_Intro_001	<yes>I’ve had a wonderful day today, <petName>.
+Npc11/SkyFest_Night_011_Intro_002	<thinking>And this <Aurora> is a great way to end a great day.
+Npc11/SkyFest_Night_011_Intro_003	<yes>Every day here on <IslandName> gets better and better.
+Npc11/SkyFest_Noon_011_Intro_000	Happy <SkyFest>!
 Npc11/SomethingToSellJimmy_Intro_000	<thinking>Oh, yes... all these bulk items...
 Npc11/SomethingToSellJimmy_Intro_001	Plus my very, very fair bonus...
 Npc11/SomethingToSellJimmy_Intro_002	I can give you <$>. Take it or leave it.
@@ -3442,6 +3611,57 @@ PLAYER/TeleboxNeedsItems_Intro_001	Should I place something inside?
 PLAYER/TeleboxNeedsItems_Option_000	Place Items
 PLAYER/TeleboxNeedsItems_Option_001	Nevermind.
 PLAYER/TeleCallerDoesn'tWork_Intro_000	It doesn't work right now...
+PLAYER/WishingWell_BountifulWish_Intro_000	A <BountifulWish> will make fish and bugs more common, as well as make rare sparkling fish and bugs appear.
+PLAYER/WishingWell_BountifulWish_Intro_001	Only one wish will take effect at a time...
+PLAYER/WishingWell_BountifulWish_Option_000	Make this wish!
+PLAYER/WishingWell_BountifulWish_Option_001	A different wish...
+PLAYER/WishingWell_BountifulWish_Response_000_000	I dropped my <Dinks> and made my wish...
+PLAYER/WishingWell_BountifulWish_Response_000_001	It will come true tomorrow...
+PLAYER/WishingWell_DangerousWish_Intro_000	A <DangerousWish> will make enemy attacks twice as strong, but enemies will drop twice as many drops. Hunters might appear more often...
+PLAYER/WishingWell_DangerousWish_Intro_001	Only one wish will take effect at a time...
+PLAYER/WishingWell_DangerousWish_Option_000	Make this wish!
+PLAYER/WishingWell_DangerousWish_Option_001	A different wish...
+PLAYER/WishingWell_DangerousWish_Response_000_000	I dropped my <Dinks> and made my wish...
+PLAYER/WishingWell_DangerousWish_Response_000_001	It will come true tomorrow...
+PLAYER/WishingWell_Fortuitous_Intro_000	A <FortuitousWish> will make your luck increase. This will make rare occurrences more common.
+PLAYER/WishingWell_Fortuitous_Intro_001	Only one wish will take effect at a time...
+PLAYER/WishingWell_Fortuitous_Option_000	Make this wish!
+PLAYER/WishingWell_Fortuitous_Option_001	A different wish...
+PLAYER/WishingWell_Fortuitous_Response_000_000	I dropped my <Dinks> and made my wish...
+PLAYER/WishingWell_Fortuitous_Response_000_001	It will come true tomorrow...
+PLAYER/WishingWell_MakeAWish_Intro_000	<GetCurrentWish>þ
+PLAYER/WishingWell_MakeAWish_Intro_001	Should I drop <WishingWellPrice> and make a wish?
+PLAYER/WishingWell_MakeAWish_Option_000	Peaceful Wish
+PLAYER/WishingWell_MakeAWish_Option_001	Dangerous Wish
+PLAYER/WishingWell_MakeAWish_Option_002	Bountiful Wish
+PLAYER/WishingWell_MakeAWish_Option_003	More...
+PLAYER/WishingWell_MakeAWish_Option_004	No wish
+PLAYER/WishingWell_MakeAWishPage2_Intro_000	Should I drop <WishingWellPrice> and make a wish?
+PLAYER/WishingWell_MakeAWishPage2_Option_000	Fortuitous Wish
+PLAYER/WishingWell_MakeAWishPage2_Option_001	Spotless Wish
+PLAYER/WishingWell_MakeAWishPage2_Option_002	Regretful Wish
+PLAYER/WishingWell_MakeAWishPage2_Option_003	No wish
+PLAYER/WishingWell_NotEnoughMoney_Intro_000	<GetCurrentWish>þ
+PLAYER/WishingWell_NotEnoughMoney_Intro_001	I don't have enough <Dinks> to make a wish...
+PLAYER/WishingWell_PeacefulWish_Intro_000	A <PeacefulWish> will stop wild animals from attacking you, unless you attack them. No Hunters will visit your island.
+PLAYER/WishingWell_PeacefulWish_Intro_001	Only one wish will take effect at a time...
+PLAYER/WishingWell_PeacefulWish_Option_000	Make this wish!
+PLAYER/WishingWell_PeacefulWish_Option_001	A different wish...
+PLAYER/WishingWell_PeacefulWish_Response_000_000	I dropped my <Dinks> and made my wish...
+PLAYER/WishingWell_PeacefulWish_Response_000_001	It will come true tomorrow...
+PLAYER/WishingWell_RegretfulWish_Intro_000	A <RegretfulWish> will make things return to normal, as if you have never made a wish.
+PLAYER/WishingWell_RegretfulWish_Intro_001	Only one wish will take effect at a time...
+PLAYER/WishingWell_RegretfulWish_Option_000	Make this wish!
+PLAYER/WishingWell_RegretfulWish_Option_001	A different wish...
+PLAYER/WishingWell_RegretfulWish_Response_000_000	I dropped my <Dinks> and made my wish...
+PLAYER/WishingWell_RegretfulWish_Response_000_001	It will come true tomorrow...
+PLAYER/WishingWell_Spotless_Intro_000	A <SpotlessWish> will keep the island nice and tidy. Animals will no longer leave droppings, Wild animals will not appear on pathing or mowed grass.
+PLAYER/WishingWell_Spotless_Intro_001	Only one wish will take effect at a time...
+PLAYER/WishingWell_Spotless_Option_000	Make this wish!
+PLAYER/WishingWell_Spotless_Option_001	A different wish...
+PLAYER/WishingWell_Spotless_Response_000_000	I dropped my <Dinks> and made my wish...
+PLAYER/WishingWell_Spotless_Response_000_001	It will come true tomorrow...
+PLAYER/WishingWellWishAlreadyMade_Intro_000	A wish has already been made today...
 RANDOMISED/Afternoon_Greeting 0_Intro_000	The suns getting low.
 RANDOMISED/Afternoon_Greeting 0_Option_000	<chat>
 RANDOMISED/Afternoon_Greeting 0_Option_001	<jobCondition>
@@ -4623,6 +4843,23 @@ RAYNE/RandomConvo_036_Intro_000	Need Text Here
 RAYNE/RandomConvo_037_Intro_000	Need Text Here
 RAYNE/RandomConvo_038_Intro_000	Need Text Here
 RAYNE/RandomConvo_039_Intro_000	Need Text Here
+RAYNE/SkyFest_AfterNoon_000_Intro_000	<pumped>This is my favourite part of <SkyFest>!
+RAYNE/SkyFest_AfterNoon_000_Intro_001	<glee>The part where we all, like, get to fly a <Kite>!
+RAYNE/SkyFest_AfterNoon_000_Intro_002	<shy>I used to love doing this with my family.
+RAYNE/SkyFest_AfterNoon_000_Intro_003	Chasing the <PaperLanterns> through the sky is the highlight of <SkyFest> for me.
+RAYNE/SkyFest_AfterNoon_000_Intro_004	<shy>It, like, reminds me of home!
+RAYNE/SkyFest_Morning_000_Intro_000	Hey, <PlayerName>!
+RAYNE/SkyFest_Morning_000_Intro_001	<glee>Happy <SkyFest>!
+RAYNE/SkyFest_Morning_000_Intro_002	This event is, like, really special to me.
+RAYNE/SkyFest_Morning_000_Intro_003	<glee>I’m so excited!
+RAYNE/SkyFest_Night_000_Intro_000	Isn’t that <Aurora> amazing, <PlayerName>?
+RAYNE/SkyFest_Night_000_Intro_001	What a, like, totally bonza <SkyFest> Fletch has thrown for us.
+RAYNE/SkyFest_Night_000_Intro_002	<shy>I thought I was going to have a hard time today. 
+RAYNE/SkyFest_Night_000_Intro_003	<no>Like, I really miss my family and stuff.
+RAYNE/SkyFest_Night_000_Intro_004	<glee>But I guess everyone here on <IslandName> is, like, a new family.
+RAYNE/SkyFest_Noon_000_Intro_000	I’ve made my <Kite>!
+RAYNE/SkyFest_Noon_000_Intro_001	It’s like, totally bonza.
+RAYNE/SkyFest_Noon_000_Intro_002	<glee>I can't wait to fly it!
 RAYNE/TownMention_Level_001_Intro_000	<PlayerName>, you’ve really done a great job getting <IslandName> up and running.þ
 RAYNE/TownMention_Level_001_Intro_001	This place is, like, going to be bonza. þ
 RAYNE/TownMention_Level_002_Intro_000	Have I mentioned how bonza <IslandName> is looking and stuff.þ
@@ -4753,6 +4990,21 @@ SALLY/RandomConvo_018_Intro_002	<worried>I really hope one of them doesn’t ope
 SALLY/RandomConvo_019_Intro_000	<no>Don’t let anybody ever tell you that you can’t do something.
 SALLY/RandomConvo_019_Intro_001	<no>Even if you have none of the skills, or are poorly suited, or are physically incapable, it doesn’t matter!
 SALLY/RandomConvo_019_Intro_002	<pumped>Do what I did and just do it anyway!
+SALLY/SkyFest_AfterNoon_008_Intro_000	You know what?
+SALLY/SkyFest_AfterNoon_008_Intro_001	<no>My <Kite> didn’t turn out half bad after all?
+SALLY/SkyFest_AfterNoon_008_Intro_002	<yes>It’s not how it looks, but how it flies!
+SALLY/SkyFest_AfterNoon_008_Intro_003	<haha>Kinda like the haircuts I give, right <PlayerName>?
+SALLY/SkyFest_Morning_008_Intro_000	Hey <PlayerName>.
+SALLY/SkyFest_Morning_008_Intro_001	Glad to see you could make it to <SkyFest>.
+SALLY/SkyFest_Morning_008_Intro_002	Let’s have some fun!
+SALLY/SkyFest_Night_008_Intro_000	Woah!
+SALLY/SkyFest_Night_008_Intro_001	So this is what an <Aurora> looks like?
+SALLY/SkyFest_Night_008_Intro_002	I guess I really didn’t pay attention before now?
+SALLY/SkyFest_Night_008_Intro_003	<glee>It’s beautiful!
+SALLY/SkyFest_Noon_008_Intro_000	<boohoo>I should have asked for some help with my <Kite>...
+SALLY/SkyFest_Noon_008_Intro_001	<no>I’m just not good with scissors!
+SALLY/SkyFest_Noon_008_Intro_002	<shy>I guess it doesn’t matter in the end, as long as it flies okay.
+SALLY/SkyFest_Noon_008_Intro_003	Right?
 SHEILA/CompleteBirthday_000_Intro_000	<pumped>Oh, what a bonza <birthday> gift!
 SHEILA/CompleteBirthday_000_Intro_001	<yes>You’re too good to me <PlayerName>.
 SHEILA/CompleteBirthday_000_Intro_002	<glee>Thank you!
@@ -4959,6 +5211,20 @@ SHEILA/RandomConvo_039_Intro_003	Only way to learn, I reckon. þ
 SHEILA/RandomConvo_039_Intro_004	<pumped>Not just pies either!
 SHEILA/RandomConvo_039_Intro_005	<shy>Nah, I burnt a salad first time I tried it!þ
 SHEILA/RandomConvo_039_Intro_006	<haha>Memories.þ
+SHEILA/SkyFest_AfterNoon_012_Intro_000	You know what, <petName>?
+SHEILA/SkyFest_AfterNoon_012_Intro_001	<yes>Flying this <Kite> is a bit like heating up a pan.
+SHEILA/SkyFest_AfterNoon_012_Intro_002	<thinking>And hitting the <PaperLanterns> is like adding some nice veggies to the pan.
+SHEILA/SkyFest_AfterNoon_012_Intro_003	And exchanging the <itemName> for prizes?
+SHEILA/SkyFest_AfterNoon_012_Intro_004	<haha>Well, that’s nothing like cooking at all!
+SHEILA/SkyFest_Morning_012_Intro_000	Howdy, <petName>.
+SHEILA/SkyFest_Morning_012_Intro_001	Ready for the <SkyFest> festivities today?
+SHEILA/SkyFest_Night_012_Intro_000	You know what?
+SHEILA/SkyFest_Night_012_Intro_001	<yes>I’ve had a wonderful day today, <petName>.
+SHEILA/SkyFest_Night_012_Intro_002	<thinking>And this <Aurora> is a great way to end a great day.
+SHEILA/SkyFest_Night_012_Intro_003	<yes>Every day here on <IslandName> gets better and better.
+SHEILA/SkyFest_Noon_012_Intro_000	<yes>If only making a <Kite> was more like cooking.
+SHEILA/SkyFest_Noon_012_Intro_001	<shy>I mean, I aced making my <Kite> and everything.
+SHEILA/SkyFest_Noon_012_Intro_002	<haha>Just prefer cooking!
 SHEILA/SomethingToSellBugComp_Intro_000	<glee>WOW!
 SHEILA/SomethingToSellBugComp_Intro_001	Look at all these really, really cute bugs!
 SHEILA/SomethingToSellBugComp_Intro_002	Can I buy them for <$>?
@@ -5432,4 +5698,20 @@ THEODORE/RandomConvo_019_Intro_002	<pumped>Sometimes I feel bad writing on it, b
 THEODORE/RandomConvo_019_Intro_003	<yes>So its all worth it!
 THEODORE/RandomConvo_020_Intro_000	What’s the point of anything happening if nobody is there to record it?
 THEODORE/RandomConvo_020_Intro_001	<yes>Hey, <PlayerName>, if a tree falls in the woods, please be sure to let me know.
+THEODORE/SkyFest_AfterNoon_009_Intro_000	<yes>Hello, <PlayerName>.
+THEODORE/SkyFest_AfterNoon_009_Intro_001	How is your <PaperLantern> hunt going?
+THEODORE/SkyFest_AfterNoon_009_Intro_002	<shy>I can’t say that I’ve hit any down as of yet.
+THEODORE/SkyFest_AfterNoon_009_Intro_003	<shy>To be honest I’m a bit concerned that <itemName> might fall on my head…
+THEODORE/SkyFest_Morning_009_Intro_000	Greetings, <PlayerName>.
+THEODORE/SkyFest_Morning_009_Intro_001	I’m not in the Museum today, no.
+THEODORE/SkyFest_Morning_009_Intro_002	I thought it might be nice to join in on the <SkyFest> celebrations instead.
+THEODORE/SkyFest_Morning_009_Intro_003	<shy>However, I do wish we could celebrate inside…
+THEODORE/SkyFest_Night_009_Intro_000	<pumped>This is incredible!
+THEODORE/SkyFest_Night_009_Intro_001	<glee>I guess it was well worth going outside for <SkyFest>!
+THEODORE/SkyFest_Night_009_Intro_002	<thinking>I do worry how the museum is fairing without me..
+THEODORE/SkyFest_Night_009_Intro_003	<yes>But I guess I should be focusing on this <Aurora>!
+THEODORE/SkyFest_Noon_009_Intro_000	<yes>Yes I have my <Kite> already.
+THEODORE/SkyFest_Noon_009_Intro_001	<yes>I decided to use my <Kite> from last year.
+THEODORE/SkyFest_Noon_009_Intro_002	<shy>That way I wasn’t required to share any of the equipment.
+THEODORE/SkyFest_Noon_009_Intro_003	<shy>I just prefer to not share things like that.
 THEODORE/Thank you_Intro_000	Thank you! It looks great up here doesn't it?
