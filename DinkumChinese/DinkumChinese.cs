@@ -19,7 +19,7 @@ namespace DinkumChinese
     {
         public const string GUID = "xiaoye97.Dinkum.DinkumChinese";
         public const string PluginName = "DinkumChinese";
-        public const string Version = "1.20.0";
+        public const string Version = "1.21.0";
         public static DinkumChinesePlugin Inst;
 
         public static Queue<TextMeshProUGUI> waitShowTMPs = new Queue<TextMeshProUGUI>();
@@ -66,7 +66,7 @@ namespace DinkumChinese
 
         private float showChatCD;
 
-        private float tipsCD = 15;
+        private float tipsCD = 20;
 
         public static IJson Json
         {
@@ -238,7 +238,7 @@ namespace DinkumChinese
         public void ErrorWindowFunc()
         {
             GUILayout.Label("请注意检查是否有新版本汉化");
-            GUILayout.Label("Dinkum汉化交流QQ频道:7opslk1lrt");
+            GUILayout.Label("Dinkum汉化交流QQ频道-> 4X游戏频道 频道号:7opslk1lrt");
             GUILayout.Label(ErrorStr);
         }
 
@@ -340,6 +340,7 @@ namespace DinkumChinese
             {
                 return;
             }
+            LogInfo("按[Ctrl+数字键4]呼出汉化工具界面");
             Invoke("LogFlagTrue", 2f);
             Invoke("OnGameStartOnceFix", 2f);
             DynamicTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/DynamicTextLoc.csv");
@@ -358,7 +359,7 @@ namespace DinkumChinese
             ErrorWindow.OnGUI();
             if (tipsCD > 0)
             {
-                GUILayout.Label($"[{(int)tipsCD}s]温馨提示：汉化mod是开源免费的，不需要花钱买，Dinkum汉化交流QQ频道:7opslk1lrt");
+                GUILayout.Label($"\n[{(int)tipsCD}s]温馨提示：汉化mod是开源免费的，不需要花钱买，Dinkum汉化交流QQ频道-> 4X游戏频道 频道号:7opslk1lrt");
             }
         }
 
