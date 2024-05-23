@@ -1,12 +1,12 @@
-﻿using TMPro;
+﻿using BepInEx;
 using I2.Loc;
-using System;
-using BepInEx;
-using System.IO;
 using I2LocPatch;
-using UnityEngine;
-using System.Text;
+using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text;
+using TMPro;
+using UnityEngine;
 using File = System.IO.File;
 
 namespace DinkumChinese
@@ -201,6 +201,7 @@ namespace DinkumChinese
             {
                 list.Add(new TextLocData(item.letterText, ""));
             }
+            RemoveDuplicates(list);
             var json = DinkumChinesePlugin.Json.ToJson(list, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/MailTextLoc.json", json);
             LogInfo("Mail表Dump完毕");
@@ -220,6 +221,7 @@ namespace DinkumChinese
                 list2.Add(new TextLocData(p.title, ""));
                 list2.Add(new TextLocData(p.contentText, ""));
             }
+            RemoveDuplicates(list2);
             var json = DinkumChinesePlugin.Json.ToJson(list2, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/PostTextLoc.json", json);
             LogInfo("Post表Dump完毕");
@@ -238,6 +240,7 @@ namespace DinkumChinese
                 list.Add(new TextLocData(q.QuestName, ""));
                 list.Add(new TextLocData(q.QuestDescription, ""));
             }
+            RemoveDuplicates(list);
             var json = DinkumChinesePlugin.Json.ToJson(list, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/QuestTextLoc.json", json);
             LogInfo("Quest表Dump完毕");
@@ -249,6 +252,7 @@ namespace DinkumChinese
             var mgr = GameObject.FindObjectOfType<LoadingScreenImageAndTips>(true);
             List<TextLocData> list = new List<TextLocData>();
             foreach (var tip in mgr.tips) list.Add(new TextLocData(tip, ""));
+            RemoveDuplicates(list);
             var json = DinkumChinesePlugin.Json.ToJson(list, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/TipsTextLoc.json", json);
             LogInfo("Tips表Dump完毕");
@@ -304,6 +308,7 @@ namespace DinkumChinese
             var mgr = AnimalManager.manage;
             List<TextLocData> list = new List<TextLocData>();
             foreach (var a in mgr.allAnimals) list.Add(new TextLocData(a.animalName, ""));
+            RemoveDuplicates(list);
             var json = DinkumChinesePlugin.Json.ToJson(list, true);
             File.WriteAllText($"{Paths.GameRootPath}/I2/AnimalsTextLoc.json", json);
             LogInfo("Animals表Dump完毕");
@@ -491,6 +496,30 @@ namespace DinkumChinese
         public static void LogInfo(string log)
         {
             DinkumChinesePlugin.LogInfo(log);
+        }
+
+        public static void RemoveDuplicates(List<TextLocData> list)
+        {
+            for (int i = 0; i < list.Count; i++)
+            {
+                TextLocData tmp = list[i];
+                // 去掉空的
+                if (string.IsNullOrWhiteSpace(tmp.Ori))
+                {
+                    list.RemoveAt(i);
+                    i--;
+                    continue;
+                }
+                for (int j = i + 1; j < list.Count; j++)
+                {
+                    TextLocData tmp2 = list[j];
+                    if (tmp2.Ori == tmp.Ori)
+                    {
+                        list.RemoveAt(j);
+                        j--;
+                    }
+                }
+            }
         }
     }
 }

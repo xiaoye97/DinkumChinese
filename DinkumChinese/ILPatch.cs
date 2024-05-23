@@ -117,8 +117,16 @@ namespace DinkumChinese
         public static IEnumerable<CodeInstruction> CameraController_moveCameraToShowPos_Patch(IEnumerable<CodeInstruction> instructions)
         {
             instructions = RIL(instructions, " is visiting the island!", "正在拜访该岛！");
-            instructions = RIL(instructions, "Someone is visiting the island!", "有人在拜访这个岛！");
-            instructions = RIL(instructions, "No one is visiting today...", "今天没有人来。。。");
+            //instructions = RIL(instructions, "Someone is visiting the island!", "有人在拜访这个岛！");
+            //instructions = RIL(instructions, "No one is visiting today...", "今天没有人来。。。");
+            return instructions;
+        }
+
+        [HarmonyTranspiler, HarmonyPatch(typeof(TownEventManager), "RunIslandDay", MethodType.Enumerator)]
+        public static IEnumerable<CodeInstruction> TownEventManager_RunIslandDay_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = RIL(instructions, "It's ", "");
+            instructions = RIL(instructions, " Day!", "日!");
             return instructions;
         }
 
@@ -174,13 +182,13 @@ namespace DinkumChinese
             return instructions;
         }
 
-        [HarmonyTranspiler, HarmonyPatch(typeof(ConversationManager), "StartConversationWithAvailableNPC")]
-        public static IEnumerable<CodeInstruction> ConversationManager_StartConversationWithAvailableNPC_Patch(IEnumerable<CodeInstruction> instructions)
-        {
-            instructions = RIL(instructions, "A new deed is available!", "新契约可用！");
-            instructions = RIL(instructions, "Talk to Fletch to apply for deeds.", "与弗莱奇谈谈申请契约。");
-            return instructions;
-        }
+        //[HarmonyTranspiler, HarmonyPatch(typeof(ConversationManager), "StartConversationWithAvailableNPC")]
+        //public static IEnumerable<CodeInstruction> ConversationManager_StartConversationWithAvailableNPC_Patch(IEnumerable<CodeInstruction> instructions)
+        //{
+        //    instructions = RIL(instructions, "A new deed is available!", "新契约可用！");
+        //    instructions = RIL(instructions, "Talk to Fletch to apply for deeds.", "与弗莱奇谈谈申请契约。");
+        //    return instructions;
+        //}
 
         [HarmonyTranspiler, HarmonyPatch(typeof(CraftingManager), "populateCraftList")]
         public static IEnumerable<CodeInstruction> CraftingManager_populateCraftList_Patch(IEnumerable<CodeInstruction> instructions)
@@ -241,8 +249,8 @@ namespace DinkumChinese
             instructions = RIL(instructions, "You received", "你获得了");
             instructions = RIL(instructions, "New Crafting Recipe", "新制作配方");
             instructions = RIL(instructions, "New Crafting Recipes", "新制作配方");
-            instructions = RIL(instructions, "An item was sent to your Mailbox", "物品送去了你的邮箱");
-            instructions = RIL(instructions, "Your pockets were full!", "你的口袋满了！");
+            //instructions = RIL(instructions, "An item was sent to your Mailbox", "物品送去了你的邮箱");
+            //instructions = RIL(instructions, "Your pockets were full!", "你的口袋满了！");
             return instructions;
         }
 
@@ -359,6 +367,13 @@ namespace DinkumChinese
             return instructions;
         }
 
+        [HarmonyTranspiler, HarmonyPatch(typeof(NetworkMapSharer), "UserCode_RpcMakeAWish")]
+        public static IEnumerable<CodeInstruction> NetworkMapSharer_UserCode_RpcMakeAWish_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = RIL(instructions, " made a wish", "许了个愿");
+            return instructions;
+        }
+
         [HarmonyTranspiler, HarmonyPatch(typeof(NetworkMapSharer), "UserCode_RpcPayTownDebt")]
         public static IEnumerable<CodeInstruction> NetworkMapSharer_UserCode_RpcPayTownDebt_Patch(IEnumerable<CodeInstruction> instructions)
         {
@@ -393,13 +408,14 @@ namespace DinkumChinese
             instructions = RIL(instructions, "G'day, ", "你好呀，");
             return instructions;
         }
-        [HarmonyTranspiler, HarmonyPatch(typeof(NPCRequest), "acceptRequest")]
-        public static IEnumerable<CodeInstruction> NPCRequest_acceptRequest_Patch(IEnumerable<CodeInstruction> instructions)
-        {
-            instructions = RIL(instructions, "Request added to Journal", "请求已添加到日记中");
-            instructions = RIL(instructions, "This request must be completed by the end of the day.", "此请求必须在当天结束前完成。");
-            return instructions;
-        }
+
+        //[HarmonyTranspiler, HarmonyPatch(typeof(NPCRequest), "acceptRequest")]
+        //public static IEnumerable<CodeInstruction> NPCRequest_acceptRequest_Patch(IEnumerable<CodeInstruction> instructions)
+        //{
+        //    instructions = RIL(instructions, "Request added to Journal", "请求已添加到日记中");
+        //    instructions = RIL(instructions, "This request must be completed by the end of the day.", "此请求必须在当天结束前完成。");
+        //    return instructions;
+        //}
 
         [HarmonyTranspiler, HarmonyPatch(typeof(NPCRequest), "getDesiredItemName")]
         public static IEnumerable<CodeInstruction> NPCRequest_getDesiredItemName_Patch(IEnumerable<CodeInstruction> instructions)
@@ -429,6 +445,7 @@ namespace DinkumChinese
             instructions = RIL(instructions, "<sprite=12> Collect ", "<sprite=12> 收集 ");
             return instructions;
         }
+
         [HarmonyTranspiler, HarmonyPatch(typeof(NPCSchedual), "getDaysClosed")]
         public static IEnumerable<CodeInstruction> NPCSchedual_getDaysClosed_Patch(IEnumerable<CodeInstruction> instructions)
         {
@@ -493,9 +510,9 @@ namespace DinkumChinese
         public static IEnumerable<CodeInstruction> PostOnBoard_acceptTask_Patch(IEnumerable<CodeInstruction> instructions)
         {
             instructions = RIL(instructions, "Request added to Journal by ", "请求已添加到日记中由");
-            instructions = RIL(instructions, "Request added to Journal", "请求已添加到日记中");
-            instructions = RIL(instructions, "A location was added to your map.", "已将位置添加到地图中。");
-            instructions = RIL(instructions, "This request has a time limit.", "此请求有时间限制。");
+            //instructions = RIL(instructions, "Request added to Journal", "请求已添加到日记中");
+            //instructions = RIL(instructions, "A location was added to your map.", "已将位置添加到地图中。");
+            //instructions = RIL(instructions, "This request has a time limit.", "此请求有时间限制。");
             return instructions;
         }
 
@@ -503,8 +520,8 @@ namespace DinkumChinese
         public static IEnumerable<CodeInstruction> PostOnBoard_completeTask_Patch(IEnumerable<CodeInstruction> instructions)
         {
             instructions = RIL(instructions, "Request Completed by ", "请求完成由");
-            instructions = RIL(instructions, "Investigation Request Complete!", "调查请求完成！");
-            instructions = RIL(instructions, "Request Complete!", "请求完成！");
+            //instructions = RIL(instructions, "Investigation Request Complete!", "调查请求完成！");
+            //instructions = RIL(instructions, "Request Complete!", "请求完成！");
             return instructions;
         }
 
@@ -556,13 +573,13 @@ namespace DinkumChinese
             return instructions;
         }
 
-        [HarmonyTranspiler, HarmonyPatch(typeof(QuestManager), "completeQuest")]
-        public static IEnumerable<CodeInstruction> QuestManager_completeQuest_Patch(IEnumerable<CodeInstruction> instructions)
-        {
-            instructions = RIL(instructions, "A new deed is available!", "新契约可用！");
-            instructions = RIL(instructions, "Talk to Fletch to apply for deeds.", "与弗莱奇谈谈申请契约。");
-            return instructions;
-        }
+        //[HarmonyTranspiler, HarmonyPatch(typeof(QuestManager), "completeQuest")]
+        //public static IEnumerable<CodeInstruction> QuestManager_completeQuest_Patch(IEnumerable<CodeInstruction> instructions)
+        //{
+        //    instructions = RIL(instructions, "A new deed is available!", "新契约可用！");
+        //    instructions = RIL(instructions, "Talk to Fletch to apply for deeds.", "与弗莱奇谈谈申请契约。");
+        //    return instructions;
+        //}
 
         [HarmonyTranspiler, HarmonyPatch(typeof(QuestTracker), "displayQuest")]
         public static IEnumerable<CodeInstruction> QuestTracker_displayQuest_Patch(IEnumerable<CodeInstruction> instructions)

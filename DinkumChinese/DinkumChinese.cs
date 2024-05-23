@@ -19,7 +19,7 @@ namespace DinkumChinese
     {
         public const string GUID = "xiaoye97.Dinkum.DinkumChinese";
         public const string PluginName = "DinkumChinese";
-        public const string Version = "1.21.0";
+        public const string Version = "1.22.0";
         public static DinkumChinesePlugin Inst;
 
         public static Queue<TextMeshProUGUI> waitShowTMPs = new Queue<TextMeshProUGUI>();
@@ -53,6 +53,8 @@ namespace DinkumChinese
         public List<TextLocData> QuestTextLocList = new List<TextLocData>();
 
         public List<TextLocData> TipsTextLocList = new List<TextLocData>();
+
+        public List<TextLocData> TopNotificationLocList = new List<TextLocData>();
 
         private static IJson _json;
 
@@ -351,6 +353,7 @@ namespace DinkumChinese
             TipsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TipsTextLoc.json");
             MailTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/MailTextLoc.json");
             AnimalsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/AnimalsTextLoc.json");
+            TopNotificationLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TopNotification.json");
         }
 
         private void OnGUI()

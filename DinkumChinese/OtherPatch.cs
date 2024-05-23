@@ -1,18 +1,7 @@
-﻿using TMPro;
+﻿using HarmonyLib;
 using I2.Loc;
-using System;
-using BepInEx;
-using XYModLib;
-using System.IO;
 using I2LocPatch;
-using HarmonyLib;
-using System.Linq;
 using UnityEngine;
-using System.Text;
-using BepInEx.Configuration;
-using System.Collections.Generic;
-using System.Text.RegularExpressions;
-using System.Runtime.Remoting.Channels;
 
 namespace DinkumChinese
 {
@@ -117,6 +106,28 @@ namespace DinkumChinese
             __instance.SeasonText.text = __instance.getSeasonName(WorldManager.Instance.month - 1);
             SeasonManager.manage.checkSeasonAndChangeMaterials();
             return false;
+        }
+
+        [HarmonyPrefix, HarmonyPatch(typeof(NotificationManager), "makeTopNotification")]
+        public static bool NotificationManager_makeTopNotification_Patch(NotificationManager __instance, ref string notificationString, ref string subText)
+        {
+            if (!string.IsNullOrWhiteSpace(notificationString))
+            {
+                var loc = TextLocData.GetLoc(DinkumChinesePlugin.Inst.TopNotificationLocList, notificationString);
+                if (loc != notificationString)
+                {
+                    notificationString = loc;
+                }
+            }
+            if (!string.IsNullOrWhiteSpace(subText))
+            {
+                var loc = TextLocData.GetLoc(DinkumChinesePlugin.Inst.TopNotificationLocList, subText);
+                if (loc != subText)
+                {
+                    subText = loc;
+                }
+            }
+            return true;
         }
     }
 }

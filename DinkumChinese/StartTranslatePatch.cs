@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
-using HarmonyLib;
-using UnityEngine;
-using I2LocPatch;
+﻿using HarmonyLib;
 using I2.Loc;
+using I2LocPatch;
+using UnityEngine;
 
 namespace DinkumChinese
 {
@@ -34,7 +28,7 @@ namespace DinkumChinese
                     // 如果已经翻译过，则跳过
                     if (DinkumChinesePlugin.Inst.TipsTextLocList[j].Loc == ori)
                     {
-                        return;
+                        goto Finish;
                     }
                 }
                 string t = TextLocData.GetLoc(DinkumChinesePlugin.Inst.TipsTextLocList, ori);
@@ -46,6 +40,7 @@ namespace DinkumChinese
                 {
                     __instance.tips[i] = t;
                 }
+                Finish:;
             }
         }
 
