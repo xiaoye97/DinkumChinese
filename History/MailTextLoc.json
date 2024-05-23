@@ -116,10 +116,6 @@
         "Loc": ""
     },
     {
-        "Ori": "I smashed a rock and found some <itemAttachedName>. \n\nYou like this sort of stuff, right?",
-        "Loc": ""
-    },
-    {
         "Ori": "<itemAttachedName>, <itemAttachedName>, <itemAttachedName>.\n\n You can never have enough <itemAttachedName>.",
         "Loc": ""
     },

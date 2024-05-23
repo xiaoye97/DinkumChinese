@@ -1104,6 +1104,9 @@ MilestonDesc/MilestoneDesc_0	None	Aucun	Никто	没有	なし
 MilestoneDesc/MilestoneDesc_0	None	Aucun	Никто	没有	なし
 MilestoneDesc/MilestoneDesc_1	Picking fruit and logs off the ground will get you far in this place. Here is a milestone for gathering lots of stuff up.	Cueillir des fruits et des bûches sur le sol vous mènera loin dans cet endroit. Voici une étape importante pour rassembler beaucoup de choses.	Собирая фрукты и бревна с земли, вы далеко уйдете в этом месте. Вот веха для сбора большого количества вещей.	采摘水果并从地面上砍伐，将带您到达这个地方。这是收集很多东西的里程碑。	果物を摘み取り、地面からログオフすると、この場所に遠くまで行くことができます。これはたくさんのものを集めるためのマイルストーンです。
 MilestoneDesc/MilestoneDesc_10	Planting seeds in the red dirt. They grow up so fast. Here is a milestone for planting some seeds.	Planter des graines dans la terre rouge. Ils grandissent si vite. Voici une étape importante pour planter des graines.	Посадка семян в красной грязи. Они растут так быстро. Это важная веха для посадки семян.	在红色的泥土中种植种子。他们成长地好快。这是种植一些种子的里程碑。	赤い土に種をまく。彼らはとても速く成長します。ここにいくつかの種を植えるためのマイルストーンがあります。
+MilestoneDesc/MilestoneDesc_100	Who isn’t above selling a rare space rock for some cash? Here is a milestone for selling a meteorite.				
+MilestoneDesc/MilestoneDesc_101	Be careful what you wish for… Or don't? Here is a milestone for making a wish at the Wish Fountain.				
+MilestoneDesc/MilestoneDesc_102					
 MilestoneDesc/MilestoneDesc_11	Watering plants is good for your soul and good for the plant's general health. It's win-win. So here is a milestone for watering a lot of plants!	L'arrosage des plantes est bon pour votre âme et bon pour la santé générale des plantes. C'est gagnant-gagnant. Voici donc une étape importante pour l'arrosage de beaucoup de plantes!	Полив растений полезен для души и полезен для здоровья растений в целом. Это беспроигрышный вариант. Итак, вот важный этап в поливе большого количества растений!	给植物浇水有益于您的灵魂，也有益于植物的整体健康。这是双赢的。因此，这是为许多植物浇水的里程碑！	植物に水をまくことはあなたの魂と植物の一般的な健康に良いです。それは双方に有利です。だから、ここはたくさんの植物に水をまくためのマイルストーンです！
 MilestoneDesc/MilestoneDesc_12	Smashing rocks is hard work. But sometimes they have stuff in them! Here is a milestone for smashing rocks.	Briser des pierres est un travail difficile. Mais parfois, ils ont des trucs en eux! Voici une étape importante pour briser des roches.	Разбивать камни - тяжелая работа. Но иногда в них есть что-нибудь! Вот веха для разбивания скал.	砸石头是艰苦的工作。但是有时候他们里面有东西！这是砸石头的里程碑。	岩を砕くことは大変な作業です。しかし時々彼らは中に物を持っています！これが岩を破壊するためのマイルストーンです。
 MilestoneDesc/MilestoneDesc_13	You've smashed a couple of them rocks filled with ore. Here is a milestone for smashing ore deposits.	Vous avez brisé quelques roches remplies de minerai. Voici une étape importante pour la destruction des gisements de minerai.	Вы разбили пару камней, заполненных рудой. Это важная веха для разгрома рудных месторождений.	您已经砸碎了其中一些装满矿石的岩石。这是粉碎矿床的里程碑。	あなたはそれらの鉱石で満たされた岩のいくつかを粉砕しました。これは鉱石堆積物を破壊するためのマイルストーンです。
@@ -1191,7 +1194,7 @@ MilestoneDesc/MilestoneDesc_87	Here is a milestone for selling fruit.
 MilestoneDesc/MilestoneDesc_88	Here is a milestone for selling amber.				
 MilestoneDesc/MilestoneDesc_89	Birthdays are special for some reason. Here is a milestone for giving a birthday gift to someone.				
 MilestoneDesc/MilestoneDesc_9	Chuck another steak on the barbie, mate. A milestone for grilling up some meat to eat!			バービーに別のステーキをチャックしてください。肉を焼いて食べるためのマイルストーン！	
-MilestoneDesc/MilestoneDesc_90	Here is a milestone for finding a Ruby and selling it.				
+MilestoneDesc/MilestoneDesc_90	Here is a milestone for finding a gemstone and selling it.				
 MilestoneDesc/MilestoneDesc_91	Sometimes the sky gets mad and starting throwing down bolts. Here is a milestone for getting hit by lightning.				
 MilestoneDesc/MilestoneDesc_92	Here is a milestone for finding a Thunder Egg and selling it.				
 MilestoneDesc/MilestoneDesc_93	Alpha animals cause havoc. Here is a milestone for defeating an Alpha animal.				
@@ -1200,9 +1203,12 @@ MilestoneDesc/MilestoneDesc_95	It's brave to dive down and grab a random critter
 MilestoneDesc/MilestoneDesc_96	Bug Comps are serious business. No time for fun. Here is a milestone for placing in the Bug Comp.				
 MilestoneDesc/MilestoneDesc_97	They aren't as pretty as vehicles, but riding an animal is good fun. Here is a milestone for riding an animal for a distance.				
 MilestoneDesc/MilestoneDesc_98	Fishing Comps are come twice a year. Lots of time for fun. Here is a milestone for placing in the Fishing Comp.				
+MilestoneDesc/MilestoneDesc_99	Sometimes, nature calls. And you have heard that call. Here is a milestone for using the dunny.				
 MilestoneTitles/Milestone_Name_0	None	Aucun	Никто	没有	なし
 MilestoneTitles/Milestone_Name_1	Harvest Master	Maître De Récolte	Мастер Урожая	收获大师	収穫マスター
 MilestoneTitles/Milestone_Name_10	Green Thumb	Pouce Vert	Зеленый Большой Палец	绿拇指	緑の親指
+MilestoneTitles/Milestone_Name_100	Rock Star Salesman				
+MilestoneTitles/Milestone_Name_101	Well-Wisher				
 MilestoneTitles/Milestone_Name_11	Wet Thumb	Pouce Mouillé	Мокрый Палец	湿拇指	濡れた親指
 MilestoneTitles/Milestone_Name_12	Rock On			ロックオン	
 MilestoneTitles/Milestone_Name_13	Ore or Nothing			鉱石か何もない	
@@ -1290,7 +1296,7 @@ MilestoneTitles/Milestone_Name_87	Green Grocer
 MilestoneTitles/Milestone_Name_88	Amber Cash				
 MilestoneTitles/Milestone_Name_89	Gift Giver				
 MilestoneTitles/Milestone_Name_9	Grill Master	Maître Du Grill	Мастер-Гриль	烧烤大师	グリルマスター
-MilestoneTitles/Milestone_Name_90	Ruby Runner				
+MilestoneTitles/Milestone_Name_90	Jewel Runner				
 MilestoneTitles/Milestone_Name_91	Thunderstruck				
 MilestoneTitles/Milestone_Name_92	Thunder Eggo				
 MilestoneTitles/Milestone_Name_93	Alpha Hunter				
@@ -1299,6 +1305,7 @@ MilestoneTitles/Milestone_Name_95	Critter Catcher
 MilestoneTitles/Milestone_Name_96	Bug Comp Champ				
 MilestoneTitles/Milestone_Name_97	Giddy-Up				
 MilestoneTitles/Milestone_Name_98	Fishing Comp Champ				
+MilestoneTitles/Milestone_Name_99	Dunny Dweller				
 Npc0/Arvo_Greeting 1_Intro_000	Oh, like, good afternoon, <PlayerName>.				
 Npc0/Arvo_Greeting 1_Response_003_000					
 Npc0/Arvo_Greeting 2_Intro_000	<yes>It will, like, be dark soon.				
