@@ -304,8 +304,8 @@ namespace DinkumChinese
             coms.AddRange(Resources.FindObjectsOfTypeAll<HoverToolTipOnButton>());
             foreach (var com in coms)
             {
-                string cnText = TextLocData.GetLoc(HoverTextLocList, com.hoveringText);
-                com.hoveringText = cnText;
+                com.hoveringText = TextLocData.GetLoc(HoverTextLocList, com.hoveringText);
+                com.hoveringDesc = TextLocData.GetLoc(HoverTextLocList, com.hoveringDesc);
             }
         }
 

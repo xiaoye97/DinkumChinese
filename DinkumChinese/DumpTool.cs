@@ -326,6 +326,10 @@ namespace DinkumChinese
                 {
                     result.Add(item.hoveringText);
                 }
+                if (!result.Contains(item.hoveringDesc))
+                {
+                    result.Add(item.hoveringDesc);
+                }
             }
             result.Sort();
             StringBuilder sb = new StringBuilder();
