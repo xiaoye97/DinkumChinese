@@ -140,15 +140,27 @@
         "Loc": ""
     },
     {
-        "Ori": "Stone Fish Lair",
+        "Ori": "Flame Jelly Nest",
         "Loc": ""
     },
     {
-        "Ori": "Stone Fish",
+        "Ori": "Flame Jelly",
         "Loc": ""
     },
     {
         "Ori": "Alpha Shark",
+        "Loc": ""
+    },
+    {
+        "Ori": "Penguin",
+        "Loc": ""
+    },
+    {
+        "Ori": "Yobbolin",
+        "Loc": ""
+    },
+    {
+        "Ori": "Healer Yobbolin",
         "Loc": ""
     }
 ]

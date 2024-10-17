@@ -249,8 +249,8 @@ InventoryItemNames/InvItem_124	Corn Seeds
 InventoryItemDescriptions/InvDesc_124	Put 'em in the ground!
 InventoryItemNames/InvItem_125	Plant Shop Deed
 InventoryItemDescriptions/InvDesc_125	A deed for a farming equipment and seed shop.
-InventoryItemNames/InvItem_126	Fast Watering Can
-InventoryItemDescriptions/InvDesc_126	Carries water from point A to point B
+InventoryItemNames/InvItem_126	ADM
+InventoryItemDescriptions/InvDesc_126	Make withdrawals from your bank account
 InventoryItemNames/InvItem_127	Dark Wooden Single Bed
 InventoryItemDescriptions/InvDesc_127	Hey red bed. That rhymes.
 InventoryItemNames/InvItem_128	Basic Watering Can
@@ -509,8 +509,8 @@ InventoryItemNames/InvItem_254	Brown Pants
 InventoryItemDescriptions/InvDesc_254	Yup. Brown and pants.
 InventoryItemNames/InvItem_255	Blue Flanney Shirt
 InventoryItemDescriptions/InvDesc_255	Blue and warm
-InventoryItemNames/InvItem_256	Black Pants
-InventoryItemDescriptions/InvDesc_256	Are these socks or pants?
+InventoryItemNames/InvItem_256	Black Striped Pants
+InventoryItemDescriptions/InvDesc_256	Or white with black stripes?
 InventoryItemNames/InvItem_257	Green Jacket
 InventoryItemDescriptions/InvDesc_257	It has a short singlet
 InventoryItemNames/InvItem_258	Maroon Pants
@@ -565,7 +565,7 @@ InventoryItemNames/InvItem_282	Modern Glasses
 InventoryItemDescriptions/InvDesc_282	Helps you see.
 InventoryItemNames/InvItem_283	Modern Sun Glasses
 InventoryItemDescriptions/InvDesc_283	Helps you look cool.
-InventoryItemNames/InvItem_284	Monicle
+InventoryItemNames/InvItem_284	Monocle
 InventoryItemDescriptions/InvDesc_284	Don't let it fall off.
 InventoryItemNames/InvItem_285	Old School Glasses
 InventoryItemDescriptions/InvDesc_285	Helps you see.
@@ -619,8 +619,8 @@ InventoryItemNames/InvItem_309	Pearl
 InventoryItemDescriptions/InvDesc_309	A glistening pearl.
 InventoryItemNames/InvItem_310	Cooked Drumstick
 InventoryItemDescriptions/InvDesc_310	Delicious if you cook it. Not so much if you dont.
-InventoryItemNames/InvItem_311	Magic Shovel
-InventoryItemDescriptions/InvDesc_311	How is this so?
+InventoryItemNames/InvItem_311	Magic Tome
+InventoryItemDescriptions/InvDesc_311	A strange old book
 InventoryItemNames/InvItem_312	Magic Shovel of Dirt
 InventoryItemDescriptions/InvDesc_312	How is this so?
 InventoryItemNames/InvItem_313	Grass Seed
@@ -1437,7 +1437,7 @@ InventoryItemNames/InvItem_718	Black Plaid Pants
 InventoryItemDescriptions/InvDesc_718	Nice pants.
 InventoryItemNames/InvItem_719	Yellow Shorts
 InventoryItemDescriptions/InvDesc_719	Easy to wear.
-InventoryItemNames/InvItem_720	Yellow T Shirt
+InventoryItemNames/InvItem_720	Yellow T-Shirt
 InventoryItemDescriptions/InvDesc_720	It's pretty yellow.
 InventoryItemNames/InvItem_721	Yellow Boots
 InventoryItemDescriptions/InvDesc_721	High Vis
@@ -1473,7 +1473,7 @@ InventoryItemNames/InvItem_736	Rainbow Dress
 InventoryItemDescriptions/InvDesc_736	Beautiful!
 InventoryItemNames/InvItem_737	Black Plaid Dress
 InventoryItemDescriptions/InvDesc_737	Dark.
-InventoryItemNames/InvItem_738	Rainbow T Shirt
+InventoryItemNames/InvItem_738	Rainbow T-Shirt
 InventoryItemDescriptions/InvDesc_738	Beautiful!
 InventoryItemNames/InvItem_739	Rainbow Pants
 InventoryItemDescriptions/InvDesc_739	Beautiful!
@@ -3451,3 +3451,275 @@ InventoryItemNames/InvItem_1726	Star Fence
 InventoryItemDescriptions/InvDesc_1726	Fencing with lil' stars on the posts
 InventoryItemNames/InvItem_1727	Star Balloon
 InventoryItemDescriptions/InvDesc_1727	Who would have thought air could be so much fun?
+InventoryItemNames/InvItem_1728	Har-Vac
+InventoryItemDescriptions/InvDesc_1728	A vacuum that can suck items off plants and the ground
+InventoryItemNames/InvItem_1729	Empty Har-Vac
+InventoryItemDescriptions/InvDesc_1729	It needs charging.
+InventoryItemNames/InvItem_1730	Cockatoo Plush
+InventoryItemDescriptions/InvDesc_1730	It's small and cute
+InventoryItemNames/InvItem_1731	Vombat Plush
+InventoryItemDescriptions/InvDesc_1731	It's small and cute
+InventoryItemNames/InvItem_1732	Wary Mu Plush
+InventoryItemDescriptions/InvDesc_1732	It's small and cute
+InventoryItemNames/InvItem_1733	Shark Plush
+InventoryItemDescriptions/InvDesc_1733	It's small and cute
+InventoryItemNames/InvItem_1734	Party Hat
+InventoryItemDescriptions/InvDesc_1734	For parties and the like
+InventoryItemNames/InvItem_1735	Flower Crown
+InventoryItemDescriptions/InvDesc_1735	A crown of plants
+InventoryItemNames/InvItem_1736	Snow Ball
+InventoryItemDescriptions/InvDesc_1736	A ball of solid water
+InventoryItemNames/InvItem_1737	Ice Seat
+InventoryItemDescriptions/InvDesc_1737	A single chair for sitting.
+InventoryItemNames/InvItem_1738	Ice Sculpture
+InventoryItemDescriptions/InvDesc_1738	A strange old statue.
+InventoryItemNames/InvItem_1739	Ice Path
+InventoryItemDescriptions/InvDesc_1739	It's slippery!
+InventoryItemNames/InvItem_1740	Ice Lamp
+InventoryItemDescriptions/InvDesc_1740	Perfect for dancing around
+InventoryItemNames/InvItem_1741	Snow Hood
+InventoryItemDescriptions/InvDesc_1741	It makes your face cold
+InventoryItemNames/InvItem_1742	Ice Table
+InventoryItemDescriptions/InvDesc_1742	A long coffee table.
+InventoryItemNames/InvItem_1743	Ice Ottoman
+InventoryItemDescriptions/InvDesc_1743	A white ottoman
+InventoryItemNames/InvItem_1744	Ice Chest
+InventoryItemDescriptions/InvDesc_1744	Put stuff in here.
+InventoryItemNames/InvItem_1745	Flame Jelly Bed
+InventoryItemDescriptions/InvDesc_1745	Create decorative lava
+InventoryItemNames/InvItem_1746	Iron Lantern
+InventoryItemDescriptions/InvDesc_1746	An old lantern
+InventoryItemNames/InvItem_1747	Black Marble Path
+InventoryItemDescriptions/InvDesc_1747	A dark marble path
+InventoryItemNames/InvItem_1748	Flame Glider
+InventoryItemDescriptions/InvDesc_1748	Flame on
+InventoryItemNames/InvItem_1749	Flame Jelly
+InventoryItemDescriptions/InvDesc_1749	It's warm, but it doesn't burn
+InventoryItemNames/InvItem_1750	Berkonium Wand
+InventoryItemDescriptions/InvDesc_1750	Yobbolin made
+InventoryItemNames/InvItem_1751	Bush Devil Hood
+InventoryItemDescriptions/InvDesc_1751	Fit for a Yobbolin
+InventoryItemNames/InvItem_1752	Pickaxe Axe
+InventoryItemDescriptions/InvDesc_1752	It's a Pickaxe and an Axe
+InventoryItemNames/InvItem_1753	Ice Sculpting Table
+InventoryItemDescriptions/InvDesc_1753	Craft snow and ice items
+InventoryItemNames/InvItem_1754	Perfect Ruby
+InventoryItemDescriptions/InvDesc_1754	An expensive gem
+InventoryItemNames/InvItem_1755	Perfect Emerald
+InventoryItemDescriptions/InvDesc_1755	An expensive gem
+InventoryItemNames/InvItem_1756	Perfect Aquamarine
+InventoryItemDescriptions/InvDesc_1756	An expensive gem
+InventoryItemNames/InvItem_1757	Ice Hammer
+InventoryItemDescriptions/InvDesc_1757	Cool!
+InventoryItemNames/InvItem_1758	Flame Jelly Hood
+InventoryItemDescriptions/InvDesc_1758	It makes your face warm
+InventoryItemNames/InvItem_1759	Ice Fence
+InventoryItemDescriptions/InvDesc_1759	Why doesn't it melt?
+InventoryItemNames/InvItem_1760	Tree Pinchers
+InventoryItemDescriptions/InvDesc_1760	Picks up and move trees
+InventoryItemNames/InvItem_1761	Tele-Jumper
+InventoryItemDescriptions/InvDesc_1761	Call the Tele-Jump Network from anywhere!
+InventoryItemNames/InvItem_1762	Key Cutter
+InventoryItemDescriptions/InvDesc_1762	Creates a key every now and again
+InventoryItemNames/InvItem_1763	Swag Pack
+InventoryItemDescriptions/InvDesc_1763	A personal storage bag
+InventoryItemNames/InvItem_1764	Flame Spear
+InventoryItemDescriptions/InvDesc_1764	Erruption Disruption
+InventoryItemNames/InvItem_1765	Hard Wood Tool Rack
+InventoryItemDescriptions/InvDesc_1765	Store your tools and show off the first 3
+InventoryItemNames/InvItem_1766	Gum Wood Tool Rack
+InventoryItemDescriptions/InvDesc_1766	Store your tools and show off the first 3
+InventoryItemNames/InvItem_1767	Palm Wood Tool Rack
+InventoryItemDescriptions/InvDesc_1767	Store your tools and show off the first 3
+InventoryItemNames/InvItem_1768	Mannequin
+InventoryItemDescriptions/InvDesc_1768	Show off and store your clothes!
+InventoryItemNames/InvItem_1769	Fake Goatee
+InventoryItemDescriptions/InvDesc_1769	Looks real to me...
+InventoryItemNames/InvItem_1770	Floor Plaque
+InventoryItemDescriptions/InvDesc_1770	Shows a message in stone
+InventoryItemNames/InvItem_1771	Director Chair
+InventoryItemDescriptions/InvDesc_1771	A single chair for sitting.
+InventoryItemNames/InvItem_1772	Lil' Top Hat
+InventoryItemDescriptions/InvDesc_1772	A top hat but lil'
+InventoryItemNames/InvItem_1773	Red Hair Bow
+InventoryItemDescriptions/InvDesc_1773	A bow for your head
+InventoryItemNames/InvItem_1774	Slippers
+InventoryItemDescriptions/InvDesc_1774	Bedtime shoes
+InventoryItemNames/InvItem_1775	Pajama Pants
+InventoryItemDescriptions/InvDesc_1775	Could fit a banana
+InventoryItemNames/InvItem_1776	Pajama Shirt
+InventoryItemDescriptions/InvDesc_1776	Is it tuesday?
+InventoryItemNames/InvItem_1777	Sleeping Cap
+InventoryItemDescriptions/InvDesc_1777	A hat for catching zeds
+InventoryItemNames/InvItem_1778	Sleeping Mask
+InventoryItemDescriptions/InvDesc_1778	For people that don't want to wake up
+InventoryItemNames/InvItem_1779	Villain Mustache
+InventoryItemDescriptions/InvDesc_1779	Muhaha
+InventoryItemNames/InvItem_1780	Heart  Sun Glasses
+InventoryItemDescriptions/InvDesc_1780	Cute and cool
+InventoryItemNames/InvItem_1781	Raggy Shirt
+InventoryItemDescriptions/InvDesc_1781	What happened here?
+InventoryItemNames/InvItem_1782	Raggy Pants
+InventoryItemDescriptions/InvDesc_1782	They've seen better days
+InventoryItemNames/InvItem_1783	Raggy Sneakers
+InventoryItemDescriptions/InvDesc_1783	They're still good...
+InventoryItemNames/InvItem_1784	Green Renaissance Dress
+InventoryItemDescriptions/InvDesc_1784	A dress for the olden days
+InventoryItemNames/InvItem_1785	Red Renaissance Dress
+InventoryItemDescriptions/InvDesc_1785	A dress for the olden days
+InventoryItemNames/InvItem_1786	Black Renaissance Dress
+InventoryItemDescriptions/InvDesc_1786	A dress for the olden days
+InventoryItemNames/InvItem_1787	Brown Apron Dress
+InventoryItemDescriptions/InvDesc_1787	A dress for the olden days
+InventoryItemNames/InvItem_1788	Horn Helmet
+InventoryItemDescriptions/InvDesc_1788	What are the horns for?
+InventoryItemNames/InvItem_1789	Blue Hair Bow
+InventoryItemDescriptions/InvDesc_1789	A bow for your head
+InventoryItemNames/InvItem_1790	Purple Hair Bow
+InventoryItemDescriptions/InvDesc_1790	A bow for your head
+InventoryItemNames/InvItem_1791	Yellow Hair Bow
+InventoryItemDescriptions/InvDesc_1791	A bow for your head
+InventoryItemNames/InvItem_1792	Concierge Jacket
+InventoryItemDescriptions/InvDesc_1792	Can I help you?
+InventoryItemNames/InvItem_1793	Concierge Hat
+InventoryItemDescriptions/InvDesc_1793	You rang?
+InventoryItemNames/InvItem_1794	Purple Cap
+InventoryItemDescriptions/InvDesc_1794	What does the P stand for?
+InventoryItemNames/InvItem_1795	Black Flats
+InventoryItemDescriptions/InvDesc_1795	Black Flat Shoes
+InventoryItemNames/InvItem_1796	Yellow Flats
+InventoryItemDescriptions/InvDesc_1796	Yellow Flat Shoes
+InventoryItemNames/InvItem_1797	Cool Cap
+InventoryItemDescriptions/InvDesc_1797	Way cooler when you wear it like that
+InventoryItemNames/InvItem_1798	Hazmat Shirt
+InventoryItemDescriptions/InvDesc_1798	Don't get stuff on you
+InventoryItemNames/InvItem_1799	Hazmat Pants
+InventoryItemDescriptions/InvDesc_1799	Pants for haz
+InventoryItemNames/InvItem_1800	Hazmat Hood
+InventoryItemDescriptions/InvDesc_1800	Breath it in
+InventoryItemNames/InvItem_1801	Hazmat Shoes
+InventoryItemDescriptions/InvDesc_1801	Step in all the gross stuff
+InventoryItemNames/InvItem_1802	Blue Vintage Dress
+InventoryItemDescriptions/InvDesc_1802	A dress for the olden days
+InventoryItemNames/InvItem_1803	Green Vintage Dress
+InventoryItemDescriptions/InvDesc_1803	A dress for the olden days
+InventoryItemNames/InvItem_1804	Black Victorian Dress
+InventoryItemDescriptions/InvDesc_1804	A dress for the olden days
+InventoryItemNames/InvItem_1805	Green Victorian Dress
+InventoryItemDescriptions/InvDesc_1805	A dress for the olden days
+InventoryItemNames/InvItem_1806	Red Victorian Dress
+InventoryItemDescriptions/InvDesc_1806	A dress for the olden days
+InventoryItemNames/InvItem_1807	Black Victorian Bonnet
+InventoryItemDescriptions/InvDesc_1807	How dignified
+InventoryItemNames/InvItem_1808	Green Victorian Bonnet
+InventoryItemDescriptions/InvDesc_1808	How dignified
+InventoryItemNames/InvItem_1809	Red Victorian Bonnet
+InventoryItemDescriptions/InvDesc_1809	How dignified
+InventoryItemNames/InvItem_1810	Green Victorian Jacket
+InventoryItemDescriptions/InvDesc_1810	Real Sharp
+InventoryItemNames/InvItem_1811	Cream Victorian Pants
+InventoryItemDescriptions/InvDesc_1811	Old pants
+InventoryItemNames/InvItem_1812	Brown Victorian Boots
+InventoryItemDescriptions/InvDesc_1812	Old boots
+InventoryItemNames/InvItem_1813	Purple Bucket Hat
+InventoryItemDescriptions/InvDesc_1813	Bounce!
+InventoryItemNames/InvItem_1814	Black Bucket Hat
+InventoryItemDescriptions/InvDesc_1814	Bounce!
+InventoryItemNames/InvItem_1815	Black Victorian Pants
+InventoryItemDescriptions/InvDesc_1815	Old pants
+InventoryItemNames/InvItem_1816	Black Victorian Jacket
+InventoryItemDescriptions/InvDesc_1816	Real Sharp
+InventoryItemNames/InvItem_1817	Black Victorian Boots
+InventoryItemDescriptions/InvDesc_1817	Old boots
+InventoryItemNames/InvItem_1818	Red Victorian Jacket
+InventoryItemDescriptions/InvDesc_1818	Real Sharp
+InventoryItemNames/InvItem_1819	White Victorian Boots
+InventoryItemDescriptions/InvDesc_1819	Old boots
+InventoryItemNames/InvItem_1820	White Victorian Pants
+InventoryItemDescriptions/InvDesc_1820	Old pants
+InventoryItemNames/InvItem_1821	Raggy Dress
+InventoryItemDescriptions/InvDesc_1821	It's seen better days
+InventoryItemNames/InvItem_1822	Brown Tights
+InventoryItemDescriptions/InvDesc_1822	Nice tights
+InventoryItemNames/InvItem_1823	Antique Desk
+InventoryItemDescriptions/InvDesc_1823	A long coffee table.
+InventoryItemNames/InvItem_1824	Cactus Pot
+InventoryItemDescriptions/InvDesc_1824	A Desert Rose in a pot.
+InventoryItemNames/InvItem_1825	Display Case
+InventoryItemDescriptions/InvDesc_1825	A storage box that shows off the first item inside it
+InventoryItemNames/InvItem_1826	Kitchen Island
+InventoryItemDescriptions/InvDesc_1826	Kitchen Cabinet
+InventoryItemNames/InvItem_1827	Dark Wood Kitchen Island
+InventoryItemDescriptions/InvDesc_1827	Kitchen Cabinet
+InventoryItemNames/InvItem_1828	Gum Kitchen Island
+InventoryItemDescriptions/InvDesc_1828	Kitchen Cabinet
+InventoryItemNames/InvItem_1829	Palm Kitchen Island
+InventoryItemDescriptions/InvDesc_1829	Kitchen Cabinet
+InventoryItemNames/InvItem_1830	Palm Wood Double Gate
+InventoryItemDescriptions/InvDesc_1830	Opens and closes.
+InventoryItemNames/InvItem_1831	Gum Wood Double Gate
+InventoryItemDescriptions/InvDesc_1831	Opens and closes.
+InventoryItemNames/InvItem_1832	Hard Wood Double Gate
+InventoryItemDescriptions/InvDesc_1832	Opens and closes.
+InventoryItemNames/InvItem_1833	Tin Double Gate
+InventoryItemDescriptions/InvDesc_1833	Opens and closes.
+InventoryItemNames/InvItem_1834	Milk Crate Chair
+InventoryItemDescriptions/InvDesc_1834	A white ottoman
+InventoryItemNames/InvItem_1835	Milk Crate Coffee Table
+InventoryItemDescriptions/InvDesc_1835	A long coffee table.
+InventoryItemNames/InvItem_1836	Milk Crate Bookshelf
+InventoryItemDescriptions/InvDesc_1836	Keep books here.
+InventoryItemNames/InvItem_1837	Milk Crate Bed
+InventoryItemDescriptions/InvDesc_1837	A Small white bedside table.
+InventoryItemNames/InvItem_1838	Cement Bridge
+InventoryItemDescriptions/InvDesc_1838	Maybe you could cross the water on this?
+InventoryItemNames/InvItem_1839	Wide Cement Bridge
+InventoryItemDescriptions/InvDesc_1839	Maybe you could cross the water on this?
+InventoryItemNames/InvItem_1840	Blue Bandana
+InventoryItemDescriptions/InvDesc_1840	Wrap it up
+InventoryItemNames/InvItem_1841	Black Bandana
+InventoryItemDescriptions/InvDesc_1841	Wrap it up
+InventoryItemNames/InvItem_1842	Green Bandana
+InventoryItemDescriptions/InvDesc_1842	Wrap it up
+InventoryItemNames/InvItem_1843	Orange Bandana
+InventoryItemDescriptions/InvDesc_1843	Wrap it up
+InventoryItemNames/InvItem_1844	Red Bandana
+InventoryItemDescriptions/InvDesc_1844	Wrap it up
+InventoryItemNames/InvItem_1845	Glass Fence
+InventoryItemDescriptions/InvDesc_1845	See through fence
+InventoryItemNames/InvItem_1846	Black Hair Bow
+InventoryItemDescriptions/InvDesc_1846	A bow for your head
+InventoryItemNames/InvItem_1847	White Hair Bow
+InventoryItemDescriptions/InvDesc_1847	A bow for your head
+InventoryItemNames/InvItem_1848	Pink Hair Bow
+InventoryItemDescriptions/InvDesc_1848	A bow for your head
+InventoryItemNames/InvItem_1849	Green Hair Bow
+InventoryItemDescriptions/InvDesc_1849	A bow for your head
+InventoryItemNames/InvItem_1850	Pincher Hood
+InventoryItemDescriptions/InvDesc_1850	Fit for a Yobbolin
+InventoryItemNames/InvItem_1851	Pincher Plant Statue
+InventoryItemDescriptions/InvDesc_1851	A strange old statue.
+InventoryItemNames/InvItem_1852	Iron Bridge
+InventoryItemDescriptions/InvDesc_1852	Maybe you could cross the water on this?
+InventoryItemNames/InvItem_1853	Wide Iron Bridge
+InventoryItemDescriptions/InvDesc_1853	Maybe you could cross the water on this?
+InventoryItemNames/InvItem_1854	Gumleaf Grasshopper
+InventoryItemDescriptions/InvDesc_1854	A jumping leaf
+InventoryItemNames/InvItem_1855	Cicada
+InventoryItemDescriptions/InvDesc_1855	It's a noisy bug
+InventoryItemNames/InvItem_1856	Empire Gudgeon
+InventoryItemDescriptions/InvDesc_1856	A pretty little fish
+InventoryItemNames/InvItem_1857	Rock Oyster
+InventoryItemDescriptions/InvDesc_1857	But it wasn't a rock
+InventoryItemNames/InvItem_1858	Nudibranch
+InventoryItemDescriptions/InvDesc_1858	Nudi-what?
+InventoryItemNames/InvItem_1859	Display Pedestal
+InventoryItemDescriptions/InvDesc_1859	Show off something you can't put in your pockets
+InventoryItemNames/InvItem_1860	Impostor Ball
+InventoryItemDescriptions/InvDesc_1860	You can become anything with this!
+InventoryItemNames/InvItem_1861	Stack of Papers
+InventoryItemDescriptions/InvDesc_1861	Some books
+InventoryItemNames/InvItem_1862	Blue-ringed Octopus
+InventoryItemDescriptions/InvDesc_1862	Small and highly venomous
+InventoryItemNames/InvItem_1863	Inverse Corner Ramp
+InventoryItemDescriptions/InvDesc_1863	An inverted ramp that uses the tile under it.

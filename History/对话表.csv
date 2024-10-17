@@ -400,6 +400,12 @@ FLETCH/Highest_Friendship_Greeting 2_Option_001	<jobCondition>
 FLETCH/Highest_Friendship_Greeting 2_Option_002	<hangOut>
 FLETCH/Highest_Friendship_Greeting 2_Option_003	<cancel>
 FLETCH/Highest_Friendship_Greeting 2_Response_003_000	Always lovely chatting with you!
+FLETCH/HouseConvoStartingConversation_Intro_000	So, you wanted to talk about your home?
+FLETCH/HouseConvoStartingConversation_Option_000	I want to upgrade
+FLETCH/HouseConvoStartingConversation_Option_001	I want to move my house.
+FLETCH/HouseConvoStartingConversation_Option_002	Nevermind
+FLETCH/HouseConvoStartingConversation_Response_001_000	Hmmm...
+FLETCH/HouseConvoStartingConversation_Response_002_000	Alright then, <PlayerName>.
 FLETCH/HouseIsBeingMoved_Intro_000	Wait! It looks like we're moving your house.
 FLETCH/HouseIsBeingMoved_Intro_001	<yes>We should get that all done before we start trying to upgrade it.
 FLETCH/HouseIsBeingUpgraded_Intro_000	<thinking>Hmmm...
@@ -610,6 +616,7 @@ FLETCH/NotEnoughMoneyToMoveHouse_Option_001	No thanks.
 FLETCH/NotEnoughMoneyToMoveHouse_Response_000_000	<shy>Oh, it seems like you can't afford to move it right now...
 FLETCH/NotEnoughMoneyToMoveHouse_Response_000_001	That's alright, just come and ask me again when you can, okay?
 FLETCH/NotEnoughMoneyToMoveHouse_Response_001_000	Maybe some other time, hmm?
+FLETCH/NotOnIslandDeed_Intro_000	I don't think thats a good idea...
 FLETCH/OpenDeed Screen_Intro_000	Okay, here are our current deeds.
 FLETCH/Pay off town Debt_Intro_000	Hmmm... <thinking>
 FLETCH/Pay off town Debt_Intro_001	I don't think it would be wise to apply for more deeds with the town in debt. <no>
@@ -808,12 +815,6 @@ FLETCH/SkyFest_Noon_006_Response_001_000	I hope you're enjoying <SkyFest>.
 FLETCH/SkyFest_Noon_006_Response_001_001	<haha>I'll tell you what, the activities and festivities aren't done yet!
 FLETCH/SkyFest_Noon_006_Response_001_002	Don’t forget that we’ve got the <PaperLantern> event at 3:00!
 FLETCH/SkyFest_Noon_006_Response_001_003	And of course, you can’t forget the wonderful <Aurora> once it’s dark.
-FLETCH/StartingConversation_Intro_000	So, you wanted to talk about your home?
-FLETCH/StartingConversation_Option_000	I want to upgrade
-FLETCH/StartingConversation_Option_001	I want to move my house.
-FLETCH/StartingConversation_Option_002	Nevermind
-FLETCH/StartingConversation_Response_001_000	Hmmm...
-FLETCH/StartingConversation_Response_002_000	Alright then, <PlayerName>.
 FLETCH/StartingConversationTent_Intro_000	Ah! So, you're interested in applying for a house deed?
 FLETCH/StartingConversationTent_Intro_001	I'll just let you know there is a <getHousePrice> up front fee. <thinking>
 FLETCH/StartingConversationTent_Intro_002	Oh, and once you've applied for the deed, you will have to source the construction materials yourself. <yes>
@@ -822,12 +823,12 @@ FLETCH/StartingConversationTent_Option_000	I want to apply for a house.
 FLETCH/StartingConversationTent_Option_001	Nevermind.
 FLETCH/StartingConversationTent_Response_001_000	Well, I'll let you have a think about it.
 FLETCH/StartingConversationTent_Response_001_001	Let me know if you change your mind.
-FLETCH/StartingConvo_Intro_000	What exactly can I help you with?
-FLETCH/StartingConvo_Option_000	Can I see the deeds?
-FLETCH/StartingConvo_Option_001	I want to move a building.
-FLETCH/StartingConvo_Option_002	Nevermind.
-FLETCH/StartingConvo_Response_001_000	Lets see what we can do...
-FLETCH/StartingConvo_Response_002_000	Talk again soon, okay?
+FLETCH/TalkAboutTownStartingConvo_Intro_000	What exactly can I help you with?
+FLETCH/TalkAboutTownStartingConvo_Option_000	Can I see the deeds?
+FLETCH/TalkAboutTownStartingConvo_Option_001	I want to move a building.
+FLETCH/TalkAboutTownStartingConvo_Option_002	Nevermind.
+FLETCH/TalkAboutTownStartingConvo_Response_001_000	Lets see what we can do...
+FLETCH/TalkAboutTownStartingConvo_Response_002_000	Talk again soon, okay?
 FLETCH/TownIsInDebt_Intro_000	<thinking>Moving the building can be a bit expensive...
 FLETCH/TownIsInDebt_Intro_001	<yes>Let's get that town debt payed off before we move any buildings, okay?
 FLETCH/TownMention_Level_001_Intro_000	Although this isn’t the <IslandName> I remember, it's still amazing seeing the changes you’ve made around here <PlayerName>.þ
@@ -872,446 +873,446 @@ FLETCH/WantToMoveBuilding_Response_000_000	Ok! Lets do it!
 FLETCH/WantToMoveBuilding_Response_000_001	Here is the <itemName>. Place it down in the new place we want the <relocateBuildingName>.
 FLETCH/WantToMoveBuilding_Response_000_002	<yes>The building will be moved over night.
 FLETCH/WantToMoveBuilding_Response_001_000	Not a problem, <PlayerName>.
-FRANKLIN/Arvo_Greeting 0_Intro_000	Oh, an postmeridian interaction?
-FRANKLIN/Arvo_Greeting 0_Option_000	<chat>
-FRANKLIN/Arvo_Greeting 0_Option_001	<jobCondition>
-FRANKLIN/Arvo_Greeting 0_Option_002	<hangOut>
-FRANKLIN/Arvo_Greeting 0_Option_003	<cancel>
-FRANKLIN/Arvo_Greeting 0_Response_003_000	<no>What a waste of my time.þ
-FRANKLIN/Arvo_Greeting 0_Response_003_001	Sadly, there are only a few hours left today.þ
-FRANKLIN/Arvo_Greeting 1_Intro_000	Good afternoon.
-FRANKLIN/Arvo_Greeting 1_Option_000	<chat>
-FRANKLIN/Arvo_Greeting 1_Option_001	<jobCondition>
-FRANKLIN/Arvo_Greeting 1_Option_002	<hangOut>
-FRANKLIN/Arvo_Greeting 1_Option_003	<cancel>
-FRANKLIN/Arvo_Greeting 1_Response_003_000	Goodbye.
-FRANKLIN/Arvo_Greeting 2_Intro_000	My goodness!
-FRANKLIN/Arvo_Greeting 2_Intro_001	It is <getTime> already.þ
-FRANKLIN/Arvo_Greeting 2_Option_000	<chat>
-FRANKLIN/Arvo_Greeting 2_Option_001	<jobCondition>
-FRANKLIN/Arvo_Greeting 2_Option_002	<hangOut>
-FRANKLIN/Arvo_Greeting 2_Option_003	<cancel>
-FRANKLIN/Arvo_Greeting 2_Response_003_000	I will be on my way.
-FRANKLIN/BugComp_Greeting 000_Intro_000	I am currently participating in a “<bugComp>”.
-FRANKLIN/BugComp_Greeting 000_Intro_001	Why are you interrupting me?
-FRANKLIN/BugComp_Greeting 000_Option_000	<chat>
-FRANKLIN/BugComp_Greeting 000_Option_001	<jobCondition>
-FRANKLIN/BugComp_Greeting 000_Option_002	<hangOut>
-FRANKLIN/BugComp_Greeting 000_Option_003	<cancel>
-FRANKLIN/BugComp_Greeting 000_Response_003_000	Goodbye.
-FRANKLIN/CanMakeTechForYou_Intro_000	So, you are interested in my <itemName>.
-FRANKLIN/CanMakeTechForYou_Intro_001	It will be very handy to have I can assure you!
-FRANKLIN/CanMakeTechForYou_Intro_002	Now to make that item I will require the components and <craftItemPrice>. 
-FRANKLIN/CanMakeTechForYou_Intro_003	I will also require a day or so to make it.
-FRANKLIN/CanMakeTechForYou_Intro_004	Do we have an agreement?
-FRANKLIN/CanMakeTechForYou_Option_000	Let's make it!
-FRANKLIN/CanMakeTechForYou_Option_001	Not this time.
-FRANKLIN/CanMakeTechForYou_Response_001_000	Very well.
-FRANKLIN/CanMakeTechForYou_Response_001_001	<thinking>Perhaps you don't full understand how useful it would be...
-FRANKLIN/CanMakeTechForYouNotEnoughMoney_Intro_000	So, you are interested in my <itemName>.
-FRANKLIN/CanMakeTechForYouNotEnoughMoney_Intro_001	It will be very handy to have I can assure you!
-FRANKLIN/CanMakeTechForYouNotEnoughMoney_Intro_002	Now to make that item I will require the components and <craftItemPrice>. 
-FRANKLIN/CanMakeTechForYouNotEnoughMoney_Intro_003	I will also require a day or so to make it.
-FRANKLIN/CanMakeTechForYouNotEnoughMoney_Intro_004	Do we have an agreement?
-FRANKLIN/CanMakeTechForYouNotEnoughMoney_Option_000	Let's make it!
-FRANKLIN/CanMakeTechForYouNotEnoughMoney_Option_001	Not this time.
-FRANKLIN/CanMakeTechForYouNotEnoughMoney_Response_000_000	<thinking>Hmmm...
-FRANKLIN/CanMakeTechForYouNotEnoughMoney_Response_000_001	<no>It appears you are short on funds.
-FRANKLIN/CanMakeTechForYouNotEnoughMoney_Response_000_002	Why don't you come back with the required amount?
-FRANKLIN/CanMakeTechForYouNotEnoughMoney_Response_000_003	<yes>And I will try to avoid remembering this embarrassing exchange.
-FRANKLIN/CanMakeTechForYouNotEnoughMoney_Response_001_000	Very well.
-FRANKLIN/CanMakeTechForYouNotEnoughMoney_Response_001_001	<thinking>Perhaps you don't full understand how useful it would be...þ
-FRANKLIN/CompleteBirthday_000_Intro_000	Ah, a gift to celebrate my birth.
-FRANKLIN/CompleteBirthday_000_Intro_001	A very kind gesture, <PlayerName>.
-FRANKLIN/CompleteRequest_000_Intro_000	<yes>Excellent.
-FRANKLIN/CompleteRequest_000_Intro_001	You have done a very adequate job.
-FRANKLIN/CompleteRequest_000_Intro_002	<yes>I will give you this in exchange for helping me.
-FRANKLIN/CrafterCurrentlyCrafting_Intro_000	Oh, <PlayerName>. I am actually a quite busy right now.
-FRANKLIN/CrafterCurrentlyCrafting_Intro_001	I have to get this project done by tomorrow.
-FRANKLIN/CrafterCurrentlyCrafting_Intro_002	Is there something you need?
-FRANKLIN/CrafterCurrentlyCrafting_Option_000	I have some discs for you.
-FRANKLIN/CrafterCurrentlyCrafting_Option_001	I want to chat.
-FRANKLIN/CrafterCurrentlyCrafting_Option_002	I'm good.
-FRANKLIN/CrafterCurrentlyCrafting_Response_000_000	Excellent.
-FRANKLIN/CrafterCurrentlyCrafting_Response_000_001	Those <itemName> have very interesting information on them.
-FRANKLIN/CrafterCurrentlyCrafting_Response_002_000	Like I said, I'm quite busy.
-FRANKLIN/CrafterShopConversation_Intro_000	Yes?
-FRANKLIN/CrafterShopConversation_Option_000	Can you make me something?
-FRANKLIN/CrafterShopConversation_Option_001	I have some discs for you.
-FRANKLIN/CrafterShopConversation_Option_002	I want to chat.
-FRANKLIN/CrafterShopConversation_Option_003	I'm good.
-FRANKLIN/CrafterShopConversation_Response_000_000	Let me show you what I can craft.
-FRANKLIN/CrafterShopConversation_Response_000_001	Please do not waste my time.
-FRANKLIN/CrafterShopConversation_Response_001_000	Excellent.
-FRANKLIN/CrafterShopConversation_Response_001_001	<yes>Those <itemName> have very interesting information on them.
-FRANKLIN/CrafterShopConversation_Response_003_000	<no>Thank you for interupting me.
-FRANKLIN/DonateTechConvo_Intro_000	<glee>These are fascinating...
-FRANKLIN/DonateTechConvo_Intro_001	<yes>I can learn a lot from these!
-FRANKLIN/DonateTechConvo_Intro_002	I will offer you you <$> for them?
-FRANKLIN/DonateTechConvo_Option_000	It's a deal!
-FRANKLIN/DonateTechConvo_Option_001	On second thought...
-FRANKLIN/DonateTechConvo_Response_000_000	Many thanks, <PlayerName>.
-FRANKLIN/DonateTechConvo_Response_000_001	<yes>Here is your <$>. As promised.
-FRANKLIN/DonateTechConvo_Response_000_002	<thinking>Now, I have information to extract.
-FRANKLIN/DonateTechConvo_Response_000_003	Each one of these <itemName> could contain a wealth of knowledge.
-FRANKLIN/DonateTechConvo_Response_001_000	Very well. You may have these back.
-FRANKLIN/DonateTechConvo_Response_001_001	My offer stands if you change your mind.
-FRANKLIN/GetCompletedTech_Intro_000	<proud>I have completed the <itemName> you commissioned!
-FRANKLIN/GetCompletedTech_Intro_001	I think you will find it very impressive!
-FRANKLIN/GetCompletedTech_Intro_002	<yes>If there is anything else I can make for you, please let me know.
-FRANKLIN/Gossip_About_NPC_000_Intro_000	<no>I truly do not understand <NPCName>’s processes.þ
-FRANKLIN/Gossip_About_NPC_000_Intro_001	<thinking>One afternoon I witnessed her studying a flower for over two hours.þ
-FRANKLIN/Gossip_About_NPC_000_Intro_002	<sigh>Two whole hours and she didn’t write a single page of notes!þþNot one!þ
-FRANKLIN/Gossip_About_NPC_000_Intro_003	<no>I have written three volumes on similar incidents and I am still no closer to the truth of the matter.þ
-FRANKLIN/Gossip_About_NPC_001_Intro_000	<NPCName>’s tools are serviceable, for a novice.þþ
-FRANKLIN/Gossip_About_NPC_001_Intro_001	<proud>My own inventions are far superior, of course.þ
-FRANKLIN/Gossip_About_NPC_001_Intro_002	<pumped>There are tools, and then there are POWER tools!þ
-FRANKLIN/Gossip_About_NPC_003_Intro_000	If I only worked with wood, I would hope to be as good as <NPCName>.þ
-FRANKLIN/Gossip_About_NPC_003_Intro_001	<proud>Fortunately, I am much better.þ
-FRANKLIN/Gossip_About_NPC_004_Intro_000	<NPCName> has some truly remarkable ideas!þ
-FRANKLIN/Gossip_About_NPC_004_Intro_001	<sigh>I feel like we would have been great friends, had she not chosen the awful discipline of “Fashion”.þ
-FRANKLIN/Gossip_About_NPC_004_Intro_002	<no>Such a waste of talent.þ
-FRANKLIN/Gossip_About_NPC_006_Intro_000	<no><NPCName> politely asked me to be careful with my future experiments.þ
-FRANKLIN/Gossip_About_NPC_006_Intro_001	<yes>I politely declined her request.þ
-FRANKLIN/Gossip_About_NPC_006_Intro_002	<glee>It is always nice when people behave reasonably and civilly.þ
-FRANKLIN/Gossip_About_NPC_007_Intro_000	<no>I have no idea how Irwin sources his animals.þ
-FRANKLIN/Gossip_About_NPC_007_Intro_001	<thinking>I tried to create my own, once.þ
-FRANKLIN/Gossip_About_NPC_007_Intro_002	<yes>The less said about it, the better, I think.þ
-FRANKLIN/Gossip_About_NPC_007_Intro_003	<haha>And they’re certainly not going to help you smelt ore like my goods can!þ
-FRANKLIN/Gossip_About_NPC_009_Intro_000	<NPCName>’s record keeping shall be invaluable if anything like the <Shifts> ever happens again.þ
-FRANKLIN/Gossip_About_NPC_009_Intro_001	<thinking>Unless, of course, it gets converted into an unreadable format, and buried.þ
-FRANKLIN/Gossip_About_NPC_010_Intro_000	What is the point of <NPCName>’s money if he doesn’t DO anything with it?þ
-FRANKLIN/Gossip_About_NPC_010_Intro_001	His wealth is, by very definition, useless!þ
-FRANKLIN/High_Friendship_Greeting 0_Intro_000	Ah, <PlayerName>.
-FRANKLIN/High_Friendship_Greeting 0_Intro_001	You would like to communicate with me?
-FRANKLIN/High_Friendship_Greeting 0_Option_000	<chat>
-FRANKLIN/High_Friendship_Greeting 0_Option_001	<jobCondition>
-FRANKLIN/High_Friendship_Greeting 0_Option_002	<hangOut>
-FRANKLIN/High_Friendship_Greeting 0_Option_003	<cancel>
-FRANKLIN/High_Friendship_Greeting 0_Response_003_000	<yes>Communication seized.
-FRANKLIN/High_Friendship_Greeting 1_Intro_000	Hello, <PlayerName>.
-FRANKLIN/High_Friendship_Greeting 1_Option_000	<chat>
-FRANKLIN/High_Friendship_Greeting 1_Option_001	<jobCondition>
-FRANKLIN/High_Friendship_Greeting 1_Option_002	<hangOut>
-FRANKLIN/High_Friendship_Greeting 1_Option_003	<cancel>
-FRANKLIN/High_Friendship_Greeting 1_Response_003_000	Goodbye.
-FRANKLIN/High_Friendship_Greeting 2_Intro_000	<PlayerName>, what do you require?
-FRANKLIN/High_Friendship_Greeting 2_Option_000	<chat>
-FRANKLIN/High_Friendship_Greeting 2_Option_001	<jobCondition>
-FRANKLIN/High_Friendship_Greeting 2_Option_002	<hangOut>
-FRANKLIN/High_Friendship_Greeting 2_Option_003	<cancel>
-FRANKLIN/High_Friendship_Greeting 2_Response_003_000	Very well.
-FRANKLIN/Highest_Friendship_Greeting 0_Intro_000	Salutations, <PlayerName>.þ
-FRANKLIN/Highest_Friendship_Greeting 0_Option_000	<chat>
-FRANKLIN/Highest_Friendship_Greeting 0_Option_001	<jobCondition>
-FRANKLIN/Highest_Friendship_Greeting 0_Option_002	<hangOut>
-FRANKLIN/Highest_Friendship_Greeting 0_Option_003	<cancel>
-FRANKLIN/Highest_Friendship_Greeting 0_Response_003_000	þLet us part ways then.þ
-FRANKLIN/Highest_Friendship_Greeting 1_Intro_000	A cordial greeting to you, <PlayerName>.þ
-FRANKLIN/Highest_Friendship_Greeting 1_Option_000	<chat>
-FRANKLIN/Highest_Friendship_Greeting 1_Option_001	<jobCondition>
-FRANKLIN/Highest_Friendship_Greeting 1_Option_002	<hangOut>
-FRANKLIN/Highest_Friendship_Greeting 1_Option_003	<cancel>
-FRANKLIN/Highest_Friendship_Greeting 1_Response_003_000	We just shared a great interaction, don’t you think?þ
-FRANKLIN/Highest_Friendship_Greeting 2_Intro_000	Yes, <PlayerName>?þ
-FRANKLIN/Highest_Friendship_Greeting 2_Option_000	<chat>
-FRANKLIN/Highest_Friendship_Greeting 2_Option_001	<jobCondition>
-FRANKLIN/Highest_Friendship_Greeting 2_Option_002	<hangOut>
-FRANKLIN/Highest_Friendship_Greeting 2_Option_003	<cancel>
-FRANKLIN/Highest_Friendship_Greeting 2_Response_003_000	<yes>Good day to you.þ
-FRANKLIN/Introduction_002_Intro_000	Oh. Hello. My name is <myName>.
-FRANKLIN/Introduction_002_Intro_001	<yes>I am here to research the old technology buried here on <IslandName>.
-FRANKLIN/Introduction_002_Intro_002	<shy>You see, <SouthCity> has some pretty strict rules about what is allowed to be researched there.
-FRANKLIN/Introduction_002_Intro_003	<yes>But here on <IslandName> it would appear there are no such restrictions.þ
-FRANKLIN/Introduction_002_Intro_004	If you discover any <itemName> please bring it to me.
-FRANKLIN/Introduction_002_Intro_005	<proud>You see, I believe that the information on each <itemName> will lead me to making further discoveries.
-FRANKLIN/Introduction_002_Intro_006	I will pay you very generously for each <itemName> you deliver to me.
-FRANKLIN/Introduction_002_Intro_007	Oh, and I also sell blueprints for some basic recipes.
-FRANKLIN/Introduction_002_Intro_008	<PlayerName>, is it?
-FRANKLIN/Introduction_002_Intro_009	Yes. I hope you will not be interrupting me too much, <PlayerName>þ
-FRANKLIN/IslandDayGreeting_AfterNoon_002_Intro_000	I am shocked to admit that I am enjoying today's celebration.þ
-FRANKLIN/IslandDayGreeting_AfterNoon_002_Intro_001	It would appear that <IslandName> is indeed worth celebrating.þ
-FRANKLIN/IslandDayGreeting_AfterNoon_002_Intro_002	I have actually helped <NPCName> with tonight's surprise.þ
-FRANKLIN/IslandDayGreeting_AfterNoon_002_Intro_003	<shocked>Oh!þ
-FRANKLIN/IslandDayGreeting_AfterNoon_002_Intro_004	I will not give you any further information.þ
-FRANKLIN/IslandDayGreeting_Morning_002_Intro_000	I do not understand the custom.þ
-FRANKLIN/IslandDayGreeting_Morning_002_Intro_001	But I intend to participate in this <IslandDay> nonetheless.þ
-FRANKLIN/IslandDayGreeting_Morning_002_Intro_002	<NPCName> informed me she would be auditing my licences if I did not.þ
-FRANKLIN/IslandDayGreeting_Night_002_Intro_000	It was actually pretty simple to create these sparkles you see in the sky.þ
-FRANKLIN/IslandDayGreeting_Night_002_Intro_001	<thinking>I am considering calling them “Sparkle Works”.þ
-FRANKLIN/IslandDayGreeting_Night_002_Intro_002	<yes>This may be one of the most enjoyable projects I have worked on in recent memory.þ
-FRANKLIN/IslandDayGreeting_Noon_002_Intro_000	It would appear that these <Snags> look revolting.þ
-FRANKLIN/IslandDayGreeting_Noon_002_Intro_001	<yes>However, the flavour is quite impressive.þ
-FRANKLIN/IslandDayGreeting_Noon_002_Intro_002	<thinking>Excuse me, but I think they require further research.þ
-FRANKLIN/IslandDayGreeting_Noon_002_Intro_003	And by that, I mean eating. þ
-FRANKLIN/LearntNewTech_Intro_000	<thinking>Hmmm...
-FRANKLIN/LearntNewTech_Intro_001	<shocked>Oh!
-FRANKLIN/LearntNewTech_Intro_002	I have a great idea for a new invention!
-FRANKLIN/LearntNewTech_Intro_003	Please come and speak to me if you are interested!þ
-FRANKLIN/LookingForTechConvo_Intro_000	<thinking>Actually, I have an idea for a new invention…þ
-FRANKLIN/LookingForTechConvo_Intro_001	However, I require <requiredCrafterItem>.þ
-FRANKLIN/LookingForTechConvo_Intro_002	Do you happen to have <requiredCrafterItem>?þ
-FRANKLIN/LookingForTechConvo_Option_000	Here you go.
-FRANKLIN/LookingForTechConvo_Option_001	Nevermind.
-FRANKLIN/LookingForTechConvo_Response_001_000	<sigh>I see.þ
-FRANKLIN/LookingForTechConvo_Response_001_001	<no>It appears you have interrupted me for nothing.þ
-FRANKLIN/Low_Friendship_Greeting 0_Intro_000	What is it?
-FRANKLIN/Low_Friendship_Greeting 0_Option_000	<chat>
-FRANKLIN/Low_Friendship_Greeting 0_Option_001	<jobCondition>
-FRANKLIN/Low_Friendship_Greeting 0_Option_002	<hangOut>
-FRANKLIN/Low_Friendship_Greeting 0_Option_003	<cancel>
-FRANKLIN/Low_Friendship_Greeting 0_Response_003_000	Do you know how many ideas in my head I have to juggle while you interrupt me?
-FRANKLIN/Low_Friendship_Greeting 1_Intro_000	<thinking>…That might work…þ
-FRANKLIN/Low_Friendship_Greeting 1_Intro_001	<shocked>Oh, <PlayerName>.þ
-FRANKLIN/Low_Friendship_Greeting 1_Intro_002	What is it?þ
-FRANKLIN/Low_Friendship_Greeting 1_Option_000	<chat>
-FRANKLIN/Low_Friendship_Greeting 1_Option_001	<jobCondition>
-FRANKLIN/Low_Friendship_Greeting 1_Option_002	<hangOut>
-FRANKLIN/Low_Friendship_Greeting 1_Option_003	<cancel>
-FRANKLIN/Low_Friendship_Greeting 1_Response_003_000	Great. Now I have lost my train of thought…
-FRANKLIN/Low_Friendship_Greeting 2_Intro_000	Yes?
-FRANKLIN/Low_Friendship_Greeting 2_Option_000	<chat>
-FRANKLIN/Low_Friendship_Greeting 2_Option_001	<jobCondition>
-FRANKLIN/Low_Friendship_Greeting 2_Option_002	<hangOut>
-FRANKLIN/Low_Friendship_Greeting 2_Option_003	<cancel>
-FRANKLIN/Low_Friendship_Greeting 2_Response_003_000	<no>Very well then.
-FRANKLIN/MakeTechNoLicence_Intro_000	As you know, <PlayerName>, I love making things. But unfortunately, I will not be able to craft that <itemName> for you.
-FRANKLIN/MakeTechNoLicence_Intro_001	It would be negligent of me to craft a <itemName> for you because you lack the correct licence to operate it.
-FRANKLIN/MakeTechNoLicence_Intro_002	Now, if you would be so kind as to return with a <itemLicence>, I would be more than happy to take your <Dinks> and craft a <itemName> for you.
-FRANKLIN/Medium_Friendship_Greeting 0_Intro_000	Greetings, <PlayerName>.
-FRANKLIN/Medium_Friendship_Greeting 0_Option_000	<chat>
-FRANKLIN/Medium_Friendship_Greeting 0_Option_001	<jobCondition>
-FRANKLIN/Medium_Friendship_Greeting 0_Option_002	<hangOut>
-FRANKLIN/Medium_Friendship_Greeting 0_Option_003	<cancel>
-FRANKLIN/Medium_Friendship_Greeting 0_Response_003_000	A very brisk interaction.þ
-FRANKLIN/Medium_Friendship_Greeting 0_Response_003_001	<yes>My favourite kind.
-FRANKLIN/Medium_Friendship_Greeting 1_Intro_000	Alright <PlayerName>.
-FRANKLIN/Medium_Friendship_Greeting 1_Intro_001	Let us interact.
-FRANKLIN/Medium_Friendship_Greeting 1_Option_000	<chat>
-FRANKLIN/Medium_Friendship_Greeting 1_Option_001	<jobCondition>
-FRANKLIN/Medium_Friendship_Greeting 1_Option_002	<hangOut>
-FRANKLIN/Medium_Friendship_Greeting 1_Option_003	<cancel>
-FRANKLIN/Medium_Friendship_Greeting 1_Response_003_000	<no>Well, that was not a good use of my time.
-FRANKLIN/Medium_Friendship_Greeting 2_Intro_000	<yes>Yes, hello, <PlayerName>.
-FRANKLIN/Medium_Friendship_Greeting 2_Option_000	<chat>
-FRANKLIN/Medium_Friendship_Greeting 2_Option_001	<jobCondition>
-FRANKLIN/Medium_Friendship_Greeting 2_Option_002	<hangOut>
-FRANKLIN/Medium_Friendship_Greeting 2_Option_003	<cancel>
-FRANKLIN/Medium_Friendship_Greeting 2_Response_003_000	Goodbye.
-FRANKLIN/Morning_Greeting 0_Intro_000	Good morrow, <PlayerName>.
-FRANKLIN/Morning_Greeting 0_Option_000	<chat>
-FRANKLIN/Morning_Greeting 0_Option_001	<jobCondition>
-FRANKLIN/Morning_Greeting 0_Option_002	<hangOut>
-FRANKLIN/Morning_Greeting 0_Option_003	<cancel>
-FRANKLIN/Morning_Greeting 0_Response_003_000	Goodbye.
-FRANKLIN/Morning_Greeting 1_Intro_000	Oh, an antemeridian interaction?
-FRANKLIN/Morning_Greeting 1_Option_000	<chat>
-FRANKLIN/Morning_Greeting 1_Option_001	<jobCondition>
-FRANKLIN/Morning_Greeting 1_Option_002	<hangOut>
-FRANKLIN/Morning_Greeting 1_Option_003	<cancel>
-FRANKLIN/Morning_Greeting 1_Response_003_000	<no>This was a waste of my time.þ
-FRANKLIN/Morning_Greeting 1_Response_003_001	Luckily, there is still plenty of day left.þ
-FRANKLIN/Morning_Greeting 2_Intro_000	It is nice and early.þ
-FRANKLIN/Morning_Greeting 2_Intro_001	This is when I have my best ideas.þ
-FRANKLIN/Morning_Greeting 2_Option_000	<chat>
-FRANKLIN/Morning_Greeting 2_Option_001	<jobCondition>
-FRANKLIN/Morning_Greeting 2_Option_002	<hangOut>
-FRANKLIN/Morning_Greeting 2_Option_003	<cancel>
-FRANKLIN/Morning_Greeting 2_Response_003_000	Very well.þ
-FRANKLIN/Night_Greeting 0_Intro_000	Sometimes I miss that giant flaming ball in the sky.þ
-FRANKLIN/Night_Greeting 0_Intro_001	<yes>But, the evening is inevitable.þ
-FRANKLIN/Night_Greeting 0_Option_000	<chat>
-FRANKLIN/Night_Greeting 0_Option_001	<jobCondition>
-FRANKLIN/Night_Greeting 0_Option_002	<hangOut>
-FRANKLIN/Night_Greeting 0_Option_003	<cancel>
-FRANKLIN/Night_Greeting 0_Response_003_000	<no>So is you, wasting my time, apparently.
-FRANKLIN/Night_Greeting 1_Intro_000	It is getting late.þ
-FRANKLIN/Night_Greeting 1_Intro_001	Around <getTime>, if my time keeping unit is correct.þ
-FRANKLIN/Night_Greeting 1_Option_000	<chat>
-FRANKLIN/Night_Greeting 1_Option_001	<jobCondition>
-FRANKLIN/Night_Greeting 1_Option_002	<hangOut>
-FRANKLIN/Night_Greeting 1_Option_003	<cancel>
-FRANKLIN/Night_Greeting 1_Response_003_000	Good evening then.
-FRANKLIN/Night_Greeting 2_Intro_000	Good evening.þ
-FRANKLIN/Night_Greeting 2_Option_000	<chat>
-FRANKLIN/Night_Greeting 2_Option_001	<jobCondition>
-FRANKLIN/Night_Greeting 2_Option_002	<hangOut>
-FRANKLIN/Night_Greeting 2_Option_003	<cancel>
-FRANKLIN/Night_Greeting 2_Response_003_000	Very well.þ
-FRANKLIN/Noon_Greeting 0_Intro_000	The time is roughly <getTime>.þ
-FRANKLIN/Noon_Greeting 0_Option_000	<chat>
-FRANKLIN/Noon_Greeting 0_Option_001	<jobCondition>
-FRANKLIN/Noon_Greeting 0_Option_002	<hangOut>
-FRANKLIN/Noon_Greeting 0_Option_003	<cancel>
-FRANKLIN/Noon_Greeting 0_Response_003_000	þVery well.þ
-FRANKLIN/Noon_Greeting 1_Intro_000	Good day.
-FRANKLIN/Noon_Greeting 1_Option_000	<chat>
-FRANKLIN/Noon_Greeting 1_Option_001	<jobCondition>
-FRANKLIN/Noon_Greeting 1_Option_002	<hangOut>
-FRANKLIN/Noon_Greeting 1_Option_003	<cancel>
-FRANKLIN/Noon_Greeting 1_Response_003_000	Goodbye.
-FRANKLIN/Noon_Greeting 2_Intro_000	<yes>The day is passing quickly.þ
-FRANKLIN/Noon_Greeting 2_Intro_001	<no>Metaphorically, of course.þ
-FRANKLIN/Noon_Greeting 2_Option_000	<chat>
-FRANKLIN/Noon_Greeting 2_Option_001	<jobCondition>
-FRANKLIN/Noon_Greeting 2_Option_002	<hangOut>
-FRANKLIN/Noon_Greeting 2_Option_003	<cancel>
-FRANKLIN/Noon_Greeting 2_Response_003_000	Carpe diem.
-FRANKLIN/NoTechToDonate_Intro_000	So you do not have any interesting relics for me?
-FRANKLIN/NoTechToDonate_Intro_001	Thank you for wasting my time.
-FRANKLIN/RandomConvo_000_Intro_000	Oh, yes. Talking. Let us do that.þ
-FRANKLIN/RandomConvo_000_Option_000	How have you been
-FRANKLIN/RandomConvo_000_Option_001	What have you been up to?
-FRANKLIN/RandomConvo_000_Response_000_000	<yes>Everything has been satisfactory.þ
-FRANKLIN/RandomConvo_000_Response_000_001	Thank you for asking, <PlayerName>.þ
-FRANKLIN/RandomConvo_000_Response_001_000	I have been conducting research.
-FRANKLIN/RandomConvo_000_Response_001_001	Thank you for asking, <PlayerName>.þ
-FRANKLIN/RandomConvo_001_Intro_000	<thinking>I am absolutely astonished with how much interesting technology can be unearthed here on <IslandName>.þ
-FRANKLIN/RandomConvo_001_Intro_001	<yes>If you happen to find any, please bring it to me when I am in my lab.þ
-FRANKLIN/RandomConvo_002_Intro_000	When I lived in <SouthCity>, I was once allowed to conduct research on the city's power source.þ
-FRANKLIN/RandomConvo_002_Intro_001	<shy>Unfortunately, during an experiment I cut power to the whole city for 40 seconds.þ
-FRANKLIN/RandomConvo_002_Intro_002	<no>Apparently, making discoveries is not as important as keeping people warm.þ
-FRANKLIN/RandomConvo_003_Intro_000	<PlayerName>, I can assure you, there is a lot to be learnt from the past.
-FRANKLIN/RandomConvo_003_Intro_001	<pumped>Our ancestors may have caused everything to go South, but imagine how advanced they would have had to have been to do that!
-FRANKLIN/RandomConvo_004_Intro_000	<thinking>If enough information is collected, anything can be accurately predicted.þ
-FRANKLIN/RandomConvo_004_Intro_001	<yes>Even the weather!þ
-FRANKLIN/RandomConvo_005_Intro_000	<yes>After I start a project my brain is constantly working on it. þ
-FRANKLIN/RandomConvo_005_Intro_001	<thinking>Right now, I am actually imagining working on something quite interesting.þ
-FRANKLIN/RandomConvo_005_Intro_002	Oh, and I am having this conversation with you too, I guess.þ
-FRANKLIN/RandomConvo_006_Intro_000	<no>I am not really in the mood for a discussion. þ
-FRANKLIN/RandomConvo_006_Intro_001	<thinking>Let us just imagine we shared in some small talk and became closer friends because of it. Okay?þ
-FRANKLIN/RandomConvo_007_Intro_000	<yes>I do wish there were more people here on <IslandName> that could have a real, intellectual discussion with.þ
-FRANKLIN/RandomConvo_007_Intro_001	<no>But I suppose I should really be doing research anyway.þ
-FRANKLIN/RandomConvo_008_Intro_000	<yes>Sometimes it can take me a long while to complete a project. 
-FRANKLIN/RandomConvo_008_Intro_001	<haha>I could probably complete a project quicker if I only focused on one thing at a time, but who has time for that?!
-FRANKLIN/RandomConvo_009_Intro_000	<thinking>Do you think the whole world was like <SouthCity> before everything went south? þ
-FRANKLIN/RandomConvo_009_Intro_001	<glee>Can you even imagine how magnificent a world like that would have been?þ
-FRANKLIN/RandomConvo_010_Intro_000	<PlayerName>, the way you complete your tasks is nothing short of adequate. þ
-FRANKLIN/RandomConvo_010_Intro_001	<no>You never fail to meet my expectations.þ
-FRANKLIN/RandomConvo_011_Intro_000	<thinking>You know, <PlayerName>, you can actually be quite bright sometimes.þ
-FRANKLIN/RandomConvo_011_Intro_001	I have seen some of the things you have crafted, and I must admit, I’m almost impressed.
-FRANKLIN/RandomConvo_012_Intro_000	<no>There is no better feeling than finishing a long and difficult project. þ
-FRANKLIN/RandomConvo_012_Intro_001	<thinking>Except maybe starting a brand new difficult project!
-FRANKLIN/RandomConvo_013_Intro_000	<PlayerName>, I think you are actually a very interesting person to talk to. þ
-FRANKLIN/RandomConvo_013_Intro_001	<shy>I doubt you really take in everything I tell you, but it does help to get my thoughts out verbally sometimes.þ
-FRANKLIN/RandomConvo_014_Intro_000	<no>I just have to stay busy because there's never enough time to get everything done. þ
-FRANKLIN/RandomConvo_014_Intro_001	<haha>I have added twice as many numbers to my clock and I am STILL running out of time! þ
-FRANKLIN/RandomConvo_014_Intro_002	That was just a silly joke, <PlayerName>.þþ
-FRANKLIN/RandomConvo_014_Intro_003	<no>You can not actually add more time to a day by doing that.
-FRANKLIN/RandomConvo_015_Intro_000	I used to enjoy reading. þ
-FRANKLIN/RandomConvo_015_Intro_001	<yes>I still do from time to time.þ
-FRANKLIN/RandomConvo_015_Intro_002	Of course, it is no substitute for active participation.þ
-FRANKLIN/RandomConvo_016_Intro_000	<yes>Doing research in <SouthCity> was sometimes very difficult.þ
-FRANKLIN/RandomConvo_016_Intro_001	<thinking>I feel like 75% of my time was spent filling out forms to ask for permission to do an experiment.þ
-FRANKLIN/RandomConvo_016_Intro_002	<glee>I am very happy to be here on <IslandName>, where people are a lot more… oblivious to what I am actually doing.þ
-FRANKLIN/RandomConvo_017_Intro_000	I have discovered that <IslandName> is not only a great place for research and discovery, but also a generally nice place to live.þ
-FRANKLIN/RandomConvo_017_Intro_001	Who ever has allowed for a place like this to be built, is truly very clever.þ
-FRANKLIN/RandomConvo_018_Intro_000	When I first met you, <PlayerName> I thought you were a bit of a drongo. In other words, a simpleton.þ
-FRANKLIN/RandomConvo_018_Intro_001	<no>Although I do not think this anymore.þ
-FRANKLIN/RandomConvo_018_Intro_002	<worried>In retrospect, perhaps I should not have shared with you that I had these thoughts at all!þ
-FRANKLIN/RandomConvo_019_Intro_000	þSome of the other people here on <IslandName> are actually quite interesting.þ
-FRANKLIN/RandomConvo_019_Intro_001	<thinking>I have discovered that given enough study and time, other people can be nearly as interesting as the relics found around this island!þ
-FRANKLIN/RandomConvo_020_Intro_000	<glee>Having my own lab to do research in all day has been amazing!
-FRANKLIN/RandomConvo_020_Intro_001	I had to share a lab with 3 other people back in <SouthCity>.þ
-FRANKLIN/RandomConvo_020_Intro_002	<no>There is not a lot of room to do anything even remotely interesting back there.þ
-FRANKLIN/RandomConvo_021_Intro_000	<yes>The people that lived before the world went south were very clever. þ
-FRANKLIN/RandomConvo_021_Intro_001	<glee>Very clever indeed!þ
-FRANKLIN/RandomConvo_021_Intro_002	<shy>Well, besides the whole ruining the world thing they did…þ
-FRANKLIN/RandomConvo_021_Intro_003	<thinking>That, perhaps, was not so clever...þ
-FRANKLIN/RandomConvo_022_Intro_000	<proud>I managed to acquire all my <Licences> at a very young age. þ
-FRANKLIN/RandomConvo_022_Intro_001	<thinking>You see, I was quite clever as a child.þ
-FRANKLIN/RandomConvo_022_Intro_002	<proud>To be fair, I also had access to a lot of permit points at the time as a reward for repairing the water supply to my block.þ
-FRANKLIN/RandomConvo_023_Intro_000	<IslandName> is a very interesting place.þ
-FRANKLIN/RandomConvo_023_Intro_001	<yes>Yes. One might even say, it’s a great place.þ
-FRANKLIN/RandomConvo_023_Intro_002	<shy>Oh, and the relics are also interesting too.þ
-FRANKLIN/RandomConvo_024_Intro_000	<thinking>I am sorry, <PlayerName>, but I am actually thinking about something quite complex right now.þ
-FRANKLIN/RandomConvo_024_Intro_001	<thinking>If you do not mind, perhap we could resume this conversation at a later time?þ
-FRANKLIN/RandomConvo_025_Intro_000	The only thing I miss about <SouthCity> is the <BlobFish>.þ
-FRANKLIN/RandomConvo_025_Intro_001	<thinking>While I admit they were lacking in flavour and texture, they also contained all the essential vitamins and minerals for working throughout a long night.þ
-FRANKLIN/RandomConvo_025_Intro_002	You have to eat them in moderation, of course.
-FRANKLIN/RandomConvo_026_Intro_000	There are old components hidden underground here on <IslandName>.
-FRANKLIN/RandomConvo_026_Intro_001	<thinking>It makes me wonder how did they get there?
-FRANKLIN/RandomConvo_027_Intro_000	<yes>I have been trying to get more sleep. þ
-FRANKLIN/RandomConvo_027_Intro_001	<sigh>Unfortunately, every time I lay down I get a new idea and I have to get back up and start working on it right away!þ
-FRANKLIN/RandomConvo_028_Intro_000	<proud>With me, you can always count on attention to detail.
-FRANKLIN/RandomConvo_028_Intro_001	<yes>I am somewhat famous for it.
-FRANKLIN/RandomConvo_028_Intro_002	What was your name again?
-FRANKLIN/RandomConvo_029_Intro_000	We are starting to be really “bonza” now. þ
-FRANKLIN/RandomConvo_029_Intro_001	Am I saying that correctly?þ
-FRANKLIN/RandomConvo_030_Intro_000	Hello there, <PlayerName>. þ
-FRANKLIN/RandomConvo_030_Intro_001	I hope you are doing well.þ
-FRANKLIN/RandomConvo_030_Intro_002	...
-FRANKLIN/RandomConvo_030_Intro_003	How was that?þ
-FRANKLIN/RandomConvo_030_Intro_004	<worried>Did that sound genuine?þ
-FRANKLIN/RandomConvo_030_Intro_005	<shy>I read somewhere that you should ask your friends questions like that occasionally.þ
-FRANKLIN/RandomConvo_031_Intro_000	I am quite pleased that you have come to visit me today, <PlayerName>.þ
-FRANKLIN/RandomConvo_031_Intro_001	<proud>You are a very satifactory friend.þ
-FRANKLIN/RandomConvo_031_Intro_002	<thinking>In fact.þ..
-FRANKLIN/RandomConvo_031_Intro_003	<yes>I think you might even be a good friend.þ
-FRANKLIN/RandomConvo_032_Intro_000	<no>When I first arrived on <IslandName> I would never have thought that you were anything more than a nuisance to my work.þ
-FRANKLIN/RandomConvo_032_Intro_001	<shy>As it turns out, you are a good friend and a great person.þ
-FRANKLIN/RandomConvo_032_Intro_002	<yes>As well as a nuisance to my work.þ
-FRANKLIN/RandomConvo_033_Intro_000	<thinking> Some people say that science is a team sport.þ
-FRANKLIN/RandomConvo_033_Intro_001	<proud>If that is the case, I would be the captain of the winning team!þ
-FRANKLIN/RandomConvo_034_Intro_000	<thinking>Sometimes I miss the paperwork in <SouthCity>.þþþ
-FRANKLIN/RandomConvo_034_Intro_001	<proud>Luckily I always bring my own.þ
-FRANKLIN/RandomConvo_034_Intro_002	Oh, it can be incredibly tedious, but there is simply nothing like tedium to fixate the mind on greater pursuits.þ
-FRANKLIN/RandomConvo_035_Intro_000	<yes>I’ve been thinking about the Tele-Towers recently...þ
-FRANKLIN/RandomConvo_035_Intro_001	<thinking>Those devices probably work by destroying the user entirely, and constructing them from scratch at another location.
-FRANKLIN/RandomConvo_035_Intro_002	<no>Fundamentally, it would not be the same person entering and exiting the device, although neither of them would ever notice.
-FRANKLIN/RandomConvo_035_Intro_003	<haha>Probably best not to overthink it and just enjoy the marvellous convenience of it all!
-FRANKLIN/RandomConvo_036_Intro_000	<yes>I would get a lot more done if I could grow an extra pair of hands. þ
-FRANKLIN/RandomConvo_036_Intro_001	<thinking>þHmm… maybe…þ
-FRANKLIN/RandomConvo_036_Intro_002	In the meantime, your help is almost as useful. þ
-FRANKLIN/RandomConvo_036_Intro_003	<proud>Almost twenty-five percent as useful.þ
-FRANKLIN/RandomConvo_036_Intro_004	Thank you, <PlayerName>.þ
-FRANKLIN/RandomConvo_037_Intro_000	I suppose you are wondering why my schematics are always coloured blue?
-FRANKLIN/RandomConvo_037_Intro_001	<yes>I feel we are close enough now that I can tell you. þþ
-FRANKLIN/RandomConvo_037_Intro_002	<haha>þThe truth is, there is an amusing anecdote about it that is frightfully interesting.
-FRANKLIN/RandomConvo_037_Intro_003	Thank you for listening, <PlayerName>!
-FRANKLIN/RandomConvo_038_Intro_000	<worried>My earlier work had an awful tendency to detonate when used incorrectly... þþ
-FRANKLIN/RandomConvo_038_Intro_001	<thinking>...or used correctly, or left alone.þ
-FRANKLIN/RandomConvo_038_Intro_002	<shy>I have solved almost all of these problems now, thanks, in small part, to you.þ
-FRANKLIN/RandomConvo_038_Intro_003	<yes>It is less exciting, but MUCH more efficient.þ
-FRANKLIN/RandomConvo_039_Intro_000	<yes>The oppressive ceaseless clanking and whirring of loud machines was everywhere in <SouthCity>. þ
-FRANKLIN/RandomConvo_039_Intro_001	<no>I miss it quite a lot.þþþ
-FRANKLIN/RandomConvo_039_Intro_002	<nop>Yet I notice in you something you could not find in <SouthCity>, no matter where you looked. þ
-FRANKLIN/RandomConvo_039_Intro_003	<yes>A spark I find quite admirable. You want to explore and create something new!þ
-FRANKLIN/RandomConvo_039_Intro_004	<yes>I think this is why we get along so well.þ
-FRANKLIN/SkyFest_AfterNoon_002_Intro_000	Yes <PlayerName>, you are correct.
-FRANKLIN/SkyFest_AfterNoon_002_Intro_001	<proud>My <Kite> is beyond incredible.
-FRANKLIN/SkyFest_AfterNoon_002_Intro_002	<thinking>You may think your <Kite> is of similar quality.
-FRANKLIN/SkyFest_AfterNoon_002_Intro_003	<no>But you are incorrect.
-FRANKLIN/SkyFest_Morning_002_Intro_000	Hello.
-FRANKLIN/SkyFest_Morning_002_Intro_001	It is <SkyFest> today.
-FRANKLIN/SkyFest_Morning_002_Intro_002	I will be conducting various experiments throughout the day using my <Kite>.
-FRANKLIN/SkyFest_Morning_002_Intro_003	Please try avoiding me if possible.
-FRANKLIN/SkyFest_Night_002_Intro_000	<thinking>Hmmm…
-FRANKLIN/SkyFest_Night_002_Intro_001	<yes>I know that this <Aurora> is just an interaction of the planet’s magnetic field and charged particles from the Sun.
-FRANKLIN/SkyFest_Night_002_Intro_002	<thinking>But, I must agree with everyone here at <SkyFest>.
-FRANKLIN/SkyFest_Night_002_Intro_003	<yes>This occurrence is something worth observing with one’s own eyes.
-FRANKLIN/SkyFest_Noon_002_Intro_000	Yes.
-FRANKLIN/SkyFest_Noon_002_Intro_001	<proud>My <Kite> is superior to everyone else’s <Kite>.
-FRANKLIN/SkyFest_Noon_002_Intro_002	<thinking>I have made sure it is extremely aerodynamic.
-FRANKLIN/SkyFest_Noon_002_Intro_003	<yes>I’m sure it will reach the heights needed for my experiments.
-FRANKLIN/TechCompleted_Intro_000	Ah, <PlayerName>!
-FRANKLIN/TechCompletedNoSpace_Intro_000	<proud>I have completed the <itemName> you commissioned!
-FRANKLIN/TechCompletedNoSpace_Intro_001	I think you will find it very impressive!
-FRANKLIN/TechCompletedNoSpace_Intro_002	<shocked>Oh!
-FRANKLIN/TechCompletedNoSpace_Intro_003	<no>It looks like you don't have any room to take it!
-FRANKLIN/TechCompletedNoSpace_Intro_004	<yes>I will hold onto it for you until you have enough space to pick it up.
-FRANKLIN/TownMention_Level_001_Intro_000	I have noticed that <IslandName> is really starting to change for the better.þ
-FRANKLIN/TownMention_Level_001_Intro_001	<thinking>Perhaps it’s my Lab that has made the difference?þ
-FRANKLIN/TownMention_Level_001_Intro_002	<thinking>This might require further study...
-FRANKLIN/TownMention_Level_002_Intro_000	It would appear that <IslandName> has changed a lot since you have arrived, <PlayerName>.þ
-FRANKLIN/TownMention_Level_002_Intro_001	<yes>Some people might even say that it has changed for the better.þ
-FRANKLIN/TownMention_Level_003_Intro_000	<IslandName> is quite nice.þ
-FRANKLIN/TownMention_Level_003_Intro_001	Is this perhaps your doing, <PlayerName>?þ
-FRANKLIN/TownMention_Level_003_Intro_002	<yes>It would appear that your hard work has paid off.þ
-FRANKLIN/TownMention_Level_004_Intro_000	I have been thinking, and it occurred to me that moving to <IslandName> is possibly the best thing to ever happen to me.þ
-FRANKLIN/TownMention_Level_004_Intro_001	I wanted to thank you, <PlayerName>.þ
-FRANKLIN/TownMention_Level_004_Intro_002	If not for you, then I would have never have moved here.þ
-FRANKLIN/TownMention_Level_004_Intro_003	<yes>And if not for you, <IslandName> would be a much worse place to live.þ
+FRANKLYN/Arvo_Greeting 0_Intro_000	Oh, an postmeridian interaction?
+FRANKLYN/Arvo_Greeting 0_Option_000	<chat>
+FRANKLYN/Arvo_Greeting 0_Option_001	<jobCondition>
+FRANKLYN/Arvo_Greeting 0_Option_002	<hangOut>
+FRANKLYN/Arvo_Greeting 0_Option_003	<cancel>
+FRANKLYN/Arvo_Greeting 0_Response_003_000	<no>What a waste of my time.þ
+FRANKLYN/Arvo_Greeting 0_Response_003_001	Sadly, there are only a few hours left today.þ
+FRANKLYN/Arvo_Greeting 1_Intro_000	Good afternoon.
+FRANKLYN/Arvo_Greeting 1_Option_000	<chat>
+FRANKLYN/Arvo_Greeting 1_Option_001	<jobCondition>
+FRANKLYN/Arvo_Greeting 1_Option_002	<hangOut>
+FRANKLYN/Arvo_Greeting 1_Option_003	<cancel>
+FRANKLYN/Arvo_Greeting 1_Response_003_000	Goodbye.
+FRANKLYN/Arvo_Greeting 2_Intro_000	My goodness!
+FRANKLYN/Arvo_Greeting 2_Intro_001	It is <getTime> already.þ
+FRANKLYN/Arvo_Greeting 2_Option_000	<chat>
+FRANKLYN/Arvo_Greeting 2_Option_001	<jobCondition>
+FRANKLYN/Arvo_Greeting 2_Option_002	<hangOut>
+FRANKLYN/Arvo_Greeting 2_Option_003	<cancel>
+FRANKLYN/Arvo_Greeting 2_Response_003_000	I will be on my way.
+FRANKLYN/BugComp_Greeting 000_Intro_000	I am currently participating in a “<bugComp>”.
+FRANKLYN/BugComp_Greeting 000_Intro_001	Why are you interrupting me?
+FRANKLYN/BugComp_Greeting 000_Option_000	<chat>
+FRANKLYN/BugComp_Greeting 000_Option_001	<jobCondition>
+FRANKLYN/BugComp_Greeting 000_Option_002	<hangOut>
+FRANKLYN/BugComp_Greeting 000_Option_003	<cancel>
+FRANKLYN/BugComp_Greeting 000_Response_003_000	Goodbye.
+FRANKLYN/CanMakeTechForYou_Intro_000	So, you are interested in my <itemName>.
+FRANKLYN/CanMakeTechForYou_Intro_001	It will be very handy to have I can assure you!
+FRANKLYN/CanMakeTechForYou_Intro_002	Now to make that item I will require the components and <craftItemPrice>. 
+FRANKLYN/CanMakeTechForYou_Intro_003	I will also require a day or so to make it.
+FRANKLYN/CanMakeTechForYou_Intro_004	Do we have an agreement?
+FRANKLYN/CanMakeTechForYou_Option_000	Let's make it!
+FRANKLYN/CanMakeTechForYou_Option_001	Not this time.
+FRANKLYN/CanMakeTechForYou_Response_001_000	Very well.
+FRANKLYN/CanMakeTechForYou_Response_001_001	<thinking>Perhaps you don't full understand how useful it would be...
+FRANKLYN/CanMakeTechForYouNotEnoughMoney_Intro_000	So, you are interested in my <itemName>.
+FRANKLYN/CanMakeTechForYouNotEnoughMoney_Intro_001	It will be very handy to have I can assure you!
+FRANKLYN/CanMakeTechForYouNotEnoughMoney_Intro_002	Now to make that item I will require the components and <craftItemPrice>. 
+FRANKLYN/CanMakeTechForYouNotEnoughMoney_Intro_003	I will also require a day or so to make it.
+FRANKLYN/CanMakeTechForYouNotEnoughMoney_Intro_004	Do we have an agreement?
+FRANKLYN/CanMakeTechForYouNotEnoughMoney_Option_000	Let's make it!
+FRANKLYN/CanMakeTechForYouNotEnoughMoney_Option_001	Not this time.
+FRANKLYN/CanMakeTechForYouNotEnoughMoney_Response_000_000	<thinking>Hmmm...
+FRANKLYN/CanMakeTechForYouNotEnoughMoney_Response_000_001	<no>It appears you are short on funds.
+FRANKLYN/CanMakeTechForYouNotEnoughMoney_Response_000_002	Why don't you come back with the required amount?
+FRANKLYN/CanMakeTechForYouNotEnoughMoney_Response_000_003	<yes>And I will try to avoid remembering this embarrassing exchange.
+FRANKLYN/CanMakeTechForYouNotEnoughMoney_Response_001_000	Very well.
+FRANKLYN/CanMakeTechForYouNotEnoughMoney_Response_001_001	<thinking>Perhaps you don't full understand how useful it would be...þ
+FRANKLYN/CompleteBirthday_000_Intro_000	Ah, a gift to celebrate my birth.
+FRANKLYN/CompleteBirthday_000_Intro_001	A very kind gesture, <PlayerName>.
+FRANKLYN/CompleteRequest_000_Intro_000	<yes>Excellent.
+FRANKLYN/CompleteRequest_000_Intro_001	You have done a very adequate job.
+FRANKLYN/CompleteRequest_000_Intro_002	<yes>I will give you this in exchange for helping me.
+FRANKLYN/CrafterCurrentlyCrafting_Intro_000	Oh, <PlayerName>. I am actually a quite busy right now.
+FRANKLYN/CrafterCurrentlyCrafting_Intro_001	I have to get this project done by tomorrow.
+FRANKLYN/CrafterCurrentlyCrafting_Intro_002	Is there something you need?
+FRANKLYN/CrafterCurrentlyCrafting_Option_000	I have some discs for you.
+FRANKLYN/CrafterCurrentlyCrafting_Option_001	I want to chat.
+FRANKLYN/CrafterCurrentlyCrafting_Option_002	I'm good.
+FRANKLYN/CrafterCurrentlyCrafting_Response_000_000	Excellent.
+FRANKLYN/CrafterCurrentlyCrafting_Response_000_001	Those <itemName> have very interesting information on them.
+FRANKLYN/CrafterCurrentlyCrafting_Response_002_000	Like I said, I'm quite busy.
+FRANKLYN/CrafterShopConversation_Intro_000	Yes?
+FRANKLYN/CrafterShopConversation_Option_000	Can you make me something?
+FRANKLYN/CrafterShopConversation_Option_001	I have some discs for you.
+FRANKLYN/CrafterShopConversation_Option_002	I want to chat.
+FRANKLYN/CrafterShopConversation_Option_003	I'm good.
+FRANKLYN/CrafterShopConversation_Response_000_000	Let me show you what I can craft.
+FRANKLYN/CrafterShopConversation_Response_000_001	Please do not waste my time.
+FRANKLYN/CrafterShopConversation_Response_001_000	Excellent.
+FRANKLYN/CrafterShopConversation_Response_001_001	<yes>Those <itemName> have very interesting information on them.
+FRANKLYN/CrafterShopConversation_Response_003_000	<no>Thank you for interupting me.
+FRANKLYN/DonateTechConvo_Intro_000	<glee>These are fascinating...
+FRANKLYN/DonateTechConvo_Intro_001	<yes>I can learn a lot from these!
+FRANKLYN/DonateTechConvo_Intro_002	I will offer you you <$> for them?
+FRANKLYN/DonateTechConvo_Option_000	It's a deal!
+FRANKLYN/DonateTechConvo_Option_001	On second thought...
+FRANKLYN/DonateTechConvo_Response_000_000	Many thanks, <PlayerName>.
+FRANKLYN/DonateTechConvo_Response_000_001	<yes>Here is your <$>. As promised.
+FRANKLYN/DonateTechConvo_Response_000_002	<thinking>Now, I have information to extract.
+FRANKLYN/DonateTechConvo_Response_000_003	Each one of these <itemName> could contain a wealth of knowledge.
+FRANKLYN/DonateTechConvo_Response_001_000	Very well. You may have these back.
+FRANKLYN/DonateTechConvo_Response_001_001	My offer stands if you change your mind.
+FRANKLYN/GetCompletedTech_Intro_000	<proud>I have completed the <itemName> you commissioned!
+FRANKLYN/GetCompletedTech_Intro_001	I think you will find it very impressive!
+FRANKLYN/GetCompletedTech_Intro_002	<yes>If there is anything else I can make for you, please let me know.
+FRANKLYN/Gossip_About_NPC_000_Intro_000	<no>I truly do not understand <NPCName>’s processes.þ
+FRANKLYN/Gossip_About_NPC_000_Intro_001	<thinking>One afternoon I witnessed her studying a flower for over two hours.þ
+FRANKLYN/Gossip_About_NPC_000_Intro_002	<sigh>Two whole hours and she didn’t write a single page of notes!þþNot one!þ
+FRANKLYN/Gossip_About_NPC_000_Intro_003	<no>I have written three volumes on similar incidents and I am still no closer to the truth of the matter.þ
+FRANKLYN/Gossip_About_NPC_001_Intro_000	<NPCName>’s tools are serviceable, for a novice.þþ
+FRANKLYN/Gossip_About_NPC_001_Intro_001	<proud>My own inventions are far superior, of course.þ
+FRANKLYN/Gossip_About_NPC_001_Intro_002	<pumped>There are tools, and then there are POWER tools!þ
+FRANKLYN/Gossip_About_NPC_003_Intro_000	If I only worked with wood, I would hope to be as good as <NPCName>.þ
+FRANKLYN/Gossip_About_NPC_003_Intro_001	<proud>Fortunately, I am much better.þ
+FRANKLYN/Gossip_About_NPC_004_Intro_000	<NPCName> has some truly remarkable ideas!þ
+FRANKLYN/Gossip_About_NPC_004_Intro_001	<sigh>I feel like we would have been great friends, had she not chosen the awful discipline of “Fashion”.þ
+FRANKLYN/Gossip_About_NPC_004_Intro_002	<no>Such a waste of talent.þ
+FRANKLYN/Gossip_About_NPC_006_Intro_000	<no><NPCName> politely asked me to be careful with my future experiments.þ
+FRANKLYN/Gossip_About_NPC_006_Intro_001	<yes>I politely declined her request.þ
+FRANKLYN/Gossip_About_NPC_006_Intro_002	<glee>It is always nice when people behave reasonably and civilly.þ
+FRANKLYN/Gossip_About_NPC_007_Intro_000	<no>I have no idea how Irwin sources his animals.þ
+FRANKLYN/Gossip_About_NPC_007_Intro_001	<thinking>I tried to create my own, once.þ
+FRANKLYN/Gossip_About_NPC_007_Intro_002	<yes>The less said about it, the better, I think.þ
+FRANKLYN/Gossip_About_NPC_007_Intro_003	<haha>And they’re certainly not going to help you smelt ore like my goods can!þ
+FRANKLYN/Gossip_About_NPC_009_Intro_000	<NPCName>’s record keeping shall be invaluable if anything like the <Shifts> ever happens again.þ
+FRANKLYN/Gossip_About_NPC_009_Intro_001	<thinking>Unless, of course, it gets converted into an unreadable format, and buried.þ
+FRANKLYN/Gossip_About_NPC_010_Intro_000	What is the point of <NPCName>’s money if he doesn’t DO anything with it?þ
+FRANKLYN/Gossip_About_NPC_010_Intro_001	His wealth is, by very definition, useless!þ
+FRANKLYN/High_Friendship_Greeting 0_Intro_000	Ah, <PlayerName>.
+FRANKLYN/High_Friendship_Greeting 0_Intro_001	You would like to communicate with me?
+FRANKLYN/High_Friendship_Greeting 0_Option_000	<chat>
+FRANKLYN/High_Friendship_Greeting 0_Option_001	<jobCondition>
+FRANKLYN/High_Friendship_Greeting 0_Option_002	<hangOut>
+FRANKLYN/High_Friendship_Greeting 0_Option_003	<cancel>
+FRANKLYN/High_Friendship_Greeting 0_Response_003_000	<yes>Communication seized.
+FRANKLYN/High_Friendship_Greeting 1_Intro_000	Hello, <PlayerName>.
+FRANKLYN/High_Friendship_Greeting 1_Option_000	<chat>
+FRANKLYN/High_Friendship_Greeting 1_Option_001	<jobCondition>
+FRANKLYN/High_Friendship_Greeting 1_Option_002	<hangOut>
+FRANKLYN/High_Friendship_Greeting 1_Option_003	<cancel>
+FRANKLYN/High_Friendship_Greeting 1_Response_003_000	Goodbye.
+FRANKLYN/High_Friendship_Greeting 2_Intro_000	<PlayerName>, what do you require?
+FRANKLYN/High_Friendship_Greeting 2_Option_000	<chat>
+FRANKLYN/High_Friendship_Greeting 2_Option_001	<jobCondition>
+FRANKLYN/High_Friendship_Greeting 2_Option_002	<hangOut>
+FRANKLYN/High_Friendship_Greeting 2_Option_003	<cancel>
+FRANKLYN/High_Friendship_Greeting 2_Response_003_000	Very well.
+FRANKLYN/Highest_Friendship_Greeting 0_Intro_000	Salutations, <PlayerName>.þ
+FRANKLYN/Highest_Friendship_Greeting 0_Option_000	<chat>
+FRANKLYN/Highest_Friendship_Greeting 0_Option_001	<jobCondition>
+FRANKLYN/Highest_Friendship_Greeting 0_Option_002	<hangOut>
+FRANKLYN/Highest_Friendship_Greeting 0_Option_003	<cancel>
+FRANKLYN/Highest_Friendship_Greeting 0_Response_003_000	þLet us part ways then.þ
+FRANKLYN/Highest_Friendship_Greeting 1_Intro_000	A cordial greeting to you, <PlayerName>.þ
+FRANKLYN/Highest_Friendship_Greeting 1_Option_000	<chat>
+FRANKLYN/Highest_Friendship_Greeting 1_Option_001	<jobCondition>
+FRANKLYN/Highest_Friendship_Greeting 1_Option_002	<hangOut>
+FRANKLYN/Highest_Friendship_Greeting 1_Option_003	<cancel>
+FRANKLYN/Highest_Friendship_Greeting 1_Response_003_000	We just shared a great interaction, don’t you think?þ
+FRANKLYN/Highest_Friendship_Greeting 2_Intro_000	Yes, <PlayerName>?þ
+FRANKLYN/Highest_Friendship_Greeting 2_Option_000	<chat>
+FRANKLYN/Highest_Friendship_Greeting 2_Option_001	<jobCondition>
+FRANKLYN/Highest_Friendship_Greeting 2_Option_002	<hangOut>
+FRANKLYN/Highest_Friendship_Greeting 2_Option_003	<cancel>
+FRANKLYN/Highest_Friendship_Greeting 2_Response_003_000	<yes>Good day to you.þ
+FRANKLYN/Introduction_002_Intro_000	Oh. Hello. My name is <myName>.
+FRANKLYN/Introduction_002_Intro_001	<yes>I am here to research the old technology buried here on <IslandName>.
+FRANKLYN/Introduction_002_Intro_002	<shy>You see, <SouthCity> has some pretty strict rules about what is allowed to be researched there.
+FRANKLYN/Introduction_002_Intro_003	<yes>But here on <IslandName> it would appear there are no such restrictions.þ
+FRANKLYN/Introduction_002_Intro_004	If you discover any <itemName> please bring it to me.
+FRANKLYN/Introduction_002_Intro_005	<proud>You see, I believe that the information on each <itemName> will lead me to making further discoveries.
+FRANKLYN/Introduction_002_Intro_006	I will pay you very generously for each <itemName> you deliver to me.
+FRANKLYN/Introduction_002_Intro_007	Oh, and I also sell blueprints for some basic recipes.
+FRANKLYN/Introduction_002_Intro_008	<PlayerName>, is it?
+FRANKLYN/Introduction_002_Intro_009	Yes. I hope you will not be interrupting me too much, <PlayerName>þ
+FRANKLYN/IslandDayGreeting_AfterNoon_002_Intro_000	I am shocked to admit that I am enjoying today's celebration.þ
+FRANKLYN/IslandDayGreeting_AfterNoon_002_Intro_001	It would appear that <IslandName> is indeed worth celebrating.þ
+FRANKLYN/IslandDayGreeting_AfterNoon_002_Intro_002	I have actually helped <NPCName> with tonight's surprise.þ
+FRANKLYN/IslandDayGreeting_AfterNoon_002_Intro_003	<shocked>Oh!þ
+FRANKLYN/IslandDayGreeting_AfterNoon_002_Intro_004	I will not give you any further information.þ
+FRANKLYN/IslandDayGreeting_Morning_002_Intro_000	I do not understand the custom.þ
+FRANKLYN/IslandDayGreeting_Morning_002_Intro_001	But I intend to participate in this <IslandDay> nonetheless.þ
+FRANKLYN/IslandDayGreeting_Morning_002_Intro_002	<NPCName> informed me she would be auditing my licences if I did not.þ
+FRANKLYN/IslandDayGreeting_Night_002_Intro_000	It was actually pretty simple to create these sparkles you see in the sky.þ
+FRANKLYN/IslandDayGreeting_Night_002_Intro_001	<thinking>I am considering calling them “Sparkle Works”.þ
+FRANKLYN/IslandDayGreeting_Night_002_Intro_002	<yes>This may be one of the most enjoyable projects I have worked on in recent memory.þ
+FRANKLYN/IslandDayGreeting_Noon_002_Intro_000	It would appear that these <Snags> look revolting.þ
+FRANKLYN/IslandDayGreeting_Noon_002_Intro_001	<yes>However, the flavour is quite impressive.þ
+FRANKLYN/IslandDayGreeting_Noon_002_Intro_002	<thinking>Excuse me, but I think they require further research.þ
+FRANKLYN/IslandDayGreeting_Noon_002_Intro_003	And by that, I mean eating. þ
+FRANKLYN/LearntNewTech_Intro_000	<thinking>Hmmm...
+FRANKLYN/LearntNewTech_Intro_001	<shocked>Oh!
+FRANKLYN/LearntNewTech_Intro_002	I have a great idea for a new invention!
+FRANKLYN/LearntNewTech_Intro_003	Please come and speak to me if you are interested!þ
+FRANKLYN/LookingForTechConvo_Intro_000	<thinking>Actually, I have an idea for a new invention…þ
+FRANKLYN/LookingForTechConvo_Intro_001	However, I require <requiredCrafterItem>.þ
+FRANKLYN/LookingForTechConvo_Intro_002	Do you happen to have <requiredCrafterItem>?þ
+FRANKLYN/LookingForTechConvo_Option_000	Here you go.
+FRANKLYN/LookingForTechConvo_Option_001	Nevermind.
+FRANKLYN/LookingForTechConvo_Response_001_000	<sigh>I see.þ
+FRANKLYN/LookingForTechConvo_Response_001_001	<no>It appears you have interrupted me for nothing.þ
+FRANKLYN/Low_Friendship_Greeting 0_Intro_000	What is it?
+FRANKLYN/Low_Friendship_Greeting 0_Option_000	<chat>
+FRANKLYN/Low_Friendship_Greeting 0_Option_001	<jobCondition>
+FRANKLYN/Low_Friendship_Greeting 0_Option_002	<hangOut>
+FRANKLYN/Low_Friendship_Greeting 0_Option_003	<cancel>
+FRANKLYN/Low_Friendship_Greeting 0_Response_003_000	Do you know how many ideas in my head I have to juggle while you interrupt me?
+FRANKLYN/Low_Friendship_Greeting 1_Intro_000	<thinking>…That might work…þ
+FRANKLYN/Low_Friendship_Greeting 1_Intro_001	<shocked>Oh, <PlayerName>.þ
+FRANKLYN/Low_Friendship_Greeting 1_Intro_002	What is it?þ
+FRANKLYN/Low_Friendship_Greeting 1_Option_000	<chat>
+FRANKLYN/Low_Friendship_Greeting 1_Option_001	<jobCondition>
+FRANKLYN/Low_Friendship_Greeting 1_Option_002	<hangOut>
+FRANKLYN/Low_Friendship_Greeting 1_Option_003	<cancel>
+FRANKLYN/Low_Friendship_Greeting 1_Response_003_000	Great. Now I have lost my train of thought…
+FRANKLYN/Low_Friendship_Greeting 2_Intro_000	Yes?
+FRANKLYN/Low_Friendship_Greeting 2_Option_000	<chat>
+FRANKLYN/Low_Friendship_Greeting 2_Option_001	<jobCondition>
+FRANKLYN/Low_Friendship_Greeting 2_Option_002	<hangOut>
+FRANKLYN/Low_Friendship_Greeting 2_Option_003	<cancel>
+FRANKLYN/Low_Friendship_Greeting 2_Response_003_000	<no>Very well then.
+FRANKLYN/MakeTechNoLicence_Intro_000	As you know, <PlayerName>, I love making things. But unfortunately, I will not be able to craft that <itemName> for you.
+FRANKLYN/MakeTechNoLicence_Intro_001	It would be negligent of me to craft a <itemName> for you because you lack the correct licence to operate it.
+FRANKLYN/MakeTechNoLicence_Intro_002	Now, if you would be so kind as to return with a <itemLicence>, I would be more than happy to take your <Dinks> and craft a <itemName> for you.
+FRANKLYN/Medium_Friendship_Greeting 0_Intro_000	Greetings, <PlayerName>.
+FRANKLYN/Medium_Friendship_Greeting 0_Option_000	<chat>
+FRANKLYN/Medium_Friendship_Greeting 0_Option_001	<jobCondition>
+FRANKLYN/Medium_Friendship_Greeting 0_Option_002	<hangOut>
+FRANKLYN/Medium_Friendship_Greeting 0_Option_003	<cancel>
+FRANKLYN/Medium_Friendship_Greeting 0_Response_003_000	A very brisk interaction.þ
+FRANKLYN/Medium_Friendship_Greeting 0_Response_003_001	<yes>My favourite kind.
+FRANKLYN/Medium_Friendship_Greeting 1_Intro_000	Alright <PlayerName>.
+FRANKLYN/Medium_Friendship_Greeting 1_Intro_001	Let us interact.
+FRANKLYN/Medium_Friendship_Greeting 1_Option_000	<chat>
+FRANKLYN/Medium_Friendship_Greeting 1_Option_001	<jobCondition>
+FRANKLYN/Medium_Friendship_Greeting 1_Option_002	<hangOut>
+FRANKLYN/Medium_Friendship_Greeting 1_Option_003	<cancel>
+FRANKLYN/Medium_Friendship_Greeting 1_Response_003_000	<no>Well, that was not a good use of my time.
+FRANKLYN/Medium_Friendship_Greeting 2_Intro_000	<yes>Yes, hello, <PlayerName>.
+FRANKLYN/Medium_Friendship_Greeting 2_Option_000	<chat>
+FRANKLYN/Medium_Friendship_Greeting 2_Option_001	<jobCondition>
+FRANKLYN/Medium_Friendship_Greeting 2_Option_002	<hangOut>
+FRANKLYN/Medium_Friendship_Greeting 2_Option_003	<cancel>
+FRANKLYN/Medium_Friendship_Greeting 2_Response_003_000	Goodbye.
+FRANKLYN/Morning_Greeting 0_Intro_000	Good morrow, <PlayerName>.
+FRANKLYN/Morning_Greeting 0_Option_000	<chat>
+FRANKLYN/Morning_Greeting 0_Option_001	<jobCondition>
+FRANKLYN/Morning_Greeting 0_Option_002	<hangOut>
+FRANKLYN/Morning_Greeting 0_Option_003	<cancel>
+FRANKLYN/Morning_Greeting 0_Response_003_000	Goodbye.
+FRANKLYN/Morning_Greeting 1_Intro_000	Oh, an antemeridian interaction?
+FRANKLYN/Morning_Greeting 1_Option_000	<chat>
+FRANKLYN/Morning_Greeting 1_Option_001	<jobCondition>
+FRANKLYN/Morning_Greeting 1_Option_002	<hangOut>
+FRANKLYN/Morning_Greeting 1_Option_003	<cancel>
+FRANKLYN/Morning_Greeting 1_Response_003_000	<no>This was a waste of my time.þ
+FRANKLYN/Morning_Greeting 1_Response_003_001	Luckily, there is still plenty of day left.þ
+FRANKLYN/Morning_Greeting 2_Intro_000	It is nice and early.þ
+FRANKLYN/Morning_Greeting 2_Intro_001	This is when I have my best ideas.þ
+FRANKLYN/Morning_Greeting 2_Option_000	<chat>
+FRANKLYN/Morning_Greeting 2_Option_001	<jobCondition>
+FRANKLYN/Morning_Greeting 2_Option_002	<hangOut>
+FRANKLYN/Morning_Greeting 2_Option_003	<cancel>
+FRANKLYN/Morning_Greeting 2_Response_003_000	Very well.þ
+FRANKLYN/Night_Greeting 0_Intro_000	Sometimes I miss that giant flaming ball in the sky.þ
+FRANKLYN/Night_Greeting 0_Intro_001	<yes>But, the evening is inevitable.þ
+FRANKLYN/Night_Greeting 0_Option_000	<chat>
+FRANKLYN/Night_Greeting 0_Option_001	<jobCondition>
+FRANKLYN/Night_Greeting 0_Option_002	<hangOut>
+FRANKLYN/Night_Greeting 0_Option_003	<cancel>
+FRANKLYN/Night_Greeting 0_Response_003_000	<no>So is you, wasting my time, apparently.
+FRANKLYN/Night_Greeting 1_Intro_000	It is getting late.þ
+FRANKLYN/Night_Greeting 1_Intro_001	Around <getTime>, if my time keeping unit is correct.þ
+FRANKLYN/Night_Greeting 1_Option_000	<chat>
+FRANKLYN/Night_Greeting 1_Option_001	<jobCondition>
+FRANKLYN/Night_Greeting 1_Option_002	<hangOut>
+FRANKLYN/Night_Greeting 1_Option_003	<cancel>
+FRANKLYN/Night_Greeting 1_Response_003_000	Good evening then.
+FRANKLYN/Night_Greeting 2_Intro_000	Good evening.þ
+FRANKLYN/Night_Greeting 2_Option_000	<chat>
+FRANKLYN/Night_Greeting 2_Option_001	<jobCondition>
+FRANKLYN/Night_Greeting 2_Option_002	<hangOut>
+FRANKLYN/Night_Greeting 2_Option_003	<cancel>
+FRANKLYN/Night_Greeting 2_Response_003_000	Very well.þ
+FRANKLYN/Noon_Greeting 0_Intro_000	The time is roughly <getTime>.þ
+FRANKLYN/Noon_Greeting 0_Option_000	<chat>
+FRANKLYN/Noon_Greeting 0_Option_001	<jobCondition>
+FRANKLYN/Noon_Greeting 0_Option_002	<hangOut>
+FRANKLYN/Noon_Greeting 0_Option_003	<cancel>
+FRANKLYN/Noon_Greeting 0_Response_003_000	þVery well.þ
+FRANKLYN/Noon_Greeting 1_Intro_000	Good day.
+FRANKLYN/Noon_Greeting 1_Option_000	<chat>
+FRANKLYN/Noon_Greeting 1_Option_001	<jobCondition>
+FRANKLYN/Noon_Greeting 1_Option_002	<hangOut>
+FRANKLYN/Noon_Greeting 1_Option_003	<cancel>
+FRANKLYN/Noon_Greeting 1_Response_003_000	Goodbye.
+FRANKLYN/Noon_Greeting 2_Intro_000	<yes>The day is passing quickly.þ
+FRANKLYN/Noon_Greeting 2_Intro_001	<no>Metaphorically, of course.þ
+FRANKLYN/Noon_Greeting 2_Option_000	<chat>
+FRANKLYN/Noon_Greeting 2_Option_001	<jobCondition>
+FRANKLYN/Noon_Greeting 2_Option_002	<hangOut>
+FRANKLYN/Noon_Greeting 2_Option_003	<cancel>
+FRANKLYN/Noon_Greeting 2_Response_003_000	Carpe diem.
+FRANKLYN/NoTechToDonate_Intro_000	So you do not have any interesting relics for me?
+FRANKLYN/NoTechToDonate_Intro_001	Thank you for wasting my time.
+FRANKLYN/RandomConvo_000_Intro_000	Oh, yes. Talking. Let us do that.þ
+FRANKLYN/RandomConvo_000_Option_000	How have you been
+FRANKLYN/RandomConvo_000_Option_001	What have you been up to?
+FRANKLYN/RandomConvo_000_Response_000_000	<yes>Everything has been satisfactory.þ
+FRANKLYN/RandomConvo_000_Response_000_001	Thank you for asking, <PlayerName>.þ
+FRANKLYN/RandomConvo_000_Response_001_000	I have been conducting research.
+FRANKLYN/RandomConvo_000_Response_001_001	Thank you for asking, <PlayerName>.þ
+FRANKLYN/RandomConvo_001_Intro_000	<thinking>I am absolutely astonished with how much interesting technology can be unearthed here on <IslandName>.þ
+FRANKLYN/RandomConvo_001_Intro_001	<yes>If you happen to find any, please bring it to me when I am in my lab.þ
+FRANKLYN/RandomConvo_002_Intro_000	When I lived in <SouthCity>, I was once allowed to conduct research on the city's power source.þ
+FRANKLYN/RandomConvo_002_Intro_001	<shy>Unfortunately, during an experiment I cut power to the whole city for 40 seconds.þ
+FRANKLYN/RandomConvo_002_Intro_002	<no>Apparently, making discoveries is not as important as keeping people warm.þ
+FRANKLYN/RandomConvo_003_Intro_000	<PlayerName>, I can assure you, there is a lot to be learnt from the past.
+FRANKLYN/RandomConvo_003_Intro_001	<pumped>Our ancestors may have caused everything to go South, but imagine how advanced they would have had to have been to do that!
+FRANKLYN/RandomConvo_004_Intro_000	<thinking>If enough information is collected, anything can be accurately predicted.þ
+FRANKLYN/RandomConvo_004_Intro_001	<yes>Even the weather!þ
+FRANKLYN/RandomConvo_005_Intro_000	<yes>After I start a project my brain is constantly working on it. þ
+FRANKLYN/RandomConvo_005_Intro_001	<thinking>Right now, I am actually imagining working on something quite interesting.þ
+FRANKLYN/RandomConvo_005_Intro_002	Oh, and I am having this conversation with you too, I guess.þ
+FRANKLYN/RandomConvo_006_Intro_000	<no>I am not really in the mood for a discussion. þ
+FRANKLYN/RandomConvo_006_Intro_001	<thinking>Let us just imagine we shared in some small talk and became closer friends because of it. Okay?þ
+FRANKLYN/RandomConvo_007_Intro_000	<yes>I do wish there were more people here on <IslandName> that could have a real, intellectual discussion with.þ
+FRANKLYN/RandomConvo_007_Intro_001	<no>But I suppose I should really be doing research anyway.þ
+FRANKLYN/RandomConvo_008_Intro_000	<yes>Sometimes it can take me a long while to complete a project. 
+FRANKLYN/RandomConvo_008_Intro_001	<haha>I could probably complete a project quicker if I only focused on one thing at a time, but who has time for that?!
+FRANKLYN/RandomConvo_009_Intro_000	<thinking>Do you think the whole world was like <SouthCity> before everything went south? þ
+FRANKLYN/RandomConvo_009_Intro_001	<glee>Can you even imagine how magnificent a world like that would have been?þ
+FRANKLYN/RandomConvo_010_Intro_000	<PlayerName>, the way you complete your tasks is nothing short of adequate. þ
+FRANKLYN/RandomConvo_010_Intro_001	<no>You never fail to meet my expectations.þ
+FRANKLYN/RandomConvo_011_Intro_000	<thinking>You know, <PlayerName>, you can actually be quite bright sometimes.þ
+FRANKLYN/RandomConvo_011_Intro_001	I have seen some of the things you have crafted, and I must admit, I’m almost impressed.
+FRANKLYN/RandomConvo_012_Intro_000	<no>There is no better feeling than finishing a long and difficult project. þ
+FRANKLYN/RandomConvo_012_Intro_001	<thinking>Except maybe starting a brand new difficult project!
+FRANKLYN/RandomConvo_013_Intro_000	<PlayerName>, I think you are actually a very interesting person to talk to. þ
+FRANKLYN/RandomConvo_013_Intro_001	<shy>I doubt you really take in everything I tell you, but it does help to get my thoughts out verbally sometimes.þ
+FRANKLYN/RandomConvo_014_Intro_000	<no>I just have to stay busy because there's never enough time to get everything done. þ
+FRANKLYN/RandomConvo_014_Intro_001	<haha>I have added twice as many numbers to my clock and I am STILL running out of time! þ
+FRANKLYN/RandomConvo_014_Intro_002	That was just a silly joke, <PlayerName>.þþ
+FRANKLYN/RandomConvo_014_Intro_003	<no>You can not actually add more time to a day by doing that.
+FRANKLYN/RandomConvo_015_Intro_000	I used to enjoy reading. þ
+FRANKLYN/RandomConvo_015_Intro_001	<yes>I still do from time to time.þ
+FRANKLYN/RandomConvo_015_Intro_002	Of course, it is no substitute for active participation.þ
+FRANKLYN/RandomConvo_016_Intro_000	<yes>Doing research in <SouthCity> was sometimes very difficult.þ
+FRANKLYN/RandomConvo_016_Intro_001	<thinking>I feel like 75% of my time was spent filling out forms to ask for permission to do an experiment.þ
+FRANKLYN/RandomConvo_016_Intro_002	<glee>I am very happy to be here on <IslandName>, where people are a lot more… oblivious to what I am actually doing.þ
+FRANKLYN/RandomConvo_017_Intro_000	I have discovered that <IslandName> is not only a great place for research and discovery, but also a generally nice place to live.þ
+FRANKLYN/RandomConvo_017_Intro_001	Who ever has allowed for a place like this to be built, is truly very clever.þ
+FRANKLYN/RandomConvo_018_Intro_000	When I first met you, <PlayerName> I thought you were a bit of a drongo. In other words, a simpleton.þ
+FRANKLYN/RandomConvo_018_Intro_001	<no>Although I do not think this anymore.þ
+FRANKLYN/RandomConvo_018_Intro_002	<worried>In retrospect, perhaps I should not have shared with you that I had these thoughts at all!þ
+FRANKLYN/RandomConvo_019_Intro_000	þSome of the other people here on <IslandName> are actually quite interesting.þ
+FRANKLYN/RandomConvo_019_Intro_001	<thinking>I have discovered that given enough study and time, other people can be nearly as interesting as the relics found around this island!þ
+FRANKLYN/RandomConvo_020_Intro_000	<glee>Having my own lab to do research in all day has been amazing!
+FRANKLYN/RandomConvo_020_Intro_001	I had to share a lab with 3 other people back in <SouthCity>.þ
+FRANKLYN/RandomConvo_020_Intro_002	<no>There is not a lot of room to do anything even remotely interesting back there.þ
+FRANKLYN/RandomConvo_021_Intro_000	<yes>The people that lived before the world went south were very clever. þ
+FRANKLYN/RandomConvo_021_Intro_001	<glee>Very clever indeed!þ
+FRANKLYN/RandomConvo_021_Intro_002	<shy>Well, besides the whole ruining the world thing they did…þ
+FRANKLYN/RandomConvo_021_Intro_003	<thinking>That, perhaps, was not so clever...þ
+FRANKLYN/RandomConvo_022_Intro_000	<proud>I managed to acquire all my <Licences> at a very young age. þ
+FRANKLYN/RandomConvo_022_Intro_001	<thinking>You see, I was quite clever as a child.þ
+FRANKLYN/RandomConvo_022_Intro_002	<proud>To be fair, I also had access to a lot of permit points at the time as a reward for repairing the water supply to my block.þ
+FRANKLYN/RandomConvo_023_Intro_000	<IslandName> is a very interesting place.þ
+FRANKLYN/RandomConvo_023_Intro_001	<yes>Yes. One might even say, it’s a great place.þ
+FRANKLYN/RandomConvo_023_Intro_002	<shy>Oh, and the relics are also interesting too.þ
+FRANKLYN/RandomConvo_024_Intro_000	<thinking>I am sorry, <PlayerName>, but I am actually thinking about something quite complex right now.þ
+FRANKLYN/RandomConvo_024_Intro_001	<thinking>If you do not mind, perhap we could resume this conversation at a later time?þ
+FRANKLYN/RandomConvo_025_Intro_000	The only thing I miss about <SouthCity> is the <BlobFish>.þ
+FRANKLYN/RandomConvo_025_Intro_001	<thinking>While I admit they were lacking in flavour and texture, they also contained all the essential vitamins and minerals for working throughout a long night.þ
+FRANKLYN/RandomConvo_025_Intro_002	You have to eat them in moderation, of course.
+FRANKLYN/RandomConvo_026_Intro_000	There are old components hidden underground here on <IslandName>.
+FRANKLYN/RandomConvo_026_Intro_001	<thinking>It makes me wonder how did they get there?
+FRANKLYN/RandomConvo_027_Intro_000	<yes>I have been trying to get more sleep. þ
+FRANKLYN/RandomConvo_027_Intro_001	<sigh>Unfortunately, every time I lay down I get a new idea and I have to get back up and start working on it right away!þ
+FRANKLYN/RandomConvo_028_Intro_000	<proud>With me, you can always count on attention to detail.
+FRANKLYN/RandomConvo_028_Intro_001	<yes>I am somewhat famous for it.
+FRANKLYN/RandomConvo_028_Intro_002	What was your name again?
+FRANKLYN/RandomConvo_029_Intro_000	We are starting to be really “bonza” now. þ
+FRANKLYN/RandomConvo_029_Intro_001	Am I saying that correctly?þ
+FRANKLYN/RandomConvo_030_Intro_000	Hello there, <PlayerName>. þ
+FRANKLYN/RandomConvo_030_Intro_001	I hope you are doing well.þ
+FRANKLYN/RandomConvo_030_Intro_002	...
+FRANKLYN/RandomConvo_030_Intro_003	How was that?þ
+FRANKLYN/RandomConvo_030_Intro_004	<worried>Did that sound genuine?þ
+FRANKLYN/RandomConvo_030_Intro_005	<shy>I read somewhere that you should ask your friends questions like that occasionally.þ
+FRANKLYN/RandomConvo_031_Intro_000	I am quite pleased that you have come to visit me today, <PlayerName>.þ
+FRANKLYN/RandomConvo_031_Intro_001	<proud>You are a very satifactory friend.þ
+FRANKLYN/RandomConvo_031_Intro_002	<thinking>In fact.þ..
+FRANKLYN/RandomConvo_031_Intro_003	<yes>I think you might even be a good friend.þ
+FRANKLYN/RandomConvo_032_Intro_000	<no>When I first arrived on <IslandName> I would never have thought that you were anything more than a nuisance to my work.þ
+FRANKLYN/RandomConvo_032_Intro_001	<shy>As it turns out, you are a good friend and a great person.þ
+FRANKLYN/RandomConvo_032_Intro_002	<yes>As well as a nuisance to my work.þ
+FRANKLYN/RandomConvo_033_Intro_000	<thinking> Some people say that science is a team sport.þ
+FRANKLYN/RandomConvo_033_Intro_001	<proud>If that is the case, I would be the captain of the winning team!þ
+FRANKLYN/RandomConvo_034_Intro_000	<thinking>Sometimes I miss the paperwork in <SouthCity>.þþþ
+FRANKLYN/RandomConvo_034_Intro_001	<proud>Luckily I always bring my own.þ
+FRANKLYN/RandomConvo_034_Intro_002	Oh, it can be incredibly tedious, but there is simply nothing like tedium to fixate the mind on greater pursuits.þ
+FRANKLYN/RandomConvo_035_Intro_000	<yes>I’ve been thinking about the Tele-Towers recently...þ
+FRANKLYN/RandomConvo_035_Intro_001	<thinking>Those devices probably work by destroying the user entirely, and constructing them from scratch at another location.
+FRANKLYN/RandomConvo_035_Intro_002	<no>Fundamentally, it would not be the same person entering and exiting the device, although neither of them would ever notice.
+FRANKLYN/RandomConvo_035_Intro_003	<haha>Probably best not to overthink it and just enjoy the marvellous convenience of it all!
+FRANKLYN/RandomConvo_036_Intro_000	<yes>I would get a lot more done if I could grow an extra pair of hands. þ
+FRANKLYN/RandomConvo_036_Intro_001	<thinking>þHmm… maybe…þ
+FRANKLYN/RandomConvo_036_Intro_002	In the meantime, your help is almost as useful. þ
+FRANKLYN/RandomConvo_036_Intro_003	<proud>Almost twenty-five percent as useful.þ
+FRANKLYN/RandomConvo_036_Intro_004	Thank you, <PlayerName>.þ
+FRANKLYN/RandomConvo_037_Intro_000	I suppose you are wondering why my schematics are always coloured blue?
+FRANKLYN/RandomConvo_037_Intro_001	<yes>I feel we are close enough now that I can tell you. þþ
+FRANKLYN/RandomConvo_037_Intro_002	<haha>þThe truth is, there is an amusing anecdote about it that is frightfully interesting.
+FRANKLYN/RandomConvo_037_Intro_003	Thank you for listening, <PlayerName>!
+FRANKLYN/RandomConvo_038_Intro_000	<worried>My earlier work had an awful tendency to detonate when used incorrectly... þþ
+FRANKLYN/RandomConvo_038_Intro_001	<thinking>...or used correctly, or left alone.þ
+FRANKLYN/RandomConvo_038_Intro_002	<shy>I have solved almost all of these problems now, thanks, in small part, to you.þ
+FRANKLYN/RandomConvo_038_Intro_003	<yes>It is less exciting, but MUCH more efficient.þ
+FRANKLYN/RandomConvo_039_Intro_000	<yes>The oppressive ceaseless clanking and whirring of loud machines was everywhere in <SouthCity>. þ
+FRANKLYN/RandomConvo_039_Intro_001	<no>I miss it quite a lot.þþþ
+FRANKLYN/RandomConvo_039_Intro_002	<nop>Yet I notice in you something you could not find in <SouthCity>, no matter where you looked. þ
+FRANKLYN/RandomConvo_039_Intro_003	<yes>A spark I find quite admirable. You want to explore and create something new!þ
+FRANKLYN/RandomConvo_039_Intro_004	<yes>I think this is why we get along so well.þ
+FRANKLYN/SkyFest_AfterNoon_002_Intro_000	Yes <PlayerName>, you are correct.
+FRANKLYN/SkyFest_AfterNoon_002_Intro_001	<proud>My <Kite> is beyond incredible.
+FRANKLYN/SkyFest_AfterNoon_002_Intro_002	<thinking>You may think your <Kite> is of similar quality.
+FRANKLYN/SkyFest_AfterNoon_002_Intro_003	<no>But you are incorrect.
+FRANKLYN/SkyFest_Morning_002_Intro_000	Hello.
+FRANKLYN/SkyFest_Morning_002_Intro_001	It is <SkyFest> today.
+FRANKLYN/SkyFest_Morning_002_Intro_002	I will be conducting various experiments throughout the day using my <Kite>.
+FRANKLYN/SkyFest_Morning_002_Intro_003	Please try avoiding me if possible.
+FRANKLYN/SkyFest_Night_002_Intro_000	<thinking>Hmmm…
+FRANKLYN/SkyFest_Night_002_Intro_001	<yes>I know that this <Aurora> is just an interaction of the planet’s magnetic field and charged particles from the Sun.
+FRANKLYN/SkyFest_Night_002_Intro_002	<thinking>But, I must agree with everyone here at <SkyFest>.
+FRANKLYN/SkyFest_Night_002_Intro_003	<yes>This occurrence is something worth observing with one’s own eyes.
+FRANKLYN/SkyFest_Noon_002_Intro_000	Yes.
+FRANKLYN/SkyFest_Noon_002_Intro_001	<proud>My <Kite> is superior to everyone else’s <Kite>.
+FRANKLYN/SkyFest_Noon_002_Intro_002	<thinking>I have made sure it is extremely aerodynamic.
+FRANKLYN/SkyFest_Noon_002_Intro_003	<yes>I’m sure it will reach the heights needed for my experiments.
+FRANKLYN/TechCompleted_Intro_000	Ah, <PlayerName>!
+FRANKLYN/TechCompletedNoSpace_Intro_000	<proud>I have completed the <itemName> you commissioned!
+FRANKLYN/TechCompletedNoSpace_Intro_001	I think you will find it very impressive!
+FRANKLYN/TechCompletedNoSpace_Intro_002	<shocked>Oh!
+FRANKLYN/TechCompletedNoSpace_Intro_003	<no>It looks like you don't have any room to take it!
+FRANKLYN/TechCompletedNoSpace_Intro_004	<yes>I will hold onto it for you until you have enough space to pick it up.
+FRANKLYN/TownMention_Level_001_Intro_000	I have noticed that <IslandName> is really starting to change for the better.þ
+FRANKLYN/TownMention_Level_001_Intro_001	<thinking>Perhaps it’s my Lab that has made the difference?þ
+FRANKLYN/TownMention_Level_001_Intro_002	<thinking>This might require further study...
+FRANKLYN/TownMention_Level_002_Intro_000	It would appear that <IslandName> has changed a lot since you have arrived, <PlayerName>.þ
+FRANKLYN/TownMention_Level_002_Intro_001	<yes>Some people might even say that it has changed for the better.þ
+FRANKLYN/TownMention_Level_003_Intro_000	<IslandName> is quite nice.þ
+FRANKLYN/TownMention_Level_003_Intro_001	Is this perhaps your doing, <PlayerName>?þ
+FRANKLYN/TownMention_Level_003_Intro_002	<yes>It would appear that your hard work has paid off.þ
+FRANKLYN/TownMention_Level_004_Intro_000	I have been thinking, and it occurred to me that moving to <IslandName> is possibly the best thing to ever happen to me.þ
+FRANKLYN/TownMention_Level_004_Intro_001	I wanted to thank you, <PlayerName>.þ
+FRANKLYN/TownMention_Level_004_Intro_002	If not for you, then I would have never have moved here.þ
+FRANKLYN/TownMention_Level_004_Intro_003	<yes>And if not for you, <IslandName> would be a much worse place to live.þ
 GENERIC/12 NPC_Sheila_Intro_000	G’day there, <petName>.þ
 GENERIC/12 NPC_Sheila_Intro_001	The name is <myName>.þ
 GENERIC/12 NPC_Sheila_Intro_002	<yes><NPCName> got in contact with me and told me to come check out <IslandName>.þ
@@ -1372,9 +1373,7 @@ GENERIC/AtWorkChat_Option_000	<chat>
 GENERIC/AtWorkChat_Option_001	<jobCondition>
 GENERIC/AtWorkChat_Option_002	<cancel>
 GENERIC/AtWorkChat_Response_002_000	Oh, alright then.
-GENERIC/BillabongFishExhibitSign_Intro_000	
 GENERIC/Blueprint_Hand_Intro_000	I can't learn anything new from this...
-GENERIC/BushlandBugExhibitSign_Intro_000	
 GENERIC/CompleteHuntingRequest_Intro_000	Thank you for taking care of the <requestedHuntTarget>.
 GENERIC/CompleteHuntingRequest_Intro_001	Those Alpha creatures are really dangerous and can cause a lot of havoc.
 GENERIC/CompleteHuntingRequest_Intro_002	Here, take <BulletinBoardReward> as promised.
@@ -1397,7 +1396,6 @@ GENERIC/CraftedRequestCompleted_Intro_000	Oh bonza! You crafted a <requestItem> 
 GENERIC/CraftedRequestCompleted_Option_000	Here you go.
 GENERIC/CraftedRequestCompleted_Option_001	Nah.
 GENERIC/CraftedRequestCompleted_Response_001_000	Oh, righto, <PlayerName>...
-GENERIC/DesertBugExhibitSign_Intro_000	
 GENERIC/FirstDayFaintConvo_Intro_000	.........<PlayerName>.........
 GENERIC/FirstDayFaintConvo_Intro_001	<PlayerName>.........
 GENERIC/FirstDayFaintConvo_Intro_002	<PlayerName>?
@@ -1420,7 +1418,6 @@ GENERIC/FoundPhoto_Option_000	Sure did!
 GENERIC/FoundPhoto_Option_001	Not yet.
 GENERIC/FoundPhoto_Response_000_000	Great! Can't wait to see it!
 GENERIC/FoundPhoto_Response_001_000	No problems. I can't wait to see it
-GENERIC/FreshWaterFishExhibitSign_Intro_000	
 GENERIC/GivenCompostIngredients_Intro_000	Thanks, <PlayerName>!
 GENERIC/GivenCompostIngredients_Intro_001	Here is <BulletinBoardReward>.
 GENERIC/GivenCompostIngredients_Intro_002	I'll get to work making some more!
@@ -1447,7 +1444,6 @@ GENERIC/GivenCorrectShippingItem_Intro_001	<yes>You've really saved me, I didn't
 GENERIC/GivenCorrectShippingItem_Intro_002	Here is your <BulletinBoardReward>!
 GENERIC/GivenSmeltingIngredient_Intro_000	Thank you, <PlayerName>.
 GENERIC/GivenSmeltingIngredient_Intro_001	Take these <BulletinBoardReward>. I just like smelting them and I don't really need them.
-GENERIC/MangroveWaterFishExhibitSign_Intro_000	
 GENERIC/MoveInRequest_Intro_000	Hey, <PlayerName>.
 GENERIC/MoveInRequest_Intro_001	I've decided I really like it here. 
 GENERIC/MoveInRequest_Intro_002	So, I spoke to Fletch, and I've applied for a deed so I can set up a permanent store here in town.
@@ -1932,7 +1928,6 @@ GENERIC/Quest_TalkAboutFoodIntro_Response_004_000	<yes>Righto.
 GENERIC/RequestItem_Incorrect_1_Intro_000	Oh...
 GENERIC/RequestItem_Incorrect_1_Intro_001	I actually wanted <requestItem>.
 GENERIC/RequestItem_Incorrect_1_Intro_002	I'll give this back.
-GENERIC/SaltWaterFishExhibitSign_Intro_000	
 GENERIC/SellItemByWeight_Intro_000	Ah, I see you've got a nice <sellByWeightName> there.
 GENERIC/SellItemByWeight_Intro_001	Looks like it weighs around <getItemWeight>!
 GENERIC/SellItemByWeight_Intro_002	How does <getItemByWeightPrice> sound for it?
@@ -1988,7 +1983,6 @@ GENERIC/TradeSameItem_Intro_000	Wait a second. . . This is a <BulletinBoardRewar
 GENERIC/TradeSameItem_Intro_001	<haha> I guess we're right where we started! Here, you can have this back.
 GENERIC/TradeWrongTypeOfItem_Intro_000	Ah . . . This isn't what I'm after.
 GENERIC/TradeWrongTypeOfItem_Intro_001	You can have this back.
-GENERIC/TropicalBugExhibitSign 1_Intro_000	
 GENERIC/TuckshopConversation_Intro_000	Welcome to the Tuckerbox.
 GENERIC/TuckshopConversation_Intro_001	What can I do for you, <petName>?
 GENERIC/TuckshopConversation_Option_000	I want to sell
@@ -2001,7 +1995,6 @@ GENERIC/TuckshopMoveInRequest_Intro_001	<shy>You’ve really shown me some of th
 GENERIC/TuckshopMoveInRequest_Intro_002	<yes>I reckon it’s finally time to leave <SouthCity> for good.þ
 GENERIC/TuckshopMoveInRequest_Intro_003	<proud>I’ve talked to <NPCName> and I’ve applied for a <itemName>.þ
 GENERIC/TuckshopMoveInRequest_Intro_004	<glee>I hope we can get it up and running soon.þ
-GENERIC/UnkownBugExhibitSign_Intro_000	
 GENERIC/UseTreasureMapOffIsland_Intro_000	Hmmm...
 GENERIC/UseTreasureMapOffIsland_Intro_001	I've marked an X on my map!
 GENERIC/UseTreasureMapOnMainIsland_Intro_000	Hmmm...
@@ -2242,6 +2235,61 @@ IRWIN/WantToBuyAnimalNoMoney_Response_000_000	Oh great!<pumped>
 IRWIN/WantToBuyAnimalNoMoney_Response_000_001	Wait, you don't have enough money... <shy>
 IRWIN/WantToBuyAnimalNoMoney_Response_000_002	If you can get it together she will be here waiting for you all day!
 IRWIN/WantToBuyAnimalNoMoney_Response_001_000	That's okay! I'm sure she'll find a home soon! <yes>
+JIMMY/Introduction_011_Intro_000	The name is <myName>.
+JIMMY/Introduction_011_Intro_001	<shy>I'm something of a trader myself.
+JIMMY/Introduction_011_Intro_002	<no><NPCName>? Never heard of him.
+JIMMY/Introduction_011_Intro_003	But you know what I have heard of?
+JIMMY/Introduction_011_Intro_004	<pumped>Great deals.
+JIMMY/Introduction_011_Intro_005	So if you're in the mood for some of those, I'm your guy.
+JIMMY/Introduction_011_Intro_006	What was your name again?
+JIMMY/Introduction_011_Intro_007	<PlayerName>, I like you. I like you a lot.
+JIMMY/Introduction_011_Intro_008	<yes>Let's do some deals. Lets trade some wheels.
+JIMMY/IslandDayGreeting_AfterNoon_011_Intro_000	Happy <IslandDay>!
+JIMMY/IslandDayGreeting_Morning_011_Intro_000	Happy <IslandDay>!
+JIMMY/IslandDayGreeting_Night_011_Intro_000	Happy <IslandDay>!
+JIMMY/IslandDayGreeting_Noon_011_Intro_000	Happy <IslandDay>!
+JIMMY/JimmyWorkConvo_Intro_000	Welcome back, <PlayerName>.
+JIMMY/JimmyWorkConvo_Intro_001	Are you here to talk business?
+JIMMY/JimmyWorkConvo_Option_000	Want to buy anything?
+JIMMY/JimmyWorkConvo_Option_001	Got any deals?
+JIMMY/JimmyWorkConvo_Option_002	Nevermind.
+JIMMY/JimmyWorkConvo_Response_000_000	<yes>Alright then. Just remember I only buy in bulk.
+JIMMY/JimmyWorkConvo_Response_000_001	I won't take anything less than 50 of an item.
+JIMMY/JimmyWorkConvo_Response_000_002	But I will pay double, just for you, <PlayerName>.
+JIMMY/JimmyWorkConvo_Response_001_000	I've always got great deals.
+JIMMY/JimmyWorkConvo_Response_001_001	Take a look around.
+JIMMY/JimmyWorkConvo_Response_002_000	Righto.
+JIMMY/NothingToGiveJimmy_Intro_000	<sigh>Hmmm, you know what they say, <PlayerName>. Time is <Dinks>
+JIMMY/NothingToGiveJimmy_Intro_001	<angry>And you just wasted my time.
+JIMMY/NothingToGiveJimmy_Intro_002	<no>Don't come back unless you really want to do business.
+JIMMY/SkyFest_AfterNoon_011_Intro_000	Happy <SkyFest>!
+JIMMY/SkyFest_Morning_011_Intro_000	Happy<SkyFest>!
+JIMMY/SkyFest_Night_011_Intro_000	You know what?
+JIMMY/SkyFest_Night_011_Intro_001	<yes>I’ve had a wonderful day today, <petName>.
+JIMMY/SkyFest_Night_011_Intro_002	<thinking>And this <Aurora> is a great way to end a great day.
+JIMMY/SkyFest_Night_011_Intro_003	<yes>Every day here on <IslandName> gets better and better.
+JIMMY/SkyFest_Noon_011_Intro_000	Happy <SkyFest>!
+JIMMY/SomethingToSellJimmy_Intro_000	<thinking>Oh, yes... all these bulk items...
+JIMMY/SomethingToSellJimmy_Intro_001	Plus my very, very fair bonus...
+JIMMY/SomethingToSellJimmy_Intro_002	I can give you <$>. Take it or leave it.
+JIMMY/SomethingToSellJimmy_Option_000	Take it.
+JIMMY/SomethingToSellJimmy_Option_001	Leave it.
+JIMMY/SomethingToSellJimmy_Response_000_000	Very good. Yes. Very good.
+JIMMY/SomethingToSellJimmy_Response_000_001	Thank you for your goods here, suck- I mean <PlayerName>.
+JIMMY/SomethingToSellJimmy_Response_000_002	<yes>Here is your <$>.
+JIMMY/SomethingToSellJimmy_Response_000_003	<proud>Pleasure as always.
+JIMMY/SomethingToSellJimmy_Response_001_000	<no>It's a shame really, missing out on a great deal you are.
+JIMMY/TotalEqualsZeroJimmy_Intro_000	Hmmm...
+JIMMY/TotalEqualsZeroJimmy_Intro_001	<no>It seems these items aren't worth anything at all...
+JIMMY/TotalEqualsZeroJimmy_Intro_002	<shy>Well, if you didn't want them I could probably take them off your hands?
+JIMMY/TotalEqualsZeroJimmy_Option_000	Yes, I dont want them.
+JIMMY/TotalEqualsZeroJimmy_Option_001	I'll have them back thanks.
+JIMMY/TotalEqualsZeroJimmy_Response_000_000	<glee>Excellent.
+JIMMY/TotalEqualsZeroJimmy_Response_000_001	<size=11>I can definetly sell these for something...<size>
+JIMMY/TotalEqualsZeroJimmy_Response_000_002	Great to see you as always, <PlayerName>.
+JIMMY/TotalEqualsZeroJimmy_Response_001_000	<thinking>Hmmmm. Very well.
+JIMMY/TotalEqualsZeroJimmy_Response_001_001	<no>Like I said, they aren't worth anything.
+JIMMY/TotalEqualsZeroJimmy_Response_001_002	<yes>But you can have them back, I guess.
 JOHN/Arvo_Greeting 0_Intro_000	Arvo already, eh, <PlayerName>?
 JOHN/Arvo_Greeting 0_Option_000	<chat>
 JOHN/Arvo_Greeting 0_Option_001	<jobCondition>
@@ -2749,6 +2797,92 @@ JOHN/Wind_Greeting 2_Option_001	<jobCondition>
 JOHN/Wind_Greeting 2_Option_002	<hangOut>
 JOHN/Wind_Greeting 2_Option_003	<cancel>
 JOHN/Wind_Greeting 2_Response_003_000	Bye bye, <PlayerName>!
+JULIA/BugCatchingCompConvo_InComp_Intro_000	<wave>Hello, <PlayerName>!
+JULIA/BugCatchingCompConvo_InComp_Intro_001	How's the <bugComp> going?
+JULIA/BugCatchingCompConvo_InComp_Intro_002	<yes>Don't forget to log and update your points in the <compBook>.
+JULIA/BugCatchingCompConvo_InComp_Option_000	Want to buy some bugs?
+JULIA/BugCatchingCompConvo_InComp_Option_001	Let's chat.
+JULIA/BugCatchingCompConvo_InComp_Option_002	Nevermind.
+JULIA/BugCatchingCompConvo_InComp_Response_000_000	<glee>Oh, yes please.
+JULIA/BugCatchingCompConvo_InComp_Response_000_001	<yes>I've got lots of pocket money to spend.
+JULIA/BugCatchingCompConvo_InComp_Response_002_000	<glee>Have fun!
+JULIA/BugCatchingCompConvo_InCompNotStarted_Intro_000	<wave>Hello, <PlayerName>!
+JULIA/BugCatchingCompConvo_InCompNotStarted_Intro_001	<glee>The <bugComp> will officially start at <bugCompStartTime>.
+JULIA/BugCatchingCompConvo_InCompNotStarted_Intro_002	While we wait to start, do you have any bugs I can keep?
+JULIA/BugCatchingCompConvo_InCompNotStarted_Option_000	Want to buy some bugs?
+JULIA/BugCatchingCompConvo_InCompNotStarted_Option_001	Let's chat.
+JULIA/BugCatchingCompConvo_InCompNotStarted_Option_002	Nevermind.
+JULIA/BugCatchingCompConvo_InCompNotStarted_Response_000_000	<glee>Oh, yes please.
+JULIA/BugCatchingCompConvo_InCompNotStarted_Response_000_001	<yes>I've got lots of pocket money to spend.
+JULIA/BugCatchingCompConvo_InCompNotStarted_Response_002_000	<glee>Bye bye, <PlayerName>!
+JULIA/BugCatchingCompConvo_NotInComp_Intro_000	<NPCName> told me that I could host a <bugComp> while I’m visiting <IslandName>.þ
+JULIA/BugCatchingCompConvo_NotInComp_Intro_001	<glee>I thought that sounded really, really fun.þ
+JULIA/BugCatchingCompConvo_NotInComp_Intro_002	<yes>So that’s what I’m doing today.þ
+JULIA/BugCatchingCompConvo_NotInComp_Option_000	I want to join.
+JULIA/BugCatchingCompConvo_NotInComp_Option_001	What are the rules?
+JULIA/BugCatchingCompConvo_NotInComp_Option_002	No thanks.
+JULIA/BugCatchingCompConvo_NotInComp_Response_000_000	<glee>YAY!þ
+JULIA/BugCatchingCompConvo_NotInComp_Response_000_001	The <compBook> is over on the table, so you can sign up there.þ
+JULIA/BugCatchingCompConvo_NotInComp_Response_000_002	<NPCName> helped me write down the rules in it too if you don't know how to play.
+JULIA/BugCatchingCompConvo_NotInComp_Response_001_000	The main rule is to catch as many bugs as you can today, before <bugCompEndTime>.
+JULIA/BugCatchingCompConvo_NotInComp_Response_001_001	Once you've joined the <bugComp>, each bug you catch will get you some points.þ
+JULIA/BugCatchingCompConvo_NotInComp_Response_001_002	<yes>The rarer the bug, the more points you will get for it.þ
+JULIA/BugCatchingCompConvo_NotInComp_Response_001_003	<angry>And don’t even try to be a naughty cheater.þ
+JULIA/BugCatchingCompConvo_NotInComp_Response_001_004	<no>Any bugs you catch before you sign up or before the comp starts won’t count.þ
+JULIA/BugCatchingCompConvo_NotInComp_Response_001_005	<yes>If you want to sign up check out the <compBook> on the table over there.þ
+JULIA/BugCatchingCompConvo_NotInComp_Response_002_000	<sigh>That’s okay...
+JULIA/BugCatchingCompConvo_NotInComp_Response_002_001	<no>I know that not all grown ups have time for fun.þ
+JULIA/BugCatchingCompConvo_NotInComp_Response_002_002	You must be busy like <NPCName>.þ
+JULIA/BugCatchingCompEnded_Intro_000	<wave>Hello, <PlayerName>.
+JULIA/BugCatchingCompEnded_Intro_001	Today’s <bugComp> was so much fun!þ
+JULIA/BugCatchingCompEnded_Intro_002	<proud>I’m going to send the top 3 contestants a great prize in the mail.þ
+JULIA/BugCatchingCompEnded_Intro_003	If you want to see who placed in the top 3, you can check the <compBook> here in the tent for the rest of the day.
+JULIA/BugCatchingCompEnded_Intro_004	I'll come back soon to visit and we can have another <bugComp>, okay?
+JULIA/BugCatchingCompEnded_Option_000	Want to buy some bugs?
+JULIA/BugCatchingCompEnded_Option_001	Let's chat.
+JULIA/BugCatchingCompEnded_Option_002	Nevermind.
+JULIA/BugCatchingCompEnded_Response_000_000	<glee>Oh, yes please.
+JULIA/BugCatchingCompEnded_Response_000_001	<yes>I've got lots of pocket money to spend.
+JULIA/BugCatchingCompEnded_Response_002_000	<glee>Have fun!
+JULIA/FishingCompConvo_InComp_Intro_000	<yes>G'day, <PlayerName>!
+JULIA/FishingCompConvo_InComp_Intro_001	The <FishingComp> is on right now!
+JULIA/FishingCompConvo_InComp_Intro_002	Why aren't you out there catching <itemName>?
+JULIA/FishingCompConvo_InComp_Option_000	Want to buy some fish?
+JULIA/FishingCompConvo_InComp_Option_001	Let's chat.
+JULIA/FishingCompConvo_InComp_Option_002	Nevermind.
+JULIA/FishingCompConvo_InComp_Response_000_000	I'll take any fish ya got.
+JULIA/FishingCompConvo_InComp_Response_002_000	Seeya, <PlayerName>.
+JULIA/FishingCompConvo_InCompNotStarted_Intro_000	<yes>G'day, <PlayerName>!
+JULIA/FishingCompConvo_InCompNotStarted_Intro_001	<glee>The <FishingComp> will officially start at <bugCompStartTime>.
+JULIA/FishingCompConvo_InCompNotStarted_Intro_002	Oh, and I’ll happily purchase any fish you have spare today too.
+JULIA/FishingCompConvo_InCompNotStarted_Option_000	Want to buy some fish?
+JULIA/FishingCompConvo_InCompNotStarted_Option_001	Let's chat.
+JULIA/FishingCompConvo_InCompNotStarted_Option_002	Nevermind.
+JULIA/FishingCompConvo_InCompNotStarted_Response_000_000	Righto.
+JULIA/FishingCompConvo_InCompNotStarted_Response_002_000	See ya, <PlayerName>.
+JULIA/FishingCompConvo_NotInComp_Intro_000	I’m hosting me soon-to-be famous <FishingComp> today.
+JULIA/FishingCompConvo_NotInComp_Intro_001	Let me know if you’re interested in competing.
+JULIA/FishingCompConvo_NotInComp_Option_000	I want to join.
+JULIA/FishingCompConvo_NotInComp_Option_001	What are the rules?
+JULIA/FishingCompConvo_NotInComp_Option_002	No thanks.
+JULIA/FishingCompConvo_NotInComp_Response_000_000	<yes>Righto.
+JULIA/FishingCompConvo_NotInComp_Response_000_001	The <compBook> is over on the table, so you can sign up there.þ
+JULIA/FishingCompConvo_NotInComp_Response_000_002	Rules are in there as well, if you don’t know how the comp works.
+JULIA/FishingCompConvo_NotInComp_Response_001_000	Once you have signed up and the competition has started, catch as many <itemName> as you can.
+JULIA/FishingCompConvo_NotInComp_Response_001_001	Each <itemName> is worth 1 point.
+JULIA/FishingCompConvo_NotInComp_Response_001_002	The last score you enter into the <compBook> will be your final score.
+JULIA/FishingCompConvo_NotInComp_Response_001_003	You can use the <compBook> to update your score at any time, as long as it's before <bugCompEndTime>.
+JULIA/FishingCompConvo_NotInComp_Response_002_000	Righto.
+JULIA/FishingCompEnded_Intro_000	<wave>Hello, <PlayerName>.
+JULIA/FishingCompEnded_Intro_001	Today’s <FishingComp> was pretty great.
+JULIA/FishingCompEnded_Intro_002	<proud>I’m going to send the top 3 contestants a prize in the mail.þ
+JULIA/FishingCompEnded_Intro_003	If you want to see who placed in the top 3, you can check the <compBook> here in the tent for the rest of the day.
+JULIA/FishingCompEnded_Intro_004	I'll be back soon to host another <FishingComp>, seeing as this one went down well.
+JULIA/FishingCompEnded_Option_000	Want to buy some fish?
+JULIA/FishingCompEnded_Option_001	Let's chat.
+JULIA/FishingCompEnded_Option_002	Nevermind.
+JULIA/FishingCompEnded_Response_000_000	<yes>Will do
+JULIA/FishingCompEnded_Response_002_000	<glee>Have fun!
 MELVIN/Arvo_Greeting 0_Intro_000	Afternoon, <PlayerName>!
 MELVIN/Arvo_Greeting 0_Option_000	<chat>
 MELVIN/Arvo_Greeting 0_Option_001	<jobCondition>
@@ -3132,6 +3266,17 @@ MILBURN/BankConversation_Option_001	Let's chat.
 MILBURN/BankConversation_Option_002	Nevermind.
 MILBURN/BankConversation_Response_000_000	Ok. Lets take a look...
 MILBURN/BankConversation_Response_002_000	Have a great day.
+MILBURN/Buy_ATM_Convo_Intro_000	Hmmph. 
+MILBURN/Buy_ATM_Convo_Intro_001	So that <buyItemName> has caught your eye?
+MILBURN/Buy_ATM_Convo_Intro_002	<yes>It allows you to withdraw your funds from your account.
+MILBURN/Buy_ATM_Convo_Intro_003	<yes>Even when the bank is closed.
+MILBURN/Buy_ATM_Convo_Intro_004	However, you will still have to visit the branch to deposit.
+MILBURN/Buy_ATM_Convo_Intro_005	It can be yours for the low price of <buyItemPrice>?
+MILBURN/Buy_ATM_Convo_Option_000	I'll take it!
+MILBURN/Buy_ATM_Convo_Option_001	No thanks
+MILBURN/Buy_ATM_Convo_Response_000_000	Hmmph.
+MILBURN/Buy_ATM_Convo_Response_000_001	I hope you enjoy it.
+MILBURN/Buy_ATM_Convo_Response_001_000	<no>Very well then.
 MILBURN/CompleteBirthday_000_Intro_000	<proud>Hmph.
 MILBURN/CompleteBirthday_000_Intro_001	I usually buy my own <birthday> gifts.
 MILBURN/CompleteBirthday_000_Intro_002	Thank you, <PlayerName>.
@@ -3414,147 +3559,25 @@ NED/Trapper AfterCraftingItem_Option_000	Make something else
 NED/Trapper AfterCraftingItem_Option_001	All done.
 NED/Trapper AfterCraftingItem_Response_000_000	Alright then.
 NED/Trapper AfterCraftingItem_Response_001_000	Righto, mate.
-Npc11/Introduction_011_Intro_000	The name is <myName>.
-Npc11/Introduction_011_Intro_001	<shy>I'm something of a trader myself.
-Npc11/Introduction_011_Intro_002	<no><NPCName>? Never heard of him.
-Npc11/Introduction_011_Intro_003	But you know what I have heard of?
-Npc11/Introduction_011_Intro_004	<pumped>Great deals.
-Npc11/Introduction_011_Intro_005	So if you're in the mood for some of those, I'm your guy.
-Npc11/Introduction_011_Intro_006	What was your name again?
-Npc11/Introduction_011_Intro_007	<PlayerName>, I like you. I like you a lot.
-Npc11/Introduction_011_Intro_008	<yes>Let's do some deals. Lets trade some wheels.
-Npc11/IslandDayGreeting_AfterNoon_011_Intro_000	Happy <IslandDay>!
-Npc11/IslandDayGreeting_Morning_011_Intro_000	Happy <IslandDay>!
-Npc11/IslandDayGreeting_Night_011_Intro_000	Happy <IslandDay>!
-Npc11/IslandDayGreeting_Noon_011_Intro_000	Happy <IslandDay>!
-Npc11/JimmyWorkConvo_Intro_000	Welcome back, <PlayerName>.
-Npc11/JimmyWorkConvo_Intro_001	Are you here to talk business?
-Npc11/JimmyWorkConvo_Option_000	Want to buy anything?
-Npc11/JimmyWorkConvo_Option_001	Got any deals?
-Npc11/JimmyWorkConvo_Option_002	Nevermind.
-Npc11/JimmyWorkConvo_Response_000_000	<yes>Alright then. Just remember I only buy in bulk.
-Npc11/JimmyWorkConvo_Response_000_001	I won't take anything less than 50 of an item.
-Npc11/JimmyWorkConvo_Response_000_002	But I will pay double, just for you, <PlayerName>.
-Npc11/JimmyWorkConvo_Response_001_000	I've always got great deals.
-Npc11/JimmyWorkConvo_Response_001_001	Take a look around.
-Npc11/JimmyWorkConvo_Response_002_000	Righto.
-Npc11/NothingToGiveJimmy_Intro_000	<sigh>Hmmm, you know what they say, <PlayerName>. Time is <Dinks>
-Npc11/NothingToGiveJimmy_Intro_001	<angry>And you just wasted my time.
-Npc11/NothingToGiveJimmy_Intro_002	<no>Don't come back unless you really want to do business.
-Npc11/SkyFest_AfterNoon_011_Intro_000	Happy <SkyFest>!
-Npc11/SkyFest_Morning_011_Intro_000	Happy<SkyFest>!
-Npc11/SkyFest_Night_011_Intro_000	You know what?
-Npc11/SkyFest_Night_011_Intro_001	<yes>I’ve had a wonderful day today, <petName>.
-Npc11/SkyFest_Night_011_Intro_002	<thinking>And this <Aurora> is a great way to end a great day.
-Npc11/SkyFest_Night_011_Intro_003	<yes>Every day here on <IslandName> gets better and better.
-Npc11/SkyFest_Noon_011_Intro_000	Happy <SkyFest>!
-Npc11/SomethingToSellJimmy_Intro_000	<thinking>Oh, yes... all these bulk items...
-Npc11/SomethingToSellJimmy_Intro_001	Plus my very, very fair bonus...
-Npc11/SomethingToSellJimmy_Intro_002	I can give you <$>. Take it or leave it.
-Npc11/SomethingToSellJimmy_Option_000	Take it.
-Npc11/SomethingToSellJimmy_Option_001	Leave it.
-Npc11/SomethingToSellJimmy_Response_000_000	Very good. Yes. Very good.
-Npc11/SomethingToSellJimmy_Response_000_001	Thank you for your goods here, suck- I mean <PlayerName>.
-Npc11/SomethingToSellJimmy_Response_000_002	<yes>Here is your <$>.
-Npc11/SomethingToSellJimmy_Response_000_003	<proud>Pleasure as always.
-Npc11/SomethingToSellJimmy_Response_001_000	<no>It's a shame really, missing out on a great deal you are.
-Npc11/TotalEqualsZeroJimmy_Intro_000	Hmmm...
-Npc11/TotalEqualsZeroJimmy_Intro_001	<no>It seems these items aren't worth anything at all...
-Npc11/TotalEqualsZeroJimmy_Intro_002	<shy>Well, if you didn't want them I could probably take them off your hands?
-Npc11/TotalEqualsZeroJimmy_Option_000	Yes, I dont want them.
-Npc11/TotalEqualsZeroJimmy_Option_001	I'll have them back thanks.
-Npc11/TotalEqualsZeroJimmy_Response_000_000	<glee>Excellent.
-Npc11/TotalEqualsZeroJimmy_Response_000_001	<size=11>I can definetly sell these for something...<size>
-Npc11/TotalEqualsZeroJimmy_Response_000_002	Great to see you as always, <PlayerName>.
-Npc11/TotalEqualsZeroJimmy_Response_001_000	<thinking>Hmmmm. Very well.
-Npc11/TotalEqualsZeroJimmy_Response_001_001	<no>Like I said, they aren't worth anything.
-Npc11/TotalEqualsZeroJimmy_Response_001_002	<yes>But you can have them back, I guess.
-Npc13/BugCatchingCompConvo_InComp_Intro_000	<wave>Hello, <PlayerName>!
-Npc13/BugCatchingCompConvo_InComp_Intro_001	How's the <bugComp> going?
-Npc13/BugCatchingCompConvo_InComp_Intro_002	<yes>Don't forget to log and update your points in the <compBook>.
-Npc13/BugCatchingCompConvo_InComp_Option_000	Want to buy some bugs?
-Npc13/BugCatchingCompConvo_InComp_Option_001	Let's chat.
-Npc13/BugCatchingCompConvo_InComp_Option_002	Nevermind.
-Npc13/BugCatchingCompConvo_InComp_Response_000_000	<glee>Oh, yes please.
-Npc13/BugCatchingCompConvo_InComp_Response_000_001	<yes>I've got lots of pocket money to spend.
-Npc13/BugCatchingCompConvo_InComp_Response_002_000	<glee>Have fun!
-Npc13/BugCatchingCompConvo_InCompNotStarted_Intro_000	<wave>Hello, <PlayerName>!
-Npc13/BugCatchingCompConvo_InCompNotStarted_Intro_001	<glee>The <bugComp> will officially start at <bugCompStartTime>.
-Npc13/BugCatchingCompConvo_InCompNotStarted_Intro_002	While we wait to start, do you have any bugs I can keep?
-Npc13/BugCatchingCompConvo_InCompNotStarted_Option_000	Want to buy some bugs?
-Npc13/BugCatchingCompConvo_InCompNotStarted_Option_001	Let's chat.
-Npc13/BugCatchingCompConvo_InCompNotStarted_Option_002	Nevermind.
-Npc13/BugCatchingCompConvo_InCompNotStarted_Response_000_000	<glee>Oh, yes please.
-Npc13/BugCatchingCompConvo_InCompNotStarted_Response_000_001	<yes>I've got lots of pocket money to spend.
-Npc13/BugCatchingCompConvo_InCompNotStarted_Response_002_000	<glee>Bye bye, <PlayerName>!
-Npc13/BugCatchingCompConvo_NotInComp_Intro_000	<NPCName> told me that I could host a <bugComp> while I’m visiting <IslandName>.þ
-Npc13/BugCatchingCompConvo_NotInComp_Intro_001	<glee>I thought that sounded really, really fun.þ
-Npc13/BugCatchingCompConvo_NotInComp_Intro_002	<yes>So that’s what I’m doing today.þ
-Npc13/BugCatchingCompConvo_NotInComp_Option_000	I want to join.
-Npc13/BugCatchingCompConvo_NotInComp_Option_001	What are the rules?
-Npc13/BugCatchingCompConvo_NotInComp_Option_002	No thanks.
-Npc13/BugCatchingCompConvo_NotInComp_Response_000_000	<glee>YAY!þ
-Npc13/BugCatchingCompConvo_NotInComp_Response_000_001	The <compBook> is over on the table, so you can sign up there.þ
-Npc13/BugCatchingCompConvo_NotInComp_Response_000_002	<NPCName> helped me write down the rules in it too if you don't know how to play.
-Npc13/BugCatchingCompConvo_NotInComp_Response_001_000	The main rule is to catch as many bugs as you can today, before <bugCompEndTime>.
-Npc13/BugCatchingCompConvo_NotInComp_Response_001_001	Once you've joined the <bugComp>, each bug you catch will get you some points.þ
-Npc13/BugCatchingCompConvo_NotInComp_Response_001_002	<yes>The rarer the bug, the more points you will get for it.þ
-Npc13/BugCatchingCompConvo_NotInComp_Response_001_003	<angry>And don’t even try to be a naughty cheater.þ
-Npc13/BugCatchingCompConvo_NotInComp_Response_001_004	<no>Any bugs you catch before you sign up or before the comp starts won’t count.þ
-Npc13/BugCatchingCompConvo_NotInComp_Response_001_005	<yes>If you want to sign up check out the <compBook> on the table over there.þ
-Npc13/BugCatchingCompConvo_NotInComp_Response_002_000	<sigh>That’s okay...
-Npc13/BugCatchingCompConvo_NotInComp_Response_002_001	<no>I know that not all grown ups have time for fun.þ
-Npc13/BugCatchingCompConvo_NotInComp_Response_002_002	You must be busy like <NPCName>.þ
-Npc13/BugCatchingCompEnded_Intro_000	<wave>Hello, <PlayerName>.
-Npc13/BugCatchingCompEnded_Intro_001	Today’s <bugComp> was so much fun!þ
-Npc13/BugCatchingCompEnded_Intro_002	<proud>I’m going to send the top 3 contestants a great prize in the mail.þ
-Npc13/BugCatchingCompEnded_Intro_003	If you want to see who placed in the top 3, you can check the <compBook> here in the tent for the rest of the day.
-Npc13/BugCatchingCompEnded_Intro_004	I'll come back soon to visit and we can have another <bugComp>, okay?
-Npc13/BugCatchingCompEnded_Option_000	Want to buy some bugs?
-Npc13/BugCatchingCompEnded_Option_001	Let's chat.
-Npc13/BugCatchingCompEnded_Option_002	Nevermind.
-Npc13/BugCatchingCompEnded_Response_000_000	<glee>Oh, yes please.
-Npc13/BugCatchingCompEnded_Response_000_001	<yes>I've got lots of pocket money to spend.
-Npc13/BugCatchingCompEnded_Response_002_000	<glee>Have fun!
-Npc13/FishingCompConvo_InComp_Intro_000	<yes>G'day, <PlayerName>!
-Npc13/FishingCompConvo_InComp_Intro_001	The <FishingComp> is on right now!
-Npc13/FishingCompConvo_InComp_Intro_002	Why aren't you out there catching <itemName>?
-Npc13/FishingCompConvo_InComp_Option_000	Want to buy some fish?
-Npc13/FishingCompConvo_InComp_Option_001	Let's chat.
-Npc13/FishingCompConvo_InComp_Option_002	Nevermind.
-Npc13/FishingCompConvo_InComp_Response_000_000	I'll take any fish ya got.
-Npc13/FishingCompConvo_InComp_Response_002_000	Seeya, <PlayerName>.
-Npc13/FishingCompConvo_InCompNotStarted_Intro_000	<yes>G'day, <PlayerName>!
-Npc13/FishingCompConvo_InCompNotStarted_Intro_001	<glee>The <FishingComp> will officially start at <bugCompStartTime>.
-Npc13/FishingCompConvo_InCompNotStarted_Intro_002	Oh, and I’ll happily purchase any fish you have spare today too.
-Npc13/FishingCompConvo_InCompNotStarted_Option_000	Want to buy some fish?
-Npc13/FishingCompConvo_InCompNotStarted_Option_001	Let's chat.
-Npc13/FishingCompConvo_InCompNotStarted_Option_002	Nevermind.
-Npc13/FishingCompConvo_InCompNotStarted_Response_000_000	Righto.
-Npc13/FishingCompConvo_InCompNotStarted_Response_002_000	See ya, <PlayerName>.
-Npc13/FishingCompConvo_NotInComp_Intro_000	I’m hosting me soon-to-be famous <FishingComp> today.
-Npc13/FishingCompConvo_NotInComp_Intro_001	Let me know if you’re interested in competing.
-Npc13/FishingCompConvo_NotInComp_Option_000	I want to join.
-Npc13/FishingCompConvo_NotInComp_Option_001	What are the rules?
-Npc13/FishingCompConvo_NotInComp_Option_002	No thanks.
-Npc13/FishingCompConvo_NotInComp_Response_000_000	<yes>Righto.
-Npc13/FishingCompConvo_NotInComp_Response_000_001	The <compBook> is over on the table, so you can sign up there.þ
-Npc13/FishingCompConvo_NotInComp_Response_000_002	Rules are in there as well, if you don’t know how the comp works.
-Npc13/FishingCompConvo_NotInComp_Response_001_000	Once you have signed up and the competition has started, catch as many <itemName> as you can.
-Npc13/FishingCompConvo_NotInComp_Response_001_001	Each <itemName> is worth 1 point.
-Npc13/FishingCompConvo_NotInComp_Response_001_002	The last score you enter into the <compBook> will be your final score.
-Npc13/FishingCompConvo_NotInComp_Response_001_003	You can use the <compBook> to update your score at any time, as long as it's before <bugCompEndTime>.
-Npc13/FishingCompConvo_NotInComp_Response_002_000	Righto.
-Npc13/FishingCompEnded_Intro_000	<wave>Hello, <PlayerName>.
-Npc13/FishingCompEnded_Intro_001	Today’s <FishingComp> was pretty great.
-Npc13/FishingCompEnded_Intro_002	<proud>I’m going to send the top 3 contestants a prize in the mail.þ
-Npc13/FishingCompEnded_Intro_003	If you want to see who placed in the top 3, you can check the <compBook> here in the tent for the rest of the day.
-Npc13/FishingCompEnded_Intro_004	I'll be back soon to host another <FishingComp>, seeing as this one went down well.
-Npc13/FishingCompEnded_Option_000	Want to buy some fish?
-Npc13/FishingCompEnded_Option_001	Let's chat.
-Npc13/FishingCompEnded_Option_002	Nevermind.
-Npc13/FishingCompEnded_Response_000_000	<yes>Will do
-Npc13/FishingCompEnded_Response_002_000	<glee>Have fun!
+NICK/Nick_Salesman_Convo_Intro_000	<haha>Ho! Ho! Ho!
+NICK/Nick_Salesman_Convo_Intro_001	Hello there, <PlayerName>!
+NICK/Nick_Salesman_Convo_Intro_002	I hope you're being nice today!
+NICK/Nick_Salesman_Convo_Option_000	Can you make me something?
+NICK/Nick_Salesman_Convo_Option_001	How's your holidays?
+NICK/Nick_Salesman_Convo_Option_002	Nevermind
+NICK/Nick_Salesman_Convo_Response_000_000	Here's my list.
+NICK/Nick_Salesman_Convo_Response_000_001	Check it twice!
+NICK/Nick_Salesman_Convo_Response_001_000	<haha>Ho! Ho! Ho!
+NICK/Nick_Salesman_Convo_Response_001_001	<glee>I love it here on <IslandName>!
+NICK/Nick_Salesman_Convo_Response_001_002	<shock>Oh!
+NICK/Nick_Salesman_Convo_Response_001_003	That reminds me!
+NICK/Nick_Salesman_Convo_Response_001_004	<worried>It seems some of my White <animalName> have gone missing.
+NICK/Nick_Salesman_Convo_Response_001_005	<shy>I’m sure they will come back eventually.
+NICK/Nick_Salesman_Convo_Response_001_006	But if you see one, would you be so kind as to catch one and drop it off at an <itemName>?
+NICK/Nick_Salesman_Convo_Response_001_007	<glee>Thanks a lot <PlayerName>!
+NICK/Nick_Salesman_Convo_Response_001_008	You’ve always been very nice!
+NICK/Nick_Salesman_Convo_Response_001_009	<haha>Ho! Ho! Ho!
+NICK/Nick_Salesman_Convo_Response_002_000	<wave>Have a rippa!
 Npc14/NothingToGiveFishingComp_Intro_000	Oh, you don't have any fish for me?
 Npc14/NothingToGiveFishingComp_Intro_001	<no>I'll just have to catch them myself!
 Npc15/15 NPC_Nancy_Introduction_Intro_000	<wave>Hello there.
@@ -3568,25 +3591,6 @@ Npc15/AirportKeeperConvo_Intro_000	Welcome to <IslandName> Airport.
 Npc15/AirportKeeperConvo_Intro_001	We're offering day trips today!
 Npc15/AirportKeeperConvo_Intro_002	So, if you would like to take a trip, just make your way through the door into the <AirShip>
 Npc15/AirportKeeperConvo_Intro_003	<yes>Oh, and make sure you have your <itemName> ready to show once you're inside.
-Npc16/Nick_Salesman_Convo_Intro_000	<haha>Ho! Ho! Ho!
-Npc16/Nick_Salesman_Convo_Intro_001	Hello there, <PlayerName>!
-Npc16/Nick_Salesman_Convo_Intro_002	I hope you're being nice today!
-Npc16/Nick_Salesman_Convo_Option_000	Can you make me something?
-Npc16/Nick_Salesman_Convo_Option_001	How's your holidays?
-Npc16/Nick_Salesman_Convo_Option_002	Nevermind
-Npc16/Nick_Salesman_Convo_Response_000_000	Here's my list.
-Npc16/Nick_Salesman_Convo_Response_000_001	Check it twice!
-Npc16/Nick_Salesman_Convo_Response_001_000	<haha>Ho! Ho! Ho!
-Npc16/Nick_Salesman_Convo_Response_001_001	<glee>I love it here on <IslandName>!
-Npc16/Nick_Salesman_Convo_Response_001_002	<shock>Oh!
-Npc16/Nick_Salesman_Convo_Response_001_003	That reminds me!
-Npc16/Nick_Salesman_Convo_Response_001_004	<worried>It seems some of my White <animalName> have gone missing.
-Npc16/Nick_Salesman_Convo_Response_001_005	<shy>I’m sure they will come back eventually.
-Npc16/Nick_Salesman_Convo_Response_001_006	But if you see one, would you be so kind as to catch one and drop it off at an <itemName>?
-Npc16/Nick_Salesman_Convo_Response_001_007	<glee>Thanks a lot <PlayerName>!
-Npc16/Nick_Salesman_Convo_Response_001_008	You’ve always been very nice!
-Npc16/Nick_Salesman_Convo_Response_001_009	<haha>Ho! Ho! Ho!
-Npc16/Nick_Salesman_Convo_Response_002_000	<wave>Have a rippa!
 PLAYER/ConfirmDeedNotServer_Intro_000	This deed is for my island.
 PLAYER/ConfirmDeedNotServer_Intro_001	I should probably place it there.
 PLAYER/ConfirmDeedPlacement_Intro_000	Is this a good place for the <currentItemInHand>?
@@ -3611,6 +3615,17 @@ PLAYER/TeleboxNeedsItems_Intro_001	Should I place something inside?
 PLAYER/TeleboxNeedsItems_Option_000	Place Items
 PLAYER/TeleboxNeedsItems_Option_001	Nevermind.
 PLAYER/TeleCallerDoesn'tWork_Intro_000	It doesn't work right now...
+PLAYER/TeleJumperCreateSignal_Intro_000	Creating new signal...
+PLAYER/TeleJumperNoNetwork_Intro_000	It says there is no "network"?
+PLAYER/TeleJumperNoSignal_Intro_000	Attempting to call signal...
+PLAYER/TeleJumperNoSignal_Intro_001	No signal found...
+PLAYER/TeleJumperYesSignal_Intro_000	Signal Found!
+PLAYER/TeleJumperYesSignal_Intro_001	Redirected now.
+PLAYER/UseTeleJumper_Intro_000	Tele-Jump Services. How may I assist you?
+PLAYER/UseTeleJumper_Option_000	Call a Tower
+PLAYER/UseTeleJumper_Option_001	Call Signal
+PLAYER/UseTeleJumper_Option_002	Create Signal
+PLAYER/UseTeleJumper_Option_003	Nevermind
 PLAYER/WishingWell_BountifulWish_Intro_000	A <BountifulWish> will make fish and bugs more common, as well as make rare sparkling fish and bugs appear.
 PLAYER/WishingWell_BountifulWish_Intro_001	Only one wish will take effect at a time...
 PLAYER/WishingWell_BountifulWish_Option_000	Make this wish!
@@ -4366,6 +4381,12 @@ RANDOMISED_COMMENTS/LowStaminaComment_004_Intro_001	<yes>I know you're always do
 RANDOMISED_COMMENTS/OnFireConvo_000_Intro_000	<shocked><PlayerName> is on fire!
 RANDOMISED_COMMENTS/OnFireConvo_001_Intro_000	<shocked>You're on fire <PlayerName>!
 RANDOMISED_COMMENTS/OnFireConvo_002_Intro_000	<worried>FIRE!
+RANDOMISED_COMMENTS/PlayerDisguisedConvo_001_Intro_000	<shocked>What!?
+RANDOMISED_COMMENTS/PlayerDisguisedConvo_001_Intro_001	<thinking>Is that you, <PlayerName>?
+RANDOMISED_COMMENTS/PlayerDisguisedConvo_002_Intro_000	<shock>Huh!?
+RANDOMISED_COMMENTS/PlayerDisguisedConvo_002_Intro_001	<no>It's probably just <PlayerName> again...
+RANDOMISED_COMMENTS/PlayerDisguisedConvo_003_Intro_000	<shock>Woah!
+RANDOMISED_COMMENTS/PlayerDisguisedConvo_003_Intro_001	Is that you, <PlayerName>?
 RANDOMISED_REQUESTS/AcceptHangOut_000_Intro_000	You know what? I'd love to hang out today!
 RANDOMISED_REQUESTS/AcceptHangOut_000_Intro_001	Let's do this!
 RANDOMISED_REQUESTS/AcceptHangOut_001_Intro_000	You want to hang out with me?
@@ -5337,10 +5358,11 @@ SHOPPING/TotalEqualsZero_Intro_000	All right... Lets see...
 SHOPPING/TotalEqualsZero_Intro_001	It seems these items aren't worth anything, but I can still take them off your hands if you don't want them?
 SHOPPING/TotalEqualsZero_Option_000	Yes, I dont want them.
 SHOPPING/TotalEqualsZero_Option_001	I'll have them back thanks.
-SHOPPING/TotalEqualsZero_Response_000_000	Very good! I will take these of your hands.
-SHOPPING/TotalEqualsZero_Response_000_001	Thank you for visiting John's Goods! <sellGiveItems>
-SHOPPING/TotalEqualsZero_Response_001_000	That's fine, please return if you wish to sell anything else.
-SHOPPING/TotalEqualsZero_Response_001_001	Thank you for visiting John's Goods!
+SHOPPING/TotalEqualsZero_Response_000_000	Alright, I'll take these off your hands.
+SHOPPING/TotalEqualsZero_Response_000_001	Thank you for visiting John's Goods!
+SHOPPING/TotalEqualsZero_Response_001_000	<shy>That's fine!
+SHOPPING/TotalEqualsZero_Response_001_001	Come back if you change your mind!
+SHOPPING/TotalEqualsZero_Response_001_002	Thank you for visiting John's Goods!
 SHOPPING/WantToBuyAnimalNonLocal_Intro_000	Oh! That's a <buyItemName>.
 SHOPPING/WantToBuyAnimalNonLocal_Intro_001	Shes a cutie, right?
 SHOPPING/WantToBuyAnimalNonLocal_Intro_002	<no>Now, she'll have to live here on <IslandName>. You won't be able to take her home with you.
@@ -5358,9 +5380,14 @@ SIGN/AllPlayersMustBeInLift_Intro_000	Everyone must be in the lift.
 SIGN/AnimalShopSign_Intro_000	Irwin's Barn
 SIGN/AnimalShopSign_Intro_001	<getOpeningHours>
 SIGN/AnimalShopSign_Intro_002	<getClosedDays>
+SIGN/ATM Sign_Intro_000	Should I use the Automatic Dink Machine?
+SIGN/ATM Sign_Option_000	Withdraw
+SIGN/ATM Sign_Option_001	Nevermind
 SIGN/BarberShopSign_Intro_000	<NPCName>'s Salon
 SIGN/BarberShopSign_Intro_001	<getOpeningHours>
 SIGN/BarberShopSign_Intro_002	<getClosedDays>
+SIGN/BillabongFishExhibitSign_Intro_000	In this exhibit:
+SIGN/BillabongFishExhibitSign_Intro_001	<color=#7F26A4>Bonytongue</color>þ<color=#7F26A4>Blackfish</color>þ<color=#7F26A4>Grayling</color>
 SIGN/BugCatchingCompClosedSign_Book_Intro_000	<bugComp> is now closed.
 SIGN/BugCatchingCompClosedSign_Book_Intro_001	Congrats to the winners:
 SIGN/BugCatchingCompClosedSign_Book_Intro_002	<getCompScoreboard>
@@ -5388,6 +5415,9 @@ SIGN/BugCatchingCompSign_SignedUpBeforeStart_Response_000_000	Once your signed u
 SIGN/BugCatchingCompSign_SignedUpBeforeStart_Response_000_001	The rarer the bug is, the more points it's worth.
 SIGN/BugCatchingCompSign_SignedUpBeforeStart_Response_000_002	The last score you enter into to the <compBook> will be your final score.
 SIGN/BugCatchingCompSign_SignedUpBeforeStart_Response_000_003	You can use the <compBook> to update your score at any time, as long as it's before <bugCompEndTime>.
+SIGN/BushlandBugExhibitSign_Intro_000	In this exhibit:
+SIGN/BushlandBugExhibitSign_Intro_001	<color=#7F26A4>Ulysses Butterfly</color>þ<color=#7F26A4>Fly</color>þ<color=#7F26A4>Harlequin Butterfly</color>þ<color=#7F26A4>Bogong Moth</color>
+SIGN/BushlandBugExhibitSign_Intro_002	<color=#7F26A4>Scarlet Jezebel Butterfly</color>þ<color=#7F26A4>Monarch Butterfly</color>þ<color=#7F26A4>Blue Moon Butterfly</color>
 SIGN/CantInsertIntoSilo_Intro_000	I don't have any <itemName> to put in here.
 SIGN/ClothShopSign_Intro_000	Threadspace.
 SIGN/ClothShopSign_Intro_001	<getOpeningHours>
@@ -5413,6 +5443,8 @@ SIGN/Crafters_Sign_Intro_000	Laboratory
 SIGN/Crafters_Sign_Intro_001	<getOpeningHours>
 SIGN/Crafters_Sign_Intro_002	<getClosedDays>
 SIGN/CupOfSunshineConvo_Intro_000	The sky is clearing...
+SIGN/DesertBugExhibitSign_Intro_000	In this exhibit:
+SIGN/DesertBugExhibitSign_Intro_001	<color=#7F26A4>Pygmyfly</color>þ<color=#7F26A4>Huntsman</color>
 SIGN/EditHouseSign_Intro_000	Customise this house?
 SIGN/EditHouseSign_Option_000	Yes
 SIGN/EditHouseSign_Option_001	No
@@ -5440,13 +5472,18 @@ SIGN/FishingCompSign_SignedUpBeforeStart_Response_000_000	Once you have signed u
 SIGN/FishingCompSign_SignedUpBeforeStart_Response_000_001	Each <itemName> is worth 1 point.
 SIGN/FishingCompSign_SignedUpBeforeStart_Response_000_002	The last score you enter into the <compBook> will be your final score.
 SIGN/FishingCompSign_SignedUpBeforeStart_Response_000_003	You can use the <compBook> to update your score at any time, as long as it's before <bugCompEndTime>.
-SIGN/Fletch_Sleeping Bags_Intro_000	Those are some spare <itemName> I keep around. <proud>I'll tell yoy what, they come in handy!
-SIGN/Fletch_Sleeping Bags_Intro_001	Do you need one, <PlayerName>?
+SIGN/Fletch_Sleeping Bags_Intro_000	Those are some spare <itemName> I keep around.
+SIGN/Fletch_Sleeping Bags_Intro_001	<proud>I'll tell you what, they come in handy!
+SIGN/Fletch_Sleeping Bags_Intro_002	Do you need one, <PlayerName>?
 SIGN/Fletch_Sleeping Bags_Option_000	Yes please!
 SIGN/Fletch_Sleeping Bags_Option_001	No thanks.
 SIGN/Fletch_Sleeping Bags_Response_000_000	<glee>Alright then, take one!
 SIGN/Fletch_Sleeping Bags_Response_000_001	<glee>It's all yours!
 SIGN/Fletch_Sleeping Bags_Response_001_000	<glee>Righto.
+SIGN/FreshWaterFishExhibitSign_Intro_000	In this exhibit:
+SIGN/FreshWaterFishExhibitSign_Intro_001	<color=#7F26A4>Barcoo Grunter</color>þ<color=#7F26A4>Barramundi</color>þ<color=#7F26A4>River Bass</color>þ<color=#7F26A4>Jungle Perch</color>
+SIGN/FreshWaterFishExhibitSign_Intro_002	<color=#7F26A4>Carp</color>þ<color=#7F26A4>Silver Perch</color>þ<color=#7F26A4>Fresh Water Mussel</color>þ<color=#7F26A4>Inland Crab</color>
+SIGN/FreshWaterFishExhibitSign_Intro_003	<color=#7F26A4>White Yabbie</color>
 SIGN/FurnitureShopSign_Intro_000	<NPCName>'s Furniture
 SIGN/FurnitureShopSign_Intro_001	<getOpeningHours>
 SIGN/FurnitureShopSign_Intro_002	<getClosedDays>
@@ -5463,6 +5500,8 @@ SIGN/HasRepairKit_Option_001	No.
 SIGN/Johns_HourSign_Intro_000	John's Goods
 SIGN/Johns_HourSign_Intro_001	<getOpeningHours>
 SIGN/Johns_HourSign_Intro_002	<getClosedDays>
+SIGN/MangroveWaterFishExhibitSign_Intro_000	In this exhibit:
+SIGN/MangroveWaterFishExhibitSign_Intro_001	<color=#7F26A4>Mangrove Jack</color>þ<color=#7F26A4>Eel Tailed Catfish</color>
 SIGN/MapStatue_Sign_Intro_000	In the depths of blue, with teeth so keen,
 SIGN/MapStatue_Sign_Intro_001	A secret waits, yet to be seen.
 SIGN/MapStatue_Sign_Intro_002	Five treasures golden, to my mouth you feed,
@@ -5475,11 +5514,24 @@ SIGN/MineControl_NoPass_Intro_000	I need a <itemName> to use this.
 SIGN/MineControl_Up_Convo_Intro_000	Should I go back up?
 SIGN/MineControl_Up_Convo_Option_000	Go up!
 SIGN/MineControl_Up_Convo_Option_001	Nevermind
-SIGN/MineLevel_AlreadySet_Intro_000	I can't use this, the mine level is already set today.
-SIGN/MineLevel_HasRubyShard_Intro_000	Should I insert 4 <itemName> to set the mine level?
+SIGN/MineLevel_AlreadySet_Intro_000	I can't use this, the elevator level has already been set today.
+SIGN/MineLevel_HasEmeraldShard_Intro_000	Should I insert 4 <itemName> to set the mine level to Hot Hot Hot?
+SIGN/MineLevel_HasEmeraldShard_Option_000	Set Level
+SIGN/MineLevel_HasEmeraldShard_Option_001	Nevermind
+SIGN/MineLevel_HasRubyShard_Intro_000	Should I insert 4 <itemName> to set the mine level to Undergrove?
 SIGN/MineLevel_HasRubyShard_Option_000	Set Level
 SIGN/MineLevel_HasRubyShard_Option_001	Nevermind
-SIGN/MineLevel_NotEnoughRubyShards_Intro_000	Looks like something shiny might go in here...
+SIGN/MineLevel_NoLevelSet_Intro_000	I can set the elevators level by inserting certain gem shards here.
+SIGN/MineLevel_NoLevelSet_Intro_001	What level should I set?
+SIGN/MineLevel_NoLevelSet_Option_000	Deep Mine
+SIGN/MineLevel_NoLevelSet_Option_001	Undergrove
+SIGN/MineLevel_NoLevelSet_Option_002	Hot Hot Hot
+SIGN/MineLevel_NoLevelSet_Option_003	Nevermind
+SIGN/MineLevel_NoLevelSet_Response_000_000	The elevator is set to the Deep Mine.
+SIGN/MineLevel_NotEnoughEmeraldShards_Intro_000	I don't have enough <itemName> to set the level.
+SIGN/MineLevel_NotEnoughEmeraldShards_Intro_001	I need 4 <itemName>.
+SIGN/MineLevel_NotEnoughRubyShards_Intro_000	I don't have enough <itemName> to set the level.
+SIGN/MineLevel_NotEnoughRubyShards_Intro_001	I need 4 <itemName>.
 SIGN/NoBoardingPass_Intro_000	Ready to take off?
 SIGN/NoBoardingPass_Option_000	Let's fly!
 SIGN/NoBoardingPass_Option_001	Nevermind
@@ -5498,12 +5550,19 @@ SIGN/NoVisitorSign_Intro_001	A place where anyone visiting <IslandName> can set 
 SIGN/PlayerFillingTileObjectOption_Intro_000	How many should I put in?
 SIGN/PlayerFillingTileObjectOption_Option_000	Fill
 SIGN/PlayerFillingTileObjectOption_Option_001	Nevermind
+SIGN/PocketWatchDoesntWork_Intro_000	It wont work here...
 SIGN/Raffle Sign_Intro_000	It’s the John's Goods Anniversary Event!
 SIGN/Raffle Sign_Intro_001	For every fish you sell to John’s Goods you will earn a <itemName>.þ
 SIGN/Raffle Sign_Intro_002	<itemName>s can be exchanged for prizes from the prize box inside the store.þ
 SIGN/Raffle Sign_Intro_003	This is a limited time event, so get fishing and start redeeming your prizes!þ
 SIGN/Raffle Sign_Intro_004	Happy fishing!þ
 SIGN/RainmakerSign_Intro_000	The air gets thicker.
+SIGN/SaltWaterFishExhibitSign_Intro_000	In this exhibit:
+SIGN/SaltWaterFishExhibitSign_Intro_001	<color=#7F26A4>Banded Morwong</color>þ<color=#7F26A4>Bluefish</color>þ<color=#7F26A4>Garfish</color>þ<color=#7F26A4>Luderick</color>
+SIGN/SaltWaterFishExhibitSign_Intro_002	<color=#7F26A4>Blue Spot Flathead</color>þ<color=#7F26A4>Travalla</color>þ<color=#7F26A4>Eyestripe Surgeonfish</color>þ<color=#7F26A4>Black & White Snapper</color>
+SIGN/SaltWaterFishExhibitSign_Intro_003	<color=#7F26A4>Anchovy</color>þ<color=#7F26A4>Barracuda</color>þ<color=#7F26A4>Biscuit Sea Star</color>þ<color=#7F26A4>Eleven-armed Sea Star</color>
+SIGN/SaltWaterFishExhibitSign_Intro_004	<color=#7F26A4>Spiny Sea Urchin</color>þ<color=#7F26A4>King Prawn</color>þ<color=#7F26A4>Tiger Prawn</color>þ<color=#7F26A4>Bay Bug</color>
+SIGN/SaltWaterFishExhibitSign_Intro_005	<color=#7F26A4>Purple Mottled Crab</color>þ<color=#7F26A4>Blue Mussel</color>þ<color=#7F26A4>Cushion Sea Star</color>
 SIGN/SignMissingText_Intro_000	I can't read this...
 SIGN/SignMissingText_Intro_001	Might be a bug.
 SIGN/SiloFullText_Intro_000	This is full.
@@ -5514,8 +5573,14 @@ SIGN/SleepUnderground_Intro_000	I don't want to sleep down here.
 SIGN/Town Debt Complete Convo_Intro_000	The town is now debt free!
 SIGN/Town Debt Complete Convo_Intro_001	Thank you for your contribution!
 SIGN/TownBook_Intro_000	This book tracks the towns awards.
+SIGN/TropicalBugExhibitSign 1_Intro_000	In this exhibit:
+SIGN/TropicalBugExhibitSign 1_Intro_001	<color=#7F26A4>Funnel Web Spider</color>þ<color=#7F26A4>Common Blue Tail</color>þ<color=#7F26A4>Cockroach</color>þ<color=#7F26A4>Peacock Spider</color>
+SIGN/TropicalBugExhibitSign 1_Intro_002	<color=#7F26A4>Stink Bug</color>þ<color=#7F26A4>Firefly</color>þ<color=#7F26A4>Cricket</color>þ<color=#7F26A4>Rhinoceros Beetle</color>
+SIGN/TropicalBugExhibitSign 1_Intro_003	<color=#7F26A4>Black Cricket</color>þ<color=#7F26A4>Largidae</color>þ<color=#7F26A4>Fiddler Beetle</color>
 SIGN/TuckshopSpecialSign_Intro_000	Tuckerbox Special!
 SIGN/TuckshopSpecialSign_Intro_001	Currently paying top <Dink> for <itemName>.
+SIGN/UnkownBugExhibitSign_Intro_000	This exhibit is currently empty.
+SIGN/UnkownBugExhibitSign_Intro_001	We look forward to future donations!
 SIGN/UpgradeGuestHouseNoMoney_Intro_000	Should I pay <upgradeHouseCost> to upgrade this building?
 SIGN/UpgradeGuestHouseNoMoney_Option_000	Pay for upgrade
 SIGN/UpgradeGuestHouseNoMoney_Option_001	No
