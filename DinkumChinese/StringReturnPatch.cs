@@ -30,7 +30,8 @@ namespace DinkumChinese
             }
         }
 
-        [HarmonyPrefix, HarmonyPatch(typeof(BullitenBoardPost), "getRequirementsNeededInPhoto")]
+        // 为了安全考虑，此处先不进行汉化了，等官方将他们加入本地化
+        //[HarmonyPrefix, HarmonyPatch(typeof(BullitenBoardPost), "getRequirementsNeededInPhoto")]
         public static bool BullitenBoardPost_getRequirementsNeededInPhoto_Patch(BullitenBoardPost __instance, int postId, ref string __result)
         {
             try
@@ -117,7 +118,8 @@ namespace DinkumChinese
             }
         }
 
-        [HarmonyPrefix, HarmonyPatch(typeof(Inventory), "getExtraDetails")]
+        // 为了安全考虑，此处先不进行汉化了，等官方将他们加入本地化
+        //[HarmonyPrefix, HarmonyPatch(typeof(Inventory), "getExtraDetails")]
         public static bool Inventory_getExtraDetails_Patch(Inventory __instance, int itemId, ref string __result)
         {
             try
@@ -257,44 +259,6 @@ namespace DinkumChinese
             }
         }
 
-        [HarmonyPrefix, HarmonyPatch(typeof(NetworkMapSharer), "UserCode_RpcDeliverAnimal")]
-        public static bool NetworkMapSharer_UserCode_RpcDeliverAnimal_Patch(uint deliveredBy, int animalDelivered, int variationDelivered, int rewardToSend, int trapType)
-        {
-            try
-            {
-                if (NetworkIdentity.spawned.ContainsKey(deliveredBy))
-                {
-                    CharMovement component = NetworkIdentity.spawned[deliveredBy].GetComponent<CharMovement>();
-                    var animal = AnimalManager.manage.allAnimals[animalDelivered];
-                    // 获取动物名字
-                    string animalName = TextLocData.GetLoc(DinkumChinesePlugin.Inst.AnimalsTextLocList, animal.animalName);
-                    string str = animalName;
-                    if (variationDelivered != 0)
-                    {
-                        string variationName = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, animal.hasVariation.variationAdjective[variationDelivered]);
-                        str = variationName + animalName;
-                    }
-                    NotificationManager.manage.createChatNotification(component.GetComponent<EquipItemToChar>().playerName + "交付了一只" + str, false);
-                    if (component.isLocalPlayer)
-                    {
-                        if (animalDelivered == 29)
-                        {
-                            MailManager.manage.sendAChrissyAnimalCapturedLetter(trapType);
-                            return false;
-                        }
-                        MailManager.manage.sendAnAnimalCapturedLetter(rewardToSend, trapType);
-                    }
-                }
-
-                return false;
-            }
-            catch (Exception e)
-            {
-                Debug.LogException(e);
-                return true;
-            }
-        }
-
         [HarmonyPrefix, HarmonyPatch(typeof(SeasonAndTime), "capitaliseFirstLetter")]
         public static bool SeasonAndTime_capitaliseFirstLetter_Patch(ref string __result, string toChange)
         {
@@ -322,19 +286,6 @@ namespace DinkumChinese
                 __instance.eatenText.text = __instance.eatenText.text.Replace("Eaten", "喂食");
                 __instance.shelterText.text = __instance.shelterText.text.Replace("Shelter", "住所");
                 __instance.pettedText.text = __instance.pettedText.text.Replace("Petted", "爱抚");
-            }
-            catch (Exception e)
-            {
-                Debug.LogException(e);
-            }
-        }
-
-        [HarmonyPostfix, HarmonyPatch(typeof(AnimalManager), "fillAnimalLocation")]
-        public static void AnimalManager_fillAnimalLocation_Patch(ref string __result)
-        {
-            try
-            {
-                __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __result);
             }
             catch (Exception e)
             {
@@ -378,45 +329,6 @@ namespace DinkumChinese
             try
             {
                 __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __result.StrToI2Str());
-            }
-            catch (Exception e)
-            {
-                Debug.LogException(e);
-            }
-        }
-
-        [HarmonyPostfix, HarmonyPatch(typeof(Licence), "getConnectedSkillName")]
-        public static void Licence_getConnectedSkillName_Patch(ref string __result)
-        {
-            try
-            {
-                __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __result);
-            }
-            catch (Exception e)
-            {
-                Debug.LogException(e);
-            }
-        }
-
-        [HarmonyPostfix, HarmonyPatch(typeof(NPCRequest), "setRandomBugNoAndLocation")]
-        public static void NPCRequest_setRandomBugNoAndLocation_Patch(NPCRequest __instance)
-        {
-            try
-            {
-                __instance.itemFoundInLocation = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __instance.itemFoundInLocation);
-            }
-            catch (Exception e)
-            {
-                Debug.LogException(e);
-            }
-        }
-
-        [HarmonyPostfix, HarmonyPatch(typeof(NPCRequest), "setRandomFishNoAndLocation")]
-        public static void NPCRequest_setRandomFishNoAndLocation_Patch(NPCRequest __instance)
-        {
-            try
-            {
-                __instance.itemFoundInLocation = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __instance.itemFoundInLocation);
             }
             catch (Exception e)
             {

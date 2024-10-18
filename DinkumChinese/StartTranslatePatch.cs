@@ -53,10 +53,10 @@ namespace DinkumChinese
             }
         }
 
-        [HarmonyPostfix, HarmonyPatch(typeof(OptionsMenu), "Start")]
-        public static void OptionsMenuStartPatch()
-        {
-            LocalizationManager.CurrentLanguage = "Chinese";
-        }
+        //[HarmonyPostfix, HarmonyPatch(typeof(OptionsMenu), "Start")]
+        //public static void OptionsMenuStartPatch()
+        //{
+        //    LocalizationManager.CurrentLanguage = "Chinese";
+        //}
     }
 }

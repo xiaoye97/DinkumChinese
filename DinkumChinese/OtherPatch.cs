@@ -92,42 +92,13 @@ namespace DinkumChinese
             {
                 if (!__result)
                 {
-                    Debug.LogWarning($"LocalizationManager获取翻译失败:Term:{Term}");
+                    // 这里有一个特殊处理，因为汉化使用了小米字体，这里总是会报，所以忽略掉
+                    if (Term != "mi_sans SDF")
+                    {
+                        Debug.LogWarning($"LocalizationManager获取翻译失败:Term:{Term}");
+                    }
                 }
             }
-        }
-
-        [HarmonyPrefix, HarmonyPatch(typeof(RealWorldTimeLight), "setUpDayAndDate")]
-        public static bool RealWorldTimeLight_setUpDayAndDate_Patch(RealWorldTimeLight __instance)
-        {
-            __instance.seasonAverageTemp = __instance.seasonAverageTemps[WorldManager.Instance.month - 1];
-            __instance.DayText.text = __instance.getDayName(WorldManager.Instance.day - 1);
-            __instance.DateText.text = (WorldManager.Instance.day + (WorldManager.Instance.week - 1) * 7).ToString("00");
-            __instance.SeasonText.text = __instance.getSeasonName(WorldManager.Instance.month - 1);
-            SeasonManager.manage.checkSeasonAndChangeMaterials();
-            return false;
-        }
-
-        [HarmonyPrefix, HarmonyPatch(typeof(NotificationManager), "makeTopNotification")]
-        public static bool NotificationManager_makeTopNotification_Patch(NotificationManager __instance, ref string notificationString, ref string subText)
-        {
-            if (!string.IsNullOrWhiteSpace(notificationString))
-            {
-                var loc = TextLocData.GetLoc(DinkumChinesePlugin.Inst.TopNotificationLocList, notificationString);
-                if (loc != notificationString)
-                {
-                    notificationString = loc;
-                }
-            }
-            if (!string.IsNullOrWhiteSpace(subText))
-            {
-                var loc = TextLocData.GetLoc(DinkumChinesePlugin.Inst.TopNotificationLocList, subText);
-                if (loc != subText)
-                {
-                    subText = loc;
-                }
-            }
-            return true;
         }
     }
 }
