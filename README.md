@@ -28,6 +28,13 @@ Dinkum汉化交流QQ频道：7opslk1lrt
 - [Petallyric][3]
 - [三无老肥宅][4]
 
+#### 校对
+- [神杀士][13]
+
+## 在SteamDeck上使用汉化
+1. 将汉化文件解压到游戏根目录
+2. 在steam上对Dinkum设置启动参数 `WINEDLLOVERRIDES="winhttp.dll=n,b" %command%`
+
 ## 引用库
 - [BepInEx6][5] `Mod框架`
 - [I2LocPatch][6] `I2插件重定向`
@@ -45,3 +52,4 @@ Dinkum汉化交流QQ频道：7opslk1lrt
 [10]: Image/preview1.png
 [11]: Image/preview2.png
 [12]: Image/qqpindao.jpg
+[13]: https://space.bilibili.com/2712666

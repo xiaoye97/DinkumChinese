@@ -111,5 +111,11 @@ namespace DinkumChinese
                 }
             }
         }
+
+        [HarmonyPostfix, HarmonyPatch(typeof(OptionsMenu), "Start")]
+        public static void OptionsMenuStartPatch()
+        {
+            LocalizationManager.CurrentLanguage = I2LocPatchPlugin.Instance.TargetLanguage.Value;
+        }
     }
 }
