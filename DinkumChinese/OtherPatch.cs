@@ -7,6 +7,17 @@ namespace DinkumChinese
 {
     public static class OtherPatch
     {
+        [HarmonyPrefix, HarmonyPatch(typeof(RealWorldTimeLight), "setUpDayAndDate")]
+        public static bool RealWorldTimeLight_setUpDayAndDate_Patch(RealWorldTimeLight __instance)
+        {
+            __instance.seasonAverageTemp = __instance.seasonAverageTemps[WorldManager.Instance.month - 1];
+            __instance.DayText.text = __instance.getDayName(WorldManager.Instance.day - 1);
+            __instance.DateText.text = (WorldManager.Instance.day + (WorldManager.Instance.week - 1) * 7).ToString("00");
+            __instance.SeasonText.text = __instance.getSeasonName(WorldManager.Instance.month - 1);
+            SeasonManager.manage.checkSeasonAndChangeMaterials();
+            return false;
+        }
+
         [HarmonyPrefix, HarmonyPatch(typeof(Conversation), "getIntroName")]
         public static bool Conversation_getIntroName(Conversation __instance, ref string __result, int i)
         {

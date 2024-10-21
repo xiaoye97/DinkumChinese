@@ -24,8 +24,6 @@ namespace DinkumChinese
 
         public static Queue<TextMeshProUGUI> waitShowTMPs = new Queue<TextMeshProUGUI>();
 
-        public List<TextLocData> AnimalsTextLocList = new List<TextLocData>();
-
         public UIWindow DebugWindow;
 
         public ConfigEntry<bool> DevMode;
@@ -352,7 +350,6 @@ namespace DinkumChinese
             QuestTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/QuestTextLoc.json");
             TipsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TipsTextLoc.json");
             MailTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/MailTextLoc.json");
-            AnimalsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/AnimalsTextLoc.json");
             TopNotificationLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TopNotification.json");
         }
 

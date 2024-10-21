@@ -7,16 +7,6 @@ namespace DinkumChinese
 {
     public static class StartTranslatePatch
     {
-        [HarmonyPostfix, HarmonyPatch(typeof(AnimalManager), "Start")]
-        public static void AnimalManager_Start_Patch()
-        {
-            var mgr = AnimalManager.manage;
-            foreach (var a in mgr.allAnimals)
-            {
-                a.animalName = TextLocData.GetLoc(DinkumChinesePlugin.Inst.AnimalsTextLocList, a.animalName);
-            }
-        }
-
         [HarmonyPostfix, HarmonyPatch(typeof(LoadingScreenImageAndTips), "OnEnable")]
         public static void LoadingScreenImageAndTips_OnEnable_Patch(LoadingScreenImageAndTips __instance)
         {
