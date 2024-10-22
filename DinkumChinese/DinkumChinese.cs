@@ -19,7 +19,7 @@ namespace DinkumChinese
     {
         public const string GUID = "xiaoye97.Dinkum.DinkumChinese";
         public const string PluginName = "DinkumChinese";
-        public const string Version = "1.23.0";
+        public const string Version = "1.24.0";
         public static DinkumChinesePlugin Inst;
 
         public static Queue<TextMeshProUGUI> waitShowTMPs = new Queue<TextMeshProUGUI>();
@@ -90,6 +90,52 @@ namespace DinkumChinese
             {
                 pause = value;
             }
+        }
+
+        private void Awake()
+        {
+            Inst = this;
+            DevMode = Config.Bind<bool>("Dev", "DevMode", false, "开发模式时，可以按快捷键触发开发功能");
+            DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "开发模式时，不加载DynamicText Post Quest翻译，方便dump");
+            LogNoTranslation = Config.Bind<bool>("Tool", "LogNoTranslation", true, "可以输出没翻译的目标");
+            DebugWindow = new UIWindow("汉化测试工具[Ctrl+数字键4] Dinkum汉化交流QQ频道:7opslk1lrt");
+            DebugWindow.WindowRect.position = new Vector2(500, 100);
+            DebugWindow.OnWinodwGUI = DebugWindowGUI;
+            ErrorWindow = new UIWindow($"汉化出现错误 {PluginName} v{Version}");
+            ErrorWindow.OnWinodwGUI = ErrorWindowFunc;
+            try
+            {
+                Harmony.CreateAndPatchAll(typeof(OtherPatch));
+                Harmony.CreateAndPatchAll(typeof(ILPatch));
+                Harmony.CreateAndPatchAll(typeof(StringReturnPatch));
+                Harmony.CreateAndPatchAll(typeof(StartTranslatePatch));
+                Harmony.CreateAndPatchAll(typeof(SpritePatch));
+            }
+            catch (ExecutionEngineException ex)
+            {
+                ErrorStr = $"汉化出现错误。推测是由于用户名或者游戏路径中包含非英文字符导致。\n异常信息:\n{ex}";
+                ErrorWindow.Show = true;
+            }
+            catch (Exception ex)
+            {
+                ErrorStr = $"汉化出现错误。\n异常信息:\n{ex}";
+                ErrorWindow.Show = true;
+            }
+            if (DevMode.Value && DontLoadLocOnDevMode.Value)
+            {
+                return;
+            }
+            LogInfo("按[Ctrl+数字键4]呼出汉化工具界面");
+            Invoke("LogFlagTrue", 2f);
+            Invoke("OnGameStartOnceFix", 2f);
+            DynamicTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/DynamicTextLoc.csv");
+            NPCNameTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/NPCNamesLoc.csv");
+            HoverTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/HoverTextLoc.csv");
+            PostTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/PostTextLoc.json");
+            QuestTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/QuestTextLoc.json");
+            TipsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TipsTextLoc.json");
+            MailTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/MailTextLoc.json");
+            TopNotificationLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TopNotification.json");
         }
 
         public static void LogInfo(string log)
@@ -278,8 +324,8 @@ namespace DinkumChinese
         /// </summary>
         public void OnGameStartOnceFix()
         {
-            ReplaceNPCNames();
-            ReplaceHoverTexts();
+            //ReplaceNPCNames();
+            //ReplaceHoverTexts();
         }
 
         /// <summary>
@@ -305,52 +351,6 @@ namespace DinkumChinese
                 com.hoveringText = TextLocData.GetLoc(HoverTextLocList, com.hoveringText);
                 com.hoveringDesc = TextLocData.GetLoc(HoverTextLocList, com.hoveringDesc);
             }
-        }
-
-        private void Awake()
-        {
-            Inst = this;
-            DevMode = Config.Bind<bool>("Dev", "DevMode", false, "开发模式时，可以按快捷键触发开发功能");
-            DontLoadLocOnDevMode = Config.Bind<bool>("Dev", "DontLoadLocOnDevMode", true, "开发模式时，不加载DynamicText Post Quest翻译，方便dump");
-            LogNoTranslation = Config.Bind<bool>("Tool", "LogNoTranslation", true, "可以输出没翻译的目标");
-            DebugWindow = new UIWindow("汉化测试工具[Ctrl+数字键4] Dinkum汉化交流QQ频道:7opslk1lrt");
-            DebugWindow.WindowRect.position = new Vector2(500, 100);
-            DebugWindow.OnWinodwGUI = DebugWindowGUI;
-            ErrorWindow = new UIWindow($"汉化出现错误 {PluginName} v{Version}");
-            ErrorWindow.OnWinodwGUI = ErrorWindowFunc;
-            try
-            {
-                Harmony.CreateAndPatchAll(typeof(OtherPatch));
-                Harmony.CreateAndPatchAll(typeof(ILPatch));
-                Harmony.CreateAndPatchAll(typeof(StringReturnPatch));
-                Harmony.CreateAndPatchAll(typeof(StartTranslatePatch));
-                Harmony.CreateAndPatchAll(typeof(SpritePatch));
-            }
-            catch (ExecutionEngineException ex)
-            {
-                ErrorStr = $"汉化出现错误。推测是由于用户名或者游戏路径中包含非英文字符导致。\n异常信息:\n{ex}";
-                ErrorWindow.Show = true;
-            }
-            catch (Exception ex)
-            {
-                ErrorStr = $"汉化出现错误。\n异常信息:\n{ex}";
-                ErrorWindow.Show = true;
-            }
-            if (DevMode.Value && DontLoadLocOnDevMode.Value)
-            {
-                return;
-            }
-            LogInfo("按[Ctrl+数字键4]呼出汉化工具界面");
-            Invoke("LogFlagTrue", 2f);
-            Invoke("OnGameStartOnceFix", 2f);
-            DynamicTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/DynamicTextLoc.csv");
-            NPCNameTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/NPCNamesLoc.csv");
-            HoverTextLocList = TextLocData.LoadFromTxtFile($"{Paths.PluginPath}/I2LocPatch/HoverTextLoc.csv");
-            PostTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/PostTextLoc.json");
-            QuestTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/QuestTextLoc.json");
-            TipsTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TipsTextLoc.json");
-            MailTextLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/MailTextLoc.json");
-            TopNotificationLocList = TextLocData.LoadFromJsonFile($"{Paths.PluginPath}/I2LocPatch/TopNotification.json");
         }
 
         private void OnGUI()

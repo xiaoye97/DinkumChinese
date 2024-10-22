@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 using HarmonyLib;
 using UnityEngine;
 
@@ -126,17 +124,6 @@ namespace DinkumChinese
             return instructions;
         }
 
-        [HarmonyTranspiler, HarmonyPatch(typeof(CraftingManager), "populateCraftList")]
-        public static IEnumerable<CodeInstruction> CraftingManager_populateCraftList_Patch(IEnumerable<CodeInstruction> instructions)
-        {
-            instructions = RIL(instructions, "COOK", "<color=#F87474>烹饪</color>");
-            instructions = RIL(instructions, "COOKING", "烹饪中");
-            instructions = RIL(instructions, "COMMISSION", "<color=#F87474>委托</color>");
-            instructions = RIL(instructions, "CRAFTING", "制作中");
-            instructions = RIL(instructions, "CRAFT", "<color=#F87474>制作</color>");
-            return instructions;
-        }
-
         [HarmonyTranspiler, HarmonyPatch(typeof(ExhibitSign), "Start")]
         public static IEnumerable<CodeInstruction> ExhibitSign_Start_Patch(IEnumerable<CodeInstruction> instructions)
         {
@@ -194,18 +181,6 @@ namespace DinkumChinese
             instructions = RIL(instructions, " x Tiles Wide", "x半径范围");
             return instructions;
         }
-
-        [HarmonyTranspiler, HarmonyPatch(typeof(InventoryLootTableTimeWeatherMaster), "getTimeOfDayFound")]
-        public static IEnumerable<CodeInstruction> InventoryLootTableTimeWeatherMaster_getTimeOfDayFound_Patch(IEnumerable<CodeInstruction> instructions)
-        {
-            instructions = RIL(instructions, "all day", "全天");
-            instructions = RIL(instructions, "during the day", "白天");
-            instructions = RIL(instructions, "early mornings", "清晨");
-            instructions = RIL(instructions, "around noon", "中午");
-            instructions = RIL(instructions, "after dark", "黑夜");
-            return instructions;
-        }
-
 
         [HarmonyTranspiler, HarmonyPatch(typeof(MailManager), "getSentByName")]
         public static IEnumerable<CodeInstruction> MailManager_getSentByName_Patch(IEnumerable<CodeInstruction> instructions)
@@ -468,6 +443,18 @@ namespace DinkumChinese
         public static IEnumerable<CodeInstruction> LoadingScreenImageAndTips_OnEnable_Patch(IEnumerable<CodeInstruction> instructions)
         {
             instructions = RIL(instructions, "Photo by ", "拍摄者 ");
+            return instructions;
+        }
+
+        /// <summary>
+        /// 由于作者把地名翻译了但是在图标这里还是用的写死的英文来判断名字，所以导致在地下的时候图标显示不了。
+        /// 临时做个处理，等作者把这修了，再删掉这个。
+        /// </summary>
+        [HarmonyTranspiler, HarmonyPatch(typeof(RenderMap), "ChangeWorldArea")]
+        public static IEnumerable<CodeInstruction> RenderMap_ChangeWorldArea_Patch(IEnumerable<CodeInstruction> instructions)
+        {
+            instructions = RIL(instructions, "Mine", "矿井");
+            instructions = RIL(instructions, "Airport", "飞机场");
             return instructions;
         }
 

@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
-using HarmonyLib;
-using UnityEngine;
+﻿using HarmonyLib;
 using I2LocPatch;
-using Mirror;
+using System;
+using System.Collections.Generic;
+using UnityEngine;
 
 namespace DinkumChinese
 {
@@ -30,9 +25,8 @@ namespace DinkumChinese
             }
         }
 
-        // 为了安全考虑，此处先不进行汉化了，等官方将他们加入本地化
-        //[HarmonyPrefix, HarmonyPatch(typeof(BullitenBoardPost), "getRequirementsNeededInPhoto")]
-        public static bool BullitenBoardPost_getRequirementsNeededInPhoto_Patch(BullitenBoardPost __instance, int postId, ref string __result)
+        [HarmonyPrefix, HarmonyPatch(typeof(BullitenBoardPost), "getRequirementsNeededInPhoto")]
+        public static bool BullitenBoardPost_getRequirementsNeededInPhoto_Patch2(BullitenBoardPost __instance, int postId, ref string __result)
         {
             try
             {
@@ -41,46 +35,44 @@ namespace DinkumChinese
                     __result = "";
                     return false;
                 }
-                List<string> list = new List<string>();
-                List<int> list2 = new List<int>();
+                List<string> nameList = new List<string>();
+                List<int> countList = new List<int>();
                 string text = "";
+                // 如果要拍的是动物
                 if (BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.getSubjectType() == PhotoChallengeManager.photoSubject.Animal)
                 {
                     for (int i = 0; i < BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.animalsRequiredInPhoto().Length; i++)
                     {
-                        string item = BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.animalsRequiredInPhoto()[i].animalName;
+                        string animalName = BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.animalsRequiredInPhoto()[i].GetAnimalName();
                         if (BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.animalsRequiredInPhoto()[i].animalId == 1)
                         {
-                            item = AnimalManager.manage.allAnimals[1].GetComponent<FishType>().getFishInvItem().getInvItemName();
+                            animalName = AnimalManager.manage.allAnimals[1].GetComponent<FishType>().getFishInvItem().getInvItemName();
                         }
                         else if (BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.animalsRequiredInPhoto()[i].animalId == 2)
                         {
-                            item = BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.animalsRequiredInPhoto()[i].GetComponent<BugTypes>().bugInvItem().itemName;
+                            animalName = BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.animalsRequiredInPhoto()[i].GetComponent<BugTypes>().bugInvItem().itemName;
                         }
-                        if (!list.Contains(item))
+                        if (!nameList.Contains(animalName))
                         {
-                            list.Add(item);
-                            list2.Add(1);
+                            nameList.Add(animalName);
+                            countList.Add(1);
                         }
                         else
                         {
-                            list2[list.IndexOf(item)]++;
+                            countList[nameList.IndexOf(animalName)]++;
                         }
                     }
-                    for (int j = 0; j < list.Count; j++)
+                    for (int j = 0; j < nameList.Count; j++)
                     {
-                        text = ((list2[j] <= 1) ? (text + "" + list[j]) : (text + list2[j] + "" + list[j]));
-                        if (j != list.Count - 1)
-                        {
-                            text = ((j != list.Count - 2 || list.Count <= 1) ? (text + "，") : (text + "和"));
-                        }
+                        // 不要原有逻辑了，太罗嗦，重新写一个
+                        text += $"{countList[j]}{nameList[j]} ";
                     }
                 }
                 else
                 {
                     if (BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.getSubjectType() == PhotoChallengeManager.photoSubject.Npc)
                     {
-                        __result = NPCManager.manage.NPCDetails[BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.returnSubjectId()[0]].NPCName;
+                        __result = NPCManager.manage.NPCDetails[BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.returnSubjectId()[0]].GetNPCName();
                         return false;
                     }
                     if (BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.getSubjectType() == PhotoChallengeManager.photoSubject.Location)
@@ -90,16 +82,14 @@ namespace DinkumChinese
                     }
                     if (BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.getSubjectType() == PhotoChallengeManager.photoSubject.Carryable)
                     {
-                        string itemName;
                         if ((bool)SaveLoad.saveOrLoad.carryablePrefabs[BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.returnSubjectId()[0]].GetComponent<SellByWeight>())
                         {
-                            itemName = SaveLoad.saveOrLoad.carryablePrefabs[BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.returnSubjectId()[0]].GetComponent<SellByWeight>().itemName;
+                            __result = SaveLoad.saveOrLoad.carryablePrefabs[BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.returnSubjectId()[0]].GetComponent<SellByWeight>().itemName;
                         }
                         else
                         {
-                            itemName = SaveLoad.saveOrLoad.carryablePrefabs[BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.returnSubjectId()[0]].name;
+                            __result = SaveLoad.saveOrLoad.carryablePrefabs[BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.returnSubjectId()[0]].name;
                         }
-                        __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, itemName);
                         return false;
                     }
                     if (BulletinBoard.board.attachedPosts[postId].myPhotoChallenge.getSubjectType() == PhotoChallengeManager.photoSubject.Biome)
@@ -118,135 +108,94 @@ namespace DinkumChinese
             }
         }
 
-        // 为了安全考虑，此处先不进行汉化了，等官方将他们加入本地化
-        //[HarmonyPrefix, HarmonyPatch(typeof(Inventory), "getExtraDetails")]
-        public static bool Inventory_getExtraDetails_Patch(Inventory __instance, int itemId, ref string __result)
+        [HarmonyPrefix, HarmonyPatch(typeof(Inventory), "getExtraDetails")]
+        public static bool Inventory_getExtraDetails_Patch2(Inventory __instance, int itemId, ref string __result)
         {
             try
             {
                 var _this = __instance;
+                var item = _this.allItems[itemId];
+                var placeable = item.placeable;
                 string text = "";
-                if (_this.allItems[itemId].placeable && _this.allItems[itemId].placeable.tileObjectGrowthStages && !_this.allItems[itemId].consumeable)
+                if (placeable && placeable.tileObjectGrowthStages && !item.consumeable)
                 {
+                    var tileObjectGrowthStages = placeable.tileObjectGrowthStages;
                     string text2 = "";
-                    if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSummer && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInWinter && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSpring && _this.allItems[itemId].placeable.tileObjectGrowthStages.growsInAutum)
+                    if (tileObjectGrowthStages.growsInSummer && tileObjectGrowthStages.growsInWinter && tileObjectGrowthStages.growsInSpring && tileObjectGrowthStages.growsInAutum)
                     {
-                        text2 = UIAnimationManager.manage.GetCharacterNameTag("全年");
+                        text2 = UIAnimationManager.manage.GetCharacterNameTag("all year");
                     }
                     else
                     {
-                        text2 += "在";
-                        if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSummer)
+                        if (tileObjectGrowthStages.growsInSummer)
                         {
-                            text2 += UIAnimationManager.manage.GetCharacterNameTag("夏天");
+                            text2 += UIAnimationManager.manage.GetCharacterNameTag("Summer");
                         }
-                        if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInAutum)
+                        if (tileObjectGrowthStages.growsInAutum)
                         {
-                            if (text2 != "在")
-                            {
-                                text2 += "和";
-                            }
-                            text2 += UIAnimationManager.manage.GetCharacterNameTag("秋天");
+                            text2 += UIAnimationManager.manage.GetCharacterNameTag("Autumn");
                         }
-                        if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInWinter)
+                        if (tileObjectGrowthStages.growsInWinter)
                         {
-                            if (text2 != "在")
-                            {
-                                text2 += "和";
-                            }
-                            text2 += UIAnimationManager.manage.GetCharacterNameTag("冬天");
+                            text2 += UIAnimationManager.manage.GetCharacterNameTag("Winter");
                         }
-                        if (_this.allItems[itemId].placeable.tileObjectGrowthStages.growsInSpring)
+                        if (tileObjectGrowthStages.growsInSpring)
                         {
-                            if (text2 != "在")
-                            {
-                                text2 += "和";
-                            }
-                            text2 += UIAnimationManager.manage.GetCharacterNameTag("春天");
+                            text2 += UIAnimationManager.manage.GetCharacterNameTag("Spring");
                         }
                     }
-                    if (_this.allItems[itemId].placeable.tileObjectGrowthStages.needsTilledSoil)
+                    if (tileObjectGrowthStages.needsTilledSoil)
                     {
-                        text = text + "适合" + text2 + "种植。";
+                        text = "适合在" + text2 + "种植。";
                     }
-                    string text4;
-                    if (_this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length != 0 || (_this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto && _this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestSpots.Length != 0))
+                    string text3 = "";
+                    if (tileObjectGrowthStages.harvestSpots.Length != 0 || (tileObjectGrowthStages.steamsOutInto && tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestSpots.Length != 0))
                     {
-                        string text3 = "";
-                        bool flag = false;
-                        if (_this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length != 0)
+                        string text4 = "";
+                        if (tileObjectGrowthStages.harvestSpots.Length != 0)
                         {
-                            if (_this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length > 1)
-                            {
-                                flag = true;
-                            }
-                            text3 = _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestDrop.getInvItemName();
+                            text4 = tileObjectGrowthStages.harvestDrop.getInvItemName();
                         }
-                        else if (_this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto)
+                        else if (tileObjectGrowthStages.steamsOutInto)
                         {
-                            if (_this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestSpots.Length > 1)
-                            {
-                                flag = true;
-                            }
-                            text3 = _this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestDrop.getInvItemName();
+                            text4 = tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestDrop.getInvItemName();
                         }
-                        text4 = UIAnimationManager.manage.GetItemColorTag(text3);
+                        text3 = UIAnimationManager.manage.GetItemColorTag(text4);
                     }
                     else
                     {
-                        text4 = "???";
+                        text3 = "???";
                     }
-                    if (_this.allItems[itemId].placeable.tileObjectGrowthStages.objectStages.Length != 0)
+
+                    var objectStages = tileObjectGrowthStages.objectStages;
+                    var steamsOutInto = tileObjectGrowthStages.steamsOutInto;
+                    if (objectStages.Length != 0)
                     {
-                        if (_this.allItems[itemId].burriedPlaceable)
+                        if (item.burriedPlaceable)
                         {
-                            __result = "你得把它埋在地里。" + _this.allItems[itemId].placeable.tileObjectGrowthStages.objectStages.Length.ToString() + "天后它就会长大。";
+                            __result = "你得把它埋在地里。它会在" + objectStages.Length + "天后长大。";
                             return false;
                         }
-                        if (_this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto)
+                        if (steamsOutInto)
                         {
-                            text = string.Concat(new string[]
-                            {
-                        text,
-                        "周围需要一些空间，因为它们会在旁边的位置结出",
-                        _this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto.tileObjectGrowthStages.harvestSpots.Length.ToString(),
-                        "",
-                        text4,
-                        "。该植株最多能分出4个分支！"
-                            });
+                            text += $"周围需要一些空间，因为它们会在旁边的位置结出{steamsOutInto.tileObjectGrowthStages.harvestSpots.Length}{text3}。该植株最多能分出4个分支！";
                         }
                         else
                         {
-                            text = string.Concat(new string[]
-                            {
-                        text,
-                        "需要",
-                        _this.allItems[itemId].placeable.tileObjectGrowthStages.objectStages.Length.ToString(),
-                        "天的时间来生长，可收获",
-                        _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length.ToString(),
-                        "",
-                        text4,
-                        "。"
-                            });
+                            text += $"需要{objectStages.Length}天的时间来生长，可收获{tileObjectGrowthStages.harvestSpots.Length}{text3}。";
                         }
                     }
-                    if (!_this.allItems[itemId].placeable.tileObjectGrowthStages.diesOnHarvest && !_this.allItems[itemId].placeable.tileObjectGrowthStages.steamsOutInto)
+                    if (!tileObjectGrowthStages.diesOnHarvest && !steamsOutInto)
                     {
-                        text = string.Concat(new string[]
-                        {
-                    text,
-                    "后续每",
-                    Mathf.Abs(_this.allItems[itemId].placeable.tileObjectGrowthStages.takeOrAddFromStateOnHarvest).ToString(),
-                    "天可收获",
-                    _this.allItems[itemId].placeable.tileObjectGrowthStages.harvestSpots.Length.ToString(),
-                    "",
-                    text4,
-                    "。"
-                        });
+                        text += $"后续每{Mathf.Abs(tileObjectGrowthStages.takeOrAddFromStateOnHarvest)}天可收获{tileObjectGrowthStages.harvestSpots.Length}{text3}。";
                     }
-                    if (!WorldManager.Instance.allObjectSettings[_this.allItems[itemId].placeable.tileObjectId].walkable)
+                    if (!WorldManager.Instance.allObjectSettings[item.placeable.tileObjectId].walkable)
                     {
-                        text = text + "噢，这还需要" + UIAnimationManager.manage.GetItemColorTag("植物支架") + "来附着生长。";
+                        text += $"哦，这还需要{UIAnimationManager.manage.GetItemColorTag("藤架")}来附着生长。";
+                    }
+                    if (tileObjectGrowthStages.canGrowInTilledWater)
+                    {
+                        text += "哦，如果你把它们种在浅水区，你就不需要给它们浇水了！";
                     }
                 }
                 __result = text;
@@ -302,33 +251,6 @@ namespace DinkumChinese
                 __instance.inviteOnlyText.text = __instance.inviteOnlyText.text.Replace("InviteOnly", "仅邀请");
                 __instance.publicGameText.text = __instance.publicGameText.text.Replace("Public", "公开");
                 __instance.lanGameText.text = __instance.lanGameText.text.Replace("LAN", "局域网");
-            }
-            catch (Exception e)
-            {
-                Debug.LogException(e);
-            }
-        }
-
-        [HarmonyPostfix, HarmonyPatch(typeof(GenerateMap), "getBiomeNameById")]
-        public static void GenerateMap_getBiomeNameById_Patch(ref string __result, int id)
-        {
-            try
-            {
-                GenerateMap.biomNames biomNames = (GenerateMap.biomNames)id;
-                __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, biomNames.ToString());
-            }
-            catch (Exception e)
-            {
-                Debug.LogException(e);
-            }
-        }
-
-        [HarmonyPostfix, HarmonyPatch(typeof(GenerateMap), "getBiomeNameUnderMapCursor")]
-        public static void GenerateMap_getBiomeNameUnderMapCursor_Patch(ref string __result)
-        {
-            try
-            {
-                __result = TextLocData.GetLoc(DinkumChinesePlugin.Inst.DynamicTextLocList, __result.StrToI2Str());
             }
             catch (Exception e)
             {
