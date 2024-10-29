@@ -24,7 +24,7 @@
         "Loc": ""
     },
     {
-        "Ori": "Cooking some <boardRewardItem>",
+        "Ori": "<boardRequestItem> Ingredient Request",
         "Loc": ""
     },
     {
@@ -84,11 +84,11 @@
         "Loc": ""
     },
     {
-        "Ori": "Want to practice smelting.",
+        "Ori": "Smelting Request",
         "Loc": ""
     },
     {
-        "Ori": "I've been smelting ore a bit and I've run out. If anyone can bring me  <boardRequestItem> I'll give them <boardRewardItem> I have laying around.",
+        "Ori": "If anyone can bring me <boardRequestItem> I can give them <boardRewardItem>.",
         "Loc": ""
     },
     {

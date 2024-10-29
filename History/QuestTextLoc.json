@@ -28,7 +28,7 @@
         "Loc": ""
     },
     {
-        "Ori": "Fletch has asked you to find some fruit and cook it on the fire. Doing this will count towards your dailytasks.",
+        "Ori": "Fletch has asked you to find some fruit and cook it on the fire.",
         "Loc": ""
     },
     {
@@ -36,7 +36,7 @@
         "Loc": ""
     },
     {
-        "Ori": "Fletch hasn't got anything else for you today. Take a look around the island a bit, catch some bugs or get some rest.",
+        "Ori": "Fletch hasn't got anything else for you today! You should take some time to look around the island a bit, pick some fruit and maybe catch some bugs.\n\nRest in your sleeping bag once you're all done to sleep until tomorrow.",
         "Loc": ""
     },
     {
@@ -44,7 +44,7 @@
         "Loc": ""
     },
     {
-        "Ori": "Fletch has asked you to buy a tablesaw from John's shop. Try selling unwanted items to John to get the dinks you need.",
+        "Ori": "Fletch has asked you to buy a tablesaw from John. She's given you half the Dinks you will need, but you'll have to earn some for youself. \n\nTry selling  items to John to earn some more Dinks.",
         "Loc": ""
     },
     {
@@ -52,7 +52,7 @@
         "Loc": ""
     },
     {
-        "Ori": "Fletch has asked you to aquire a list of items. You will have to craft a campfire.\n\nOnce you have collected the items Fletch will teach you how to make Tin Ore Bars.",
+        "Ori": "Fletch has asked you to find a list of items (You will have to craft a campfire yourself)\n\n\nOnce you have collected the items Fletch will teach you how to make Tin Ore Bars.",
         "Loc": ""
     },
     {
@@ -60,7 +60,7 @@
         "Loc": ""
     },
     {
-        "Ori": "Craft a crude furnace, place 5 Tin Ore inside and wait. \n\nBring Fletch the Tin Bar once it is completed smelting.",
+        "Ori": "Craft a crude furnace, place 5 Tin Ore inside and wait. \r\nWhen the furnace has finished processing, it will pop the Tin Bar out.",
         "Loc": ""
     },
     {
@@ -128,11 +128,15 @@
         "Loc": ""
     },
     {
-        "Ori": "Find Berkonium",
+        "Ori": "A Rare Ore",
         "Loc": ""
     },
     {
         "Ori": "Franklyn has asked me to find more Berkonium ore and deliver it to him.",
+        "Loc": ""
+    },
+    {
+        "Ori": "Build  Airport",
         "Loc": ""
     }
 ]

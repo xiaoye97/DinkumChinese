@@ -1331,11 +1331,6 @@ GENERIC/13 NPC_Julia_Intro_007	<glee>I really, really love bugs.
 GENERIC/13 NPC_Julia_Intro_008	<NPCName> told me to come visit him here on <IslandName> because there are lots of bugs.
 GENERIC/13 NPC_Julia_Intro_009	And guess what?
 GENERIC/13 NPC_Julia_Intro_010	<pumped>He was right!
-GENERIC/14 NPC_Ghost_Intro_000	Ah! Hey there!
-GENERIC/14 NPC_Ghost_Intro_001	I'm <myName>. I moved into the new house here.
-GENERIC/14 NPC_Ghost_Intro_002	You're <PlayerName>, right?
-GENERIC/14 NPC_Ghost_Intro_003	I heard that you're the one thats been working hard to get this town set up?
-GENERIC/14 NPC_Ghost_Intro_004	Well, thanks for that, <PlayerName>! <glee>
 GENERIC/14 NPC_MaxIntroduction 1_Intro_000	G’day.
 GENERIC/14 NPC_MaxIntroduction 1_Intro_001	Me name’s <myName>.
 GENERIC/14 NPC_MaxIntroduction 1_Intro_002	I’m <NPCName>’s little brother!
@@ -1363,6 +1358,12 @@ GENERIC/16 NPC_Nick_Intro_015	Come talk to me if any time you see me here on <Is
 GENERIC/16 NPC_Nick_Intro_016	<haha>Ho! Ho! Ho!
 GENERIC/6 NPC_Fletch_Intro_000	So, <PlayerName> . We made it.
 GENERIC/6 NPC_Fletch_Intro_001	Let's find a place we can start building!
+GENERIC/Agent_KeeperConvo_Intro_000	Hey, kid!
+GENERIC/Agent_KeeperConvo_Intro_001	What’s up?þ
+GENERIC/Agent_KeeperConvo_Option_000	Make me something!
+GENERIC/Agent_KeeperConvo_Option_001	Nevermind
+GENERIC/Agent_KeeperConvo_Response_000_000	Check this out!
+GENERIC/Agent_KeeperConvo_Response_001_000	See you around, kid.
 GENERIC/AgreeToMakeTech_Intro_000	þExcellent.
 GENERIC/AgreeToMakeTech_Intro_001	<proud>I will begin right away.
 GENERIC/AgreeToMakeTech_Intro_002	<yes>It will probably take all night, but I assure you, it will be ready by tomorrow.
@@ -1797,7 +1798,7 @@ GENERIC/Quest_5_TalkToWhileNotComplete_Option_002	How do I get permit points?
 GENERIC/Quest_5_TalkToWhileNotComplete_Option_003	Still a bit to go.
 GENERIC/Quest_5_TalkToWhileNotComplete_Response_000_000	Okay, here you go.
 GENERIC/Quest_5_TalkToWhileNotComplete_Response_001_000	<NPCName> will buy pretty much anything from you.
-GENERIC/Quest_5_TalkToWhileNotComplete_Response_001_001	He will most of the things you can find around the island. Fruit, rocks, wood and all sorts of things.
+GENERIC/Quest_5_TalkToWhileNotComplete_Response_001_001	He will buy most of the things you can find around the island. Fruit, rocks, wood and all sorts of things.
 GENERIC/Quest_5_TalkToWhileNotComplete_Response_001_002	<no>Now, you don't have to buy the <itemName> right away.
 GENERIC/Quest_5_TalkToWhileNotComplete_Response_001_003	<haha>Feel free to buy any tools you think might make you money even quicker!
 GENERIC/Quest_5_TalkToWhileNotComplete_Response_002_000	You can get <PermitPoints> by completing the daily tasks in your journal.
@@ -2797,6 +2798,14 @@ JOHN/Wind_Greeting 2_Option_001	<jobCondition>
 JOHN/Wind_Greeting 2_Option_002	<hangOut>
 JOHN/Wind_Greeting 2_Option_003	<cancel>
 JOHN/Wind_Greeting 2_Response_003_000	Bye bye, <PlayerName>!
+JULIA/AgentIntroConvo_Intro_000	Hey, kid!
+JULIA/AgentIntroConvo_Intro_001	Are you the mayor around here?
+JULIA/AgentIntroConvo_Intro_002	<proud>I'm a <myName>.
+JULIA/AgentIntroConvo_Intro_003	<shy>Although, it appears I've gotten myself a little lost...
+JULIA/AgentIntroConvo_Intro_004	<yes>You seem to have the whole town building thing on lock here on <IslandName>.
+JULIA/AgentIntroConvo_Intro_005	So, I’ll probably bounce after today and try to find another aspiring mayor.
+JULIA/AgentIntroConvo_Intro_006	If you see me here on <IslandName>, come talk to me, okay?
+JULIA/AgentIntroConvo_Intro_007	<yes>I can make some cool items for your town.
 JULIA/BugCatchingCompConvo_InComp_Intro_000	<wave>Hello, <PlayerName>!
 JULIA/BugCatchingCompConvo_InComp_Intro_001	How's the <bugComp> going?
 JULIA/BugCatchingCompConvo_InComp_Intro_002	<yes>Don't forget to log and update your points in the <compBook>.
